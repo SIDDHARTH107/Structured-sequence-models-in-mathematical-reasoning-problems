@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Residue calculus and its applications",
+    "message_1": "What is the residue of the function f(z) = z/(z^2 - 4) at the pole z = 2 + i?\n  \nHint: To calculate the residue of this function, you need to evaluate the limit of (z - 2 - i)f(z) as z approaches 2 + i.",
+    "message_2": "First, let's clarify that the function f(z) = z/(z^2 - 4) does not have a pole at z = 2 + i. The poles of this function are at z = 2 and z = -2, where the denominator becomes zero. However, we can still evaluate the limit of (z - 2 - i)f(z) as z approaches 2 + i.\n\nLet g(z) = (z - 2 - i)f(z) = (z - 2 - i) * z / (z^2 - 4).\n\nNow, we want to find the limit of g(z) as z approaches 2 + i:\n\nlim (z -> 2 + i) g(z) = lim (z -> 2 + i) [(z - 2 - i) * z / (z^2 - 4)]\n\nTo evaluate this limit, we can substitute z = 2 + i into the expression:\n\ng(2 + i) = [(2 + i - 2 - i) * (2 + i) / ((2 + i)^2 - 4)]\n\ng(2 + i) = [0 * (2 + i) / (3 + 4i - 4)]\n\nSince the numerator is 0, the limit is also 0:\n\nlim (z -> 2 + i) g(z) = 0\n\nSo, the residue of the function f(z) = z/(z^2 - 4) at the point z = 2 + i is 0."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Graph theory",
+    "sub_topic": "Determining the treewidth of a graph.",
+    "message_1": "What is the treewidth of the graph shown below?\n\n```\n       A\n      / \\\n     B   C\n    / \\   \\\n   D   E   F\n      / \\\n     G   H\n```\n\nHint: The treewidth of a tree is the minimum width of a tree decomposition of the given graph.",
+    "message_2": "The treewidth of the given graph is 2.\n\nA possible tree decomposition for the graph is:\n\n```\n  1. {A, B, C}\n / \\\n2. {B, D, E}  3. {C, E, F}\n      |\n      4. {E, G, H}\n```\n\nIn this tree decomposition, the largest bag size is 3, so the width is 3 - 1 = 2. This is the minimum width possible for this graph, so the treewidth is 2."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Combinatorial optimization",
+    "message_1": "Suppose there are 10 people in a team and they need to be split into two groups: Design and Development. They have 6 spots available in the Design group and 4 spots available in the Development group. In how many ways can the team be divided into these two groups?",
+    "message_2": "To divide the team into two groups, we can use the combination formula, which is:\n\nC(n, k) = n! / (k!(n-k)!)\n\nwhere n is the total number of people, k is the number of people in one group, and ! denotes the factorial function (e.g., 5! = 5 × 4 × 3 × 2 × 1).\n\nIn this case, we have 10 people and need to choose 6 for the Design group. So, n = 10 and k = 6.\n\nC(10, 6) = 10! / (6!(10-6)!)\n\nC(10, 6) = 10! / (6!4!)\n\nC(10, 6) = (10 × 9 × 8 × 7 × 6 × 5 × 4 × 3 × 2 × 1) / ((6 × 5 × 4 × 3 × 2 × 1)(4 × 3 × 2 × 1))\n\nC(10, 6) = (10 × 9 × 8 × 7) / (4 × 3 × 2 × 1)\n\nC(10, 6) = 5040 / 24\n\nC(10, 6) = 210\n\nSo, there are 210 ways to divide the team into the Design and Development groups."
+}

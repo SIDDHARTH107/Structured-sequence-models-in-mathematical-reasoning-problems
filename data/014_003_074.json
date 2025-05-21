@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "ElGamal encryption and decryption",
+    "message_1": "Suppose Alice wants to send a secret message to Bob using the ElGamal encryption scheme. The prime number selected is p = 17, and the primitive root of p is g = 3. Alice chooses her secret key as a = 5 and calculates her public key as A = g^a (mod p). The message that she wants to send is M = 11. She randomly selects a secret number k = 4 and calculates the ciphertext (C1, C2) as C1 = g^k (mod p) and C2 = M * A^k (mod p). What is the encrypted message that Alice will send to Bob?",
+    "message_2": "First, let's calculate Alice's public key A:\nA = g^a (mod p)\nA = 3^5 (mod 17)\nA = 243 (mod 17)\nA = 4 (since 243 % 17 = 4)\n\nNow, let's calculate the ciphertext (C1, C2):\nC1 = g^k (mod p)\nC1 = 3^4 (mod 17)\nC1 = 81 (mod 17)\nC1 = 13 (since 81 % 17 = 13)\n\nC2 = M * A^k (mod p)\nC2 = 11 * 4^4 (mod 17)\nC2 = 11 * 256 (mod 17)\nC2 = 2816 (mod 17)\nC2 = 9 (since 2816 % 17 = 9)\n\nSo, the encrypted message that Alice will send to Bob is the ciphertext (C1, C2) = (13, 9)."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Diffie-Hellman key exchange",
+    "message_1": "Alice and Bob want to securely exchange secret messages using the Diffie-Hellman key exchange. They agree to use a prime number p = 23 and a primitive root g = 5. Alice's secret number is a = 7 and Bob's secret number is b = 13. What is the shared secret key they will use to encrypt and decrypt messages?",
+    "message_2": "To find the shared secret key, we first need to compute the public keys for Alice and Bob.\n\nAlice's public key (A) can be calculated as follows:\nA = g^a mod p\nA = 5^7 mod 23\nA = 78125 mod 23\nA = 10\n\nBob's public key (B) can be calculated as follows:\nB = g^b mod p\nB = 5^13 mod 23\nB = 1220703125 mod 23\nB = 18\n\nNow, Alice and Bob can compute the shared secret key using each other's public keys.\n\nAlice computes the shared secret key (S) as follows:\nS = B^a mod p\nS = 18^7 mod 23\nS = 612220032 mod 23\nS = 2\n\nBob computes the shared secret key (S) as follows:\nS = A^b mod p\nS = 10^13 mod 23\nS = 10000000000000 mod 23\nS = 2\n\nBoth Alice and Bob have calculated the same shared secret key, S = 2. They can now use this key to encrypt and decrypt messages securely."
+}

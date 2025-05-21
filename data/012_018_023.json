@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Graph theory",
+    "sub_topic": "Determining the edge connectivity of a graph.",
+    "message_1": "A graph has 10 vertices and 15 edges. Determine the minimum number of edges that must be removed to disconnect the graph completely.",
+    "message_2": "To disconnect the graph completely, we need to ensure that there is no path between any pair of vertices. To achieve this, we can remove edges in such a way that the graph is broken down into isolated vertices.\n\nA tree is a connected graph with no cycles and has exactly n-1 edges, where n is the number of vertices. In our case, we have 10 vertices, so the minimum number of edges required to keep the graph connected is 10 - 1 = 9 edges.\n\nSince the graph currently has 15 edges, we need to remove at least 15 - 9 = 6 edges to disconnect the graph completely."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Stirling numbers",
+    "message_1": "How many ways are there to arrange 4 red balls, 2 blue balls, and 1 green ball in a line if the colors of the red balls must be consecutive? (Hint: Use Stirling numbers of the second kind.)",
+    "message_2": "Since the 4 red balls must be consecutive, we can treat them as a single entity (a block of red balls). Now we have 3 objects to arrange: the block of red balls, the 2 blue balls, and the 1 green ball.\n\nThere are 3! (3 factorial) ways to arrange these 3 objects, which is equal to 3 * 2 * 1 = 6 ways.\n\nNow, we need to consider the possible positions of the blue balls within these arrangements. There are 3 possible positions for the blue balls in each arrangement (before the red block, between the red and green, or after the green). \n\nSo, there are 6 arrangements * 3 positions for the blue balls = 18 ways to arrange the balls with the condition that the red balls are consecutive."
+}

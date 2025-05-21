@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Residue calculus and its applications",
+    "message_1": "Compute the residue of the function f(z) = (e^z - 1)/(cos z) at the pole z = pi/2.",
+    "message_2": "To compute the residue of the function f(z) = (e^z - 1)/(cos z) at the pole z = pi/2, we can use the formula for the residue of a function with a simple pole:\n\nRes(f, z0) = lim (z -> z0) [(z - z0) * f(z)]\n\nIn this case, z0 = pi/2. First, we need to find the limit of (z - pi/2) * f(z) as z approaches pi/2. To do this, we can use L'Hopital's rule, which states that if the limit of the ratio of two functions is of the form 0/0 or ∞/∞, then the limit of their derivatives is the same:\n\nlim (z -> pi/2) [(z - pi/2) * f(z)] = lim (z -> pi/2) [(z - pi/2) * (e^z - 1)/(cos z)]\n\nNow, we need to find the derivatives of the numerator and denominator with respect to z:\n\nd(e^z - 1)/dz = e^z\nd(cos z)/dz = -sin z\n\nApplying L'Hopital's rule, we get:\n\nlim (z -> pi/2) [(z - pi/2) * (e^z - 1)/(cos z)] = lim (z -> pi/2) [(e^z)/(-sin z)]\n\nNow, we can evaluate the limit as z approaches pi/2:\n\nlim (z -> pi/2) [(e^z)/(-sin z)] = (e^(pi/2))/(-sin(pi/2)) = (e^(pi/2))/(-1) = -e^(pi/2)\n\nSo, the residue of the function f(z) = (e^z - 1)/(cos z) at the pole z = pi/2 is -e^(pi/2)."
+}

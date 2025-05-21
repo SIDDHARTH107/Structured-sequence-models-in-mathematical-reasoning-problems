@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Traveling salesman problem",
+    "message_1": "A traveling salesman needs to visit 5 cities in a specific order, starting and ending in city 1. He has calculated the distances between each city as follows:\n\nCity 1 to City 2: 10 miles\nCity 1 to City 3: 20 miles\nCity 1 to City 4: 15 miles\nCity 1 to City 5: 18 miles\nCity 2 to City 3: 25 miles\nCity 2 to City 4: 30 miles\nCity 2 to City 5: 35 miles\nCity 3 to City 4: 12 miles\nCity 3 to City 5: 30 miles\nCity 4 to City 5: 28 miles\n\nWhat is the shortest possible route the salesman can take to visit all 5 cities exactly once and return to city 1?",
+    "message_2": "Since the salesman needs to visit the cities in a specific order, we can simply add up the distances between the cities in that order and then add the distance back to city 1.\n\nAssuming the specific order is City 1 -> City 2 -> City 3 -> City 4 -> City 5 -> City 1, the shortest possible route would be:\n\nCity 1 to City 2: 10 miles\nCity 2 to City 3: 25 miles\nCity 3 to City 4: 12 miles\nCity 4 to City 5: 28 miles\nCity 5 to City 1: 18 miles\n\nTotal distance: 10 + 25 + 12 + 28 + 18 = 93 miles\n\nThe shortest possible route for the salesman to visit all 5 cities exactly once and return to city 1 is 93 miles."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Set theory",
+    "sub_topic": "Prove that the symmetric difference of two sets is not distributive over complement.",
+    "message_1": "Let A = {2, 3, 5, 7, 11} and B = {2, 3, 7, 13}, find the value of the expression (A △ B)' △ (A' △  B').",
+    "message_2": "First, let's find the symmetric difference (A △ B) and the symmetric differences of the complements (A' △ B').\n\nA △ B = (A - B) ∪ (B - A) = {5, 11, 13}\n\nNow, let's find the complements of A and B. Since no universal set is given, we will consider the union of A and B as the universal set.\n\nU = A ∪ B = {2, 3, 5, 7, 11, 13}\n\nA' = U - A = {13}\nB' = U - B = {5, 11}\n\nNow, let's find the symmetric difference of the complements (A' △ B'):\n\nA' △ B' = (A' - B') ∪ (B' - A') = {5, 11, 13}\n\nNow, we need to find the complement of (A △ B):\n\n(A △ B)' = U - (A △ B) = {2, 3, 7}\n\nFinally, we will find the symmetric difference of (A △ B)' and (A' △ B'):\n\n((A △ B)' △ (A' △ B')) = ((A △ B)' - (A' △ B')) ∪ ((A' △ B') - (A △ B)') = {2, 3, 5, 7, 11, 13} - {2, 3, 7} = {5, 11, 13}\n\nSo, the value of the expression (A △ B)' △ (A' △ B') is {5, 11, 13}."
+}

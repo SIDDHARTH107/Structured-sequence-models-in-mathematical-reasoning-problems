@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Multinomial coefficients",
+    "message_1": "A committee of 6 members is to be formed from a group of 10 people containing 3 women and 7 men. In how many ways can the committee be formed if it should have 2 women and 4 men? (Hint: This problem can be solved using Multinomial Coefficients formula).",
+    "message_2": "To form a committee of 6 members with 2 women and 4 men, we can use the combination formula to find the number of ways to choose the women and men separately, and then multiply the two results together.\n\nThe number of ways to choose 2 women from 3 is given by the combination formula:\n\nC(n, k) = n! / (k!(n-k)!)\n\nC(3, 2) = 3! / (2!(3-2)!)\nC(3, 2) = 3! / (2!1!)\nC(3, 2) = (3*2*1) / (2*1*1)\nC(3, 2) = 6 / 2\nC(3, 2) = 3\n\nSimilarly, the number of ways to choose 4 men from 7 is:\n\nC(7, 4) = 7! / (4!(7-4)!)\nC(7, 4) = 7! / (4!3!)\nC(7, 4) = (7*6*5*4*3*2*1) / (4*3*2*1*3*2*1)\nC(7, 4) = 5040 / (24*6)\nC(7, 4) = 5040 / 144\nC(7, 4) = 35\n\nNow, to find the total number of ways to form the committee, we multiply the number of ways to choose the women and men together:\n\nTotal ways = C(3, 2) * C(7, 4)\nTotal ways = 3 * 35\nTotal ways = 105\n\nSo, there are 105 ways to form the committee with 2 women and 4 men."
+}

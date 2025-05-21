@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Combinatorial identities",
+    "message_1": "In how many ways can 4 red balls and 3 blue balls be arranged in a row if the balls of the same color cannot be placed next to each other?",
+    "message_2": "To arrange 4 red balls and 3 blue balls in a row such that no two balls of the same color are next to each other, we can use the following approach:\n\n1. Place the 4 red balls in a row with spaces between them: R _ R _ R _ R\n2. There are now 5 spaces where we can place the 3 blue balls: (R B R _ R _ R), (R _ R B R _ R), (R _ R _ R B R), (R _ R _ R _ R B), and (R _ R _ R _ R).\n\nWe can place the blue balls in these spaces in the following ways:\n\n- Place all 3 blue balls in 3 different spaces: There are C(5,3) ways to do this, where C(n,k) is the number of combinations of n items taken k at a time. C(5,3) = 5! / (3! * (5-3)!) = 10 ways.\n\nSo, there are a total of 10 ways to arrange the 4 red balls and 3 blue balls in a row such that no two balls of the same color are next to each other."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Solving homogeneous systems of linear equations",
+    "message_1": "Solve the homogeneous system of linear equations:\nx + 2y - z = 0\n2x + y + z = 0\n3x - y + z = 0",
+    "message_2": "To solve the homogeneous system of linear equations, we can use the Gaussian elimination method. First, we write the augmented matrix for the system:\n\n```\n[ 1  2 -1 | 0 ]\n[ 2  1  1 | 0 ]\n[ 3 -1  1 | 0 ]\n```\n\nNow, we perform row operations to get the matrix in row-echelon form:\n\n1. Subtract 2 times the first row from the second row:\n\n```\n[ 1  2 -1 | 0 ]\n[ 0 -3  3 | 0 ]\n[ 3 -1  1 | 0 ]\n```\n\n2. Subtract 3 times the first row from the third row:\n\n```\n[ 1  2 -1 | 0 ]\n[ 0 -3  3 | 0 ]\n[ 0 -7  4 | 0 ]\n```\n\n3. Divide the second row by -3:\n\n```\n[ 1  2 -1 | 0 ]\n[ 0  1 -1 | 0 ]\n[ 0 -7  4 | 0 ]\n```\n\n4. Add 7 times the second row to the third row:\n\n```\n[ 1  2 -1 | 0 ]\n[ 0  1 -1 | 0 ]\n[ 0  0  3 | 0 ]\n```\n\n5. Divide the third row by 3:\n\n```\n[ 1  2 -1 | 0 ]\n[ 0  1 -1 | 0 ]\n[ 0  0  1 | 0 ]\n```\n\nNow, we can use back-substitution to find the solution:\n\n1. z = 0 (from the third row)\n2. y - z = y = 0 (from the second row)\n3. x + 2y - z = x = 0 (from the first row)\n\nSo, the solution to the homogeneous system of linear equations is x = 0, y = 0, and z = 0."
+}

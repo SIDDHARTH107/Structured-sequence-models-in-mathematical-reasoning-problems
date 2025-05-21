@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Combinatorial identities",
+    "message_1": "How many ways are there to choose a committee of 3 people from a group of 7 if one person is designated as the chairperson of the committee?",
+    "message_2": "To choose a committee of 3 people from a group of 7 with one person designated as the chairperson, we can break this down into two steps:\n\n1. Choose the chairperson: There are 7 people to choose from, so there are 7 ways to choose the chairperson.\n\n2. Choose the remaining 2 members: After choosing the chairperson, there are 6 people left to choose from. We need to choose 2 people from these 6, which is a combination problem. The number of ways to do this is represented by the combination formula: C(n, k) = n! / (k!(n-k)!), where n is the total number of items and k is the number of items to choose. In this case, n = 6 and k = 2.\n\nC(6, 2) = 6! / (2!(6-2)!) = 6! / (2!4!) = (6*5*4*3*2*1) / (2*1*4*3*2*1) = (6*5) / (2*1) = 15\n\nSo there are 15 ways to choose the remaining 2 members.\n\nNow, we multiply the number of ways to choose the chairperson (7) by the number of ways to choose the remaining members (15) to get the total number of ways to form the committee:\n\n7 * 15 = 105\n\nThere are 105 ways to choose a committee of 3 people from a group of 7 with one person designated as the chairperson."
+}

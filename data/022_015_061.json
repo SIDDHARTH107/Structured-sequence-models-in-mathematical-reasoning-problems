@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Schwarz reflection principle and its applications",
+    "message_1": "Using the Schwarz reflection principle, find the analytic extension of the function $f(z) = e^{-z}$ from the upper half-plane to the lower half-plane.",
+    "message_2": "The Schwarz reflection principle states that if a function is analytic in the upper half-plane and continuous on the real axis, then its analytic extension to the lower half-plane is given by the conjugate of the function evaluated at the conjugate of the complex variable.\n\nGiven the function $f(z) = e^{-z}$, it is analytic in the upper half-plane and continuous on the real axis. To find its analytic extension to the lower half-plane, we apply the Schwarz reflection principle:\n\nLet $z = x - iy$, where $x$ and $y$ are real numbers and $y < 0$ (since we are considering the lower half-plane). Then the conjugate of $z$ is $\\bar{z} = x + iy$. Now, we evaluate the function at $\\bar{z}$:\n\n$f(\\bar{z}) = e^{-\\bar{z}} = e^{-(x+iy)} = e^{-x}e^{-iy}$.\n\nNext, we find the conjugate of $f(\\bar{z})$:\n\n$\\overline{f(\\bar{z})} = \\overline{e^{-x}e^{-iy}} = e^{-x}\\overline{e^{-iy}} = e^{-x}e^{iy}$.\n\nThus, the analytic extension of $f(z)$ to the lower half-plane is given by:\n\n$f_{ext}(z) = e^{-x}e^{iy}$, where $z = x - iy$ and $y < 0$."
+}

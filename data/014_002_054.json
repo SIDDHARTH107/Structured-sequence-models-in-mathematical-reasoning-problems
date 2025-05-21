@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Diffie-Hellman key exchange",
+    "message_1": "Suppose that two parties A and B agree to use Diffie-Hellman key exchange with a prime modulus $p=23$ and base $g=5$. If the private key of party A is $a=6$ and the private key of party B is $b=15$, what is the shared secret key they will use?",
+    "message_2": "To find the shared secret key using the Diffie-Hellman key exchange, we first need to compute the public keys for both parties A and B.\n\nParty A's public key (let's call it $A$) is calculated as follows:\n$A \\equiv g^a \\pmod{p}$\n$A \\equiv 5^6 \\pmod{23}$\n$A \\equiv 15625 \\pmod{23}$\n$A \\equiv 8$\n\nParty B's public key (let's call it $B$) is calculated as follows:\n$B \\equiv g^b \\pmod{p}$\n$B \\equiv 5^{15} \\pmod{23}$\n$B \\equiv 30517578125 \\pmod{23}$\n$B \\equiv 19$\n\nNow, both parties can compute the shared secret key (let's call it $s$) using each other's public keys and their own private keys.\n\nParty A computes the shared secret key as follows:\n$s \\equiv B^a \\pmod{p}$\n$s \\equiv 19^6 \\pmod{23}$\n$s \\equiv 47045881 \\pmod{23}$\n$s \\equiv 2$\n\nParty B computes the shared secret key as follows:\n$s \\equiv A^b \\pmod{p}$\n$s \\equiv 8^{15} \\pmod{23}$\n$s \\equiv 35184372088832 \\pmod{23}$\n$s \\equiv 2$\n\nBoth parties have computed the same shared secret key, which is $s = 2$."
+}

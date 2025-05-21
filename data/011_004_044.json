@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Multinomial coefficients",
+    "message_1": "A pizza restaurant offers three different toppings: pepperoni, mushrooms, and olives. A customer can select four toppings for their pizza. In how many ways can the customer choose their toppings if they want to have two pepperonis, one mushroom, and one olive on their pizza?",
+    "message_2": "Since the customer wants exactly two pepperonis, one mushroom, and one olive on their pizza, the order in which they choose the toppings does not matter. We can think of this as a combination problem.\n\nWe can represent the pizza toppings as a string of 4 characters: PP (for 2 pepperonis), M (for 1 mushroom), and O (for 1 olive). So, we have a string \"PPMO\". Now, we need to find the number of unique arrangements of this string.\n\nThere are 4! (4 factorial) ways to arrange 4 distinct items. However, since there are 2 identical pepperonis, we need to divide by 2! to account for the repetitions.\n\nSo, the number of ways to choose the toppings is:\n\n(4!)/(2!) = (4 × 3 × 2 × 1)/(2 × 1) = 12\n\nTherefore, the customer can choose their toppings in 12 different ways."
+}

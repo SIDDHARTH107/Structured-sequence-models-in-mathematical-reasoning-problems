@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "One-time pad encryption",
+    "message_1": "Consider the message \"MATH\" which needs to be encrypted using a one-time pad. The corresponding numerical values for the letters are M=12, A=1, T=20, H=8. Generate a random key of same length as the message using the numbers 1 to 26. Encrypt the message using the one-time pad. What is the encrypted numerical message if the key generated is 3, 15, 7, 21?",
+    "message_2": "To encrypt the message \"MATH\" using a one-time pad with the key 3, 15, 7, 21, we need to add the corresponding numerical values of the message and the key modulo 26. \n\nM = 12, A = 1, T = 20, H = 8\nKey = 3, 15, 7, 21\n\nEncryption:\n(12 + 3) mod 26 = 15\n(1 + 15) mod 26 = 16\n(20 + 7) mod 26 = 1\n(8 + 21) mod 26 = 3\n\nThe encrypted numerical message is 15, 16, 1, 3."
+}

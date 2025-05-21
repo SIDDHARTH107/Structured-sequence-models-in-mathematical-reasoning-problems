@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Determining the rank of a matrix",
+    "message_1": "Consider the matrix A = \n\n$$\n\\begin{pmatrix}\n1 & 2 & 4 \\\\\n4 & 8 & 2\\\\\n-3 & -6 & -12\n\\end{pmatrix}\n$$\n\nDetermine the rank of matrix A.",
+    "message_2": "To determine the rank of matrix A, we need to find the number of linearly independent rows or columns. We can do this by performing Gaussian elimination to row reduce the matrix to its row-echelon form.\n\nMatrix A:\n\n$$\n\\begin{pmatrix}\n1 & 2 & 4 \\\\\n4 & 8 & 2\\\\\n-3 & -6 & -12\n\\end{pmatrix}\n$$\n\nStep 1: Subtract 4 times the first row from the second row:\n\n$$\n\\begin{pmatrix}\n1 & 2 & 4 \\\\\n0 & 0 & -14\\\\\n-3 & -6 & -12\n\\end{pmatrix}\n$$\n\nStep 2: Subtract -3 times the first row from the third row:\n\n$$\n\\begin{pmatrix}\n1 & 2 & 4 \\\\\n0 & 0 & -14\\\\\n0 & 0 & 0\n\\end{pmatrix}\n$$\n\nNow the matrix is in row-echelon form. We can see that there are 2 non-zero rows, which means the rank of matrix A is 2."
+}

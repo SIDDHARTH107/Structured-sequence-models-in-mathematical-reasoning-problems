@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Number theory",
+    "sub_topic": "Diophantine equations",
+    "message_1": "Find all integer solutions of the equation 5x + 7y = 123.",
+    "message_2": "To find all integer solutions of the equation 5x + 7y = 123, we can use the extended Euclidean algorithm to find a particular solution and then find the general solution.\n\nFirst, we find the greatest common divisor (GCD) of 5 and 7 using the Euclidean algorithm:\n\n7 = 1 * 5 + 2\n5 = 2 * 2 + 1\n\nThe GCD of 5 and 7 is 1. Since 1 divides 123, there will be integer solutions for the given equation.\n\nNow, we use the extended Euclidean algorithm to find a particular solution:\n\n1 = 5 - 2 * 2\n1 = 5 - 2 * (7 - 1 * 5)\n1 = 3 * 5 - 2 * 7\n\nSo, a particular solution is x₀ = 3 and y₀ = -2.\n\nNow, we find the general solution. Since the GCD of 5 and 7 is 1, the general solution can be expressed as:\n\nx = x₀ + 7t\ny = y₀ - 5t\n\nwhere t is an integer.\n\nSubstituting the particular solution, we get:\n\nx = 3 + 7t\ny = -2 - 5t\n\nFor any integer value of t, we will get an integer solution for the equation 5x + 7y = 123."
+}

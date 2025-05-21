@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Digital signatures",
+    "message_1": "Suppose Alice wants to digitally sign a document using the RSA digital signature scheme. Her private key is (p=7, q=11, d=7) and her public key is (N=77, e=19). If Alice's document has a message digest value of 35, what is the digital signature that she should append to the document?",
+    "message_2": "To compute the digital signature, Alice needs to raise the message digest value (35) to the power of her private key exponent (d=7) modulo N (77).\n\nSo, the digital signature S = (message digest)^d mod N = 35^7 mod 77.\n\nLet's calculate this value:\n\n35^7 = 64339296875\n\nNow, we need to find the remainder when this value is divided by 77:\n\n64339296875 mod 77 = 42\n\nSo, the digital signature that Alice should append to the document is 42."
+}

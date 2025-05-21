@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Cryptanalysis of Vigenere cipher",
+    "message_1": "A message was encrypted using the Vigenere cipher by using a keyword \"MATH\" and the resulting ciphertext is \"WDSRQBONQJLX.\" \n\nWhat is the plaintext message if the key length is 4 and the message was encrypted according to the Vigenere cipher?",
+    "message_2": "To decrypt the message, we will use the Vigenere decryption formula:\n\nPlaintext = (Ciphertext - Key) mod 26\n\nWe will use the keyword \"MATH\" repeatedly to decrypt the ciphertext \"WDSRQBONQJLX.\"\n\nCiphertext: W  D  S  R  Q  B  O  N  Q  J  L  X\nKeyword:    M  A  T  H  M  A  T  H  M  A  T  H\nPlaintext:  ?\n\nNow, we will decrypt each letter using the formula:\n\nW - M = (22 - 12) mod 26 = 10 -> K\nD - A = (3 - 0) mod 26 = 3 -> D\nS - T = (18 - 19) mod 26 = 25 -> Z\nR - H = (17 - 7) mod 26 = 10 -> K\n\nQ - M = (16 - 12) mod 26 = 4 -> E\nB - A = (1 - 0) mod 26 = 1 -> B\nO - T = (14 - 19) mod 26 = 21 -> V\nN - H = (13 - 7) mod 26 = 6 -> G\n\nQ - M = (16 - 12) mod 26 = 4 -> E\nJ - A = (9 - 0) mod 26 = 9 -> J\nL - T = (11 - 19) mod 26 = 18 -> S\nX - H = (23 - 7) mod 26 = 16 -> Q\n\nThe decrypted plaintext message is \"KDZKEBVGESJQ.\""
+}

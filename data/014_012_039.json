@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Vigenere cipher",
+    "message_1": "Alice and Bob are communicating using Vigenere Cipher. Alice encrypts a message \"HELLO\" with a keyword \"MATHS\". What is the resulting ciphertext?",
+    "message_2": "To encrypt the message \"HELLO\" using the Vigenere Cipher with the keyword \"MATHS\", we need to follow these steps:\n\n1. Convert each letter of the message and the keyword to their corresponding numerical values (A=0, B=1, ..., Z=25).\n2. Add the numerical values of the message and the keyword (mod 26).\n3. Convert the resulting numerical values back to letters.\n\nHere's the process for each letter in the message \"HELLO\":\n\nH (7) + M (12) = 19 (mod 26) = T\nE (4) + A (0) = 4 (mod 26) = E\nL (11) + T (19) = 30 (mod 26) = 4 = E\nL (11) + H (7) = 18 (mod 26) = S\nO (14) + S (18) = 32 (mod 26) = 6 = G\n\nThe resulting ciphertext is \"TEESG\"."
+}

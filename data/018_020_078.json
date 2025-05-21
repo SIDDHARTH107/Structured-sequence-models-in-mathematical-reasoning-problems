@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Set theory",
+    "sub_topic": "Prove that the symmetric difference of two sets is distributive over union.",
+    "message_1": "Suppose A = {1, 3, 5, 7, 9} and B = {2, 3, 4, 6, 8}. Find (A △ B) ∪ (A △ {2, 4, 6}). Show that the symmetric difference of two sets is distributive over union using this example.",
+    "message_2": "First, let's find the symmetric differences A △ B and A △ {2, 4, 6}.\n\nA △ B = (A ∪ B) - (A ∩ B) = {1, 2, 3, 4, 5, 6, 7, 8, 9} - {3} = {1, 2, 4, 5, 6, 7, 8, 9}\n\nA △ {2, 4, 6} = (A ∪ {2, 4, 6}) - (A ∩ {2, 4, 6}) = {1, 2, 3, 4, 5, 6, 7, 9} - {} = {1, 2, 3, 4, 5, 6, 7, 9}\n\nNow, let's find the union of these two symmetric differences:\n\n(A △ B) ∪ (A △ {2, 4, 6}) = {1, 2, 4, 5, 6, 7, 8, 9} ∪ {1, 2, 3, 4, 5, 6, 7, 9} = {1, 2, 3, 4, 5, 6, 7, 8, 9}\n\nNow, let's show that the symmetric difference is distributive over union using this example. We need to show that:\n\nA △ (B ∪ {2, 4, 6}) = (A △ B) ∪ (A △ {2, 4, 6})\n\nFirst, let's find B ∪ {2, 4, 6}:\n\nB ∪ {2, 4, 6} = {2, 3, 4, 6, 8} ∪ {2, 4, 6} = {2, 3, 4, 6, 8}\n\nNow, let's find A △ (B ∪ {2, 4, 6}):\n\nA △ (B ∪ {2, 4, 6}) = A △ B = {1, 2, 4, 5, 6, 7, 8, 9}\n\nSo, we have:\n\nA △ (B ∪ {2, 4, 6}) = {1, 2, 4, 5, 6, 7, 8, 9}\n(A △ B) ∪ (A △ {2, 4, 6}) = {1, 2, 3, 4, 5, 6, 7, 8, 9}\n\nSince the two sets are not equal, the symmetric difference is not distributive over union in this example."
+}

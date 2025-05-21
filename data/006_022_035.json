@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Probability",
+    "sub_topic": "Probability of a certain type of educational outcome occurring in a school",
+    "message_1": "A school has 120 students in total. If the probability of a student passing a certain exam is 0.75, what is the probability that exactly 90 students will pass the exam?",
+    "message_2": "To find the probability that exactly 90 students will pass the exam, we can use the binomial probability formula:\n\nP(x) = C(n, x) * p^x * (1-p)^(n-x)\n\nwhere:\n- P(x) is the probability of exactly x successes (students passing the exam)\n- C(n, x) is the number of combinations of n items taken x at a time, also written as nCx or \"n choose x\"\n- n is the total number of trials (students)\n- x is the number of successful trials (students passing the exam)\n- p is the probability of success (0.75)\n- (1-p) is the probability of failure (0.25)\n\nIn this case, n = 120, x = 90, and p = 0.75. Plugging these values into the formula, we get:\n\nP(90) = C(120, 90) * 0.75^90 * 0.25^(120-90)\n\nFirst, we need to calculate C(120, 90), which is the number of ways to choose 90 students out of 120:\n\nC(120, 90) = 120! / (90! * (120-90)!)\nC(120, 90) = 120! / (90! * 30!)\n\nNow, we can plug this value back into the formula:\n\nP(90) = (120! / (90! * 30!)) * 0.75^90 * 0.25^30\n\nUsing a calculator or software to compute the values, we get:\n\nP(90) ≈ 0.0573\n\nSo, the probability that exactly 90 students will pass the exam is approximately 5.73%."
+}

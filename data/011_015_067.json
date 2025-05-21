@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Ramsey theory",
+    "message_1": "In a group of six people, what is the smallest number of connections needed for there to be either three mutual friends or three mutual strangers?",
+    "message_2": "To solve this problem, we can use the Pigeonhole Principle. We will consider each person as a \"pigeonhole\" and the connections between people as \"pigeons.\"\n\nLet's label the six people A, B, C, D, E, and F. We will start with person A.\n\nPerson A can have at most 5 connections with the other people in the group. Now, consider two cases:\n\nCase 1: Person A has at least 3 friends (3 mutual connections).\nIn this case, if any of these 3 friends are also friends with each other, we have a group of 3 mutual friends. If none of these 3 friends are friends with each other, then they are all mutual strangers, and we have a group of 3 mutual strangers.\n\nCase 2: Person A has at least 3 strangers (3 mutual non-connections).\nIn this case, if any of these 3 strangers are strangers to each other, we have a group of 3 mutual strangers. If all of these 3 strangers are friends with each other, then we have a group of 3 mutual friends.\n\nIn both cases, we can see that there must be either a group of 3 mutual friends or a group of 3 mutual strangers. Therefore, the smallest number of connections needed for there to be either three mutual friends or three mutual strangers in a group of six people is 3."
+}

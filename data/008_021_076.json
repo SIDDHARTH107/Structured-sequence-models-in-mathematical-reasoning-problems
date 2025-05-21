@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Solving systems of linear equations with singular matrices",
+    "message_1": "Given the system of linear equations below:\n\n\\begin{align*}\nx+y-z &= 1 \\\\\n2x+2y-2z &= 2 \\\\\n3x+3y-3z &= 3\n\\end{align*}\n\nFind the values of $x$, $y$, and $z$ using Gaussian elimination.",
+    "message_2": "First, we can write the system of linear equations as an augmented matrix:\n\n$$\n\\left[\\begin{array}{ccc|c}\n1 & 1 & -1 & 1 \\\\\n2 & 2 & -2 & 2 \\\\\n3 & 3 & -3 & 3\n\\end{array}\\right]\n$$\n\nNow, we perform Gaussian elimination to find the row echelon form of the matrix.\n\nStep 1: Subtract 2 times the first row from the second row, and 3 times the first row from the third row:\n\n$$\n\\left[\\begin{array}{ccc|c}\n1 & 1 & -1 & 1 \\\\\n0 & 0 & 0 & 0 \\\\\n0 & 0 & 0 & 0\n\\end{array}\\right]\n$$\n\nAt this point, we can see that the second and third rows are all zeros. This means that the system of linear equations has infinitely many solutions, as there is not enough information to uniquely determine the values of $x$, $y$, and $z$.\n\nTo find the general solution, we can express one of the variables in terms of the other two. From the first row, we have:\n\n$$\nx + y - z = 1\n$$\n\nWe can express $z$ in terms of $x$ and $y$:\n\n$$\nz = x + y - 1\n$$\n\nSo the general solution is:\n\n$$\n(x, y, x + y - 1)\n$$\n\nThere are infinitely many solutions for this system of linear equations, and they can be represented by the general solution above."
+}

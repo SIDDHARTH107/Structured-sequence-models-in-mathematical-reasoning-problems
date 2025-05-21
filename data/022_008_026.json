@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Entire functions and their properties",
+    "message_1": "Here is a precise numerical problem on Entire Functions from Complex Analysis for a math student to solve:\n\nFind all entire functions $f(z)$ such that $f(0)=1$ and $|f(z)|\\leq e^{|z|}$ for all $z\\in \\mathbb{C}$.",
+    "message_2": "To solve this problem, we will use Liouville's theorem, which states that any bounded entire function must be constant. We will also use the fact that an entire function can be represented by its power series expansion.\n\nLet $f(z)$ be an entire function such that $f(0) = 1$ and $|f(z)| \\leq e^{|z|}$ for all $z \\in \\mathbb{C}$. Then, we can write $f(z)$ as a power series:\n\n$$f(z) = \\sum_{n=0}^{\\infty} a_n z^n$$\n\nwhere $a_n$ are complex coefficients. Since $f(0) = 1$, we have $a_0 = 1$. Now, let's consider the function $g(z) = e^{-z} f(z)$. We have:\n\n$$|g(z)| = |e^{-z} f(z)| = |e^{-z}| |f(z)| \\leq |e^{-z}| e^{|z|} = 1$$\n\nThus, $g(z)$ is a bounded entire function. By Liouville's theorem, $g(z)$ must be constant. Let $c$ be the constant value of $g(z)$. Then, we have:\n\n$$c = e^{-z} f(z) \\Rightarrow f(z) = ce^z$$\n\nSince $f(0) = 1$, we have $c = ce^0 = 1$. Therefore, the only entire function $f(z)$ that satisfies the given conditions is:\n\n$$f(z) = e^z$$"
+}

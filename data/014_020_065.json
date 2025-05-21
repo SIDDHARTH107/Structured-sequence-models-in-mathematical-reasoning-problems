@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Cryptanalysis of Vigenere cipher",
+    "message_1": "Suppose a Vigenere cipher with a keyword \"MATH\" is used to encrypt the message \"ATTACKATDAWN\". If the ciphertext generated is \"MPUCAAWKTFWV\", what is the original message before encryption?",
+    "message_2": "To decrypt the message, we will use the Vigenere cipher decryption process. We will subtract the keyword letters from the ciphertext letters (mod 26) to get the original message.\n\nCiphertext: MPUCAAWKTFWV\nKeyword:    MATHMATHMATH\n\n1. M (12) - M (12) = A (0)\n2. P (15) - A (0) = P (15)\n3. U (20) - T (19) = T (1)\n4. C (2) - H (7) = A (26 - 5 = 21)\n5. A (0) - M (12) = T (26 - 12 = 14)\n6. A (0) - A (0) = A (0)\n7. W (22) - T (19) = C (3)\n8. K (10) - H (7) = A (3)\n9. T (19) - M (12) = T (7)\n10. F (5) - A (0) = F (5)\n11. W (22) - T (19) = W (3)\n12. V (21) - H (7) = N (14)\n\nThe decrypted message is \"ATTACKATDAWN\"."
+}

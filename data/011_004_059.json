@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Multinomial coefficients",
+    "message_1": "In a group of 7 friends, you want to divide them into three teams of 2, 2, and 3 members each. How many ways can this be done?",
+    "message_2": "To divide the group of 7 friends into teams of 2, 2, and 3 members, we can use the combination formula. The combination formula is C(n, k) = n! / (k!(n-k)!), where n is the total number of items and k is the number of items to choose.\n\nFirst, we choose 3 members for the team of 3. There are C(7, 3) ways to do this:\nC(7, 3) = 7! / (3!4!) = 35 ways\n\nNow, we have 4 friends left to divide into two teams of 2. There are C(4, 2) ways to choose 2 members for the first team of 2:\nC(4, 2) = 4! / (2!2!) = 6 ways\n\nSo, there are 35 ways to choose the team of 3 and 6 ways to choose the first team of 2. To find the total number of ways to divide the group, we multiply these two values together:\n\nTotal ways = 35 * 6 = 210 ways"
+}

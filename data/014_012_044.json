@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Vigenere cipher",
+    "message_1": "A message encrypted using the Vigenere cipher with a keyword \"MATH\" resulted in the following ciphertext: \"NHKX\". What is the original message?",
+    "message_2": "To decrypt a Vigenère cipher, we will reverse the encryption process using the keyword \"MATH\". The Vigenère table (or tabula recta) will be used for decryption.\n\n1. Write down the keyword (MATH) below the ciphertext (NHKX):\n   NHKX\n   MATH\n\n2. For each letter in the ciphertext, find the corresponding row in the Vigenère table using the keyword letter, and then find the column that matches the ciphertext letter. The letter at the top of that column is the decrypted letter.\n\n   N -> M row -> N column -> H\n   H -> A row -> H column -> E\n   K -> T row -> K column -> L\n   X -> H row -> X column -> P\n\n3. Combine the decrypted letters to get the original message: HELP"
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Digital signatures",
+    "message_1": "Suppose a message \"MATHEMATICS\" is to be digitally signed using an RSA algorithm with a private key (d,n) = (17, 253). The corresponding public key is (e,n) = (13, 253). What is the digital signature of the message?",
+    "message_2": "To digitally sign the message \"MATHEMATICS\" using RSA, we first need to convert the message into a numerical representation. We can do this by assigning a numerical value to each letter (A=1, B=2, ..., Z=26). \n\nMATHEMATICS = 13 1 20 8 5 13 1 20 9 3 19\n\nHowever, since n = 253, we need to make sure that the numerical representation of the message is less than n. To do this, we can combine the numerical values in pairs:\n\nMA = 131, TH = 208, EM = 135, AT = 201, IC = 93, S = 19\n\nNow, we can digitally sign each pair using the private key (d, n) = (17, 253) by raising each pair to the power of d modulo n:\n\nSignature(MA) = 131^17 mod 253 = 106\nSignature(TH) = 208^17 mod 253 = 131\nSignature(EM) = 135^17 mod 253 = 208\nSignature(AT) = 201^17 mod 253 = 135\nSignature(IC) = 93^17 mod 253 = 201\nSignature(S) = 19^17 mod 253 = 93\n\nThe digital signature of the message \"MATHEMATICS\" is:\n\n106 131 208 135 201 93"
+}

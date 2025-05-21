@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Knapsack problem",
+    "message_1": "A student has a knapsack with a capacity of 15 kg. They have selected a few items they want to carry, each of which has a weight and a value (in dollars). The items are:\n\n- Item A: 4 kg, $20\n- Item B: 6 kg, $30\n- Item C: 3 kg, $15\n- Item D: 2 kg, $10\n\nWhat is the maximum total value that the student can carry in their knapsack, considering that they cannot exceed the weight limit of 15 kg?",
+    "message_2": "To find the maximum total value, we need to select items that have the highest value-to-weight ratio without exceeding the weight limit of 15 kg. Let's calculate the value-to-weight ratio for each item:\n\n- Item A: $20 / 4 kg = $5/kg\n- Item B: $30 / 6 kg = $5/kg\n- Item C: $15 / 3 kg = $5/kg\n- Item D: $10 / 2 kg = $5/kg\n\nAll items have the same value-to-weight ratio. Now, we need to select items that maximize the total value without exceeding the weight limit.\n\n1. Start with the heaviest item (Item B) - 6 kg, $30\n2. Add the next heaviest item (Item A) - 4 kg, $20 (Total weight: 10 kg, Total value: $50)\n3. Add the next heaviest item (Item C) - 3 kg, $15 (Total weight: 13 kg, Total value: $65)\n4. Attempt to add the last item (Item D) - 2 kg, $10. However, this would exceed the weight limit (15 kg).\n\nSo, the maximum total value that the student can carry in their knapsack is $65, with items A, B, and C."
+}

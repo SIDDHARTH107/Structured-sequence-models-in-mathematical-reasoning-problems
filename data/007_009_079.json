@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Number theory",
+    "sub_topic": "Euler's totient function",
+    "message_1": "Find the value of Euler's totient function, φ(25).",
+    "message_2": "Euler's totient function, φ(n), counts the number of positive integers less than or equal to n that are relatively prime to n (i.e., they share no common factors other than 1).\n\nFor a given number n, if n is a prime number, then φ(n) = n - 1, because all numbers less than n are relatively prime to n.\n\nHowever, if n is not a prime number, we can use the formula:\n\nφ(n) = n * (1 - 1/p1) * (1 - 1/p2) * ... * (1 - 1/pk),\n\nwhere p1, p2, ..., pk are the distinct prime factors of n.\n\nIn the case of n = 25, the prime factorization is 5^2 (since 25 is not a prime number). Therefore, there is only one distinct prime factor, which is 5.\n\nUsing the formula, we get:\n\nφ(25) = 25 * (1 - 1/5) = 25 * (4/5) = 20.\n\nSo, the value of Euler's totient function for 25 is φ(25) = 20."
+}

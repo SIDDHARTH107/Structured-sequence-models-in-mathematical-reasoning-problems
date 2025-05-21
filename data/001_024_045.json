@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Algebra",
+    "sub_topic": "Simplifying trigonometric expressions",
+    "message_1": "Simplify the expression: $\\frac{\\sin^4{x}-\\cos^4{x}}{\\sin^2{x}\\cos^2{x}}$",
+    "message_2": "To simplify the expression $\\frac{\\sin^4{x}-\\cos^4{x}}{\\sin^2{x}\\cos^2{x}}$, we can first factor the numerator using the difference of squares formula:\n\n$\\sin^4{x}-\\cos^4{x} = (\\sin^2{x} + \\cos^2{x})(\\sin^2{x} - \\cos^2{x})$\n\nSince $\\sin^2{x} + \\cos^2{x} = 1$, the expression becomes:\n\n$\\frac{1(\\sin^2{x} - \\cos^2{x})}{\\sin^2{x}\\cos^2{x}}$\n\nNow, we can use the double angle formula for cosine, which states that $\\cos{2x} = 1 - 2\\sin^2{x}$ or $\\sin^2{x} = \\frac{1 - \\cos{2x}}{2}$. Similarly, we have $\\cos{2x} = 2\\cos^2{x} - 1$ or $\\cos^2{x} = \\frac{1 + \\cos{2x}}{2}$. Substituting these expressions into the original expression, we get:\n\n$\\frac{\\left(\\frac{1 - \\cos{2x}}{2} - \\frac{1 + \\cos{2x}}{2}\\right)}{\\left(\\frac{1 - \\cos{2x}}{2}\\right)\\left(\\frac{1 + \\cos{2x}}{2}\\right)}$\n\nSimplifying the numerator, we have:\n\n$\\frac{-2\\cos{2x}}{(1 - \\cos{2x})(1 + \\cos{2x})}$\n\nNow, we can factor the denominator using the difference of squares formula:\n\n$(1 - \\cos{2x})(1 + \\cos{2x}) = 1 - \\cos^2{2x}$\n\nSince $\\sin^2{2x} + \\cos^2{2x} = 1$, we have $\\sin^2{2x} = 1 - \\cos^2{2x}$. Substituting this into the expression, we get:\n\n$\\frac{-2\\cos{2x}}{\\sin^2{2x}}$\n\nAnd that's the simplified expression:\n\n$\\boxed{\\frac{-2\\cos{2x}}{\\sin^2{2x}}}$"
+}

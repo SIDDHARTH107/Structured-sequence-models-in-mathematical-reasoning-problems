@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Singularities of complex functions",
+    "message_1": "Consider the complex function $f(z) = \\frac{z}{(z-2)^2}.$ \n\nUsing the definition of singularities of complex functions, determine the type of singularity that occurs at $z=2$ for this function.",
+    "message_2": "To determine the type of singularity at $z=2$, we can first find the Laurent series expansion of the function $f(z)$ around $z=2$. \n\nLet's make a substitution: $w = z-2$. Then, $z = w+2$ and $f(z) = \\frac{w+2}{w^2}$. Now, we can find the Laurent series expansion of this function around $w=0$ (which corresponds to $z=2$):\n\n$f(z) = \\frac{w+2}{w^2} = \\frac{2}{w^2} + \\frac{1}{w} = 2w^{-2} + w^{-1}$.\n\nNow, we can classify the singularity at $z=2$ (or $w=0$) based on the Laurent series expansion:\n\n1. If there are no negative powers of $w$ in the Laurent series, then the singularity is removable.\n2. If there are finitely many negative powers of $w$ in the Laurent series, then the singularity is a pole.\n3. If there are infinitely many negative powers of $w$ in the Laurent series, then the singularity is an essential singularity.\n\nIn our case, there are finitely many negative powers of $w$ in the Laurent series ($w^{-2}$ and $w^{-1}$). Therefore, the singularity at $z=2$ is a pole. Since the highest negative power of $w$ is $w^{-2}$, the order of the pole is 2."
+}

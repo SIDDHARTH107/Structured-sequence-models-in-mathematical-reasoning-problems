@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Probability",
+    "sub_topic": "Coin flipping and probability of getting heads or tails",
+    "message_1": "If a fair coin is flipped 10 times, what is the probability of getting exactly 3 tails?",
+    "message_2": "To find the probability of getting exactly 3 tails in 10 coin flips, we can use the binomial probability formula:\n\nP(X = k) = (nCk) * (p^k) * (q^(n-k))\n\nwhere:\n- P(X = k) is the probability of getting exactly k successes (in this case, tails) in n trials (coin flips)\n- nCk (read as \"n choose k\") is the number of combinations of choosing k successes from n trials, calculated as n! / (k!(n-k)!)\n- p is the probability of success (getting tails) in a single trial, which is 0.5 for a fair coin\n- q is the probability of failure (getting heads) in a single trial, which is also 0.5 for a fair coin\n- n is the number of trials (coin flips), which is 10\n- k is the number of successes (tails) we want, which is 3\n\nPlugging in the values:\n\nP(X = 3) = (10C3) * (0.5^3) * (0.5^(10-3))\n\nFirst, calculate 10C3:\n\n10C3 = 10! / (3!(10-3)!) = 10! / (3!7!) = (10*9*8) / (3*2*1) = 120\n\nNow, calculate the probabilities:\n\n(0.5^3) = 0.125\n(0.5^7) = 0.0078125\n\nFinally, multiply everything together:\n\nP(X = 3) = 120 * 0.125 * 0.0078125 = 0.1171875\n\nSo, the probability of getting exactly 3 tails in 10 coin flips is approximately 0.1172 or 11.72%."
+}

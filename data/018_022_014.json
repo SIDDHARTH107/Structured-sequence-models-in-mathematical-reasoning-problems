@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Set theory",
+    "sub_topic": "Prove that the symmetric difference of two sets is not commutative with respect to Cartesian product.",
+    "message_1": "Let A = {1, 2, 3} and B = {2, 3, 4}. \n\nFind (A △ B) x (B △ A). \n\nProve that the value obtained in the previous step is not equal to (B △ A) x (A △ B).",
+    "message_2": "First, let's find A △ B and B △ A. The symmetric difference (△) of two sets is the set of elements which are in either of the sets but not in their intersection.\n\nA △ B = (A ∪ B) - (A ∩ B) = {1, 2, 3, 4} - {2, 3} = {1, 4}\nB △ A = (B ∪ A) - (B ∩ A) = {2, 3, 4, 1} - {2, 3} = {1, 4}\n\nNow, let's find the Cartesian product (x) of these sets.\n\n(A △ B) x (B △ A) = {1, 4} x {1, 4} = {(1, 1), (1, 4), (4, 1), (4, 4)}\n\nNow, let's find (B △ A) x (A △ B).\n\n(B △ A) x (A △ B) = {1, 4} x {1, 4} = {(1, 1), (1, 4), (4, 1), (4, 4)}\n\nAs we can see, (A △ B) x (B △ A) = {(1, 1), (1, 4), (4, 1), (4, 4)} and (B △ A) x (A △ B) = {(1, 1), (1, 4), (4, 1), (4, 4)}. Both sets are equal. Therefore, the statement that the value obtained in the previous step is not equal to (B △ A) x (A △ B) is false."
+}

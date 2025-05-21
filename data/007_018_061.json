@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Number theory",
+    "sub_topic": "Prime gaps",
+    "message_1": "What is the smallest prime gap between two consecutive primes greater than 10^9?",
+    "message_2": "The prime gap is the difference between two consecutive prime numbers. To find the smallest prime gap between two consecutive primes greater than 10^9, we can use the following approach:\n\n1. Start with the smallest prime number greater than 10^9. The prime number just greater than 10^9 is 1000000007.\n2. Check the next odd number (since even numbers cannot be prime, except for 2) to see if it is prime. If it is, calculate the prime gap and return the result. If not, continue checking the next odd numbers until a prime is found.\n\nUsing this approach, we find that the next prime after 1000000007 is 1000000009. The prime gap between these two consecutive primes is:\n\n1000000009 - 1000000007 = 2\n\nSo, the smallest prime gap between two consecutive primes greater than 10^9 is 2."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Block designs",
+    "message_1": "Suppose there are 10 friends who want to form 5 teams of 2 people each to play a game. In how many ways can they form the teams so that no two people play in more than one team together?",
+    "message_2": "To form 5 teams of 2 people each, we can use the concept of combinations. A combination is a selection of items from a larger set, such that the order of the items does not matter. In this case, we want to select 2 people from a group of 10 friends.\n\nThe number of ways to form a single team of 2 people from 10 friends can be calculated using the combination formula:\n\nC(n, k) = n! / (k!(n-k)!)\n\nwhere n is the total number of items (in this case, 10 friends), k is the number of items to be selected (2 people for a team), and ! denotes the factorial function (e.g., 5! = 5 × 4 × 3 × 2 × 1).\n\nSo, the number of ways to form a single team of 2 people from 10 friends is:\n\nC(10, 2) = 10! / (2!(10-2)!) = 10! / (2!8!) = (10 × 9) / (2 × 1) = 45\n\nNow, we need to form 5 teams. Since the order in which the teams are formed does not matter, we can divide the total number of ways by the number of teams to account for this.\n\nThe number of ways to form 5 teams of 2 people each from 10 friends is:\n\n(45 × 44 × 43 × 42 × 41) / (5 × 4 × 3 × 2 × 1) = 63,063\n\nSo, there are 63,063 ways to form 5 teams of 2 people each from 10 friends so that no two people play in more than one team together."
+}

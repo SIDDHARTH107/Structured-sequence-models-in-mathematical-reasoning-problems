@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Number theory",
+    "sub_topic": "Diffie-Hellman key exchange.",
+    "message_1": "Suppose Alice and Bob want to share a secret key using the Diffie-Hellman key exchange. Alice chooses a prime number $p=13$ and a primitive root $g=2$. She also chooses a secret number $a=7$ and calculates $A\\equiv g^a \\pmod{p}$. Similarly, Bob chooses a secret number $b=5$ and calculates $B\\equiv g^b \\pmod{p}$. What is the secret key they can use for secure communication?",
+    "message_2": "First, let's calculate Alice's public key $A$ and Bob's public key $B$.\n\n$A \\equiv g^a \\pmod{p} \\equiv 2^7 \\pmod{13} \\equiv 128 \\pmod{13} \\equiv 3$\n\n$B \\equiv g^b \\pmod{p} \\equiv 2^5 \\pmod{13} \\equiv 32 \\pmod{13} \\equiv 6$\n\nNow, Alice and Bob can compute the shared secret key using each other's public keys.\n\nAlice computes the secret key as $K_A \\equiv B^a \\pmod{p} \\equiv 6^7 \\pmod{13}$.\n\nBob computes the secret key as $K_B \\equiv A^b \\pmod{p} \\equiv 3^5 \\pmod{13}$.\n\nLet's calculate $K_A$ and $K_B$:\n\n$K_A \\equiv 6^7 \\pmod{13} \\equiv 279936 \\pmod{13} \\equiv 10$\n\n$K_B \\equiv 3^5 \\pmod{13} \\equiv 243 \\pmod{13} \\equiv 10$\n\nBoth Alice and Bob have calculated the same secret key, which is $10$. They can now use this secret key for secure communication."
+}

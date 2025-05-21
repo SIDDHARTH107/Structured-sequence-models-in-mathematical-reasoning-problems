@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Riemann mapping theorem and its applications",
+    "message_1": "Consider the unit disc $D=\\{z\\in \\mathbb{C}:|z|<1\\}$. Find a biholomorphic map $f:D\\rightarrow \\{z\\in \\mathbb{C}:\\text{Re}(z)>0\\}$ that sends $0\\mapsto 1$.",
+    "message_2": "To find a biholomorphic map from the unit disc D to the right half-plane, we can compose several well-known conformal maps.\n\n1. First, map the unit disc D to the upper half-plane. This can be done using the Möbius transformation:\n\n$$g_1(z) = \\frac{z - i}{z + i}$$\n\nNote that $g_1(0) = -1$.\n\n2. Next, map the upper half-plane to itself such that $-1$ is mapped to $0$. This can be done using another Möbius transformation:\n\n$$g_2(z) = z + 1$$\n\nNow, $g_2(-1) = 0$.\n\n3. Finally, map the upper half-plane to the right half-plane. This can be done using the exponential function:\n\n$$g_3(z) = e^{\\frac{\\pi z}{2}}$$\n\nNow, we can define the biholomorphic map $f$ as the composition of these three maps:\n\n$$f(z) = g_3(g_2(g_1(z))) = e^{\\frac{\\pi}{2}(g_1(z) + 1)} = e^{\\frac{\\pi}{2}\\left(\\frac{z - i}{z + i} + 1\\right)}$$\n\nLet's check that $f(0) = 1$:\n\n$$f(0) = e^{\\frac{\\pi}{2}\\left(\\frac{0 - i}{0 + i} + 1\\right)} = e^{\\frac{\\pi}{2}\\left(-1 + 1\\right)} = e^0 = 1$$\n\nThus, the biholomorphic map $f:D\\rightarrow \\{z\\in \\mathbb{C}:\\text{Re}(z)>0\\}$ that sends $0\\mapsto 1$ is:\n\n$$f(z) = e^{\\frac{\\pi}{2}\\left(\\frac{z - i}{z + i} + 1\\right)}$$"
+}

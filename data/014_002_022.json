@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Diffie-Hellman key exchange",
+    "message_1": "Alice and Bob are using Diffie-Hellman key exchange with a prime number p = 23 and primitive root α = 5. Alice's private key is a = 6 and Bob's private key is b = 15. Calculate the secret key they will share.",
+    "message_2": "First, Alice and Bob will compute their public keys. \n\nAlice's public key (A) can be calculated as follows:\nA = α^a mod p\nA = 5^6 mod 23\nA = 15625 mod 23\nA = 8\n\nBob's public key (B) can be calculated as follows:\nB = α^b mod p\nB = 5^15 mod 23\nB = 30517578125 mod 23\nB = 19\n\nNow, Alice and Bob will compute the shared secret key using each other's public keys.\n\nAlice computes the shared secret key (S) as follows:\nS = B^a mod p\nS = 19^6 mod 23\nS = 47045881 mod 23\nS = 2\n\nBob computes the shared secret key (S) as follows:\nS = A^b mod p\nS = 8^15 mod 23\nS = 35184372088832 mod 23\nS = 2\n\nBoth Alice and Bob have calculated the same shared secret key, S = 2."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Number theory",
+    "sub_topic": "Diffie-Hellman key exchange.",
+    "message_1": "Bob and Alice want to communicate securely over an insecure channel. They decide to use the Diffie-Hellman key exchange method.\n\n- Bob chooses a prime number p=11 and a base g=2.\n- Alice chooses a secret number a=4 and calculates A=g^a mod p.\n- Bob chooses a secret number b=3 and calculates B=g^b mod p.\n\nWhat is the value of the shared secret key that Bob and Alice can use for secure communication?",
+    "message_2": "First, let's calculate A and B:\n\nA = g^a mod p = 2^4 mod 11 = 16 mod 11 = 5\n\nB = g^b mod p = 2^3 mod 11 = 8 mod 11 = 8\n\nNow, both Alice and Bob can compute the shared secret key using each other's public values:\n\nAlice computes the shared secret key as: K_A = B^a mod p = 8^4 mod 11 = 4096 mod 11 = 3\n\nBob computes the shared secret key as: K_B = A^b mod p = 5^3 mod 11 = 125 mod 11 = 3\n\nSince K_A = K_B, the shared secret key is 3."
+}

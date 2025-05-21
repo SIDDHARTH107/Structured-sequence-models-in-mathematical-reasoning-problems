@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Solving homogeneous systems of linear equations",
+    "message_1": "Solve the following homogeneous system of equations using row reduction:\n\nx + 2y - 3z = 0\n\n2x + 5y - 7z = 0\n\n5x + 13y - 17z = 0",
+    "message_2": "To solve the homogeneous system of equations using row reduction, we first write the augmented matrix:\n\n```\n[ 1  2 -3 | 0 ]\n[ 2  5 -7 | 0 ]\n[ 5 13 -17| 0 ]\n```\n\nNow, we perform row reduction to get the matrix in row-echelon form:\n\nStep 1: Subtract 2 times the first row from the second row, and subtract 5 times the first row from the third row:\n\n```\n[ 1  2 -3 | 0 ]\n[ 0  1 -1 | 0 ]\n[ 0  3 -2 | 0 ]\n```\n\nStep 2: Subtract 3 times the second row from the third row:\n\n```\n[ 1  2 -3 | 0 ]\n[ 0  1 -1 | 0 ]\n[ 0  0  1 | 0 ]\n```\n\nNow the matrix is in row-echelon form. We can write the system of equations corresponding to this matrix:\n\n```\nx + 2y - 3z = 0\n    y -  z = 0\n          z = 0\n```\n\nFrom the last equation, we have z = 0. Substituting this into the second equation, we get y = 0. Finally, substituting y and z into the first equation, we get x = 0.\n\nSo the solution to the homogeneous system of equations is x = 0, y = 0, and z = 0."
+}

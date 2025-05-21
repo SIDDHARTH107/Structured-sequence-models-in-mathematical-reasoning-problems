@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Optimization",
+    "sub_topic": "Optimal routing",
+    "message_1": "A delivery company has three drivers and six delivery locations. Each driver can only visit two locations. The distance (in kilometers) between each location is given in the table below. \n\n| Location | 1 | 2 | 3 | 4 | 5 | 6 |\n| --- | --- | --- | --- | --- | --- | --- |\n| 1 | 0 | 10 | 20 | 15 | 30 | 25 |\n| 2 | 10 | 0 | 25 | 35 | 20 | 30 |\n| 3 | 20 | 25 | 0 | 30 | 15 | 10 |\n| 4 | 15 | 35 | 30 | 0 | 40 | 20 |\n| 5 | 30 | 20 | 15 | 40 | 0 | 45 |\n| 6 | 25 | 30 | 10 | 20 | 45 | 0 |\n\nWhat is the optimal routing plan for the drivers so that the total distance traveled by all three drivers is minimized?",
+    "message_2": "To find the optimal routing plan, we need to find the shortest distance for each driver to visit two locations. We can do this by analyzing the distance table and finding the shortest distances between locations.\n\n1. Driver 1: The shortest distance is between locations 1 and 2, with a distance of 10 km.\n2. Driver 2: The next shortest distance is between locations 3 and 6, with a distance of 10 km.\n3. Driver 3: The remaining shortest distance is between locations 4 and 5, with a distance of 40 km.\n\nSo, the optimal routing plan for the drivers is:\n\n- Driver 1: Location 1 → Location 2\n- Driver 2: Location 3 → Location 6\n- Driver 3: Location 4 → Location 5\n\nThe total distance traveled by all three drivers is 10 km + 10 km + 40 km = 60 km."
+}

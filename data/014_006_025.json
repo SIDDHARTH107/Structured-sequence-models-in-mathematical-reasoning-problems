@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "One-time pad encryption",
+    "message_1": "Alice wants to send a secret message \"HELLO\" to Bob using the one-time pad encryption. Alice has the key \"MATHS\" and she converts the message and the key into a series of numbers using A=0, B=1, C=2, and so on. What is the encrypted message that Alice sends to Bob?",
+    "message_2": "To encrypt the message using the one-time pad, Alice needs to convert the message and the key into a series of numbers using the given conversion (A=0, B=1, C=2, and so on). Then, she will add the corresponding numbers of the message and the key modulo 26 (since there are 26 letters in the alphabet).\n\nMessage: HELLO\nKey: MATHS\n\nConvert the message and the key into numbers:\nHELLO -> H=7, E=4, L=11, L=11, O=14 -> 7 4 11 11 14\nMATHS -> M=12, A=0, T=19, H=7, S=18 -> 12 0 19 7 18\n\nNow, add the corresponding numbers of the message and the key modulo 26:\n(7+12) mod 26 = 19\n(4+0) mod 26 = 4\n(11+19) mod 26 = 4\n(11+7) mod 26 = 18\n(14+18) mod 26 = 6\n\nThe encrypted message in numbers is: 19 4 4 18 6\n\nNow, convert the numbers back into letters:\n19=T, 4=E, 4=E, 18=R, 6=F\n\nThe encrypted message that Alice sends to Bob is \"TEERF\"."
+}

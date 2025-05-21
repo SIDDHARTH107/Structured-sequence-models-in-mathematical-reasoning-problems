@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Combinatorial designs",
+    "message_1": "A company has 8 employees, and they need to form 3 teams with equal numbers of members. In how many ways can they do this if each team must have 2 members?",
+    "message_2": "To solve this problem, we can use the combination formula, which is C(n, k) = n! / (k!(n-k)!), where n is the total number of items, k is the number of items to choose, and ! denotes the factorial.\n\nFirst, we need to choose 2 employees out of 8 for the first team. This can be done in C(8, 2) ways.\n\nNext, we need to choose 2 employees out of the remaining 6 for the second team. This can be done in C(6, 2) ways.\n\nFinally, the last 2 employees will automatically form the third team.\n\nSo, the total number of ways to form the teams is:\n\nC(8, 2) * C(6, 2) = (8! / (2! * 6!)) * (6! / (2! * 4!))\n\n= (8 * 7 / 2) * (6 * 5 / 2)\n\n= 28 * 15\n\n= 420\n\nTherefore, there are 420 ways to form 3 teams with 2 members each."
+}

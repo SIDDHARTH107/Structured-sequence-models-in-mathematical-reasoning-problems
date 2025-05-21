@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Binomial coefficients",
+    "message_1": "A bag contains 12 red balls, 7 blue balls, and 5 green balls. What is the total number of ways in which 5 balls can be selected from the bag, if exactly 3 of the balls must be red?",
+    "message_2": "To solve this problem, we will use the combination formula: C(n, r) = n! / (r!(n-r)!)\n\nFirst, we need to choose 3 red balls from the 12 available red balls. This can be done in C(12, 3) ways.\n\nC(12, 3) = 12! / (3!(12-3)!) = 12! / (3!9!) = (12 × 11 × 10) / (3 × 2 × 1) = 220 ways\n\nNext, we need to choose 2 balls from the remaining 7 blue balls and 5 green balls (total of 12 non-red balls). This can be done in C(12, 2) ways.\n\nC(12, 2) = 12! / (2!(12-2)!) = 12! / (2!10!) = (12 × 11) / (2 × 1) = 66 ways\n\nNow, to find the total number of ways to select 5 balls with exactly 3 red balls, we multiply the number of ways to choose 3 red balls by the number of ways to choose the remaining 2 non-red balls:\n\nTotal ways = 220 (ways to choose 3 red balls) × 66 (ways to choose 2 non-red balls) = 14520 ways"
+}

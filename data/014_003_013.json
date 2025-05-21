@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "ElGamal encryption and decryption",
+    "message_1": "Suppose the following:\n\n- The message to be encrypted is \"17\".\n- The prime number p is 47.\n- The primitive root modulo p is 5.\n- The private key is a=18.\n- The public key is A=32.\n\nWhat is the ciphertext produced when using ElGamal encryption to encrypt the message?",
+    "message_2": "To encrypt the message using ElGamal encryption, we need to follow these steps:\n\n1. Choose a random number k (1 < k < p-1). Let's choose k=15.\n2. Calculate B = (primitive root ^ k) mod p = (5 ^ 15) mod 47.\n3. Calculate C = (message * (public key ^ k)) mod p = (17 * (32 ^ 15)) mod 47.\n\nNow, let's calculate B and C:\n\nB = (5 ^ 15) mod 47 = 37\n\nC = (17 * (32 ^ 15)) mod 47 = (17 * 43) mod 47 = 731 mod 47 = 25\n\nSo, the ciphertext produced when using ElGamal encryption to encrypt the message is (B, C) = (37, 25)."
+}

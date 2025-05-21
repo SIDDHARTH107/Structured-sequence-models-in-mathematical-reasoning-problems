@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Logic",
+    "sub_topic": "Intuitionistic logic",
+    "message_1": "Consider the intuitionistic proposition, P & (Q ∨ R) → (P & Q) ∨ (P & R).\nWrite out the truth table for the proposition to determine if it is a tautology or a contradiction.",
+    "message_2": "To determine if the given proposition is a tautology or a contradiction, we will create a truth table for all possible combinations of P, Q, and R. \n\nHere's the truth table:\n\nP | Q | R | Q ∨ R | P & (Q ∨ R) | P & Q | P & R | (P & Q) ∨ (P & R) | P & (Q ∨ R) → (P & Q) ∨ (P & R)\n-------------------------------------------------------------------------------------------\nT | T | T |   T   |      T      |   T   |   T   |         T         |               T\nT | T | F |   T   |      T      |   T   |   F   |         T         |               T\nT | F | T |   T   |      T      |   F   |   T   |         T         |               T\nT | F | F |   F   |      F      |   F   |   F   |         F         |               T\nF | T | T |   T   |      F      |   F   |   F   |         F         |               T\nF | T | F |   T   |      F      |   F   |   F   |         F         |               T\nF | F | T |   T   |      F      |   F   |   F   |         F         |               T\nF | F | F |   F   |      F      |   F   |   F   |         F         |               T\n\nAs we can see from the truth table, the proposition P & (Q ∨ R) → (P & Q) ∨ (P & R) is true for all possible combinations of P, Q, and R. Therefore, it is a tautology."
+}

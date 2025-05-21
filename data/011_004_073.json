@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Multinomial coefficients",
+    "message_1": "Suppose a committee of 8 people is to be formed from a group of 10 people where 2 of them are engineers, 3 are accountants and 5 are lawyers. In how many ways can the committee be formed if the engineers and accountants cannot be in the committee at the same time?",
+    "message_2": "To solve this problem, we will consider two cases: \n\nCase 1: The committee includes engineers but no accountants.\nIn this case, we must choose both engineers and select 6 additional members from the 5 lawyers. The number of ways to do this is C(2,2) * C(5,6) = 1 * 0 = 0 (since it's not possible to choose 6 lawyers from a group of 5).\n\nCase 2: The committee includes accountants but no engineers.\nIn this case, we must choose all 3 accountants and select 5 additional members from the 5 lawyers. The number of ways to do this is C(3,3) * C(5,5) = 1 * 1 = 1.\n\nTherefore, there is only 1 way to form the committee with the given constraints."
+}

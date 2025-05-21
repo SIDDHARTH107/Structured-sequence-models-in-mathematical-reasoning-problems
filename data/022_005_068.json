@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Residue calculus and its applications",
+    "message_1": "Find the residue of the function f(z) = (e^z)/(z^3 - 8) at the pole located at z = 2i.",
+    "message_2": "To find the residue of the function f(z) = (e^z)/(z^3 - 8) at the pole z = 2i, we first need to factor the denominator and identify the order of the pole.\n\nThe denominator can be factored using the difference of cubes formula:\n\nz^3 - 8 = (z - 2)(z^2 + 2z + 4)\n\nNow we can see that the pole z = 2i is a simple pole (order 1) since it is a root of the linear factor (z - 2). \n\nTo find the residue, we can use the formula for simple poles:\n\nRes[f(z), 2i] = lim (z -> 2i) [(z - 2i) * f(z)]\n\nRes[f(z), 2i] = lim (z -> 2i) [(z - 2i) * (e^z) / ((z - 2)(z^2 + 2z + 4))]\n\nNow we need to evaluate the limit as z approaches 2i:\n\nRes[f(z), 2i] = (e^(2i)) / ((2i - 2)((2i)^2 + 2(2i) + 4))\n\nRes[f(z), 2i] = (e^(2i)) / ((2i - 2)(-4 + 4i + 4))\n\nRes[f(z), 2i] = (e^(2i)) / (4i)\n\nRecall that e^(2i) = cos(2) + i*sin(2) (Euler's formula). Therefore,\n\nRes[f(z), 2i] = (cos(2) + i*sin(2)) / (4i)\n\nSo, the residue of the function f(z) = (e^z)/(z^3 - 8) at the pole z = 2i is (cos(2) + i*sin(2)) / (4i)."
+}

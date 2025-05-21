@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Complex analysis of integral equations",
+    "message_1": "Calculate the Cauchy principal value of the integral of ( 3z + 1 ) / ( z -1 ) over the contour |z| = 2, where the cut is taken along the positive real axis.",
+    "message_2": "To calculate the Cauchy principal value of the integral of (3z + 1) / (z - 1) over the contour |z| = 2, we can use the residue theorem. The residue theorem states that for a function f(z) with a simple pole at z = a, the integral of f(z) around a closed contour C containing the pole is given by:\n\n∮(f(z)dz) = 2πi * Res(f(z), a)\n\nIn our case, f(z) = (3z + 1) / (z - 1), which has a simple pole at z = 1. Since the contour |z| = 2 contains this pole, we can apply the residue theorem.\n\nFirst, we need to find the residue of f(z) at z = 1. To do this, we can use the formula:\n\nRes(f(z), a) = lim (z -> a) [(z - a) * f(z)]\n\nRes(f(z), 1) = lim (z -> 1) [(z - 1) * (3z + 1) / (z - 1)]\n\nAs z approaches 1, the (z - 1) terms cancel out, leaving:\n\nRes(f(z), 1) = 3(1) + 1 = 4\n\nNow, we can apply the residue theorem:\n\n∮(f(z)dz) = 2πi * Res(f(z), 1) = 2πi * 4 = 8πi\n\nSo, the Cauchy principal value of the integral of (3z + 1) / (z - 1) over the contour |z| = 2 is 8πi."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Number theory",
+    "sub_topic": "Fermat's little theorem",
+    "message_1": "What is the remainder when 7³⁶ is divided by 13? (Hint: Use Fermat's little theorem)",
+    "message_2": "Fermat's Little Theorem states that if p is a prime number, then for any integer a, a^p ≡ a (mod p). In other words, a^p - a is divisible by p. \n\nIn this problem, we want to find the remainder when 7^36 is divided by 13. Since 13 is a prime number, we can apply Fermat's Little Theorem. According to the theorem, 7^13 ≡ 7 (mod 13). \n\nNow, let's rewrite 7^36 as (7^13)^2 * 7^10. We know that 7^13 ≡ 7 (mod 13), so (7^13)^2 ≡ 7^2 (mod 13). \n\nNext, we need to find the remainder when 7^10 is divided by 13. We can rewrite 7^10 as (7^13)^1 * 7^(-3). Since 7^13 ≡ 7 (mod 13), we have 7^10 ≡ 7 * 7^(-3) (mod 13). \n\nTo find the inverse of 7^3 (mod 13), we can use the fact that 7^12 ≡ 1 (mod 13) by Fermat's Little Theorem. Therefore, 7^(-3) ≡ 7^9 (mod 13). \n\nNow, we have 7^10 ≡ 7 * 7^9 (mod 13). We can compute 7^9 (mod 13) as follows:\n\n7^2 ≡ 49 ≡ -3 (mod 13)\n7^4 ≡ (-3)^2 ≡ 9 (mod 13)\n7^8 ≡ 9^2 ≡ 81 ≡ 3 (mod 13)\n7^9 ≡ 7 * 3 ≡ 21 ≡ 8 (mod 13)\n\nSo, 7^10 ≡ 7 * 8 ≡ 56 ≡ -3 (mod 13). \n\nFinally, we can find the remainder when 7^36 is divided by 13:\n\n7^36 ≡ (7^13)^2 * 7^10 ≡ 7^2 * (-3) ≡ 49 * (-3) ≡ -147 ≡ 4 (mod 13)\n\nTherefore, the remainder when 7^36 is divided by 13 is 4."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Optimization",
+    "sub_topic": "Robust optimization",
+    "message_1": "A manufacturing company produces two types of products, A and B. The profit from type A is $4 and from type B is $6. The company can produce up to 1000 units of product A and up to 800 units of product B. The demand for product A cannot exceed 400 units while the demand for product B cannot exceed 700 units. However, the actual demand for each product may vary at most by 10%. Formulate a robust optimization problem to maximize the profit of the company.",
+    "message_2": "Let x_A and x_B be the number of units produced for product A and product B, respectively. The objective is to maximize the profit, which can be represented as:\n\nObjective: Maximize P = 4x_A + 6x_B\n\nSubject to the following constraints:\n\n1. Production capacity constraints:\nx_A ≤ 1000\nx_B ≤ 800\n\n2. Demand constraints:\n0.9 * 400 ≤ x_A ≤ 1.1 * 400\n0.9 * 700 ≤ x_B ≤ 1.1 * 700\n\nSimplifying the demand constraints:\n360 ≤ x_A ≤ 440\n630 ≤ x_B ≤ 770\n\nThe robust optimization problem can be formulated as:\n\nMaximize P = 4x_A + 6x_B\n\nSubject to:\nx_A ≤ 1000\nx_B ≤ 800\n360 ≤ x_A ≤ 440\n630 ≤ x_B ≤ 770\n\nThe solution to this problem will provide the optimal number of units to produce for each product type to maximize the profit while considering the variability in demand."
+}

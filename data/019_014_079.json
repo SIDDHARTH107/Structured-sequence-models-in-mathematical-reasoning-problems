@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Logic",
+    "sub_topic": "Higher-order logic",
+    "message_1": "Let P(x) be the statement \"x is a prime number.\" Consider the following statement:\n∀f, g : ℕ→ℕ, ∃x∈ℕ, f(x)+g(x) is a prime number.\n\nShow that the statement is true or false by providing a counterexample.",
+    "message_2": "The statement is false. We can provide a counterexample by finding two functions f and g such that for all natural numbers x, f(x) + g(x) is not a prime number.\n\nLet f(x) = 2x and g(x) = 2. Then, for any natural number x, we have:\n\nf(x) + g(x) = 2x + 2 = 2(x + 1)\n\nSince x is a natural number, x + 1 is also a natural number. Thus, 2(x + 1) is a multiple of 2, which means it is an even number. Since all even numbers greater than 2 are not prime, f(x) + g(x) is not a prime number for any natural number x.\n\nTherefore, the statement is false, as we have provided a counterexample with functions f(x) = 2x and g(x) = 2."
+}

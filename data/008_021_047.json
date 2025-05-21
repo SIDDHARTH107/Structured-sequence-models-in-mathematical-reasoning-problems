@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Solving systems of linear equations with singular matrices",
+    "message_1": "Consider the system of equations:\n\nx + y = 5 \n\n2x + 2y = 10 \n\n3x + 3y = 15 \n\nUsing linear algebra, determine whether the system has a unique solution or infinitely many solutions or no solution.",
+    "message_2": "First, let's write the system of equations as an augmented matrix:\n\n```\n| 1  1 | 5\n| 2  2 | 10\n| 3  3 | 15\n```\n\nNext, we perform Gaussian elimination to row reduce the matrix to its row echelon form.\n\n1. Subtract 2 times the first row from the second row:\n\n```\n| 1  1 | 5\n| 0  0 | 0\n| 3  3 | 15\n```\n\n2. Subtract 3 times the first row from the third row:\n\n```\n| 1  1 | 5\n| 0  0 | 0\n| 0  0 | 0\n```\n\nThe row reduced matrix has a row of zeros, which means that the system of equations is dependent. Since there is no inconsistency (e.g., 0 = nonzero number), the system has infinitely many solutions."
+}

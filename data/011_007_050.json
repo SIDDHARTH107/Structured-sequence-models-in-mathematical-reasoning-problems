@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Recurrence relations",
+    "message_1": "Suppose a company has 10 employees, and each employee has a unique job title. The company decides to reorganize and shuffle the job titles among its employees. In how many ways can the company reassign the job titles such that no employee retains their original job title?",
+    "message_2": "This problem can be solved using the concept of derangements. A derangement is a permutation of a set of objects such that no object appears in its original position. The number of derangements of a set of n objects is denoted by D(n) or !n.\n\nThere is a recursive formula for calculating derangements: D(n) = (n - 1) * (D(n - 1) + D(n - 2))\n\nWe can use this formula to find the number of derangements for 10 employees:\n\nD(0) = 1\nD(1) = 0\nD(2) = 1\nD(3) = 2\nD(4) = 9\nD(5) = 44\nD(6) = 265\nD(7) = 1854\nD(8) = 14833\nD(9) = 133496\nD(10) = 1334960 - 133496 = 1210809\n\nSo, there are 1,210,809 ways to reassign the job titles such that no employee retains their original job title."
+}

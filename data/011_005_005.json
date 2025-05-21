@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Combinatorial identities",
+    "message_1": "How many ways can you choose 3 out of 10 different colors and paint a fence with those colors if each color can be used multiple times?",
+    "message_2": "Since each color can be used multiple times, we can use the combination with repetition formula to solve this problem. The formula for combinations with repetition is:\n\nC(n + r - 1, r) = C(n + r - 1, n - 1)\n\nwhere n is the number of different colors (10 in this case) and r is the number of colors to be chosen (3 in this case).\n\nC(10 + 3 - 1, 3) = C(12, 3) = 12! / (3! * (12 - 3)!)\n\nC(12, 3) = 12! / (3! * 9!)\n\nC(12, 3) = (12 * 11 * 10 * 9!)/(3! * 9!)\n\nC(12, 3) = (12 * 11 * 10)/(3 * 2 * 1)\n\nC(12, 3) = 220\n\nSo, there are 220 ways to choose 3 out of 10 different colors and paint a fence with those colors if each color can be used multiple times."
+}

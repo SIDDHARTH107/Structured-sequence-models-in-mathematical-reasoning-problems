@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Polya's enumeration theorem",
+    "message_1": "In how many distinct ways can the letters of the word \"STATISTICS\" be arranged such that no two S's are adjacent?",
+    "message_2": "First, let's count the number of each letter in the word \"STATISTICS\":\n- S: 3\n- T: 3\n- A: 1\n- I: 2\n- C: 1\n\nNow, let's arrange the other letters (T, A, I, and C) first. There are 7 positions in total (3 T's, 1 A, 2 I's, and 1 C). We can arrange these letters in 7!/(3!2!1!) ways, considering the repetitions of T and I.\n\n7!/(3!2!1!) = 5,040/(6*2) = 420 ways\n\nNow, we need to place the 3 S's in the arrangement such that no two S's are adjacent. There are 8 possible positions for the S's (before and after each of the 7 letters, plus one at the end). We need to choose 3 of these positions for the S's.\n\nThe number of ways to do this is given by the combination formula: C(n, k) = n!/(k!(n-k)!)\n\nC(8, 3) = 8!/(3!5!) = 56 ways\n\nFinally, we multiply the number of ways to arrange the other letters (420) by the number of ways to place the S's (56) to get the total number of distinct arrangements:\n\n420 * 56 = 23,520\n\nSo there are 23,520 distinct ways to arrange the letters of the word \"STATISTICS\" such that no two S's are adjacent."
+}

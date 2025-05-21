@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Solving non-homogeneous systems of linear equations",
+    "message_1": "Solve the non-homogeneous system of linear equations:\n\n2x + y + z = 7\n\nx - y + 3z = 5\n\n3x + 2y - z = 8",
+    "message_2": "To solve the non-homogeneous system of linear equations, we can use the Gaussian elimination method. First, write the augmented matrix for the given system:\n\n| 2  1  1 | 7 |\n| 1 -1  3 | 5 |\n| 3  2 -1 | 8 |\n\nStep 1: Swap the first and second rows to get a 1 in the top-left corner:\n\n| 1 -1  3 | 5 |\n| 2  1  1 | 7 |\n| 3  2 -1 | 8 |\n\nStep 2: Eliminate the 2 and 3 in the first column of the second and third rows:\n\nRow2 = Row2 - 2*Row1:\n| 1 -1  3 |  5 |\n| 0  3 -5 | -3 |\n| 3  2 -1 |  8 |\n\nRow3 = Row3 - 3*Row1:\n| 1 -1  3 |  5 |\n| 0  3 -5 | -3 |\n| 0  5 -8 | -7 |\n\nStep 3: Divide the second row by 3 to get a 1 in the second row and second column:\n\n| 1 -1  3 |  5 |\n| 0  1 -5/3 | 1 |\n| 0  5 -8 | -7 |\n\nStep 4: Eliminate the 5 in the second column of the third row:\n\nRow3 = Row3 - 5*Row2:\n| 1 -1  3  |  5 |\n| 0  1 -5/3 |  1 |\n| 0  0  1  | -2 |\n\nNow we have an upper triangular matrix, and we can use back-substitution to find the solution:\n\nz = -2\n\ny = 1 + (5/3)*(-2) = 1 - 10/3 = (3 - 10)/3 = -7/3\n\nx = 1 + (-1)*(-7/3) + 3*(-2) = 1 + 7/3 - 6 = (3 + 7 - 18)/3 = -8/3\n\nSo the solution to the system of linear equations is:\n\nx = -8/3, y = -7/3, and z = -2."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Trigonometry",
+    "sub_topic": "Finding the integral of a trigonometric function",
+    "message_1": "Find the value of the integral $\\int_0^{\\frac{\\pi}{4}}\\cos^3(x)\\sin(x)dx$.",
+    "message_2": "To solve the integral $\\int_0^{\\frac{\\pi}{4}}\\cos^3(x)\\sin(x)dx$, we can use integration by substitution. Let's use the substitution:\n\n$u = \\cos(x)$\n\nThen, we have:\n\n$du = -\\sin(x)dx$\n\nNow, we can rewrite the integral in terms of $u$:\n\n$\\int_0^{\\frac{\\pi}{4}}\\cos^3(x)\\sin(x)dx = -\\int u^3 du$\n\nWe also need to change the limits of integration. When $x = 0$, we have:\n\n$u = \\cos(0) = 1$\n\nAnd when $x = \\frac{\\pi}{4}$, we have:\n\n$u = \\cos(\\frac{\\pi}{4}) = \\frac{1}{\\sqrt{2}}$\n\nNow, we can evaluate the integral:\n\n$-\\int_1^{\\frac{1}{\\sqrt{2}}} u^3 du = -\\left[\\frac{u^4}{4}\\right]_1^{\\frac{1}{\\sqrt{2}}}$\n\n$= -\\left[\\frac{(\\frac{1}{\\sqrt{2}})^4}{4} - \\frac{1^4}{4}\\right]$\n\n$= -\\left[\\frac{1}{8} - \\frac{1}{4}\\right]$\n\n$= -\\left[-\\frac{1}{8}\\right]$\n\n$= \\frac{1}{8}$\n\nSo, the value of the integral $\\int_0^{\\frac{\\pi}{4}}\\cos^3(x)\\sin(x)dx$ is $\\frac{1}{8}$."
+}

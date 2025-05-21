@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Logic",
+    "sub_topic": "Predicate logic",
+    "message_1": "Here's a problem you can give to a math student on Predicate Logic:\n\nLet P(x) be the predicate \"x is a prime number\" and Q(x) be the predicate \"x is greater than 5\". What is the truth value of the statement: \n\n∀x [Q(x) → P(x)]\n\nwhere the domain of x is the set of positive integers?\n\nThe student would need to determine whether the statement is true or false, and provide a logical explanation for their answer.",
+    "message_2": "The statement ∀x [Q(x) → P(x)] can be read as \"For all positive integers x, if x is greater than 5, then x is a prime number.\" To determine the truth value of this statement, we need to check if it holds true for all positive integers x.\n\nWe can quickly find a counterexample: let x = 6. Since 6 is greater than 5, Q(6) is true. However, 6 is not a prime number, as it has factors 1, 2, 3, and 6. Therefore, P(6) is false. According to the statement, if Q(x) is true, then P(x) must also be true, but in this case, it is not.\n\nSince we found a counterexample, the statement ∀x [Q(x) → P(x)] is false."
+}

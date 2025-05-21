@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Ramsey theory",
+    "message_1": "Suppose there are 6 guests at a party. Among them, some are friends with each other and some are strangers. What is the minimum number of guests who must be friends with each other or at least strangers with each other, in order to guarantee that there are 3 guests who are all friends or 3 guests who are all strangers?",
+    "message_2": "We can solve this problem using the Pigeonhole Principle. Let's consider one guest, say guest A. There are 5 other guests, so guest A must either be friends with at least 3 of them or be strangers with at least 3 of them. Without loss of generality, let's assume guest A is friends with at least 3 other guests.\n\nNow, let's consider the 3 guests that are friends with guest A: B, C, and D. If any one of these 3 guests (B, C, or D) is friends with another one among them, then we have a group of 3 friends (A, and the two friends among B, C, and D). If none of them are friends with each other, then B, C, and D form a group of 3 strangers.\n\nIn either case, we are guaranteed to have a group of 3 guests who are all friends or 3 guests who are all strangers. Therefore, the minimum number of guests who must be friends with each other or at least strangers with each other is 3."
+}

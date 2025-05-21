@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Bell numbers",
+    "message_1": "A company has 10 employees and wants to form teams of any size from 1 to 10 members. How many possible ways are there to form teams if at least 1 member must be in each team? (Hint: use the Bell number formula).",
+    "message_2": "The Bell number B(n) is the number of ways to partition a set of n elements into non-empty subsets. In this case, we have n = 10 employees. The Bell number can be calculated using the Bell triangle or the Dobinski formula. We will use the Bell triangle method.\n\nThe Bell triangle is constructed as follows:\n1. The first row starts with B(0) = 1.\n2. For each subsequent row, the first element is the last element of the previous row.\n3. Each element in the row is the sum of the element above it and the element to the left of the element above it.\n\nThe first few rows of the Bell triangle look like this:\n\n1\n1  2\n2  3  5\n5  7 10 15\n...\n\nWe will continue this process until we reach the 11th row (since we started with B(0), the 11th row will give us B(10)):\n\n15  20  27  37  52  67  87  114  151  203  255\n\nSo, B(10) = 255.\n\nThere are 255 possible ways to form teams of any size from 1 to 10 members, with at least 1 member in each team."
+}

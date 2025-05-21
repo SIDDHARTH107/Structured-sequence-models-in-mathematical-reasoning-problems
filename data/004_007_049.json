@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Calculus",
+    "sub_topic": "Using the chain rule to differentiate composite functions",
+    "message_1": "Let f(x) = 4x^3 - 7x^2 + 2x and g(x) = sin(x). Find f'(g(x)) using the chain rule.",
+    "message_2": "To find f'(g(x)), we will use the chain rule. The chain rule states that if we have a composite function h(x) = f(g(x)), then the derivative h'(x) = f'(g(x)) * g'(x).\n\nFirst, let's find the derivative of f(x) and g(x).\n\nf(x) = 4x^3 - 7x^2 + 2x\nf'(x) = d/dx(4x^3 - 7x^2 + 2x) = 12x^2 - 14x + 2\n\ng(x) = sin(x)\ng'(x) = d/dx(sin(x)) = cos(x)\n\nNow, we will find f'(g(x)).\n\nf'(g(x)) = 12(g(x))^2 - 14g(x) + 2\nf'(g(x)) = 12(sin(x))^2 - 14sin(x) + 2\n\nFinally, we will find the derivative of the composite function f(g(x)) using the chain rule.\n\nh'(x) = f'(g(x)) * g'(x)\nh'(x) = (12(sin(x))^2 - 14sin(x) + 2) * cos(x)\n\nSo, f'(g(x)) = (12(sin(x))^2 - 14sin(x) + 2) * cos(x)."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Singularities of complex functions",
+    "message_1": "Consider the complex function $f(z)=\\dfrac{z-2}{(z+2)(z-1)^2}$. Determine the type, location, and order of the singularities of $f(z)$.",
+    "message_2": "To determine the type, location, and order of the singularities of the function $f(z) = \\frac{z-2}{(z+2)(z-1)^2}$, we first need to find the points where the function is not analytic. These points occur when the denominator of the function is equal to zero.\n\nThe denominator is $(z+2)(z-1)^2$. Setting this equal to zero, we find the following singularities:\n\n1. $z+2=0 \\Rightarrow z=-2$\n2. $(z-1)^2=0 \\Rightarrow z=1$\n\nNow, let's determine the type and order of these singularities.\n\n1. For $z=-2$, we can rewrite the function as:\n$$f(z) = \\frac{1}{(z-1)^2} \\cdot \\frac{z-2}{z+2}$$\nSince $\\frac{z-2}{z+2}$ is analytic at $z=-2$, the singularity at $z=-2$ is a simple pole (order 1).\n\n2. For $z=1$, we can rewrite the function as:\n$$f(z) = \\frac{z-2}{(z+2)} \\cdot \\frac{1}{(z-1)^2}$$\nSince $\\frac{z-2}{z+2}$ is analytic at $z=1$, the singularity at $z=1$ is a pole of order 2.\n\nIn summary, the function $f(z) = \\frac{z-2}{(z+2)(z-1)^2}$ has the following singularities:\n\n1. A simple pole (order 1) at $z=-2$.\n2. A pole of order 2 at $z=1$."
+}

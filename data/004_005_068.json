@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Calculus",
+    "sub_topic": "Solving differential equations",
+    "message_1": "Sure! Here's a differential equation problem for the student:\n\nFind the general solution of the differential equation y' + y = 2x, given that y(0) = 1.",
+    "message_2": "To solve the given first-order linear differential equation y' + y = 2x, we will use an integrating factor.\n\nFirst, rewrite the equation in the form y' + P(x)y = Q(x), where P(x) = 1 and Q(x) = 2x.\n\nNext, find the integrating factor, which is given by the formula μ(x) = e^(∫P(x)dx). In this case, μ(x) = e^(∫1dx) = e^x.\n\nNow, multiply the entire differential equation by the integrating factor e^x:\n\ne^x * (y' + y) = e^x * 2x\n\nThis simplifies to (y * e^x)' = 2x * e^x.\n\nNow, integrate both sides with respect to x:\n\n∫(y * e^x)' dx = ∫2x * e^x dx\n\nTo solve the integral on the right side, we can use integration by parts:\n\nLet u = 2x, dv = e^x dx\ndu = 2 dx, v = e^x\n\nUsing the integration by parts formula, ∫udv = uv - ∫vdu:\n\n∫2x * e^x dx = 2x * e^x - ∫2 * e^x dx\n\nNow, integrate the remaining term:\n\n2x * e^x - 2 * ∫e^x dx = 2x * e^x - 2 * e^x + C\n\nNow, we have:\n\ny * e^x = 2x * e^x - 2 * e^x + C\n\nTo find the general solution, divide by e^x:\n\ny(x) = 2x - 2 + C * e^(-x)\n\nNow, we are given the initial condition y(0) = 1. Plug this into the general solution:\n\n1 = 2(0) - 2 + C * e^(0)\n\n1 = -2 + C\n\nC = 3\n\nSo, the particular solution is:\n\ny(x) = 2x - 2 + 3 * e^(-x)"
+}

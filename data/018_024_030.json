@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Set theory",
+    "sub_topic": "Prove that the symmetric difference of two sets is not distributive over complement.",
+    "message_1": "Let A = {1, 2, 3, 4} and B = {3, 4, 5}. Find the symmetric difference of `(A ∆ B)` and `(A' ∆ B')`, where the complement of a set A is denoted by A'.",
+    "message_2": "To find the symmetric difference of `(A ∆ B)` and `(A' ∆ B')`, we first need to find the symmetric differences of A and B, and their complements.\n\nThe symmetric difference of two sets is the set of elements which are in either of the sets, but not in their intersection. So, we have:\n\n`A ∆ B` = (A - B) ∪ (B - A) = {1, 2} ∪ {5} = {1, 2, 5}\n\nNow, let's find the complements of A and B. The complement of a set is the set of all elements in the universal set that are not in the given set. Assuming the universal set U contains all the elements in A and B, we have:\n\nU = {1, 2, 3, 4, 5}\n\n`A'` = U - A = {3, 5}\n`B'` = U - B = {1, 2}\n\nNow, we can find the symmetric difference of `A'` and `B'`:\n\n`A' ∆ B'` = (`A'` - `B'`) ∪ (`B'` - `A'`) = {3} ∪ {} = {3}\n\nFinally, we can find the symmetric difference of `(A ∆ B)` and `(A' ∆ B')`:\n\n`(A ∆ B) ∆ (A' ∆ B')` = ({1, 2, 5} - {3}) ∪ ({3} - {1, 2, 5}) = {1, 2, 5} ∪ {3} = {1, 2, 3, 5}"
+}

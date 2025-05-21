@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Number theory",
+    "sub_topic": "Cryptographic hash functions",
+    "message_1": "Alice wants to send Bob a secret message. She decides to use a cryptographic hash function to transform her message into a fixed-length string of letters and numbers. Alice chooses the SHA-256 hash function, which takes an input message and produces a 256-bit hash value.\n\nAlice's message consists of 6 characters, each of which can be any uppercase letter or digit. How many possible messages can Alice send using SHA-256?",
+    "message_2": "To determine the number of possible messages Alice can send, we need to calculate the number of possible combinations of characters for a 6-character message, where each character can be an uppercase letter or a digit.\n\nThere are 26 uppercase letters (A-Z) and 10 digits (0-9), so there are a total of 26 + 10 = 36 possible characters for each position in the message.\n\nSince there are 6 positions in the message, the total number of possible messages is:\n\n36^6 = 2,176,782,336\n\nSo, Alice can send 2,176,782,336 possible messages using SHA-256."
+}

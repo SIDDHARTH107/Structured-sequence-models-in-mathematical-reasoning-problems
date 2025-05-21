@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Vigenere cipher",
+    "message_1": "A message in Vigenere cipher has been encrypted using the keyword \"MATH\". The message reads \"RIUNDIVBUSO\". What is the original message? (Note: The message only contains uppercase letters.)",
+    "message_2": "To decrypt the Vigenere cipher message, we need to reverse the encryption process using the keyword \"MATH\". The Vigenere cipher uses a simple form of polyalphabetic substitution, where each letter in the plaintext is shifted along some number of positions in the alphabet based on the corresponding letter in the keyword.\n\nFirst, let's convert the keyword \"MATH\" into numerical values (A=0, B=1, C=2, ..., Z=25):\nM=12, A=0, T=19, H=7\n\nNow, we will subtract these values from the corresponding letters in the encrypted message \"RIUNDIVBUSO\" and wrap around the alphabet if necessary:\n\nR (17) - M (12) = E (4)\nI (8) - A (0) = I (8)\nU (20) - T (19) = V (21)\nN (13) - H (7) = G (6)\nD (3) - M (12) = Z (25)\nI (8) - A (0) = I (8)\nV (21) - T (19) = B (1)\nB (1) - H (7) = U (20)\nU (20) - M (12) = I (8)\nS (18) - A (0) = S (18)\nO (14) - T (19) = L (11)\n\nThe decrypted message is \"EIVGZIBUISL\"."
+}

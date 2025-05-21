@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Cryptanalysis of Vigenere cipher",
+    "message_1": "A plaintext message \"MATHEMATICS\" has been encrypted using Vigenere cipher using the keyword \"ALGEBRA\". The resulting ciphertext is \"WMKTSQPZWG\". Find the original plaintext message.",
+    "message_2": "To decrypt the ciphertext \"WMKTSQPZWG\" using the Vigenere cipher with the keyword \"ALGEBRA\", we need to reverse the encryption process. The Vigenere cipher works by shifting each letter in the plaintext by a certain number of positions, determined by the corresponding letter in the keyword.\n\nFirst, we need to repeat the keyword \"ALGEBRA\" to match the length of the ciphertext:\n\nALGEBRALG\n\nNow, we will subtract the keyword letters from the ciphertext letters (mod 26) to obtain the original plaintext:\n\nW - A = 22 - 0 = 22 -> M\nM - L = 12 - 11 = 1 -> A\nK - G = 10 - 6 = 4 -> T\nT - E = 19 - 4 = 15 -> H\nS - B = 18 - 1 = 17 -> E\nQ - R = 16 - 17 = -1 (mod 26) -> 25 -> M\nP - A = 15 - 0 = 15 -> P\nZ - L = 25 - 11 = 14 -> O\nW - G = 22 - 6 = 16 -> R\nG - E = 6 - 4 = 2 -> C\n\nThe decrypted plaintext message is \"MATHEMPORC\". However, the original plaintext message was given as \"MATHEMATICS\". It seems there was a mistake in the provided ciphertext. The correct ciphertext for the given plaintext \"MATHEMATICS\" using the keyword \"ALGEBRA\" should be \"WMKTSQPZWC\"."
+}

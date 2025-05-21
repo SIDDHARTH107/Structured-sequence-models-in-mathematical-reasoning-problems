@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Number theory",
+    "sub_topic": "Diffie-Hellman key exchange.",
+    "message_1": "Suppose that Alice and Bob want to establish a shared secret key using the Diffie-Hellman key exchange. Let p = 11 be a prime number and let g = 2 be a generator of the cyclic group modulo p. Alice chooses a secret number A = 3 and computes g^A mod p. Similarly, Bob chooses a secret number B = 5 and computes g^B mod p. \n\nWhat is the shared secret key that Alice and Bob can establish using the Diffie-Hellman key exchange?",
+    "message_2": "First, Alice computes g^A mod p, which is 2^3 mod 11 = 8. She sends this value to Bob.\n\nNext, Bob computes g^B mod p, which is 2^5 mod 11 = 10. He sends this value to Alice.\n\nNow, Alice computes the shared secret key by raising Bob's value to the power of her secret number A and taking the result modulo p: (10^3) mod 11 = 5.\n\nSimilarly, Bob computes the shared secret key by raising Alice's value to the power of his secret number B and taking the result modulo p: (8^5) mod 11 = 5.\n\nBoth Alice and Bob have arrived at the same shared secret key, which is 5."
+}

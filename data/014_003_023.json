@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "ElGamal encryption and decryption",
+    "message_1": "Suppose Alice wants to send a secret message to Bob using ElGamal encryption. They agree to use a prime number p=11 and a generator g=2. Alice's private key is a=3 and her public key is A=g^a mod p. Bob's private key is b=4 and his public key is B=g^b mod p. If Alice wants to encrypt the message M=6 for Bob, what is the ciphertext C?",
+    "message_2": "First, let's compute Alice's and Bob's public keys A and B.\n\nA = g^a mod p = 2^3 mod 11 = 8\nB = g^b mod p = 2^4 mod 11 = 5\n\nNow, Alice will choose a random number k, let's say k=2 (it should be a random number, but for simplicity, we'll use 2 in this example). Alice will compute the shared secret S and the ephemeral key K.\n\nS = B^k mod p = 5^2 mod 11 = 3\nK = g^k mod p = 2^2 mod 11 = 4\n\nNow, Alice can compute the ciphertext C as a pair of values (C1, C2).\n\nC1 = K = 4\nC2 = M * S mod p = 6 * 3 mod 11 = 18 mod 11 = 7\n\nSo, the ciphertext C is the pair (C1, C2) = (4, 7)."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Conformal mapping and its applications",
+    "message_1": "Find the conformal mapping that transforms the circle $|z-2i|=4$ onto the real axis, and maps $3i$ to $1$.",
+    "message_2": "To find the conformal mapping that transforms the circle $|z-2i|=4$ onto the real axis and maps $3i$ to $1$, we will use the following steps:\n\n1. Translate the circle to the origin.\n2. Invert the circle to a line.\n3. Translate the line to the desired position.\n\nStep 1: Translate the circle to the origin\nThe given circle has its center at $2i$. To translate it to the origin, we can subtract $2i$ from $z$. Let $w_1 = z - 2i$. Then, the circle becomes $|w_1|=4$. Also, $3i$ is mapped to $3i - 2i = i$.\n\nStep 2: Invert the circle to a line\nTo invert the circle to a line, we can use the inversion formula $w_2 = \\frac{1}{\\overline{w_1}}$. Since $w_1 = z - 2i$, we have $\\overline{w_1} = \\overline{z} + 2i$. Thus, $w_2 = \\frac{1}{\\overline{z} + 2i}$. The inversion of the circle $|w_1|=4$ is the real axis. Also, $i$ is mapped to $w_2 = \\frac{1}{\\overline{i} + 2i} = \\frac{1}{-i + 2i} = 1$.\n\nStep 3: Translate the line to the desired position\nSince the line is already on the real axis, no further translation is needed. Thus, the conformal mapping is $w = w_2 = \\frac{1}{\\overline{z} + 2i}$."
+}

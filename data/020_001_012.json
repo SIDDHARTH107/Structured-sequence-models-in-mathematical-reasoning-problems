@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Optimization",
+    "sub_topic": "Linear programming",
+    "message_1": "A furniture company manufactures tables and chairs. The company has a daily production time of 8 hours and the manufacturing process of a table takes 1 hour and uses 4 units of wood, while a chair takes 0.5 hours and uses 2 units of wood. The company has 20 units of wood available per day. If the profit from a table and chair are $30 and $20 respectively, what is the maximum daily profit that can be earned by the company?",
+    "message_2": "Let x be the number of tables and y be the number of chairs produced daily.\n\nThe constraints for the production time and wood usage are as follows:\n\n1x + 0.5y ≤ 8 (production time constraint)\n4x + 2y ≤ 20 (wood usage constraint)\n\nWe want to maximize the profit function P(x, y) = 30x + 20y.\n\nFirst, we will solve the constraint inequalities to find the feasible region:\n\n1. Production time constraint:\n\ny ≤ -2x + 16\n\n2. Wood usage constraint:\n\ny ≤ -2x + 10\n\nThe feasible region is determined by the intersection of these inequalities. The corner points of the feasible region are (0,0), (0,10), (4,4), and (8,0).\n\nNow, we will evaluate the profit function at each of these corner points:\n\nP(0,0) = 30(0) + 20(0) = $0\nP(0,10) = 30(0) + 20(10) = $200\nP(4,4) = 30(4) + 20(4) = $120 + $80 = $200\nP(8,0) = 30(8) + 20(0) = $240\n\nThe maximum daily profit that can be earned by the company is $240, which occurs when they produce 8 tables and no chairs."
+}

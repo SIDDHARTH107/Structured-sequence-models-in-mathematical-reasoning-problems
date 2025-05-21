@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Block designs",
+    "message_1": "A teacher wants to assign 12 assignments to her 30 students, such that each student gets exactly 4 assignments. How many ways can the teacher assign the assignments to the students under this constraint?",
+    "message_2": "To solve this problem, we can use the concept of combinations. \n\nFirst, let's find the number of ways to distribute the 12 assignments among the 30 students. Since each student gets exactly 4 assignments, there will be a total of 30 * 4 = 120 assignments distributed.\n\nNow, we need to find the number of ways to distribute these 120 assignments such that each of the 12 assignments is given to 10 different students.\n\nWe can think of this as choosing 10 students out of 30 for each assignment. The number of ways to do this for one assignment is given by the combination formula:\n\nC(n, k) = n! / (k!(n-k)!)\n\nFor our problem, n = 30 (total number of students) and k = 10 (number of students receiving each assignment).\n\nC(30, 10) = 30! / (10!(30-10)!) = 30! / (10!20!)\n\nNow, since there are 12 assignments, we need to multiply the number of ways for one assignment by itself 12 times:\n\nTotal ways = (C(30, 10))^12 = (30! / (10!20!))^12\n\nThis is the total number of ways the teacher can assign the 12 assignments to her 30 students such that each student gets exactly 4 assignments."
+}

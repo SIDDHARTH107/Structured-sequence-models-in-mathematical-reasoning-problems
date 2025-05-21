@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Combinatorial optimization",
+    "message_1": "A company has 5 different types of products and they have to ship a total of 100 units to their clients. If the cost of shipping type 1 is $1 per unit, type 2 is $2 per unit, type 3 is $3 per unit, type 4 is $4 per unit, and type 5 is $5 per unit, then what is the cheapest way for the company to ship the products to meet the order requirements? Use combinatorial optimization to find the answer.",
+    "message_2": "To minimize the shipping cost, the company should ship as many units as possible of the product with the lowest shipping cost. In this case, that would be type 1 with a cost of $1 per unit. \n\nLet x1, x2, x3, x4, and x5 represent the number of units of each product type to be shipped. We have the following constraints:\n\n1. x1 + x2 + x3 + x4 + x5 = 100 (total units to be shipped)\n2. x1, x2, x3, x4, x5 ≥ 0 (non-negative units)\n\nThe objective function to minimize is the total shipping cost:\n\nCost = 1*x1 + 2*x2 + 3*x3 + 4*x4 + 5*x5\n\nSince we want to minimize the cost, we should maximize the number of type 1 units shipped. Therefore, let's set x1 = 100. This satisfies the constraint x1 + x2 + x3 + x4 + x5 = 100, as x2, x3, x4, and x5 will all be 0.\n\nSo, the cheapest way for the company to ship the products is to ship 100 units of type 1 product. The total shipping cost in this case would be:\n\nCost = 1*100 + 2*0 + 3*0 + 4*0 + 5*0 = $100."
+}

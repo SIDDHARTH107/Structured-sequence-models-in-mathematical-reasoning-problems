@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Probability",
+    "sub_topic": "Probability of a certain type of technological failure occurring in a system",
+    "message_1": "A factory produces a batch of 500 microchips, of which 2% are expected to be defective. What is the probability that the number of defective microchips in the batch will be exactly 10?",
+    "message_2": "To solve this problem, we can use the binomial probability formula, which is:\n\nP(X = k) = C(n, k) * p^k * (1-p)^(n-k)\n\nwhere:\n- P(X = k) is the probability of having exactly k defective microchips\n- C(n, k) is the number of combinations of n items taken k at a time, also written as n! / (k!(n-k)!)\n- n is the total number of microchips (500)\n- k is the number of defective microchips we want to find the probability for (10)\n- p is the probability of a microchip being defective (0.02)\n- 1-p is the probability of a microchip not being defective (0.98)\n\nPlugging in the values, we get:\n\nP(X = 10) = C(500, 10) * 0.02^10 * 0.98^490\n\nFirst, let's calculate C(500, 10):\n\nC(500, 10) = 500! / (10!(500-10)!) = 500! / (10! * 490!)\n\nUsing a calculator, we find that C(500, 10) ≈ 1.02329 × 10^13\n\nNow, let's calculate 0.02^10 and 0.98^490:\n\n0.02^10 ≈ 1.024 × 10^(-14)\n0.98^490 ≈ 0.00036\n\nNow, we can calculate the probability:\n\nP(X = 10) = 1.02329 × 10^13 * 1.024 × 10^(-14) * 0.00036 ≈ 0.0378\n\nSo, the probability of having exactly 10 defective microchips in the batch is approximately 3.78%."
+}

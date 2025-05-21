@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Complex analysis of wave equations",
+    "message_1": "A math student needs to determine the complex roots of the wave equation $y'' + 4y = 0$ using complex analysis techniques.\n\nSolution: \n\nThe characteristic equation for this differential equation is given by $r^2 + 4 = 0$. Solving for $r$, we get $r = \\pm2i$. Thus, the general solution to the wave equation is given by $y(x) = c_1\\cos(2x) + c_2\\sin(2x)$, where $c_1$ and $c_2$ are constants determined by initial conditions.",
+    "message_2": "However, the student is asked to find the complex roots using complex analysis techniques. To do this, we can rewrite the general solution using Euler's formula.\n\nRecall that Euler's formula states that $e^{ix} = \\cos(x) + i\\sin(x)$. Therefore, we can rewrite the general solution as follows:\n\n$y(x) = c_1(\\cos(2x) + i\\sin(2x)) + c_2(\\cos(2x) - i\\sin(2x))$\n\nNow, let's rewrite this in terms of complex exponentials using Euler's formula:\n\n$y(x) = c_1e^{2ix} + c_2e^{-2ix}$\n\nThis is the general solution to the wave equation in terms of complex exponentials. The complex roots of the characteristic equation are $r = 2i$ and $r = -2i$, which correspond to the exponents in the complex exponentials in the general solution."
+}

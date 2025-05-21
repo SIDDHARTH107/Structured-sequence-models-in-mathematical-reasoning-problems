@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Solving systems of linear equations using Cramer's rule",
+    "message_1": "Solve the following system of linear equations using Cramer's rule:\n \n3x + 2y = 16 \nx - 4y = -5",
+    "message_2": "To solve the given system of linear equations using Cramer's rule, we first need to find the determinants. Let's denote the main determinant as D, the determinant for x as Dx, and the determinant for y as Dy.\n\nThe given system of linear equations is:\n\n3x + 2y = 16 (1)\nx - 4y = -5 (2)\n\nFirst, we find the main determinant D:\n\nD = | 3  2 |\n    | 1 -4 |\n\nD = (3 * -4) - (2 * 1)\nD = -12 - 2\nD = -14\n\nNow, we find the determinant for x (Dx) by replacing the x coefficients with the constants from the right side of the equations:\n\nDx = | 16  2 |\n     | -5 -4 |\n\nDx = (16 * -4) - (2 * -5)\nDx = -64 + 10\nDx = -54\n\nNow, we find the determinant for y (Dy) by replacing the y coefficients with the constants from the right side of the equations:\n\nDy = | 3 16 |\n     | 1 -5 |\n\nDy = (3 * -5) - (16 * 1)\nDy = -15 - 16\nDy = -31\n\nNow, we can find the values of x and y using Cramer's rule:\n\nx = Dx / D\nx = -54 / -14\nx = 27 / 7\n\ny = Dy / D\ny = -31 / -14\ny = 31 / 14\n\nSo, the solution to the given system of linear equations is:\n\nx = 27/7\ny = 31/14"
+}

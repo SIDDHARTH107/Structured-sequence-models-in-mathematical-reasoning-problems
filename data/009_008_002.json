@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Differential equations",
+    "sub_topic": "Wave propagation and wave equations",
+    "message_1": "A string of length 10 meters is fixed at both ends. The wave velocity on the string is 20 m/s and the initial shape of the string is given by the equation y(x,0) = 0.5cos(πx/5). Find the wave equation, y(x,t), that describes the displacement of the string at any time t > 0.",
+    "message_2": "To find the wave equation y(x,t) that describes the displacement of the string at any time t > 0, we can use the general solution for the wave equation on a string with fixed ends:\n\ny(x,t) = ∑[An * sin(n * π * x / L) * cos(ωn * t) + Bn * sin(n * π * x / L) * sin(ωn * t)]\n\nwhere An and Bn are the coefficients, L is the length of the string, n is the mode number, and ωn is the angular frequency of the nth mode.\n\nSince the string is initially at rest, there are no sine terms in the initial condition, so all Bn coefficients are zero. The initial shape of the string is given by:\n\ny(x,0) = 0.5cos(πx/5)\n\nComparing this to the general solution, we can see that the initial shape corresponds to the first mode (n=1) with A1 = 0.5, and all other An coefficients are zero. The angular frequency for the first mode is:\n\nω1 = (1 * π / L) * v = (1 * π / 10) * 20 = 2π\n\nSo the wave equation for the displacement of the string at any time t > 0 is:\n\ny(x,t) = 0.5 * sin(π * x / 10) * cos(2π * t)"
+}

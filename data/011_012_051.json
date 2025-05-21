@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Inclusion-exclusion principle",
+    "message_1": "In how many ways can you form a committee of 5 people out of a group of 10 people, if two specific members must be included and two other specific members cannot be included together?",
+    "message_2": "Let's break this problem down into cases.\n\nCase 1: The two specific members who cannot be included together are both not in the committee.\nIn this case, we need to choose 3 more members from the remaining 6 people (10 people - 2 must be included - 2 cannot be together). This can be done in C(6,3) ways, where C(n,k) is the number of combinations of choosing k items from a set of n items.\n\nC(6,3) = 6! / (3! * (6-3)!) = 20 ways\n\nCase 2: One of the two specific members who cannot be included together is in the committee.\nIn this case, we need to choose 2 more members from the remaining 5 people (10 people - 2 must be included - 1 cannot be together - 1 is included). This can be done in C(5,2) ways.\n\nC(5,2) = 5! / (2! * (5-2)!) = 10 ways\n\nSince there are 2 specific members who cannot be included together, we need to multiply the result by 2 to account for both possibilities.\n\n10 ways * 2 = 20 ways\n\nNow, we add the results from both cases:\n\n20 ways (Case 1) + 20 ways (Case 2) = 40 ways\n\nSo, there are 40 ways to form a committee of 5 people out of a group of 10 people, if two specific members must be included and two other specific members cannot be included together."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Solving systems of linear equations with non-square matrices",
+    "message_1": "Solve the following system of equations using Gaussian elimination:\n    \n    2x + 3y + 4z = 12\n    4x + 6y + 2z = 8\n    6x + 9y + 12z = 36",
+    "message_2": "First, we write the system of equations as an augmented matrix:\n\n    | 2  3  4 | 12\n    | 4  6  2 |  8\n    | 6  9 12 | 36\n\nStep 1: Divide the first row by 2 to get a leading 1:\n\n    | 1  1.5  2 |  6\n    | 4  6    2 |  8\n    | 6  9   12 | 36\n\nStep 2: Eliminate the first column below the first row. Subtract 4 times the first row from the second row, and subtract 6 times the first row from the third row:\n\n    | 1  1.5  2 |  6\n    | 0  0   -6 | -16\n    | 0  0    0 |  0\n\nStep 3: Divide the second row by -6 to get a leading 1 in the second row:\n\n    | 1  1.5  2 |  6\n    | 0  0    1 |  2.67\n    | 0  0    0 |  0\n\nStep 4: Eliminate the third column above the second row. Subtract 2 times the second row from the first row:\n\n    | 1  1.5  0 |  0.67\n    | 0  0    1 |  2.67\n    | 0  0    0 |  0\n\nNow we can read the solution from the matrix:\n\nx = 0.67\ny is a free variable, so y = t (where t is any real number)\nz = 2.67\n\nSo the solution to the system of equations is:\n\nx = 0.67\ny = t\nz = 2.67"
+}

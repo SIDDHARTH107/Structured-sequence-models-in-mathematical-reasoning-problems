@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Combinatorial identities",
+    "message_1": "The question is:\n\nHow many ways are there to form a committee of 5 people out of 10 people, if one of the 10 people must be the chairperson of the committee?",
+    "message_2": "Since one of the 10 people must be the chairperson, we first choose the chairperson. There are 10 ways to choose the chairperson (10 choices for 1 position).\n\nAfter choosing the chairperson, we need to choose the remaining 4 members of the committee from the remaining 9 people. This can be done using combinations, as the order of the members does not matter.\n\nThe number of ways to choose 4 members from 9 people is given by the combination formula:\n\nC(n, k) = n! / (k!(n-k)!)\n\nIn this case, n = 9 and k = 4:\n\nC(9, 4) = 9! / (4!(9-4)!)\nC(9, 4) = 9! / (4!5!)\nC(9, 4) = 362880 / (24 * 120)\nC(9, 4) = 362880 / 2880\nC(9, 4) = 126\n\nSo there are 126 ways to choose the remaining 4 members.\n\nNow, we multiply the number of ways to choose the chairperson (10) by the number of ways to choose the remaining members (126):\n\nTotal ways = 10 * 126 = 1260\n\nThere are 1260 ways to form a committee of 5 people out of 10 people, with one of them being the chairperson."
+}

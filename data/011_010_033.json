@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Catalan numbers",
+    "message_1": "A basketball team is about to play a match series consisting of 7 games against their opponent. In how many ways can the team win the series if they cannot lose more than 3 games? (Hint: Use Catalan numbers)",
+    "message_2": "To win the series, the team must win 4 out of the 7 games. We can use the Catalan numbers to find the number of ways the team can win the series without losing more than 3 games.\n\nCatalan numbers are a sequence of natural numbers that have many applications in combinatorial mathematics, including counting certain types of lattice paths. The nth Catalan number can be expressed as:\n\nC(n) = (1/(n+1)) * (2n choose n)\n\nIn this problem, we want to find the number of ways the team can win the series without losing more than 3 games. This can be thought of as counting the number of paths from the bottom-left corner to the top-right corner of a 4x3 grid, where each step can either be up or right, and the path never goes above the diagonal.\n\nThe number of such paths can be found using the Catalan number formula with n = 3:\n\nC(3) = (1/(3+1)) * (2*3 choose 3)\nC(3) = (1/4) * (6 choose 3)\nC(3) = (1/4) * (6!/(3!3!))\nC(3) = (1/4) * (720/(6*6))\nC(3) = (1/4) * 20\nC(3) = 5\n\nSo there are 5 ways the team can win the series without losing more than 3 games."
+}

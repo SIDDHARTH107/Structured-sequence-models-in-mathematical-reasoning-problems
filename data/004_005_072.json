@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Calculus",
+    "sub_topic": "Solving differential equations",
+    "message_1": "Consider the differential equation y' + 2y = 6x, where y(0) = 1. Find the particular solution of this differential equation.",
+    "message_2": "To find the particular solution of the given first-order linear differential equation y' + 2y = 6x, we will first find the integrating factor and then use it to find the particular solution.\n\nThe given differential equation is in the form:\n\ny' + P(x)y = Q(x)\n\nwhere P(x) = 2 and Q(x) = 6x.\n\nNow, let's find the integrating factor (IF):\n\nIF = e^(∫P(x)dx) = e^(∫2dx) = e^(2x)\n\nNow, we will multiply the entire differential equation by the integrating factor:\n\ne^(2x)y' + 2e^(2x)y = 6xe^(2x)\n\nNow, the left side of the equation is the derivative of the product of y and the integrating factor:\n\nd/dx (y * e^(2x)) = 6xe^(2x)\n\nNow, integrate both sides with respect to x:\n\n∫(d/dx (y * e^(2x)))dx = ∫(6xe^(2x)dx)\n\ny * e^(2x) = 3x^2e^(2x) - 6xe^(2x) + 6e^(2x) + C\n\nNow, we will solve for y:\n\ny = e^(-2x) * (3x^2e^(2x) - 6xe^(2x) + 6e^(2x) + C)\n\nNow, we will use the initial condition y(0) = 1 to find the constant C:\n\n1 = e^(0) * (3(0)^2e^(0) - 6(0)e^(0) + 6e^(0) + C)\n\n1 = 6 + C\n\nC = -5\n\nSo, the particular solution of the given differential equation is:\n\ny(x) = e^(-2x) * (3x^2e^(2x) - 6xe^(2x) + 6e^(2x) - 5)"
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Complex analysis of partial differential equations",
+    "message_1": "Solve the partial differential equation:\n\n∂u/∂t + 4∂u/∂x - 3i∂u/∂y = 0\n\nSubject to the initial condition:\n\nu(x, y, 0) = e^(2x-3iy)",
+    "message_2": "To solve the given partial differential equation (PDE), we can use the method of characteristics. The PDE is:\n\n∂u/∂t + 4∂u/∂x - 3i∂u/∂y = 0\n\nLet's rewrite the PDE in the form:\n\n∂u/∂t = -4∂u/∂x + 3i∂u/∂y\n\nNow, consider the characteristic equations:\n\ndx/dt = -4, dy/dt = 3i, du/dt = 0\n\nSolve the first two equations for x and y:\n\ndx = -4 dt, dy = 3i dt\n\nIntegrate both sides:\n\nx(t) = -4t + C1, y(t) = 3it + C2\n\nNow, we can eliminate t by solving for it in terms of x and y:\n\nt = (x + 4t)/4 = (y - 3it)/3i\n\nSolve for t:\n\nt = (x - C1)/4 = (y - C2)/(3i)\n\nNow, we can find the general solution of the PDE by solving for u:\n\nu(x, y, t) = F(C1, C2)\n\nwhere F is an arbitrary function. We can now use the initial condition to find the specific solution:\n\nu(x, y, 0) = e^(2x-3iy)\n\nSince t = 0, we have:\n\nC1 = x, C2 = y\n\nSo, the solution to the PDE is:\n\nu(x, y, t) = e^(2(x + 4t) - 3i(y - 3it))\n\nu(x, y, t) = e^(2x + 8t - 3iy + 9it)\n\nu(x, y, t) = e^(2x - 3iy + 17t)"
+}

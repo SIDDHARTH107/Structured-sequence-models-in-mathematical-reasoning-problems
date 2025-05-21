@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Meromorphic functions and their properties",
+    "message_1": "Suppose f(z) is a meromorphic function on the complex plane, and that it has a simple pole at z=2 with residue 3 and a double pole at z=3 with residue -2. Find the Laurent series expansion of f(z) about the point z=3.",
+    "message_2": "Given that f(z) has a simple pole at z=2 with residue 3, we can write the principal part of f(z) at z=2 as:\n\nP₁(z) = 3/(z-2)\n\nSince f(z) has a double pole at z=3 with residue -2, we can write the principal part of f(z) at z=3 as:\n\nP₂(z) = -2/(z-3)²\n\nNow, we can write f(z) as the sum of its principal parts and a holomorphic function g(z) in a neighborhood of z=3:\n\nf(z) = P₁(z) + P₂(z) + g(z)\n\nTo find the Laurent series expansion of f(z) about z=3, we can expand P₁(z) and P₂(z) as Laurent series about z=3:\n\nP₁(z) = 3/(z-2) = 3/((z-3)+1) = 3[1/(1-(3-z))] = 3[1 + (3-z) + (3-z)² + ...]\n\nP₂(z) = -2/(z-3)²\n\nNow, we can write the Laurent series expansion of f(z) about z=3 as:\n\nf(z) = 3[1 + (3-z) + (3-z)² + ...] - 2/(z-3)² + g(z)\n\nSince g(z) is holomorphic in a neighborhood of z=3, its Laurent series expansion about z=3 will only contain non-negative powers of (z-3). Therefore, the Laurent series expansion of f(z) about z=3 is:\n\nf(z) = 3 - 3(z-3) + 3(z-3)² - 2/(z-3)² + g(z)\n\nwhere g(z) is the Laurent series expansion of the holomorphic part of f(z) about z=3."
+}

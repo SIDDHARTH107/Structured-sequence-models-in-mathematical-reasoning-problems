@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Schwarz reflection principle and its applications",
+    "message_1": "Here is a precise numerical problem related to Schwarz reflection principle:\n\nSuppose f(z) = z^2 - 3z + 2 is a function of a complex variable z. Using the Schwarz reflection principle, find its analytic continuation across the real line onto the upper half-plane.\n\nIn other words, extend f(z) from the region Im(z) > 0 to the region Im(z) < 0 in a way that preserves its analyticity.",
+    "message_2": "To apply the Schwarz reflection principle, we first need to find a function g(z) that is analytic in the upper half-plane and coincides with f(z) on the real line. Since f(z) is a polynomial, it is already analytic everywhere, so we can take g(z) = f(z).\n\nNow, we want to find an analytic continuation of g(z) to the lower half-plane. To do this, we will reflect g(z) across the real line and then conjugate the result. Let's denote the reflected function as h(z).\n\nh(z) = g(conj(z)) = f(conj(z))\n\nNow, we conjugate h(z) to obtain the analytic continuation of g(z) to the lower half-plane:\n\ng_lower(z) = conj(h(z)) = conj(f(conj(z)))\n\nNow we have the analytic continuation of f(z) onto the upper half-plane (g(z) = f(z)) and the lower half-plane (g_lower(z) = conj(f(conj(z)))). The function g(z) = f(z) is already analytic in the upper half-plane, and g_lower(z) = conj(f(conj(z))) is its analytic continuation to the lower half-plane."
+}

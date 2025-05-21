@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Solving systems of linear equations using Gaussian elimination",
+    "message_1": "Solve the system of linear equations using Gaussian elimination:\n\n2x + 3y - z = 1\n4x - 2y + 3z = -6\n-2x + y + 2z = 4",
+    "message_2": "First, we will write the augmented matrix for the given system of linear equations:\n\n|  2  3 -1 |  1 |\n|  4 -2  3 | -6 |\n| -2  1  2 |  4 |\n\nStep 1: Eliminate x from the second and third rows.\n\nR2 = R2 - 2 * R1\nR3 = R3 + R1\n\n|  2  3 -1 |  1  |\n|  0 -8  5 | -8  |\n|  0  4  1 |  5  |\n\nStep 2: Eliminate y from the third row.\n\nR3 = R3 + 0.5 * R2\n\n|  2  3 -1 |  1  |\n|  0 -8  5 | -8  |\n|  0  0 -1 |  1  |\n\nNow, we will perform back-substitution to find the values of x, y, and z.\n\nFrom the third row, we have:\n-1z = 1\nz = -1\n\nFrom the second row, we have:\n-8y + 5z = -8\n-8y + 5(-1) = -8\n-8y - 5 = -8\n-8y = 3\ny = -3/8\n\nFrom the first row, we have:\n2x + 3y - z = 1\n2x + 3(-3/8) + 1 = 1\n2x - 9/8 + 1 = 1\n2x = 1 + 9/8 - 1\n2x = 9/8\nx = 9/16\n\nSo, the solution to the system of linear equations is x = 9/16, y = -3/8, and z = -1."
+}

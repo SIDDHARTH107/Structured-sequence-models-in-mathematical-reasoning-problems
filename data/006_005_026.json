@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Probability",
+    "sub_topic": "Probability of a certain event occurring in a given time period",
+    "message_1": "A factory produces 5000 articles per day. The probability of producing a defective article is 0.02. Find the probability that among 200 articles produced in a single day, there will be exactly 5 defective articles.",
+    "message_2": "To find the probability of exactly 5 defective articles among 200 produced in a single day, we can use the binomial probability formula:\n\nP(X = k) = (n choose k) * p^k * (1-p)^(n-k)\n\nwhere:\n- n is the number of trials (in this case, 200 articles)\n- k is the number of successes (in this case, 5 defective articles)\n- p is the probability of success (in this case, 0.02 for a defective article)\n- (n choose k) is the number of combinations of n items taken k at a time, which can be calculated as n! / (k!(n-k)!)\n\nPlugging in the values:\n\nP(X = 5) = (200 choose 5) * (0.02)^5 * (1-0.02)^(200-5)\n\nFirst, calculate (200 choose 5):\n\n(200 choose 5) = 200! / (5!(200-5)!) = 200! / (5!195!) ≈ 2,535,650\n\nNow, calculate the rest of the formula:\n\nP(X = 5) ≈ 2,535,650 * (0.02)^5 * (0.98)^195 ≈ 0.2023\n\nSo, the probability of having exactly 5 defective articles among 200 produced in a single day is approximately 0.2023 or 20.23%."
+}

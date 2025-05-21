@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Logic",
+    "sub_topic": "Proof theory",
+    "message_1": "Consider the following formula in the propositional calculus:\n\n(p → (q → r)) → ((p → q) → (p → r))\n\nProve that this formula is a tautology using natural deduction.",
+    "message_2": "To prove that the given formula is a tautology using natural deduction, we will use the rules of inference and show that the formula is true under all possible truth assignments. The formula is:\n\n(p → (q → r)) → ((p → q) → (p → r))\n\nWe will use the following rules of inference:\n\n1. Implication Elimination (→E)\n2. Implication Introduction (→I)\n\nProof:\n\n1. Assume (p → (q → r)) (Assumption)\n2. Assume (p → q) (Assumption)\n3. Assume p (Assumption)\n4. q → r (1, 3, →E)\n5. q (2, 3, →E)\n6. r (4, 5, →E)\n7. p → r (3-6, →I)\n8. (p → q) → (p → r) (2-7, →I)\n9. (p → (q → r)) → ((p → q) → (p → r)) (1-8, →I)\n\nThus, we have proven that the given formula is a tautology using natural deduction."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Probability",
+    "sub_topic": "Coin flipping and probability of getting heads or tails",
+    "message_1": "A coin is flipped 50 times. What is the probability of getting heads fewer than 25 times?",
+    "message_2": "To solve this problem, we can use the binomial probability formula:\n\nP(X = k) = (nCk) * (p^k) * (q^(n-k))\n\nwhere n is the number of trials (50 coin flips), k is the number of successful outcomes (number of heads), p is the probability of success (0.5 for heads), q is the probability of failure (0.5 for tails), and nCk is the number of combinations of n items taken k at a time.\n\nWe want to find the probability of getting fewer than 25 heads, so we need to calculate the sum of probabilities for k = 0 to 24:\n\nP(X < 25) = Σ P(X = k) for k = 0 to 24\n\nLet's calculate this sum:\n\nP(X < 25) = P(X = 0) + P(X = 1) + ... + P(X = 24)\n\nWe can use a calculator or software to compute these probabilities and sum them up. Using a calculator or software, we get:\n\nP(X < 25) ≈ 0.556137\n\nSo, the probability of getting fewer than 25 heads in 50 coin flips is approximately 0.556137 or 55.61%."
+}

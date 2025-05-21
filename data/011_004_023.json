@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Multinomial coefficients",
+    "message_1": "A math student needs to distribute 20 identical balls into 3 distinct boxes such that each box contains at least 2 balls. How many ways are there to do this?",
+    "message_2": "Since each box must contain at least 2 balls, we can start by placing 2 balls in each box. This leaves us with 14 balls to distribute among the 3 boxes.\n\nNow, we can use the stars and bars method to find the number of ways to distribute the remaining 14 balls. We have 14 \"stars\" (balls) and need to divide them into 3 groups (boxes). To do this, we need 2 \"bars\" to separate the groups.\n\nWe have a total of 14 stars and 2 bars, which gives us 16 positions. We need to choose 2 of these positions for the bars, and the remaining positions will be for the stars. This can be done in C(16, 2) ways, where C(n, k) denotes the number of combinations of n items taken k at a time.\n\nC(16, 2) = 16! / (2! * (16-2)!) = 120\n\nSo there are 120 ways to distribute the 20 identical balls into the 3 distinct boxes such that each box contains at least 2 balls."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Polya's enumeration theorem",
+    "message_1": "A school has 20 students in a class, and they need to form a group of 5 students for a project. How many different groups can be formed? Use Polya's enumeration theorem to solve.",
+    "message_2": "Polya's enumeration theorem is not the most suitable method to solve this problem. Instead, we can use combinations to find the number of different groups that can be formed.\n\nA combination is a selection of items from a larger set, such that the order of the items does not matter. In this case, we want to find the number of ways to choose 5 students from a class of 20 students.\n\nThe formula for combinations is:\n\nC(n, k) = n! / (k!(n-k)!)\n\nwhere n is the total number of items (in this case, students), k is the number of items to be chosen (the group size), and ! denotes the factorial function (e.g., 5! = 5 × 4 × 3 × 2 × 1).\n\nApplying this formula to our problem:\n\nC(20, 5) = 20! / (5!(20-5)!)\n\nC(20, 5) = 20! / (5!15!)\n\nC(20, 5) = (20 × 19 × 18 × 17 × 16 × 15 × 14 × 13 × 12 × 11 × 10 × 9 × 8 × 7 × 6 × 5 × 4 × 3 × 2 × 1) / ((5 × 4 × 3 × 2 × 1)(15 × 14 × 13 × 12 × 11 × 10 × 9 × 8 × 7 × 6 × 5 × 4 × 3 × 2 × 1))\n\nC(20, 5) = (20 × 19 × 18 × 17 × 16) / (5 × 4 × 3 × 2 × 1)\n\nC(20, 5) = 15504\n\nSo, there are 15,504 different groups of 5 students that can be formed from a class of 20 students."
+}

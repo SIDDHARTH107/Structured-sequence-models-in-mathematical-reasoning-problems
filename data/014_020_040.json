@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Cryptanalysis of Vigenere cipher",
+    "message_1": "Suppose a Vigenere Cipher is used with the keyword \"MATH\". Encrypt the plain text message \"CALCULUS\" using the Vigenere Cipher.",
+    "message_2": "To encrypt the plain text message \"CALCULUS\" using the Vigenere Cipher with the keyword \"MATH\", we first need to repeat the keyword until it matches the length of the plain text message. In this case, the keyword becomes \"MATHMATH\".\n\nNow, we will use the Vigenere square to find the encrypted text. The Vigenere square consists of 26 rows and 26 columns, each containing the letters A to Z. To find the encrypted letter, we will use the intersection of the row corresponding to the plain text letter and the column corresponding to the keyword letter.\n\nPlain Text: CALCULUS\nKeyword:   MATHMATH\n\nCiphertext:\nC (from CAL) + M (from MATH) = O\nA (from AL) + A (from AT) = A\nL (from LC) + T (from TH) = X\nC (from CU) + H (from HM) = I\nU (from UL) + M (from MA) = C\nL (from LU) + A (from AT) = L\nU (from US) + T (from TH) = B\nS (from S) + H (from H) = L\n\nSo, the encrypted message using the Vigenere Cipher with the keyword \"MATH\" is \"OAXICLBL\"."
+}

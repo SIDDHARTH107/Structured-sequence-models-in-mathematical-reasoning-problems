@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Combinatorial game theory",
+    "message_1": "A game is played between two players. On each turn, a player can remove either 1, 2, or 3 tokens from a pile of 20 tokens. The player who takes the last token wins the game. If you go first, how many tokens should you take in your first turn to guarantee that you will win the game?",
+    "message_2": "To guarantee a win, you should take 2 tokens in your first turn. This will leave 18 tokens in the pile. From this point on, you can ensure that the total number of tokens removed by both players in each round is 4 (you can do this by removing 4 minus the number of tokens your opponent took in their turn). \n\nFor example, if your opponent takes 1 token, you take 3; if they take 2, you take 2; if they take 3, you take 1. This way, after each round, the total number of tokens removed is 4. Since 18 is a multiple of 4, you will always be the one to take the last token, ensuring your victory."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Optimization",
+    "sub_topic": "Linear programming",
+    "message_1": "A bakery has two types of cakes: chocolate and strawberry. The ingredients needed to prepare each cake are shown in the table below:\n\n|Ingredients|Chocolate cake|Strawberry cake|\n|---|---|---|\n|Milk (liters)|2|1|\n|Flour (kilograms)|1|3|\n|Sugar (kilograms)|1|1|\n\nThe bakery has 20 liters of milk, 15 kilograms of flour and 12 kilograms of sugar available. A chocolate cake sells for $25 and a strawberry cake sells for $30. How many of each type of cake should the bakery produce to maximize their profit?",
+    "message_2": "Let x be the number of chocolate cakes and y be the number of strawberry cakes.\n\nThe constraints based on the available ingredients are:\n\n1. Milk: 2x + y ≤ 20\n2. Flour: x + 3y ≤ 15\n3. Sugar: x + y ≤ 12\n\nThe objective function to maximize the profit is:\n\nP(x, y) = 25x + 30y\n\nFirst, we'll find the feasible region by graphing the constraints:\n\n1. 2x + y ≤ 20 => y ≤ -2x + 20\n2. x + 3y ≤ 15 => y ≤ (-1/3)x + 5\n3. x + y ≤ 12 => y ≤ -x + 12\n\nThe feasible region is a quadrilateral with vertices at points A(0,0), B(0,5), C(3,9), and D(6,6).\n\nNow, we'll evaluate the profit function P(x, y) at each vertex:\n\nA(0,0): P(0,0) = 25(0) + 30(0) = $0\nB(0,5): P(0,5) = 25(0) + 30(5) = $150\nC(3,9): P(3,9) = 25(3) + 30(9) = $315\nD(6,6): P(6,6) = 25(6) + 30(6) = $330\n\nThe maximum profit is $330 when the bakery produces 6 chocolate cakes and 6 strawberry cakes."
+}

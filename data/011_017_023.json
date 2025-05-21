@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Latin squares",
+    "message_1": "A school is planning a schedule for their sports teams to practice. They have three sports teams: basketball, soccer, and volleyball. They want to create a practice schedule for the next week where each team practices once a day for five days. However, they want to ensure that no sport is practiced at the same time on any given day. How many possible practice schedules can they make for the next week?",
+    "message_2": "To solve this problem, we can use the concept of permutations. Since there are three sports teams and each team practices once a day for five days, we need to find the number of ways to arrange these three teams in a schedule for five days.\n\nFor the first day, there are 3 choices for the first team to practice, 2 choices for the second team, and 1 choice for the third team. So there are 3! (3 factorial) ways to arrange the teams on the first day.\n\nSince the same arrangement of teams can be used for each of the five days, we can simply raise the number of arrangements for one day to the power of the number of days. In this case, that would be (3!)^5.\n\n3! = 3 × 2 × 1 = 6\n(3!)^5 = 6^5 = 7776\n\nSo there are 7776 possible practice schedules for the next week."
+}

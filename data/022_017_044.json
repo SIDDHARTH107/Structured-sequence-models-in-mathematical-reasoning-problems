@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Complex analysis of differential equations",
+    "message_1": "Solve the complex differential equation:\n\n$$ z'' + 4z' + 13z = 0 $$\n\nwhere $z(0) = 1$ and $z'(0) = i$.",
+    "message_2": "To solve the complex differential equation, we first find the characteristic equation:\n\n$$ r^2 + 4r + 13 = 0 $$\n\nWe can solve this quadratic equation using the quadratic formula:\n\n$$ r = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a} = \\frac{-4 \\pm \\sqrt{4^2 - 4(1)(13)}}{2(1)} $$\n\nSince the discriminant is negative, we will have complex roots:\n\n$$ r = \\frac{-4 \\pm \\sqrt{-16}}{2} = -2 \\pm 2i $$\n\nSo, the general solution of the complex differential equation is:\n\n$$ z(t) = e^{-2t}(A\\cos(2t) + B\\sin(2t)) $$\n\nwhere A and B are complex constants. Now, we can use the initial conditions to find A and B.\n\nFor $z(0) = 1$:\n\n$$ 1 = e^{-2(0)}(A\\cos(0) + B\\sin(0)) = A $$\n\nSo, $A = 1$.\n\nFor $z'(0) = i$:\n\nFirst, we find the derivative of z(t):\n\n$$ z'(t) = -2e^{-2t}(A\\cos(2t) + B\\sin(2t)) + e^{-2t}(-2A\\sin(2t) + 2B\\cos(2t)) $$\n\nNow, we can use the initial condition $z'(0) = i$:\n\n$$ i = -2e^{-2(0)}(1\\cos(0) + B\\sin(0)) + e^{-2(0)}(-2(1)\\sin(0) + 2B\\cos(0)) $$\n\n$$ i = -2 + 2B $$\n\nSo, $B = \\frac{1}{2} + \\frac{1}{2}i$.\n\nNow, we can write the particular solution:\n\n$$ z(t) = e^{-2t}(\\cos(2t) + (\\frac{1}{2} + \\frac{1}{2}i)\\sin(2t)) $$"
+}

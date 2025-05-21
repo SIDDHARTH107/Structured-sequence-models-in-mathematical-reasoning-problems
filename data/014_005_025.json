@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Digital signatures",
+    "message_1": "Suppose Alice wants to send a signed message to Bob using a digital signature scheme. The scheme uses the RSA cryptosystem with a public key (e,n) = (17, 85) and a private key d = 53. If Alice's message is the number 20, what is the corresponding signed value that she sends to Bob?",
+    "message_2": "To sign the message, Alice will use her private key (d, n) = (53, 85). She will raise the message to the power of d modulo n. \n\nSigned value = message^d mod n\nSigned value = 20^53 mod 85\n\nWe can calculate this using the exponentiation by squaring method:\n\n20^53 mod 85 = (((((20^2)^2)^2)^2)*20^5) mod 85\n= (((((400)^2)^2)^2)*20^5) mod 85\n= (((((25)^2)^2)^2)*20^5) mod 85\n= ((((625)^2)^2)*20^5) mod 85\n= ((((40)^2)^2)*20^5) mod 85\n= ((1600)^2)*20^5 mod 85\n= ((15)^2)*20^5 mod 85\n= 225*20^5 mod 85\n= 225*(3200000) mod 85\n= 225*(15) mod 85\n= 3375 mod 85\n= 50\n\nSo, the signed value Alice sends to Bob is 50."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Calculus",
+    "sub_topic": "Solving differential equations",
+    "message_1": "Sure! Here's a precise numerical problem for a math student to solve based on Calculus and Solving Differential Equations:\n\nConsider the differential equation y' + 2y = 6. Solve this differential equation using the integrating factor method. If y(0) = 5, find the particular solution.",
+    "message_2": "To solve the given first-order linear differential equation y' + 2y = 6 using the integrating factor method, we first identify the integrating factor (IF). The IF is given by the exponential of the integral of the coefficient of y, which in this case is 2. \n\nIF = e^(∫2 dx) = e^(2x)\n\nNow, we multiply both sides of the differential equation by the integrating factor:\n\ne^(2x)(y' + 2y) = 6e^(2x)\n\nThis results in the left side of the equation being the derivative of the product of y(x) and the integrating factor:\n\nd/dx (y(x)e^(2x)) = 6e^(2x)\n\nNow, we integrate both sides of the equation with respect to x:\n\n∫(d/dx (y(x)e^(2x))) dx = ∫(6e^(2x)) dx\n\nIntegrating the right side, we get:\n\ny(x)e^(2x) = 3e^(2x) + C\n\nNow, we solve for y(x):\n\ny(x) = (3e^(2x) + C)e^(-2x)\n\nTo find the particular solution, we use the initial condition y(0) = 5:\n\n5 = (3e^(2*0) + C)e^(-2*0)\n\n5 = (3 + C)\n\nC = 2\n\nSo, the particular solution is:\n\ny(x) = (3e^(2x) + 2)e^(-2x)"
+}

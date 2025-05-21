@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Probability",
+    "sub_topic": "Probability of a certain type of product defect occurring in a manufacturing process",
+    "message_1": "In a manufacturing process, a certain type of product defect occurs with a probability of 0.05. If a batch of 200 products is produced, what is the probability that exactly 10 products will have the defect?",
+    "message_2": "We can use the binomial probability formula to solve this problem. The binomial probability formula is:\n\nP(X = k) = (nCk) * (p^k) * (1-p)^(n-k)\n\nwhere:\n- P(X = k) is the probability of exactly k successes (defective products in this case)\n- n is the number of trials (number of products produced)\n- k is the number of successes (number of defective products)\n- p is the probability of success (probability of a product being defective)\n- nCk is the number of combinations of n items taken k at a time, which can be calculated as n! / (k!(n-k)!)\n\nIn this problem, we have:\n- n = 200\n- k = 10\n- p = 0.05\n\nFirst, let's calculate nCk:\nnCk = 200! / (10!(200-10)!)\nnCk = 200! / (10!190!)\nnCk ≈ 125,656,712\n\nNow, let's calculate the probability using the binomial probability formula:\n\nP(X = 10) = (125,656,712) * (0.05^10) * (0.95^190)\nP(X = 10) ≈ 0.178\n\nSo, the probability that exactly 10 products will have the defect in a batch of 200 products is approximately 0.178 or 17.8%."
+}

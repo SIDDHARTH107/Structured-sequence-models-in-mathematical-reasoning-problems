@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Topology",
+    "sub_topic": "Differential structures and smoothness",
+    "message_1": "Consider the function $f: \\mathbb{R} \\to \\mathbb{R}$ defined by \n\n$$f(x) = \\begin{cases} -x^3, & \\text{if } x \\leq 0 \\\\ x, & \\text{if } x > 0 \\end{cases}.$$\n\nIs $f$ differentiable at $x = 0$? If yes, determine the derivative $f'(0)$.",
+    "message_2": "To determine if $f$ is differentiable at $x=0$, we need to check if the left-hand derivative and the right-hand derivative exist and are equal at $x=0$. \n\nFor the left-hand derivative, we have:\n\n$$f'(0^-) = \\lim_{h \\to 0^-} \\frac{f(0 + h) - f(0)}{h} = \\lim_{h \\to 0^-} \\frac{-h^3 - 0}{h} = \\lim_{h \\to 0^-} (-h^2) = 0$$\n\nFor the right-hand derivative, we have:\n\n$$f'(0^+) = \\lim_{h \\to 0^+} \\frac{f(0 + h) - f(0)}{h} = \\lim_{h \\to 0^+} \\frac{h - 0}{h} = \\lim_{h \\to 0^+} 1 = 1$$\n\nSince $f'(0^-) \\neq f'(0^+)$, the function $f$ is not differentiable at $x=0$."
+}

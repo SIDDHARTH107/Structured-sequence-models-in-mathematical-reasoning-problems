@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Optimization",
+    "sub_topic": "Optimal scheduling",
+    "message_1": "A factory produces two types of products: Product A and Product B. The production of Product A takes 4 hours to complete and the production of Product B takes 6 hours to complete. The factory has only 48 hours of production time available per week. The profit earned by selling one unit of Product A is $100 and the profit earned by selling one unit of Product B is $120. What is the maximum profit that can be earned by the factory per week?",
+    "message_2": "Let x be the number of units of Product A produced and y be the number of units of Product B produced. We have the following constraints:\n\n4x + 6y ≤ 48 (production time constraint)\nx ≥ 0 (non-negativity constraint for Product A)\ny ≥ 0 (non-negativity constraint for Product B)\n\nWe want to maximize the profit function P(x, y) = 100x + 120y.\n\nFirst, we can simplify the production time constraint:\n\n4x + 6y ≤ 48\n2x + 3y ≤ 24\n\nNow, we can find the possible integer values of x and y that satisfy the constraints:\n\n(0, 0), (0, 8), (2, 6), (4, 4), (6, 2), (8, 0), (12, 0)\n\nNow, we can calculate the profit for each of these combinations:\n\nP(0, 0) = 0\nP(0, 8) = 960\nP(2, 6) = 920\nP(4, 4) = 880\nP(6, 2) = 840\nP(8, 0) = 800\nP(12, 0) = 1200\n\nThe maximum profit that can be earned by the factory per week is $1200 when producing 12 units of Product A and 0 units of Product B."
+}

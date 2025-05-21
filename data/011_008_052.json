@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Stirling numbers",
+    "message_1": "How many ways are there to split 8 students into 3 teams of sizes 2, 3, and 3?",
+    "message_2": "To split 8 students into 3 teams of sizes 2, 3, and 3, we can use the combination formula to find the number of ways to choose the members for each team.\n\nFirst, we choose 2 students for the team of size 2. There are 8 students to choose from, so the number of ways to do this is C(8, 2) = 8! / (2! * (8-2)!) = 28.\n\nNext, we choose 3 students for the first team of size 3. There are 6 students left to choose from, so the number of ways to do this is C(6, 3) = 6! / (3! * (6-3)!) = 20.\n\nFinally, the remaining 3 students will form the second team of size 3, so there's only 1 way to do this.\n\nTo find the total number of ways to split the students, we multiply the number of ways for each step: 28 * 20 * 1 = 560.\n\nSo there are 560 ways to split 8 students into 3 teams of sizes 2, 3, and 3."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Combinatorial identities",
+    "message_1": "How many ways can 5 red balls and 3 blue balls be arranged in a row, if no two blue balls are allowed to be adjacent to each other?",
+    "message_2": "To solve this problem, we can think of placing the 5 red balls first, which will create 6 spaces between and around them. These spaces are where we can place the 3 blue balls without them being adjacent to each other. The problem now becomes choosing 3 of these 6 spaces to place the blue balls.\n\nThis can be done using combinations. The number of ways to choose 3 spaces out of 6 is given by the formula:\n\nC(n, k) = n! / (k!(n-k)!)\n\nwhere n is the total number of spaces (6 in this case) and k is the number of spaces we want to choose (3 in this case).\n\nC(6, 3) = 6! / (3!(6-3)!)\n= 720 / (6 * 6)\n= 720 / 36\n= 20\n\nSo there are 20 ways to arrange the 5 red balls and 3 blue balls in a row such that no two blue balls are adjacent to each other."
+}

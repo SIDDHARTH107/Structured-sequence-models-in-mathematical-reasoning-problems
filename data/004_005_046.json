@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Calculus",
+    "sub_topic": "Solving differential equations",
+    "message_1": "A math student needs to solve the initial value problem y' + 2y = 8, y(0) = 2.",
+    "message_2": "To solve the given initial value problem y' + 2y = 8, y(0) = 2, we will use an integrating factor.\n\n1. Find the integrating factor (IF):\nThe integrating factor is given by the formula IF = e^(∫P(x)dx), where P(x) is the coefficient of y in the given differential equation. In this case, P(x) = 2.\n\nIF = e^(∫2dx) = e^(2x)\n\n2. Multiply the given differential equation by the integrating factor:\n\ne^(2x)(y' + 2y) = 8e^(2x)\n\n3. The left side of the equation is now the derivative of the product of y and the integrating factor:\n\nd/dx (ye^(2x)) = 8e^(2x)\n\n4. Integrate both sides with respect to x:\n\n∫(d/dx (ye^(2x))) dx = ∫(8e^(2x) dx)\n\nUsing substitution, let u = 2x, then du = 2 dx, and (1/2) du = dx:\n\nye^(2x) = ∫(8e^(2x) (1/2) du) = 4∫(e^u du) = 4e^u + C = 4e^(2x) + C\n\n5. Solve for y:\n\ny = 4e^(2x)/e^(2x) + C/e^(2x) = 4 + Ce^(-2x)\n\n6. Apply the initial condition y(0) = 2:\n\n2 = 4 + Ce^(-2*0) = 4 + C\n\nC = -2\n\n7. The solution to the initial value problem is:\n\ny(x) = 4 - 2e^(-2x)"
+}

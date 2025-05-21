@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Number theory",
+    "sub_topic": "Diffie-Hellman key exchange.",
+    "message_1": "Two parties, Alice and Bob want to securely exchange information using the Diffie-Hellman key exchange algorithm. They get the prime number p=13 and the base g=3. Alice chooses her secret key as A=5 and calculates (g^A) mod p. Bob chooses his secret key as B=7 and calculates (g^B) mod p. If they exchange their calculated values, what will be the shared secret key they will use to encrypt their communication?",
+    "message_2": "First, let's calculate the values Alice and Bob will exchange:\n\nAlice: (g^A) mod p = (3^5) mod 13 = 243 mod 13 = 3\nBob: (g^B) mod p = (3^7) mod 13 = 2187 mod 13 = 10\n\nNow, Alice and Bob will use each other's exchanged values to calculate the shared secret key:\n\nAlice: (Bob's value)^A mod p = (10^5) mod 13 = 100000 mod 13 = 5\nBob: (Alice's value)^B mod p = (3^7) mod 13 = 2187 mod 13 = 5\n\nThe shared secret key they will use to encrypt their communication is 5."
+}

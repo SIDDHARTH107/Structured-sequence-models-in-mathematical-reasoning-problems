@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Combinatorial optimization",
+    "message_1": "A company has to complete a project and can choose from 5 consultants, but only 3 of them can be hired. In addition, the project will require 2 specialists out of a pool of 7 specialists. How many different teams can be formed for the project?",
+    "message_2": "To find the number of different teams that can be formed, we need to calculate the number of possible combinations for both consultants and specialists.\n\nFor the consultants, we have 5 options and need to choose 3. This can be calculated using the combination formula: C(n, k) = n! / (k!(n-k)!) where n is the total number of options and k is the number of choices we need to make.\n\nC(5, 3) = 5! / (3!(5-3)!)\nC(5, 3) = 120 / (6 * 2)\nC(5, 3) = 120 / 12\nC(5, 3) = 10\n\nSo there are 10 different ways to choose 3 consultants from a pool of 5.\n\nFor the specialists, we have 7 options and need to choose 2. Using the same combination formula:\n\nC(7, 2) = 7! / (2!(7-2)!)\nC(7, 2) = 5040 / (2 * 120)\nC(7, 2) = 5040 / 240\nC(7, 2) = 21\n\nSo there are 21 different ways to choose 2 specialists from a pool of 7.\n\nTo find the total number of different teams, we multiply the number of consultant combinations by the number of specialist combinations:\n\nTotal teams = 10 (consultant combinations) * 21 (specialist combinations)\nTotal teams = 210\n\nTherefore, there are 210 different teams that can be formed for the project."
+}

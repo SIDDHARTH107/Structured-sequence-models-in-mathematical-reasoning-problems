@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Statistics",
+    "sub_topic": "Sampling techniques",
+    "message_1": "A survey of 1000 students in a college revealed that 60% of the students prefer online classes to in-person ones. What is the probability that a random sample of 150 students from this college would indicate that 65% or more prefer online classes?",
+    "message_2": "To find the probability that a random sample of 150 students would indicate that 65% or more prefer online classes, we can use the Central Limit Theorem. The Central Limit Theorem states that the sampling distribution of the sample proportion approaches a normal distribution as the sample size increases, given that the population proportion is not too close to 0 or 1.\n\nIn this case, the population proportion (p) is 0.60, and the sample size (n) is 150. We can calculate the mean (μ) and standard deviation (σ) of the sampling distribution as follows:\n\nμ = p = 0.60\nσ = sqrt(p(1-p)/n) = sqrt(0.60 * 0.40 / 150) ≈ 0.040\n\nNow, we want to find the probability that the sample proportion (p_hat) is 0.65 or more. To do this, we can calculate the z-score for 0.65:\n\nz = (p_hat - μ) / σ = (0.65 - 0.60) / 0.040 ≈ 1.25\n\nUsing a z-table or calculator, we can find the probability that the z-score is greater than 1.25:\n\nP(z > 1.25) ≈ 0.211\n\nSo, the probability that a random sample of 150 students would indicate that 65% or more prefer online classes is approximately 0.211 or 21.1%."
+}

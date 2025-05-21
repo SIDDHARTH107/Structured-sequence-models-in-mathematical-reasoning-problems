@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Set theory",
+    "sub_topic": "Prove that the symmetric difference of two sets is commutative.",
+    "message_1": "Let A = {1, 2, 3, 4} and B = {3, 4, 5}. Find the symmetric difference of A and B and verify that it is commutative i.e. A △ B = B △ A, where △ represents the symmetric difference operator.",
+    "message_2": "The symmetric difference of two sets A and B, denoted as A △ B, is the set of elements which are in either of the sets, but not in their intersection. In other words, it is the union of the sets minus their intersection: A △ B = (A ∪ B) - (A ∩ B).\n\nFirst, let's find the union of A and B (A ∪ B):\nA ∪ B = {1, 2, 3, 4} ∪ {3, 4, 5} = {1, 2, 3, 4, 5}\n\nNext, let's find the intersection of A and B (A ∩ B):\nA ∩ B = {1, 2, 3, 4} ∩ {3, 4, 5} = {3, 4}\n\nNow, we can find the symmetric difference A △ B:\nA △ B = (A ∪ B) - (A ∩ B) = {1, 2, 3, 4, 5} - {3, 4} = {1, 2, 5}\n\nNow, let's verify that the symmetric difference is commutative by finding B △ A:\nB △ A = (B ∪ A) - (B ∩ A)\n\nWe already have the union and intersection from the previous steps, so:\nB △ A = {1, 2, 3, 4, 5} - {3, 4} = {1, 2, 5}\n\nSince A △ B = {1, 2, 5} and B △ A = {1, 2, 5}, we can conclude that the symmetric difference is indeed commutative, as A △ B = B △ A."
+}

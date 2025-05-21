@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Playfair cipher",
+    "message_1": "Using the Playfair cipher with the keyword \"CRYPTOLOGY\", encrypt the message \"SEND HELP\".",
+    "message_2": "To encrypt the message \"SEND HELP\" using the Playfair cipher with the keyword \"CRYPTOLOGY\", follow these steps:\n\n1. Create a 5x5 grid and fill it with the keyword and the remaining letters of the alphabet (excluding J, since I and J are considered the same in the Playfair cipher). The grid will look like this:\n\n   C  R  Y  P  T\n   O  L  G  A  B\n   D  E  F  H  I\n   K  M  N  Q  S\n   U  V  W  X  Z\n\n2. Break the message into pairs of letters. If a pair has the same letter, insert an X between them. If the message has an odd number of letters, add an X at the end. In this case, the message \"SEND HELP\" becomes \"SE ND HE LP\".\n\n3. For each pair of letters, apply the following rules:\n\n   a. If the letters are in the same row, replace each letter with the one to its right (wrapping around to the start of the row if necessary).\n   b. If the letters are in the same column, replace each letter with the one below it (wrapping around to the top of the column if necessary).\n   c. If the letters form a rectangle, replace each letter with the one in its own row but in the other letter's column.\n\n4. Apply the rules to each pair:\n\n   SE -> LD\n   ND -> QM\n   HE -> GK\n   LP -> AU\n\n5. Combine the encrypted pairs to get the final encrypted message: \"LDQM GK AU\"."
+}

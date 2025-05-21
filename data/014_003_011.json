@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "ElGamal encryption and decryption",
+    "message_1": "Consider the ElGamal cryptosystem with a prime modulo p = 113, a primitive root α = 2, and the private key d = 23. Suppose Bob wants to send a secret message M = 53 to Alice. He randomly chooses k = 19 as his ephemeral key and computes the ciphertext (c1, c2) = (α^k mod p, M * β^k mod p) using Alice's public key β = α^d mod p. \n\nWhat is the resulting ciphertext (c1, c2) that Bob sends to Alice?",
+    "message_2": "First, we need to compute Alice's public key β:\n\nβ = α^d mod p\nβ = 2^23 mod 113\nβ = 104\n\nNow we can compute the ciphertext (c1, c2):\n\nc1 = α^k mod p\nc1 = 2^19 mod 113\nc1 = 62\n\nc2 = M * β^k mod p\nc2 = 53 * 104^19 mod 113\nc2 = 53 * 16 mod 113\nc2 = 848 mod 113\nc2 = 34\n\nSo the resulting ciphertext (c1, c2) that Bob sends to Alice is (62, 34)."
+}

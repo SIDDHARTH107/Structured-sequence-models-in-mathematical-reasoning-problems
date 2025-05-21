@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Graph theory",
+    "sub_topic": "Identifying the perfect matching in a graph.",
+    "message_1": "Consider the following graph:\n\n```\n    A------B\n    |\\     | \\\n    | \\    |  \\\n    |  \\   |   \\\n    |   \\  |    C\n    |    \\ |   / \\\n    |     \\|  /   \\\n    D------E F-----G\n```\n\nWhat is the maximum number of perfect matchings possible in this graph?",
+    "message_2": "A perfect matching is a set of edges that covers all vertices such that each vertex is connected to exactly one other vertex in the set. In this graph, there are 7 vertices, which means we need to find a set of edges that connects all vertices in pairs.\n\nWe can find the maximum number of perfect matchings by analyzing the possible pairings:\n\n1. A-E, B-C, D-F, G\n2. A-E, B-G, C-F, D\n3. A-D, B-C, E-F, G\n4. A-D, B-G, E-C, F\n5. A-B, D-E, F-G, C\n\nThere are 5 perfect matchings in this graph."
+}

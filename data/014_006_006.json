@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "One-time pad encryption",
+    "message_1": "A message \"MATH\" is to be encrypted using the one-time pad encryption technique. The key obtained is \"WHTS\". Find the encrypted message.",
+    "message_2": "To encrypt a message using the one-time pad encryption technique, we need to perform an XOR operation between the message and the key. We'll first convert each letter to its corresponding ASCII value and then perform the XOR operation.\n\nMATH:\nM -> 77 (ASCII value)\nA -> 65\nT -> 84\nH -> 72\n\nWHTS:\nW -> 87\nH -> 72\nT -> 84\nS -> 83\n\nNow, we'll perform the XOR operation between the corresponding ASCII values:\n\n77 XOR 87 = 26\n65 XOR 72 = 9\n84 XOR 84 = 0\n72 XOR 83 = 27\n\nNow, we'll convert these values back to their corresponding characters:\n\n26 -> Z\n9 -> I\n0 -> A\n27 -> [\n\nSo, the encrypted message is \"ZIA[\"."
+}

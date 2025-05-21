@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Probability",
+    "sub_topic": "Probability of rolling a certain number on a dice",
+    "message_1": "A fair six-sided die is rolled 60 times. Find the probability that the number 4 will come up exactly 10 times.",
+    "message_2": "To solve this problem, we will use the binomial probability formula, which is:\n\nP(X = k) = (nCk) * (p^k) * (q^(n-k))\n\nwhere:\n- P(X = k) is the probability of getting exactly k successes in n trials\n- nCk (read as \"n choose k\") is the number of combinations of choosing k successes from n trials, calculated as n! / (k!(n-k)!)\n- p is the probability of success (in this case, rolling a 4)\n- q is the probability of failure (in this case, not rolling a 4)\n- n is the number of trials (in this case, 60 rolls)\n- k is the number of successes (in this case, 10 rolls of 4)\n\nFor our problem, we have:\n- n = 60\n- k = 10\n- p = 1/6 (since there is a 1 in 6 chance of rolling a 4 on a fair six-sided die)\n- q = 5/6 (since there is a 5 in 6 chance of not rolling a 4)\n\nNow, we can plug these values into the binomial probability formula:\n\nP(X = 10) = (60C10) * (1/6)^10 * (5/6)^50\n\nFirst, we calculate 60C10:\n\n60C10 = 60! / (10!(60-10)!) = 60! / (10!50!) ≈ 75,394,027\n\nNow, we can calculate the probability:\n\nP(X = 10) ≈ 75,394,027 * (1/6)^10 * (5/6)^50 ≈ 0.1603\n\nSo, the probability of rolling a 4 exactly 10 times in 60 rolls of a fair six-sided die is approximately 0.1603 or 16.03%."
+}

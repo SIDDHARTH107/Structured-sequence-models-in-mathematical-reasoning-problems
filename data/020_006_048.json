@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Optimization",
+    "sub_topic": "Mixed-integer programming",
+    "message_1": "A company is producing two products, A and B. Each unit of product A requires 2 hours of labor and 1 unit of material, while each unit of product B requires 3 hours of labor and 2 units of material. The company can spend up to 300 hours of labor and has 200 units of material available. Additionally, the company wants to produce at least 40 units of product A and at least 30 units of product B. However, the company only has space to store up to 50 units of the two products combined. What is the maximum profit that the company can make if each unit of product A generates $25 in profit and each unit of product B generates $28 in profit using mixed-integer programming?",
+    "message_2": "To solve this problem using mixed-integer programming, we need to set up the objective function and constraints.\n\nLet x be the number of units of product A and y be the number of units of product B.\n\nObjective function (maximize profit):\nP = 25x + 28y\n\nConstraints:\n1. Labor: 2x + 3y ≤ 300\n2. Material: x + 2y ≤ 200\n3. Minimum product A: x ≥ 40\n4. Minimum product B: y ≥ 30\n5. Storage: x + y ≤ 50\n6. Non-negativity: x, y ≥ 0\n\nNow, we can solve this mixed-integer programming problem using an optimization solver or software.\n\nThe optimal solution is x = 40 units of product A and y = 30 units of product B.\n\nThe maximum profit the company can make is:\nP = 25(40) + 28(30) = 1000 + 840 = $1840"
+}

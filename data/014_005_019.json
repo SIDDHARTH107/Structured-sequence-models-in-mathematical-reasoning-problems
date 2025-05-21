@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Digital signatures",
+    "message_1": "Suppose you have a message M = 357 and you want to digitally sign it using the RSA algorithm. If the public key is (e,n) = (17, 323), and your private key is d = 233, what is the digital signature of the message?",
+    "message_2": "To create a digital signature using the RSA algorithm, you need to raise the message M to the power of your private key d, and then take the result modulo n. In this case, M = 357, d = 233, and n = 323.\n\nSo the digital signature S can be calculated as follows:\n\nS = M^d mod n\nS = 357^233 mod 323\n\nUsing a calculator or programming language that supports large numbers, you can compute the result:\n\nS = 210\n\nTherefore, the digital signature of the message M = 357 using the given private key is S = 210."
+}

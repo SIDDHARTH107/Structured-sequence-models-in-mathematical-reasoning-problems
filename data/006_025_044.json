@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Probability",
+    "sub_topic": "Probability of a certain type of entertainment outcome occurring in a performance.",
+    "message_1": "A magician performs a card trick by selecting 5 cards at random from a deck of 52 cards. What is the probability that all 5 cards are diamonds?",
+    "message_2": "To find the probability of all 5 cards being diamonds, we can use the formula for combinations and probability.\n\nThere are 13 diamonds in a deck of 52 cards. So, we need to find the number of ways to choose 5 diamonds out of 13, which can be represented as C(13, 5). The formula for combinations is:\n\nC(n, r) = n! / (r!(n-r)!)\n\nwhere n is the total number of items, r is the number of items to choose, and ! denotes the factorial.\n\nC(13, 5) = 13! / (5!(13-5)!)\nC(13, 5) = 13! / (5!8!)\nC(13, 5) = (13×12×11×10×9) / (5×4×3×2×1)\nC(13, 5) = 1287\n\nNow, we need to find the total number of ways to choose 5 cards out of 52, which can be represented as C(52, 5):\n\nC(52, 5) = 52! / (5!(52-5)!)\nC(52, 5) = 52! / (5!47!)\nC(52, 5) = (52×51×50×49×48) / (5×4×3×2×1)\nC(52, 5) = 2,598,960\n\nNow, we can find the probability of all 5 cards being diamonds by dividing the number of ways to choose 5 diamonds by the total number of ways to choose 5 cards:\n\nProbability = C(13, 5) / C(52, 5)\nProbability = 1287 / 2,598,960\nProbability ≈ 0.000495\n\nSo, the probability of all 5 cards being diamonds is approximately 0.0495% or 1 in 2016."
+}

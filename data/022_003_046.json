@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Complex integration and Cauchy's theorem",
+    "message_1": "Calculate the value of the integral of $\\frac{z^3}{(z-i)(z-2)}$ on the circle $|z-1|=3$, using Cauchy's theorem.",
+    "message_2": "To solve this problem, we will use the Cauchy Integral Formula. First, let's rewrite the given function as follows:\n\n$$f(z) = \\frac{z^3}{(z-i)(z-2)} = \\frac{A}{z-i} + \\frac{B}{z-2}$$\n\nTo find the coefficients A and B, we need to clear the denominators:\n\n$$z^3 = A(z-2) + B(z-i)$$\n\nNow, we can find A and B by plugging in the values of z that make each term in the denominator zero:\n\nFor A, let z = i:\n\n$$(-i)^3 = A(i-2)$$\n$$-i = A(-1 + i)$$\n$$A = \\frac{-i}{-1 + i}$$\n$$A = \\frac{-i(-1 - i)}{(-1 + i)(-1 - i)}$$\n$$A = \\frac{1 - i}{2}$$\n\nFor B, let z = 2:\n\n$$(2)^3 = B(2-i)$$\n$$8 = B(2-i)$$\n$$B = \\frac{8}{2-i}$$\n$$B = \\frac{8(2+i)}{(2-i)(2+i)}$$\n$$B = 4 + 4i$$\n\nNow, we can rewrite the function as:\n\n$$f(z) = \\frac{\\frac{1 - i}{2}}{z-i} + \\frac{4 + 4i}{z-2}$$\n\nSince the circle $|z-1|=3$ contains the singularity z = i but not z = 2, we can use the Cauchy Integral Formula to find the integral of the function around the circle:\n\n$$\\oint_{|z-1|=3} \\frac{z^3}{(z-i)(z-2)}dz = 2\\pi i \\left(\\frac{1 - i}{2}\\right)$$\n\n$$= \\pi(1-i)$$\n\nSo, the value of the integral of $\\frac{z^3}{(z-i)(z-2)}$ on the circle $|z-1|=3$ is $\\pi(1-i)$."
+}

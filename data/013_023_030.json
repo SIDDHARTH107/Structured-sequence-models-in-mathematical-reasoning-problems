@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Game theory",
+    "sub_topic": "Trust Game",
+    "message_1": "In a Trust Game, Player 1 is given $10 and must decide how much they want to send to Player 2. Whatever amount Player 1 sends, it will be tripled by the experimenter before being given to Player 2. Player 2 must then decide how much of the tripled amount to send back to Player 1. If Player 2 sends back less than the tripled amount, what is the maximum amount Player 1 can send in order to receive a positive return on their investment?",
+    "message_2": "Let x be the amount Player 1 sends to Player 2. The amount received by Player 2 will be 3x. Since Player 2 sends back less than the tripled amount, let's assume they send back (3x - y), where y > 0.\n\nIn order for Player 1 to receive a positive return on their investment, the amount sent back by Player 2 must be greater than the initial amount sent by Player 1:\n\n3x - y > x\n\nNow, we need to solve for x:\n\n2x > y\n\nSince y > 0, we can find the maximum value of x by setting y = 1 (the smallest positive value):\n\n2x > 1\n\nx > 1/2\n\nSo, the maximum amount Player 1 can send to Player 2 in order to receive a positive return on their investment is slightly more than $0.50. However, since the game involves whole dollars, Player 1 can send a maximum of $1 to ensure a positive return on their investment, as long as Player 2 sends back at least $1."
+}

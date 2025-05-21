@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Digital signatures",
+    "message_1": "Suppose Alice wants to sign a message using the ElGamal digital signature algorithm with a secret key of 5 and a public key of (3, 13, 6). If the message is represented as the integer 9, what is the resulting digital signature?",
+    "message_2": "To compute the ElGamal digital signature, we need to follow these steps:\n\n1. Choose a random integer k, where 1 < k < p-1 and gcd(k, p-1) = 1. Let's choose k = 4 (it's coprime with 13-1 = 12).\n2. Compute r = (g^k) mod p. In this case, r = (3^4) mod 13 = 81 mod 13 = 3.\n3. Compute k^(-1) mod (p-1), the modular inverse of k. In this case, k^(-1) = 4^(-1) mod 12. We can find that 4 * 3 = 12 + 1, so the modular inverse of 4 is 3.\n4. Compute s = (k^(-1) * (m - x*r)) mod (p-1), where m is the message, x is the secret key, and r is the value computed in step 2. In this case, s = (3 * (9 - 5*3)) mod 12 = (3 * (-6)) mod 12 = (-18) mod 12 = 6.\n\nThe resulting digital signature is the pair (r, s) = (3, 6)."
+}

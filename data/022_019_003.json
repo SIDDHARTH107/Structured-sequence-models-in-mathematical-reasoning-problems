@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Complex analysis of integral equations",
+    "message_1": "Evaluate the contour integral $\\oint_C \\frac{\\cos z}{z-3i} dz$, where $C$ is the circle $|z-2+2i|=3$.",
+    "message_2": "To evaluate the contour integral, we will use the Cauchy integral formula. The Cauchy integral formula states that for a function $f(z)$ that is analytic inside and on a simple closed curve $C$ and $z_0$ is a point inside $C$, we have\n\n$$f(z_0) = \\frac{1}{2\\pi i} \\oint_C \\frac{f(z)}{z-z_0} dz$$\n\nIn our case, $f(z) = \\cos z$ and $z_0 = 3i$. We want to find\n\n$$\\oint_C \\frac{\\cos z}{z-3i} dz$$\n\nFirst, we need to check if $z_0 = 3i$ is inside the circle $C$. The circle $C$ has the center at $2-2i$ and radius $3$. The distance between the center of the circle and $z_0$ is\n\n$$|z_0 - (2-2i)| = |3i - 2 + 2i| = |i| = 1$$\n\nSince the distance between the center of the circle and $z_0$ is less than the radius of the circle, $z_0$ is inside the circle $C$. Therefore, we can apply the Cauchy integral formula.\n\nWe have\n\n$$\\oint_C \\frac{\\cos z}{z-3i} dz = 2\\pi i \\cos(3i)$$\n\nNow, we need to find $\\cos(3i)$. Using the definition of the complex cosine function, we have\n\n$$\\cos(3i) = \\frac{e^{3i} + e^{-3i}}{2} = \\frac{e^{-3} + e^3}{2}$$\n\nSo,\n\n$$\\oint_C \\frac{\\cos z}{z-3i} dz = 2\\pi i \\frac{e^{-3} + e^3}{2} = \\pi i (e^{-3} + e^3)$$"
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Number theory",
+    "sub_topic": "Wilson's theorem",
+    "message_1": "What is the last digit of 21! (21 factorial) according to Wilson's theorem?",
+    "message_2": "Wilson's theorem states that for a prime number p, (p-1)! ≡ -1 (mod p). However, 21 is not a prime number, so Wilson's theorem cannot be applied directly to find the last digit of 21!.\n\nInstead, we can find the last digit of 21! by looking at the prime factors of the numbers from 1 to 21 and considering their contributions to the last digit.\n\n21! = 1 × 2 × 3 × ... × 19 × 20 × 21\n\nWe know that if a number ends in 0, its last digit is 0. To have a number ending in 0, it must have a factor of 10. A factor of 10 is formed by multiplying 2 and 5. In the range of 1 to 21, there are four multiples of 5 (5, 10, 15, and 20) and ten multiples of 2 (2, 4, 6, 8, 10, 12, 14, 16, 18, and 20). Since there are more than enough multiples of 2 to pair with the multiples of 5, we can conclude that 21! will have at least four trailing zeros.\n\nTherefore, the last digit of 21! is 0."
+}

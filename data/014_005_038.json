@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Digital signatures",
+    "message_1": "Suppose Alice wants to digitally sign a document with a private key d having the value 101. The document has a hash value of 0110. If Alice uses a modulus value of 187, what is the value of the digital signature?",
+    "message_2": "To compute the digital signature, Alice will raise the hash value to the power of her private key (d) and then take the modulus with respect to the given modulus value.\n\nDigital signature = (hash value ^ private key) mod modulus\n\nIn this case, the hash value is 0110 (which is 6 in decimal), the private key (d) is 101, and the modulus value is 187.\n\nDigital signature = (6 ^ 101) mod 187\n\nUsing a calculator or a programming language like Python, we can compute this value:\n\nDigital signature = 135\n\nSo, the value of the digital signature is 135."
+}

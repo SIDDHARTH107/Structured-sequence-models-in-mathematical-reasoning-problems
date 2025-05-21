@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Multinomial coefficients",
+    "message_1": "A committee of 5 people is to be selected from a group of 6 Democrats, 4 Republicans, and 2 Independents. In how many ways can the committee be selected if it must have 2 Democrats, 2 Republicans, and 1 Independent?",
+    "message_2": "To solve this problem, we can use the combination formula which is C(n, k) = n! / (k!(n-k)!), where n is the total number of items and k is the number of items to be chosen.\n\nFirst, we need to choose 2 Democrats from 6 Democrats. Using the combination formula, we get:\n\nC(6, 2) = 6! / (2!(6-2)!) = 6! / (2!4!) = (6*5) / (2*1) = 15\n\nNext, we need to choose 2 Republicans from 4 Republicans. Using the combination formula, we get:\n\nC(4, 2) = 4! / (2!(4-2)!) = 4! / (2!2!) = (4*3) / (2*1) = 6\n\nFinally, we need to choose 1 Independent from 2 Independents. Using the combination formula, we get:\n\nC(2, 1) = 2! / (1!(2-1)!) = 2! / (1!1!) = 2\n\nNow, we need to multiply the number of ways to choose Democrats, Republicans, and Independents together:\n\n15 (ways to choose Democrats) * 6 (ways to choose Republicans) * 2 (ways to choose Independents) = 15 * 6 * 2 = 180\n\nSo there are 180 ways to form a committee with 2 Democrats, 2 Republicans, and 1 Independent."
+}

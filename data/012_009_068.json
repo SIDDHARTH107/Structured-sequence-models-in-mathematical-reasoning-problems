@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Graph theory",
+    "sub_topic": "Determining the degree sequence of a graph.",
+    "message_1": "Consider a graph with 7 vertices and degree sequence 2, 2, 2, 2, 3, 3, 4. Determine whether such a graph exists and draw it if possible.",
+    "message_2": "To determine if a graph with the given degree sequence exists, we can use the Havel-Hakimi theorem. The Havel-Hakimi theorem states that a sequence of non-negative integers is graphical (i.e., can be the degree sequence of a simple graph) if and only if the sequence obtained by deleting the largest degree and reducing the next largest degrees by 1 is graphical.\n\nGiven degree sequence: 2, 2, 2, 2, 3, 3, 4\n\n1. Sort the sequence in non-increasing order: 4, 3, 3, 2, 2, 2, 2\n2. Remove the first element (4) and subtract 1 from the next 4 elements: 2, 2, 1, 1, 2, 2\n3. Sort the sequence in non-increasing order: 2, 2, 2, 2, 1, 1\n4. Remove the first element (2) and subtract 1 from the next 2 elements: 1, 1, 1, 1, 1\n5. Sort the sequence in non-increasing order: 1, 1, 1, 1, 1\n6. Remove the first element (1) and subtract 1 from the next element: 0, 0, 0, 1\n\nAt this point, we have a sequence with a negative number, which means the original degree sequence is not graphical, and a graph with the given degree sequence does not exist."
+}

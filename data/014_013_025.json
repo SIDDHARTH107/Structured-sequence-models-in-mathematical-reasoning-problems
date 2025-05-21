@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Hill cipher",
+    "message_1": "Using Hill Cipher with a 2x2 matrix key, encrypt the message \"MATH\" where A=0, B=1, C=2, ..., Z=25 with the matrix key [5 17; 8 3].",
+    "message_2": "To encrypt the message \"MATH\" using the Hill Cipher with a 2x2 matrix key, follow these steps:\n\n1. Convert the message into numerical form using the given letter-to-number correspondence (A=0, B=1, C=2, ..., Z=25):\nM=12, A=0, T=19, H=7\n\n2. Arrange the message into pairs and form a column vector for each pair:\n[12; 0] for \"MA\" and [19; 7] for \"TH\"\n\n3. Multiply each column vector by the matrix key:\nMatrix key: [5 17; 8 3]\n\nFor \"MA\":\n[5 17; 8 3] * [12; 0] = [5(12) + 17(0); 8(12) + 3(0)] = [60; 96]\n\nFor \"TH\":\n[5 17; 8 3] * [19; 7] = [5(19) + 17(7); 8(19) + 3(7)] = [144; 169]\n\n4. Reduce the resulting numbers modulo 26:\n[60; 96] mod 26 = [8; 22]\n[144; 169] mod 26 = [18; 1]\n\n5. Convert the numbers back to letters using the given correspondence:\n8=I, 22=V, 18=R, 1=B\n\nThe encrypted message is \"IVRB\"."
+}

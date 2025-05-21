@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Multinomial coefficients",
+    "message_1": "A committee of five is to be formed out of seven people. In how many ways can this committee be formed if two of the seven people cannot be on the committee together?",
+    "message_2": "Let's first find the total number of ways to form a committee of five without any restrictions. This can be done using combinations, which is given by the formula:\n\nC(n, k) = n! / (k!(n-k)!)\n\nwhere n is the total number of people and k is the number of people to be chosen.\n\nIn this case, n = 7 and k = 5. So, the total number of ways to form a committee of five without any restrictions is:\n\nC(7, 5) = 7! / (5!(7-5)!) = 7! / (5!2!) = (7*6) / (2) = 21\n\nNow, let's find the number of ways to form a committee with the two people who cannot be together. If they are both on the committee, there are 3 spots left to fill, and 5 remaining people to choose from. The number of ways to form this committee is:\n\nC(5, 3) = 5! / (3!(5-3)!) = 5! / (3!2!) = (5*4) / (2) = 10\n\nFinally, to find the number of ways to form a committee without the two people being together, we subtract the number of ways they can be together from the total number of ways without any restrictions:\n\n21 - 10 = 11\n\nSo, there are 11 ways to form a committee of five with the condition that the two people cannot be on the committee together."
+}

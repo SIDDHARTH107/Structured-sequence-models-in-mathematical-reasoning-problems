@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Combinatorial designs",
+    "message_1": "Suppose you are hosting a dinner party and you want to create seating arrangements for your guests such that each guest is seated with exactly 3 other guests. If you have 12 guests, how many distinct seating arrangements can you create?",
+    "message_2": "To create seating arrangements such that each guest is seated with exactly 3 other guests, we can arrange the guests in groups of 4. Since there are 12 guests, we can create 3 groups of 4 guests each.\n\nFirst, we need to determine the number of ways to divide the 12 guests into 3 groups of 4. We can use the multinomial coefficient formula for this:\n\n(12!)/(4! * 4! * 4!)\n\n12! = 12 * 11 * 10 * 9 * 8 * 7 * 6 * 5 * 4 * 3 * 2 * 1 = 479001600\n4! = 4 * 3 * 2 * 1 = 24\n\n(479001600)/(24 * 24 * 24) = 34650\n\nNow, within each group of 4, there are 4! ways to arrange the guests around a table. Since there are 3 groups, we need to multiply the number of ways to arrange each group by 4!^3:\n\n34650 * (4!^3) = 34650 * (24^3) = 34650 * 13824 = 478296900\n\nSo, there are 478,296,900 distinct seating arrangements for the 12 guests."
+}

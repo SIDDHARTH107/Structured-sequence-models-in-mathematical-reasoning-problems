@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Set theory",
+    "sub_topic": "Prove that the symmetric difference of two sets is distributive over union.",
+    "message_1": "Let A = {1, 2, 3, 4} and B = {2, 4, 6, 8}, find the symmetric difference of (A ∆ B) ∪ A and (A ∪ A) ∆ (B ∪ B).",
+    "message_2": "First, let's find the symmetric difference of A and B, which is denoted as A ∆ B. The symmetric difference consists of elements that are in either A or B, but not in both.\n\nA ∆ B = {1, 3, 6, 8}\n\nNow, let's find the union of (A ∆ B) and A:\n\n(A ∆ B) ∪ A = {1, 2, 3, 4, 6, 8}\n\nNext, let's find the union of A and A, and the union of B and B. Since the union of a set with itself is just the set, we have:\n\nA ∪ A = A = {1, 2, 3, 4}\nB ∪ B = B = {2, 4, 6, 8}\n\nNow, let's find the symmetric difference of (A ∪ A) and (B ∪ B):\n\n(A ∪ A) ∆ (B ∪ B) = A ∆ B = {1, 3, 6, 8}\n\nFinally, let's find the symmetric difference of the two sets we found earlier:\n\n((A ∆ B) ∪ A) ∆ (A ∆ B) = {1, 2, 3, 4, 6, 8} ∆ {1, 3, 6, 8}\n\nThe symmetric difference consists of elements that are in either of the two sets, but not in both:\n\n{2, 4}\n\nSo, the symmetric difference of (A ∆ B) ∪ A and (A ∪ A) ∆ (B ∪ B) is {2, 4}."
+}

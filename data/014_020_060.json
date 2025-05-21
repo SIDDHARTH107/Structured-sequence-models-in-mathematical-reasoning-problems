@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Cryptanalysis of Vigenere cipher",
+    "message_1": "Suppose an encrypted message using Vigenere cipher is given below:\n\n\"TPOAA XSTIQ HZQVQ YDQQU VJFMI NYJXP\"\n\nThe keyword used to encrypt the message is \"MATHS\".\n\nDetermine the original plaintext message using cryptanalysis of Vigenere cipher.",
+    "message_2": "To decrypt the Vigenere cipher, we need to reverse the encryption process. The Vigenere cipher uses a simple form of polyalphabetic substitution, where each letter in the plaintext is shifted along some number of positions in the alphabet, determined by the corresponding letter in the keyword.\n\nFirst, let's write down the keyword \"MATHS\" repeatedly under the ciphertext:\n\nTPOAA XSTIQ HZQVQ YDQQU VJFMI NYJXP\nMATHS MATHS MATHS MATHS MATHS MATHS\n\nNow, for each pair of letters (ciphertext and keyword), we will subtract the keyword letter's position in the alphabet from the ciphertext letter's position (mod 26) to get the plaintext letter.\n\nFor example, for the first pair (T, M), the positions are 20 and 13, respectively. Subtracting 13 from 20 gives 7, which corresponds to the letter H.\n\nFollowing this process for the entire ciphertext, we get the plaintext message:\n\n\"HELLO VIGENE RECIPE RISNO TSECU RE\""
+}

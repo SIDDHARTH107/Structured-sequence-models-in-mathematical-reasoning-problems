@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Meromorphic functions and their properties",
+    "message_1": "Sure, here's an example problem:\n\nLet f(z) = (z^3 - 1) / (z - 1)^2 be a meromorphic function on the complex plane. Determine the order of the pole of f(z) at z = 1.",
+    "message_2": "To determine the order of the pole of f(z) at z = 1, we first need to simplify the function f(z). We can do this by factoring the numerator:\n\nz^3 - 1 = (z - 1)(z^2 + z + 1)\n\nNow, we can rewrite f(z) as:\n\nf(z) = [(z - 1)(z^2 + z + 1)] / (z - 1)^2\n\nWe can see that there is a common factor of (z - 1) in both the numerator and the denominator. We can cancel out one of these factors:\n\nf(z) = (z^2 + z + 1) / (z - 1)\n\nNow, we can see that f(z) has a pole at z = 1, since the denominator becomes zero at this point. To determine the order of the pole, we need to find the smallest positive integer n such that the limit as z approaches 1 of (z - 1)^n * f(z) exists and is nonzero.\n\nLet's try n = 1:\n\nlim (z -> 1) (z - 1)(z^2 + z + 1) / (z - 1)\n\nSince the (z - 1) terms cancel out, we are left with:\n\nlim (z -> 1) (z^2 + z + 1)\n\nEvaluating this limit, we get:\n\n1^2 + 1 + 1 = 3\n\nSince the limit exists and is nonzero, the order of the pole of f(z) at z = 1 is 1."
+}

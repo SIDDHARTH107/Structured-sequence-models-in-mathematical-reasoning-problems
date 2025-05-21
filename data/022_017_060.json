@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Complex analysis of differential equations",
+    "message_1": "Consider the following initial value problem:\n\n$y''+4y=0$, $y(0)=1$, $y'(0)=2i$\n\nFind the solution $y(t)$ of the above differential equation with the given initial conditions.",
+    "message_2": "To solve the given second-order homogeneous linear differential equation, we first find the characteristic equation:\n\n$r^2 + 4 = 0$\n\nSolving for r, we get:\n\n$r^2 = -4$\n\n$r = \\pm 2i$\n\nSince we have complex conjugate roots, the general solution of the differential equation is in the form:\n\n$y(t) = e^{0t}(A\\cos(2t) + B\\sin(2t))$\n\nNow, we apply the initial conditions to find the constants A and B.\n\n1) $y(0) = 1$\n\n$1 = A\\cos(0) + B\\sin(0)$\n\n$1 = A$\n\n2) $y'(0) = 2i$\n\nTaking the derivative of the general solution with respect to t, we get:\n\n$y'(t) = -2A\\sin(2t) + 2B\\cos(2t)$\n\nNow, we apply the initial condition:\n\n$2i = -2A\\sin(0) + 2B\\cos(0)$\n\n$2i = 2B$\n\n$B = i$\n\nSo, the solution to the initial value problem is:\n\n$y(t) = \\cos(2t) + i\\sin(2t)$"
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Multinomial coefficients",
+    "message_1": "A factory produces 100 products that come in three variations: small, medium, and large. In how many ways can the factory produce 100 products if 60 products are small, 30 products are medium, and 10 products are large?",
+    "message_2": "This is a combinatorics problem. We can use the multinomial coefficient formula to solve it. The formula is:\n\nn! / (n1! * n2! * ... * nk!)\n\nwhere n is the total number of items (in this case, 100 products), and n1, n2, ..., nk are the counts of each type of item (in this case, 60 small, 30 medium, and 10 large products).\n\nSo, we have:\n\n100! / (60! * 30! * 10!)\n\nCalculating the factorials:\n\n100! = 9.33262154439441e+157\n60! = 8.32098711274139e+81\n30! = 2.65252859812191e+32\n10! = 3,628,800\n\nNow, divide:\n\n(9.33262154439441e+157) / ((8.32098711274139e+81) * (2.65252859812191e+32) * (3,628,800))\n\n= 2.724656207808e+44\n\nSo, there are approximately 2.72 x 10^44 ways the factory can produce 100 products with 60 small, 30 medium, and 10 large products."
+}

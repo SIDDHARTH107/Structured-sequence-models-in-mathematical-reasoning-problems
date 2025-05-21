@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Combinatorial designs",
+    "message_1": "A school wants to organize a field trip for 9 students to 4 different museums. Each museum can only accommodate 3 students at a time. In how many ways can the school arrange the students for the trip, such that each museum has exactly 3 students visiting it?",
+    "message_2": "To solve this problem, we can use the multinomial coefficient formula, which is a generalization of the binomial coefficient formula. The multinomial coefficient formula is:\n\nC(n; k1, k2, ..., kr) = n! / (k1! * k2! * ... * kr!)\n\nwhere n is the total number of items (students in this case), k1, k2, ..., kr are the number of items in each group (3 students in each museum), and C(n; k1, k2, ..., kr) is the number of ways to divide the n items into the specified groups.\n\nIn this case, we have 9 students and 4 museums, with each museum accommodating 3 students. So, we can plug these values into the formula:\n\nC(9; 3, 3, 3, 0) = 9! / (3! * 3! * 3! * 0!)\n\nNote that we include a 0 in the formula because there are no students left after assigning them to the 3 museums.\n\nNow, we can calculate the factorial values:\n\n9! = 362,880\n3! = 6\n0! = 1\n\nPlug these values back into the formula:\n\nC(9; 3, 3, 3, 0) = 362,880 / (6 * 6 * 6 * 1) = 362,880 / 216 = 1,680\n\nSo, there are 1,680 ways to arrange the 9 students for the trip such that each museum has exactly 3 students visiting it."
+}

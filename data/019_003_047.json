@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Logic",
+    "sub_topic": "Modal logic",
+    "message_1": "Here's a problem for a student studying modal logic:\n\nLet S be a set of propositions {p, q, r}. Using modal logic, write down a formula that is true in exactly two of the four possible worlds.",
+    "message_2": "In modal logic, we use the necessity operator (□) and the possibility operator (◇) to express statements about the truth of propositions in possible worlds. To create a formula that is true in exactly two of the four possible worlds, we can use the following formula:\n\n(p ∧ ◇q) ∨ (¬p ∧ ¬q ∧ r)\n\nThis formula is true in the following two possible worlds:\n\n1. p is true, q is true, r is true or false (since ◇q means that q is true in at least one possible world, and p is true in this world)\n2. p is false, q is false, r is true (since ¬p, ¬q, and r are all true in this world)\n\nIn the other two possible worlds, the formula is false:\n\n3. p is true, q is false, r is true or false (since ◇q is false)\n4. p is false, q is true, r is true or false (since both disjunctions in the formula are false)"
+}

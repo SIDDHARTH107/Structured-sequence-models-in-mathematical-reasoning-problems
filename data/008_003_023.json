@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Determining the rank of a matrix",
+    "message_1": "Find the rank of the matrix \n\n$ \\begin{bmatrix}\n2 & 4 & 6 \\\\\n1 & 2 & 3 \\\\\n-2 & -4 & -6 \n\\end{bmatrix}.$",
+    "message_2": "To find the rank of the matrix, we need to perform Gaussian elimination to find the row echelon form of the matrix. Let's perform the following row operations:\n\n1. Swap Row 1 and Row 2:\n$ \\begin{bmatrix}\n1 & 2 & 3 \\\\\n2 & 4 & 6 \\\\\n-2 & -4 & -6 \n\\end{bmatrix}$\n\n2. Replace Row 2 with Row 2 - 2 * Row 1:\n$ \\begin{bmatrix}\n1 & 2 & 3 \\\\\n0 & 0 & 0 \\\\\n-2 & -4 & -6 \n\\end{bmatrix}$\n\n3. Replace Row 3 with Row 3 + 2 * Row 1:\n$ \\begin{bmatrix}\n1 & 2 & 3 \\\\\n0 & 0 & 0 \\\\\n0 & 0 & 0 \n\\end{bmatrix}$\n\nNow the matrix is in row echelon form. The rank of the matrix is the number of non-zero rows, which is 1 in this case. Therefore, the rank of the matrix is 1."
+}

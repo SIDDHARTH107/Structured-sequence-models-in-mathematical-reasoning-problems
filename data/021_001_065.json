@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Numerical analysis",
+    "sub_topic": "Solving systems of linear equations using Gaussian elimination",
+    "message_1": "Solve the following system of linear equations using Gaussian elimination:\n\n3x + 2y + 4z = 14\n\n2x + 6y + 2z = 10\n\n4x + 2y + z = 8",
+    "message_2": "To solve the system of linear equations using Gaussian elimination, we'll first write the augmented matrix:\n\n```\n| 3  2  4 | 14 |\n| 2  6  2 | 10 |\n| 4  2  1 |  8 |\n```\n\nStep 1: Eliminate x from the second and third rows.\n\nWe'll use the first row as the pivot row. Multiply the first row by 2/3 and subtract it from the second row. Multiply the first row by 4/3 and subtract it from the third row.\n\n```\n| 3    2    4 |  14   |\n| 0    4    -2 | -2   |\n| 0    0   -5 | -12  |\n```\n\nStep 2: Eliminate y from the third row.\n\nWe'll use the second row as the pivot row. Divide the second row by 4 and add it to the third row multiplied by 1/5.\n\n```\n| 3    2    4 |  14   |\n| 0    4    -2 | -2   |\n| 0    0   -5 | -12  |\n```\n\nStep 3: Back-substitute to find the solutions.\n\nNow we have an upper triangular matrix, and we can back-substitute to find the solutions.\n\nz = -12 / -5 = 12/5\n\ny = (-2 + 2 * (12/5)) / 4 = (10/5) / 4 = 1/2\n\nx = (14 - 2 * (1/2) - 4 * (12/5)) / 3 = (14 - 1 - 48/5) / 3 = (65/5) / 3 = 13/3\n\nSo the solution is x = 13/3, y = 1/2, and z = 12/5."
+}

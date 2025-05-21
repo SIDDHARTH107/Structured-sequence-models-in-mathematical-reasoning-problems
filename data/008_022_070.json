@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Solving systems of linear equations with ill-conditioned matrices",
+    "message_1": "Here's a numerical problem for a math student to solve:\n\nConsider the system of linear equations:\n\n2x + 3y = 9\n4x + 6.01y = 18.04\n\nDetermine whether the system has infinite solutions, unique solution, or no solution using the Gaussian elimination method.",
+    "message_2": "To solve this system of linear equations using Gaussian elimination, we first write the augmented matrix:\n\n| 2  3 |  9 |\n| 4  6.01 | 18.04 |\n\nNext, we perform row operations to get the matrix in row-echelon form. We can start by dividing the first row by 2:\n\n| 1  1.5 |  4.5 |\n| 4  6.01 | 18.04 |\n\nNow, we want to eliminate the 4 in the second row, first column. To do this, we can subtract 4 times the first row from the second row:\n\n| 1  1.5 |  4.5 |\n| 0  0.01 | -0.06 |\n\nFinally, we divide the second row by 0.01 to get the matrix in row-echelon form:\n\n| 1  1.5 |  4.5 |\n| 0  1 | -6 |\n\nNow we can read the solutions from the matrix. The second row tells us that y = -6, and substituting this value into the first row, we get x = 4.5 - 1.5*(-6) = 4.5 + 9 = 13.5.\n\nSo the system has a unique solution: x = 13.5 and y = -6."
+}

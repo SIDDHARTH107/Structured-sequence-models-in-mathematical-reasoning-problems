@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Playfair cipher",
+    "message_1": "Suppose the plain text message \"MATHEMATICS\" needs to be encrypted using Playfair cipher with the keyword \"CRYPTO\". What would be the encrypted message?",
+    "message_2": "To encrypt the message \"MATHEMATICS\" using the Playfair cipher with the keyword \"CRYPTO\", we first need to create the 5x5 Playfair matrix using the keyword.\n\n1. Remove duplicate letters from the keyword: CRYPTO -> CRYPO\n2. Complete the matrix with the remaining letters of the alphabet (excluding 'J', which is combined with 'I' in the Playfair cipher): CRYPOABDFGHIKLMNQSTUVWXZ\n\nThe 5x5 matrix looks like this:\n\nC R Y P O\nA B D F G\nH I K L M\nN Q S T U\nV W X Z\n\nNow, we can encrypt the message \"MATHEMATICS\" using the Playfair cipher rules:\n\n1. Break the message into digraphs (pairs of letters): MA TH EM AT IC S\n2. If a digraph contains the same letter twice, insert an 'X' between them: MA TH EM AT IX CS\n3. Encrypt each digraph using the matrix:\n\n- MA -> PK\n- TH -> ZD\n- EM -> QB\n- AT -> RF\n- IX -> YN\n- CS -> UV\n\nThe encrypted message is: PKZDQBRFYNUV"
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Game theory",
+    "sub_topic": "Cheap Talk",
+    "message_1": "Suppose there are two players, A and B, who are trying to decide on a strategy for a one-time game. A can choose between two strategies, strategy X or strategy Y, while B can choose between two strategies, strategy Z or strategy W. The payoff matrix for the game is given below:\n\n|        | Z (B's strategy) | W (B's strategy) |\n|--------|-----------------|-----------------|\n| X (A's strategy) | 2,2             | 0,4                 |\n| Y (A's strategy) | 4,0              | 1,1                  |\n\nAssume that during a pre-game communication phase, A and B can each send one message to the other player to communicate their strategy choice. However, each player may lie to the other player in their message. What message should A send to B to ensure that they play strategy X?",
+    "message_2": "A should send a message to B claiming that they will play strategy Y. This is because if B believes that A will play strategy Y, B will choose strategy Z to maximize their own payoff (as 2 > 1). Then, A can actually play strategy X, which will result in the payoff (2,2) for both players. By claiming to play strategy Y, A can manipulate B's decision and ensure that they play strategy X."
+}

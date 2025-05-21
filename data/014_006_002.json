@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "One-time pad encryption",
+    "message_1": "Suppose you are using a one-time pad encryption to send a message consisting of the string \"101010\" to your friend. Your one-time pad key consists of the string \"110011\". Use modular addition to find the encrypted message.",
+    "message_2": "To encrypt the message using a one-time pad, we perform bitwise XOR (exclusive or) operation between the message and the key. In this case, the message is \"101010\" and the key is \"110011\". We will perform the XOR operation for each corresponding bit in the message and the key.\n\n1. 1 (message) XOR 1 (key) = 0\n2. 0 (message) XOR 1 (key) = 1\n3. 1 (message) XOR 0 (key) = 1\n4. 0 (message) XOR 0 (key) = 0\n5. 1 (message) XOR 1 (key) = 0\n6. 0 (message) XOR 1 (key) = 1\n\nThe encrypted message is \"011001\"."
+}

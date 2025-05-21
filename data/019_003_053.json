@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Logic",
+    "sub_topic": "Modal logic",
+    "message_1": "Consider the following modal logic formula: \n\n(p → q) ⊢ ◇p → ◇q\n\nProve that the formula is valid using a natural deduction proof.",
+    "message_2": "To prove the formula (p → q) ⊢ ◇p → ◇q is valid using a natural deduction proof, we will assume (p → q) and derive ◇p → ◇q. We will use the following rules of inference: \n\n1. →-introduction (→I)\n2. →-elimination (→E)\n3. ◇-introduction (◇I)\n4. ◇-elimination (◇E)\n5. Necessitation (N)\n\nProof:\n\n1. (p → q) (Assumption)\n2. | ◇p (Assumption)\n3. | | p (Assumption, from ◇E)\n4. | | q (From 1 and 3, using →E)\n5. | ◇q (From 4, using ◇I)\n6. ◇p → ◇q (From 2 to 5, using →I)\n\nSo, we have derived ◇p → ◇q under the assumption (p → q), which shows that the formula (p → q) ⊢ ◇p → ◇q is valid."
+}

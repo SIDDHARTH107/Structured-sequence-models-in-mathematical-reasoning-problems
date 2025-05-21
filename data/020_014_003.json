@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Optimization",
+    "sub_topic": "Non-convex optimization",
+    "message_1": "A manufacturing company produces two types of products: Product A and Product B. It has a total of 2000 hours of production time available each week. Product A requires 10 hours of production time and generates a profit of $50, while Product B requires 15 hours of production time and generates a profit of $75. Write a non-convex optimization problem to determine the number of units of each product the company should produce in order to maximize its weekly profit.",
+    "message_2": "Let x be the number of units of Product A and y be the number of units of Product B. The objective is to maximize the total profit, which can be represented as:\n\nObjective function: Maximize P(x, y) = 50x + 75y\n\nSubject to the constraints:\n\n1. Production time constraint: 10x + 15y ≤ 2000\n2. Non-negativity constraint: x ≥ 0, y ≥ 0\n3. Integer constraint: x and y must be integers (since we cannot produce a fraction of a product)\n\nThe optimization problem can be written as:\n\nMaximize P(x, y) = 50x + 75y\nSubject to:\n10x + 15y ≤ 2000\nx ≥ 0\ny ≥ 0\nx, y ∈ Z (x and y are integers)"
+}

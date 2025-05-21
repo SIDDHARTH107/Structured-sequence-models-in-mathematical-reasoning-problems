@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Group theory",
+    "sub_topic": "Prove that every group of prime order is cyclic.",
+    "message_1": "Let G be a group of prime order p, where p is a prime number. Prove that G is cyclic by finding a generator of G.",
+    "message_2": "To prove that G is cyclic, we need to show that there exists an element g in G such that every element of G can be expressed as a power of g.\n\nSince G has order p, there are p elements in G, including the identity element e. By Lagrange's theorem, the order of any element in G must divide the order of G. Since p is prime, the only divisors of p are 1 and p itself. Therefore, the order of any element in G must be either 1 or p.\n\nNow, let's consider an arbitrary non-identity element x in G. Since the order of x cannot be 1 (otherwise x would be the identity element), the order of x must be p. This means that the set {x^0, x^1, x^2, ..., x^(p-1)} contains p distinct elements, which are all the elements of G. In other words, x generates G.\n\nThus, we have shown that there exists a generator for G, and therefore G is cyclic."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Solving systems of linear equations using Gaussian elimination",
+    "message_1": "Solve the following system of linear equations using Gaussian elimination:\n\n3x + 2y = 8  \n-2x + 5y = 1",
+    "message_2": "First, we will write the given system of linear equations in the form of an augmented matrix:\n\n[ 3  2 | 8 ]\n[ -2  5 | 1 ]\n\nNow, we will perform Gaussian elimination to obtain a row-echelon form:\n\nStep 1: Swap row 1 and row 2 to have a non-zero element in the first row and first column.\n\n[ -2  5 | 1 ]\n[ 3  2 | 8 ]\n\nStep 2: Multiply row 1 by -3/2 to make the first element of row 1 equal to 1.\n\n[ 1  -5/2 | -1/2 ]\n[ 3  2 | 8 ]\n\nStep 3: Replace row 2 with row 2 - 3 * row 1 to eliminate the first element of row 2.\n\n[ 1  -5/2 | -1/2 ]\n[ 0  17/2 | 25/2 ]\n\nStep 4: Divide row 2 by 17/2 to make the second element of row 2 equal to 1.\n\n[ 1  -5/2 | -1/2 ]\n[ 0  1 | 5/2 ]\n\nNow, we have the row-echelon form of the matrix. We will perform back-substitution to find the solution:\n\nFrom the second row, we have y = 5/2.\n\nNow, substitute this value into the first row to find x:\n\nx - (5/2)(5/2) = -1/2\nx - 25/4 = -1/2\nx = -1/2 + 25/4\nx = 23/4\n\nSo, the solution to the system of linear equations is x = 23/4 and y = 5/2."
+}

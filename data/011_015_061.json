@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Ramsey theory",
+    "message_1": "Consider a party with 6 attendees. Each attendee knows at most 3 other attendees. What is the minimum number of attendees who must know each other in order to guarantee the presence of a \"clique\" of at least 3 people who all know each other?",
+    "message_2": "To solve this problem, we will use the Pigeonhole Principle. Let's label the attendees A, B, C, D, E, and F. \n\n1. Assume that attendee A knows 3 other attendees. Without loss of generality, let A know B, C, and D.\n2. If any of B, C, or D know each other, then we have a clique of 3 people who all know each other (e.g., if B knows C, then A, B, and C form a clique). \n3. If none of B, C, or D know each other, then each of them must know the remaining 3 attendees (E, F, and one of the other two from the B, C, D group). In this case, let's consider attendee B. Since B knows E and F, if E and F know each other, then B, E, and F form a clique. If E and F do not know each other, then they must know the remaining attendees, which are A, C, and D. However, this contradicts the assumption that none of B, C, or D know each other.\n\nThus, in order to guarantee the presence of a clique of at least 3 people who all know each other, the minimum number of attendees who must know each other is 3."
+}

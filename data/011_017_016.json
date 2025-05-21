@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Latin squares",
+    "message_1": "How many distinct 3x3 Latin squares are there?",
+    "message_2": "A Latin square is an n × n array filled with n different symbols, each occurring exactly once in each row and exactly once in each column. For a 3x3 Latin square, we have n = 3, and we can use the symbols 1, 2, and 3.\n\nThere are 12 distinct 3x3 Latin squares. Here's a way to count them:\n\n1. There are 3! (3 factorial) ways to arrange the first row, which is 6 ways.\n2. For each of these 6 ways, there are 2 ways to arrange the second row, since the second row must have one of each symbol and cannot have the same symbol in the same column as the first row.\n3. Once the first two rows are determined, the third row is fixed, as each symbol must appear exactly once in each column.\n\nSo, there are 6 (first row) × 2 (second row) = 12 distinct 3x3 Latin squares."
+}

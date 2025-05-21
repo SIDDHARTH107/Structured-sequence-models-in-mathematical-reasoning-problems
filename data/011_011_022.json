@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Partition theory",
+    "message_1": "A group of 6 people want to split into 3 sets of 2 to work on a project together. In how many different ways can they make these sets?",
+    "message_2": "To solve this problem, we can use the concept of combinations. We need to find the number of ways to choose 2 people out of 6, then 2 out of the remaining 4, and finally 2 out of the remaining 2.\n\nFirst, we choose 2 people out of 6:\nC(6,2) = 6! / (2! * (6-2)!) = 15\n\nNext, we choose 2 people out of the remaining 4:\nC(4,2) = 4! / (2! * (4-2)!) = 6\n\nFinally, the last 2 people are automatically paired together, so there's only 1 way to choose them.\n\nNow, we multiply the number of ways to choose each pair together: 15 * 6 * 1 = 90\n\nHowever, we have overcounted the number of unique sets of pairs, as the order of the pairs does not matter. There are 3! (3 factorial) ways to arrange the 3 pairs, so we need to divide our result by 3! to account for this:\n\n90 / (3!) = 90 / 6 = 15\n\nSo there are 15 different ways to split the group of 6 people into 3 sets of 2."
+}

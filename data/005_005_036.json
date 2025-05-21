@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Statistics",
+    "sub_topic": "Probability distributions",
+    "message_1": "A fair six-sided die is rolled 50 times. Find the probability of getting exactly two 6's.",
+    "message_2": "To find the probability of getting exactly two 6's in 50 rolls, we can use the binomial probability formula:\n\nP(X = k) = (nCk) * (p^k) * (q^(n-k))\n\nwhere:\n- n is the number of trials (in this case, 50 rolls)\n- k is the number of successful trials (in this case, 2 rolls with a 6)\n- p is the probability of success (in this case, the probability of rolling a 6, which is 1/6)\n- q is the probability of failure (in this case, the probability of not rolling a 6, which is 5/6)\n- nCk is the number of combinations of n items taken k at a time, which can be calculated as n! / (k!(n-k)!)\n\nPlugging in the values, we get:\n\nP(X = 2) = (50C2) * (1/6)^2 * (5/6)^48\n\nFirst, let's calculate 50C2:\n\n50C2 = 50! / (2!(50-2)!)\n= 50! / (2! * 48!)\n= (50 * 49) / (2 * 1)\n= 1225\n\nNow, let's calculate the probabilities:\n\n(1/6)^2 = 1/36\n(5/6)^48 ≈ 2.1639 * 10^(-7)\n\nNow, multiply all the values together:\n\nP(X = 2) = 1225 * (1/36) * (2.1639 * 10^(-7))\n≈ 0.034027 * (2.1639 * 10^(-7))\n≈ 7.366 * 10^(-9)\n\nSo, the probability of getting exactly two 6's in 50 rolls of a fair six-sided die is approximately 7.366 * 10^(-9), or 7.366 x 10^(-9)."
+}

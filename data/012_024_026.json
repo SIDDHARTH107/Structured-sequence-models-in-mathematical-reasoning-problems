@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Graph theory",
+    "sub_topic": "Determining the genus of a graph.",
+    "message_1": "Using Euler's formula, determine the genus of a connected graph G that has 12 vertices and 20 edges.",
+    "message_2": "Euler's formula for connected planar graphs is given by:\n\nV - E + F = 2\n\nwhere V is the number of vertices, E is the number of edges, and F is the number of faces.\n\nHowever, to find the genus of a connected graph, we need to use the formula:\n\nE <= 3V + 6g - 6\n\nwhere g is the genus of the graph.\n\nIn this case, we have V = 12 and E = 20. We want to find the smallest non-negative integer g such that the inequality holds:\n\n20 <= 3(12) + 6g - 6\n\nSolving for g:\n\n20 <= 36 + 6g - 6\n6 <= 6g\n1 <= g\n\nSince g must be a non-negative integer, the smallest possible value for g is 1. Therefore, the genus of the connected graph G with 12 vertices and 20 edges is 1."
+}

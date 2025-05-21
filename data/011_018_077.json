@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Block designs",
+    "message_1": "A school wants to organize a science fair with 15 different projects. Each project must be judged by exactly 6 judges, and no two projects can be judged by the same set of 6 judges. How many different sets of judges are needed for the fair?",
+    "message_2": "Let's denote the number of judges needed as J. Since no two projects can be judged by the same set of 6 judges, we need to find the minimum value of J such that the number of possible combinations of choosing 6 judges from J is greater than or equal to 15 (the number of projects).\n\nThe number of combinations can be calculated using the binomial coefficient formula:\n\nC(J, 6) = J! / (6! * (J - 6)!)\n\nwhere C(J, 6) represents the number of ways to choose 6 judges from J, and ! denotes the factorial.\n\nWe need to find the smallest J that satisfies:\n\nC(J, 6) >= 15\n\nBy testing different values of J, we can find that the smallest J that satisfies this condition is J = 8.\n\nC(8, 6) = 8! / (6! * (8 - 6)!) = 28\n\nSo, the school needs at least 8 different judges for the science fair."
+}

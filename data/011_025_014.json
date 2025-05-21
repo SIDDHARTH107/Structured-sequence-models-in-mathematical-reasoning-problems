@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Combinatorial game theory",
+    "message_1": "What is the number of possible unique ways to arrange a set of 5 distinct marbles in a row if two of them cannot be placed next to each other in any arrangement?",
+    "message_2": "Let's denote the marbles as A, B, C, D, and E, where A and B cannot be placed next to each other. We will first find the total number of arrangements without any restrictions and then subtract the number of arrangements where A and B are next to each other.\n\nTotal arrangements without restrictions: There are 5! (5 factorial) ways to arrange 5 distinct marbles, which is 5 × 4 × 3 × 2 × 1 = 120.\n\nNow, let's consider A and B as a single entity (AB or BA). We have 4 entities now: (AB), C, D, and E.\n\nTotal arrangements with (AB) together: There are 4! (4 factorial) ways to arrange these 4 entities, which is 4 × 3 × 2 × 1 = 24. However, within the (AB) entity, A and B can be arranged in 2! (2 factorial) ways, which is 2 × 1 = 2. So, there are 24 × 2 = 48 arrangements where A and B are next to each other.\n\nFinally, subtract the number of arrangements where A and B are next to each other from the total arrangements without restrictions:\n\nNumber of unique arrangements with A and B not next to each other = 120 - 48 = 72."
+}

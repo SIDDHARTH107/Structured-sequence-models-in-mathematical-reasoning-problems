@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Hill cipher",
+    "message_1": "Given a message \"MATH\" and the key matrix:\n\n$$\n\\begin{bmatrix}\n2 & 5 \\\\\n1 & 3 \n\\end{bmatrix}\n$$\n\nUse the Hill Cipher to encrypt the message into a four-digit numerical code.",
+    "message_2": "To encrypt the message \"MATH\" using the Hill Cipher, we first need to convert the letters into numerical values using the following mapping: A=0, B=1, ..., Z=25. \n\nM = 12\nA = 0\nT = 19\nH = 7\n\nNow, we need to arrange the message into a matrix form. Since the key matrix is 2x2, we will arrange the message into a 2x2 matrix:\n\n$$\n\\begin{bmatrix}\n12 & 19 \\\\\n0 & 7 \n\\end{bmatrix}\n$$\n\nNext, we multiply the key matrix by the message matrix:\n\n$$\n\\begin{bmatrix}\n2 & 5 \\\\\n1 & 3 \n\\end{bmatrix}\n\\times\n\\begin{bmatrix}\n12 & 19 \\\\\n0 & 7 \n\\end{bmatrix}\n=\n\\begin{bmatrix}\n2(12) + 5(0) & 2(19) + 5(7) \\\\\n1(12) + 3(0) & 1(19) + 3(7) \n\\end{bmatrix}\n=\n\\begin{bmatrix}\n24 & 59 \\\\\n12 & 40 \n\\end{bmatrix}\n$$\n\nNow, we need to take the result modulo 26 to get the encrypted message:\n\n$$\n\\begin{bmatrix}\n24 \\mod{26} & 59 \\mod{26} \\\\\n12 \\mod{26} & 40 \\mod{26} \n\\end{bmatrix}\n=\n\\begin{bmatrix}\n24 & 7 \\\\\n12 & 14 \n\\end{bmatrix}\n$$\n\nFinally, we convert the numerical values back to letters:\n\nX = 24\nH = 7\nM = 12\nO = 14\n\nThe encrypted message is \"XHMO\". To represent this as a four-digit numerical code, we can use the original numerical values: 24071214."
+}

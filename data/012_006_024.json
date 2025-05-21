@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Graph theory",
+    "sub_topic": "Identifying the Eulerian and Hamiltonian paths in a graph.",
+    "message_1": "Consider the following undirected graph:\n\n```\nA --- B --- C \n|     |     |\nD --- E --- F\n```\nIs there an Eulerian path in this graph? If yes, provide one. If no, explain why not.",
+    "message_2": "There is no Eulerian path in this graph. An Eulerian path is a path that visits every edge exactly once. A graph has an Eulerian path if and only if it is connected and has exactly 0 or 2 vertices with an odd degree (number of edges connected to the vertex).\n\nIn this graph, all vertices have an odd degree:\n\n- A, C, D, and F have a degree of 3.\n- B and E have a degree of 4.\n\nSince there are more than 2 vertices with an odd degree, there is no Eulerian path in this graph."
+}

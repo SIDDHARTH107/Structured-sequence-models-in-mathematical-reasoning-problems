@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Statistics",
+    "sub_topic": "Confidence intervals",
+    "message_1": "A poll of 400 students found that 280 of them have a smartphone. Calculate the 95% confidence interval for the proportion of students in the population who have smartphones.",
+    "message_2": "To calculate the 95% confidence interval for the proportion of students in the population who have smartphones, we will use the following formula:\n\nConfidence Interval = p-hat ± Z * sqrt((p-hat * (1 - p-hat)) / n)\n\nwhere:\n- p-hat is the sample proportion (280/400)\n- Z is the Z-score for a 95% confidence interval (1.96)\n- n is the sample size (400)\n\nFirst, let's calculate p-hat:\n\np-hat = 280 / 400 = 0.7\n\nNow, let's calculate the standard error:\n\nStandard Error = sqrt((p-hat * (1 - p-hat)) / n)\nStandard Error = sqrt((0.7 * (1 - 0.7)) / 400)\nStandard Error = sqrt((0.7 * 0.3) / 400)\nStandard Error = sqrt(0.21 / 400)\nStandard Error = sqrt(0.000525)\nStandard Error ≈ 0.0229\n\nNow, let's calculate the margin of error:\n\nMargin of Error = Z * Standard Error\nMargin of Error = 1.96 * 0.0229\nMargin of Error ≈ 0.0449\n\nFinally, let's calculate the 95% confidence interval:\n\nConfidence Interval = p-hat ± Margin of Error\nConfidence Interval = 0.7 ± 0.0449\nConfidence Interval = (0.7 - 0.0449, 0.7 + 0.0449)\nConfidence Interval ≈ (0.6551, 0.7449)\n\nSo, the 95% confidence interval for the proportion of students in the population who have smartphones is approximately (0.6551, 0.7449)."
+}

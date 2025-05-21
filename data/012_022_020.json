@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Graph theory",
+    "sub_topic": "Finding the Ramsey number of a graph.",
+    "message_1": "What is the Ramsey number R(4,4) and what is the minimal graph needed to prove it?",
+    "message_2": "The Ramsey number R(4,4) is the smallest integer n such that any graph of order n will contain either a clique of order 4 (a complete subgraph with 4 vertices) or an independent set of order 4 (a set of 4 vertices with no edges between them). The Ramsey number R(4,4) is known to be 18.\n\nThe minimal graph needed to prove it is a graph with 17 vertices, which can be constructed in such a way that it does not contain a clique of order 4 or an independent set of order 4. One such graph is the Kneser graph KG(7,3), which has 17 vertices, each representing a 3-element subset of a 7-element set, and two vertices are adjacent if and only if their corresponding subsets are disjoint. This graph is triangle-free and has chromatic number 4, which means it does not contain a clique of order 4 or an independent set of order 4.\n\nHowever, when you add one more vertex to the graph (making it a graph with 18 vertices), it is guaranteed that either a clique of order 4 or an independent set of order 4 will be formed, thus proving that R(4,4) = 18."
+}

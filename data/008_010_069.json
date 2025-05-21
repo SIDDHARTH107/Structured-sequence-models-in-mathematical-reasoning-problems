@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Solving systems of linear equations using Gaussian elimination",
+    "message_1": "Solve the following system of linear equations using Gaussian elimination:\n\n3x + 2y - z = 10 \\\n2x - 2y + 4z = -2 \\\n-x +  1/2 y - z = 0",
+    "message_2": "First, let's rewrite the system of linear equations in matrix form:\n\n```\n[  3   2  -1 |  10 ]\n[  2  -2   4 |  -2 ]\n[ -1  1/2 -1 |   0 ]\n```\n\nStep 1: Eliminate the x term in the second and third rows.\n\nTo do this, we'll perform the following row operations:\n\n- Row2 = Row2 - (2/3) * Row1\n- Row3 = Row3 + Row1\n\n```\n[  3    2   -1 |  10 ]\n[  0   -4    6 | -10 ]\n[  0    5/2 -2 |  10 ]\n```\n\nStep 2: Eliminate the y term in the third row.\n\nTo do this, we'll perform the following row operation:\n\n- Row3 = Row3 - (5/8) * Row2\n\n```\n[  3    2    -1 |  10 ]\n[  0   -4     6 | -10 ]\n[  0    0  -1/2 |   5 ]\n```\n\nStep 3: Solve for z.\n\nWe can now solve for z from the third row:\n\n-1/2 * z = 5\nz = -10\n\nStep 4: Solve for y.\n\nNow that we have z, we can substitute it into the second row to solve for y:\n\n-4y + 6(-10) = -10\n-4y - 60 = -10\n-4y = 50\ny = -25/2\n\nStep 5: Solve for x.\n\nFinally, we can substitute y and z into the first row to solve for x:\n\n3x + 2(-25/2) - (-10) = 10\n3x - 25 + 10 = 10\n3x = 25\nx = 25/3\n\nSo the solution to the system of linear equations is:\n\nx = 25/3\ny = -25/2\nz = -10"
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Probability",
+    "sub_topic": "Probability of a certain outcome in a sports game",
+    "message_1": "A basketball player has a success rate of 80% in free-throw shots. What is the probability that they will make exactly 3 out of 4 free-throw shots?",
+    "message_2": "To calculate the probability of the basketball player making exactly 3 out of 4 free-throw shots, we can use the binomial probability formula:\n\nP(X = k) = C(n, k) * p^k * (1-p)^(n-k)\n\nwhere:\n- P(X = k) is the probability of making exactly k successful shots\n- C(n, k) is the number of combinations of n items taken k at a time (n choose k)\n- n is the total number of shots (in this case, 4)\n- k is the number of successful shots (in this case, 3)\n- p is the success rate (in this case, 80% or 0.8)\n- (1-p) is the failure rate (in this case, 20% or 0.2)\n\nFirst, we calculate C(4, 3):\n\nC(4, 3) = 4! / (3! * (4-3)!)\nC(4, 3) = 4! / (3! * 1!)\nC(4, 3) = (4 * 3 * 2 * 1) / (3 * 2 * 1 * 1)\nC(4, 3) = 4\n\nNow, we can plug the values into the binomial probability formula:\n\nP(X = 3) = C(4, 3) * p^3 * (1-p)^(4-3)\nP(X = 3) = 4 * (0.8)^3 * (0.2)^(1)\nP(X = 3) = 4 * (0.512) * (0.2)\nP(X = 3) = 4 * 0.1024\nP(X = 3) ≈ 0.4096\n\nSo, the probability that the basketball player will make exactly 3 out of 4 free-throw shots is approximately 40.96%."
+}

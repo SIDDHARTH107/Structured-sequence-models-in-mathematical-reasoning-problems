@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Catalan numbers",
+    "message_1": "A chessboard has eight black pawns on the first row and eight white pawns on the last row. In how many ways can you move the black pawns to the last row while following the legal moves of chess and without capturing any of the white pawns?",
+    "message_2": "In chess, a pawn can only move forward one square at a time (or two squares on its first move), and it captures diagonally. Since we want to move the black pawns to the last row without capturing any of the white pawns, we need to find a way to move each black pawn to the corresponding white pawn's position.\n\nConsider the following chessboard:\n\n```\n8 | B B B B B B B B\n7 | . . . . . . . .\n6 | . . . . . . . .\n5 | . . . . . . . .\n4 | . . . . . . . .\n3 | . . . . . . . .\n2 | . . . . . . . .\n1 | W W W W W W W W\n    A B C D E F G H\n```\n\nWe need to move each black pawn (B) to the position of the corresponding white pawn (W) without capturing any white pawns.\n\nSince pawns can only move forward and capture diagonally, the only way to achieve this is to move each black pawn straight forward to the last row. There are no other options for the pawns to move, as any diagonal move would result in a capture.\n\nTherefore, there is only 1 way to move the black pawns to the last row without capturing any of the white pawns: by moving each black pawn straight forward to the last row."
+}

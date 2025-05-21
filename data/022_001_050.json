@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Analytic continuation of complex functions",
+    "message_1": "Consider the function $f(z) = \\dfrac{z^2-1}{z^2+1}$ defined on the unit circle $|z|=1$. Find the analytic continuation of $f(z)$ to the region $\\text{Re}(z)>0$.",
+    "message_2": "To find the analytic continuation of $f(z)$ to the region $\\text{Re}(z)>0$, we first rewrite the function in terms of a new variable $w$ such that $z = \\frac{1+w}{1-w}$. This transformation maps the right half-plane $\\text{Re}(z)>0$ to the unit disk $|w|<1$. Now, we express $f(z)$ in terms of $w$:\n\n$$f(z) = \\frac{\\left(\\frac{1+w}{1-w}\\right)^2 - 1}{\\left(\\frac{1+w}{1-w}\\right)^2 + 1}.$$\n\nSimplify the expression:\n\n$$f(z) = \\frac{(1+w)^2 - (1-w)^2}{(1+w)^2 + (1-w)^2} = \\frac{4w}{2} = 2w.$$\n\nNow, we have $f(z) = 2w$. To find the analytic continuation of $f(z)$ to the region $\\text{Re}(z)>0$, we need to express $w$ in terms of $z$. From the transformation $z = \\frac{1+w}{1-w}$, we can solve for $w$:\n\n$$w = \\frac{z-1}{z+1}.$$\n\nSubstitute this expression for $w$ back into $f(z) = 2w$:\n\n$$f(z) = 2\\left(\\frac{z-1}{z+1}\\right).$$\n\nThus, the analytic continuation of $f(z)$ to the region $\\text{Re}(z)>0$ is given by:\n\n$$f(z) = \\frac{2(z-1)}{z+1}.$$"
+}

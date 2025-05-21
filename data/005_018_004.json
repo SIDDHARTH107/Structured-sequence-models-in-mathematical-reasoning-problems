@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Statistics",
+    "sub_topic": "Survival analysis",
+    "message_1": "What is the probability that out of a random sample of 100 cancer patients, at least 80 survive for the next 5 years given that the survival rate for this type of cancer at 5 years is 70%?",
+    "message_2": "To solve this problem, we can use the binomial probability formula:\n\nP(X = k) = C(n, k) * p^k * (1-p)^(n-k)\n\nwhere:\n- P(X = k) is the probability of exactly k successes (survivals) in n trials (patients)\n- C(n, k) is the number of combinations of n items taken k at a time (n! / (k! * (n-k)!))\n- p is the probability of success (survival rate) = 0.7\n- n is the number of trials (patients) = 100\n- k is the number of successes (survivals) we want to find the probability for\n\nSince we want to find the probability of at least 80 survivals, we need to find the sum of probabilities for k = 80, 81, 82, ..., 100.\n\nP(X >= 80) = P(X = 80) + P(X = 81) + ... + P(X = 100)\n\nWe can calculate this using the binomial probability formula for each k and summing the results:\n\nP(X >= 80) = Σ [C(100, k) * (0.7)^k * (0.3)^(100-k)] for k = 80 to 100\n\nUsing a calculator or software to compute the sum, we get:\n\nP(X >= 80) ≈ 0.0016\n\nSo, the probability that at least 80 out of 100 cancer patients survive for the next 5 years is approximately 0.16% or 0.0016."
+}

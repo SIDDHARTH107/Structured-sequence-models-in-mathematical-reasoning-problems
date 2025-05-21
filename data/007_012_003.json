@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Number theory",
+    "sub_topic": "Wilson's theorem",
+    "message_1": "Using Wilson's theorem, find the remainder when 32! is divided by 37.",
+    "message_2": "Wilson's theorem states that for a prime number p, (p-1)! ≡ -1 (mod p). In this case, we have the prime number p = 37. So, according to Wilson's theorem, we have:\n\n(37-1)! ≡ -1 (mod 37)\n36! ≡ -1 (mod 37)\n\nNow, we want to find the remainder when 32! is divided by 37. We can rewrite 36! as:\n\n36! = 32! × 33 × 34 × 35 × 36\n\nSo, we have:\n\n32! × 33 × 34 × 35 × 36 ≡ -1 (mod 37)\n\nNow, we can find the modular inverses of 33, 34, 35, and 36 (mod 37). The modular inverse of a number x (mod p) is a number y such that x * y ≡ 1 (mod p).\n\n33 × 34 ≡ 1 (mod 37) (since 33 × 34 = 1122 and 1122 ≡ 1 (mod 37))\n35 × 29 ≡ 1 (mod 37) (since 35 × 29 = 1015 and 1015 ≡ 1 (mod 37))\n36 × 36 ≡ 1 (mod 37) (since 36 × 36 = 1296 and 1296 ≡ 1 (mod 37))\n\nNow, we can multiply both sides of the equation 32! × 33 × 34 × 35 × 36 ≡ -1 (mod 37) by the modular inverses:\n\n32! × 33 × 34 × 35 × 36 × 1 × 1 × 29 × 36 ≡ -1 × 1 × 1 × 29 × 36 (mod 37)\n32! ≡ -29 × 36 (mod 37)\n\nNow, we can find the remainder when -29 × 36 is divided by 37:\n\n-29 × 36 ≡ -1044 (mod 37)\n-1044 ≡ 8 (mod 37)\n\nSo, the remainder when 32! is divided by 37 is 8."
+}

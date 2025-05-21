@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "One-time pad encryption",
+    "message_1": "Consider using the one-time pad encryption to encode the message \"SECRET\" using the key \"314159\". Each letter in the message is converted to its ASCII code and then xor-ed with the corresponding number in the key. What is the resulting encoded message in binary?",
+    "message_2": "First, we need to convert the message \"SECRET\" and the key \"314159\" into their ASCII codes:\n\nMessage: SECRET\nASCII codes: 83 69 67 82 69 84\n\nKey: 314159\nASCII codes: 51 49 52 49 53 57\n\nNow, we will XOR the corresponding ASCII codes of the message and the key:\n\n83 XOR 51 = 32\n69 XOR 49 = 84\n67 XOR 52 = 23\n82 XOR 49 = 67\n69 XOR 53 = 16\n84 XOR 57 = 77\n\nThe resulting encoded message in decimal is: 32 84 23 67 16 77\n\nNow, we will convert these decimal numbers to binary:\n\n32 = 00100000\n84 = 01010100\n23 = 00010111\n67 = 01000011\n16 = 00010000\n77 = 01001101\n\nThe resulting encoded message in binary is: 00100000 01010100 00010111 01000011 00010000 01001101"
+}

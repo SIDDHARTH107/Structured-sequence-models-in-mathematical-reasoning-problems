@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Permutations and combinations",
+    "message_1": "How many different ways can you arrange the letters of the word \"MATHEMATICS\" if the vowels must always be together?",
+    "message_2": "First, let's identify the vowels and consonants in the word \"MATHEMATICS\". \n\nVowels: A, A, E, I\nConsonants: M, T, H, M, T, C, S\n\nSince the vowels must always be together, we can treat them as a single unit: (AAEI). Now, we have 8 units to arrange: M, T, H, M, T, C, S, and (AAEI).\n\nThere are 8! ways to arrange these 8 units. However, we have 2 M's and 2 T's, so we need to divide by 2! for each to account for the repetitions:\n\nNumber of ways to arrange the units = (8!) / (2! * 2!) = 10080\n\nNow, within the (AAEI) unit, we have 4 vowels, but there are 2 A's. So, we need to divide by 2! to account for the repetition:\n\nNumber of ways to arrange the vowels = (4!) / (2!) = 12\n\nFinally, to find the total number of ways to arrange the letters of the word \"MATHEMATICS\" with the vowels together, we multiply the number of ways to arrange the units by the number of ways to arrange the vowels:\n\nTotal number of ways = 10080 * 12 = 120960"
+}

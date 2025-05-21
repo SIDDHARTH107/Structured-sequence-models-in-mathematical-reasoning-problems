@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Logic",
+    "sub_topic": "Epistemic logic",
+    "message_1": "Let there be three people A, B, and C, each of whom can see a red or a blue dot on their forehead. They cannot see the color of the dot on their own forehead but can see the colors of the dots on others' foreheads. However, they cannot communicate with each other in any way. They are asked to simultaneously raise their own hand if they can see a red dot on anyone's forehead. If at least one person raises their hand, they win the game. What is the probability that they win the game?",
+    "message_2": "There are 2^3 = 8 possible combinations of red and blue dots on their foreheads, since each person can have either a red or a blue dot. Let's list all the possibilities:\n\n1. A: Red, B: Red, C: Red\n2. A: Red, B: Red, C: Blue\n3. A: Red, B: Blue, C: Red\n4. A: Blue, B: Red, C: Red\n5. A: Red, B: Blue, C: Blue\n6. A: Blue, B: Red, C: Blue\n7. A: Blue, B: Blue, C: Red\n8. A: Blue, B: Blue, C: Blue\n\nIn case 8, where all of them have blue dots, none of them will raise their hand, and they will lose the game. In all other 7 cases, at least one person has a red dot, and they will see it and raise their hand. Therefore, the probability that they win the game is:\n\n(Number of winning cases) / (Total number of cases) = 7 / 8 = 0.875 or 87.5%."
+}

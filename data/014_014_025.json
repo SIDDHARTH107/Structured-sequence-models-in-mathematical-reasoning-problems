@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Playfair cipher",
+    "message_1": "Consider the message \"MATHEMATICS\" to be encrypted using the Playfair cipher with the key \"SECRET\". What is the encrypted message?",
+    "message_2": "To encrypt the message \"MATHEMATICS\" using the Playfair cipher with the key \"SECRET\", we first need to create the 5x5 Playfair matrix using the key.\n\n1. Remove duplicate letters from the key: \"SECR\"\n2. Complete the matrix with the remaining letters of the alphabet (excluding 'J'): \"SECRABDFGHIKLMNOPQTUVWXYZ\"\n3. Arrange the matrix as follows:\n\n   S  E  C  R  A\n   B  D  F  G  H\n   I  K  L  M  N\n   O  P  Q  T  U\n   V  W  X  Y  Z\n\n4. Divide the message into digraphs (pairs of letters). If a pair has the same letter, insert an 'X' between them: \"MA TH EM AT IC SX\"\n5. Encrypt each digraph using the Playfair matrix:\n\n   - MA -> OD\n   - TH -> ZT\n   - EM -> YD\n   - AT -> OD\n   - IC -> FS\n   - SX -> QL\n\n6. The encrypted message is: \"ODZTYDODFSQL\""
+}

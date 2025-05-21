@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Power series and their convergence",
+    "message_1": "Find the radius of convergence and interval of convergence for the following power series:\n\n$$\\sum_{n=1}^{\\infty} \\frac{(x+3)^n}{2^n}$$",
+    "message_2": "To find the radius of convergence, we can use the Ratio Test. Let's consider the series:\n\n$$a_n = \\frac{(x+3)^n}{2^n}$$\n\nNow, we will find the limit of the ratio of consecutive terms as n approaches infinity:\n\n$$\\lim_{n\\to\\infty} \\left|\\frac{a_{n+1}}{a_n}\\right| = \\lim_{n\\to\\infty} \\left|\\frac{\\frac{(x+3)^{n+1}}{2^{n+1}}}{\\frac{(x+3)^n}{2^n}}\\right|$$\n\nSimplify the expression:\n\n$$\\lim_{n\\to\\infty} \\left|\\frac{(x+3)^{n+1}}{2^{n+1}} \\cdot \\frac{2^n}{(x+3)^n}\\right| = \\lim_{n\\to\\infty} \\left|\\frac{(x+3)}{2}\\right|$$\n\nThe series converges if this limit is less than 1:\n\n$$\\left|\\frac{(x+3)}{2}\\right| < 1$$\n\nNow, we solve for x:\n\n$$-1 < \\frac{(x+3)}{2} < 1$$\n\nMultiply by 2:\n\n$$-2 < x+3 < 2$$\n\nSubtract 3:\n\n$$-5 < x < -1$$\n\nThe interval of convergence is $(-5, -1)$. The radius of convergence is half the length of this interval, which is:\n\n$$R = \\frac{-1 - (-5)}{2} = \\frac{4}{2} = 2$$\n\nSo, the radius of convergence is 2, and the interval of convergence is $(-5, -1)$."
+}

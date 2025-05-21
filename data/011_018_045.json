@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Block designs",
+    "message_1": "A high school has decided to form groups of students for a special project. The school requires that each group must have exactly 3 students and each student must belong to exactly one group. If there are 21 students in the school, how many different groups can be formed? (Hint: This problem involves finding the number of combinations of students taken 3 at a time.)",
+    "message_2": "To solve this problem, we need to find the number of combinations of 21 students taken 3 at a time. This can be calculated using the formula for combinations, which is:\n\nC(n, k) = n! / (k!(n-k)!)\n\nwhere n is the total number of students (21 in this case), k is the number of students in each group (3 in this case), and ! denotes the factorial function (e.g., 5! = 5 × 4 × 3 × 2 × 1).\n\nSo, we need to find C(21, 3):\n\nC(21, 3) = 21! / (3!(21-3)!)\n\nFirst, let's calculate the factorials:\n\n21! = 21 × 20 × 19 × 18 × ... × 3 × 2 × 1\n3! = 3 × 2 × 1\n(21-3)! = 18! = 18 × 17 × ... × 3 × 2 × 1\n\nNow, let's plug these values into the formula:\n\nC(21, 3) = 21! / (3! × 18!)\n\nTo simplify the calculation, we can cancel out the common terms in the numerator and denominator:\n\nC(21, 3) = (21 × 20 × 19) / (3 × 2 × 1)\n\nNow, let's perform the calculation:\n\nC(21, 3) = (21 × 20 × 19) / (3 × 2 × 1) = 7980 / 6 = 1330\n\nSo, there are 1330 different groups of 3 students that can be formed from a total of 21 students."
+}

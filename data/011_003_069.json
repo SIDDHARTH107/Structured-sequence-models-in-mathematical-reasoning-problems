@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Pascal's triangle",
+    "message_1": "How many ways are there to select a committee of 5 members from a group of 10 people, where 3 members are men and 7 members are women, such that at least 2 men are on the committee? Use Pascal's triangle to solve the problem.",
+    "message_2": "To solve this problem using Pascal's triangle, we need to consider the different cases for selecting at least 2 men on the committee.\n\nCase 1: Exactly 2 men and 3 women are selected.\nWe have 3 men and need to choose 2, which is represented by the binomial coefficient C(3,2). From Pascal's triangle, we find this value to be 3. We also have 7 women and need to choose 3, which is represented by the binomial coefficient C(7,3). From Pascal's triangle, we find this value to be 35. So, there are 3 * 35 = 105 ways to select a committee with exactly 2 men and 3 women.\n\nCase 2: All 3 men and 2 women are selected.\nWe have 3 men and need to choose all 3, which is represented by the binomial coefficient C(3,3). From Pascal's triangle, we find this value to be 1. We also have 7 women and need to choose 2, which is represented by the binomial coefficient C(7,2). From Pascal's triangle, we find this value to be 21. So, there are 1 * 21 = 21 ways to select a committee with all 3 men and 2 women.\n\nNow, we add the number of ways from both cases to find the total number of ways to select a committee with at least 2 men:\n\nTotal ways = 105 (Case 1) + 21 (Case 2) = 126 ways."
+}

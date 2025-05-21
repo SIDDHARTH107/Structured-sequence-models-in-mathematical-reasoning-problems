@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Set theory",
+    "sub_topic": "Prove that the symmetric difference of two sets is not commutative with respect to Cartesian product.",
+    "message_1": "Let A = {1, 2} and B = {2, 3}. Find the Cartesian product (A x B) ∆ (B x A), where ∆ denotes the symmetric difference. Show that (A x B) ∆ (B x A) is not equal to (B x A) ∆ (A x B).",
+    "message_2": "First, let's find the Cartesian products A x B and B x A.\n\nA x B = {(1, 2), (1, 3), (2, 2), (2, 3)}\nB x A = {(2, 1), (2, 2), (3, 1), (3, 2)}\n\nNow, let's find the symmetric difference (A x B) ∆ (B x A). The symmetric difference of two sets is the set of elements which are in either of the sets but not in their intersection.\n\n(A x B) ∆ (B x A) = {(1, 2), (1, 3), (2, 2), (2, 3), (2, 1), (3, 1), (3, 2)} - {(2, 2)}\n\n(A x B) ∆ (B x A) = {(1, 2), (1, 3), (2, 3), (2, 1), (3, 1), (3, 2)}\n\nNow, let's find the symmetric difference (B x A) ∆ (A x B).\n\n(B x A) ∆ (A x B) = {(2, 1), (2, 2), (3, 1), (3, 2), (1, 2), (1, 3), (2, 2), (2, 3)} - {(2, 2)}\n\n(B x A) ∆ (A x B) = {(2, 1), (3, 1), (3, 2), (1, 2), (1, 3), (2, 3)}\n\nAs we can see, (A x B) ∆ (B x A) = {(1, 2), (1, 3), (2, 3), (2, 1), (3, 1), (3, 2)} and (B x A) ∆ (A x B) = {(2, 1), (3, 1), (3, 2), (1, 2), (1, 3), (2, 3)}. These two sets are equal, so the statement \"Show that (A x B) ∆ (B x A) is not equal to (B x A) ∆ (A x B)\" is incorrect. In fact, (A x B) ∆ (B x A) is equal to (B x A) ∆ (A x B)."
+}

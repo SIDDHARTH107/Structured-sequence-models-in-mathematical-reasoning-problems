@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Complex analysis of integral equations",
+    "message_1": "Here's a numerical problem for a math student studying Complex Analysis of Integral Equations:\n\nLet f(z) = (z-i)/(z^2+1) and C be the positively oriented unit circle centered at the origin. Compute the value of the integral of f(z) over C.",
+    "message_2": "To compute the integral of f(z) over C, we can use the Cauchy's integral formula. The Cauchy's integral formula states that for a function f(z) that is analytic inside and on a simple closed contour C, and for any point a inside C, we have:\n\n∫(f(z)/(z-a))dz = 2πif(a)\n\nIn our case, f(z) = (z-i)/(z^2+1), and C is the unit circle centered at the origin. We can rewrite f(z) as:\n\nf(z) = (z-i)/((z-i)(z+i))\n\nNow, we can see that f(z) has a simple pole at z = i, which is inside the contour C. Therefore, we can apply the Cauchy's integral formula with a = i:\n\n∫(f(z)/(z-i))dz = 2πif(i)\n\nTo find f(i), we plug in i into the function f(z):\n\nf(i) = (i-i)/((i-i)(i+i)) = 0\n\nNow, we can plug this value back into the Cauchy's integral formula:\n\n∫(f(z)/(z-i))dz = 2πi(0) = 0\n\nSo, the integral of f(z) over the contour C is 0."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Solving systems of linear equations using Cramer's rule",
+    "message_1": "Solve the following system of linear equations using Cramer's rule:\n$$\n\\begin{cases}\n2x + 3y = 7 \\\\\n4x - 5y = -8 \\\\\n\\end{cases}\n$$",
+    "message_2": "To solve the given system of linear equations using Cramer's rule, we first need to find the determinant of the coefficient matrix, which we'll call D. The coefficient matrix is:\n\n$$\n\\begin{bmatrix}\n2 & 3 \\\\\n4 & -5 \\\\\n\\end{bmatrix}\n$$\n\nThe determinant D is:\n\n$$\nD = (2 \\times -5) - (3 \\times 4) = -10 - 12 = -22\n$$\n\nNow, we'll find the determinants of the matrices obtained by replacing the first column with the constants on the right side of the equations (Dx) and the second column with the constants (Dy).\n\nFor Dx:\n\n$$\n\\begin{bmatrix}\n7 & 3 \\\\\n-8 & -5 \\\\\n\\end{bmatrix}\n$$\n\nThe determinant Dx is:\n\n$$\nDx = (7 \\times -5) - (3 \\times -8) = -35 + 24 = -11\n$$\n\nFor Dy:\n\n$$\n\\begin{bmatrix}\n2 & 7 \\\\\n4 & -8 \\\\\n\\end{bmatrix}\n$$\n\nThe determinant Dy is:\n\n$$\nDy = (2 \\times -8) - (7 \\times 4) = -16 - 28 = -44\n$$\n\nNow, we can find the values of x and y using Cramer's rule:\n\n$$\nx = \\frac{Dx}{D} = \\frac{-11}{-22} = \\frac{1}{2}\n$$\n\n$$\ny = \\frac{Dy}{D} = \\frac{-44}{-22} = 2\n$$\n\nSo, the solution to the system of linear equations is:\n\n$$\nx = \\frac{1}{2}, \\quad y = 2\n$$"
+}

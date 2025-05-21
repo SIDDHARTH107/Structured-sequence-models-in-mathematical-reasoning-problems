@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Graph theory",
+    "message_1": "A graph has 8 vertices and 12 edges. What is the maximum number of edges that can be added to the graph without creating a cycle of length 4?",
+    "message_2": "To avoid creating a cycle of length 4, we need to make sure that no set of 4 vertices in the graph are all connected to each other. In other words, we need to avoid creating a complete subgraph with 4 vertices (K4).\n\nThe maximum number of edges we can have in a graph without creating a K4 subgraph is achieved by creating a bipartite graph. A bipartite graph is a graph where the vertices can be divided into two disjoint sets such that every edge connects a vertex from one set to a vertex from the other set.\n\nIn our case, we can divide the 8 vertices into two sets of 4 vertices each. In a bipartite graph with 4 vertices in each set, the maximum number of edges we can have is 4 * 4 = 16.\n\nSince the graph already has 12 edges, we can add at most 16 - 12 = 4 more edges without creating a cycle of length 4."
+}

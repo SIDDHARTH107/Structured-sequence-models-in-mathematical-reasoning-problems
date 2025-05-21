@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Entire functions and their properties",
+    "message_1": "Find all entire functions of the form $f(z) = az^2 + bz + c$ which satisfy $|f(z)| \\geq |z|^2$ for all $z \\in \\mathbb{C}$.",
+    "message_2": "Let $f(z) = az^2 + bz + c$ be an entire function. We want to find all such functions that satisfy $|f(z)| \\geq |z|^2$ for all $z \\in \\mathbb{C}$.\n\nFirst, let's consider the case when $z = 0$. We have:\n\n$|f(0)| = |c| \\geq |0|^2 = 0$\n\nThis inequality is always true, so there are no restrictions on $c$.\n\nNow, let's consider the case when $z \\neq 0$. We can divide both sides of the inequality by $|z|^2$:\n\n$\\left|\\frac{f(z)}{z^2}\\right| \\geq 1$\n\nLet $g(z) = \\frac{f(z)}{z^2} = a + \\frac{b}{z} + \\frac{c}{z^2}$. Since $f(z)$ is entire, $g(z)$ is meromorphic with possible poles at $z = 0$. However, the inequality above holds for all $z \\neq 0$, so $g(z)$ must be entire as well. This means that the coefficients of the negative powers of $z$ in $g(z)$ must be zero:\n\n$\\frac{b}{z} = 0 \\Rightarrow b = 0$\n\n$\\frac{c}{z^2} = 0 \\Rightarrow c = 0$\n\nNow, we have $f(z) = az^2$. The inequality $|f(z)| \\geq |z|^2$ becomes:\n\n$|az^2| \\geq |z|^2$\n\nSince $z \\neq 0$, we can divide both sides by $|z|^2$:\n\n$|a| \\geq 1$\n\nThus, the entire functions of the form $f(z) = az^2 + bz + c$ that satisfy the inequality are those with $a \\neq 0$ and $|a| \\geq 1$, and $b = c = 0$."
+}

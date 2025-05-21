@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Complex integration and Cauchy's theorem",
+    "message_1": "Evaluate the complex integral ∮(z² + 3z + 2)/(z - 1) dz around the circle |z - 1| = 2𝜋 in the counterclockwise direction.",
+    "message_2": "To evaluate the complex integral, we can use the residue theorem. The residue theorem states that for a function f(z) with a simple pole at z = a, the integral of f(z) around a closed curve containing the pole is given by:\n\n∮f(z) dz = 2𝜋i * Res[f(z), z = a]\n\nIn our case, the function f(z) = (z² + 3z + 2)/(z - 1). We can factor the numerator as (z + 1)(z + 2), so f(z) = (z + 1)(z + 2)/(z - 1). The function has a simple pole at z = 1, which is inside the circle |z - 1| = 2𝜋.\n\nNow we need to find the residue of f(z) at z = 1. To do this, we can use the formula:\n\nRes[f(z), z = a] = lim (z → a) [(z - a) * f(z)]\n\nRes[f(z), z = 1] = lim (z → 1) [(z - 1) * (z + 1)(z + 2)/(z - 1)]\n\nThe (z - 1) term cancels out, so we are left with:\n\nRes[f(z), z = 1] = lim (z → 1) [(z + 1)(z + 2)]\n\nNow we can plug in z = 1:\n\nRes[f(z), z = 1] = (1 + 1)(1 + 2) = 2 * 3 = 6\n\nNow we can use the residue theorem to find the integral:\n\n∮(z² + 3z + 2)/(z - 1) dz = 2𝜋i * Res[f(z), z = 1] = 2𝜋i * 6 = 12𝜋i\n\nSo the value of the complex integral is 12𝜋i."
+}

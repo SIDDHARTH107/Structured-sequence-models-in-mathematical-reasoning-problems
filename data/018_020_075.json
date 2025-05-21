@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Set theory",
+    "sub_topic": "Prove that the symmetric difference of two sets is distributive over union.",
+    "message_1": "Let A = {1, 2, 3} and B = {2, 3, 4}. Find (A Δ B) ∪ (A Δ {5}), where Δ represents the symmetric difference of two sets.",
+    "message_2": "First, let's find the symmetric difference of A and B (A Δ B). The symmetric difference of two sets is the set of elements which are in either of the sets but not in their intersection.\n\nA = {1, 2, 3}\nB = {2, 3, 4}\nA ∩ B = {2, 3}\n\nNow we can find A Δ B by taking the elements in A or B but not in their intersection:\n\nA Δ B = {1, 4}\n\nNext, let's find the symmetric difference of A and {5} (A Δ {5}). The set {5} has no elements in common with A, so the symmetric difference is simply the union of the two sets:\n\nA Δ {5} = {1, 2, 3, 5}\n\nNow we need to find the union of the two symmetric differences we found earlier:\n\n(A Δ B) ∪ (A Δ {5}) = {1, 4} ∪ {1, 2, 3, 5}\n\nThe union of two sets is the set of all elements that are in either set:\n\n(A Δ B) ∪ (A Δ {5}) = {1, 2, 3, 4, 5}\n\nSo the final result is:\n\n(A Δ B) ∪ (A Δ {5}) = {1, 2, 3, 4, 5}"
+}

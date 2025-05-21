@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Complex analysis of integral equations",
+    "message_1": "Evaluate the following integral: \n\n$\\int_{0}^{2\\pi}\\frac{\\cos^2\\theta}{5-4\\cos\\theta}d\\theta$",
+    "message_2": "To evaluate the integral $\\int_{0}^{2\\pi}\\frac{\\cos^2\\theta}{5-4\\cos\\theta}d\\theta$, we can use the substitution $u = 2 - 2\\cos\\theta$. Then, $du = 2\\sin\\theta d\\theta$. We also need to change the limits of integration accordingly. When $\\theta = 0$, $u = 2 - 2\\cos(0) = 0$. When $\\theta = 2\\pi$, $u = 2 - 2\\cos(2\\pi) = 0$. Thus, the integral becomes:\n\n$\\int_{0}^{0}\\frac{(2-u)^2}{u(4-u)}\\cdot\\frac{1}{2}du$\n\nSince the limits of integration are the same, the integral evaluates to 0:\n\n$\\int_{0}^{2\\pi}\\frac{\\cos^2\\theta}{5-4\\cos\\theta}d\\theta = 0$"
+}

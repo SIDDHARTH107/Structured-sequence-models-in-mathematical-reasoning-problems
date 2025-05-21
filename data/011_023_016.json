@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Graph coloring",
+    "message_1": "A school has 12 lockers that need to be painted using 4 different colors: red, blue, green, and yellow. If no two adjacent lockers can be painted the same color, how many different ways can the lockers be painted?",
+    "message_2": "Let's use dynamic programming to solve this problem. Let dp[i][j] be the number of ways to paint the first i lockers, with the i-th locker being painted with color j. We have 4 colors, so j can be 0, 1, 2, or 3 (representing red, blue, green, and yellow, respectively).\n\nFor the first locker, we can paint it with any of the 4 colors. So, we have:\n\ndp[1][0] = 1\ndp[1][1] = 1\ndp[1][2] = 1\ndp[1][3] = 1\n\nFor the remaining lockers, we can paint them with any color except the color of the previous locker. So, for i = 2 to 12, we have:\n\ndp[i][0] = dp[i-1][1] + dp[i-1][2] + dp[i-1][3]\ndp[i][1] = dp[i-1][0] + dp[i-1][2] + dp[i-1][3]\ndp[i][2] = dp[i-1][0] + dp[i-1][1] + dp[i-1][3]\ndp[i][3] = dp[i-1][0] + dp[i-1][1] + dp[i-1][2]\n\nAfter calculating the values for i = 12, we sum up the values for all colors to get the total number of ways to paint the 12 lockers:\n\ntotal_ways = dp[12][0] + dp[12][1] + dp[12][2] + dp[12][3]\n\nAfter performing the calculations, we get:\n\ntotal_ways = 88573\n\nSo, there are 88,573 different ways to paint the 12 lockers with the given conditions."
+}

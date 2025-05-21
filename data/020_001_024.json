@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Optimization",
+    "sub_topic": "Linear programming",
+    "message_1": "A farmer has 100 acres of land and wishes to plant crops of potatoes and wheat. Each acre of potatoes requires 2 days of labour and yields a profit of $400. Each acre of wheat requires 1 day of labour and yields a profit of $200. The farmer has 160 days available for labor. How many acres of each crop should be planted to maximize the profit?",
+    "message_2": "Let x be the number of acres of potatoes and y be the number of acres of wheat. We have the following constraints:\n\n1. x + y ≤ 100 (total acres)\n2. 2x + y ≤ 160 (total labor days)\n\nWe want to maximize the profit function P(x, y) = 400x + 200y.\n\nFirst, we'll solve the constraint equations for y:\n\n1. y ≤ 100 - x\n2. y ≤ 160 - 2x\n\nNow, we'll find the vertices of the feasible region by setting the inequalities as equalities and solving for x and y:\n\n1. y = 100 - x\n2. y = 160 - 2x\n\nSolving the system of equations:\n\n100 - x = 160 - 2x\nx = 60\n\nSo, y = 100 - 60 = 40.\n\nNow we have the vertices of the feasible region: (0, 100), (60, 40), and (80, 0).\n\nWe'll evaluate the profit function P(x, y) at each vertex:\n\nP(0, 100) = 400(0) + 200(100) = $20,000\nP(60, 40) = 400(60) + 200(40) = $32,000\nP(80, 0) = 400(80) + 200(0) = $32,000\n\nThe maximum profit of $32,000 can be achieved by planting 60 acres of potatoes and 40 acres of wheat, or by planting 80 acres of potatoes and no wheat."
+}

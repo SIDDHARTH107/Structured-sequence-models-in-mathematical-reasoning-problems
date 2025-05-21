@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Logic",
+    "sub_topic": "Type theory",
+    "message_1": "What is the number of permutations of the word \"MATHEMATICS\"?",
+    "message_2": "To find the number of permutations of the word \"MATHEMATICS,\" we first count the number of times each letter appears in the word:\n\nM: 2\nA: 2\nT: 2\nH: 1\nE: 1\nI: 1\nC: 1\nS: 1\n\nThe word \"MATHEMATICS\" has 11 letters. To find the number of permutations, we use the formula for permutations of a set with duplicate items:\n\nPermutations = n! / (n1! * n2! * ... * nk!)\n\nwhere n is the total number of items, and n1, n2, ..., nk are the counts of each duplicate item.\n\nIn this case, n = 11, n1 = 2 (for M), n2 = 2 (for A), and n3 = 2 (for T).\n\nPermutations = 11! / (2! * 2! * 2!)\n\nCalculating the factorials:\n\n11! = 11 × 10 × 9 × 8 × 7 × 6 × 5 × 4 × 3 × 2 × 1 = 39,916,800\n2! = 2 × 1 = 2\n\nNow, divide 11! by the product of the factorials of the duplicate counts:\n\nPermutations = 39,916,800 / (2 * 2 * 2) = 39,916,800 / 8 = 4,989,600\n\nThere are 4,989,600 permutations of the word \"MATHEMATICS.\""
+}

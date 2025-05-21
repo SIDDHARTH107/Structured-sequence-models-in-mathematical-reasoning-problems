@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Calculus",
+    "sub_topic": "Using the chain rule to differentiate composite functions",
+    "message_1": "Suppose that $f(x) = 3x^2 - 5x + 7$ and $g(x) = \\sqrt{x+1}$. Find the derivative of the composite function $h(x) = f(g(x))$ at $x=2$.",
+    "message_2": "To find the derivative of the composite function $h(x) = f(g(x))$, we will use the chain rule. The chain rule states that if we have a composite function $h(x) = f(g(x))$, then the derivative of $h(x)$ with respect to $x$ is given by:\n\n$h'(x) = f'(g(x)) \\cdot g'(x)$\n\nFirst, we need to find the derivatives of $f(x)$ and $g(x)$.\n\n$f(x) = 3x^2 - 5x + 7$\n\nTaking the derivative with respect to $x$, we get:\n\n$f'(x) = 6x - 5$\n\nNow, let's find the derivative of $g(x)$:\n\n$g(x) = \\sqrt{x+1}$\n\nWe can rewrite this as:\n\n$g(x) = (x+1)^{1/2}$\n\nNow, taking the derivative with respect to $x$, we get:\n\n$g'(x) = \\frac{1}{2}(x+1)^{-1/2}$\n\nNow, we can find the derivative of the composite function $h(x) = f(g(x))$ using the chain rule:\n\n$h'(x) = f'(g(x)) \\cdot g'(x)$\n\nAt $x=2$, we have:\n\n$g(2) = \\sqrt{2+1} = \\sqrt{3}$\n\n$f'(g(2)) = f'(\\sqrt{3}) = 6\\sqrt{3} - 5$\n\n$g'(2) = \\frac{1}{2}(2+1)^{-1/2} = \\frac{1}{2\\sqrt{3}}$\n\nNow, we can find $h'(2)$:\n\n$h'(2) = f'(g(2)) \\cdot g'(2) = (6\\sqrt{3} - 5) \\cdot \\frac{1}{2\\sqrt{3}}$\n\n$h'(2) = \\frac{6\\sqrt{3} - 5}{2\\sqrt{3}}$\n\nSo, the derivative of the composite function $h(x) = f(g(x))$ at $x=2$ is:\n\n$h'(2) = \\frac{6\\sqrt{3} - 5}{2\\sqrt{3}}$"
+}

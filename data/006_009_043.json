@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Probability",
+    "sub_topic": "Probability of a certain medical condition occurring",
+    "message_1": "In a population of 10,000 people, 3% have a certain medical condition. If a doctor randomly selects 50 people from this population, what is the probability that at least one of them has this medical condition?",
+    "message_2": "To solve this problem, we can use the complementary probability. Instead of finding the probability that at least one person has the medical condition, we will find the probability that none of the 50 people have the medical condition and then subtract that from 1.\n\nIn the population of 10,000 people, 3% have the medical condition, which means 97% do not have the medical condition.\n\nThe probability that one person does not have the medical condition is 0.97. Since the doctor selects 50 people, we need to find the probability that all 50 people do not have the medical condition.\n\nP(None of the 50 people have the medical condition) = 0.97^50 ≈ 0.218\n\nNow, we will find the complementary probability:\n\nP(At least one person has the medical condition) = 1 - P(None of the 50 people have the medical condition) = 1 - 0.218 ≈ 0.782\n\nSo, the probability that at least one person among the 50 selected has the medical condition is approximately 0.782 or 78.2%."
+}

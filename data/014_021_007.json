@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Cryptanalysis of Hill cipher",
+    "message_1": "Suppose we have a message \"MATHEMATICS\" that we want to encrypt using a Hill cipher with a 2x2 matrix key. Find the ciphertext if the key matrix is:\n\n[3 1]\n[4 2]",
+    "message_2": "To encrypt the message \"MATHEMATICS\" using a Hill cipher with the given 2x2 matrix key, we first need to convert the letters to numbers using the standard A=0, B=1, ..., Z=25 representation. Then, we will group the message into pairs of letters and multiply each pair by the key matrix. Finally, we will convert the resulting numbers back to letters to obtain the ciphertext.\n\n1. Convert the message to numbers:\nM=12, A=0, T=19, H=7, E=4, M=12, A=0, T=19, I=8, C=2, S=18\n\n2. Group the message into pairs and multiply by the key matrix:\n[12 0] [3 1] = [36 12]\n[19 7] [4 2] = [70 26]\n[ 4 12] [3 1] = [24 16]\n[ 0 19] [4 2] = [ 0 38]\n[ 8  2] [3 1] = [28 10]\n[18] (add padding X=23) [3 1] = [54 18]\n\n3. Convert the resulting numbers modulo 26 back to letters:\n36 mod 26 = 10 -> K\n12 mod 26 = 12 -> M\n70 mod 26 = 18 -> S\n26 mod 26 = 0 -> A\n24 mod 26 = 24 -> Y\n16 mod 26 = 16 -> Q\n0 mod 26 = 0 -> A\n38 mod 26 = 12 -> M\n28 mod 26 = 2 -> C\n10 mod 26 = 10 -> K\n54 mod 26 = 2 -> C\n18 mod 26 = 18 -> S\n\nThe ciphertext is \"KMSAYQAMCKCS\"."
+}

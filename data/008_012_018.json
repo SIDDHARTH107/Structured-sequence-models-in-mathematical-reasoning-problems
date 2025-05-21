@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Solving systems of linear equations using inverse matrices",
+    "message_1": "Find the solution for the following system of linear equations using inverse matrices:\n\n2x + 3y = 8\n\n4x + 5y = 14",
+    "message_2": "To solve the given system of linear equations using inverse matrices, we first need to write the given system in matrix form AX = B, where A is the matrix of coefficients, X is the column matrix of variables, and B is the column matrix of constants.\n\nA = | 2  3 |\n    | 4  5 |\n\nX = | x |\n    | y |\n\nB = | 8  |\n    | 14 |\n\nNow, we need to find the inverse of matrix A, denoted as A^(-1). To do this, we first find the determinant of A.\n\ndet(A) = (2 * 5) - (3 * 4) = 10 - 12 = -2\n\nSince the determinant is not zero, the inverse of A exists. Now, we can find A^(-1) using the formula:\n\nA^(-1) = (1/det(A)) * adj(A)\n\nwhere adj(A) is the adjugate of A, which is the transpose of the matrix of cofactors of A.\n\nadj(A) = |  5  -3 |\n         | -4   2 |\n\nNow, we can find A^(-1):\n\nA^(-1) = (1/-2) * |  5  -3 |\n                  | -4   2 |\n\nA^(-1) = | -5/2  3/2 |\n         |  2    -1  |\n\nNow, we can find the solution X by multiplying A^(-1) with B:\n\nX = A^(-1) * B\n\nX = | -5/2  3/2 | * | 8  |\n    |  2    -1  |   | 14 |\n\nX = | (-5/2)*8 + (3/2)*14 |\n    |  2*8 - 1*14         |\n\nX = | -20 + 21 |\n    |  16 - 14 |\n\nX = | 1 |\n    | 2 |\n\nSo, the solution for the given system of linear equations is x = 1 and y = 2."
+}

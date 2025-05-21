@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Determining the rank of a matrix",
+    "message_1": "Consider the following matrix A= \n\n$$\\begin{pmatrix} 1 & 2 & 3 \\\\ 4 & 5 & 6 \\\\ 7 &8 & 9 \\end{pmatrix}$$\n\nDetermine the rank of matrix A using elementary row operations.",
+    "message_2": "To determine the rank of matrix A, we will perform elementary row operations to get the matrix into its row-echelon form.\n\nMatrix A:\n\n$$\\begin{pmatrix} 1 & 2 & 3 \\\\ 4 & 5 & 6 \\\\ 7 &8 & 9 \\end{pmatrix}$$\n\nStep 1: Subtract 4 times the first row from the second row:\n\n$$\\begin{pmatrix} 1 & 2 & 3 \\\\ 0 & -3 & -6 \\\\ 7 &8 & 9 \\end{pmatrix}$$\n\nStep 2: Subtract 7 times the first row from the third row:\n\n$$\\begin{pmatrix} 1 & 2 & 3 \\\\ 0 & -3 & -6 \\\\ 0 & -6 & -12 \\end{pmatrix}$$\n\nStep 3: Divide the second row by -3:\n\n$$\\begin{pmatrix} 1 & 2 & 3 \\\\ 0 & 1 & 2 \\\\ 0 & -6 & -12 \\end{pmatrix}$$\n\nStep 4: Add 6 times the second row to the third row:\n\n$$\\begin{pmatrix} 1 & 2 & 3 \\\\ 0 & 1 & 2 \\\\ 0 & 0 & 0 \\end{pmatrix}$$\n\nNow the matrix is in row-echelon form. We can see that there are two non-zero rows, so the rank of matrix A is 2."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Probability",
+    "sub_topic": "Probability of a certain type of technological failure occurring in a system",
+    "message_1": "In a company's network system of 20 computers, the probability of any one computer failing is 0.05. What is the probability that exactly 3 of the computers will fail at the same time?",
+    "message_2": "To solve this problem, we can use the binomial probability formula:\n\nP(X = k) = C(n, k) * p^k * (1-p)^(n-k)\n\nwhere:\n- P(X = k) is the probability of exactly k successes (in this case, computer failures)\n- C(n, k) is the number of combinations of n items taken k at a time (also written as nCk or \"n choose k\")\n- n is the total number of trials (in this case, the number of computers, which is 20)\n- k is the number of successes (in this case, the number of computer failures, which is 3)\n- p is the probability of success (in this case, the probability of a computer failing, which is 0.05)\n- (1-p) is the probability of failure (in this case, the probability of a computer not failing, which is 0.95)\n\nPlugging in the values, we get:\n\nP(X = 3) = C(20, 3) * (0.05)^3 * (0.95)^(20-3)\n\nFirst, we calculate C(20, 3):\n\nC(20, 3) = 20! / (3! * (20-3)!)\nC(20, 3) = 20! / (3! * 17!)\nC(20, 3) = 1140\n\nNow, we calculate the rest of the formula:\n\nP(X = 3) = 1140 * (0.05)^3 * (0.95)^17\nP(X = 3) ≈ 0.2438\n\nSo, the probability that exactly 3 of the 20 computers will fail at the same time is approximately 0.2438 or 24.38%."
+}

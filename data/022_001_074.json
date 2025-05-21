@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Analytic continuation of complex functions",
+    "message_1": "Suppose f(z) is an analytic function on the complex plane except at z=1, where f(z) has a simple pole with residue 2. Additionally, let g(z) = (z-1)f(z).\n\nIf g(z) is analytic at z=2, what is the value of f(2)?",
+    "message_2": "Since f(z) has a simple pole at z=1 with residue 2, we can write f(z) in the following form near z=1:\n\nf(z) = 2/(z-1) + h(z),\n\nwhere h(z) is an analytic function in a neighborhood of z=1.\n\nNow, let's consider g(z) = (z-1)f(z). Substituting the expression for f(z), we get:\n\ng(z) = (z-1)(2/(z-1) + h(z)) = 2 + (z-1)h(z).\n\nSince h(z) is analytic in a neighborhood of z=1, (z-1)h(z) is also analytic in that neighborhood. Thus, g(z) is analytic in a neighborhood of z=1, which includes z=2.\n\nNow, we want to find the value of f(2). From the expression for g(z), we have:\n\ng(2) = 2 + (2-1)h(2) = 2 + h(2).\n\nSince g(2) is analytic, we can find f(2) by solving for it in the expression for g(z):\n\nf(2) = (g(2) - 2)/1 = h(2).\n\nSo, f(2) = h(2)."
+}

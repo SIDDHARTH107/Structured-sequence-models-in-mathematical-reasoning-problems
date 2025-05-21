@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Block designs",
+    "message_1": "In a Steiner system S(5, 6, 12), where there are 5 points in each block and every pair of points occurs in exactly 1 block, how many blocks are there in the system?",
+    "message_2": "In a Steiner system S(t, k, n), the following formula can be used to find the number of blocks:\n\nB = (n choose t) / (k choose t)\n\nIn this case, t = 5, k = 6, and n = 12. So we have:\n\nB = (12 choose 5) / (6 choose 5)\n\nUsing the formula for combinations (n choose r) = n! / (r!(n-r)!), we get:\n\nB = (12! / (5! * 7!)) / (6! / (5! * 1!))\n\nSimplifying the factorials:\n\nB = (12 * 11 * 10 * 9 * 8) / (6 * 5 * 4 * 3 * 2)\n\nCancelling out common factors:\n\nB = (11 * 2 * 3 * 3) = 198\n\nSo there are 198 blocks in the Steiner system S(5, 6, 12)."
+}

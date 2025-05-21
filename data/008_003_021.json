@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Determining the rank of a matrix",
+    "message_1": "Determine the rank of the following 3 x 3 matrix:\n\n    [ 1  2  3 ]\n    [ 2  4  6 ]\n    [ 3  6  9 ]\n\nWhat is the rank of this matrix?",
+    "message_2": "To find the rank of the given matrix, we need to perform row operations to bring it to its row-echelon form and then count the number of non-zero rows.\n\nOriginal matrix:\n[ 1  2  3 ]\n[ 2  4  6 ]\n[ 3  6  9 ]\n\nRow operation: R2 = R2 - 2*R1\n[ 1  2  3 ]\n[ 0  0  0 ]\n[ 3  6  9 ]\n\nRow operation: R3 = R3 - 3*R1\n[ 1  2  3 ]\n[ 0  0  0 ]\n[ 0  0  0 ]\n\nThe row-echelon form of the matrix is:\n[ 1  2  3 ]\n[ 0  0  0 ]\n[ 0  0  0 ]\n\nThere is only 1 non-zero row, so the rank of the matrix is 1."
+}

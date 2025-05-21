@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "One-time pad encryption",
+    "message_1": "Suppose you want to send the word \"MATH\" using a one-time pad encryption. The pad you will use has the following random sequence of numbers: 18, 2, 1, 7. Convert the letters of the word \"MATH\" to their corresponding alphabetical position (e.g. A=1, B=2, ..., Z=26) and add the numbers from the one-time pad to each letter (mod 26) to obtain the encrypted message. What is the encrypted message?",
+    "message_2": "First, we need to convert the letters of the word \"MATH\" to their corresponding alphabetical positions:\n\nM = 13\nA = 1\nT = 20\nH = 8\n\nNow, we add the numbers from the one-time pad to each letter (mod 26):\n\nM (13) + 18 = 31 (mod 26) = 5\nA (1) + 2 = 3 (mod 26) = 3\nT (20) + 1 = 21 (mod 26) = 21\nH (8) + 7 = 15 (mod 26) = 15\n\nNow, we convert the resulting numbers back to their corresponding letters:\n\n5 = E\n3 = C\n21 = U\n15 = O\n\nSo, the encrypted message is \"ECUO\"."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Hill cipher",
+    "message_1": "Here's a numerical problem for the student to solve:\n\nUsing Hill Cipher with a key matrix of [[5, 8], [17, 3]], encrypt the message \"MATH\" by converting each letter to its corresponding numerical value (A=0, B=1, C=2, etc.) and then grouping them in pairs.",
+    "message_2": "First, we need to convert the message \"MATH\" into numerical values using the given conversion (A=0, B=1, C=2, etc.):\n\nM = 12\nA = 0\nT = 19\nH = 7\n\nNow, we group them in pairs: (12, 0) and (19, 7).\n\nNext, we use the given key matrix to encrypt the message using the Hill Cipher:\n\nKey matrix = [[5, 8], [17, 3]]\n\nFor the first pair (12, 0), we perform matrix multiplication:\n\n| 5  8 |  | 12 |   | 5*12 + 8*0 |   | 60 |\n|17  3 |  |  0 | = |17*12 + 3*0 | = |204 |\n\nFor the second pair (19, 7), we perform matrix multiplication:\n\n| 5  8 |  | 19 |   | 5*19 + 8*7 |   | 171 |\n|17  3 |  |  7 | = |17*19 + 3*7 | = | 346 |\n\nNow, we have the encrypted numerical pairs (60, 204) and (171, 346). To convert these back to letters, we use the same conversion but in reverse:\n\n60 % 26 = 8  -> I\n204 % 26 = 4 -> E\n171 % 26 = 17 -> R\n346 % 26 = 0  -> A\n\nSo, the encrypted message is \"IERA\"."
+}

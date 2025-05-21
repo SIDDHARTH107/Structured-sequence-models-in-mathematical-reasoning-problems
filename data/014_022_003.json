@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Cryptanalysis of Playfair cipher",
+    "message_1": "Suppose we have a Playfair cipher encrypted message \"GCZWJIGCNF\" and we know that the keyword used for encryption was \"CRYPTO\". What is the decrypted message?",
+    "message_2": "To decrypt the Playfair cipher encrypted message, we need to follow these steps:\n\n1. Create a 5x5 matrix using the keyword \"CRYPTO\" and filling the remaining spaces with the rest of the alphabet (excluding J, as I and J are treated as the same letter in the Playfair cipher).\n\n2. Break the encrypted message into pairs of letters: GC ZW JI GC NF\n\n3. For each pair, find their positions in the matrix and apply the decryption rules:\n   - If the letters are in the same row, replace each letter with the one to its left (wrap around if needed).\n   - If the letters are in the same column, replace each letter with the one above it (wrap around if needed).\n   - If the letters form a rectangle, replace each letter with the one in its row but in the other letter's column.\n\nHere's the matrix created using the keyword \"CRYPTO\":\n\nC R Y P T\nO A B D E\nF G H I K\nL M N S U\nV W X Z Q\n\nNow, let's decrypt the message:\n\nGC -> DE\nZW -> MO\nJI -> CR\nGC -> DE\nNF -> YS\n\nThe decrypted message is \"DEMO CRYPTO\"."
+}

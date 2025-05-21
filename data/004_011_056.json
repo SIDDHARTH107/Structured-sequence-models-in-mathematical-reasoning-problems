@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Calculus",
+    "sub_topic": "Solving related rates problems using calculus",
+    "message_1": "A 10-foot ladder is leaning against a wall. The bottom of the ladder is being pulled away from the wall at a rate of 2 feet per second. How fast is the top of the ladder sliding down the wall when the base of the ladder is 6 feet away from the wall?",
+    "message_2": "Let x be the distance from the bottom of the ladder to the wall, and y be the distance from the top of the ladder to the ground. We are given that the ladder is 10 feet long. According to the Pythagorean theorem, we have:\n\nx^2 + y^2 = 10^2\nx^2 + y^2 = 100\n\nWe are given that dx/dt = 2 ft/s (the rate at which the bottom of the ladder is being pulled away from the wall). We want to find dy/dt (the rate at which the top of the ladder is sliding down the wall) when x = 6 feet.\n\nWhen x = 6 feet, we can find y by plugging it into the equation:\n\n6^2 + y^2 = 100\n36 + y^2 = 100\ny^2 = 64\ny = 8\n\nNow, we can differentiate the equation with respect to time:\n\nd(x^2 + y^2)/dt = d(100)/dt\n2x(dx/dt) + 2y(dy/dt) = 0\n\nNow, plug in the given values and solve for dy/dt:\n\n2(6)(2) + 2(8)(dy/dt) = 0\n24 + 16(dy/dt) = 0\n16(dy/dt) = -24\n(dy/dt) = -24/16\n(dy/dt) = -3/2\n\nSo, the top of the ladder is sliding down the wall at a rate of -3/2 feet per second (negative sign indicates that it is sliding down)."
+}

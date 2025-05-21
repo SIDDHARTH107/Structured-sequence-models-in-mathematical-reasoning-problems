@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Solving systems of linear equations with ill-conditioned matrices",
+    "message_1": "Consider the following system of linear equations:\n\n2x + 3y = 12\n\n4x + 6.1y = 24.4\n\nSolve this system of equations using Gaussian elimination method and find the values of x and y.",
+    "message_2": "First, let's write the system of linear equations as an augmented matrix:\n\n| 2  3 | 12 |\n| 4 6.1| 24.4|\n\nNow, we'll perform Gaussian elimination to get the matrix in row-echelon form.\n\nStep 1: Divide the first row by 2 to get a leading 1 in the first row:\n\n| 1  1.5 |  6  |\n| 4  6.1 | 24.4|\n\nStep 2: Replace the second row with the second row minus 4 times the first row to eliminate the leading 4 in the second row:\n\n| 1  1.5 |  6   |\n| 0  0.1 |  0.4 |\n\nStep 3: Divide the second row by 0.1 to get a leading 1 in the second row:\n\n| 1  1.5 |  6 |\n| 0  1   |  4 |\n\nNow, we have the matrix in row-echelon form. We can use back-substitution to find the values of x and y.\n\nFrom the second row, we have:\n\ny = 4\n\nNow, substitute this value into the first row:\n\nx + 1.5(4) = 6\nx + 6 = 6\nx = 0\n\nSo, the solution to the system of linear equations is x = 0 and y = 4."
+}

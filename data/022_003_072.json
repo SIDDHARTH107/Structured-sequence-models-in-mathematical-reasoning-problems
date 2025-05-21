@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Complex integration and Cauchy's theorem",
+    "message_1": "What is the value of the integral $\\int_C \\frac{e^{z}}{z^2+1}dz$ where $C$ is the unit circle centered at the origin and traversed counterclockwise?",
+    "message_2": "To evaluate the integral $\\int_C \\frac{e^z}{z^2+1}dz$ where $C$ is the unit circle centered at the origin and traversed counterclockwise, we can use the residue theorem. The residue theorem states that for a simple closed contour $C$ and a function $f(z)$ with isolated singularities inside $C$:\n\n$$\\int_C f(z)dz = 2\\pi i \\sum_{k=1}^n \\text{Res}(f, z_k)$$\n\nwhere $\\text{Res}(f, z_k)$ is the residue of $f(z)$ at the singularity $z_k$.\n\nFirst, we need to find the singularities of the function $\\frac{e^z}{z^2+1}$. The denominator $z^2+1$ has two singularities: $z=i$ and $z=-i$. Since the contour $C$ is the unit circle, only the singularity $z=i$ is inside the contour.\n\nNow, we need to find the residue of the function at $z=i$. To do this, we can use the formula for the residue of a simple pole:\n\n$$\\text{Res}(f, z=i) = \\lim_{z \\to i} (z-i) \\frac{e^z}{z^2+1}$$\n\nTo evaluate this limit, we can use L'Hôpital's rule:\n\n$$\\lim_{z \\to i} \\frac{(z-i)e^z}{2z} = \\frac{e^i}{2i}$$\n\nNow, we can use the residue theorem to evaluate the integral:\n\n$$\\int_C \\frac{e^z}{z^2+1}dz = 2\\pi i \\cdot \\frac{e^i}{2i} = \\pi e^i$$\n\nSo, the value of the integral is $\\pi e^i$."
+}

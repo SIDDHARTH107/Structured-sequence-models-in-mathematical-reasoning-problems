@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Statistics",
+    "sub_topic": "Robust statistics",
+    "message_1": "A factory produces 500 units of a certain product daily. On inspection, it was found that 25% of the units produced were faulty. Using robust statistics, find the minimum number of units that should be inspected in order to estimate the percentage of faulty units within a range of +/- 3% with a confidence level of 95%.",
+    "message_2": "To estimate the percentage of faulty units within a range of +/- 3% with a confidence level of 95%, we can use the sample size formula for proportions:\n\nn = (Z^2 * p * (1-p)) / E^2\n\nwhere:\nn = sample size\nZ = Z-score (1.96 for a 95% confidence level)\np = proportion of faulty units (0.25)\nE = margin of error (0.03)\n\nn = (1.96^2 * 0.25 * (1-0.25)) / 0.03^2\nn = (3.8416 * 0.25 * 0.75) / 0.0009\nn = 2.882 / 0.0009\nn ≈ 3202.22\n\nSince we cannot inspect a fraction of a unit, we round up to the nearest whole number. Therefore, a minimum of 3203 units should be inspected to estimate the percentage of faulty units within a range of +/- 3% with a confidence level of 95%."
+}

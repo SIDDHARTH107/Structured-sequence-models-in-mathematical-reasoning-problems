@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Residue calculus and its applications",
+    "message_1": "A math student needs to find the residue of the function f(z) = z^3 / (z - 1)^2 at z = 1.",
+    "message_2": "To find the residue of the function f(z) = z^3 / (z - 1)^2 at z = 1, we can use the formula for the residue of a function with a simple pole:\n\nRes[f(z), z = a] = lim (z -> a) [(z - a) * f(z)]\n\nHowever, in this case, the function has a pole of order 2 at z = 1. Therefore, we need to find the residue of a function with a double pole:\n\nRes[f(z), z = a] = lim (z -> a) d/dz [(z - a)^2 * f(z)]\n\nFirst, let's find the derivative of (z - 1)^2 * f(z):\n\n(z - 1)^2 * f(z) = (z - 1)^2 * (z^3 / (z - 1)^2) = z^3\n\nNow, let's find the derivative of z^3 with respect to z:\n\nd/dz [z^3] = 3z^2\n\nNow, we can find the residue:\n\nRes[f(z), z = 1] = lim (z -> 1) [3z^2] = 3(1)^2 = 3\n\nSo, the residue of the function f(z) = z^3 / (z - 1)^2 at z = 1 is 3."
+}

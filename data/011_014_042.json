@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Graph theory",
+    "message_1": "A company has 8 employees who need to be divided into 4 teams of 2 each for a team building exercise. How many different ways can the teams be formed?",
+    "message_2": "To solve this problem, we can use the concept of combinations. We need to choose 2 employees out of 8 for the first team, 2 out of the remaining 6 for the second team, 2 out of the remaining 4 for the third team, and the last 2 employees will form the fourth team.\n\nThe number of ways to form the first team is C(8,2) = 8! / (2! * (8-2)!) = 28 ways.\nThe number of ways to form the second team is C(6,2) = 6! / (2! * (6-2)!) = 15 ways.\nThe number of ways to form the third team is C(4,2) = 4! / (2! * (4-2)!) = 6 ways.\n\nNow, we multiply the number of ways to form each team together: 28 * 15 * 6. However, since the order of the teams does not matter, we need to divide by the number of ways to arrange the 4 teams, which is 4! (4 factorial) = 24.\n\nSo the total number of ways to form the teams is (28 * 15 * 6) / 24 = 105. There are 105 different ways to form the 4 teams of 2 employees each."
+}

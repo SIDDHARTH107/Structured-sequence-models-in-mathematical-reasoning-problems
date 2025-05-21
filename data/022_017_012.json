@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Complex analysis of differential equations",
+    "message_1": "Solve the differential equation: \ny'' + 4y = 0, \nwhere y(0) = 1 and y'(0) = pi/2.",
+    "message_2": "To solve the given differential equation y'' + 4y = 0, we first find the characteristic equation:\n\nr^2 + 4 = 0\n\nThis is a quadratic equation, and we can solve for r:\n\nr^2 = -4\nr = ±2i\n\nSince we have complex roots, the general solution for the differential equation will be in the form:\n\ny(x) = e^(ax) (C1 * cos(bx) + C2 * sin(bx))\n\nIn our case, a = 0 and b = 2, so the general solution is:\n\ny(x) = C1 * cos(2x) + C2 * sin(2x)\n\nNow we use the initial conditions to find the values of C1 and C2.\n\n1. y(0) = 1:\n\ny(0) = C1 * cos(0) + C2 * sin(0)\n1 = C1 * 1 + C2 * 0\nC1 = 1\n\n2. y'(0) = pi/2:\n\nTo find y'(x), we differentiate y(x) with respect to x:\n\ny'(x) = -2C1 * sin(2x) + 2C2 * cos(2x)\n\nNow we use the initial condition y'(0) = pi/2:\n\ny'(0) = -2C1 * sin(0) + 2C2 * cos(0)\npi/2 = 0 + 2C2 * 1\n\nSo, C2 = pi/4.\n\nNow we have the particular solution:\n\ny(x) = cos(2x) + (pi/4) * sin(2x)"
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Probability",
+    "sub_topic": "Coin flipping and probability of getting heads or tails",
+    "message_1": "A student flips a fair coin 10 times. What is the probability of getting exactly 3 heads?",
+    "message_2": "To find the probability of getting exactly 3 heads in 10 coin flips, we can use the binomial probability formula:\n\nP(X = k) = (nCk) * (p^k) * (q^(n-k))\n\nwhere n is the number of trials (coin flips), k is the number of successful outcomes (heads), p is the probability of success (getting heads), and q is the probability of failure (getting tails).\n\nIn this case, n = 10, k = 3, p = 0.5 (since it's a fair coin), and q = 0.5.\n\nFirst, we need to find the binomial coefficient (nCk), which is the number of ways to choose k successes from n trials:\n\nnCk = n! / (k!(n-k)!)\n\nwhere ! denotes the factorial.\n\nSo, for our problem:\n\n10C3 = 10! / (3!(10-3)!)\n\n10C3 = 10! / (3!7!)\n\n10C3 = (10 × 9 × 8) / (3 × 2 × 1) = 120\n\nNow, we can plug these values into the binomial probability formula:\n\nP(X = 3) = (120) * (0.5^3) * (0.5^7)\n\nP(X = 3) = 120 * 0.125 * 0.0078125\n\nP(X = 3) ≈ 0.1171875\n\nSo, the probability of getting exactly 3 heads in 10 coin flips is approximately 0.1172 or 11.72%."
+}

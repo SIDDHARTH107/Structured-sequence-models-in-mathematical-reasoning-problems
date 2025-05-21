@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Solving systems of linear equations with complex coefficients",
+    "message_1": "Solve the following system of linear equations with complex coefficients:\n\nx + 2y - 3z = 7-3i\n\n2x - 3y + 4z = -6+4i\n\n3x + 4y - 5z = 3+i",
+    "message_2": "To solve this system of linear equations, we can use the Gaussian elimination method. First, we'll write the augmented matrix for the given system:\n\n```\n| 1  2 -3 |  7-3i |\n| 2 -3  4 | -6+4i |\n| 3  4 -5 |  3+i  |\n```\n\nStep 1: Eliminate the coefficients below the first pivot (1):\n\nRow 2 = Row 2 - 2 * Row 1:\n```\n| 1  2  -3 |  7-3i |\n| 0 -7  10 | -20+10i|\n| 3  4  -5 |  3+i  |\n```\n\nRow 3 = Row 3 - 3 * Row 1:\n```\n| 1  2  -3 |  7-3i |\n| 0 -7  10 | -20+10i|\n| 0 -2  4  | -18+8i|\n```\n\nStep 2: Eliminate the coefficients below the second pivot (-7):\n\nRow 3 = Row 3 - (2/7) * Row 2:\n```\n| 1  2  -3 |  7-3i |\n| 0 -7  10 | -20+10i|\n| 0  0  2  | -12+6i|\n```\n\nStep 3: Back-substitution:\n\nz = (-12+6i) / 2 = -6+3i\n\ny = (-20+10i - 10z) / -7 = (-20+10i - 10(-6+3i)) / -7 = (40-20i) / -7 = -20/7 + 10i/7\n\nx = (7-3i - 2y + 3z) = (7-3i - 2(-20/7 + 10i/7) + 3(-6+3i)) = (7-3i + 40/7 - 20i/7 - 18 + 9i) = (11/7 - 4i/7)\n\nSo the solution is:\n\nx = 11/7 - 4i/7\ny = -20/7 + 10i/7\nz = -6 + 3i"
+}

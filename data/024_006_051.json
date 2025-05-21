@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Differential geometry",
+    "sub_topic": "Calculate the Christoffel symbols of a given metric.",
+    "message_1": "Find the Christoffel symbols of the metric:\n\n$$\nds^2=4dx^2+9dy^2+16dz^2\n$$\n\nat the point $(1,2,3)$.",
+    "message_2": "To find the Christoffel symbols of the given metric, we first need to find the metric tensor $g_{ij}$ and its inverse $g^{ij}$. The metric tensor is given by the coefficients of the metric:\n\n$$\ng_{ij} = \\begin{pmatrix}\n4 & 0 & 0 \\\\\n0 & 9 & 0 \\\\\n0 & 0 & 16\n\\end{pmatrix}\n$$\n\nThe inverse metric tensor $g^{ij}$ is the inverse of $g_{ij}$:\n\n$$\ng^{ij} = \\begin{pmatrix}\n1/4 & 0 & 0 \\\\\n0 & 1/9 & 0 \\\\\n0 & 0 & 1/16\n\\end{pmatrix}\n$$\n\nNow, we can compute the Christoffel symbols using the following formula:\n\n$$\n\\Gamma^k_{ij} = \\frac{1}{2} g^{kl} (\\partial_i g_{lj} + \\partial_j g_{li} - \\partial_l g_{ij})\n$$\n\nSince the metric tensor is diagonal and constant, all its partial derivatives are zero:\n\n$$\n\\partial_i g_{lj} = \\partial_j g_{li} = \\partial_l g_{ij} = 0\n$$\n\nTherefore, all the Christoffel symbols are also zero:\n\n$$\n\\Gamma^k_{ij} = 0\n$$\n\nSo, the Christoffel symbols of the given metric at the point $(1,2,3)$ are all zero."
+}

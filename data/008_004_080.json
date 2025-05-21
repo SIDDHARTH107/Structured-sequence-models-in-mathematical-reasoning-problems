@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Solving homogeneous systems of linear equations",
+    "message_1": "Consider the homogeneous system of linear equations:\n\n3x + 2y - z = 0 \n\nx - y + 4z = 0 \n\n2x + 3y - 2z = 0\n\nFind the solutions for x, y and z if they exist.",
+    "message_2": "To solve this system of linear equations, we can use the Gaussian elimination method. First, we write the augmented matrix for the system:\n\n```\n[ 3  2 -1 | 0 ]\n[ 1 -1  4 | 0 ]\n[ 2  3 -2 | 0 ]\n```\n\nNext, we perform row operations to get the matrix in row-echelon form:\n\n1. Swap Row 1 and Row 2:\n```\n[ 1 -1  4 | 0 ]\n[ 3  2 -1 | 0 ]\n[ 2  3 -2 | 0 ]\n```\n\n2. Replace Row 2 with (-3 * Row 1) + Row 2:\n```\n[ 1 -1  4 | 0 ]\n[ 0  5 -11 | 0 ]\n[ 2  3 -2 | 0 ]\n```\n\n3. Replace Row 3 with (-2 * Row 1) + Row 3:\n```\n[ 1 -1  4 | 0 ]\n[ 0  5 -11 | 0 ]\n[ 0  5 -10 | 0 ]\n```\n\n4. Replace Row 3 with Row 3 - Row 2:\n```\n[ 1 -1  4 | 0 ]\n[ 0  5 -11 | 0 ]\n[ 0  0  1 | 0 ]\n```\n\nNow, we have the matrix in row-echelon form, and we can write the corresponding system of linear equations:\n\n```\nx - y + 4z = 0\n5y - 11z = 0\nz = 0\n```\n\nFrom the last equation, we see that z = 0. Now we can use back-substitution to find the values of y and x:\n\n5y - 11z = 5y = 0 => y = 0\n\nx - y + 4z = x = 0\n\nSo, the solution to the homogeneous system of linear equations is x = 0, y = 0, and z = 0."
+}

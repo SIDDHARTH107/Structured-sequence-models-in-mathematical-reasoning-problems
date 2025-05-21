@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Combinatorial identities",
+    "message_1": "How many ways are there to arrange the letters of the word \"MATHS\" such that the two vowels \"A\" and \"I\" do not appear together?",
+    "message_2": "There seems to be a mistake in the question, as the word \"MATHS\" contains only one vowel \"A\" and no \"I\". Assuming the question is about arranging the letters of the word \"MATHS\" such that the vowel \"A\" is not next to the consonant \"H\", we can proceed as follows:\n\nThere are 5! (5 factorial) ways to arrange the letters of the word \"MATHS\" without any restrictions. 5! = 5 × 4 × 3 × 2 × 1 = 120 ways.\n\nNow, let's consider the cases where \"A\" and \"H\" are together. Treat \"AH\" as a single unit, and we have 4 units to arrange: {M, T, S, AH}. There are 4! ways to arrange these units. 4! = 4 × 3 × 2 × 1 = 24 ways. However, \"AH\" can also be \"HA\", so we need to multiply by 2 to account for both possibilities. So, there are 24 × 2 = 48 ways where \"A\" and \"H\" are together.\n\nTo find the number of arrangements where \"A\" and \"H\" are not together, subtract the number of arrangements where they are together from the total number of arrangements:\n\n120 (total arrangements) - 48 (arrangements with \"A\" and \"H\" together) = 72 ways.\n\nSo, there are 72 ways to arrange the letters of the word \"MATHS\" such that the vowel \"A\" is not next to the consonant \"H\"."
+}

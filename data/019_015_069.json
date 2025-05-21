@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Logic",
+    "sub_topic": "Type theory",
+    "message_1": "Consider the following type definition in a programming language:\n```\ndata Nat = Zero | Succ Nat\n```\nHere, `Nat` represents the set of natural numbers. `Zero` is the base case, and `Succ` represents the successor function that takes a natural number and returns the next natural number.\n\nSuppose we want to define a function `plus` that takes two natural numbers as input and returns their sum. Write a function `plus` in this programming language that satisfies the following type signature:\n```\nplus : Nat -> Nat -> Nat\n```\nUse this function to evaluate `plus (Succ (Succ Zero)) (Succ Zero)`. What is the result?",
+    "message_2": "To define the `plus` function, we can use pattern matching and recursion. Here's the definition of `plus`:\n\n```\nplus : Nat -> Nat -> Nat\nplus Zero n = n\nplus (Succ m) n = Succ (plus m n)\n```\n\nNow, let's evaluate `plus (Succ (Succ Zero)) (Succ Zero)`:\n\n```\nplus (Succ (Succ Zero)) (Succ Zero)\n= Succ (plus (Succ Zero) (Succ Zero)) -- by the second clause of the plus definition\n= Succ (Succ (plus Zero (Succ Zero))) -- by the second clause of the plus definition again\n= Succ (Succ (Succ Zero)) -- by the first clause of the plus definition\n```\n\nSo the result is `Succ (Succ (Succ Zero))`, which represents the natural number 3."
+}

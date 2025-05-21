@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Polya's enumeration theorem",
+    "message_1": "A manufacturer has 6 distinct red marbles and 9 distinct blue marbles. In how many ways can they arrange the marbles in a circle so that no two adjacent marbles have the same color? (Hint: Use Polya's enumeration theorem to simplify the process.)",
+    "message_2": "To solve this problem, we can use Polya's enumeration theorem. First, let's consider the arrangements of the marbles in a circle. We can fix one of the blue marbles as a starting point (since there are more blue marbles than red marbles) and arrange the remaining marbles around it.\n\nNow, we have 8 blue marbles and 6 red marbles left to arrange. We can place the red marbles in the gaps between the blue marbles. There are 8 gaps between the blue marbles, and we need to place 6 red marbles in these gaps. This can be done in C(8, 6) ways, where C(n, k) denotes the number of combinations of choosing k items from n items.\n\nC(8, 6) = 8! / (6! * (8-6)!) = 28\n\nNow, we need to consider the permutations of the marbles within their color groups. There are 8! ways to arrange the blue marbles and 6! ways to arrange the red marbles.\n\nSo, the total number of ways to arrange the marbles in a circle such that no two adjacent marbles have the same color is:\n\nC(8, 6) * 8! * 6! = 28 * 8! * 6!\n\nTherefore, there are 28 * 8! * 6! ways to arrange the marbles in a circle with no two adjacent marbles having the same color."
+}

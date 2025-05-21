@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Combinatorial designs",
+    "message_1": "Suppose you have 10 distinct colors of paint and 3 identical canvases. How many ways can you paint the canvases such that no two canvases have the same color combination?",
+    "message_2": "To solve this problem, we can use the concept of combinations. Since the canvases are identical, we only need to consider the unique combinations of colors that can be used to paint them.\n\nWe have 10 distinct colors and need to choose 3 colors for each canvas. The number of ways to choose 3 colors out of 10 is given by the combination formula:\n\nC(n, k) = n! / (k!(n-k)!)\n\nWhere n is the total number of items (colors) and k is the number of items to be chosen (colors for each canvas).\n\nIn this case, n = 10 and k = 3.\n\nC(10, 3) = 10! / (3!(10-3)!)\n= 10! / (3!7!)\n= (10 × 9 × 8 × 7!)/(3 × 2 × 1 × 7!)\n= (10 × 9 × 8)/(3 × 2 × 1)\n= 120\n\nSo there are 120 ways to paint the 3 identical canvases such that no two canvases have the same color combination."
+}

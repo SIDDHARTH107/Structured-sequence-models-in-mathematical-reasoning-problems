@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Block designs",
+    "message_1": "A school has 10 classrooms and wants to form 5 study groups, each consisting of 2 classrooms, such that no classroom is in more than 1 group. How many different ways can this be done?",
+    "message_2": "To solve this problem, we can use the concept of combinations. We need to choose 2 classrooms out of 10 for the first group, 2 out of the remaining 8 for the second group, and so on.\n\nThe number of ways to form the first group is C(10,2) = 10! / (2! * (10-2)!) = 45.\nThe number of ways to form the second group is C(8,2) = 8! / (2! * (8-2)!) = 28.\nThe number of ways to form the third group is C(6,2) = 6! / (2! * (6-2)!) = 15.\nThe number of ways to form the fourth group is C(4,2) = 4! / (2! * (4-2)!) = 6.\nThe number of ways to form the fifth group is C(2,2) = 2! / (2! * (2-2)!) = 1.\n\nHowever, we need to consider that the order of the groups does not matter. So, we need to divide the product of the number of ways to form each group by the number of ways to arrange the 5 groups, which is 5! (5 factorial).\n\nThe total number of ways to form the 5 groups is:\n\n(45 * 28 * 15 * 6 * 1) / 5! = (45 * 28 * 15 * 6) / 120 = 630.\n\nSo, there are 630 different ways to form the 5 study groups with 2 classrooms each."
+}

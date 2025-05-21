@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Vigenere cipher",
+    "message_1": "A message \"HELLO\" is encrypted using a Vigenere cipher with a keyword \"MATHS\". What is the resulting ciphertext?",
+    "message_2": "To encrypt the message \"HELLO\" using a Vigenere cipher with the keyword \"MATHS\", we first need to align the keyword with the message:\n\nHELLO\nMATHS\n\nNow, we use the Vigenere square to find the corresponding ciphertext for each letter. The Vigenere square is a 26x26 table of letters, where each row is shifted one position to the left compared to the previous row. To find the ciphertext letter, we look for the intersection of the row corresponding to the message letter and the column corresponding to the keyword letter.\n\nH (7) + M (12) = S (18)\nE (4) + A (0) = E (4)\nL (11) + T (19) = B (1)\nL (11) + H (7) = S (18)\nO (14) + S (18) = I (8)\n\nThe resulting ciphertext is \"SEBSI\"."
+}

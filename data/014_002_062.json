@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Diffie-Hellman key exchange",
+    "message_1": "Sure! Here's a problem for a math student to solve related to Diffie-Hellman key exchange:\n\nSuppose Alice and Bob are communicating over an insecure channel and want to exchange a secret key using the Diffie-Hellman key exchange. Alice chooses a prime number p=23 and a primitive root of p g=5. Bob chooses a secret number a=6 and Alice chooses a secret number b=15. They exchange public keys: Bob calculates A = g^a mod p and gets A=8, and Alice calculates B = g^b mod p and gets B=19. What is the shared secret key that Alice and Bob can use for encryption and decryption?",
+    "message_2": "To find the shared secret key, both Alice and Bob will perform the following calculations using their own secret numbers and the public key received from the other party:\n\nShared Secret Key = (Public Key of the other party) ^ (Own Secret Number) mod p\n\nFor Alice:\nShared Secret Key = B^b mod p = 19^15 mod 23\n\nFor Bob:\nShared Secret Key = A^a mod p = 8^6 mod 23\n\nLet's calculate the shared secret key:\n\nFor Alice:\n19^15 mod 23 = 2\n\nFor Bob:\n8^6 mod 23 = 2\n\nThe shared secret key that Alice and Bob can use for encryption and decryption is 2."
+}

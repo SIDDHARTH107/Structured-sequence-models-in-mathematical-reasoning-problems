@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Solving systems of linear equations with ill-conditioned matrices",
+    "message_1": "Solve the system of equations below using Gaussian Elimination method:\n\n2x + 5y - 4z = 5\n\n4x + 10y - 8z = 10\n\n6x + 15y - 12z = 15\n\nRound your solution to three decimal places.",
+    "message_2": "First, let's write the system of equations as an augmented matrix:\n\n|  2  5 -4 |  5  |\n|  4 10 -8 | 10  |\n|  6 15 -12| 15  |\n\nNow, we'll perform Gaussian elimination to get the matrix in row-echelon form:\n\nStep 1: Divide the first row by 2 to get a leading 1:\n\n|  1  2.5 -2 |  2.5  |\n|  4  10  -8 |  10   |\n|  6  15 -12 |  15   |\n\nStep 2: Subtract 4 times the first row from the second row, and subtract 6 times the first row from the third row:\n\n|  1  2.5 -2 |  2.5  |\n|  0   0   0 |   0   |\n|  0   0   0 |   0   |\n\nWe can see that the second and third rows are all zeros. This means that the system of equations is dependent, and there are infinitely many solutions.\n\nTo find the general solution, we can write the first row as an equation:\n\nx + 2.5y - 2z = 2.5\n\nNow, we can express x in terms of y and z:\n\nx = 2.5 - 2.5y + 2z\n\nThe general solution is given by:\n\nx = 2.5 - 2.5y + 2z\ny = y\nz = z\n\nwhere y and z can be any real numbers."
+}

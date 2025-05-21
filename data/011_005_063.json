@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Combinatorial identities",
+    "message_1": "A mathematics student needs to find the number of ways to select a committee of three members from a group of six people: John, Mary, Tom, Sarah, David, and Jane, where Sarah and John must be on the committee together.\n\nHow many different committees can be formed under these conditions?",
+    "message_2": "Since John and Sarah must be on the committee together, we only need to choose one more member from the remaining four people (Mary, Tom, David, and Jane). The number of ways to do this is given by the combination formula:\n\nC(n, k) = n! / (k!(n-k)!)\n\nIn this case, n = 4 (the number of remaining people to choose from) and k = 1 (we need to choose one more person). So the formula becomes:\n\nC(4, 1) = 4! / (1!(4-1)!) = 4! / (1!3!) = (4*3*2*1) / (1*(3*2*1)) = 4\n\nSo there are 4 different committees that can be formed under these conditions."
+}

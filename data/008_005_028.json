@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Solving non-homogeneous systems of linear equations",
+    "message_1": "The problem is: \n\nSolve the non-homogeneous system of linear equations:\n\nx + 2y - z = 5  \n2x + 5y + 2z = 2  \n3x + 7y + 4z = 1  \n\nHint: You need to use matrix algebra and the method of Gaussian elimination.",
+    "message_2": "To solve the given system of linear equations using Gaussian elimination, we first write the augmented matrix:\n\n| 1  2 -1 | 5 |\n| 2  5  2 | 2 |\n| 3  7  4 | 1 |\n\nStep 1: Eliminate x from the second and third rows.\n\nR2 = R2 - 2*R1\nR3 = R3 - 3*R1\n\n| 1  2 -1 |  5  |\n| 0  1  4 | -8  |\n| 0  1  7 | -14 |\n\nStep 2: Eliminate y from the third row.\n\nR3 = R3 - R2\n\n| 1  2 -1 |  5  |\n| 0  1  4 | -8  |\n| 0  0  3 | -6  |\n\nStep 3: Solve for z.\n\n3z = -6\nz = -2\n\nStep 4: Back-substitute to find y.\n\ny + 4z = -8\ny + 4(-2) = -8\ny - 8 = -8\ny = 0\n\nStep 5: Back-substitute to find x.\n\nx + 2y - z = 5\nx + 2(0) - (-2) = 5\nx + 2 = 5\nx = 3\n\nSo the solution to the system of linear equations is x = 3, y = 0, and z = -2."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Residue calculus and its applications",
+    "message_1": "Find the residue of the function f(z) = (2z-1)/(z^2+4z+5) at the pole z=-2+I.",
+    "message_2": "To find the residue of the function f(z) = (2z-1)/(z^2+4z+5) at the pole z=-2+I, we first need to factor the denominator and rewrite the function in partial fraction form.\n\nThe denominator can be factored as follows:\nz^2 + 4z + 5 = (z + 2 - i)(z + 2 + i)\n\nNow we rewrite the function in partial fraction form:\nf(z) = (2z-1)/((z + 2 - i)(z + 2 + i)) = A/(z + 2 - i) + B/(z + 2 + i)\n\nTo find the constants A and B, we clear the denominators:\n2z - 1 = A(z + 2 + i) + B(z + 2 - i)\n\nNow we can solve for A and B by plugging in the values of the poles. First, let's find A by plugging in z = -2 + i:\n2(-2 + i) - 1 = A(-2 + i + 2 + i) + B(-2 + i + 2 - i)\n-4 + 2i - 1 = 2Ai\n-5 + 2i = 2Ai\n\nSo, A = (-5 + 2i)/2 = -5/2 + i.\n\nNow let's find B by plugging in z = -2 - i:\n2(-2 - i) - 1 = A(-2 - i + 2 - i) + B(-2 - i + 2 + i)\n-4 - 2i - 1 = 2Bi\n-5 - 2i = 2Bi\n\nSo, B = (-5 - 2i)/2 = -5/2 - i.\n\nNow we have the partial fraction form of f(z):\nf(z) = (-5/2 + i)/(z + 2 - i) + (-5/2 - i)/(z + 2 + i)\n\nThe residue at the pole z = -2 + i is the coefficient A, which is -5/2 + i."
+}

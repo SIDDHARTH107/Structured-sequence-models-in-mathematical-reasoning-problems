@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Residue calculus and its applications",
+    "message_1": "Here's a possible question for a math student to solve:\n\nConsider the function $f(z) = \\frac{e^{3z}}{(z+1)^3}$ on the complex plane. What is the residue of $f$ at the pole $z=-1$?\n\nHint: To compute the residue of a function $f(z)$ at a pole $z=z_0$, we can expand $f(z)$ as a Laurent series around $z_0$ and look for the coefficient of the $(z-z_0)^{-1}$ term. In this case, we can use the Taylor series expansion of $e^{3z}$ and the binomial series expansion of $(1+z)^{-3}$ to simplify the computation.",
+    "message_2": "To find the residue of the function $f(z) = \\frac{e^{3z}}{(z+1)^3}$ at the pole $z=-1$, we first rewrite the function in terms of $w = z + 1$. This gives us:\n\n$$f(w-1) = \\frac{e^{3(w-1)}}{w^3} = \\frac{e^{3w}e^{-3}}{w^3}.$$\n\nNow, we can expand $e^{3w}$ using its Taylor series expansion:\n\n$$e^{3w} = 1 + 3w + \\frac{9w^2}{2} + \\frac{27w^3}{6} + \\cdots.$$\n\nThus, the function becomes:\n\n$$f(w-1) = \\frac{e^{-3}(1 + 3w + \\frac{9w^2}{2} + \\frac{27w^3}{6} + \\cdots)}{w^3}.$$\n\nNow, we can divide each term in the numerator by $w^3$:\n\n$$f(w-1) = e^{-3}\\left(\\frac{1}{w^3} + \\frac{3}{w^2} + \\frac{9}{2w} + \\frac{27}{6} + \\cdots\\right).$$\n\nThe residue of the function at the pole $z=-1$ (or $w=0$) is the coefficient of the $\\frac{1}{w}$ term in the Laurent series expansion. In this case, the residue is:\n\n$$\\text{Res}(f(z), z=-1) = \\frac{9}{2}e^{-3}.$$"
+}

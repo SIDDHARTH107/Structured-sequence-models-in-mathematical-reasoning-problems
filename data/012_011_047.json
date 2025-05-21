@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Graph theory",
+    "sub_topic": "Identifying the cut vertices and bridges in a graph.",
+    "message_1": "Consider the following graph (G), with 8 vertices (A-H) and 10 edges. \n\n       A---B---C\n       |   |   |\n       D---E---F---G\n           |       |\n           H-------\n\nIdentify the cut vertices and bridges in G.",
+    "message_2": "In graph G, a cut vertex is a vertex whose removal increases the number of connected components. A bridge is an edge whose removal increases the number of connected components.\n\nCut vertices in G: B, E, F\nExplanation:\n- Removing B disconnects A, D, E, H from C.\n- Removing E disconnects A, B, C from D, H and F, G.\n- Removing F disconnects C from G and the rest of the graph.\n\nBridges in G: (B, C), (E, F), (F, G)\nExplanation:\n- Removing edge (B, C) disconnects C from the rest of the graph.\n- Removing edge (E, F) disconnects F, G from the rest of the graph.\n- Removing edge (F, G) disconnects G from the rest of the graph."
+}

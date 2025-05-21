@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Fourier analysis",
+    "sub_topic": "Using the Fourier transform to analyze the behavior of systems",
+    "message_1": "A signal `f(t)` has Fourier transform `F(ω)` given by:\n\n`F(ω) = (10π)/(4 + 9ω^2)`\n\nFind the inverse Fourier transform of `F(ω)` using the standard formula for the inverse Fourier transform.",
+    "message_2": "To find the inverse Fourier transform of `F(ω)`, we will use the standard formula for the inverse Fourier transform:\n\n`f(t) = (1/(2π)) * ∫[F(ω) * e^(jωt) dω]` from `-∞` to `∞`\n\nGiven `F(ω) = (10π)/(4 + 9ω^2)`, we have:\n\n`f(t) = (1/(2π)) * ∫[((10π)/(4 + 9ω^2)) * e^(jωt) dω]` from `-∞` to `∞`\n\nTo solve this integral, we can use the following property of the inverse Fourier transform:\n\nIf `F(ω) = K * (1/(a^2 + ω^2))`, then `f(t) = K * (e^(-a|t|)/a)`, where `K` is a constant.\n\nComparing this property with our given `F(ω)`, we can see that `K = 10π` and `a^2 = 4`, so `a = 2`.\n\nNow, we can find the inverse Fourier transform:\n\n`f(t) = 10π * (e^(-2|t|)/2)`\n\n`f(t) = 5π * e^(-2|t|)`"
+}

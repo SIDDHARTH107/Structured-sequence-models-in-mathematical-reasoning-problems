@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Statistics",
+    "sub_topic": "Hypothesis testing",
+    "message_1": "A manufacturer claims that the mean weight of a bag of chips is 200g. A random sample of 50 bags of chips is taken and the mean weight is found to be 195g with a standard deviation of 10g. Test the manufacturer's claim at a significance level of 0.05.",
+    "message_2": "To test the manufacturer's claim, we will perform a one-sample t-test. The null hypothesis (H0) is that the true mean weight of the bags of chips is 200g, and the alternative hypothesis (H1) is that the true mean weight is not 200g.\n\nH0: μ = 200g\nH1: μ ≠ 200g\n\nGiven data:\nSample mean (x̄) = 195g\nPopulation mean (μ) = 200g\nSample standard deviation (s) = 10g\nSample size (n) = 50\nSignificance level (α) = 0.05\n\nFirst, we need to calculate the t-score. The formula for the t-score is:\n\nt = (x̄ - μ) / (s / √n)\n\nt = (195 - 200) / (10 / √50)\nt = -5 / (10 / 7.071)\nt = -5 / 1.414\nt = -3.536\n\nNow, we need to find the critical t-value for a two-tailed test with a significance level of 0.05 and degrees of freedom (df) = n - 1 = 50 - 1 = 49. We can look this up in a t-distribution table or use a calculator:\n\nt_critical = ± 2.009\n\nSince our calculated t-score (-3.536) is less than the critical t-value (-2.009), we reject the null hypothesis in favor of the alternative hypothesis. This means that there is significant evidence to suggest that the true mean weight of the bags of chips is not 200g at a 0.05 significance level."
+}

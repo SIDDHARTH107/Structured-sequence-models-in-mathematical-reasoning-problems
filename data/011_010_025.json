@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Catalan numbers",
+    "message_1": "A dance competition has 12 couples participating. In each round, the judges randomly select 6 couples to move to the next round. How many different elimination orders are possible until only one couple remains as the winner? (Hint: Use Catalan numbers)",
+    "message_2": "To solve this problem, we can use the concept of Catalan numbers. Catalan numbers are a sequence of natural numbers that have many applications in combinatorial mathematics, including counting certain types of lattice paths, the number of expressions containing n pairs of parentheses that are correctly matched, and the number of ways to arrange n+1 factors in an associative expression with n multiplications.\n\nIn this case, we can think of the elimination process as a sequence of balanced parentheses, where each opening parenthesis represents a couple moving to the next round, and each closing parenthesis represents a couple being eliminated. We need to find the number of valid sequences of parentheses for 6 pairs, which corresponds to the 6th Catalan number.\n\nThe formula for the nth Catalan number is:\n\nC_n = (1/(n+1)) * (2n choose n)\n\nFor n = 6, we have:\n\nC_6 = (1/(6+1)) * (12 choose 6)\n\nC_6 = (1/7) * (924)\n\nC_6 = 132\n\nSo there are 132 different elimination orders possible until only one couple remains as the winner."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Set theory",
+    "sub_topic": "Prove that the symmetric difference of two sets is distributive over union.",
+    "message_1": "Let A = {1, 2, 3, 4} and B = {2, 3, 4, 5} be two sets. Find the symmetric difference of the sets A and B and show that it is distributive over union, i.e., show that (A Δ B) ∪ C = (A ∪ C) Δ (B ∪ C) for a set C.",
+    "message_2": "First, let's find the symmetric difference of the sets A and B. The symmetric difference (A Δ B) is the set of elements which are in either of the sets A or B but not in their intersection. \n\nA Δ B = (A ∪ B) - (A ∩ B)\n\nA ∪ B = {1, 2, 3, 4, 5}\nA ∩ B = {2, 3, 4}\n\nSo, A Δ B = {1, 5}\n\nNow, let's prove that the symmetric difference is distributive over union. Let C be an arbitrary set. We need to show that (A Δ B) ∪ C = (A ∪ C) Δ (B ∪ C).\n\n(A Δ B) ∪ C = ({1, 5}) ∪ C\n\nNow, let's find (A ∪ C) Δ (B ∪ C):\n\n(A ∪ C) = A ∪ C\n(B ∪ C) = B ∪ C\n\nThe symmetric difference of these two sets is:\n\n(A ∪ C) Δ (B ∪ C) = ((A ∪ C) - (B ∪ C)) ∪ ((B ∪ C) - (A ∪ C))\n\nNow, let's analyze the two parts of the symmetric difference separately:\n\n1. (A ∪ C) - (B ∪ C) = (A - B) ∪ (C - C) = (A - B) ∪ ∅ = A - B\n2. (B ∪ C) - (A ∪ C) = (B - A) ∪ (C - C) = (B - A) ∪ ∅ = B - A\n\nSo, (A ∪ C) Δ (B ∪ C) = (A - B) ∪ (B - A) = A Δ B\n\nTherefore, (A Δ B) ∪ C = (A ∪ C) Δ (B ∪ C), which proves that the symmetric difference is distributive over union."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Graph theory",
+    "sub_topic": "Determining the chromatic number of a graph.",
+    "message_1": "What is the chromatic number of the graph G, if the graph has 7 vertices and the adjacency matrix is given by:\n\n0 1 1 0 0 0 0\n\n1 0 0 1 0 0 1\n\n1 0 0 1 1 0 0\n\n0 1 1 0 1 1 0\n\n0 0 1 1 0 1 0\n\n0 0 0 1 1 0 1\n\n0 1 0 0 0 1 0",
+    "message_2": "The chromatic number of a graph is the smallest number of colors needed to color the vertices of the graph such that no two adjacent vertices share the same color.\n\nThe given adjacency matrix represents the following graph:\n\n```\n1 -- 2 -- 4 -- 5 -- 3\n  \\     /     \\     /\n   \\   /       \\   /\n    \\ /         \\ /\n     7           6\n```\n\nWe can color the graph using the following scheme:\n\n1. Color 1: vertices 1, 4, 6\n2. Color 2: vertices 2, 5\n3. Color 3: vertices 3, 7\n\nNo two adjacent vertices share the same color, so the chromatic number of the graph G is 3."
+}

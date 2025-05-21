@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Generating functions",
+    "message_1": "Using generating functions, find the number of ways to select 5 pens of different colors from a collection of 10 pens.",
+    "message_2": "To solve this problem using generating functions, we first need to create a generating function that represents the situation. Since we have 10 pens of different colors and we want to select 5 of them, we can represent this using the following generating function:\n\nG(x) = (1 + x)^10\n\nThis generating function represents the sum of all possible combinations of selecting pens from the collection of 10 pens. The coefficient of x^5 in the expansion of G(x) will give us the number of ways to select 5 pens of different colors.\n\nNow, we need to find the coefficient of x^5 in the expansion of G(x). We can use the binomial theorem to expand G(x):\n\nG(x) = (1 + x)^10 = C(10,0)x^0 + C(10,1)x^1 + C(10,2)x^2 + ... + C(10,5)x^5 + ... + C(10,10)x^10\n\nwhere C(n, k) is the binomial coefficient, which can be calculated as:\n\nC(n, k) = n! / (k!(n-k)!)\n\nWe are interested in the coefficient of x^5, which is C(10,5):\n\nC(10,5) = 10! / (5!5!) = (10*9*8*7*6) / (5*4*3*2*1) = 252\n\nSo, there are 252 ways to select 5 pens of different colors from a collection of 10 pens."
+}

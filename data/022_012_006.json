@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Meromorphic functions and their properties",
+    "message_1": "Determine the order of pole of the function  $$f(z)=\\frac{z^3-1}{\\sin z}$$\nat $z=0.$",
+    "message_2": "To determine the order of the pole of the function $$f(z)=\\frac{z^3-1}{\\sin z}$$ at $z=0$, we first need to find the order of the zero of the numerator and the order of the zero of the denominator at $z=0$.\n\nFor the numerator, we have $z^3-1$. At $z=0$, this function is equal to $-1$, which is not a zero. Therefore, the numerator has no zero at $z=0$.\n\nFor the denominator, we have $\\sin z$. At $z=0$, this function is equal to $0$. To find the order of the zero, we can look at the derivatives of $\\sin z$:\n\n1. First derivative: $\\frac{d}{dz}(\\sin z) = \\cos z$. At $z=0$, this is equal to $1$, which is not a zero.\n2. Second derivative: $\\frac{d^2}{dz^2}(\\sin z) = -\\sin z$. At $z=0$, this is equal to $0$. Since we have a zero at the second derivative, the order of the zero of the denominator at $z=0$ is 2.\n\nNow, we can use the formula for the order of a pole:\n\nOrder of pole = (Order of zero of numerator) - (Order of zero of denominator)\n\nIn our case, this is:\n\nOrder of pole = (0) - (2) = -2\n\nSince the order of the pole is negative, this means that the function $f(z)$ does not have a pole at $z=0$. Instead, it has a zero of order 2 at $z=0$."
+}

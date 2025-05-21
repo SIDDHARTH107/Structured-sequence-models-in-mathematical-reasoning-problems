@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Permutations and combinations",
+    "message_1": "A school has 6 boys and 4 girls who want to form a committee of 3 students for a math competition. In how many ways can the committee be formed if it must have at least one boy and one girl?",
+    "message_2": "There are three possible scenarios for the committee composition:\n\n1. One boy and two girls\n2. Two boys and one girl\n3. One boy and one girl (this is not possible since the committee must have 3 students)\n\nFor scenario 1:\nThere are 6 boys and we need to choose 1, so the number of ways is C(6,1) = 6.\nThere are 4 girls and we need to choose 2, so the number of ways is C(4,2) = 6.\nThe total number of ways for scenario 1 is 6 * 6 = 36.\n\nFor scenario 2:\nThere are 6 boys and we need to choose 2, so the number of ways is C(6,2) = 15.\nThere are 4 girls and we need to choose 1, so the number of ways is C(4,1) = 4.\nThe total number of ways for scenario 2 is 15 * 4 = 60.\n\nAdding the number of ways for both scenarios, we get 36 + 60 = 96 ways to form the committee with at least one boy and one girl."
+}

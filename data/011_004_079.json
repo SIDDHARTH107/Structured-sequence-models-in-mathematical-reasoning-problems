@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Multinomial coefficients",
+    "message_1": "In how many ways can the letters in the word \"MATHEMATICS\" be arranged such that all the vowels appear together?",
+    "message_2": "To solve this problem, we will first treat the group of vowels (AAEIT) as a single entity, and then arrange the remaining consonants (MMTHCS). \n\nThere are 7 unique letters (MMTHCS + the group of vowels), so there are 7! ways to arrange these letters. However, we need to account for the repetition of the letter M, which appears twice. So, we divide by 2! to correct for this repetition:\n\n7! / 2! = 5,040 / 2 = 2,520 ways to arrange the letters with the vowels as a single entity.\n\nNow, we need to consider the arrangement of the vowels within the group (AAEIT). There are 5 vowels, so there are 5! ways to arrange them. However, we need to account for the repetition of the letter A, which appears twice. So, we divide by 2! to correct for this repetition:\n\n5! / 2! = 120 / 2 = 60 ways to arrange the vowels within the group.\n\nFinally, we multiply the number of ways to arrange the letters with the vowels as a single entity by the number of ways to arrange the vowels within the group:\n\n2,520 * 60 = 151,200\n\nSo, there are 151,200 ways to arrange the letters in the word \"MATHEMATICS\" such that all the vowels appear together."
+}

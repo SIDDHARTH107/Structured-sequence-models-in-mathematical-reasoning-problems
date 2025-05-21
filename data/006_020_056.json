@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Probability",
+    "sub_topic": "Probability of a certain type of social event occurring in a community",
+    "message_1": "In a community of 500 people, 320 are adults and 180 are children. If you choose 3 people at random from this community, what is the probability that all 3 people are children?",
+    "message_2": "To find the probability that all 3 people chosen are children, we can use the formula for combinations:\n\nC(n, k) = n! / (k!(n-k)!)\n\nwhere n is the total number of people, k is the number of people chosen, and ! denotes the factorial function (e.g., 5! = 5 × 4 × 3 × 2 × 1).\n\nFirst, we need to find the probability of choosing 3 children out of the 180 children:\n\nC(180, 3) = 180! / (3!(180-3)!)\nC(180, 3) = 180! / (3!177!)\nC(180, 3) = (180 × 179 × 178) / (3 × 2 × 1)\nC(180, 3) = 5,914,020 / 6\nC(180, 3) = 985,670\n\nNext, we need to find the total number of ways to choose 3 people out of the 500 people:\n\nC(500, 3) = 500! / (3!(500-3)!)\nC(500, 3) = 500! / (3!497!)\nC(500, 3) = (500 × 499 × 498) / (3 × 2 × 1)\nC(500, 3) = 20,747,010 / 6\nC(500, 3) = 3,457,835\n\nNow, we can find the probability of choosing 3 children by dividing the number of ways to choose 3 children by the total number of ways to choose 3 people:\n\nP(3 children) = C(180, 3) / C(500, 3)\nP(3 children) = 985,670 / 3,457,835\nP(3 children) ≈ 0.2849\n\nSo, the probability of choosing 3 children at random from this community is approximately 28.49%."
+}

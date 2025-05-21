@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Digital signatures",
+    "message_1": "A digital signature algorithm generates a 256-bit hash value for a document. If the hash value of the original document is changed even by a single bit, the algorithm generates a completely different hash value. If the current hash value of a signed document is 0x2B59F014F20EC35AA96D3565F1743C3E, what is the probability of generating another hash value equal to this by randomly changing some bits in the original document?",
+    "message_2": "A 256-bit hash value has 2^256 possible combinations. Since the hash function generates a completely different hash value even if a single bit is changed, we can assume that each hash value has an equal probability of being generated. Therefore, the probability of generating the same hash value (0x2B59F014F20EC35AA96D3565F1743C3E) by randomly changing some bits in the original document is:\n\n1 / (2^256)\n\nThis is an extremely small probability, which is approximately:\n\n1 / 1.1579209 x 10^77"
+}

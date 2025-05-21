@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Fourier analysis",
+    "sub_topic": "Finding the Fourier series of a function with a singularity",
+    "message_1": "What is the Fourier series of the function f(x) = sin(x) on the interval [-π,π]?",
+    "message_2": "The Fourier series of a function f(x) on the interval [-π, π] is given by the formula:\n\nf(x) ≈ (a_0 / 2) + Σ [a_n * cos(n * x) + b_n * sin(n * x)]\n\nwhere the coefficients a_n and b_n are given by:\n\na_n = (1 / π) * ∫[-π, π] f(x) * cos(n * x) dx\nb_n = (1 / π) * ∫[-π, π] f(x) * sin(n * x) dx\n\nFor the function f(x) = sin(x), we can find the coefficients a_n and b_n:\n\na_n = (1 / π) * ∫[-π, π] sin(x) * cos(n * x) dx = 0 (since sin(x) * cos(n * x) is an odd function)\n\nb_n = (1 / π) * ∫[-π, π] sin(x) * sin(n * x) dx\n\nTo find b_n, we can use integration by parts:\n\nu = sin(x), dv = sin(n * x) dx\ndu = cos(x) dx, v = -(1/n) * cos(n * x)\n\nUsing integration by parts formula:\n\n∫ u dv = uv - ∫ v du\n\nb_n = (1 / π) * [(-sin(x) * cos(n * x) / n) + (1 / n) * ∫[-π, π] cos(x) * cos(n * x) dx]\n\nThe second term in the brackets is zero since cos(x) * cos(n * x) is an even function when n is odd and odd function when n is even. Therefore, we have:\n\nb_n = (1 / π) * ∫[-π, π] -sin(x) * cos(n * x) / n dx\n\nNow, b_n is nonzero only when n = 1:\n\nb_1 = (1 / π) * ∫[-π, π] -sin(x) * cos(x) dx = 2 / π\n\nSo, the Fourier series of f(x) = sin(x) on the interval [-π, π] is:\n\nf(x) ≈ 2 * sin(x) / π"
+}

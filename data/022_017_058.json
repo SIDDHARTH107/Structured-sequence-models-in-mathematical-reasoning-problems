@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Complex analysis of differential equations",
+    "message_1": "Solve the differential equation: $z''(t) + 4z(t) = 0$ where $z(t)$ is a complex-valued function of $t$ with initial conditions $z(0) = 2i$ and $z'(0)=-i$.",
+    "message_2": "To solve the given differential equation, we first find the characteristic equation:\n\n$r^2 + 4 = 0$\n\nSolving for r, we get:\n\n$r^2 = -4$\n\n$r = \\pm 2i$\n\nSince we have complex roots, the general solution for the differential equation is:\n\n$z(t) = c_1 e^{2it} + c_2 e^{-2it}$\n\nNow, we need to find the constants $c_1$ and $c_2$ using the initial conditions.\n\n1) $z(0) = 2i$\n\n$2i = c_1 e^{0} + c_2 e^{0}$\n\n$2i = c_1 + c_2$\n\n2) $z'(t) = 2ic_1 e^{2it} - 2ic_2 e^{-2it}$\n\nUsing the initial condition $z'(0) = -i$:\n\n$-i = 2ic_1 e^{0} - 2ic_2 e^{0}$\n\n$-i = 2ic_1 - 2ic_2$\n\nDividing by $2i$:\n\n$-\\frac{1}{2} = c_1 - c_2$\n\nNow we have a system of linear equations:\n\n$c_1 + c_2 = 2i$\n\n$c_1 - c_2 = -\\frac{1}{2}$\n\nSolving this system, we get:\n\n$c_1 = \\frac{3}{4} + \\frac{5}{4}i$\n\n$c_2 = \\frac{5}{4}i - \\frac{3}{4}$\n\nNow we can write the particular solution:\n\n$z(t) = \\left(\\frac{3}{4} + \\frac{5}{4}i\\right) e^{2it} + \\left(\\frac{5}{4}i - \\frac{3}{4}\\right) e^{-2it}$"
+}

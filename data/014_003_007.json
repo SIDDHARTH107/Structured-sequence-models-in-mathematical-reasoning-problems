@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "ElGamal encryption and decryption",
+    "message_1": "Suppose Alice wants to send a secret message to Bob using ElGamal encryption. She chooses a prime number p=17 and a primitive root α=3. She also chooses her secret key as a=4. Bob's public key is β=13. If Alice's plaintext message is m=7, what is the encrypted message (c1, c2) that she sends to Bob?",
+    "message_2": "To encrypt the message using ElGamal encryption, Alice needs to perform the following steps:\n\n1. Choose a random integer k (1 ≤ k ≤ p-2) that is relatively prime to p-1. Let's choose k=6 for this example.\n2. Compute c1 = α^k mod p. In this case, c1 = 3^6 mod 17.\n3. Compute c2 = (m * β^k) mod p. In this case, c2 = (7 * 13^6) mod 17.\n\nNow let's calculate c1 and c2:\n\nc1 = 3^6 mod 17 = 729 mod 17 = 1\n\nc2 = (7 * 13^6) mod 17 = (7 * 4826809) mod 17 = 33807663 mod 17 = 10\n\nSo, the encrypted message (c1, c2) that Alice sends to Bob is (1, 10)."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Multinomial coefficients",
+    "message_1": "A committee of 8 people needs to be formed from a group of 20 individuals, wherein 4 are engineers, 6 are lawyers, and 10 are doctors. In how many ways can the committee be selected such that it includes 2 engineers, 3 lawyers, and 3 doctors? \n\nThe answer can be found using multinomial coefficients which is given by: \n\n$ {20 \\choose 2, 3, 3, 10} = \\dfrac{20!}{2! \\cdot 3! \\cdot 3! \\cdot 10!} = 5,\\!969,\\!173.$ \n\nTherefore, there are 5,969,173 ways to form the committee.",
+    "message_2": "Actually, the given solution is incorrect. The correct approach to solve this problem is to use the combination formula for each profession separately and then multiply the results.\n\nThe number of ways to choose 2 engineers from 4 is given by:\n\n$ {4 \\choose 2} = \\dfrac{4!}{2!(4-2)!} = 6.$\n\nThe number of ways to choose 3 lawyers from 6 is given by:\n\n$ {6 \\choose 3} = \\dfrac{6!}{3!(6-3)!} = 20.$\n\nThe number of ways to choose 3 doctors from 10 is given by:\n\n$ {10 \\choose 3} = \\dfrac{10!}{3!(10-3)!} = 120.$\n\nNow, we multiply the results to get the total number of ways to form the committee:\n\n$6 \\times 20 \\times 120 = 14,\\!400.$\n\nTherefore, there are 14,400 ways to form the committee."
+}

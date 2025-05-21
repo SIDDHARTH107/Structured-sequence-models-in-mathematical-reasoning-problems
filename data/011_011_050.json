@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Partition theory",
+    "message_1": "A music teacher has 10 identical pianos to distribute among 4 classrooms. How many ways are there for the teacher to distribute the pianos if each classroom must receive at least one piano?",
+    "message_2": "To solve this problem, we can use the concept of stars and bars. Since each classroom must receive at least one piano, we can start by giving one piano to each classroom. Now, we have 6 pianos left to distribute among the 4 classrooms.\n\nWe can represent the 6 pianos as 6 stars (******), and we need to divide them into 4 groups (classrooms). To do this, we can use 3 bars (|) to separate the stars into 4 groups. For example, one possible distribution is **|*|**|*, which represents 2 pianos in the first classroom, 1 in the second, 2 in the third, and 1 in the fourth.\n\nNow, we have a total of 9 objects (6 stars and 3 bars), and we need to choose the positions for the 3 bars among these 9 objects. This can be done in C(9,3) ways, where C(n,k) is the number of combinations of choosing k items from n items.\n\nC(9,3) = 9! / (3! * (9-3)!) = 84\n\nSo, there are 84 ways for the teacher to distribute the pianos among the 4 classrooms with each classroom receiving at least one piano."
+}

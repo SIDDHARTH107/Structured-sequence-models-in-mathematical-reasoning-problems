@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "ElGamal encryption and decryption",
+    "message_1": "Suppose that Bob wants to send a secret message to Alice using ElGamal encryption. Bob chooses a prime number $p=29$ and primitive root $g=2$. He also chooses his private key $a=5$. Bob's public key, which he sends to Alice, is $A = g^a \\mod p$. To encrypt his message, Bob chooses a random number $k=3$ and calculates $K = A^k \\mod p$ and $B = (g^k \\times m) \\mod p$, where $m$ is the numerical message that he wants to send. The ciphertext that Bob sends to Alice is the pair $(K, B)$.\n\nIf Bob wants to send the message $m=11$ to Alice, what is the ciphertext that Bob sends to Alice?",
+    "message_2": "First, let's calculate Bob's public key A:\n$A = g^a \\mod p = 2^5 \\mod 29 = 32 \\mod 29 = 3$\n\nNow, let's calculate K and B for the ciphertext:\n$K = A^k \\mod p = 3^3 \\mod 29 = 27 \\mod 29 = 27$\n$B = (g^k \\times m) \\mod p = (2^3 \\times 11) \\mod 29 = (8 \\times 11) \\mod 29 = 88 \\mod 29 = 1$\n\nSo, the ciphertext that Bob sends to Alice is the pair $(K, B) = (27, 1)$."
+}

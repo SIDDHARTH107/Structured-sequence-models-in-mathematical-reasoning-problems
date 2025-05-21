@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Solving linear programming problems using matrix methods",
+    "message_1": "A company produces two types of products, A and B, which sell for \\$5 and \\$4 per unit, respectively. Each product requires two types of labor, skilled and unskilled. Product A requires 2 skilled and 1 unskilled labor for production, while product B requires 1 skilled and 2 unskilled labor. The company has 100 skilled labor and 80 unskilled labor available. What is the optimal number of units of product A and B that the company should produce to maximize their revenue?",
+    "message_2": "Let x be the number of units of product A and y be the number of units of product B.\n\nThe constraints for the labor are:\n2x + y ≤ 100 (skilled labor)\nx + 2y ≤ 80 (unskilled labor)\n\nThe objective function to maximize the revenue is:\nRevenue = 5x + 4y\n\nFirst, we need to find the feasible region by graphing the constraints:\n\n1. 2x + y ≤ 100\ny ≤ -2x + 100\n\n2. x + 2y ≤ 80\ny ≤ -0.5x + 40\n\nThe feasible region is a quadrilateral with vertices at (0, 0), (0, 40), (20, 30), and (50, 0).\n\nNow, we will evaluate the objective function at each vertex:\n\n1. (0, 0)\nRevenue = 5(0) + 4(0) = $0\n\n2. (0, 40)\nRevenue = 5(0) + 4(40) = $160\n\n3. (20, 30)\nRevenue = 5(20) + 4(30) = $100 + $120 = $220\n\n4. (50, 0)\nRevenue = 5(50) + 4(0) = $250\n\nThe maximum revenue of $250 is achieved when the company produces 50 units of product A and 0 units of product B."
+}

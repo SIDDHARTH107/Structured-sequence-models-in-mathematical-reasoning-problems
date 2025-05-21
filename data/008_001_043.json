@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Solving systems of linear equations using matrix methods",
+    "message_1": "Solve the system of linear equations below using matrix methods:\n\n2x + y = 10\nx - 3y = -4\n\nWhat are the values of x and y that satisfy the above equations?",
+    "message_2": "To solve the system of linear equations using matrix methods, we can use the inverse matrix method. First, let's write the given system in matrix form AX = B, where A is the matrix of coefficients, X is the column matrix of variables (x, y), and B is the column matrix of constants.\n\nA = | 2  1 |\n    | 1 -3 |\n\nX = | x |\n    | y |\n\nB = | 10 |\n    | -4 |\n\nNow, we need to find the inverse of matrix A. To do that, we'll first find the determinant of A.\n\ndet(A) = (2 * -3) - (1 * 1) = -6 - 1 = -7\n\nSince the determinant is non-zero, the inverse of A exists. Now, let's find the inverse of A.\n\nA^(-1) = (1/det(A)) * adj(A), where adj(A) is the adjugate of A.\n\nadj(A) = | -3 -1 |\n         | -1  2 |\n\nA^(-1) = (-1/-7) * | -3 -1 |\n                   | -1  2 |\n\nA^(-1) = | 3/7  1/7 |\n         | 1/7 -2/7 |\n\nNow, we can find the values of x and y by multiplying A^(-1) with B.\n\nX = A^(-1) * B\n\nX = | 3/7  1/7 | * | 10 |\n    | 1/7 -2/7 |   | -4 |\n\nX = | (3/7)*10 + (1/7)*(-4) |\n    | (1/7)*10 + (-2/7)*(-4) |\n\nX = | 30/7 - 4/7 |\n    | 10/7 + 8/7 |\n\nX = | 26/7 |\n    | 18/7 |\n\nSo, the values of x and y that satisfy the given system of linear equations are:\n\nx = 26/7\ny = 18/7"
+}

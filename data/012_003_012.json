@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Graph theory",
+    "sub_topic": "Identifying the maximum independent set in a graph.",
+    "message_1": "Consider a simple graph G with 7 vertices and the following adjacency matrix:\n\n    0 1 1 0 0 0 0\n    1 0 0 1 1 0 0\n    1 0 0 1 0 1 0\n    0 1 1 0 1 1 0\n    0 1 0 1 0 1 1\n    0 0 1 1 1 0 1\n    0 0 0 0 1 1 0\n\nDetermine the cardinality of the maximum independent set in G.",
+    "message_2": "To find the maximum independent set in the graph G, we can use a greedy algorithm. We will start by selecting a vertex with the smallest degree and remove it along with its neighbors. We will repeat this process until there are no vertices left in the graph.\n\n1. Vertex 1 has the smallest degree (2). Select vertex 1 and remove it along with its neighbors (vertices 2 and 3).\n\nRemaining graph:\n\n    0 0 0 1 1 0\n    0 0 1 1 1\n    0 1 1 1\n    0 1 1\n    0 0\n\n2. Vertex 4 has the smallest degree (2). Select vertex 4 and remove it along with its neighbors (vertices 5 and 6).\n\nRemaining graph:\n\n    0\n\n3. Vertex 7 is the only remaining vertex. Select vertex 7.\n\nThe maximum independent set is {1, 4, 7}, and its cardinality is 3."
+}

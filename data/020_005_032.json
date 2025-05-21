@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Optimization",
+    "sub_topic": "Integer programming",
+    "message_1": "A company produces two types of products - Product A and Product B. The production process of Product A requires 2 hours of labor and 3 hours of machine time, while Product B requires 1 hour of labor and 4 hours of machine time. The company has 50 hours of labor and 80 hours of machine time available per week. If the profit of Product A and Product B is $5 and $4, respectively, formulate an integer programming problem to maximize the company's profit per week.",
+    "message_2": "Let x be the number of units of Product A produced per week, and y be the number of units of Product B produced per week. We want to maximize the total profit, which can be represented as:\n\nObjective function: Maximize P = 5x + 4y\n\nSubject to the constraints of labor and machine time:\n\nConstraint 1 (labor): 2x + y ≤ 50\nConstraint 2 (machine time): 3x + 4y ≤ 80\n\nSince the number of products produced must be non-negative integers, we also have:\n\nConstraint 3: x ≥ 0\nConstraint 4: y ≥ 0\n\nSo, the integer programming problem can be formulated as:\n\nMaximize P = 5x + 4y\nSubject to:\n2x + y ≤ 50\n3x + 4y ≤ 80\nx ≥ 0\ny ≥ 0\nx, y ∈ Z (x and y are integers)"
+}

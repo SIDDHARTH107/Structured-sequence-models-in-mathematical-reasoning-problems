@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Optimization",
+    "sub_topic": "Integer programming",
+    "message_1": "Suppose you are the manager of a grocery store and you need to decide how many units of a certain product to order from your supplier. You can order this product only in multiples of 20, and the cost per unit decreases as the order quantity increases (see table below). However, you also have limited shelf space to store this product. How many units of the product should you order to minimize your total cost, subject to the storage constraints?\n\n| Order Quantity | Cost per Unit |\n| --- | --- |\n| 20 | \\$12 |\n| 40 | \\$10 |\n| 60 | \\$8 |\n| 80 | \\$7 |\n| 100 | \\$6 |\n\nThe shelf space in the store can hold at most 80 units of the product.",
+    "message_2": "Since the shelf space can hold at most 80 units of the product, we cannot order 100 units. We will calculate the total cost for each possible order quantity and choose the one that minimizes the total cost.\n\n1. Order Quantity: 20 units\nCost per Unit: $12\nTotal Cost: 20 * $12 = $240\n\n2. Order Quantity: 40 units\nCost per Unit: $10\nTotal Cost: 40 * $10 = $400\n\n3. Order Quantity: 60 units\nCost per Unit: $8\nTotal Cost: 60 * $8 = $480\n\n4. Order Quantity: 80 units\nCost per Unit: $7\nTotal Cost: 80 * $7 = $560\n\nComparing the total costs, the minimum cost is $240 when ordering 20 units of the product. Therefore, you should order 20 units of the product to minimize your total cost, subject to the storage constraints."
+}

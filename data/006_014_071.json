@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Probability",
+    "sub_topic": "Probability of a certain type of technological failure occurring in a system",
+    "message_1": "A certain type of electronic device has a failure rate of 0.05. Find the probability that out of a batch of 50 devices, exactly 2 will fail.",
+    "message_2": "To solve this problem, we can use the binomial probability formula, which is:\n\nP(X = k) = (n choose k) * p^k * (1-p)^(n-k)\n\nwhere:\n- P(X = k) is the probability of exactly k successes (failures in this case)\n- n is the number of trials (devices in this case)\n- k is the number of successes (failures in this case)\n- p is the probability of success (failure rate in this case)\n\nIn this problem, we have n = 50, k = 2, and p = 0.05. We can plug these values into the formula:\n\nP(X = 2) = (50 choose 2) * 0.05^2 * (1-0.05)^(50-2)\n\nFirst, we need to calculate \"50 choose 2\", which is the number of ways to choose 2 failures out of 50 devices:\n\n(50 choose 2) = 50! / (2! * (50-2)!)\n= 50! / (2! * 48!)\n= (50 * 49) / (2 * 1)\n= 1225\n\nNow we can plug this value back into the formula:\n\nP(X = 2) = 1225 * 0.05^2 * 0.95^48\n\nP(X = 2) ≈ 0.175\n\nSo the probability that exactly 2 devices will fail out of a batch of 50 is approximately 0.175 or 17.5%."
+}

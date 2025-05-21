@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Solving systems of linear equations using Gaussian elimination",
+    "message_1": "Solve the system of linear equations using Gaussian elimination:\n \nx + 2y - 3z = 6\n \n2x + y + z = 7\n \n3x - y + z = 2",
+    "message_2": "To solve the system of linear equations using Gaussian elimination, we will perform a series of row operations to transform the augmented matrix into its row-echelon form. The augmented matrix for the given system is:\n\n| 1  2 -3 |  6 |\n| 2  1  1 |  7 |\n| 3 -1  1 |  2 |\n\nStep 1: Eliminate x from the second and third rows.\n\nR2 = R2 - 2*R1\nR3 = R3 - 3*R1\n\n| 1  2 -3 |  6 |\n| 0 -3  7 | -5 |\n| 0 -7 10 | -16 |\n\nStep 2: Swap R2 and R3 to have the largest pivot in the second row.\n\n| 1  2 -3 |  6 |\n| 0 -7 10 | -16 |\n| 0 -3  7 | -5 |\n\nStep 3: Eliminate y from the third row.\n\nR3 = R3 - (R2/7)*3\n\n| 1  2 -3 |  6 |\n| 0 -7 10 | -16 |\n| 0  0  1 |  1 |\n\nNow, we have the row-echelon form of the augmented matrix. We can use back-substitution to find the values of x, y, and z.\n\nFrom the third row, we have z = 1.\n\nSubstitute z into the second row: -7y + 10(1) = -16\n-7y = -26\ny = 26/7\n\nSubstitute y and z into the first row: x + 2(26/7) - 3(1) = 6\nx = 6 - 52/7 + 3\nx = (42 - 52 + 21)/7\nx = 11/7\n\nSo, the solution to the system of linear equations is x = 11/7, y = 26/7, and z = 1."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Graph coloring",
+    "message_1": "A company has 12 employees and they need to be divided into 3 teams where each team has 4 employees. In how many ways can this be done if all teams need to have employees with different job titles (e.g. managers, analysts, engineers)?\n\nNote: assume that each employee has a unique job title.",
+    "message_2": "Since there are 12 employees with unique job titles and we need to divide them into 3 teams of 4 employees each, we can use the combination formula to find the number of ways to do this.\n\nThe combination formula is: C(n, k) = n! / (k!(n-k)!)\n\nFirst, we need to find the number of ways to choose 4 employees out of 12 for the first team:\n\nC(12, 4) = 12! / (4!(12-4)!) = 12! / (4!8!) = 495 ways\n\nNow, we have 8 employees left for the second team. We need to find the number of ways to choose 4 employees out of the remaining 8:\n\nC(8, 4) = 8! / (4!(8-4)!) = 8! / (4!4!) = 70 ways\n\nFinally, we have 4 employees left for the third team, and there's only 1 way to choose all 4 of them:\n\nC(4, 4) = 4! / (4!(4-4)!) = 4! / (4!0!) = 1 way\n\nTo find the total number of ways to divide the employees into 3 teams, we multiply the number of ways for each team:\n\nTotal ways = 495 (first team) * 70 (second team) * 1 (third team) = 34,650 ways\n\nSo, there are 34,650 ways to divide the 12 employees into 3 teams with different job titles."
+}

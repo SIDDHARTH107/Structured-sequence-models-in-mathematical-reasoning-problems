@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Graph theory",
+    "sub_topic": "Determining the genus of a graph.",
+    "message_1": "What is the genus of a graph with 12 vertices and 21 edges?",
+    "message_2": "To find the genus of a graph, we can use the Euler's formula for planar graphs, which states that for any connected planar graph:\n\nV - E + F = 2\n\nwhere V is the number of vertices, E is the number of edges, and F is the number of faces.\n\nHowever, this formula is for planar graphs, and we need to find the genus (the minimum number of handles needed to embed the graph on a surface without crossing edges) for a graph that may not be planar.\n\nWe can use the inequality:\n\nE ≤ 3V + 6g - 6\n\nwhere g is the genus of the graph.\n\nGiven the graph has 12 vertices (V = 12) and 21 edges (E = 21), we can plug these values into the inequality:\n\n21 ≤ 3(12) + 6g - 6\n\nSolving for g, we get:\n\n21 ≤ 36 + 6g - 6\n6 ≤ 6g\n1 ≤ g\n\nSince the genus must be a non-negative integer, the minimum genus for this graph is g = 1."
+}

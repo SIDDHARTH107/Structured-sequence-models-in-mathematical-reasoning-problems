@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Number theory",
+    "sub_topic": "Fermat's little theorem",
+    "message_1": "What is the remainder when 11 to the power of 14 is divided by 13? Use Fermat's little theorem to solve the problem.",
+    "message_2": "Fermat's Little Theorem states that if p is a prime number, then for any integer a, a^p ≡ a (mod p). In other words, a^p - a is divisible by p. We can also write this as a^(p-1) ≡ 1 (mod p) when a and p are coprime.\n\nIn this problem, we want to find the remainder when 11^14 is divided by 13. Since 11 and 13 are coprime, we can apply Fermat's Little Theorem:\n\n11^12 ≡ 1 (mod 13)\n\nNow, we want to find 11^14 (mod 13). We can rewrite 11^14 as (11^12) * (11^2):\n\n11^14 ≡ (11^12) * (11^2) (mod 13)\n\nUsing the result from Fermat's Little Theorem, we can substitute 1 for 11^12:\n\n11^14 ≡ 1 * (11^2) (mod 13)\n\nNow, we just need to find 11^2 (mod 13):\n\n11^2 = 121\n\n121 ≡ 4 (mod 13)\n\nSo, 11^14 ≡ 1 * 4 (mod 13)\n\n11^14 ≡ 4 (mod 13)\n\nTherefore, the remainder when 11^14 is divided by 13 is 4."
+}

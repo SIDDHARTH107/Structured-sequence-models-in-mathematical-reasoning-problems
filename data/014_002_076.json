@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Diffie-Hellman key exchange",
+    "message_1": "Alice and Bob wish to use the Diffie-Hellman key exchange to communicate securely. They agree to use a prime number p = 7 and base g = 2. Alice chooses a secret number a = 3, while Bob chooses a secret number b = 4. Calculate the public keys shared by Alice and Bob, and determine the shared secret key that they can use for encryption and decryption.",
+    "message_2": "To calculate the public keys shared by Alice and Bob, we use the formula:\n\nPublic key = (g^secret_number) mod p\n\nFor Alice:\nPublic key_A = (2^3) mod 7 = 8 mod 7 = 1\n\nFor Bob:\nPublic key_B = (2^4) mod 7 = 16 mod 7 = 2\n\nNow, Alice and Bob exchange their public keys. To calculate the shared secret key, they use the formula:\n\nShared secret key = (public_key_received^own_secret_number) mod p\n\nFor Alice (using Bob's public key):\nShared secret key = (2^3) mod 7 = 8 mod 7 = 1\n\nFor Bob (using Alice's public key):\nShared secret key = (1^4) mod 7 = 1 mod 7 = 1\n\nBoth Alice and Bob have calculated the same shared secret key, which is 1. They can now use this key for encryption and decryption of their messages."
+}

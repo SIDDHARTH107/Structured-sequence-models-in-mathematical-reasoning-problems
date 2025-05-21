@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Optimization",
+    "sub_topic": "Integer programming",
+    "message_1": "A company manufactures two types of products, A and B. The profit per unit for product A is $10 and for product B is $15. The company has 60 units of raw material to produce these products. Product A requires 3 units of raw material per unit, while product B requires 5 units of raw material per unit. The company has a production capacity of 10 units per day. What is the maximum profit the company can earn?",
+    "message_2": "Let x be the number of units of product A and y be the number of units of product B.\n\nThe profit function is given by:\nP(x, y) = 10x + 15y\n\nThe raw material constraint is given by:\n3x + 5y ≤ 60\n\nThe production capacity constraint is given by:\nx + y ≤ 10\n\nWe need to find the maximum value of P(x, y) subject to these constraints.\n\nFirst, we'll find the feasible region by graphing the constraints:\n\n1. 3x + 5y ≤ 60\ny ≤ (60 - 3x) / 5\n\n2. x + y ≤ 10\ny ≤ 10 - x\n\nThe feasible region is a polygon with vertices at (0, 0), (0, 10), (10, 0), and (4, 6).\n\nNow we'll evaluate the profit function at each vertex:\n\n1. P(0, 0) = 10(0) + 15(0) = $0\n2. P(0, 10) = 10(0) + 15(10) = $150\n3. P(10, 0) = 10(10) + 15(0) = $100\n4. P(4, 6) = 10(4) + 15(6) = $130\n\nThe maximum profit is $150, which occurs when the company produces 0 units of product A and 10 units of product B."
+}

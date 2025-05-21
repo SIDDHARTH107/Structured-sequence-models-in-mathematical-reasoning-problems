@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Singularities of complex functions",
+    "message_1": "What is the residue at the isolated singularity $z=1$ of the function $\\frac{\\sin(z)}{(z-1)^3}$?",
+    "message_2": "To find the residue at the isolated singularity $z=1$ of the function $\\frac{\\sin(z)}{(z-1)^3}$, we can use the formula for the residue of a function with a pole of order $n$:\n\n$$\\text{Res}(f(z), z_0) = \\frac{1}{(n-1)!} \\lim_{z \\to z_0} \\frac{d^{n-1}}{dz^{n-1}}[(z-z_0)^n f(z)]$$\n\nIn this case, $f(z) = \\frac{\\sin(z)}{(z-1)^3}$, $z_0 = 1$, and $n = 3$. So we need to find the second derivative of $(z-1)^3 f(z)$ and then evaluate the limit as $z \\to 1$.\n\nFirst, let's find $(z-1)^3 f(z)$:\n\n$$(z-1)^3 f(z) = (z-1)^3 \\frac{\\sin(z)}{(z-1)^3} = \\sin(z)$$\n\nNow, we need to find the second derivative of $\\sin(z)$:\n\n$$\\frac{d^2}{dz^2} \\sin(z) = \\frac{d}{dz} (\\cos(z)) = -\\sin(z)$$\n\nNow, we can evaluate the limit as $z \\to 1$:\n\n$$\\lim_{z \\to 1} -\\sin(z) = -\\sin(1)$$\n\nFinally, we can plug this into the formula for the residue:\n\n$$\\text{Res}(f(z), 1) = \\frac{1}{(3-1)!} (-\\sin(1)) = \\frac{-\\sin(1)}{2}$$\n\nSo, the residue at the isolated singularity $z=1$ of the function $\\frac{\\sin(z)}{(z-1)^3}$ is $\\frac{-\\sin(1)}{2}$."
+}

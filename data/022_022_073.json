@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Complex analysis of Fourier transforms",
+    "message_1": "Given the Fourier transform of a function $f(x)$ as $\\hat{f}(k) = \\frac{1}{2\\pi}\\int_{-\\infty}^{\\infty} f(x)e^{-ikx}dx$, find the complex Fourier transform of the function $g(x) = e^{-\\pi x^2}$ using complex analysis techniques.",
+    "message_2": "To find the complex Fourier transform of the function $g(x) = e^{-\\pi x^2}$, we will use the definition of the Fourier transform:\n\n$\\hat{g}(k) = \\frac{1}{2\\pi}\\int_{-\\infty}^{\\infty} g(x)e^{-ikx}dx$\n\nFirst, substitute the given function $g(x) = e^{-\\pi x^2}$ into the formula:\n\n$\\hat{g}(k) = \\frac{1}{2\\pi}\\int_{-\\infty}^{\\infty} e^{-\\pi x^2}e^{-ikx}dx$\n\nNow, combine the exponentials:\n\n$\\hat{g}(k) = \\frac{1}{2\\pi}\\int_{-\\infty}^{\\infty} e^{-\\pi x^2 - ikx}dx$\n\nTo solve this integral, we will use the Gaussian integral formula:\n\n$\\int_{-\\infty}^{\\infty} e^{-ax^2 + bx}dx = \\sqrt{\\frac{\\pi}{a}}e^{\\frac{b^2}{4a}}$, where $a > 0$\n\nIn our case, we have $a = \\pi$ and $b = -ik$. So, we can rewrite the integral as:\n\n$\\hat{g}(k) = \\frac{1}{2\\pi}\\sqrt{\\frac{\\pi}{\\pi}}e^{\\frac{(-ik)^2}{4\\pi}}$\n\nSimplify the expression:\n\n$\\hat{g}(k) = \\frac{1}{2}e^{\\frac{-k^2}{4}}$\n\nSo, the complex Fourier transform of the function $g(x) = e^{-\\pi x^2}$ is:\n\n$\\hat{g}(k) = \\frac{1}{2}e^{\\frac{-k^2}{4}}$"
+}

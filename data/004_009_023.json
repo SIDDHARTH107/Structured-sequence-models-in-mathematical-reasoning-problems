@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Calculus",
+    "sub_topic": "Using the product rule to differentiate functions",
+    "message_1": "Suppose that f(x) = x^3cos(x) and g(x) = 4x^2. Find the derivative of the product f(x)g(x) using the product rule.",
+    "message_2": "To find the derivative of the product f(x)g(x) using the product rule, we first need to find the derivatives of f(x) and g(x) individually.\n\nFor f(x) = x^3cos(x), we can use the product rule as well:\nf'(x) = (x^3)' * cos(x) + x^3 * (cos(x))'\nf'(x) = (3x^2) * cos(x) - x^3 * sin(x) (since the derivative of cos(x) is -sin(x))\n\nFor g(x) = 4x^2, the derivative is straightforward:\ng'(x) = 8x\n\nNow, we can apply the product rule to find the derivative of f(x)g(x):\n(fg)'(x) = f'(x) * g(x) + f(x) * g'(x)\n\nSubstitute the expressions for f'(x), g(x), f(x), and g'(x):\n(fg)'(x) = (3x^2 * cos(x) - x^3 * sin(x)) * (4x^2) + (x^3 * cos(x)) * (8x)\n\nNow, simplify the expression:\n(fg)'(x) = 12x^4 * cos(x) - 4x^5 * sin(x) + 8x^4 * cos(x)\n\nCombine like terms:\n(fg)'(x) = (12x^4 + 8x^4) * cos(x) - 4x^5 * sin(x)\n(fg)'(x) = 20x^4 * cos(x) - 4x^5 * sin(x)\n\nSo, the derivative of the product f(x)g(x) is:\n(fg)'(x) = 20x^4 * cos(x) - 4x^5 * sin(x)"
+}

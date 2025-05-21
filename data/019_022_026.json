@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Logic",
+    "sub_topic": "Decision theory",
+    "message_1": "A vending machine offers two types of drinks: soda and water. If you insert a coin, there's a 70% chance that you'll get a soda and a 30% chance that you'll get water. If you want to have a soda, how many coins do you need to insert in order to have a 90% chance of getting at least one soda?",
+    "message_2": "Let's use the complementary probability to solve this problem. Instead of finding the probability of getting at least one soda, we'll find the probability of not getting any soda (i.e., getting only water) and then subtract it from 1.\n\nLet n be the number of coins inserted. The probability of getting water with each coin is 0.3. So, the probability of getting only water after n tries is (0.3)^n.\n\nWe want the probability of getting at least one soda to be 0.9, so the probability of getting only water should be 1 - 0.9 = 0.1.\n\n(0.3)^n = 0.1\n\nNow, we need to solve for n. We can do this by taking the logarithm of both sides:\n\nn * log(0.3) = log(0.1)\n\nn = log(0.1) / log(0.3)\n\nn ≈ 6.102\n\nSince we can't insert a fraction of a coin, we need to round up to the nearest whole number. Therefore, you need to insert 7 coins to have a 90% chance of getting at least one soda."
+}

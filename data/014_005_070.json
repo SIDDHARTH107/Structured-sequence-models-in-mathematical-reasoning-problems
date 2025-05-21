@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Digital signatures",
+    "message_1": "Suppose that Alice wants to send a message to Bob and wants to attach a digital signature to ensure its authenticity. She uses RSA algorithm with a private key of length 1024 bits and a public key of length 256 bits. If the message to be signed is 1000 bytes long, what is the length of the resulting RSA signature in bytes?",
+    "message_2": "In the RSA algorithm, the length of the digital signature is determined by the length of the private key used for signing the message. In this case, Alice's private key is 1024 bits long. To convert the length of the signature from bits to bytes, we divide by 8 (since there are 8 bits in a byte).\n\n1024 bits / 8 = 128 bytes\n\nSo, the length of the resulting RSA signature is 128 bytes."
+}

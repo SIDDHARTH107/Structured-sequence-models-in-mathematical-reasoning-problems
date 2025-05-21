@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Solving systems of linear equations using matrix methods",
+    "message_1": "Consider the system of linear equations: \n\n3x + 2y = 11 \n\n4x - 3y = 3 \n\nUse matrix methods to find the values of x and y.",
+    "message_2": "To solve the system of linear equations using matrix methods, we will first write the given system in the matrix form AX = B, where A is the matrix of coefficients, X is the column matrix of variables, and B is the column matrix of constants.\n\nGiven system:\n3x + 2y = 11\n4x - 3y = 3\n\nMatrix form:\nA = | 3  2 |, X = | x |, B = | 11 |\n    | 4 -3 |      | y |      |  3 |\n\nNow, we will find the inverse of matrix A (A_inv) and then multiply it with matrix B to get the values of x and y.\n\nStep 1: Find the determinant of matrix A.\ndet(A) = (3 * -3) - (2 * 4) = -9 - 8 = -17\n\nStep 2: Find the adjoint of matrix A.\nAdjoint(A) = | -3 -2 |\n                     | -4  3 |\n\nStep 3: Find the inverse of matrix A (A_inv).\nA_inv = (1/det(A)) * Adjoint(A)\nA_inv = (1/-17) * | -3 -2 |\n                          | -4  3 |\n\nA_inv = | 3/17  2/17 |\n            | 4/17 -3/17 |\n\nStep 4: Multiply A_inv with B to get the values of x and y.\nX = A_inv * B\n\nX = | 3/17  2/17 | * | 11 |\n       | 4/17 -3/17 |   |  3 |\n\nx = (3/17 * 11) + (2/17 * 3) = 33/17 + 6/17 = 39/17\ny = (4/17 * 11) - (3/17 * 3) = 44/17 - 9/17 = 35/17\n\nSo, the values of x and y are:\nx = 39/17\ny = 35/17"
+}

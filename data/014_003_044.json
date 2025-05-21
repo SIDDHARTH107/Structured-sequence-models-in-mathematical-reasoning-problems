@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "ElGamal encryption and decryption",
+    "message_1": "Suppose that Alice wants to send a private message to Bob using ElGamal encryption with a prime modulus p = 67 and a primitive root g = 10. Alice chooses her secret key to be a = 6 and her public key to be A = g^a mod p. Bob's public key is B = 29. Alice encrypts the message m = 33 using Bob's public key and sends the resulting ciphertext (c1, c2) = (24, 42) to Bob. \n\nWhat is the plaintext message that Bob would decrypt from the ciphertext sent by Alice?",
+    "message_2": "To decrypt the ciphertext (c1, c2) = (24, 42) sent by Alice, Bob needs to compute the shared secret key and then use it to find the plaintext message.\n\n1. Compute the shared secret key: s = c1^(p-1-a) mod p\n   s = 24^(67-1-6) mod 67\n\n2. Compute the inverse of the shared secret key: s_inv = s^(-1) mod p\n   s_inv = s^(p-2) mod p\n\n3. Decrypt the message: m = c2 * s_inv mod p\n\nLet's calculate the values:\n\n1. s = 24^60 mod 67 = 53\n2. s_inv = 53^(67-2) mod 67 = 64\n3. m = 42 * 64 mod 67 = 33\n\nSo, the plaintext message that Bob would decrypt from the ciphertext sent by Alice is m = 33."
+}

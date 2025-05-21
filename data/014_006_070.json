@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "One-time pad encryption",
+    "message_1": "Suppose you want to transmit a secret message \"MATH\" using a one-time pad encryption method. Here, each letter in the message is represented by a number (A=0, B=1, C=2, D=3, E=4, F=5, G=6, H=7, I=8, J=9, K=10, L=11, M=12, N=13, O=14, P=15, Q=16, R=17, S=18, T=19, U=20, V=21, W=22, X=23, Y=24, Z=25). Assume that the key for the encryption is a random sequence of numbers generated using a fair coin toss. \n\nIf the key sequence for the encryption is 1101, what is the encrypted message?",
+    "message_2": "The one-time pad encryption method involves adding the key to the message modulo 26. In this case, the message is \"MATH\" and the key is 1101. First, we need to convert the letters in the message to their corresponding numbers:\n\nM = 12\nA = 0\nT = 19\nH = 7\n\nNow, we add the key to the message numbers modulo 26:\n\n12 + 1 = 13 (mod 26) -> N\n0 + 1 = 1 (mod 26) -> B\n19 + 0 = 19 (mod 26) -> T\n7 + 1 = 8 (mod 26) -> I\n\nSo, the encrypted message is \"NBTI\"."
+}

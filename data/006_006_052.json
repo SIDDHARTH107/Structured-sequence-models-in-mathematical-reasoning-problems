@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Probability",
+    "sub_topic": "Probability of a certain outcome in a sports game",
+    "message_1": "A soccer team has a 72% chance of scoring a goal when they take a shot. What is the probability that they will score exactly 2 goals if they take 5 shots during a match?",
+    "message_2": "We can solve this problem using the binomial probability formula, which is:\n\nP(X = k) = C(n, k) * p^k * (1-p)^(n-k)\n\nwhere:\n- P(X = k) is the probability of scoring exactly k goals\n- C(n, k) is the number of combinations of n items taken k at a time (also written as nCk or \"n choose k\")\n- n is the number of shots taken (in this case, 5)\n- k is the number of goals scored (in this case, 2)\n- p is the probability of scoring a goal in a single shot (in this case, 0.72)\n- (1-p) is the probability of not scoring a goal in a single shot (in this case, 0.28)\n\nFirst, we need to find C(5, 2), which is the number of ways to choose 2 goals from 5 shots:\n\nC(5, 2) = 5! / (2! * (5-2)!)\n         = 5! / (2! * 3!)\n         = (5 * 4 * 3 * 2 * 1) / ((2 * 1) * (3 * 2 * 1))\n         = (5 * 4) / (2 * 1)\n         = 10\n\nNow, we can plug the values into the binomial probability formula:\n\nP(X = 2) = C(5, 2) * 0.72^2 * 0.28^3\n         = 10 * 0.72^2 * 0.28^3\n         ≈ 10 * 0.5184 * 0.021952\n         ≈ 10 * 0.011381504\n         ≈ 0.11381504\n\nSo, the probability that the soccer team will score exactly 2 goals if they take 5 shots during a match is approximately 11.38%."
+}

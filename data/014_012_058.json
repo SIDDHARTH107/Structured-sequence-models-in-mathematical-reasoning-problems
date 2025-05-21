@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Vigenere cipher",
+    "message_1": "A message \"HELLO\" is encrypted using a Vigenere cipher with the keyword \"MATHS\", then the result is encrypted again using the same keyword to give the final encrypted message. If the final result is \"KUJTV\", what is the original message?",
+    "message_2": "To decrypt the message, we need to reverse the Vigenere cipher process twice using the keyword \"MATHS\". \n\nFirst, let's decrypt the message \"KUJTV\" using the keyword \"MATHS\":\n\nK -> H (using M)\nU -> E (using A)\nJ -> L (using T)\nT -> L (using H)\nV -> O (using S)\n\nThe intermediate decrypted message is \"HELLO\".\n\nNow, let's decrypt the message \"HELLO\" again using the keyword \"MATHS\":\n\nH -> A (using M)\nE -> E (using A)\nL -> L (using T)\nL -> L (using H)\nO -> O (using S)\n\nThe original message is \"AELLO\"."
+}

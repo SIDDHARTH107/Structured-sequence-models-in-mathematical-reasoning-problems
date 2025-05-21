@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Differential geometry",
+    "sub_topic": "Calculate the exterior derivative of a differential form on a manifold.",
+    "message_1": "Let $\\omega = ydx + zdy + xdz$ be a $1$-form on the three-dimensional manifold $M = \\{(x, y, z) \\in \\mathbb{R}^3: x^2 + y^2 + z^2 = 1\\}$. Calculate the exterior derivative of $\\omega$ on $M$.",
+    "message_2": "To compute the exterior derivative of the given 1-form $\\omega$, we need to apply the following rules:\n\n1. $d(fg) = f \\, dg + g \\, df$ for any functions $f$ and $g$.\n2. $d(f + g) = df + dg$ for any functions $f$ and $g$.\n3. $d(df) = 0$ for any function $f$.\n\nSo, let's compute the exterior derivative $d\\omega$:\n\n$$\nd\\omega = d(ydx + zdy + xdz) = d(ydx) + d(zdy) + d(xdz).\n$$\n\nNow, we apply the first rule to each term:\n\n$$\nd(ydx) = y \\, d(dx) + dx \\, dy = 0 + dx \\wedge dy,\n$$\n\n$$\nd(zdy) = z \\, d(dy) + dy \\, dz = 0 + dy \\wedge dz,\n$$\n\n$$\nd(xdz) = x \\, d(dz) + dz \\, dx = 0 + dz \\wedge dx.\n$$\n\nSo, we have:\n\n$$\nd\\omega = dx \\wedge dy + dy \\wedge dz + dz \\wedge dx.\n$$\n\nThis is the exterior derivative of the given 1-form $\\omega$ on the manifold $M$."
+}

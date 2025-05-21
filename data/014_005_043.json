@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Digital signatures",
+    "message_1": "Suppose Alice wants to send a message to Bob with a digital signature. She uses the RSA algorithm with a public key (e,n)=(11,77) and a private key (d,n)=(59,77). If Alice's message is the number 5, what is the digital signature that she will send along with the message?",
+    "message_2": "To create a digital signature, Alice will use her private key (d, n) to sign the message. The signing process involves raising the message to the power of d modulo n. In this case, the message is 5, d is 59, and n is 77.\n\nThe digital signature (S) can be calculated as follows:\n\nS = M^d mod n\nS = 5^59 mod 77\n\nUsing modular exponentiation, we can compute this as:\n\nS = 5^59 mod 77\nS = 52,488,157,829,349,665 mod 77\nS = 63\n\nSo, the digital signature Alice will send along with the message is 63."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Game theory",
+    "sub_topic": "Chicken Game",
+    "message_1": "Two drivers, John and Jane, are speeding towards each other on a narrow road. They will collide if they do not swerve. The payoff matrix below shows the possible outcomes of the game. \n\n|             | John swerves | John doesn't swerve |\n|-------------|--------------|---------------------|\n| Jane swerves | -1,-1         | 3,-3                 |\n| Jane doesn't swerve | -3,3        | 2,2                  |\n\nIf both drivers follow their dominant strategy, what will be the outcome of the game?",
+    "message_2": "To find the dominant strategy for each player, we need to compare the payoffs for each player in each row and column.\n\nFor Jane:\n- If John swerves, Jane's payoff is higher if she doesn't swerve (-1 < 3).\n- If John doesn't swerve, Jane's payoff is also higher if she doesn't swerve (-3 < 2).\n\nSo, Jane's dominant strategy is to not swerve.\n\nFor John:\n- If Jane swerves, John's payoff is higher if he doesn't swerve (-1 < -3).\n- If Jane doesn't swerve, John's payoff is also higher if he doesn't swerve (3 < 2).\n\nSo, John's dominant strategy is to not swerve.\n\nIf both drivers follow their dominant strategy (not swerving), the outcome of the game will be the bottom-right cell of the matrix: (2, 2)."
+}

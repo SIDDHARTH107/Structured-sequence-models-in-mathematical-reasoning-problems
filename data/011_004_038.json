@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Multinomial coefficients",
+    "message_1": "How many unique ways are there to arrange the letters in the word \"MATHEMATICS\" if all the letters are used exactly once and the vowels (A, E, I) and consonants (M, T, H, C, S) are grouped together?",
+    "message_2": "First, let's count the number of vowels and consonants in the word \"MATHEMATICS\". There are 4 vowels (A, A, E, I) and 7 consonants (M, M, T, T, H, C, S).\n\nWe can arrange the vowels and consonants in two groups: VVVV and CCCCCCC. The vowels can be arranged in 4!/(2!) ways, as there are two A's. The consonants can be arranged in 7!/(2! * 2!) ways, as there are two M's and two T's.\n\nNow, we can arrange these two groups in two ways: either the vowels come first (VVVVCCCCCC) or the consonants come first (CCCCCCCVVVV).\n\nSo, the total number of unique arrangements is:\n\n(4!/(2!)) * (7!/(2! * 2!)) * 2 = (12) * (2520) * 2 = 30240 unique arrangements."
+}

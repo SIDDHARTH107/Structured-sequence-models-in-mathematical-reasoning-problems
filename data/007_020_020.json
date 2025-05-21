@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Number theory",
+    "sub_topic": "RSA encryption",
+    "message_1": "Consider the following scenario. Bob wants to send a message to Alice and he uses RSA encryption with the public key (979, 17). He encrypts the message using the RSA encryption algorithm and gets the ciphertext as 164. If Alice knows the private key, what is the original message that Bob sent to Alice?",
+    "message_2": "To decrypt the message, we need to find the private key (d) and use the RSA decryption algorithm. The public key (n, e) is given as (979, 17). Let's denote the ciphertext as C and the original message as M.\n\nThe decryption algorithm is: M ≡ C^d (mod n)\n\nWe know that n = p * q, where p and q are two prime numbers. We need to find these prime numbers to compute the private key (d).\n\nThe factors of 979 are 11 and 89 (both prime numbers). So, p = 11 and q = 89.\n\nNow, we need to compute the Euler's totient function, φ(n):\n\nφ(n) = (p - 1) * (q - 1) = (11 - 1) * (89 - 1) = 10 * 88 = 880\n\nNext, we need to find the private key (d) such that:\n\nd * e ≡ 1 (mod φ(n))\n\nIn our case, e = 17 and φ(n) = 880. We need to find the modular inverse of e (mod φ(n)):\n\n17 * d ≡ 1 (mod 880)\n\nBy using the Extended Euclidean Algorithm, we find that d = 513.\n\nNow we have the private key (d) and can decrypt the message:\n\nM ≡ C^d (mod n) = 164^513 (mod 979)\n\nBy calculating this, we get:\n\nM ≡ 65 (mod 979)\n\nSo, the original message that Bob sent to Alice is 65."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "ElGamal encryption and decryption",
+    "message_1": "Suppose Alice wants to send a secret message to Bob using ElGamal encryption. Alice's public key is (p=23, g=5, y=15), where p is a prime number, g is a primitive root modulo p, and y=g^x mod p, for some secret x. Alice selects the random number k=3 and calculates the ciphertext (a,b) for the message m=19 as follows:\n\na = g^k mod p\nb = m * y^k mod p\n\nUsing this information, what is the ciphertext (a,b) that Alice sends to Bob?",
+    "message_2": "To find the ciphertext (a,b) that Alice sends to Bob, we need to calculate a and b using the given information:\n\na = g^k mod p\na = 5^3 mod 23\na = 125 mod 23\na = 10\n\nb = m * y^k mod p\nb = 19 * 15^3 mod 23\nb = 19 * 3375 mod 23\nb = 19 * 10 mod 23\nb = 190 mod 23\nb = 3\n\nSo, the ciphertext (a,b) that Alice sends to Bob is (10, 3)."
+}

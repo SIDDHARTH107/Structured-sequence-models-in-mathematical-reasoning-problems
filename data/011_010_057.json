@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Catalan numbers",
+    "message_1": "Suppose a park has 8 benches in a row. In how many ways can the park ranger install backrests on some of the benches such that no two backrests are adjacent?",
+    "message_2": "Let's use dynamic programming to solve this problem. Let f(n) be the number of ways to install backrests on n benches such that no two backrests are adjacent.\n\nBase cases:\nf(1) = 2 (either install a backrest on the first bench or don't)\nf(2) = 3 (install a backrest on the first bench, the second bench, or don't install any)\n\nFor n > 2, we have two options for the first bench:\n1. Install a backrest on the first bench. In this case, we can't install a backrest on the second bench, so we have f(n-2) ways to install backrests on the remaining n-2 benches.\n2. Don't install a backrest on the first bench. In this case, we have f(n-1) ways to install backrests on the remaining n-1 benches.\n\nSo, the recurrence relation is f(n) = f(n-1) + f(n-2).\n\nNow, we can compute f(8) using the recurrence relation:\n\nf(3) = f(2) + f(1) = 3 + 2 = 5\nf(4) = f(3) + f(2) = 5 + 3 = 8\nf(5) = f(4) + f(3) = 8 + 5 = 13\nf(6) = f(5) + f(4) = 13 + 8 = 21\nf(7) = f(6) + f(5) = 21 + 13 = 34\nf(8) = f(7) + f(6) = 34 + 21 = 55\n\nSo, there are 55 ways to install backrests on 8 benches such that no two backrests are adjacent."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Fourier analysis",
+    "sub_topic": "Applying the Fourier transform to signal processing",
+    "message_1": "Here is a numerical question for a math student:\nIf a signal x(t) has a Fourier transform X(f) = 2e^(-2πif), what is the time-domain expression of x(t)?",
+    "message_2": "To find the time-domain expression of x(t), we need to apply the inverse Fourier transform. The inverse Fourier transform is given by:\n\nx(t) = ∫ X(f) * e^(2πift) df, where the integral is taken over the entire frequency range.\n\nIn this case, X(f) = 2e^(-2πif). So, we need to compute the following integral:\n\nx(t) = ∫ 2e^(-2πif) * e^(2πift) df\n\nThe exponential terms can be combined:\n\nx(t) = ∫ 2e^(2πif(t-1)) df\n\nNow, we can recognize that this integral represents the Fourier transform of the Dirac delta function, which is shifted by 1 unit:\n\nx(t) = 2δ(t - 1)\n\nSo, the time-domain expression of x(t) is x(t) = 2δ(t - 1), where δ(t) is the Dirac delta function."
+}

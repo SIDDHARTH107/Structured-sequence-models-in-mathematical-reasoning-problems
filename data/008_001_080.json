@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Solving systems of linear equations using matrix methods",
+    "message_1": "Solve the system of linear equations using matrix method:\n\n2x + 3y = 13\n\n4x - 5y = -7",
+    "message_2": "To solve the given system of linear equations using the matrix method, we first represent the system as an augmented matrix:\n\n```\n[ 2  3 | 13 ]\n[ 4 -5 | -7 ]\n```\n\nNext, we perform row operations to get the matrix in row-echelon form. We can start by dividing the first row by 2:\n\n```\n[ 1  1.5 | 6.5 ]\n[ 4 -5  | -7  ]\n```\n\nNow, we want to eliminate the 4 in the second row. We can do this by subtracting 4 times the first row from the second row:\n\n```\n[ 1  1.5 |  6.5 ]\n[ 0 -11  | -33 ]\n```\n\nNext, we can divide the second row by -11 to get a leading 1:\n\n```\n[ 1  1.5 |  6.5 ]\n[ 0  1   |  3   ]\n```\n\nNow, we can eliminate the 1.5 in the first row by subtracting 1.5 times the second row from the first row:\n\n```\n[ 1  0 |  2 ]\n[ 0  1 |  3 ]\n```\n\nThe matrix is now in row-echelon form, and we can read the solution directly from the matrix:\n\nx = 2\ny = 3"
+}

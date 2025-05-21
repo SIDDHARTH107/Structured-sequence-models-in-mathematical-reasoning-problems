@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "ElGamal encryption and decryption",
+    "message_1": "Using ElGamal encryption scheme, a math student wants to send a message to their friend. They both agree on a public key (p=17, g=3, and y=5) and a private key (x=7). The message that needs to be encrypted is m=11. Find out the ciphertext (c1, c2) that should be sent to the friend for decryption.",
+    "message_2": "To encrypt the message m=11 using the ElGamal encryption scheme with public key (p=17, g=3, and y=5), the student needs to choose a random number k (1 < k < p-1). Let's assume k=6 for this example.\n\nNow, we compute the ciphertext (c1, c2) as follows:\n\n1. Compute c1 = g^k mod p\n   c1 = 3^6 mod 17\n   c1 = 729 mod 17\n   c1 = 2\n\n2. Compute c2 = (y^k * m) mod p\n   c2 = (5^6 * 11) mod 17\n   c2 = (15625 * 11) mod 17\n   c2 = 171875 mod 17\n   c2 = 14\n\nSo, the ciphertext (c1, c2) that should be sent to the friend for decryption is (2, 14)."
+}

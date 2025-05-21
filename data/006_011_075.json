@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Probability",
+    "sub_topic": "Probability of a certain type of accident occurring in a workplace",
+    "message_1": "In a factory, there are 15 machines that produce a certain type of goods. Historically, 2 out of these 15 machines have malfunctioned and caused accidents on average every month. What is the probability that in the next month, at least one machine will malfunction and cause an accident?",
+    "message_2": "To solve this problem, we can use the complementary probability. Instead of finding the probability of at least one machine malfunctioning, we will find the probability of no machines malfunctioning and then subtract that from 1.\n\nLet p be the probability of a machine malfunctioning in a month, which is 2/15. Therefore, the probability of a machine not malfunctioning in a month is 1 - p = 1 - 2/15 = 13/15.\n\nNow, we need to find the probability of all 15 machines not malfunctioning in the next month. Since the machines are independent, we can multiply the probabilities together:\n\n(13/15) * (13/15) * ... * (13/15) = (13/15)^15\n\nNow, we find the complementary probability, which is the probability of at least one machine malfunctioning:\n\n1 - (13/15)^15 ≈ 0.6474\n\nSo, the probability that at least one machine will malfunction and cause an accident in the next month is approximately 64.74%."
+}

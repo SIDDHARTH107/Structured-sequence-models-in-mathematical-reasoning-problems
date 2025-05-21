@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Optimization",
+    "sub_topic": "Convex optimization",
+    "message_1": "A manufacturing plant produces two types of widgets, Type A and Type B. Each Type A widget has a profit of $5 and requires 2 minutes of assembly time, while each Type B widget has a profit of $8 and requires 3 minutes of assembly time. The plant has a total of 480 minutes of assembly time available each day. How many of each type of widget should the plant produce in order to maximize their daily profit?",
+    "message_2": "Let x be the number of Type A widgets and y be the number of Type B widgets.\n\nThe profit function is P(x, y) = 5x + 8y.\n\nThe constraint for the assembly time is 2x + 3y ≤ 480.\n\nTo maximize the profit, we will use the method of solving a linear programming problem. First, we will find the feasible region by solving the constraint inequality for y:\n\ny ≥ (480 - 2x) / 3\n\nNow we will find the vertices of the feasible region by setting x and y to their minimum and maximum values within the constraint:\n\n1. x = 0, y = (480 - 2(0)) / 3 = 480 / 3 = 160\n2. y = 0, x = (480 - 3(0)) / 2 = 480 / 2 = 240\n\nNow we will evaluate the profit function at each vertex:\n\n1. P(0, 160) = 5(0) + 8(160) = 0 + 1280 = $1280\n2. P(240, 0) = 5(240) + 8(0) = 1200 + 0 = $1200\n\nThe maximum profit occurs when the plant produces 0 Type A widgets and 160 Type B widgets, resulting in a daily profit of $1280."
+}

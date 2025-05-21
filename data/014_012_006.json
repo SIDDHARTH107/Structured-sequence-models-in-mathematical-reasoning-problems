@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Vigenere cipher",
+    "message_1": "Suppose you received a secret message encrypted using Vigenere Cipher with the key \"MATH\". The encrypted message is \"GTCNTNBLUW\". What is the original message?",
+    "message_2": "To decrypt the Vigenere cipher, we will use the reverse process of encryption. We will subtract the key letters from the encrypted message letters (mod 26) to get the original message.\n\nEncrypted message: G T C N T N B L U W\nKey (repeated):   M A T H M A T H M A\n\nFirst, we convert the letters to their corresponding numerical values (A=0, B=1, ..., Z=25):\n\nEncrypted message: 6  19  2 13 19 13  1 11 20 22\nKey (repeated):   12  0 19  7 12  0 19  7 12  0\n\nNow, we subtract the key values from the encrypted message values (mod 26):\n\nDecrypted message: (6-12) (19-0) (2-19) (13-7) (19-12) (13-0) (1-19) (11-7) (20-12) (22-0)\n(mod 26):            -6  19 -17  6  7  13 -18  4  8  22\n(mod 26):            20  19  9  6  7  13  8  4  8  22\n\nFinally, we convert the numerical values back to letters:\n\nDecrypted message: U T J G H N I E I W\n\nSo, the original message is \"UTJGHNIEIW\"."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Digital signatures",
+    "message_1": "A digital signature consists of a pair of numbers (r, s) that serve as proof of authenticity for an electronic document. If Alice wants to sign a digital document and has a private key of dA = 23 and a public key of (n, e) = (187, 7), and the message she wants to sign is M = 11. What is the digital signature value (r, s)?",
+    "message_2": "To compute the digital signature value (r, s), we need to use the private key (dA) and the public key (n, e). In this case, we are given dA = 23, n = 187, and e = 7. The message M = 11.\n\nThe digital signature is created by encrypting the message M using Alice's private key (dA). This can be done using the following formula:\n\ns = M^dA mod n\n\nPlugging in the values, we get:\n\ns = 11^23 mod 187\n\nCalculating this, we find:\n\ns = 88\n\nNow, to verify the signature, we need to use Alice's public key (n, e). This can be done using the following formula:\n\nr = s^e mod n\n\nPlugging in the values, we get:\n\nr = 88^7 mod 187\n\nCalculating this, we find:\n\nr = 11\n\nSo, the digital signature value (r, s) is (11, 88)."
+}

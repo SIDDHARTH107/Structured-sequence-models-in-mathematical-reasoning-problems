@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Singularities of complex functions",
+    "message_1": "Evaluate the Laurent series of the complex function f(z) = cos(z) / (z - pi) at the point z = pi.",
+    "message_2": "To find the Laurent series of the function f(z) = cos(z) / (z - pi) at the point z = pi, we first need to find the Taylor series expansion of cos(z) around z = pi. The Taylor series expansion of cos(z) is given by:\n\ncos(z) = Σ((-1)^n * (z - pi)^(2n) / (2n)!) for n = 0, 1, 2, ...\n\nNow, we can find the Laurent series of f(z) by dividing the Taylor series of cos(z) by (z - pi):\n\nf(z) = cos(z) / (z - pi) = Σ((-1)^n * (z - pi)^(2n) / (2n)!) / (z - pi) for n = 0, 1, 2, ...\n\nSimplifying the expression, we get:\n\nf(z) = Σ((-1)^n * (z - pi)^(2n - 1) / (2n)!) for n = 0, 1, 2, ...\n\nThis is the Laurent series of f(z) = cos(z) / (z - pi) at the point z = pi."
+}

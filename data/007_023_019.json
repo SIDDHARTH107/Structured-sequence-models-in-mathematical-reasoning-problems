@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Number theory",
+    "sub_topic": "Cryptographic hash functions",
+    "message_1": "A cryptographic hash function takes a message consisting of 1024 bits and produces a digest of 256 bits. If a single bit in the message is changed, what is the probability that the digest will be exactly the same as before the change occurred?",
+    "message_2": "A cryptographic hash function is designed to produce a completely different output (digest) even if there is a small change in the input (message). This property is known as the avalanche effect. In an ideal cryptographic hash function, the output bits should be independent of each other and have a 50% chance of flipping when a single bit in the input is changed.\n\nSince the digest has 256 bits, there are 2^256 possible unique outputs. When a single bit in the message is changed, the ideal hash function should produce a completely different digest with a probability of 1 in 2^256.\n\nTherefore, the probability that the digest will be exactly the same as before the change occurred is:\n\n1 / 2^256"
+}

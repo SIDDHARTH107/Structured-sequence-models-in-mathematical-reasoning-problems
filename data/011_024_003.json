@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Network flow problems",
+    "message_1": "A company has a budget of $10,000 to invest in advertising campaigns on multiple online platforms. They aim to reach at least 20,000 potential customers in a month. The cost for each impression varies with different platforms. Platform A charges $0.5 per impression, Platform B charges $0.7 per impression, and Platform C charges $1 per impression. Find the minimum cost of advertising on these platforms that will reach at least 20,000 potential customers in a month.",
+    "message_2": "Let x, y, and z be the number of impressions on Platform A, Platform B, and Platform C, respectively. We want to minimize the total cost while reaching at least 20,000 potential customers. The problem can be formulated as follows:\n\nMinimize: 0.5x + 0.7y + z (total cost)\nSubject to: x + y + z ≥ 20,000 (reaching at least 20,000 potential customers)\n\nTo minimize the cost, we should prioritize the platform with the lowest cost per impression, which is Platform A. We will first try to allocate as many impressions as possible to Platform A, then Platform B, and finally Platform C if needed.\n\nSince the company has a budget of $10,000, the maximum number of impressions they can buy on Platform A is:\n\n10,000 / 0.5 = 20,000 impressions\n\nThis already satisfies the condition of reaching at least 20,000 potential customers. Therefore, the minimum cost of advertising on these platforms is:\n\n0.5 * 20,000 = $10,000"
+}

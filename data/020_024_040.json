@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Optimization",
+    "sub_topic": "Optimal pricing",
+    "message_1": "A company is manufacturing and selling a product. The cost of producing each unit is $15. The company can sell the product at a price of $40 per unit. However, for each increase of $5 in the selling price, the demand for the product decreases by 100 units. What price should the company sell the product at to maximize its revenue?",
+    "message_2": "Let x be the number of $5 increments in the selling price. Then, the selling price per unit can be represented as P = 40 + 5x. The demand for the product decreases by 100 units for each $5 increment, so the number of units sold can be represented as Q = D - 100x, where D is the initial demand when the price is $40.\n\nRevenue (R) is the product of the price per unit (P) and the number of units sold (Q). Therefore, R = P * Q = (40 + 5x)(D - 100x).\n\nTo maximize revenue, we need to find the value of x that maximizes R. To do this, we can take the derivative of R with respect to x and set it equal to 0:\n\ndR/dx = (40 + 5x)(-100) + (D - 100x)(5) = 0\n\nSimplify the equation:\n\n-5000 - 500x + 5D - 500x = 0\n\nCombine like terms:\n\n-1000x + 5D = 5000\n\nNow, solve for x:\n\nx = (5D - 5000) / 1000\n\nSince x represents the number of $5 increments, it must be a whole number. The company should test different values of D (initial demand) to find the optimal x that maximizes revenue. Once x is found, the optimal selling price can be calculated using P = 40 + 5x."
+}

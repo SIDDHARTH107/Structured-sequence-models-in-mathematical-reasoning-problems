@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Number theory",
+    "sub_topic": "Quadratic residues",
+    "message_1": "What is the quadratic residue of 23 modulo 71?",
+    "message_2": "A quadratic residue is a number that is a perfect square modulo a given modulus. To find the quadratic residue of 23 modulo 71, we need to find a number x such that x^2 ≡ 23 (mod 71).\n\nWe can use the following method to find the quadratic residue:\n\n1. Calculate the squares of the numbers from 1 to (71-1)/2, which is 1 to 35, modulo 71.\n2. Check if any of these squares are congruent to 23 modulo 71.\n\nLet's calculate the squares modulo 71:\n\n1^2 ≡ 1 (mod 71)\n2^2 ≡ 4 (mod 71)\n3^2 ≡ 9 (mod 71)\n4^2 ≡ 16 (mod 71)\n5^2 ≡ 25 (mod 71)\n...\n34^2 ≡ 43 (mod 71)\n35^2 ≡ 57 (mod 71)\n\nNone of these squares are congruent to 23 modulo 71. Therefore, 23 is not a quadratic residue modulo 71."
+}

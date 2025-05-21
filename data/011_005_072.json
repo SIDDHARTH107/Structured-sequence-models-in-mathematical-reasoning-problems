@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Combinatorial identities",
+    "message_1": "How many ways are there to select three different letters from the word \"MATHEMATICS\"?",
+    "message_2": "To solve this problem, we first need to identify the distinct letters in the word \"MATHEMATICS\" and their frequencies:\n\nM: 2\nA: 2\nT: 2\nH: 1\nE: 1\nI: 1\nC: 1\nS: 1\n\nThere are 8 distinct letters. We want to select 3 different letters, so we can use the combination formula:\n\nC(n, k) = n! / (k!(n-k)!)\n\nwhere n is the total number of distinct items (in this case, distinct letters) and k is the number of items we want to choose.\n\nC(8, 3) = 8! / (3!(8-3)!)\nC(8, 3) = 8! / (3!5!)\nC(8, 3) = (8*7*6*5*4*3*2*1) / ((3*2*1)*(5*4*3*2*1))\nC(8, 3) = (8*7*6) / (3*2*1)\nC(8, 3) = 336 / 6\nC(8, 3) = 56\n\nSo there are 56 ways to select three different letters from the word \"MATHEMATICS.\""
+}

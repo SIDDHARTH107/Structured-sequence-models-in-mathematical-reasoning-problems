@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Stream ciphers",
+    "message_1": "Suppose you have to encrypt a message using a stream cipher. The message is 110101011011 and the key stream is 100010111011. What is the encrypted ciphertext?",
+    "message_2": "To encrypt a message using a stream cipher, we perform a bitwise XOR operation between the message and the key stream. \n\nMessage:     110101011011\nKey stream: 100010111011\n\nPerforming XOR:\n\n1 ⊕ 1 = 0\n1 ⊕ 0 = 1\n0 ⊕ 0 = 0\n1 ⊕ 1 = 0\n0 ⊕ 0 = 0\n1 ⊕ 1 = 0\n1 ⊕ 1 = 0\n0 ⊕ 1 = 1\n1 ⊕ 1 = 0\n1 ⊕ 0 = 1\n0 ⊕ 1 = 1\n1 ⊕ 1 = 0\n\nThe encrypted ciphertext is: 010000001011"
+}

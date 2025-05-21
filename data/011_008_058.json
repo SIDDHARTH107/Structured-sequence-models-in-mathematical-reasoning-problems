@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Stirling numbers",
+    "message_1": "A student wants to select 5 books from a collection of 12 distinct books on the shelf. How many ways can the student select the books given that order does not matter? Use Stirling numbers to solve the problem.",
+    "message_2": "Using Stirling numbers to solve this problem is not the most efficient method, as Stirling numbers are used for counting the number of ways to partition a set into a certain number of non-empty subsets. Instead, we can use combinations to solve this problem, as it deals with selecting a certain number of items from a larger set without considering the order.\n\nThe number of ways to choose 5 books from a collection of 12 distinct books can be calculated using the combination formula:\n\nC(n, k) = n! / (k!(n-k)!)\n\nwhere n is the total number of books (12 in this case) and k is the number of books to be selected (5 in this case).\n\nC(12, 5) = 12! / (5!(12-5)!)\n= 12! / (5!7!)\n= (12 × 11 × 10 × 9 × 8) / (5 × 4 × 3 × 2 × 1)\n= 792\n\nSo, there are 792 ways for the student to select 5 books from the collection of 12 distinct books."
+}

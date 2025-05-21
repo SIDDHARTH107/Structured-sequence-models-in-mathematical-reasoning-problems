@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Number theory",
+    "sub_topic": "Fermat's little theorem",
+    "message_1": "What is the remainder when 7^22 is divided by 11? (Hint: Use Fermat's little theorem)",
+    "message_2": "Fermat's Little Theorem states that if p is a prime number, then for any integer a, a^p ≡ a (mod p). In other words, a^p - a is divisible by p. \n\nIn our case, we want to find the remainder when 7^22 is divided by 11. Since 11 is a prime number, we can apply Fermat's Little Theorem:\n\n7^11 ≡ 7 (mod 11)\n\nNow, we want to find 7^22 (mod 11). We can rewrite this as (7^11)^2 (mod 11). Since we know that 7^11 ≡ 7 (mod 11), we can substitute:\n\n(7^11)^2 ≡ 7^2 (mod 11)\n\nNow, we just need to find 7^2 (mod 11):\n\n7^2 = 49\n\n49 (mod 11) has a remainder of 5.\n\nSo, the remainder when 7^22 is divided by 11 is 5."
+}

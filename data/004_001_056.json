@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Calculus",
+    "sub_topic": "Finding the derivative of a function",
+    "message_1": "Suppose f(x) = 3x^2 - 7x + 5, find f'(2) using the limit definition of the derivative.",
+    "message_2": "The limit definition of the derivative is given by:\n\nf'(x) = lim(h -> 0) [(f(x + h) - f(x))/h]\n\nTo find f'(2), we need to substitute x = 2 in the above definition:\n\nf'(2) = lim(h -> 0) [(f(2 + h) - f(2))/h]\n\nFirst, let's find f(2 + h) and f(2):\n\nf(2 + h) = 3(2 + h)^2 - 7(2 + h) + 5\nf(2) = 3(2)^2 - 7(2) + 5\n\nNow, let's plug these expressions into the limit definition:\n\nf'(2) = lim(h -> 0) [(3(2 + h)^2 - 7(2 + h) + 5 - (3(2)^2 - 7(2) + 5))/h]\n\nSimplify the expression:\n\nf'(2) = lim(h -> 0) [(3(4 + 4h + h^2) - 14 - 7h + 5 - 12 + 14 - 5)/h]\n\nf'(2) = lim(h -> 0) [(12 + 12h + 3h^2 - 7h)/h]\n\nNow, factor out h from the numerator:\n\nf'(2) = lim(h -> 0) [h(12 + 5h)/h]\n\nCancel out the h terms:\n\nf'(2) = lim(h -> 0) (12 + 5h)\n\nNow, take the limit as h approaches 0:\n\nf'(2) = 12 + 5(0)\n\nf'(2) = 12\n\nSo, the derivative of f(x) at x = 2 is f'(2) = 12."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Playfair cipher",
+    "message_1": "A message \"HELLO WORLD\" is to be encrypted using the Playfair cipher. The encryption key is \"MENDEL\". What is the encrypted message?",
+    "message_2": "To encrypt the message \"HELLO WORLD\" using the Playfair cipher with the key \"MENDEL\", we first need to create the 5x5 Playfair matrix using the key.\n\n1. Remove duplicate letters from the key: \"MENDL\"\n2. Complete the matrix with the remaining letters of the alphabet (excluding J, which is combined with I in the Playfair cipher): \"MENDLABCFGHIKOPQRSTUVWXYZ\"\n\nThe 5x5 matrix looks like this:\n\nM E N D L\nA B C F G\nH I K O P\nQ R S T U\nV W X Y Z\n\nNow, we can encrypt the message:\n\n1. Split the message into digraphs (pairs of letters). If a pair has the same letter, insert an 'X' between them: \"HE LX LO WO RL DX\"\n2. For each digraph, apply the Playfair cipher rules:\n   - If both letters are in the same row, replace each with the letter to its right (wrap around if needed): \"HI QY MP WP SO DY\"\n   - If both letters are in the same column, replace each with the letter below it (wrap around if needed): \"HI QY MP WP SO DY\"\n   - If the letters form a rectangle, replace each with the letter in the same row but in the other corner of the rectangle: \"HI QY MP WP SO DY\"\n\nThe encrypted message is \"HIQYMPWPSODY\"."
+}

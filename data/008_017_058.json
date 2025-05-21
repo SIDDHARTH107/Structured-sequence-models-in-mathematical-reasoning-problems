@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Solving systems of linear equations using sparse matrices",
+    "message_1": "Solve the following system of linear equations using sparse matrices:\n\n2x + 4y + 0z = 20\n\n0x + 3y + 7z = 21\n\n0x + 0y + 5z = 25\n\nExpress your answer as an ordered triple (x, y, z).",
+    "message_2": "To solve this system of linear equations using sparse matrices, we first represent the system as a matrix equation Ax = b, where A is the coefficient matrix, x is the column vector of variables, and b is the column vector of constants.\n\nA = | 2  4  0 |\n    | 0  3  7 |\n    | 0  0  5 |\n\nx = | x |\n    | y |\n    | z |\n\nb = | 20 |\n    | 21 |\n    | 25 |\n\nNow we can solve for x by finding the inverse of A and multiplying it by b:\n\nA^(-1) * b = x\n\nSince A is an upper triangular matrix, we can use back-substitution to find x:\n\nStarting with the last equation:\n5z = 25\nz = 25 / 5\nz = 5\n\nNow substitute z into the second equation:\n3y + 7z = 21\n3y + 7(5) = 21\n3y + 35 = 21\n3y = -14\ny = -14 / 3\n\nFinally, substitute y and z into the first equation:\n2x + 4y + 0z = 20\n2x + 4(-14/3) = 20\n2x - 56/3 = 20\n2x = 56/3 + 60/3\n2x = 116/3\nx = 58/3\n\nSo the solution is (x, y, z) = (58/3, -14/3, 5)."
+}

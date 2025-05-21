@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Statistics",
+    "sub_topic": "Confidence intervals",
+    "message_1": "A survey of 500 people found that 85% of them prefer coffee over tea. Create a 95% confidence interval for the true proportion of people who prefer coffee over tea.",
+    "message_2": "To create a 95% confidence interval for the true proportion of people who prefer coffee over tea, we will use the following formula:\n\nConfidence Interval = p-hat ± Z * sqrt((p-hat * (1-p-hat))/n)\n\nwhere p-hat is the sample proportion, Z is the Z-score for a 95% confidence interval, and n is the sample size.\n\nIn this case, p-hat = 0.85 (85% of people prefer coffee), n = 500 (sample size), and Z = 1.96 (Z-score for a 95% confidence interval).\n\nConfidence Interval = 0.85 ± 1.96 * sqrt((0.85 * (1-0.85))/500)\n\nFirst, calculate the standard error:\n\nStandard Error = sqrt((0.85 * (1-0.85))/500) = sqrt(0.1275/500) = 0.0158\n\nNow, calculate the margin of error:\n\nMargin of Error = 1.96 * 0.0158 = 0.0310\n\nFinally, calculate the confidence interval:\n\nConfidence Interval = 0.85 ± 0.0310 = (0.819, 0.881)\n\nSo, the 95% confidence interval for the true proportion of people who prefer coffee over tea is (0.819, 0.881), or 81.9% to 88.1%."
+}

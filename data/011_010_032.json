@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Catalan numbers",
+    "message_1": "Suppose you have 5 perfectly balanced plates stacked up. In how many ways can you take the plates off the stack one at a time so that at no point do you take off a plate from above an empty stack? (Hint: the answer involves the Catalan number sequence).",
+    "message_2": "The problem can be solved using the Catalan number sequence. The Catalan numbers are a sequence of natural numbers that have many applications in combinatorial mathematics, including this problem of balanced plate removal.\n\nThe nth Catalan number can be calculated using the formula:\n\nC(n) = (1/(n+1)) * (2n choose n) = (2n)! / ((n+1)! * n!)\n\nFor this problem, we have 5 plates, so we want to find the 5th Catalan number:\n\nC(5) = (1/(5+1)) * (2*5 choose 5) = (1/6) * (10 choose 5)\n\nNow, we calculate the binomial coefficient (10 choose 5):\n\n(10 choose 5) = 10! / (5! * 5!) = 252\n\nNow, we plug this back into the Catalan number formula:\n\nC(5) = (1/6) * 252 = 42\n\nSo, there are 42 ways to take the plates off the stack one at a time so that at no point do you take off a plate from above an empty stack."
+}

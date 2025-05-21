@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "ElGamal encryption and decryption",
+    "message_1": "Suppose you want to send a confidential message to a friend using ElGamal encryption with a public key (p=23, g=5, y=9). If your message is m=8, pick a random k=4 and encrypt your message. What is the resulting ciphertext (c1,c2)?",
+    "message_2": "To encrypt the message m=8 using ElGamal encryption with public key (p=23, g=5, y=9) and random k=4, we need to compute the ciphertext (c1, c2) as follows:\n\n1. Compute c1 = g^k mod p\n   c1 = 5^4 mod 23\n   c1 = 625 mod 23\n   c1 = 3\n\n2. Compute c2 = (y^k * m) mod p\n   c2 = (9^4 * 8) mod 23\n   c2 = (6561 * 8) mod 23\n   c2 = 52488 mod 23\n   c2 = 18\n\nSo, the resulting ciphertext (c1, c2) is (3, 18)."
+}

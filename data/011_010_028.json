@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Catalan numbers",
+    "message_1": "A park has 6 benches arranged in a row. In how many ways can 4 people sit on the benches such that no two people are sitting next to each other?",
+    "message_2": "Let's use the stars and bars method to solve this problem. We will represent the 4 people as stars (*) and the empty spaces between them as bars (|). Since no two people can sit next to each other, there must be at least one empty space between each pair of people.\n\nWe can represent the arrangement as follows:\n\n| * | * | * | * |\n\nNow, we have 2 remaining empty spaces (6 benches - 4 people = 2 empty spaces) to distribute among the 5 gaps between and around the people. We can think of this as distributing 2 identical balls into 5 distinct boxes.\n\nUsing the stars and bars formula, the number of ways to distribute the 2 empty spaces among the 5 gaps is:\n\nC(n + k - 1, k - 1) = C(5 + 2 - 1, 2 - 1) = C(6, 1) = 6\n\nSo there are 6 ways to arrange the 4 people on the 6 benches such that no two people are sitting next to each other."
+}

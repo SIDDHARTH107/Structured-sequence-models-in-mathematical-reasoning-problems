@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Set theory",
+    "sub_topic": "Prove that the symmetric difference of two sets is commutative.",
+    "message_1": "Let A = {2, 3, 5, 7, 11} and B = {5, 7, 13} be two sets. Using set theory principles, prove that A Δ B = B Δ A, where Δ represents the symmetric difference operator.",
+    "message_2": "To prove that A Δ B = B Δ A, we need to show that the symmetric difference of A and B is equal to the symmetric difference of B and A. By definition, the symmetric difference of two sets A and B is the set of elements which are in either A or B, but not in their intersection. Mathematically, A Δ B = (A ∪ B) - (A ∩ B).\n\nLet's find A Δ B:\n\n1. A ∪ B = {2, 3, 5, 7, 11, 13} (union of A and B)\n2. A ∩ B = {5, 7} (intersection of A and B)\n3. A Δ B = (A ∪ B) - (A ∩ B) = {2, 3, 5, 7, 11, 13} - {5, 7} = {2, 3, 11, 13}\n\nNow let's find B Δ A:\n\n1. B ∪ A = {5, 7, 13, 2, 3, 11} (union of B and A, which is the same as A ∪ B)\n2. B ∩ A = {5, 7} (intersection of B and A, which is the same as A ∩ B)\n3. B Δ A = (B ∪ A) - (B ∩ A) = {5, 7, 13, 2, 3, 11} - {5, 7} = {2, 3, 11, 13}\n\nSince A Δ B = {2, 3, 11, 13} and B Δ A = {2, 3, 11, 13}, we can conclude that A Δ B = B Δ A. This proves that the symmetric difference operator is commutative."
+}

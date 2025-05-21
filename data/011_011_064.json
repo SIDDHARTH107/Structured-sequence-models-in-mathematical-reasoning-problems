@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Partition theory",
+    "message_1": "A student has $20$ identical books that they want to distribute among $4$ friends. In how many ways can they do this if each friend should receive at least $2$ books?",
+    "message_2": "Since each of the 4 friends must receive at least 2 books, we will first give 2 books to each friend. This leaves us with 20 - 2*4 = 12 books to distribute.\n\nNow, we can use the stars and bars method to distribute the remaining 12 books among the 4 friends. We will have 12 stars (representing the books) and 3 bars (to separate the books among the 4 friends).\n\nWe need to find the number of ways to arrange these 12 stars and 3 bars, which is a combination problem. The total number of objects to arrange is 12 + 3 = 15. We need to choose 3 positions for the bars out of the 15 positions, so the number of ways to distribute the remaining books is:\n\nC(15, 3) = 15! / (3! * (15-3)!) = 455\n\nSo, there are 455 ways to distribute the 20 books among the 4 friends, with each friend receiving at least 2 books."
+}

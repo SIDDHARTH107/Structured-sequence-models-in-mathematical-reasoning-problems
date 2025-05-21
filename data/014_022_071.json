@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Cryptanalysis of Playfair cipher",
+    "message_1": "Consider the following Playfair-ciphered message: \"GTYWIFNCZT\". Decrypt the message given the keyword \"MATH\".",
+    "message_2": "To decrypt the Playfair-ciphered message, we first need to create the 5x5 Playfair cipher table using the keyword \"MATH\".\n\n1. Remove duplicate letters from the keyword: MATH\n2. Fill in the remaining letters of the alphabet (excluding J) in order: MATHBCDEFGIKLOPQRSUVWXYZ\n\nNow, the Playfair cipher table looks like this:\n\n```\nM A T H B\nC D E F G\nI K L O P\nQ R S U V\nW X Y Z\n```\n\nNext, we will decrypt the message \"GTYWIFNCZT\" using the table:\n\n1. Break the message into digraphs: GT YW IF NC ZT\n2. For each digraph, locate the letters in the table and apply the decryption rules:\n   - If the letters are in the same row, replace each letter with the one to its left (wrap around if needed).\n   - If the letters are in the same column, replace each letter with the one above it (wrap around if needed).\n   - If the letters form a rectangle, replace each letter with the one in its row but in the other corner of the rectangle.\n\nDecrypting the digraphs:\n\nGT -> HE\nYW -> LL\nIF -> OW\nNC -> OR\nZT -> LD\n\nThe decrypted message is: \"HELLOWORLD\"."
+}

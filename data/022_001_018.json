@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Analytic continuation of complex functions",
+    "message_1": "Find the analytic continuation of the function $f(z) = \\sqrt{z}$ defined initially on the positive real axis, to the region $\\operatorname{Re}(z) > 0$.",
+    "message_2": "To find the analytic continuation of the function $f(z) = \\sqrt{z}$ to the region $\\operatorname{Re}(z) > 0$, we first express $z$ in polar coordinates. Let $z = re^{i\\theta}$, where $r > 0$ and $0 \\leq \\theta < 2\\pi$. Then, we can define the principal branch of the square root function as:\n\n$$\n\\sqrt{z} = \\sqrt{re^{i\\theta}} = \\sqrt{r}e^{i\\frac{\\theta}{2}},\n$$\n\nwhere $0 \\leq \\frac{\\theta}{2} < \\pi$. This definition is valid for the positive real axis, as when $\\theta = 0$, we have $\\sqrt{z} = \\sqrt{r}$.\n\nNow, we want to extend this definition to the region $\\operatorname{Re}(z) > 0$. In this region, we can choose a branch cut along the negative real axis, so that the argument of $z$ lies in the range $-\\pi < \\theta \\leq \\pi$. Then, we can define the analytic continuation of the square root function as:\n\n$$\n\\sqrt{z} = \\sqrt{re^{i\\theta}} = \\sqrt{r}e^{i\\frac{\\theta}{2}},\n$$\n\nwhere $-\\frac{\\pi}{2} < \\frac{\\theta}{2} \\leq \\frac{\\pi}{2}$. This definition is consistent with the principal branch of the square root function on the positive real axis and provides an analytic continuation to the region $\\operatorname{Re}(z) > 0$."
+}

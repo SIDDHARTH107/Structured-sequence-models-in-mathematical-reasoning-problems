@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Combinatorial optimization",
+    "message_1": "A company has 10 job openings and 30 applicants who applied for the positions. In how many ways can the company hire exactly 7 out of the 30 applicants?",
+    "message_2": "To solve this problem, we can use the combination formula, which is:\n\nC(n, k) = n! / (k!(n-k)!)\n\nwhere n is the total number of applicants (30 in this case), k is the number of applicants to be hired (7 in this case), and ! denotes the factorial of a number.\n\nSo, we have:\n\nC(30, 7) = 30! / (7!(30-7)!)\n\nC(30, 7) = 30! / (7!23!)\n\nNow, we can calculate the factorials:\n\n30! = 30 × 29 × 28 × ... × 3 × 2 × 1\n7! = 7 × 6 × 5 × 4 × 3 × 2 × 1\n23! = 23 × 22 × 21 × ... × 3 × 2 × 1\n\nPlugging these values into the formula:\n\nC(30, 7) = (30 × 29 × 28 × ... × 3 × 2 × 1) / ((7 × 6 × 5 × 4 × 3 × 2 × 1) × (23 × 22 × 21 × ... × 3 × 2 × 1))\n\nC(30, 7) = 2035800\n\nSo, there are 2,035,800 ways the company can hire exactly 7 out of the 30 applicants."
+}

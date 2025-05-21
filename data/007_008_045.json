@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Number theory",
+    "sub_topic": "Fermat's little theorem",
+    "message_1": "What is the remainder when 12^31 is divided by 13? (Hint: Use Fermat's Little Theorem)",
+    "message_2": "Fermat's Little Theorem states that if p is a prime number, then for any integer a, a^p ≡ a (mod p). In other words, a^p - a is divisible by p.\n\nIn our case, p = 13 (which is a prime number) and a = 12. According to Fermat's Little Theorem, 12^13 ≡ 12 (mod 13). Now, we want to find the remainder when 12^31 is divided by 13. We can rewrite 12^31 as (12^13)^(2) * 12^5.\n\nUsing Fermat's Little Theorem, we know that 12^13 ≡ 12 (mod 13). Therefore, (12^13)^(2) * 12^5 ≡ 12^2 * 12^5 (mod 13).\n\nNow, we just need to find the remainder when 12^7 (12^2 * 12^5) is divided by 13. We can calculate this directly:\n\n12^7 = 35831808\n\nNow, we divide 35831808 by 13:\n\n35831808 ÷ 13 = 2756293 with a remainder of 1.\n\nSo, the remainder when 12^31 is divided by 13 is 1."
+}

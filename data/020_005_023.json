@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Optimization",
+    "sub_topic": "Integer programming",
+    "message_1": "Suppose a company produces two products: A and B. Each unit of A requires 3 hours of labor and 2 hours of machine time, while each unit of B requires 2 hours of labor and 4 hours of machine time. The company has 120 hours of labor and 80 hours of machine time available for production. The profit for each unit of A is $400 and each unit of B is $500. How many units of A and B should the company produce to maximize its profit?",
+    "message_2": "Let x be the number of units of product A and y be the number of units of product B.\n\nThe constraints for labor and machine time can be represented as linear inequalities:\n\n3x + 2y ≤ 120 (labor constraint)\n2x + 4y ≤ 80 (machine constraint)\n\nWe want to maximize the profit function P(x, y) = 400x + 500y.\n\nFirst, we need to find the feasible region by graphing the constraints:\n\n1. Solve each inequality for y:\n\ny ≤ (120 - 3x) / 2\ny ≤ (80 - 2x) / 4\n\n2. Graph the inequalities:\n\nThe feasible region is a polygon with vertices at (0, 0), (0, 20), (40, 0), and (24, 12).\n\n3. Evaluate the profit function at each vertex:\n\nP(0, 0) = 400(0) + 500(0) = $0\nP(0, 20) = 400(0) + 500(20) = $10,000\nP(40, 0) = 400(40) + 500(0) = $16,000\nP(24, 12) = 400(24) + 500(12) = $16,800\n\nThe maximum profit of $16,800 is achieved when the company produces 24 units of product A and 12 units of product B."
+}

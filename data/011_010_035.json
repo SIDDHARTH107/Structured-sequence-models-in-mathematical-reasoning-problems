@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Catalan numbers",
+    "message_1": "A student is trying to arrange a set of parentheses with n pairs, where n = 4. How many unique ways can the student arrange the parentheses such that they are correctly matched? (Hint: Use Catalan numbers)",
+    "message_2": "To find the number of unique ways to arrange the parentheses such that they are correctly matched, we can use the Catalan numbers. The nth Catalan number is given by the formula:\n\nC_n = (1/(n+1)) * (2n! / (n! * n!))\n\nFor n = 4, we can plug the value into the formula:\n\nC_4 = (1/(4+1)) * (2*4! / (4! * 4!))\n\nC_4 = (1/5) * (8! / (4! * 4!))\n\nNow, we can compute the factorials:\n\n8! = 8 * 7 * 6 * 5 * 4 * 3 * 2 * 1 = 40320\n4! = 4 * 3 * 2 * 1 = 24\n\nPlug these values back into the formula:\n\nC_4 = (1/5) * (40320 / (24 * 24))\n\nC_4 = (1/5) * (40320 / 576)\n\nC_4 = (1/5) * 70\n\nC_4 = 14\n\nSo, there are 14 unique ways for the student to arrange the 4 pairs of parentheses such that they are correctly matched."
+}

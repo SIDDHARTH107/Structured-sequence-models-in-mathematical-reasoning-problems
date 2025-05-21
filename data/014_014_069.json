@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Playfair cipher",
+    "message_1": "Using the Playfair cipher, encode the message \"MATHS IS FUN\" using the following key:\n\nK E Y W \nO R D \nA B C D \nF G H I \nL M N P \n\n(Note: J is omitted in the key, and the message should be written in all caps without any spaces)",
+    "message_2": "First, we need to break the message into digraphs (pairs of letters). If there are any double letters, we need to insert an \"X\" between them. In this case, we don't have any double letters. However, since the message has an odd number of letters, we need to add an \"X\" at the end to make it even:\n\nMATHSISFUNX\n\nNow, we break it into digraphs:\n\nMA TH SI SF UN X\n\nNow, we apply the Playfair cipher rules using the given key:\n\n1. If both letters are in the same row, replace them with the letters to their immediate right (wrapping around if necessary).\n2. If both letters are in the same column, replace them with the letters immediately below them (wrapping around if necessary).\n3. If the letters form a rectangle, replace each letter with the one in the same row but in the other corner of the rectangle.\n\nMA -> KE\nTH -> YR\nSI -> OD\nSF -> AC\nUN -> WG\nX -> X\n\nThe encoded message is:\n\nKEYRYRODACWGX"
+}

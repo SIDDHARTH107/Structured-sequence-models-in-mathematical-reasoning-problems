@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Solving systems of linear equations using Gaussian elimination",
+    "message_1": "Solve the following system of linear equations using Gaussian elimination:\n\n2x + 3y - z = 10\n\nx - y + z = -1\n\n3x - 2y + 4z = 7",
+    "message_2": "To solve the system of linear equations using Gaussian elimination, we will perform a series of operations on the augmented matrix to reach its row-echelon form. The augmented matrix for the given system is:\n\n| 2  3 -1 | 10 |\n| 1 -1  1 | -1 |\n| 3 -2  4 |  7 |\n\nStep 1: Eliminate x from the second and third rows.\n\nWe can replace the second row with (-1/2) * (first row) + (second row) and the third row with (-3/2) * (first row) + (third row):\n\n|  2   3  -1 |  10  |\n|  0  -2   2 |  -6  |\n|  0  -4.5  5.5 | -8  |\n\nStep 2: Eliminate y from the third row.\n\nWe can replace the third row with (-4.5/-2) * (second row) + (third row):\n\n|  2   3   -1 |  10  |\n|  0  -2    2 |  -6  |\n|  0   0   1.5 |  -3  |\n\nStep 3: Normalize the third row.\n\nWe can divide the third row by 1.5:\n\n|  2   3   -1 |  10  |\n|  0  -2    2 |  -6  |\n|  0   0    1 |  -2  |\n\nStep 4: Back-substitute to find z, y, and x.\n\nFrom the third row, we have z = -2.\n\nNow, we can substitute z into the second row to find y: -2y + 2(-2) = -6, so y = 1.\n\nFinally, we can substitute y and z into the first row to find x: 2x + 3(1) - (-2) = 10, so x = 2.\n\nThus, the solution to the system of linear equations is x = 2, y = 1, and z = -2."
+}

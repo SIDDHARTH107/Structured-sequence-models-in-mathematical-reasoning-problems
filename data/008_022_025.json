@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Solving systems of linear equations with ill-conditioned matrices",
+    "message_1": "Solve the following system of linear equations with the matrix:\n\n$\\begin{pmatrix} 1.01 & 1\\\\ 1 & 1 \\end{pmatrix} \\begin{pmatrix} x \\\\ y \\end{pmatrix} = \\begin{pmatrix} 2\\\\ 2 \\end{pmatrix}$",
+    "message_2": "To solve the system of linear equations, we can use the inverse matrix method. First, we need to find the inverse of the given matrix:\n\n$\\begin{pmatrix} 1.01 & 1\\\\ 1 & 1 \\end{pmatrix}$\n\nThe inverse of a 2x2 matrix $\\begin{pmatrix} a & b\\\\ c & d \\end{pmatrix}$ is given by:\n\n$\\frac{1}{ad - bc} \\begin{pmatrix} d & -b\\\\ -c & a \\end{pmatrix}$\n\nSo, for our matrix, we have:\n\n$a = 1.01, b = 1, c = 1, d = 1$\n\nThe determinant $ad - bc = (1.01)(1) - (1)(1) = 0.01$\n\nThe inverse matrix is:\n\n$\\frac{1}{0.01} \\begin{pmatrix} 1 & -1\\\\ -1 & 1.01 \\end{pmatrix} = \\begin{pmatrix} 100 & -100\\\\ -100 & 101 \\end{pmatrix}$\n\nNow, we can multiply the inverse matrix by the right-hand side vector to find the solution:\n\n$\\begin{pmatrix} x \\\\ y \\end{pmatrix} = \\begin{pmatrix} 100 & -100\\\\ -100 & 101 \\end{pmatrix} \\begin{pmatrix} 2\\\\ 2 \\end{pmatrix}$\n\nPerforming the matrix multiplication:\n\n$x = 100(2) - 100(2) = 0$\n\n$y = -100(2) + 101(2) = 2$\n\nSo, the solution to the system of linear equations is:\n\n$x = 0, y = 2$"
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Multinomial coefficients",
+    "message_1": "How many ways can 6 identical red balls, 4 identical blue balls, and 3 identical green balls be arranged in a line?",
+    "message_2": "To solve this problem, we will use the formula for permutations of a multiset, which is:\n\nP(n; n1, n2, ..., nk) = n! / (n1! * n2! * ... * nk!)\n\nwhere n is the total number of items, and n1, n2, ..., nk are the number of identical items of each type.\n\nIn this case, we have 6 red balls, 4 blue balls, and 3 green balls, so n = 6 + 4 + 3 = 13. The number of identical items of each type are 6, 4, and 3. Therefore, we can plug these values into the formula:\n\nP(13; 6, 4, 3) = 13! / (6! * 4! * 3!)\n\nNow, we can compute the factorials:\n\n13! = 6,227,020,800\n6! = 720\n4! = 24\n3! = 6\n\nNow, we can plug these values back into the formula:\n\nP(13; 6, 4, 3) = 6,227,020,800 / (720 * 24 * 6)\n\nP(13; 6, 4, 3) = 6,227,020,800 / 103,680\n\nP(13; 6, 4, 3) = 60,060\n\nSo there are 60,060 ways to arrange the 6 identical red balls, 4 identical blue balls, and 3 identical green balls in a line."
+}

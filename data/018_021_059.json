@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Set theory",
+    "sub_topic": "Prove that the symmetric difference of two sets is distributive over intersection.",
+    "message_1": "Let A = {1, 2, 3} and B = {2, 3, 4}, and C = {3, 4, 5}. Find (A △ B) ∩ C and (A ∩ C) △ (B ∩ C). Verify that the symmetric difference of two sets is distributive over intersection.",
+    "message_2": "First, let's find the symmetric difference of A and B (A △ B). The symmetric difference of two sets is the set of elements which are in either of the sets, but not in their intersection.\n\nA △ B = (A ∪ B) - (A ∩ B) = {1, 2, 3, 4} - {2, 3} = {1, 4}\n\nNow, let's find the intersection of (A △ B) and C, which is (A △ B) ∩ C:\n\n(A △ B) ∩ C = {1, 4} ∩ {3, 4, 5} = {4}\n\nNext, let's find the intersection of A and C (A ∩ C) and the intersection of B and C (B ∩ C):\n\nA ∩ C = {1, 2, 3} ∩ {3, 4, 5} = {3}\nB ∩ C = {2, 3, 4} ∩ {3, 4, 5} = {3, 4}\n\nNow, let's find the symmetric difference of (A ∩ C) and (B ∩ C), which is (A ∩ C) △ (B ∩ C):\n\n(A ∩ C) △ (B ∩ C) = {3} △ {3, 4} = {4}\n\nNow, we can see that (A △ B) ∩ C = {4} and (A ∩ C) △ (B ∩ C) = {4}. Since both expressions are equal, it verifies that the symmetric difference of two sets is distributive over intersection."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "One-time pad encryption",
+    "message_1": "Suppose Alice wants to send a secret message \"MATH\" to Bob using one-time pad encryption. Let 'M' be 12, 'A' be 1, 'T' be 20, and 'H' be 8 (according to their positions in the alphabet). If Alice has a secret key \"QWERTYUIOP\", where 'Q' is 17, 'W' is 23, 'E' is 5, 'R' is 18, 'T' is 20, 'Y' is 25, 'U' is 21, 'I' is 9, 'O' is 15, and 'P' is 16, what is the encrypted message that Alice should send to Bob?",
+    "message_2": "To encrypt the message using a one-time pad, Alice will add the corresponding values of the message and the key, then take the result modulo 26. She will use the first four characters of the secret key, \"QWER\", for this encryption.\n\nMessage: M A T H\nValues:  12 1 20 8\n\nKey:     Q W E R\nValues:  17 23 5 18\n\nNow, add the corresponding values:\n\n12 + 17 = 29\n1 + 23 = 24\n20 + 5 = 25\n8 + 18 = 26\n\nNext, take the result modulo 26:\n\n29 mod 26 = 3\n24 mod 26 = 24\n25 mod 26 = 25\n26 mod 26 = 0\n\nThe encrypted message values are 3, 24, 25, and 0. Converting these back to letters, we get:\n\n3 -> D\n24 -> X\n25 -> Y\n0 -> A\n\nSo, the encrypted message Alice should send to Bob is \"DXYA\"."
+}

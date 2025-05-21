@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Playfair cipher",
+    "message_1": "Using the Playfair Cipher, encode the message \"MATH IS FUN\" with the key \"CRYPTO\".",
+    "message_2": "To encode the message \"MATH IS FUN\" using the Playfair Cipher with the key \"CRYPTO\", follow these steps:\n\n1. Create a 5x5 grid and fill it with the key and the remaining letters of the alphabet (excluding J, which is combined with I in the Playfair cipher). Remove any duplicate letters from the key.\n\nKey: CRYPTO\nGrid:\nC R Y P T\nO A B D E\nF G H I K\nL M N S U\nV W X Z Q\n\n2. Split the message into pairs of letters. If a pair contains the same letter, insert an 'X' between them. If the message has an odd number of letters, add an 'X' at the end.\n\nMessage: MATH IS FUN\nPairs: MA TH IS FU NX\n\n3. For each pair, locate the letters in the grid and apply the following rules:\n\n   a. If the letters are in the same row, replace each letter with the one to its right (wrapping around if necessary).\n   b. If the letters are in the same column, replace each letter with the one below it (wrapping around if necessary).\n   c. If the letters form a rectangle, replace each letter with the one in its row but in the other pair's column.\n\nEncoded pairs:\nMA -> LD\nTH -> YS\nIS -> YK\nFU -> CH\nNX -> QI\n\n4. Combine the encoded pairs to get the encoded message.\n\nEncoded message: LDYSYKCHQI"
+}

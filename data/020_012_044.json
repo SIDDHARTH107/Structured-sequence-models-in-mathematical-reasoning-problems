@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Optimization",
+    "sub_topic": "Global optimization",
+    "message_1": "A company produces two products, Product A and Product B, with a profit of $6 and $8 per unit respectively. The production process requires 3 hours of labor and 2 hours of machine time for Product A, while Product B requires 1 hour of labor and 4 hours of machine time. The company has 45 hours of labor and 60 hours of machine time available for production. How many units of each product should the company produce to maximize its profit?",
+    "message_2": "Let x be the number of units of Product A and y be the number of units of Product B.\n\nThe constraints for labor and machine time are:\n\n3x + y ≤ 45 (labor constraint)\n2x + 4y ≤ 60 (machine constraint)\n\nWe want to maximize the profit function P(x, y) = 6x + 8y.\n\nFirst, we need to find the feasible region by graphing the constraints:\n\n1. Solve each constraint for y:\n\ny ≤ -3x + 45\ny ≤ -0.5x + 15\n\n2. Graph the inequalities:\n\nThe feasible region is the area where both inequalities are satisfied. It is a quadrilateral with vertices at (0, 0), (0, 15), (15, 0), and (10, 5).\n\n3. Check the profit function at each vertex:\n\nP(0, 0) = 6(0) + 8(0) = $0\nP(0, 15) = 6(0) + 8(15) = $120\nP(15, 0) = 6(15) + 8(0) = $90\nP(10, 5) = 6(10) + 8(5) = $100\n\nThe maximum profit is $120, which occurs when the company produces 0 units of Product A and 15 units of Product B."
+}

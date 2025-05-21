@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Set theory",
+    "sub_topic": "Prove that the symmetric difference of two sets is distributive over intersection.",
+    "message_1": "Let A = {2, 3, 4, 5} and B = {3, 4, 5, 6}. Find the symmetric difference of (A ∆ B) with the set C = {2, 3, 5}. Then show that (A ∆ B) ∩ C = (A ∩ C) ∆ (B ∩ C).",
+    "message_2": "First, let's find the symmetric difference of A and B, denoted as A ∆ B. The symmetric difference is the set of elements which are in either of the sets A or B, but not in their intersection.\n\nA ∆ B = (A ∪ B) - (A ∩ B)\n\nA ∪ B = {2, 3, 4, 5, 6}\nA ∩ B = {3, 4, 5}\n\nA ∆ B = {2, 6}\n\nNow, let's find the symmetric difference of (A ∆ B) and C:\n\n(A ∆ B) ∆ C = ({2, 6} ∪ {2, 3, 5}) - ({2, 6} ∩ {2, 3, 5})\n\n({2, 6} ∪ {2, 3, 5}) = {2, 3, 5, 6}\n({2, 6} ∩ {2, 3, 5}) = {2}\n\n(A ∆ B) ∆ C = {3, 5, 6}\n\nNow, let's find (A ∩ C) ∆ (B ∩ C):\n\nA ∩ C = {2, 3, 5}\nB ∩ C = {3, 5}\n\n(A ∩ C) ∆ (B ∩ C) = ({2, 3, 5} ∪ {3, 5}) - ({2, 3, 5} ∩ {3, 5})\n\n({2, 3, 5} ∪ {3, 5}) = {2, 3, 5}\n({2, 3, 5} ∩ {3, 5}) = {3, 5}\n\n(A ∩ C) ∆ (B ∩ C) = {2}\n\nNow, let's find (A ∆ B) ∩ C:\n\n(A ∆ B) ∩ C = {2, 6} ∩ {2, 3, 5} = {2}\n\nAs we can see, (A ∆ B) ∩ C ≠ (A ∩ C) ∆ (B ∩ C) because {3, 5, 6} ≠ {2}."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Fourier analysis",
+    "sub_topic": "Finding the Fourier series of a function with a singularity",
+    "message_1": "Find the Fourier series of the periodic function f(x) = 1/(1-x) with period 2π.",
+    "message_2": "To find the Fourier series of the given function f(x) = 1/(1-x) with period 2π, we first need to extend the function periodically over the interval [-π, π]. Let's define the extended function g(x) such that:\n\ng(x) = 1/(1-x) for -π < x < π\n\nNow, we can find the Fourier series of g(x) using the Fourier coefficients:\n\na_0 = (1/π) * ∫[-π, π] g(x) dx\n\na_n = (1/π) * ∫[-π, π] g(x) * cos(nx) dx\n\nb_n = (1/π) * ∫[-π, π] g(x) * sin(nx) dx\n\nThe Fourier series of g(x) is then given by:\n\ng(x) = (a_0/2) + Σ[a_n * cos(nx) + b_n * sin(nx)]\n\nLet's find the Fourier coefficients:\n\na_0 = (1/π) * ∫[-π, π] 1/(1-x) dx\n\nUnfortunately, this integral does not converge, which means that the given function f(x) = 1/(1-x) cannot be represented by a Fourier series with period 2π. The function has a singularity at x = 1, which is within the interval [-π, π], and this causes the integral to diverge."
+}

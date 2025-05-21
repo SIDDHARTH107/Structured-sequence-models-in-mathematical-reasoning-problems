@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Set theory",
+    "sub_topic": "Prove that the Cartesian product of two sets is distributive over union.",
+    "message_1": "Let A = {1, 2} and B = {a, b, c}. Find the Cartesian product of (A ∪ B) × A and (A ∪ B) × B, and show that the Cartesian product of (A ∪ B) × (A ∪ B) is equal to the union of the two sets.",
+    "message_2": "First, let's find the Cartesian product of (A ∪ B) × A and (A ∪ B) × B.\n\n(A ∪ B) = {1, 2, a, b, c}\n\n(A ∪ B) × A = {(1, 1), (1, 2), (2, 1), (2, 2), (a, 1), (a, 2), (b, 1), (b, 2), (c, 1), (c, 2)}\n\n(A ∪ B) × B = {(1, a), (1, b), (1, c), (2, a), (2, b), (2, c), (a, a), (a, b), (a, c), (b, a), (b, b), (b, c), (c, a), (c, b), (c, c)}\n\nNow let's find the Cartesian product of (A ∪ B) × (A ∪ B):\n\n(A ∪ B) × (A ∪ B) = {(1, 1), (1, 2), (1, a), (1, b), (1, c), (2, 1), (2, 2), (2, a), (2, b), (2, c), (a, 1), (a, 2), (a, a), (a, b), (a, c), (b, 1), (b, 2), (b, a), (b, b), (b, c), (c, 1), (c, 2), (c, a), (c, b), (c, c)}\n\nNow let's find the union of (A ∪ B) × A and (A ∪ B) × B:\n\n((A ∪ B) × A) ∪ ((A ∪ B) × B) = {(1, 1), (1, 2), (2, 1), (2, 2), (a, 1), (a, 2), (b, 1), (b, 2), (c, 1), (c, 2), (1, a), (1, b), (1, c), (2, a), (2, b), (2, c), (a, a), (a, b), (a, c), (b, a), (b, b), (b, c), (c, a), (c, b), (c, c)}\n\nComparing the two sets, we can see that (A ∪ B) × (A ∪ B) is equal to the union of (A ∪ B) × A and (A ∪ B) × B."
+}

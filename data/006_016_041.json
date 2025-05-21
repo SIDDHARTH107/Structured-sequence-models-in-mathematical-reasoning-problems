@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Probability",
+    "sub_topic": "Probability of a certain type of product defect occurring in a manufacturing process",
+    "message_1": "A manufacturing company produces smartphones and the probability of producing a defective device is 0.05. \n\nIf the company produces 1000 smartphones, what is the probability that exactly 50 of them will be defective?",
+    "message_2": "To solve this problem, we can use the binomial probability formula, which is:\n\nP(X = k) = (nCk) * (p^k) * (1-p)^(n-k)\n\nwhere:\n- P(X = k) is the probability of having exactly k defective devices\n- n is the total number of smartphones produced (in this case, 1000)\n- k is the number of defective devices (in this case, 50)\n- p is the probability of producing a defective device (0.05)\n- nCk is the number of combinations of choosing k defective devices from n total devices, which can be calculated as n! / (k!(n-k)!)\n\nPlugging in the values:\n\nP(X = 50) = (1000C50) * (0.05^50) * (0.95^950)\n\nFirst, let's calculate 1000C50:\n\n1000C50 = 1000! / (50!(1000-50)!)\n= 1000! / (50! * 950!)\n\nUsing a calculator, we get:\n\n1000C50 ≈ 1.0299 * 10^20\n\nNow, let's calculate (0.05^50) * (0.95^950):\n\n(0.05^50) * (0.95^950) ≈ 1.798 * 10^-24\n\nFinally, multiply the two results:\n\nP(X = 50) ≈ (1.0299 * 10^20) * (1.798 * 10^-24)\nP(X = 50) ≈ 1.8506 * 10^-4\n\nSo, the probability that exactly 50 of the 1000 smartphones produced will be defective is approximately 1.8506 * 10^-4, or 0.018506%."
+}

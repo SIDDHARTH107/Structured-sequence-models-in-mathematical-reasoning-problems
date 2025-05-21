@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "ElGamal encryption and decryption",
+    "message_1": "Sure! Here's a question for a math student to solve:\n\nElGamal encryption uses a prime number p=101 and a primitive root alpha=7. Suppose Alice wants to send a secret message to Bob where the message M=31 and Bob's public key is (alpha=7, beta=98). Alice chooses a random number k=13 and computes the ciphertext as follows:\n- C1 = alpha^k mod p\n- C2 = M * beta^k mod p\n\nWhat is the final encrypted message (C1, C2) that Alice sends to Bob?",
+    "message_2": "To compute the final encrypted message (C1, C2), we will follow the given steps:\n\n1. C1 = alpha^k mod p\n2. C2 = M * beta^k mod p\n\nGiven values:\n- p = 101 (prime number)\n- alpha = 7 (primitive root)\n- M = 31 (message)\n- beta = 98 (Bob's public key)\n- k = 13 (random number chosen by Alice)\n\nNow, let's compute C1 and C2:\n\nC1 = alpha^k mod p = 7^13 mod 101\nC1 = 96824599 mod 101\nC1 = 50\n\nC2 = M * beta^k mod p = 31 * 98^13 mod 101\nC2 = 31 * 8175070281 mod 101\nC2 = 2535301200456458801 mod 101\nC2 = 76\n\nSo, the final encrypted message (C1, C2) that Alice sends to Bob is (50, 76)."
+}

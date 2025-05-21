@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Calculus",
+    "sub_topic": "Solving differential equations",
+    "message_1": "Consider the differential equation:\n\ndy/dx - 2y = e^(-2x)\n\nFind the general solution of the differential equation.",
+    "message_2": "To solve the given first-order linear differential equation, we will use an integrating factor. The differential equation is of the form:\n\ndy/dx - 2y = e^(-2x)\n\nFirst, we find the integrating factor, which is given by the exponential of the integral of the coefficient of y:\n\nIntegrating factor = e^(∫-2 dx) = e^(-2x)\n\nNow, we multiply both sides of the differential equation by the integrating factor:\n\ne^(-2x) dy/dx - 2e^(-2x) y = e^(-2x) * e^(-2x)\n\nNow, we notice that the left side of the equation is the derivative of the product of y and the integrating factor:\n\nd/dx (y * e^(-2x)) = e^(-4x)\n\nNow, we integrate both sides with respect to x:\n\n∫ d(y * e^(-2x)) = ∫ e^(-4x) dx\n\ny * e^(-2x) = (-1/4) * e^(-4x) + C\n\nNow, we solve for y:\n\ny = e^(2x) * ((-1/4) * e^(-4x) + C)\n\ny = (-1/4) * e^(-2x) + C * e^(2x)\n\nThis is the general solution of the given differential equation."
+}

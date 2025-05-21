@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Generating functions",
+    "message_1": "Here's a precise numerical problem in generating functions for a math student to solve:\n\nFind the coefficient of $x^5$ in the power series expansion of the generating function for the number of ways to roll a sum of 7 with two fair six-sided dice.",
+    "message_2": "To find the generating function for the number of ways to roll a sum of 7 with two fair six-sided dice, we first need to find the generating function for each die. Since each die has six faces with numbers 1 through 6, the generating function for a single die is:\n\n$G(x) = x + x^2 + x^3 + x^4 + x^5 + x^6$\n\nNow, we want to find the generating function for the sum of two dice. To do this, we multiply the generating functions for each die:\n\n$G(x)^2 = (x + x^2 + x^3 + x^4 + x^5 + x^6)^2$\n\nExpanding this expression, we get:\n\n$G(x)^2 = x^2 + 2x^3 + 3x^4 + 4x^5 + 5x^6 + 6x^7 + 5x^8 + 4x^9 + 3x^{10} + 2x^{11} + x^{12}$\n\nNow, we want to find the coefficient of $x^5$ in this expansion, which represents the number of ways to roll a sum of 7 with two dice. Looking at the expanded expression, we see that the coefficient of $x^5$ is 4.\n\nTherefore, there are 4 ways to roll a sum of 7 with two fair six-sided dice."
+}

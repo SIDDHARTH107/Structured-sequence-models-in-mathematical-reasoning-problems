@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Number theory",
+    "sub_topic": "Cryptographic hash functions",
+    "message_1": "A cryptographic hash function takes a message of length 75 bytes and produces a hash output of length 256 bits. If the message is altered by changing one bit, what is the probability that the hash of the altered message will be the same as the original hash output?",
+    "message_2": "A good cryptographic hash function should have the property of strong collision resistance, meaning that it should be very difficult to find two different messages that produce the same hash output. When a single bit is changed in the message, the hash function should produce a completely different output, making it appear random and unrelated to the original hash.\n\nSince the hash output is 256 bits long, there are 2^256 possible hash outputs. Assuming the hash function behaves like an ideal random function, the probability that the hash of the altered message will be the same as the original hash output is 1 in 2^256.\n\nSo, the probability is:\n\n1 / 2^256 ≈ 8.6 x 10^-78"
+}

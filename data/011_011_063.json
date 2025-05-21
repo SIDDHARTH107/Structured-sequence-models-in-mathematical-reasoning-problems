@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Partition theory",
+    "message_1": "In how many ways can 12 identical balls be partitioned into 4 groups of size 3 each?",
+    "message_2": "Since the balls are identical, we only need to consider the arrangement of the groups. We have 12 balls and want to divide them into 4 groups of 3 each. \n\nWe can represent this partitioning using stars and bars method. We have 12 stars (balls) and 3 bars to divide them into 4 groups.\n\n* * * | * * * | * * * | * * *\n\nNow, we need to find the number of ways to arrange these 12 stars and 3 bars. There are a total of 15 positions (12 stars + 3 bars), and we need to choose 3 positions for the bars.\n\nThe number of ways to do this is given by the combination formula: C(n, k) = n! / (k!(n-k)!)\n\nIn this case, n = 15 (total positions) and k = 3 (positions for bars).\n\nC(15, 3) = 15! / (3!(15-3)!) = 15! / (3!12!) = (15 × 14 × 13) / (3 × 2 × 1) = 455\n\nSo, there are 455 ways to partition 12 identical balls into 4 groups of size 3 each."
+}

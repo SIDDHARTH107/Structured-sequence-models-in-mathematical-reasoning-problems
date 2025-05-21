@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Block designs",
+    "message_1": "A school has 21 students and wants to form basketball teams to compete in a tournament. Each team must have 5 players. How many different teams can be formed, and how many players will be left without a team?",
+    "message_2": "To determine the number of different teams that can be formed, we can use the combination formula:\n\nC(n, k) = n! / (k!(n-k)!)\n\nwhere n is the total number of students (21), k is the number of students per team (5), and ! denotes the factorial function.\n\nC(21, 5) = 21! / (5!(21-5)!)\nC(21, 5) = 21! / (5!16!)\nC(21, 5) = (21*20*19*18*17) / (5*4*3*2*1)\nC(21, 5) = 4084101 / 120\nC(21, 5) = 34034\n\nSo, 34,034 different teams can be formed.\n\nTo find out how many players will be left without a team, we can use the modulo operation:\n\n21 students % 5 players per team = 1 player left without a team.\n\nTherefore, 34,034 different teams can be formed, and 1 player will be left without a team."
+}

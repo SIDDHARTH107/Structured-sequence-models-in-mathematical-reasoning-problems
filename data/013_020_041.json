@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Game theory",
+    "sub_topic": "Beauty Contest Game",
+    "message_1": "Consider a beauty contest game with 10 players. Each player chooses a number between 0 and 100, inclusive. The winner of the game is the player whose number is closest to that of two-thirds of the average of all the numbers chosen by the players. What number should you choose to maximize your chances of winning?",
+    "message_2": "To maximize your chances of winning, you should try to predict what the other players will choose and base your choice on that prediction. Let's assume that all players are rational and will also try to maximize their chances of winning.\n\nIf all players choose a number uniformly at random between 0 and 100, the average of the numbers chosen would be 50. In this case, you should choose two-thirds of 50, which is 33.33.\n\nHowever, if all players think like this and choose 33.33, the new average would be 33.33, and the winning number would be two-thirds of 33.33, which is 22.22.\n\nThis process can be iterated, with each step assuming that all players will choose the winning number from the previous step. The sequence of winning numbers would be 33.33, 22.22, 14.81, 9.87, 6.58, 4.39, 2.93, 1.95, 1.30, and so on.\n\nAs the sequence converges, the winning number approaches zero. However, since players can only choose whole numbers between 0 and 100, the best choice to maximize your chances of winning would be to choose the smallest whole number in the sequence, which is 1."
+}

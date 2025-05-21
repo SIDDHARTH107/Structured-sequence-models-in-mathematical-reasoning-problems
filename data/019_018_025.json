@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Logic",
+    "sub_topic": "Proof theory",
+    "message_1": "Given the proof of modus ponens (P, P → Q) ⊢ Q, prove that (Q ∨ R) ∧ ¬Q ⊢ R using natural deduction.",
+    "message_2": "To prove (Q ∨ R) ∧ ¬Q ⊢ R using natural deduction, we will use the rules of inference, such as conjunction elimination, disjunction elimination, and negation elimination. Here's the step-by-step proof:\n\n1. (Q ∨ R) ∧ ¬Q (Premise)\n2. Q ∨ R (1, ∧-Elimination)\n3. ¬Q (1, ∧-Elimination)\n4. R (2, 3, Disjunction Elimination)\n   4.1 Q (Assumption)\n   4.2 ⊥ (3, 4.1, ¬-Elimination)\n   4.3 R (4.2, ⊥-Elimination)\n5. R (2, 3, Disjunction Elimination)\n   5.1 R (Assumption)\n6. R (2, 3, Disjunction Elimination)\n\nSo, we have proved that (Q ∨ R) ∧ ¬Q ⊢ R using natural deduction."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Group theory",
+    "sub_topic": "Prove that every group of prime order is cyclic.",
+    "message_1": "Let G be a group of prime order p such that |G|=13. Using the property of cyclic groups, prove that G is cyclic.",
+    "message_2": "To prove that G is cyclic, we need to show that there exists an element g in G such that every element in G can be written as a power of g.\n\nSince |G| = 13 and 13 is a prime number, we can use Lagrange's theorem which states that the order of any subgroup H of G must divide the order of G. In our case, the possible orders of subgroups of G are 1 and 13, as 13 is prime.\n\nNow, let's consider an arbitrary non-identity element g in G. We know that the order of g, denoted as |g|, is the smallest positive integer n such that g^n = e, where e is the identity element in G. Since g is a non-identity element, |g| > 1. By Lagrange's theorem, |g| must divide |G|, so |g| = 13.\n\nNow, let's consider the set H = {e, g, g^2, ..., g^12}. Since |g| = 13, all these elements are distinct, and H is a subgroup of G with 13 elements. Since |H| = |G|, we have H = G. Therefore, every element in G can be written as a power of g, and G is cyclic."
+}

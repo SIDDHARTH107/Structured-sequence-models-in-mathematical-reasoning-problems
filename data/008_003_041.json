@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Determining the rank of a matrix",
+    "message_1": "Determine the rank of the following matrix:\n\n$$\\begin{bmatrix} 2 & 4 & 6 \\\\ 1 & 3 & 5 \\\\ 0 & 0 & 0 \\end{bmatrix}$$\n\nWhat is the rank of this matrix?",
+    "message_2": "To find the rank of the matrix, we need to find the number of linearly independent rows or columns. We can do this by performing Gaussian elimination to get the matrix in row-echelon form.\n\n1. Subtract half of the first row from the second row:\n\n$$\\begin{bmatrix} 2 & 4 & 6 \\\\ 0 & 1 & 2 \\\\ 0 & 0 & 0 \\end{bmatrix}$$\n\n2. Now the matrix is in row-echelon form. We can see that there are 2 non-zero rows, which means there are 2 linearly independent rows.\n\nTherefore, the rank of the matrix is 2."
+}

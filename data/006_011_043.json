@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Probability",
+    "sub_topic": "Probability of a certain type of accident occurring in a workplace",
+    "message_1": "A factory has 10 machines, each has a 2% chance of malfunctioning on any given day. What is the probability that exactly 3 machines will malfunction on a given day?",
+    "message_2": "We can solve this problem using the binomial probability formula, which is:\n\nP(X = k) = C(n, k) * p^k * (1-p)^(n-k)\n\nwhere:\n- P(X = k) is the probability of exactly k successes (malfunctions in this case) in n trials (machines)\n- C(n, k) is the number of combinations of n items taken k at a time, also written as n! / (k!(n-k)!)\n- p is the probability of success (malfunction) for each trial (machine)\n- n is the number of trials (machines)\n- k is the number of successes (malfunctions)\n\nIn this problem, we have:\n- n = 10 (number of machines)\n- k = 3 (number of malfunctions)\n- p = 0.02 (probability of malfunction for each machine)\n\nFirst, let's calculate C(10, 3):\n\nC(10, 3) = 10! / (3!(10-3)!)\nC(10, 3) = 10! / (3!7!)\nC(10, 3) = (10 * 9 * 8) / (3 * 2 * 1)\nC(10, 3) = 720 / 6\nC(10, 3) = 120\n\nNow, let's plug the values into the binomial probability formula:\n\nP(X = 3) = C(10, 3) * p^3 * (1-p)^(10-3)\nP(X = 3) = 120 * (0.02)^3 * (0.98)^7\nP(X = 3) ≈ 0.233\n\nSo, the probability that exactly 3 machines will malfunction on a given day is approximately 0.233 or 23.3%."
+}

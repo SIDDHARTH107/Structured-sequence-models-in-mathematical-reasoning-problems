@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Game theory",
+    "sub_topic": "Trust Game",
+    "message_1": "In the Trust Game, player 1 is given 10 points and must decide how much to send to player 2 (any amount between 0 and 10). Whatever amount player 1 sends is tripled by the experimenter before it reaches player 2, who then decides how much, if any, to return to player 1 (any amount between 0 and 30). \n\nIf player 2 returns nothing, both players end up with their original points. If player 2 returns any amount between 1 and 10, player 1 ends up with more points than player 2. If player 2 returns any amount between 11 and 30, both players earn more points, but player 2 ends up with more than player 1.\n\nAssume player 1 decides to send 6 points. If player 2 returns 20 points, how many points does each player end up with?",
+    "message_2": "Player 1 starts with 10 points and sends 6 points to player 2. This leaves player 1 with 4 points. The experimenter triples the amount sent, so player 2 receives 6 * 3 = 18 points. Player 2 then decides to return 20 points to player 1, but since player 2 only has 18 points, they can only return the maximum of 18 points.\n\nPlayer 1 receives the 18 points from player 2, which adds to their remaining 4 points, giving player 1 a total of 22 points. Player 2 has given away all their 18 points, so they end up with 0 points."
+}

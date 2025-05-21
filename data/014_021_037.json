@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Cryptanalysis of Hill cipher",
+    "message_1": "The Hill cipher is an encryption technique that uses matrix operations on groups of letters to encode a message. A key matrix is used, with its inverse being used to decrypt the message. \n\nHere is a numerical problem for the students to solve:\n \nSuppose we are using the Hill cipher to encrypt a message with a 2x2 key matrix. Our encryption key is \n\nK = [3 5; 2 7] \n\nWe want to encrypt the message \"MATH\" using this key matrix. We represent \"MATH\" as the vector [12 0 19 7]. Find the encrypted message.",
+    "message_2": "To encrypt the message \"MATH\" using the Hill cipher, we need to multiply the key matrix K by the message vector. Since the message vector has 4 elements, we need to split it into two 2x1 vectors:\n\nM1 = [12; 0]\nM2 = [19; 7]\n\nNow, we multiply the key matrix K by each of these vectors:\n\nC1 = K * M1 = [3 5; 2 7] * [12; 0] = [3*12 + 5*0; 2*12 + 7*0] = [36; 24]\n\nC2 = K * M2 = [3 5; 2 7] * [19; 7] = [3*19 + 5*7; 2*19 + 7*7] = [82; 75]\n\nNow, we combine the resulting vectors C1 and C2 into a single vector:\n\nC = [36 24 82 75]\n\nFinally, we convert the numerical values back to letters using the alphabetical index (A=0, B=1, ..., Z=25):\n\nEncrypted message: \"YXGW\""
+}

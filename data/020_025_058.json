@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Optimization",
+    "sub_topic": "Optimal routing",
+    "message_1": "A delivery truck has to deliver packages to six locations. The road distance (in miles) between each pair of locations is given in the table below. Find the shortest possible distance that the truck must travel to complete all six deliveries, starting and ending at the same location.\n\n|  |Location A|Location B|Location C|Location D|Location E|Location F|\n|-|---------|---------|---------|---------|---------|---------|\n|Location A|0|5|3|10|8|4|\n|Location B|5|0|4|12|10|8|\n|Location C|3|4|0|8|6|4|\n|Location D|10|12|8|0|2|6|\n|Location E|8|10|6|2|0|5|\n|Location F|4|8|4|6|5|0|",
+    "message_2": "To find the shortest possible distance, we can use the \"nearest neighbor\" algorithm. Starting from one location, we will visit the nearest unvisited location and repeat until all locations have been visited. Finally, we return to the starting location.\n\n1. Start at Location A:\n   - Nearest unvisited location is Location C (3 miles)\n2. From Location C:\n   - Nearest unvisited location is Location F (4 miles)\n3. From Location F:\n   - Nearest unvisited location is Location E (5 miles)\n4. From Location E:\n   - Nearest unvisited location is Location D (2 miles)\n5. From Location D:\n   - Nearest unvisited location is Location B (12 miles)\n6. From Location B:\n   - All locations visited, return to Location A (5 miles)\n\nThe shortest possible distance is 3 + 4 + 5 + 2 + 12 + 5 = 31 miles."
+}

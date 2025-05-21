@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Complex analysis of differential equations",
+    "message_1": "Consider the complex differential equation $z'' + 2iz' + z = 0$, where $z(t)$ is a complex-valued function of time $t$. \n\nFind the general solution $z(t)$ of this differential equation, given that $z(0) = 1$ and $z'(0) = 2i$.",
+    "message_2": "To solve the given complex differential equation, we first find the characteristic equation:\n\n$r^2 + 2ir + 1 = 0$\n\nThis is a quadratic equation in $r$. We can use the quadratic formula to find the roots:\n\n$r = \\frac{-2i \\pm \\sqrt{(-2i)^2 - 4(1)(1)}}{2}$\n\n$r = \\frac{-2i \\pm \\sqrt{-4 + 4}}{2}$\n\n$r = \\frac{-2i \\pm 0}{2}$\n\n$r = -i$\n\nSince we have a repeated root, the general solution will be of the form:\n\n$z(t) = (A + Bt)e^{-it}$\n\nNow we can use the initial conditions to find the constants $A$ and $B$.\n\n1. $z(0) = 1$\n\n$1 = (A + B(0))e^{-i(0)}$\n\n$1 = A$\n\n2. $z'(0) = 2i$\n\nTo find $z'(t)$, we first differentiate $z(t)$ with respect to $t$:\n\n$z'(t) = (B - iAt - iBt^2)e^{-it}$\n\nNow we can use the second initial condition:\n\n$2i = (B - iA(0) - iB(0)^2)e^{-i(0)}$\n\n$2i = B$\n\nSo, the general solution is:\n\n$z(t) = (1 + (2i)t)e^{-it}$"
+}

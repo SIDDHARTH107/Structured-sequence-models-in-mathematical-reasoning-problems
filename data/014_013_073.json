@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Hill cipher",
+    "message_1": "Using Hill Cipher with a matrix encryption key, encrypt the message \"HELLO\" into ciphertext. The matrix key is:\n\n0 1\n2 3\n\nNote: the letters should be mapped to numbers based on their position in the alphabet (A=0, B=1, C=2, etc.) and the ciphertext should also be represented as letters that correspond to the mapped numbers.",
+    "message_2": "To encrypt the message \"HELLO\" using the Hill Cipher with the given matrix key, follow these steps:\n\n1. Convert the letters to their corresponding numbers based on their position in the alphabet (A=0, B=1, C=2, etc.):\n   H = 7, E = 4, L = 11, L = 11, O = 14\n\n2. Break the message into pairs of numbers (if the message has an odd number of characters, add an extra character, usually 'X' or 'Z'):\n   (7, 4), (11, 11), (14, -)\n\n   Since we have an odd number of characters, we'll add an extra character, 'X' (23):\n   (7, 4), (11, 11), (14, 23)\n\n3. Multiply each pair of numbers by the matrix key:\n   [0 1] [7]   [ 4]   [ 4]\n   [2 3] [4] = [14] = [14]\n\n   [0 1] [11]   [11]   [11]\n   [2 3] [11] = [55] = [ 3]\n\n   [0 1] [14]   [23]   [23]\n   [2 3] [23] = [83] = [ 7]\n\n4. Convert the resulting numbers back to letters:\n   4 = E, 14 = O, 11 = L, 3 = D, 23 = X, 7 = H\n\nThe encrypted message is \"EOLDXH\"."
+}

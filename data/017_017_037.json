@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Group theory",
+    "sub_topic": "Prove that every group of order 30 is isomorphic to either the cyclic group C30, the dihedral group D15, or the non-abelian group of order 30.",
+    "message_1": "What are the possible numbers of elements of order 2 in a non-abelian group of order 30, and how many non-isomorphic non-abelian groups of order 30 are there?",
+    "message_2": "A non-abelian group of order 30 has the form G = H ⋊ K, where H and K are subgroups of G with orders |H| = 15 and |K| = 2. There are two possibilities for H: the cyclic group Z_15 or the direct product Z_3 × Z_5. In both cases, H has no elements of order 2.\n\nThe group K is isomorphic to Z_2, which has one element of order 2. The semi-direct product ⋊ is determined by an action of K on H, which is given by an automorphism of H of order 2. In the case of H = Z_15, there are two such automorphisms: the identity and the inverse map. The identity automorphism leads to the direct product Z_15 × Z_2, which is abelian, so we discard it. The inverse map gives a non-abelian group with one element of order 2.\n\nIn the case of H = Z_3 × Z_5, there are 2 automorphisms of order 2: the one that sends (x, y) to (x, y^4) and the one that sends (x, y) to (x^2, y^4). These automorphisms give two non-isomorphic non-abelian groups of order 30, both with one element of order 2.\n\nIn conclusion, there are three non-isomorphic non-abelian groups of order 30, and each of them has one element of order 2."
+}

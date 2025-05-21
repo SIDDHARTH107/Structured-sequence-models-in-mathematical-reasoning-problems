@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Pascal's triangle",
+    "message_1": "How many ways can you pick 5 cards from a deck of 52 cards in poker where 1 card is selected from each suit (hearts, diamonds, clubs, spades)?",
+    "message_2": "To solve this problem, we can use the combination formula, which is C(n, k) = n! / (k!(n-k)!), where n is the total number of items, k is the number of items to choose, and ! denotes the factorial.\n\nSince there are 13 cards in each suit and we need to choose 1 card from each suit, we can calculate the number of ways to choose 1 card from each suit separately and then multiply the results together.\n\nFor hearts, there are C(13, 1) ways to choose 1 card.\nFor diamonds, there are C(13, 1) ways to choose 1 card.\nFor clubs, there are C(13, 1) ways to choose 1 card.\nFor spades, there are C(13, 1) ways to choose 1 card.\n\nC(13, 1) = 13! / (1!(13-1)!) = 13! / (1! * 12!) = 13\n\nSo, there are 13 ways to choose 1 card from each suit.\n\nNow, we multiply the number of ways for each suit together:\n\n13 (hearts) * 13 (diamonds) * 13 (clubs) * 13 (spades) = 13^4 = 28,561\n\nThere are 28,561 ways to pick 5 cards from a deck of 52 cards in poker where 1 card is selected from each suit."
+}

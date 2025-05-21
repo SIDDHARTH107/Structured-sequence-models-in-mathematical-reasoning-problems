@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Topology",
+    "sub_topic": "Compactness and its various forms",
+    "message_1": "Let X = [0,1] and Y = [0,2]. Define a function f:X → Y by f(x) = 2 x. Prove that f is not continuous.",
+    "message_2": "To prove that f is not continuous, we need to show that there exists a point x in X such that for any given ε > 0, there exists a δ > 0 such that for all x' in X with |x' - x| < δ, we have |f(x') - f(x)| ≥ ε.\n\nHowever, the given function f(x) = 2x is actually continuous on the interval X = [0, 1]. To show this, we can use the ε-δ definition of continuity:\n\nLet x ∈ X and ε > 0. We want to find a δ > 0 such that for all x' in X with |x' - x| < δ, we have |f(x') - f(x)| < ε.\n\nConsider δ = ε/2. Now, let x' ∈ X such that |x' - x| < δ. Then,\n\n|f(x') - f(x)| = |2x' - 2x| = 2|x' - x| < 2(ε/2) = ε.\n\nSince we can find a δ > 0 that satisfies the condition for all x ∈ X and ε > 0, the function f(x) = 2x is continuous on the interval X = [0, 1]."
+}

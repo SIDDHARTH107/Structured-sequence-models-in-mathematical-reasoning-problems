@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Analytic functions and their properties",
+    "message_1": "Suppose that f(z) is an entire function such that f(0)=2 and |f(z)|≤5 for all |z|≤1/2. Find the maximum possible value of |f′(0)|.",
+    "message_2": "Since f(z) is an entire function, it can be represented by its Taylor series expansion around z=0:\n\nf(z) = a_0 + a_1z + a_2z^2 + a_3z^3 + ...\n\nGiven that f(0) = 2, we know that a_0 = 2. Now we need to find the maximum possible value of |f′(0)|. The derivative of f(z) is:\n\nf′(z) = a_1 + 2a_2z + 3a_3z^2 + ...\n\nThus, f′(0) = a_1. To find the maximum possible value of |a_1|, we can use the Cauchy's integral formula for the derivative:\n\na_1 = f′(0) = (1/(2πi))∮(f(z)/z^2)dz\n\nwhere the integral is taken over a circle of radius 1/2 centered at the origin. Since |f(z)| ≤ 5 for all |z| ≤ 1/2, we have:\n\n|a_1| = |f′(0)| ≤ (1/(2π))∮(|f(z)|/|z^2|)|dz| ≤ (1/(2π))(5/(1/2)^2)∮|dz|\n\nThe last integral is simply the circumference of the circle, which is 2π(1/2). Therefore,\n\n|a_1| ≤ (1/(2π))(5/(1/4))(π)\n\n|a_1| ≤ 10\n\nSo the maximum possible value of |f′(0)| is 10."
+}

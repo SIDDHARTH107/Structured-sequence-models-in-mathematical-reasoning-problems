@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Trigonometry",
+    "sub_topic": "Finding the integral of a trigonometric function",
+    "message_1": "What is the integral of the function f(x) = 5 sin^2(x) dx, where x ranges from 0 to pi/2?",
+    "message_2": "To solve the integral of the function f(x) = 5 sin^2(x) dx from 0 to π/2, we can use the double-angle formula for cosine: cos(2x) = 1 - 2sin^2(x). We can rewrite sin^2(x) in terms of cos(2x):\n\nsin^2(x) = (1 - cos(2x))/2\n\nNow, we can substitute this back into the original integral:\n\n∫(5 sin^2(x)) dx = 5∫((1 - cos(2x))/2) dx\n\nDistribute the 5:\n\n= (5/2)∫(1 - cos(2x)) dx\n\nNow, we can integrate each term separately:\n\n= (5/2)[∫(1) dx - ∫(cos(2x)) dx]\n\nIntegrate each term:\n\n= (5/2)[x - (1/2)sin(2x)] + C\n\nNow, we need to evaluate this integral from 0 to π/2:\n\n= (5/2)[(π/2) - (1/2)sin(π) - (0 - (1/2)sin(0))]\n\nSince sin(π) = 0 and sin(0) = 0, the second term becomes 0:\n\n= (5/2)(π/2)\n\nMultiply:\n\n= (5π)/4\n\nSo, the integral of the function f(x) = 5 sin^2(x) dx from 0 to π/2 is (5π)/4."
+}

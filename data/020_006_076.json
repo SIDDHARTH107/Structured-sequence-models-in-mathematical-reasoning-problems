@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Optimization",
+    "sub_topic": "Mixed-integer programming",
+    "message_1": "A company produces two types of products, A and B, at different production costs. Product A generates a profit of $10 per unit sold, whereas product B generates a profit of $15 per unit sold. The company has limited resources and can produce up to 200 units per week. Each unit of product A requires 2 hours of production time, and each unit of product B requires 3 hours of production time. Therefore, the company's weekly production time is limited to 500 hours. \n\nYour task is to help the company determine the optimal production mix to maximize their profit within the given constraints. Write a mixed-integer programming model to determine the number of units of each product the company should produce to maximize their weekly profit.",
+    "message_2": "Let x be the number of units of product A and y be the number of units of product B.\n\nObjective function (maximize profit):\nMaximize P = 10x + 15y\n\nConstraints:\n1. Production capacity constraint: x + y ≤ 200\n2. Production time constraint: 2x + 3y ≤ 500\n3. Non-negativity constraint: x, y ≥ 0\n\nThe mixed-integer programming model can be written as:\n\nMaximize P = 10x + 15y\nsubject to:\nx + y ≤ 200\n2x + 3y ≤ 500\nx, y ≥ 0 and integer\n\nTo solve this mixed-integer programming model, you can use optimization software like Gurobi, CPLEX, or open-source solvers like GLPK, CBC, or SCIP."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Residue calculus and its applications",
+    "message_1": "Find the residue of the function $f(z) = \\frac{z^2 + 1}{z^4 + 4}$ at the pole $z = i$.",
+    "message_2": "To find the residue of the function $f(z) = \\frac{z^2 + 1}{z^4 + 4}$ at the pole $z = i$, we first need to factor the denominator and find the order of the pole.\n\nThe denominator can be factored as follows:\n\n$$z^4 + 4 = (z^2 + 2 + 2i)(z^2 + 2 - 2i)$$\n\nNow, we can rewrite the function as:\n\n$$f(z) = \\frac{z^2 + 1}{(z^2 + 2 + 2i)(z^2 + 2 - 2i)}$$\n\nWe can see that the pole $z = i$ is a simple pole (order 1) since it is a root of the factor $z^2 + 2 + 2i$ with multiplicity 1.\n\nTo find the residue, we can use the formula for a simple pole:\n\n$$\\text{Res}(f, i) = \\lim_{z \\to i} (z - i) f(z)$$\n\nLet's first multiply the function by $(z - i)$:\n\n$$(z - i) f(z) = \\frac{(z^2 + 1)(z - i)}{(z^2 + 2 + 2i)(z^2 + 2 - 2i)}$$\n\nNow, we can take the limit as $z \\to i$:\n\n$$\\text{Res}(f, i) = \\lim_{z \\to i} \\frac{(z^2 + 1)(z - i)}{(z^2 + 2 + 2i)(z^2 + 2 - 2i)}$$\n\nSubstitute $z = i$:\n\n$$\\text{Res}(f, i) = \\frac{((i)^2 + 1)(i - i)}{((i)^2 + 2 + 2i)((i)^2 + 2 - 2i)}$$\n\n$$\\text{Res}(f, i) = \\frac{(0)(0)}{((-1 + 2 + 2i)((-1 + 2 - 2i)}$$\n\nSince the numerator is 0, the residue is also 0:\n\n$$\\text{Res}(f, i) = 0$$"
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Set theory",
+    "sub_topic": "Prove that the Cartesian product of two sets is distributive over union.",
+    "message_1": "Let A = {1, 2} and B = {a, b}. Find the Cartesian product of AxB and (A∪B)×B, and show that the Cartesian product of two sets is distributive over union.",
+    "message_2": "First, let's find the Cartesian product AxB:\n\nAxB = {(1, a), (1, b), (2, a), (2, b)}\n\nNow, let's find the union of A and B:\n\nA∪B = {1, 2, a, b}\n\nNow, let's find the Cartesian product of (A∪B)×B:\n\n(A∪B)×B = {(1, a), (1, b), (2, a), (2, b), (a, a), (a, b), (b, a), (b, b)}\n\nNow, let's show that the Cartesian product of two sets is distributive over union. We need to show that A×(B∪C) = (A×B)∪(A×C) for any sets A, B, and C.\n\nLet's consider an arbitrary element (x, y) in A×(B∪C). This means that x is in A and y is in B∪C. If y is in B, then (x, y) is in A×B. If y is in C, then (x, y) is in A×C. Therefore, (x, y) is in (A×B)∪(A×C), and we have A×(B∪C) ⊆ (A×B)∪(A×C).\n\nNow, let's consider an arbitrary element (x, y) in (A×B)∪(A×C). This means that either (x, y) is in A×B or (x, y) is in A×C. If (x, y) is in A×B, then x is in A and y is in B. If (x, y) is in A×C, then x is in A and y is in C. In either case, x is in A and y is in B∪C, so (x, y) is in A×(B∪C). Therefore, (A×B)∪(A×C) ⊆ A×(B∪C).\n\nSince A×(B∪C) ⊆ (A×B)∪(A×C) and (A×B)∪(A×C) ⊆ A×(B∪C), we have A×(B∪C) = (A×B)∪(A×C), which shows that the Cartesian product of two sets is distributive over union."
+}

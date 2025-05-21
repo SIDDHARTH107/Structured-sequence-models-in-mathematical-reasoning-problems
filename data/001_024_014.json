@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Algebra",
+    "sub_topic": "Simplifying trigonometric expressions",
+    "message_1": "Simplify the following trigonometric expression:\n\n$$\\frac{\\cos^3x - \\sin^3x}{\\cos x - \\sin x}$$\n\nSimplify the expression in terms of $\\sin x$ and/or $\\cos x$.",
+    "message_2": "To simplify the given expression, we can use the difference of cubes factorization formula, which states that for any two numbers a and b:\n\n$$a^3 - b^3 = (a - b)(a^2 + ab + b^2)$$\n\nIn our case, let $a = \\cos x$ and $b = \\sin x$. Then we have:\n\n$$\\frac{\\cos^3x - \\sin^3x}{\\cos x - \\sin x} = \\frac{(\\cos x - \\sin x)(\\cos^2x + \\cos x \\sin x + \\sin^2x)}{\\cos x - \\sin x}$$\n\nNow, we can cancel out the common factor $(\\cos x - \\sin x)$ from the numerator and denominator:\n\n$$\\frac{\\cos^3x - \\sin^3x}{\\cos x - \\sin x} = \\cos^2x + \\cos x \\sin x + \\sin^2x$$\n\nFinally, we can use the Pythagorean identity $\\cos^2x + \\sin^2x = 1$ to simplify the expression further:\n\n$$\\cos^2x + \\cos x \\sin x + \\sin^2x = 1 + \\cos x \\sin x$$\n\nSo, the simplified expression is:\n\n$$1 + \\cos x \\sin x$$"
+}

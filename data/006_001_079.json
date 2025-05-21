@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Probability",
+    "sub_topic": "Coin flipping and probability of getting heads or tails",
+    "message_1": "A coin is flipped 50 times. What is the probability that it lands heads up at least 30 times?",
+    "message_2": "To calculate the probability of a coin landing heads up at least 30 times in 50 flips, we can use the binomial probability formula:\n\nP(X ≥ k) = Σ [C(n, x) * p^x * (1-p)^(n-x)]\n\nwhere:\n- P(X ≥ k) is the probability of getting at least k successes (heads)\n- n is the number of trials (flips)\n- x is the number of successes (heads)\n- p is the probability of success (0.5 for a fair coin)\n- C(n, x) is the number of combinations of n items taken x at a time (n choose x)\n\nIn this case, n = 50 and k = 30. We want to find the probability of getting at least 30 heads, so we need to sum the probabilities for each value of x from 30 to 50:\n\nP(X ≥ 30) = Σ [C(50, x) * 0.5^x * 0.5^(50-x)] for x = 30 to 50\n\nCalculating this sum, we get:\n\nP(X ≥ 30) ≈ 0.0985\n\nSo, the probability of the coin landing heads up at least 30 times in 50 flips is approximately 9.85%."
+}

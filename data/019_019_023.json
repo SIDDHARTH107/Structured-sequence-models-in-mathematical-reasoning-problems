@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Logic",
+    "sub_topic": "Computability theory",
+    "message_1": "Here is a numerical problem on computability theory:\n\nSuppose we have a language L over the alphabet {0,1}. We define the function f: L --> {0,1} where f(x) = 1 if and only if x contains an even number of 1's. Show that f is computable.",
+    "message_2": "To show that f is computable, we need to demonstrate that there exists a Turing machine (or any other equivalent model of computation) that can compute the function f for any input string x in the language L.\n\nWe can design a simple Turing machine M that computes f as follows:\n\n1. Initialize a counter variable to 0.\n2. Read the input string x from left to right.\n3. For each symbol in the input string x:\n   a. If the symbol is 1, increment the counter by 1.\n   b. If the symbol is 0, do nothing.\n4. After reading the entire input string, check the value of the counter.\n5. If the counter value is even, output 1; otherwise, output 0.\n\nThis Turing machine M can compute the function f for any input string x in the language L. Since there exists a Turing machine that can compute f, we can conclude that the function f is computable."
+}

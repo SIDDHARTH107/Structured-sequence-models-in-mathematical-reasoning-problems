@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Residue calculus and its applications",
+    "message_1": "Find the residue of the function f(z) = cos(z)/((z-2)(z-4)(z+1)) at z = 2.",
+    "message_2": "To find the residue of the function f(z) = cos(z)/((z-2)(z-4)(z+1)) at z = 2, we can use the formula for the residue of a simple pole:\n\nRes(f, z0) = lim (z -> z0) [(z - z0) * f(z)]\n\nIn this case, z0 = 2. First, we need to rewrite the function f(z) as follows:\n\nf(z) = cos(z)/((z-2)(z-4)(z+1))\n\nNow, we can find the residue at z = 2:\n\nRes(f, 2) = lim (z -> 2) [(z - 2) * cos(z)/((z-2)(z-4)(z+1))]\n\nThis simplifies to:\n\nRes(f, 2) = lim (z -> 2) [cos(z)/((z-4)(z+1))]\n\nNow, we can evaluate the limit as z approaches 2:\n\nRes(f, 2) = cos(2)/((2-4)(2+1))\n\nRes(f, 2) = cos(2)/((-2)(3))\n\nRes(f, 2) = -cos(2)/6\n\nSo, the residue of the function f(z) = cos(z)/((z-2)(z-4)(z+1)) at z = 2 is -cos(2)/6."
+}

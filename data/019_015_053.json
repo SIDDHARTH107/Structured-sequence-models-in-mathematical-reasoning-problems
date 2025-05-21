@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Logic",
+    "sub_topic": "Type theory",
+    "message_1": "Suppose you have a type called 'Person' and a function called 'age' which returns the age of a person. Write a type called 'Adult' which represents all people who are 18 years or older. Then, given a list of persons and their ages, write a function that returns only the persons who are classified as adults, along with their respective ages. For example, if the input list is [( \"John\", 25 ), (\"Mary\", 17 ), (\"Peter\", 20)], the output should be [( \"John\", 25 ), (\"Peter\", 20)].",
+    "message_2": "First, let's define the 'Person' and 'Adult' types:\n\n```python\nfrom typing import List, Tuple\n\nPerson = Tuple[str, int]\nAdult = Tuple[str, int]\n```\n\nNow, let's write the function that filters adults from a list of persons:\n\n```python\ndef filter_adults(persons: List[Person]) -> List[Adult]:\n    adults = []\n    for person in persons:\n        name, age = person\n        if age >= 18:\n            adults.append((name, age))\n    return adults\n```\n\nFinally, let's test the function with the given example:\n\n```python\npersons = [(\"John\", 25), (\"Mary\", 17), (\"Peter\", 20)]\nadults = filter_adults(persons)\nprint(adults)  # Output: [('John', 25), ('Peter', 20)]\n```"
+}

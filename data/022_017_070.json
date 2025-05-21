@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Complex analysis of differential equations",
+    "message_1": "Find the solution of the differential equation y'' + 4y = 0 with initial conditions y(0) = 1 and y'(0) = 2.",
+    "message_2": "To solve the given differential equation y'' + 4y = 0 with initial conditions y(0) = 1 and y'(0) = 2, we first find the characteristic equation:\n\nr^2 + 4 = 0\n\nThis is a quadratic equation, and we can solve for r:\n\nr^2 = -4\nr = ±2i\n\nSince we have complex roots, the general solution to the differential equation will be in the form:\n\ny(x) = e^(αx) * (A * cos(βx) + B * sin(βx))\n\nIn our case, α = 0 and β = 2, so the general solution is:\n\ny(x) = A * cos(2x) + B * sin(2x)\n\nNow, we apply the initial conditions to find the values of A and B.\n\n1. y(0) = 1:\n\n1 = A * cos(0) + B * sin(0)\n1 = A * 1 + B * 0\nA = 1\n\n2. y'(0) = 2:\n\nTo find y'(x), we differentiate y(x) with respect to x:\n\ny'(x) = -2A * sin(2x) + 2B * cos(2x)\n\nNow, we apply the initial condition y'(0) = 2:\n\n2 = -2A * sin(0) + 2B * cos(0)\n2 = -2(1) * 0 + 2B * 1\n2 = 2B\nB = 1\n\nSo, the particular solution to the differential equation with the given initial conditions is:\n\ny(x) = cos(2x) + sin(2x)"
+}

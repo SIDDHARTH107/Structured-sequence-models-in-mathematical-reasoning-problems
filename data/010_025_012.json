@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Topology",
+    "sub_topic": "Topological quantum field theory and its applications.",
+    "message_1": "Given a closed orientable surface S of genus g and a non-negative integer k, write out a formula for the number of (complex) irreducible representations of the topological quantum field theory associated to the input (S,k).",
+    "message_2": "The number of complex irreducible representations of the topological quantum field theory (TQFT) associated with a closed orientable surface S of genus g and a non-negative integer k can be computed using the Verlinde formula. The Verlinde formula is given by:\n\nN_r = (1 / (k + h)) * Σ_s (gcd(r, s, k + h) * exp(2πi * r * s / (k + h)))\n\nwhere N_r is the number of irreducible representations with a given label r, h is the dual Coxeter number of the associated Lie algebra (for SU(N) case, h = N), and the sum is taken over all s in the range 0 ≤ s ≤ k.\n\nFor a closed orientable surface S of genus g, the total number of irreducible representations can be obtained by summing N_r over all possible r values in the range 0 ≤ r ≤ k:\n\nTotal number of irreducible representations = Σ_r N_r\n\nwhere the sum is taken over all r in the range 0 ≤ r ≤ k.\n\nNote that this formula is applicable for the SU(N) case, and the result may vary for different Lie groups."
+}

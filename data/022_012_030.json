@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Meromorphic functions and their properties",
+    "message_1": "Here's a precise numerical problem based on the subtopic Meromorphic functions and their properties:\n\nLet f(z) = (2z - 1) / (z + 3) be a meromorphic function on the complex plane. Determine the poles and the residues of f(z) inside the contour C: |z| = 4.",
+    "message_2": "To find the poles of the meromorphic function f(z) = (2z - 1) / (z + 3), we need to find the values of z for which the denominator is equal to zero:\n\nz + 3 = 0\nz = -3\n\nSince |(-3)| = 3, which is less than 4, the pole z = -3 is inside the contour C: |z| = 4.\n\nNow, we need to find the residue of f(z) at the pole z = -3. Since the pole is of order 1, we can directly find the residue by taking the limit:\n\nResidue = lim (z -> -3) [(z - (-3)) * f(z)]\n= lim (z -> -3) [(z + 3) * (2z - 1) / (z + 3)]\n\nThe (z + 3) terms cancel out:\n\nResidue = lim (z -> -3) (2z - 1)\n\nNow, substitute z = -3 into the expression:\n\nResidue = 2(-3) - 1\n= -6 - 1\n= -7\n\nSo, the residue of f(z) at the pole z = -3 inside the contour C: |z| = 4 is -7."
+}

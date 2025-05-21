@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Solving systems of linear equations with non-square matrices",
+    "message_1": "Consider the following system of linear equations:\n\n2x + 3y - z = 1\n\nx - 4y + 6z = 7\n\n3x + 2y + z = 2\n\nSolve for the values of x, y, and z using Gaussian elimination method.",
+    "message_2": "To solve the system of linear equations using Gaussian elimination, we first write the augmented matrix:\n\n| 2  3 -1 | 1 |\n| 1 -4  6 | 7 |\n| 3  2  1 | 2 |\n\nStep 1: Eliminate x from the second and third rows.\n\nR2 = R2 - (1/2)R1\nR3 = R3 - (3/2)R1\n\n|  2   3  -1 |  1  |\n|  0  -5   6.5 | 6.5 |\n|  0  -2.5  2.5 | -0.5 |\n\nStep 2: Eliminate y from the third row.\n\nR3 = R3 - (-2.5/-5)R2\n\n|  2   3  -1 |  1  |\n|  0  -5  6.5 | 6.5 |\n|  0   0   1 |  1  |\n\nNow, we have an upper triangular matrix, and we can use back-substitution to find the values of x, y, and z.\n\nStep 3: Solve for z.\n\nz = 1\n\nStep 4: Solve for y.\n\n-5y + 6.5(1) = 6.5\n-5y = 0\ny = 0\n\nStep 5: Solve for x.\n\n2x + 3(0) - 1(1) = 1\n2x = 2\nx = 1\n\nSo, the solution to the system of linear equations is x = 1, y = 0, and z = 1."
+}

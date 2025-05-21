@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Topology",
+    "sub_topic": "Cohomology and cohomology groups",
+    "message_1": "Consider a closed orientable surface of genus 2. Calculate the second cohomology group of the surface with coefficients in Z (the integers).",
+    "message_2": "To compute the second cohomology group of a closed orientable surface of genus 2, we can use the universal coefficient theorem for cohomology. Let's denote the surface as M. The universal coefficient theorem states that there is a short exact sequence:\n\n0 → Ext(H_1(M), Z) → H^2(M, Z) → Hom(H_2(M), Z) → 0\n\nwhere Ext and Hom are the Ext and Hom functors, H_1(M) and H_2(M) are the first and second homology groups of M, and H^2(M, Z) is the second cohomology group with coefficients in Z.\n\nFor a closed orientable surface of genus 2, we have the following homology groups:\n\nH_1(M) = Z ⊕ Z ⊕ Z ⊕ Z\nH_2(M) = Z\n\nNow, we need to compute the Ext and Hom terms in the short exact sequence. Since Z is a free abelian group, we have:\n\nExt(Z, Z) = 0\nHom(Z, Z) = Z\n\nThus, the short exact sequence becomes:\n\n0 → 0 → H^2(M, Z) → Z → 0\n\nThis implies that H^2(M, Z) ≅ Z, as the sequence is exact. Therefore, the second cohomology group of a closed orientable surface of genus 2 with coefficients in Z is Z."
+}

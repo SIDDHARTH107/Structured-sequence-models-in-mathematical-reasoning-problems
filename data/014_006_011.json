@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "One-time pad encryption",
+    "message_1": "Suppose you have a message \"HELLO\" that you want to encrypt using the one-time pad encryption technique. You randomly generate a key \"LXFOP\" of the same length. Using the ASCII code, what is the encrypted message?",
+    "message_2": "To encrypt the message \"HELLO\" using the one-time pad encryption technique with the key \"LXFOP\", we need to perform an XOR operation between the ASCII codes of the corresponding characters in the message and the key.\n\nHere are the ASCII codes for the message and the key:\n\nMessage: HELLO\nASCII:   72 69 76 76 79\n\nKey:     LXFOP\nASCII:   76 88 70 79 80\n\nNow, we perform the XOR operation between the corresponding ASCII codes:\n\n72 XOR 76 = 4\n69 XOR 88 = 149\n76 XOR 70 = 22\n76 XOR 79 = 3\n79 XOR 80 = 31\n\nThe encrypted message in ASCII codes is: 4 149 22 3 31\n\nTo get the encrypted message in characters, we convert these ASCII codes back to characters:\n\nEncrypted Message: E\u0014\u0016\u0003\u001f"
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Logic",
+    "sub_topic": "Linear logic",
+    "message_1": "Here's a problem for the student to solve:\n\nIn linear logic, there are two connectives called \"tensor product\" and \"par\". If we have a tensor product of two propositions A and B (written as A ⊗ B), it means that both A and B must be true. On the other hand, if we have a par of two propositions A and B (written as A ⅋ B), it means that either A or B (or both) must be true. \n\nLet A = \"It is sunny outside\" and B = \"I am wearing sunglasses\". Let's define C = \"I am going to the beach\". Use the tensor product and the par connectives to express the following statement: \n\n\"I am going to the beach if and only if it is sunny outside and I am wearing sunglasses.\"\n\nWrite your answer using only A, B, and C, and the tensor product and par connectives.",
+    "message_2": "To express the statement \"I am going to the beach if and only if it is sunny outside and I am wearing sunglasses\" using the tensor product and par connectives, we can write:\n\n(C ⊗ (A ⊗ B)) ⅋ ((¬C) ⊗ (¬(A ⊗ B)))\n\nThis means that either both C and (A ⊗ B) are true, or both ¬C and ¬(A ⊗ B) are true, which captures the \"if and only if\" relationship between going to the beach and the conditions of it being sunny outside and wearing sunglasses."
+}

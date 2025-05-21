@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Binomial coefficients",
+    "message_1": "What is the coefficient of the term cubed in the expansion of $(2x-3)^5$?",
+    "message_2": "To find the coefficient of the term cubed in the expansion of $(2x-3)^5$, we can use the binomial theorem. The binomial theorem states that for any natural number n and real numbers a and b:\n\n$(a + b)^n = \\sum_{k=0}^n {n \\choose k} a^{n-k} b^k$\n\nIn our case, we have $a = 2x$, $b = -3$, and $n = 5$. We want to find the coefficient of the term with $x^3$. To get an $x^3$ term, we need to have $a^{n-k} = (2x)^2$ since $(2x)^2 = 4x^3$. This means that $n-k = 2$, so $k = 3$. \n\nNow, we can find the coefficient using the binomial theorem:\n\n${n \\choose k} a^{n-k} b^k = {5 \\choose 3} (2x)^2 (-3)^3$\n\n${5 \\choose 3} = \\frac{5!}{3!(5-3)!} = \\frac{5!}{3!2!} = \\frac{5 \\times 4}{2} = 10$\n\nSo, the coefficient of the term cubed is:\n\n$10 \\cdot (4x^3) \\cdot (-27) = -1080x^3$\n\nThe coefficient of the term cubed in the expansion of $(2x-3)^5$ is -1080."
+}

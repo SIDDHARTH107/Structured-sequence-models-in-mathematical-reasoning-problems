@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Playfair cipher",
+    "message_1": "What is the Playfair cipher for the plaintext \"MATHEMATICS\" using the keyword \"CRYPTOGRAPHY\" and the convention of adding an \"X\" to the end of the message if the length is odd?",
+    "message_2": "To encrypt the plaintext \"MATHEMATICS\" using the Playfair cipher with the keyword \"CRYPTOGRAPHY\", follow these steps:\n\n1. Create a 5x5 grid using the keyword and the remaining letters of the alphabet (excluding J, which is usually combined with I in the Playfair cipher).\n\nKeyword: CRYPTOGAHBDEFIKLMNQSUVWXZ\nGrid:\nC R Y P T\nO G A H B\nD E F I K\nL M N Q S\nU V W X Z\n\n2. Break the plaintext into digraphs (pairs of letters). If a pair has the same letter, insert an \"X\" between them. If the plaintext has an odd number of letters, add an \"X\" at the end.\n\nPlaintext: MATHEMATICS\nDigraphs: MA TH EM AT IC SX\n\n3. Encrypt each digraph using the grid:\n- If both letters are in the same row, replace each letter with the one to its right (wrapping around if necessary).\n- If both letters are in the same column, replace each letter with the one below it (wrapping around if necessary).\n- If the letters form a rectangle, replace each letter with the one in the same row but in the other corner of the rectangle.\n\nMA -> OD\nTH -> YP\nEM -> GA\nAT -> TB\nIC -> FK\nSX -> QW\n\n4. Combine the encrypted digraphs to get the ciphertext:\n\nCiphertext: ODYPGATBFKQW"
+}

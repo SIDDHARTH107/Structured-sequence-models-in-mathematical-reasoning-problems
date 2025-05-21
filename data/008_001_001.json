@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Solving systems of linear equations using matrix methods",
+    "message_1": "Solve the following system of linear equations using matrix methods:\n\n3x + 2y = 14\n\n5x - 4y = 28",
+    "message_2": "To solve the given system of linear equations using matrix methods, we will first represent the system as an augmented matrix:\n\n```\n[ 3  2 | 14 ]\n[ 5 -4 | 28 ]\n```\n\nNow, we will perform row operations to get the matrix in row-echelon form. We will start by making the element in the first row and first column equal to 1. To do this, we can divide the first row by 3:\n\n```\n[ 1  2/3 | 14/3 ]\n[ 5 -4  | 28   ]\n```\n\nNext, we will make the element in the second row and first column equal to 0. To do this, we can subtract 5 times the first row from the second row:\n\n```\n[ 1  2/3 |  14/3 ]\n[ 0 -22/3 |  10   ]\n```\n\nNow, we will make the element in the second row and second column equal to 1. To do this, we can multiply the second row by -3/22:\n\n```\n[ 1  2/3 |  14/3 ]\n[ 0  1   | -15/11 ]\n```\n\nFinally, we will make the element in the first row and second column equal to 0. To do this, we can subtract (2/3) times the second row from the first row:\n\n```\n[ 1  0 |  32/3 ]\n[ 0  1 | -15/11 ]\n```\n\nNow, the matrix is in row-echelon form, and we can read the solution directly from the matrix:\n\nx = 32/3\ny = -15/11"
+}

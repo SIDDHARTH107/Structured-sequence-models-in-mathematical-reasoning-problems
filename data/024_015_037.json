@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Differential geometry",
+    "sub_topic": "Calculate the exterior derivative of a differential form on a manifold.",
+    "message_1": "Let $f(x,y,z) = x^2y + y^2z + z^2x$ be a function on the $3$-dimensional sphere $S^3$. \n\nCalculate the exterior derivative of the $1$-form $\\alpha = f\\,dy - z\\,dx$ on $S^3$.",
+    "message_2": "To calculate the exterior derivative of the 1-form α, we need to compute the partial derivatives of its components with respect to the variables x, y, and z. Recall that the exterior derivative of a 1-form is a 2-form, which can be written as:\n\ndα = (∂α_y/∂x - ∂α_x/∂y) dx∧dy + (∂α_z/∂y - ∂α_y/∂z) dy∧dz + (∂α_x/∂z - ∂α_z/∂x) dz∧dx\n\nNow, let's compute the partial derivatives of the components of α:\n\nα_x = -z\nα_y = f\nα_z = 0\n\n∂α_x/∂y = 0\n∂α_x/∂z = -1\n∂α_y/∂x = ∂(x^2y + y^2z + z^2x)/∂x = 2xy + z^2\n∂α_y/∂z = ∂(x^2y + y^2z + z^2x)/∂z = y^2 + 2xz\n∂α_z/∂x = 0\n∂α_z/∂y = 0\n\nNow, we can substitute these partial derivatives into the expression for dα:\n\ndα = (0 - (2xy + z^2)) dx∧dy + ((y^2 + 2xz) - 0) dy∧dz + (-1 - 0) dz∧dx\n\ndα = -(2xy + z^2) dx∧dy + (y^2 + 2xz) dy∧dz - dz∧dx\n\nSo, the exterior derivative of the 1-form α on S^3 is:\n\ndα = -(2xy + z^2) dx∧dy + (y^2 + 2xz) dy∧dz - dz∧dx"
+}

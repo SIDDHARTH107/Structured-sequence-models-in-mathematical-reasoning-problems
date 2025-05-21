@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Probability",
+    "sub_topic": "Probability of a certain type of educational outcome occurring in a school",
+    "message_1": "A school has 200 students who write a mathematics exam. The probability of passing the exam is 0.75. What is the probability that at least 160 students will pass the exam?",
+    "message_2": "To find the probability that at least 160 students will pass the exam, we can use the binomial probability formula. The binomial probability formula is:\n\nP(X = k) = (nCk) * (p^k) * (1-p)^(n-k)\n\nwhere n is the number of trials (students), k is the number of successes (students passing), p is the probability of success (0.75), and nCk is the number of combinations of n items taken k at a time.\n\nIn this case, we want to find the probability that at least 160 students pass, so we need to find the sum of probabilities for k = 160, 161, ..., 200.\n\nP(X ≥ 160) = P(X = 160) + P(X = 161) + ... + P(X = 200)\n\nCalculating each of these probabilities individually would be time-consuming, so we can use a cumulative binomial probability table or a calculator with a binomial cumulative distribution function (CDF) to find the probability.\n\nUsing a calculator with a binomial CDF function:\n\nP(X ≥ 160) = 1 - P(X ≤ 159) = 1 - binomial_cdf(n=200, p=0.75, k=159)\n\nP(X ≥ 160) ≈ 1 - 0.0668 = 0.9332\n\nSo, the probability that at least 160 students will pass the exam is approximately 0.9332 or 93.32%."
+}

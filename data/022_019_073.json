@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Complex analysis of integral equations",
+    "message_1": "Find the value of the contour integral $\\int_C \\frac{z^3 - 6z}{z-2} dz$, where $C$ is the contour formed by the positively oriented circle with center 2 and radius 3.",
+    "message_2": "To evaluate the contour integral, we first note that the function $\\frac{z^3 - 6z}{z-2}$ has a simple pole at $z=2$. Since the contour $C$ is a circle centered at 2 with radius 3, the pole is inside the contour. We can use the residue theorem to evaluate the integral.\n\nFirst, we need to find the residue of the function at the pole $z=2$. To do this, we can rewrite the function as:\n\n$$\\frac{z^3 - 6z}{z-2} = (z-2)\\frac{z^3 - 6z}{(z-2)^2} + \\frac{z^3 - 6z}{z-2}$$\n\nNow, we can find the residue by taking the limit as $z$ approaches the pole:\n\n$$\\text{Res}(f, 2) = \\lim_{z \\to 2} (z-2)\\frac{z^3 - 6z}{(z-2)^2} + \\frac{z^3 - 6z}{z-2}$$\n\nWe can simplify the expression by canceling out the $(z-2)$ terms:\n\n$$\\text{Res}(f, 2) = \\lim_{z \\to 2} \\frac{z^3 - 6z}{z-2}$$\n\nNow, we can use L'Hôpital's rule to evaluate the limit:\n\n$$\\text{Res}(f, 2) = \\lim_{z \\to 2} \\frac{3z^2 - 6}{1} = \\frac{3(2)^2 - 6}{1} = 6$$\n\nNow that we have the residue, we can use the residue theorem to evaluate the contour integral:\n\n$$\\int_C \\frac{z^3 - 6z}{z-2} dz = 2\\pi i \\cdot \\text{Res}(f, 2) = 2\\pi i \\cdot 6 = 12\\pi i$$\n\nSo, the value of the contour integral is $12\\pi i$."
+}

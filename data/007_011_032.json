@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Number theory",
+    "sub_topic": "Quadratic residues",
+    "message_1": "Let p be a prime number. Find the number of quadratic residues of 5 modulo p.",
+    "message_2": "Let's first understand what a quadratic residue is. A quadratic residue modulo p is an integer x such that there exists an integer y with x ≡ y^2 (mod p). In other words, x is a quadratic residue modulo p if it is the square of some integer modulo p.\n\nNow, we want to find the number of quadratic residues of 5 modulo p. Let's consider two cases:\n\nCase 1: p ≡ 1 (mod 5)\nIn this case, by the Quadratic Reciprocity Law, we have that 5 is a quadratic residue modulo p. Since there are (p-1)/2 squares modulo p (as p is a prime), there are (p-1)/2 quadratic residues modulo p. Therefore, in this case, there are (p-1)/2 quadratic residues of 5 modulo p.\n\nCase 2: p ≡ -1 (mod 5) or p ≡ 4 (mod 5)\nIn this case, by the Quadratic Reciprocity Law, we have that 5 is a quadratic non-residue modulo p. This means that there is no integer y such that 5 ≡ y^2 (mod p). However, there are still (p-1)/2 squares modulo p, and since 5 is not one of them, there are (p-1)/2 - 1 quadratic residues modulo p. Therefore, in this case, there are (p-1)/2 - 1 quadratic residues of 5 modulo p.\n\nIn conclusion, the number of quadratic residues of 5 modulo p depends on the value of p modulo 5. If p ≡ 1 (mod 5), there are (p-1)/2 quadratic residues, and if p ≡ -1 (mod 5) or p ≡ 4 (mod 5), there are (p-1)/2 - 1 quadratic residues."
+}

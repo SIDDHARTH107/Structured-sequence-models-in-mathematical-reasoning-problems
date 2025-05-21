@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Solving non-homogeneous systems of linear equations",
+    "message_1": "Find the solution of the non-homogeneous system of linear equations by using row reduction:\n\n0.5x + 4y - 2z = 5\n2x - 3y + z = -1\n3x + 5y + z = 4\n\nGood luck!",
+    "message_2": "To solve the given non-homogeneous system of linear equations using row reduction, we first write the augmented matrix:\n\n| 0.5  4  -2 |  5 |\n|  2  -3   1 | -1 |\n|  3   5   1 |  4 |\n\nStep 1: Multiply the first row by 4 to eliminate the fraction:\n\n|  2   16  -8 | 20 |\n|  2  -3   1 | -1 |\n|  3   5   1 |  4 |\n\nStep 2: Subtract the first row from the second row and the third row:\n\n|  2   16  -8 | 20 |\n|  0  -19   9 | -21 |\n|  1  -11   9 | -16 |\n\nStep 3: Swap the first row and the third row:\n\n|  1  -11   9 | -16 |\n|  0  -19   9 | -21 |\n|  2   16  -8 | 20 |\n\nStep 4: Subtract twice the first row from the third row:\n\n|  1  -11   9 | -16 |\n|  0  -19   9 | -21 |\n|  0   38 -26 |  52 |\n\nStep 5: Add twice the second row to the third row:\n\n|  1  -11   9 | -16 |\n|  0  -19   9 | -21 |\n|  0    0   0 |  10 |\n\nThe third row represents the equation 0 = 10, which is a contradiction. Therefore, the given system of linear equations has no solution."
+}

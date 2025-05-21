@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Cryptanalysis of Playfair cipher",
+    "message_1": "Given the following Playfair cipher encrypted message:\n\nKPXMCUYNKAMU\n\nDecrypt the message using the Playfair cipher method with the key \"CRYPTOLOGY\".",
+    "message_2": "To decrypt the message using the Playfair cipher method with the key \"CRYPTOLOGY\", we first need to create a 5x5 matrix using the key.\n\n1. Remove duplicate letters from the key: CRYPTOLOGY becomes CRYPTOLG\n2. Fill the 5x5 matrix with the key and the remaining letters of the alphabet (excluding J, which is combined with I in the Playfair cipher):\n\n   C  R  Y  P  T\n   O  L  G  A  B\n   D  E  F  H  I\n   K  M  N  Q  S\n   U  V  W  X  Z\n\n3. Now, we will decrypt the message by pairing the letters and finding their corresponding plaintext letters in the matrix:\n\n   K  P  X  M  C  U  Y  N  K  A  M  U\n\n   K  P -> H  E\n   X  M -> L  L\n   C  U -> O\n   Y  N -> W  O\n   K  A -> R  L\n   M  U -> D\n\n4. Combine the decrypted pairs to get the plaintext message: HELLO WORLD"
+}

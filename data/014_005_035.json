@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Digital signatures",
+    "message_1": "A math student needs to generate a digital signature using RSA algorithm. The student's private key is (e,d,n) where e=5,d=29,n=221. The message to be signed is \"Math is fun\". Convert the message to decimal (use ASCII values for the characters) and find the digital signature for the message.",
+    "message_2": "First, we need to convert the message \"Math is fun\" to its decimal representation using ASCII values for each character. \n\nM = 77\na = 97\nt = 116\nh = 104\n(space) = 32\ni = 105\ns = 115\nf = 102\nu = 117\nn = 110\n\nNow, we have the decimal representation of the message: 77 97 116 104 32 105 115 102 117 110\n\nNext, we will use the student's private key (d,n) = (29,221) to generate the digital signature for each decimal value in the message. The digital signature is calculated as follows:\n\nsignature = (message^d) % n\n\nCalculating the digital signature for each decimal value:\n\n77^29 % 221 = 187\n97^29 % 221 = 54\n116^29 % 221 = 212\n104^29 % 221 = 194\n32^29 % 221 = 32\n105^29 % 221 = 84\n115^29 % 221 = 200\n102^29 % 221 = 164\n117^29 % 221 = 39\n110^29 % 221 = 178\n\nThe digital signature for the message \"Math is fun\" is: 187 54 212 194 32 84 200 164 39 178"
+}

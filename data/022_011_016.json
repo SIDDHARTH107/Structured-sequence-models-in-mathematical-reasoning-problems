@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Zeros and poles of complex functions",
+    "message_1": "Consider the complex function $f(z) = \\frac{z+2}{(z-1)(z+3)^2}$. Determine the order of the pole at $z=-3$ and the order and residue of the pole at $z=1$.",
+    "message_2": "To determine the order of the pole at $z=-3$, we look at the exponent of the factor $(z+3)$ in the denominator. Since $(z+3)^2$ is in the denominator, the order of the pole at $z=-3$ is 2.\n\nNow, let's find the order and residue of the pole at $z=1$. Since the factor $(z-1)$ has an exponent of 1 in the denominator, the order of the pole at $z=1$ is 1.\n\nTo find the residue, we can use the formula for a simple pole:\n\n$$\\text{Res}(f,1) = \\lim_{z \\to 1} (z-1)f(z)$$\n\nSubstitute the function $f(z)$:\n\n$$\\text{Res}(f,1) = \\lim_{z \\to 1} (z-1)\\frac{z+2}{(z-1)(z+3)^2}$$\n\nSimplify by canceling the $(z-1)$ terms:\n\n$$\\text{Res}(f,1) = \\lim_{z \\to 1} \\frac{z+2}{(z+3)^2}$$\n\nNow, substitute $z=1$:\n\n$$\\text{Res}(f,1) = \\frac{1+2}{(1+3)^2} = \\frac{3}{16}$$\n\nSo, the order of the pole at $z=-3$ is 2, and the order and residue of the pole at $z=1$ are 1 and $\\frac{3}{16}$, respectively."
+}

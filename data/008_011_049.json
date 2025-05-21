@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Solving systems of linear equations using Cramer's rule",
+    "message_1": "Solve the following system of linear equations using Cramer's rule: \n\n2x + 3y = 7 \n\n4x - 5y = 11 \n\nWhat is the value of x and y?",
+    "message_2": "To solve the system of linear equations using Cramer's rule, we first need to find the determinant of the coefficient matrix (D), and then the determinants of the matrices obtained by replacing the columns with the constants (Dx and Dy).\n\nThe given system of linear equations is:\n\n2x + 3y = 7\n4x - 5y = 11\n\nThe coefficient matrix is:\n| 2  3 |\n| 4 -5 |\n\nTo find the determinant D:\nD = (2 * -5) - (3 * 4)\nD = -10 - 12\nD = -22\n\nNow, let's find the determinant Dx by replacing the first column with the constants:\n\n| 7  3 |\n|11 -5 |\n\nDx = (7 * -5) - (3 * 11)\nDx = -35 - 33\nDx = -68\n\nNow, let's find the determinant Dy by replacing the second column with the constants:\n\n| 2  7 |\n| 4 11 |\n\nDy = (2 * 11) - (7 * 4)\nDy = 22 - 28\nDy = -6\n\nNow, we can find the values of x and y using Cramer's rule:\n\nx = Dx / D\nx = -68 / -22\nx = 34 / 11\n\ny = Dy / D\ny = -6 / -22\ny = 3 / 11\n\nSo, the solution to the system of linear equations is:\n\nx = 34/11\ny = 3/11"
+}

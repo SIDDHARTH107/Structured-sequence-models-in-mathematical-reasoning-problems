@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Set theory",
+    "sub_topic": "Prove that the symmetric difference of two sets is not distributive over complement.",
+    "message_1": "Let A = {1, 2, 3, 4} and B = {3, 4, 5, 6}. Find A △ (B') and (A △ B)'.",
+    "message_2": "First, let's find the complement of set B (B'). Since we are not given a universal set, we will assume the universal set U contains all the elements in sets A and B. So, U = {1, 2, 3, 4, 5, 6}. Now, we can find B':\n\nB' = U - B = {1, 2, 3, 4, 5, 6} - {3, 4, 5, 6} = {1, 2}\n\nNow, we can find the symmetric difference A △ (B'):\n\nA △ (B') = (A - B') ∪ (B' - A) = ({1, 2, 3, 4} - {1, 2}) ∪ ({1, 2} - {1, 2, 3, 4}) = {3, 4} ∪ {} = {3, 4}\n\nNext, let's find the symmetric difference A △ B:\n\nA △ B = (A - B) ∪ (B - A) = ({1, 2, 3, 4} - {3, 4, 5, 6}) ∪ ({3, 4, 5, 6} - {1, 2, 3, 4}) = {1, 2} ∪ {5, 6} = {1, 2, 5, 6}\n\nFinally, let's find the complement of (A △ B)':\n\n(A △ B)' = U - (A △ B) = {1, 2, 3, 4, 5, 6} - {1, 2, 5, 6} = {3, 4}\n\nSo, A △ (B') = {3, 4} and (A △ B)' = {3, 4}."
+}

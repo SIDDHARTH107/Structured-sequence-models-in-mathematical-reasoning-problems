@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Complex integration and Cauchy's theorem",
+    "message_1": "Calculate the complex integral $\\int_C \\frac{\\cos z}{z-2i} dz$ where $C$ is the circle $|z|=3.$",
+    "message_2": "To evaluate the complex integral, we will use the Cauchy Integral Formula. The Cauchy Integral Formula states that for a function $f(z)$ that is analytic inside and on a simple closed contour $C$, and $z_0$ is a point inside $C$, we have:\n\n$$\\int_C \\frac{f(z)}{z-z_0} dz = 2\\pi i f(z_0)$$\n\nIn our case, $f(z) = \\cos z$ and $z_0 = 2i$. Since $\\cos z$ is an entire function (analytic everywhere in the complex plane), it is analytic inside and on the contour $C$. Thus, we can apply the Cauchy Integral Formula:\n\n$$\\int_C \\frac{\\cos z}{z-2i} dz = 2\\pi i \\cos(2i)$$\n\nNow, we need to compute $\\cos(2i)$. We can use the definition of the complex cosine function in terms of exponentials:\n\n$$\\cos(z) = \\frac{e^{iz} + e^{-iz}}{2}$$\n\nSo,\n\n$$\\cos(2i) = \\frac{e^{-2} + e^2}{2}$$\n\nNow, we can plug this back into our integral:\n\n$$\\int_C \\frac{\\cos z}{z-2i} dz = 2\\pi i \\cos(2i) = 2\\pi i \\frac{e^{-2} + e^2}{2} = \\pi i (e^{-2} + e^2)$$\n\nTherefore, the value of the complex integral is:\n\n$$\\int_C \\frac{\\cos z}{z-2i} dz = \\pi i (e^{-2} + e^2)$$"
+}

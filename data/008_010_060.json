@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Solving systems of linear equations using Gaussian elimination",
+    "message_1": "Solve the system of linear equations using Gaussian elimination:\n\nx + y - z = 5\n\n2x - y + 3z = 7\n\n3x + 2y + z = 4",
+    "message_2": "To solve the system of linear equations using Gaussian elimination, we will perform a series of operations to transform the given system into an upper triangular matrix, and then use back-substitution to find the values of x, y, and z.\n\n1. Write the augmented matrix for the given system:\n\n| 1  1 -1 |  5 |\n| 2 -1  3 |  7 |\n| 3  2  1 |  4 |\n\n2. Eliminate x from the second and third rows:\n\nRow2 = Row2 - 2*Row1\nRow3 = Row3 - 3*Row1\n\n| 1  1 -1 |  5 |\n| 0 -3  5 | -3 |\n| 0 -1  4 | -11 |\n\n3. Eliminate y from the third row:\n\nRow3 = Row3 + (1/3)*Row2\n\n| 1  1 -1 |  5  |\n| 0 -3  5 | -3  |\n| 0  0  5 | -10 |\n\n4. Now we have an upper triangular matrix. Perform back-substitution to find the values of x, y, and z:\n\nDivide Row3 by 5:\n\n| 1  1 -1 |  5 |\n| 0 -3  5 | -3 |\n| 0  0  1 | -2 |\n\nz = -2\n\nNow, substitute z into Row2 and solve for y:\n\n-3y + 5(-2) = -3\n-3y - 10 = -3\n-3y = 7\ny = -7/3\n\nFinally, substitute y and z into Row1 and solve for x:\n\nx + (-7/3) - (-2) = 5\nx - 7/3 + 6/3 = 15/3\nx - 1/3 = 5\nx = 16/3\n\nSo the solution is x = 16/3, y = -7/3, and z = -2."
+}

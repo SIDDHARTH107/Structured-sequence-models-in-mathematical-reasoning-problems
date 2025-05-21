@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Graph theory",
+    "sub_topic": "Identifying the clique number of a graph.",
+    "message_1": "Consider a graph G with 7 vertices and the following adjacency matrix:\n\n0 1 1 1 1 0 0 \n1 0 1 0 1 1 1 \n1 1 0 1 0 1 1 \n1 0 1 0 1 1 0 \n1 1 0 1 0 0 1 \n0 1 1 1 0 0 1 \n0 1 1 0 1 1 0 \n\nWhat is the clique number of G?",
+    "message_2": "The clique number of a graph G is the size of the largest complete subgraph (or clique) in G. A complete subgraph is a subgraph in which every pair of vertices is connected by an edge.\n\nLet's analyze the given adjacency matrix:\n\n0 1 1 1 1 0 0\n1 0 1 0 1 1 1\n1 1 0 1 0 1 1\n1 0 1 0 1 1 0\n1 1 0 1 0 0 1\n0 1 1 1 0 0 1\n0 1 1 0 1 1 0\n\nWe can see that there is a complete subgraph of size 4, which includes vertices 1, 3, 5, and 7. The subgraph is as follows:\n\n1 0 1 1\n0 0 1 1\n1 1 0 1\n1 1 1 0\n\nThere is no complete subgraph of size 5 or larger in the given graph G. Therefore, the clique number of G is 4."
+}

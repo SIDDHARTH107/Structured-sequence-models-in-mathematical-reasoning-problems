@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "ElGamal encryption and decryption",
+    "message_1": "A message \"98\" is to be encrypted using ElGamal encryption where the public key is (5, 29, 2). Find the encrypted message.",
+    "message_2": "To encrypt a message using ElGamal encryption, we need the public key (p, g, h) and the message m. In this case, the public key is (p=5, g=29, h=2), and the message is m=98.\n\nThe ElGamal encryption process involves the following steps:\n\n1. Choose a random integer k, where 1 < k < p-1. Let's choose k=3 for this example (note that in a real encryption scenario, k should be chosen randomly and securely).\n\n2. Compute the first part of the ciphertext, c1, as c1 = g^k mod p. In this case, c1 = 29^3 mod 5 = 24389 mod 5 = 4.\n\n3. Compute the second part of the ciphertext, c2, as c2 = m * (h^k) mod p. In this case, c2 = 98 * (2^3) mod 5 = 98 * 8 mod 5 = 784 mod 5 = 4.\n\nThe encrypted message is the pair (c1, c2) = (4, 4)."
+}

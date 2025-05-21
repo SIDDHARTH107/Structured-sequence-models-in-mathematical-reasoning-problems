@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "ElGamal encryption and decryption",
+    "message_1": "Suppose Alice wants to send a confidential message to Bob using ElGamal encryption. Alice chooses a prime number p = 37 and a primitive root α = 2. Her private key is a = 5, and her public key is A = α^a mod p. Alice chooses Bob's public key as B = 13. \n\nIf Alice wants to encrypt the message m = 10, she chooses a random number k = 7 and calculates the ciphertext C1 = α^k mod p and C2 = B^k * m mod p. \n\nWhat is the resulting ciphertext that Alice sends to Bob?",
+    "message_2": "First, let's calculate Alice's public key A:\nA = α^a mod p\nA = 2^5 mod 37\nA = 32 mod 37\nA = 32\n\nNow, let's calculate the ciphertext C1 and C2:\nC1 = α^k mod p\nC1 = 2^7 mod 37\nC1 = 128 mod 37\nC1 = 17\n\nC2 = B^k * m mod p\nC2 = 13^7 * 10 mod 37\nC2 = 62748517 * 10 mod 37\nC2 = 627485170 mod 37\nC2 = 12\n\nSo, the resulting ciphertext that Alice sends to Bob is (C1, C2) = (17, 12)."
+}

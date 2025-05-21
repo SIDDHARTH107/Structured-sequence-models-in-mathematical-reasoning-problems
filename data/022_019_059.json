@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Complex analysis of integral equations",
+    "message_1": "Evaluate the integral ∫C [(z^2 + 1)/(z-2)] dz, where C is the circle centered at 1+2i with radius 3.",
+    "message_2": "To evaluate the integral ∫C [(z^2 + 1)/(z-2)] dz, where C is the circle centered at 1+2i with radius 3, we will use the residue theorem. The residue theorem states that for a simple closed contour C and a function f(z) with a finite number of isolated singularities inside C, the integral is given by:\n\n∫C f(z) dz = 2πi * Σ(residues of f(z) inside C)\n\nFirst, we need to find the singularities of the function f(z) = (z^2 + 1)/(z-2). The function has a simple pole at z = 2. Since the circle C is centered at 1+2i with radius 3, the pole z = 2 is inside the circle.\n\nNow, we need to find the residue of f(z) at z = 2. To do this, we can use the formula for the residue of a simple pole:\n\nResidue = lim (z -> 2) [(z - 2) * f(z)]\n\nResidue = lim (z -> 2) [(z - 2) * (z^2 + 1)/(z-2)]\n\nResidue = lim (z -> 2) (z^2 + 1) = (2^2 + 1) = 5\n\nNow, we can apply the residue theorem:\n\n∫C [(z^2 + 1)/(z-2)] dz = 2πi * Σ(residues of f(z) inside C) = 2πi * 5 = 10πi\n\nSo, the integral ∫C [(z^2 + 1)/(z-2)] dz is equal to 10πi."
+}

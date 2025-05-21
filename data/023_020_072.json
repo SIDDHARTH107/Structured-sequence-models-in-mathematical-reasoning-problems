@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Fourier analysis",
+    "sub_topic": "Finding the Fourier series of a function with a singularity",
+    "message_1": "Find the Fourier series of the function f(x) = x^2 on the interval (-π, π), given that the point x = 0 is a discontinuity of the function.",
+    "message_2": "To find the Fourier series of the function f(x) = x^2 on the interval (-π, π), we need to compute the Fourier coefficients a_n and b_n for n = 0, 1, 2, ...\n\nThe general formula for the Fourier series is:\n\nf(x) ≈ (a_0 / 2) + Σ [a_n * cos(nx) + b_n * sin(nx)]\n\nwhere the summation is from n = 1 to infinity.\n\nFirst, let's find the a_0 coefficient:\n\na_0 = (1/π) * ∫[-π, π] f(x) dx = (1/π) * ∫[-π, π] x^2 dx\n\na_0 = (1/π) * [(x^3)/3] | from -π to π = (1/π) * [(π^3 - (-π)^3)/3] = (2π^2)/3\n\nNow, let's find the a_n coefficients:\n\na_n = (1/π) * ∫[-π, π] f(x) * cos(nx) dx = (1/π) * ∫[-π, π] x^2 * cos(nx) dx\n\nUsing integration by parts twice, we get:\n\na_n = (1/π) * [(2*(-1)^n)/(n^3)]\n\nNow, let's find the b_n coefficients:\n\nb_n = (1/π) * ∫[-π, π] f(x) * sin(nx) dx = (1/π) * ∫[-π, π] x^2 * sin(nx) dx\n\nSince f(x) is an even function and sin(nx) is an odd function, their product is an odd function. The integral of an odd function over a symmetric interval is zero. Therefore, b_n = 0 for all n.\n\nNow, we can write the Fourier series for f(x) = x^2 on the interval (-π, π):\n\nf(x) ≈ (a_0 / 2) + Σ [a_n * cos(nx)] = (π^2 / 3) + Σ [(2*(-1)^n)/(n^3)] * cos(nx)\n\nwhere the summation is from n = 1 to infinity."
+}

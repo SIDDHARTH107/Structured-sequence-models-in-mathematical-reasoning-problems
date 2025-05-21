@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Partition theory",
+    "message_1": "A restaurant has 12 different dishes on their menu. In how many ways can a group of 4 customers order their meals if each customer orders a different dish and each dish can only be ordered once?",
+    "message_2": "To solve this problem, we can use the concept of permutations. Since there are 12 different dishes and each customer orders a different dish, we need to find the number of ways to arrange 4 dishes out of the 12 available.\n\nThis can be calculated using the formula for permutations:\n\nP(n, r) = n! / (n - r)!\n\nwhere n is the total number of items (in this case, dishes) and r is the number of items to be arranged (in this case, customers).\n\nFor this problem, n = 12 and r = 4.\n\nP(12, 4) = 12! / (12 - 4)!\n\nP(12, 4) = 12! / 8!\n\nNow, we can calculate the factorials:\n\n12! = 12 × 11 × 10 × 9 × 8 × 7 × 6 × 5 × 4 × 3 × 2 × 1 = 479001600\n8! = 8 × 7 × 6 × 5 × 4 × 3 × 2 × 1 = 40320\n\nNow, divide 12! by 8!:\n\nP(12, 4) = 479001600 / 40320 = 11880\n\nSo, there are 11,880 different ways for the group of 4 customers to order their meals with each customer ordering a different dish and each dish being ordered only once."
+}

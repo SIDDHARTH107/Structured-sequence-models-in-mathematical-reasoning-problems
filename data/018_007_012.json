@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Set theory",
+    "sub_topic": "Prove that the power set of a set is always larger than the set itself.",
+    "message_1": "Let A be a set with 4 distinct elements. Calculate the number of elements in the power set of A and prove that it is always greater than the number of elements in A.",
+    "message_2": "To calculate the number of elements in the power set of A, we use the formula 2^n, where n is the number of elements in the set A. In this case, A has 4 distinct elements, so the power set of A has 2^4 = 16 elements.\n\nNow, we need to prove that the number of elements in the power set of A is always greater than the number of elements in A. Let's assume that A has n distinct elements. Then, the power set of A has 2^n elements.\n\nWe want to show that 2^n > n for all n ≥ 0.\n\nBase case: n = 0\n2^0 = 1 > 0\n\nInductive step: Assume that 2^k > k for some k ≥ 0. We want to show that 2^(k+1) > k+1.\n\n2^(k+1) = 2 * 2^k > 2 * k (since 2^k > k by the inductive hypothesis)\nNow, we need to show that 2 * k > k + 1, or equivalently, k > 1.\n\nSince k ≥ 0, the inequality holds for k > 1. Thus, by induction, 2^n > n for all n ≥ 0.\n\nTherefore, the number of elements in the power set of A is always greater than the number of elements in A."
+}

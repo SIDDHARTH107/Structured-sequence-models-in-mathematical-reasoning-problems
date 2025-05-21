@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "ElGamal encryption and decryption",
+    "message_1": "Consider the ElGamal cryptosystem, where public key ($p,g,\\alpha, \\beta$) is given by $p=23$, $g=5$, $\\alpha=6$ and $\\beta=8$. If the plaintext message is $m=16$ and the random number chosen for key generation is $k=3$, then what is the encrypted message sent to the receiver?",
+    "message_2": "In the ElGamal cryptosystem, the encrypted message is a pair of values $(c_1, c_2)$. To compute these values, we use the following formulas:\n\n$c_1 = \\alpha^k \\mod p$\n\n$c_2 = m \\cdot \\beta^k \\mod p$\n\nGiven the public key ($p=23$, $g=5$, $\\alpha=6$, $\\beta=8$), the plaintext message $m=16$, and the random number $k=3$, we can calculate the encrypted message as follows:\n\n$c_1 = \\alpha^k \\mod p = 6^3 \\mod 23 = 216 \\mod 23 = 2$\n\n$c_2 = m \\cdot \\beta^k \\mod p = 16 \\cdot 8^3 \\mod 23 = 16 \\cdot 512 \\mod 23 = 8192 \\mod 23 = 4$\n\nSo, the encrypted message sent to the receiver is $(c_1, c_2) = (2, 4)$."
+}

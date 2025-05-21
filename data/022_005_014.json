@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Residue calculus and its applications",
+    "message_1": "Find the residue of the function f(z) = (z^2 + 1) / (z^3 - 1) at the pole z = e^(2πi/3).",
+    "message_2": "To find the residue of the function f(z) = (z^2 + 1) / (z^3 - 1) at the pole z = e^(2πi/3), we first need to factor the denominator and find the order of the pole.\n\nThe denominator can be factored using the difference of cubes formula:\n\nz^3 - 1 = (z - 1)(z^2 + z + 1)\n\nNow, we can see that z = e^(2πi/3) is a root of the second factor (z^2 + z + 1). To find the order of the pole, we need to determine the multiplicity of this root in the denominator. Since the root appears only once in the factor (z^2 + z + 1), the order of the pole is 1.\n\nNow, we can use the formula for the residue of a function with a simple pole:\n\nRes[f(z), z = e^(2πi/3)] = lim (z - e^(2πi/3)) * f(z) as z -> e^(2πi/3)\n\nLet's substitute f(z) and compute the limit:\n\nRes[f(z), z = e^(2πi/3)] = lim (z - e^(2πi/3)) * ((z^2 + 1) / ((z - 1)(z^2 + z + 1))) as z -> e^(2πi/3)\n\nThe (z^2 + z + 1) factor in the numerator and denominator cancels out:\n\nRes[f(z), z = e^(2πi/3)] = lim (z - e^(2πi/3)) * (1 / (z - 1)) as z -> e^(2πi/3)\n\nNow, we can substitute z = e^(2πi/3) into the expression:\n\nRes[f(z), z = e^(2πi/3)] = (e^(2πi/3) - e^(2πi/3)) * (1 / (e^(2πi/3) - 1))\n\nThe first term in the product is 0, so the residue is 0."
+}

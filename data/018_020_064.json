@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Set theory",
+    "sub_topic": "Prove that the symmetric difference of two sets is distributive over union.",
+    "message_1": "Let A={1,2,3} and B={2,3,4}. Find the symmetric difference of (A∪B) and (A∆B), where ∆ represents the symmetric difference operator.",
+    "message_2": "First, let's find the union (A∪B) and the symmetric difference (A∆B) of sets A and B.\n\nA = {1, 2, 3}\nB = {2, 3, 4}\n\nA∪B = {1, 2, 3, 4} (union of A and B)\n\nA∆B = (A - B) ∪ (B - A) = {1, 4} (symmetric difference of A and B)\n\nNow, let's find the symmetric difference of (A∪B) and (A∆B):\n\n(A∪B) = {1, 2, 3, 4}\n(A∆B) = {1, 4}\n\n(A∪B)∆(A∆B) = ((A∪B) - (A∆B)) ∪ ((A∆B) - (A∪B))\n\n(A∪B) - (A∆B) = {1, 2, 3, 4} - {1, 4} = {2, 3}\n(A∆B) - (A∪B) = {1, 4} - {1, 2, 3, 4} = {}\n\n(A∪B)∆(A∆B) = {2, 3} ∪ {} = {2, 3}\n\nSo, the symmetric difference of (A∪B) and (A∆B) is {2, 3}."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "One-time pad encryption",
+    "message_1": "Suppose you have a message \"HELLO\" which needs to be encrypted using One-time pad encryption. The randomly generated key for the message is \"JSCRM\". What is the encrypted form of the message using One-time pad encryption? (Hint: Convert the message and key into numbers using their ASCII representations, add them modulo 26, and convert the result back to letters using their corresponding ASCII characters.)",
+    "message_2": "To encrypt the message \"HELLO\" using the one-time pad key \"JSCRM\", we will follow these steps:\n\n1. Convert the message and key into numbers using their ASCII representations.\n2. Add the corresponding numbers modulo 26.\n3. Convert the result back to letters using their corresponding ASCII characters.\n\nStep 1: Convert to ASCII numbers\nMessage: HELLO -> 7 4 11 11 14 (A=0, B=1, C=2, ..., Z=25)\nKey: JSCRM -> 9 18 2 17 12\n\nStep 2: Add modulo 26\n(7+9) % 26 = 16\n(4+18) % 26 = 22\n(11+2) % 26 = 13\n(11+17) % 26 = 2\n(14+12) % 26 = 0\n\nStep 3: Convert back to letters\n16 22 13 2 0 -> QWMCA\n\nThe encrypted form of the message \"HELLO\" using the one-time pad key \"JSCRM\" is \"QWMCA\"."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Number theory",
+    "sub_topic": "Quadratic residues",
+    "message_1": "What is the value of the Legendre symbol (-15/23)?",
+    "message_2": "The Legendre symbol (a/p) is a number theory function that tells us if a number \"a\" is a quadratic residue modulo a prime number \"p\". It is defined as follows:\n\n(a/p) = 1 if \"a\" is a quadratic residue modulo \"p\" and \"a\" is not divisible by \"p\"\n(a/p) = -1 if \"a\" is not a quadratic residue modulo \"p\"\n(a/p) = 0 if \"a\" is divisible by \"p\"\n\nIn this case, we have the Legendre symbol (-15/23). Since 23 is a prime number, we can use the following properties of the Legendre symbol to simplify the expression:\n\n1. (ab/p) = (a/p)(b/p)\n2. (-1/p) = (-1)^((p-1)/2)\n\nFirst, we can rewrite (-15/23) as (-1/23)(15/23). Now, we can find the value of (-1/23) using property 2:\n\n(-1/23) = (-1)^((23-1)/2) = (-1)^11 = -1\n\nNext, we need to find the value of (15/23). Since 15 is not a quadratic residue modulo 23 (there is no integer x such that x^2 ≡ 15 (mod 23)), we have:\n\n(15/23) = -1\n\nNow, we can multiply the values of (-1/23) and (15/23) to find the value of the Legendre symbol (-15/23):\n\n(-15/23) = (-1/23)(15/23) = (-1)(-1) = 1\n\nSo, the value of the Legendre symbol (-15/23) is 1."
+}

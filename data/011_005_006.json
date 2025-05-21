@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Combinatorial identities",
+    "message_1": "A math student needs to count the number of ways 5 different books can be arranged on a shelf such that two specific books are never adjacent. How many unique arrangements are possible?",
+    "message_2": "Let's first find the total number of ways to arrange the 5 books without any restrictions. This is simply 5! (5 factorial) which is equal to 5 × 4 × 3 × 2 × 1 = 120 ways.\n\nNow, let's consider the two specific books as a single entity. We have 4 entities now: the combined books and the other 3 books. We can arrange these 4 entities in 4! ways, which is equal to 4 × 3 × 2 × 1 = 24 ways.\n\nHowever, within the combined entity, the two specific books can be arranged in 2! ways, which is equal to 2 × 1 = 2 ways.\n\nSo, the total number of ways in which the two specific books are adjacent is 24 × 2 = 48 ways.\n\nNow, to find the number of ways in which the two specific books are not adjacent, we subtract the number of ways they are adjacent from the total number of arrangements:\n\n120 (total arrangements) - 48 (arrangements with the two specific books adjacent) = 72 ways.\n\nTherefore, there are 72 unique arrangements where the two specific books are not adjacent."
+}

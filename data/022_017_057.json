@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Complex analysis of differential equations",
+    "message_1": "Given the differential equation $y''+4y=0$ with initial conditions $y(0)=1$ and $y'(0)=2$, find the solution of the differential equation in the form $y(x)=A\\cos(2x)+B\\sin(2x)$, where $A$ and $B$ are constants.",
+    "message_2": "We are given the differential equation $y'' + 4y = 0$ and the solution form $y(x) = A\\cos(2x) + B\\sin(2x)$. To find the constants $A$ and $B$, we first need to find the first and second derivatives of the given solution form.\n\nFirst derivative:\n$y'(x) = -2A\\sin(2x) + 2B\\cos(2x)$\n\nSecond derivative:\n$y''(x) = -4A\\cos(2x) - 4B\\sin(2x)$\n\nNow, we can plug the second derivative and the original function back into the differential equation:\n\n$(-4A\\cos(2x) - 4B\\sin(2x)) + 4(A\\cos(2x) + B\\sin(2x)) = 0$\n\nSimplifying, we get:\n\n$0 = 0$\n\nThis confirms that our solution form is correct. Now we need to apply the initial conditions to find the constants $A$ and $B$.\n\nInitial condition 1: $y(0) = 1$\n\n$1 = A\\cos(0) + B\\sin(0)$\n\n$1 = A(1) + B(0)$\n\n$A = 1$\n\nInitial condition 2: $y'(0) = 2$\n\n$2 = -2A\\sin(0) + 2B\\cos(0)$\n\n$2 = -2(1)(0) + 2B(1)$\n\n$2 = 2B$\n\n$B = 1$\n\nNow we have found the constants $A$ and $B$. Plugging them back into the solution form, we get:\n\n$y(x) = 1\\cos(2x) + 1\\sin(2x)$\n\nSo the solution to the differential equation with the given initial conditions is:\n\n$y(x) = \\cos(2x) + \\sin(2x)$"
+}

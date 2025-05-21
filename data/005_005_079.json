@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Statistics",
+    "sub_topic": "Probability distributions",
+    "message_1": "A factory produces screws and 10% of them are defective. A sample of 50 screws is randomly chosen from the production line. What is the probability that there are exactly 7 defective screws in the sample?",
+    "message_2": "We can solve this problem using the binomial probability formula, which is:\n\nP(X = k) = (nCk) * (p^k) * (1-p)^(n-k)\n\nwhere:\n- P(X = k) is the probability of having exactly k defective screws in the sample\n- n is the total number of screws in the sample (50 in this case)\n- k is the number of defective screws we want to find the probability for (7 in this case)\n- nCk (read as \"n choose k\") is the number of combinations of choosing k defective screws from n screws, which can be calculated as n! / (k!(n-k)!)\n- p is the probability of a screw being defective (10% or 0.1 in this case)\n- 1-p is the probability of a screw not being defective (90% or 0.9 in this case)\n\nPlugging in the values, we get:\n\nP(X = 7) = (50C7) * (0.1^7) * (0.9^(50-7))\n\nFirst, we calculate 50C7:\n\n50C7 = 50! / (7!(50-7)!) = 50! / (7!43!) = 15,180,300\n\nNext, we calculate 0.1^7 and 0.9^43:\n\n0.1^7 = 0.0000001\n0.9^43 = 0.00056561\n\nNow, we multiply all the values together:\n\nP(X = 7) = 15,180,300 * 0.0000001 * 0.00056561 ≈ 0.085\n\nSo, the probability of having exactly 7 defective screws in the sample of 50 screws is approximately 0.085 or 8.5%."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "ElGamal encryption and decryption",
+    "message_1": "If Alice wants to send a secret message to Bob using ElGamal encryption, and Bob's public key is (p=17, g=5, y=7), where p is the prime number, g is the primitive root of p, and y is Bob's secret key, and Alice wants to encrypt the message \"13\", what is the encrypted message?",
+    "message_2": "To encrypt a message using ElGamal encryption, Alice needs to follow these steps:\n\n1. Choose a random number k (1 < k < p-1) that is relatively prime to p-1. Let's choose k = 4 for this example.\n2. Compute the shared secret a = g^k mod p. In this case, a = 5^4 mod 17 = 625 mod 17 = 1.\n3. Compute the shared secret b = y^k * M mod p, where M is the message. In this case, b = 7^4 * 13 mod 17 = 2401 * 13 mod 17 = 31213 mod 17 = 8.\n\nThe encrypted message is the pair (a, b) = (1, 8). Alice can now send this encrypted message to Bob."
+}

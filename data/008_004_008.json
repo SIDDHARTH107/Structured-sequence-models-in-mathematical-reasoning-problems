@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Solving homogeneous systems of linear equations",
+    "message_1": "Solve the following homogeneous system of linear equations: \n\nx + 2y - 3z = 0 \n\n2x - y + 4z = 0 \n\n3x + y -5z = 0",
+    "message_2": "To solve the homogeneous system of linear equations, we can use the Gaussian elimination method.\n\nFirst, we write the augmented matrix of the system:\n\n```\n[ 1  2 -3 | 0 ]\n[ 2 -1  4 | 0 ]\n[ 3  1 -5 | 0 ]\n```\n\nStep 1: Eliminate the coefficients below the pivot element (1) in the first column.\n\nRow2 = Row2 - 2*Row1\nRow3 = Row3 - 3*Row1\n\n```\n[ 1  2 -3 | 0 ]\n[ 0 -5 10 | 0 ]\n[ 0 -5  4 | 0 ]\n```\n\nStep 2: Divide the second row by the pivot element (-5).\n\nRow2 = Row2 / -5\n\n```\n[ 1  2 -3 | 0 ]\n[ 0  1 -2 | 0 ]\n[ 0 -5  4 | 0 ]\n```\n\nStep 3: Eliminate the coefficients below the pivot element (1) in the second column.\n\nRow3 = Row3 + 5*Row2\n\n```\n[ 1  2 -3 | 0 ]\n[ 0  1 -2 | 0 ]\n[ 0  0  6 | 0 ]\n```\n\nStep 4: Divide the third row by the pivot element (6).\n\nRow3 = Row3 / 6\n\n```\n[ 1  2 -3 | 0 ]\n[ 0  1 -2 | 0 ]\n[ 0  0  1 | 0 ]\n```\n\nNow, we can use back-substitution to find the solution.\n\nz = 0 (since it's a homogeneous system)\n\ny - 2z = y = 0\n\nx + 2y - 3z = x = 0\n\nSo, the solution to the homogeneous system of linear equations is x = 0, y = 0, and z = 0."
+}

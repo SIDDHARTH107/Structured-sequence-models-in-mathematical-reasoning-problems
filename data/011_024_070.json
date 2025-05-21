@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Network flow problems",
+    "message_1": "A telecommunications company needs to send 150GB of data from one city to another. The company has four different routes it can use, each with a different capacity (in GB) as follows: Route 1: 60GB, Route 2: 50GB, Route 3: 40GB, Route 4: 30GB. However, each route has a cost per GB of data sent over it. The cost (in dollars) for each route is as follows: Route 1: $0.75/GB, Route 2: $0.90/GB, Route 3: $1.10/GB, Route 4: $1.50/GB. Determine the best way for the company to send the data at the lowest total cost.",
+    "message_2": "To minimize the total cost, the company should prioritize using routes with lower cost per GB. \n\nFirst, use Route 1 to send 60GB of data:\nCost = 60GB * $0.75/GB = $45\n\nRemaining data to send: 150GB - 60GB = 90GB\n\nNext, use Route 2 to send 50GB of data:\nCost = 50GB * $0.90/GB = $45\n\nRemaining data to send: 90GB - 50GB = 40GB\n\nFinally, use Route 3 to send the remaining 40GB of data:\nCost = 40GB * $1.10/GB = $44\n\nTotal cost = $45 (Route 1) + $45 (Route 2) + $44 (Route 3) = $134\n\nSo, the best way for the company to send the data at the lowest total cost is to use Route 1 for 60GB, Route 2 for 50GB, and Route 3 for 40GB, with a total cost of $134."
+}

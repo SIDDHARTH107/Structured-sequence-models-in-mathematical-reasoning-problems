@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Cryptanalysis of Playfair cipher",
+    "message_1": "Given the ciphertext \"SWXATWOTXBMDMJAK\", which was encrypted using Playfair cipher, and assuming that the key is \"MATHS\", find the plaintext.",
+    "message_2": "To decrypt the ciphertext using the Playfair cipher, we first need to create the 5x5 Playfair matrix using the key \"MATHS\". We will remove any duplicate letters from the key and fill in the remaining spaces with the rest of the alphabet (excluding \"J\", which is combined with \"I\" in the Playfair cipher).\n\nThe matrix looks like this:\n\nM A T H S\nB C D E F\nG I K L N\nO P Q R U\nV W X Y Z\n\nNow, we will decrypt the ciphertext \"SWXATWOTXBMDMJAK\" using the matrix:\n\n1. Divide the ciphertext into digraphs: SW XA TW OT XB MD MJ AK\n2. For each digraph, locate the letters in the matrix and apply the decryption rules:\n   - If the letters are in the same row, replace each letter with the one to its left (wrap around if needed).\n   - If the letters are in the same column, replace each letter with the one above it (wrap around if needed).\n   - If the letters form a rectangle, replace each letter with the one in its row but in the other digraph's column.\n\nDecrypting the digraphs:\n\nSW -> PL\nXA -> AY\nTW -> FA\nOT -> IR\nXB -> CU\nMD -> SS\nMJ -> IJ\nAK -> NG\n\nThe decrypted digraphs are: PL AY FA IR CU SS IJ NG\n\nCombine the digraphs to get the plaintext: PLAYFAIRCUSSING"
+}

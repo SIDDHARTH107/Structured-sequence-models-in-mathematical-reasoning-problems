@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Statistics",
+    "sub_topic": "Experimental design",
+    "message_1": "What is the sample size required to achieve a power of 80% and significance level of 5% in a two-sample t-test if the mean of one group is 8 and the mean of the other group is 10, with a standard deviation of 2 for both groups?",
+    "message_2": "To calculate the required sample size for a two-sample t-test with a power of 80% (0.8) and a significance level of 5% (0.05), we can use the following formula:\n\nn = [(Z_α/2 + Z_β)^2 * (σ1^2 + σ2^2)] / (μ1 - μ2)^2\n\nwhere n is the sample size, Z_α/2 is the critical value for the desired significance level (1.96 for a two-tailed test with α = 0.05), Z_β is the critical value for the desired power (0.84 for a power of 0.8), σ1 and σ2 are the standard deviations of the two groups (2 for both groups), and μ1 and μ2 are the means of the two groups (8 and 10, respectively).\n\nPlugging in the values:\n\nn = [(1.96 + 0.84)^2 * (2^2 + 2^2)] / (8 - 10)^2\nn = [(2.8)^2 * (4 + 4)] / (-2)^2\nn = (7.84 * 8) / 4\nn = 62.72 / 4\nn = 15.68\n\nSince we cannot have a fraction of a participant, we round up to the nearest whole number. Therefore, the required sample size for each group is 16."
+}

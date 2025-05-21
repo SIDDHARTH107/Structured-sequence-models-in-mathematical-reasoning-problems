@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Statistics",
+    "sub_topic": "Probability distributions",
+    "message_1": "What is the probability of getting exactly 2 heads when you toss 4 fair coins at once?",
+    "message_2": "To find the probability of getting exactly 2 heads when tossing 4 fair coins, we can use the binomial probability formula:\n\nP(X = k) = (nCk) * (p^k) * (q^(n-k))\n\nwhere:\n- P(X = k) is the probability of getting exactly k successes (in this case, heads) in n trials (coin tosses)\n- nCk is the number of combinations of choosing k successes from n trials, which is calculated as n! / (k!(n-k)!)\n- p is the probability of success (getting a head) in a single trial (coin toss), which is 0.5 for a fair coin\n- q is the probability of failure (getting a tail) in a single trial, which is also 0.5 for a fair coin\n- n is the number of trials (coin tosses), which is 4 in this case\n- k is the number of successes (heads) we want, which is 2 in this case\n\nPlugging in the values, we get:\n\nP(X = 2) = (4C2) * (0.5^2) * (0.5^(4-2))\n\nFirst, let's calculate 4C2:\n\n4C2 = 4! / (2!(4-2)!) = (4*3*2*1) / ((2*1)*(2*1)) = 6\n\nNow, let's calculate the probabilities:\n\nP(X = 2) = 6 * (0.5^2) * (0.5^2) = 6 * 0.25 * 0.25 = 6 * 0.0625 = 0.375\n\nSo, the probability of getting exactly 2 heads when tossing 4 fair coins is 0.375 or 37.5%."
+}

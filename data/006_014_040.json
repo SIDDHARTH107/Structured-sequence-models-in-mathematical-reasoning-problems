@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Probability",
+    "sub_topic": "Probability of a certain type of technological failure occurring in a system",
+    "message_1": "A certain type of hard drive in a company has a 5% chance of failing within one year of use. If the company has 100 hard drives of this type, what is the probability that at least two of them will fail within one year?",
+    "message_2": "To solve this problem, we can use the complement probability. Instead of finding the probability that at least two hard drives fail, we can find the probability that either none or only one hard drive fails and then subtract that from 1.\n\nLet P(0) be the probability that no hard drives fail, and P(1) be the probability that exactly one hard drive fails.\n\nP(0) = (1 - 0.05)^100 ≈ 0.00657\n\nFor P(1), we can use the binomial probability formula:\n\nP(1) = C(n, k) * p^k * (1-p)^(n-k)\n\nwhere n is the number of hard drives (100), k is the number of failures (1), p is the probability of failure (0.05), and C(n, k) is the number of combinations of n items taken k at a time.\n\nC(100, 1) = 100\nP(1) = 100 * (0.05)^1 * (0.95)^99 ≈ 0.26470\n\nNow, we can find the complement probability:\n\nP(at least 2 failures) = 1 - P(0) - P(1) ≈ 1 - 0.00657 - 0.26470 ≈ 0.72873\n\nSo, the probability that at least two hard drives will fail within one year is approximately 72.87%."
+}

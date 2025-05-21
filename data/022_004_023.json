@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Singularities of complex functions",
+    "message_1": "Find the residue of the function at the given singular point:\n\nf(z) = (z^2 + 3z + 2)/(z^2 - 1),  z = -1.",
+    "message_2": "To find the residue of the function f(z) = (z^2 + 3z + 2)/(z^2 - 1) at the singular point z = -1, we first need to identify the type of singularity. Since the denominator has a simple zero at z = -1, we have a simple pole at z = -1.\n\nNow, we can use the formula for the residue at a simple pole:\n\nRes[f(z), z = -1] = lim (z -> -1) [(z + 1) * f(z)]\n\nLet's compute the limit:\n\nRes[f(z), z = -1] = lim (z -> -1) [(z + 1) * ((z^2 + 3z + 2)/(z^2 - 1))]\n\nRes[f(z), z = -1] = lim (z -> -1) [(z + 1) * ((z^2 + 3z + 2)/((z + 1)(z - 1)))]\n\nSince (z + 1) is a factor in both the numerator and the denominator, we can cancel it out:\n\nRes[f(z), z = -1] = lim (z -> -1) [(z^2 + 3z + 2)/(z - 1)]\n\nNow, we can evaluate the limit by plugging in z = -1:\n\nRes[f(z), z = -1] = ((-1)^2 + 3(-1) + 2)/((-1) - 1)\n\nRes[f(z), z = -1] = (1 - 3 + 2)/(-2)\n\nRes[f(z), z = -1] = 0/(-2)\n\nRes[f(z), z = -1] = 0\n\nSo, the residue of the function f(z) at the singular point z = -1 is 0."
+}

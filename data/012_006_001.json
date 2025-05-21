@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Graph theory",
+    "sub_topic": "Identifying the Eulerian and Hamiltonian paths in a graph.",
+    "message_1": "Consider the following undirected graph with vertices labeled from A to G and edge weights given in the parentheses. Determine whether or not this graph contains an Eulerian path and a Hamiltonian path, and if so, provide the respective path(s).\n \n    (4) A ----- B (2)\n    |         / | \\\n    |      /    |   \\\n    |   /       |      \\\n   (3) C --------D-----E (5)\n           \\           |\n              \\       |              \n                  \\  |(4)   \n                    F-------G (1)",
+    "message_2": "An Eulerian path is a path in a graph that visits every edge exactly once. A graph has an Eulerian path if and only if it has at most two vertices with an odd degree.\n\nDegree of each vertex:\nA: 2\nB: 4\nC: 3\nD: 4\nE: 3\nF: 3\nG: 1\n\nThere are 5 vertices with an odd degree, so there is no Eulerian path in this graph.\n\nA Hamiltonian path is a path in a graph that visits every vertex exactly once. Determining whether a graph has a Hamiltonian path is an NP-complete problem, so there is no efficient algorithm to solve it. However, since this graph is small, we can try to find a Hamiltonian path manually.\n\nOne possible Hamiltonian path is: A - C - D - B - E - F - G\n\nSo, this graph does have a Hamiltonian path."
+}

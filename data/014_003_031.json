@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "ElGamal encryption and decryption",
+    "message_1": "Suppose that Bob wants to send a confidential message to Alice using ElGamal encryption with a prime modulus p = 47 and a generator g = 5. Bob's private key is a = 11 and his public key is A = 17. Bob encrypts his message as follows: he chooses b = 15 as a random number and calculates B = g^b mod p = 30. Then, he computes the shared secret key as s = A^b mod p = 42. Finally, he encodes the message as a number m = 12 and calculates the ciphertext as C = (m * s) mod p = ?. Calculate the ciphertext that Bob sends to Alice for the message m = 12.",
+    "message_2": "To calculate the ciphertext C, we need to compute (m * s) mod p. We already have the values for m, s, and p:\n\nm = 12\ns = 42\np = 47\n\nNow, we can calculate C:\n\nC = (m * s) mod p\nC = (12 * 42) mod 47\nC = 504 mod 47\nC = 10\n\nSo, the ciphertext that Bob sends to Alice for the message m = 12 is C = 10."
+}

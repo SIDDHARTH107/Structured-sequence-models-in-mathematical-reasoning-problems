@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Probability",
+    "sub_topic": "Probability of a certain type of financial fraud occurring in a company",
+    "message_1": "What is the probability that a company with 100 employees will experience at least one instance of financial fraud if the historical rate of fraud occurrences in similar companies is 0.05 per year?",
+    "message_2": "To solve this problem, we can use the complement probability. The complement of the event \"at least one instance of financial fraud\" is \"no instances of financial fraud.\" \n\nLet P(A) be the probability of at least one instance of financial fraud, and P(A') be the probability of no instances of financial fraud.\n\nP(A) + P(A') = 1\n\nWe are given the historical rate of fraud occurrences in similar companies is 0.05 per year. This means that the probability of a single employee committing financial fraud in a year is 0.05.\n\nThe probability of an employee not committing financial fraud in a year is 1 - 0.05 = 0.95.\n\nSince there are 100 employees, the probability of none of them committing financial fraud in a year is (0.95)^100.\n\nNow, we can find the probability of at least one instance of financial fraud:\n\nP(A) = 1 - P(A')\nP(A) = 1 - (0.95)^100\n\nUsing a calculator, we find:\n\nP(A) ≈ 1 - 0.00657\nP(A) ≈ 0.99343\n\nSo, the probability that a company with 100 employees will experience at least one instance of financial fraud in a year is approximately 99.34%."
+}

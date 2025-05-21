@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Combinatorial designs",
+    "message_1": "In a group of 15 people, how many ways can you form 3 teams of 5 players each for a game of Capture the Flag?",
+    "message_2": "To form 3 teams of 5 players each from a group of 15 people, we can use the concept of combinations. \n\nFirst, we need to select 5 players for the first team. There are 15 people to choose from, so there are C(15,5) ways to do this. C(n,k) represents the number of combinations of n items taken k at a time. \n\nC(15,5) = 15! / (5! * (15-5)!) = 15! / (5! * 10!) = 3,003\n\nNow, we have 10 people left to choose from for the second team. There are C(10,5) ways to do this:\n\nC(10,5) = 10! / (5! * (10-5)!) = 10! / (5! * 5!) = 252\n\nFinally, the remaining 5 people will form the third team, so there's only 1 way to do this.\n\nTo find the total number of ways to form the 3 teams, we multiply the number of ways to form each team:\n\n3,003 * 252 * 1 = 757,756\n\nHowever, since the order of the teams doesn't matter (i.e., Team A, Team B, Team C is the same as Team B, Team A, Team C), we need to divide by the number of ways to arrange the 3 teams, which is 3! (3 factorial) or 3 * 2 * 1 = 6.\n\nSo, the final answer is:\n\n757,756 / 6 = 126,293\n\nThere are 126,293 ways to form 3 teams of 5 players each from a group of 15 people for a game of Capture the Flag."
+}

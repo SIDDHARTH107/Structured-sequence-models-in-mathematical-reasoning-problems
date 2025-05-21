@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Statistics",
+    "sub_topic": "Probability distributions",
+    "message_1": "A manufacturing company produces 500 components per day. The probability that any given component is defective is 0.02. What is the probability that in a given day, at most 10 components are defective?",
+    "message_2": "To solve this problem, we can use the binomial probability formula, which is:\n\nP(X = k) = C(n, k) * p^k * (1-p)^(n-k)\n\nwhere:\n- P(X = k) is the probability of having exactly k defective components\n- C(n, k) is the number of combinations of n items taken k at a time (n! / (k!(n-k)!))\n- n is the total number of components (500)\n- k is the number of defective components (0 to 10)\n- p is the probability of a component being defective (0.02)\n- (1-p) is the probability of a component not being defective (0.98)\n\nWe want to find the probability of having at most 10 defective components, so we need to calculate the sum of probabilities for k = 0 to 10:\n\nP(X ≤ 10) = Σ P(X = k) for k = 0 to 10\n\nCalculating each term and summing them up:\n\nP(X ≤ 10) ≈ 0.988 + 0.0107 + 0.0008 + 0.00003 + 0.000001 + 0.00000002 + 0.0000000003 + 0.000000000004 + 0.00000000000005 + 0.0000000000000006 + 0.000000000000000007\n\nP(X ≤ 10) ≈ 0.9996\n\nSo, the probability that in a given day, at most 10 components are defective is approximately 0.9996 or 99.96%."
+}

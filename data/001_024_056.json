@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Algebra",
+    "sub_topic": "Simplifying trigonometric expressions",
+    "message_1": "Simplify the trigonometric expression: \n$$\\frac{\\sin^2(x)-\\cos^2(x)}{\\sin(x)\\cos(x)}$$",
+    "message_2": "To simplify the given trigonometric expression, we can factor out a common term from the numerator:\n\n$$\\frac{\\sin^2(x)-\\cos^2(x)}{\\sin(x)\\cos(x)} = \\frac{\\sin^2(x) - 1\\cdot\\cos^2(x)}{\\sin(x)\\cos(x)}$$\n\nNow, we can use the Pythagorean identity $\\sin^2(x) + \\cos^2(x) = 1$. Rearranging the terms, we get $\\sin^2(x) = 1 - \\cos^2(x)$. Substitute this into the expression:\n\n$$\\frac{1 - \\cos^2(x) - \\cos^2(x)}{\\sin(x)\\cos(x)} = \\frac{1 - 2\\cos^2(x)}{\\sin(x)\\cos(x)}$$\n\nNow, we can use another trigonometric identity, the double angle formula for sine: $\\sin(2x) = 2\\sin(x)\\cos(x)$. Rearranging the terms, we get $\\sin(x)\\cos(x) = \\frac{1}{2}\\sin(2x)$. Substitute this into the expression:\n\n$$\\frac{1 - 2\\cos^2(x)}{\\frac{1}{2}\\sin(2x)} = 2\\frac{1 - 2\\cos^2(x)}{\\sin(2x)}$$\n\nNow, we can use the double angle formula for cosine: $\\cos(2x) = 1 - 2\\sin^2(x)$. Rearranging the terms, we get $2\\cos^2(x) = 1 - \\cos(2x)$. Substitute this into the expression:\n\n$$2\\frac{1 - (1 - \\cos(2x))}{\\sin(2x)} = 2\\frac{\\cos(2x)}{\\sin(2x)}$$\n\nFinally, we can simplify the expression by canceling the common factor of 2:\n\n$$\\frac{\\cos(2x)}{\\sin(2x)}$$\n\nSo, the simplified trigonometric expression is:\n\n$$\\frac{\\cos(2x)}{\\sin(2x)}$$"
+}

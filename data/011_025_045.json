@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Combinatorial game theory",
+    "message_1": "A game of Nim is played with 21 stones. Each player can pick up 1, 2, or 3 stones on their turn. The player who picks up the last stone wins. If Player 1 goes first, is there a winning strategy for Player 1?",
+    "message_2": "Yes, there is a winning strategy for Player 1.\n\nIn this game of Nim, the winning strategy is to ensure that after each round (both Player 1 and Player 2 have taken their turns), there are a multiple of 4 stones remaining. This is because if there are 4 stones remaining, the next player will be forced to leave at least 1 stone, allowing the following player to pick up the last stone and win.\n\nTo achieve this, Player 1 should pick up 1 stone on their first turn, leaving 20 stones. From this point on, whatever number of stones Player 2 picks up (1, 2, or 3), Player 1 should pick up enough stones to make the total number of stones picked up in that round equal to 4. For example, if Player 2 picks up 2 stones, Player 1 should pick up 2 stones as well.\n\nBy following this strategy, Player 1 ensures that after each round, there will be a multiple of 4 stones remaining (16, 12, 8, 4). When there are only 4 stones left, Player 2 will be forced to leave at least 1 stone, allowing Player 1 to pick up the last stone and win the game."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Digital signatures",
+    "message_1": "Suppose Alice wants to digitally sign a document using RSA algorithm. Her private key is (d=23, n=187) and her public key is (e=107, n=187). If she wants to sign the message M=42, what is the value of the digital signature?",
+    "message_2": "To create a digital signature using the RSA algorithm, Alice needs to use her private key (d, n) to compute the signature S. The formula for computing the signature is:\n\nS = M^d mod n\n\nIn this case, M = 42, d = 23, and n = 187. Plugging these values into the formula, we get:\n\nS = 42^23 mod 187\n\nCalculating this value, we find that:\n\nS = 169\n\nSo, the value of the digital signature is 169."
+}

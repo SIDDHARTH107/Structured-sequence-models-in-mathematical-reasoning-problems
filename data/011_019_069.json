@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Orthogonal arrays",
+    "message_1": "Find the minimum size of an OA(2,9,3) which has the property that each pair of columns contains all possible ordered pairs of symbols from the alphabet of size 3 exactly once.",
+    "message_2": "An orthogonal array OA(t, k, v) is an arrangement of symbols from an alphabet of size v in a k x N array such that each t-tuple of symbols appears in the array exactly λ times. In this case, we are given t = 2, k = 9, and v = 3.\n\nWe are asked to find the minimum size of an OA(2, 9, 3) such that each pair of columns contains all possible ordered pairs of symbols from the alphabet of size 3 exactly once. This means λ = 1.\n\nUsing the inequality for orthogonal arrays, we have:\n\nN ≥ v^t * (k - 1) / (t - 1)\n\nPlugging in the given values, we get:\n\nN ≥ 3^2 * (9 - 1) / (2 - 1)\n\nN ≥ 9 * 8 / 1\n\nN ≥ 72\n\nSo, the minimum size of an OA(2, 9, 3) with the given property is 72."
+}

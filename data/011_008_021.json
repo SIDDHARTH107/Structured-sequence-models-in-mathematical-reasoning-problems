@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Stirling numbers",
+    "message_1": "A sports team has 10 players and wants to choose a captain and 2 co-captains. How many ways can they do this if any player can be captain but only certain players can be co-captains? \n\nLet's say player X and player Y are the only ones eligible to be co-captains. How many ways can the captain and 2 co-captains be chosen if player X and player Y must be among the chosen players?",
+    "message_2": "Since player X and player Y must be among the chosen players, one of them will be the captain and the other will be a co-captain. There are 2 ways to choose the captain (either X or Y). \n\nAfter choosing the captain, there are 8 remaining players (10 players - 1 captain - 1 co-captain). We need to choose 1 more co-captain from these 8 players. There are 8 ways to choose the second co-captain.\n\nSo, the total number of ways to choose the captain and 2 co-captains with the given condition is 2 (ways to choose the captain) * 8 (ways to choose the second co-captain) = 16 ways."
+}

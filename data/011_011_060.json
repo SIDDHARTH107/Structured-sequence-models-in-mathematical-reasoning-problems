@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Partition theory",
+    "message_1": "A company has 5 departments and wants to distribute 15 employees among them such that no department is left empty. In how many ways can this be done?",
+    "message_2": "We can solve this problem using the stars and bars method. We have 15 employees (stars) to distribute among 5 departments (bars). Since no department can be empty, we can first assign 1 employee to each department. Now, we have 10 employees left to distribute among the 5 departments.\n\nWe need to place 4 bars between the 10 stars to separate them into 5 groups. To do this, we can think of it as having 14 positions (10 stars + 4 bars) and choosing 4 of those positions for the bars.\n\nThe number of ways to do this is given by the combination formula:\n\nC(n, k) = n! / (k!(n-k)!)\n\nIn our case, n = 14 and k = 4:\n\nC(14, 4) = 14! / (4!(14-4)!)\nC(14, 4) = 14! / (4!10!)\nC(14, 4) = (14 × 13 × 12 × 11) / (4 × 3 × 2 × 1)\nC(14, 4) = 1001\n\nSo there are 1001 ways to distribute the remaining 10 employees among the 5 departments, given that no department is left empty."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Singularities of complex functions",
+    "message_1": "Find the order of singularity at the point z = 0 for the function f(z) = (sin z)/z.",
+    "message_2": "To find the order of singularity at z = 0 for the function f(z) = (sin z)/z, we can use the Laurent series expansion. The Laurent series of a function is a representation of that function as a power series which includes both positive and negative powers of the variable.\n\nFirst, let's find the Taylor series expansion of sin z around z = 0:\n\nsin z = z - (z^3)/3! + (z^5)/5! - (z^7)/7! + ...\n\nNow, we can divide each term of the Taylor series by z:\n\n(sin z)/z = 1 - (z^2)/3! + (z^4)/5! - (z^6)/7! + ...\n\nThis series converges for all z ≠ 0. Notice that there are no negative powers of z in this expansion. Therefore, the function f(z) = (sin z)/z has a removable singularity at z = 0. The order of a removable singularity is 0, so the order of singularity at z = 0 for the function f(z) = (sin z)/z is 0."
+}

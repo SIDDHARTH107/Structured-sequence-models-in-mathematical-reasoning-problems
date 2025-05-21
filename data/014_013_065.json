@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Hill cipher",
+    "message_1": "Consider the key matrix K = \n\\begin{bmatrix}\n    2 & 1 \\\\\n    5 & 3\n\\end{bmatrix}\nand the plain text message \"MATH\". Use Hill Cipher to encrypt the message.\n\nWhat is the encrypted text message that the student would obtain?",
+    "message_2": "To encrypt the message \"MATH\" using the Hill Cipher, we first need to convert the letters to their corresponding numerical values (A=0, B=1, ..., Z=25). So, M=12, A=0, T=19, H=7.\n\nNow, we need to arrange these values into a matrix and multiply it by the key matrix K. Since K is a 2x2 matrix, we will arrange the numerical values of the message into a 2x2 matrix P:\n\nP = \n\\begin{bmatrix}\n    12 & 19 \\\\\n    0 & 7\n\\end{bmatrix}\n\nNow, we multiply the key matrix K by the message matrix P:\n\nC = K * P =\n\\begin{bmatrix}\n    2 & 1 \\\\\n    5 & 3\n\\end{bmatrix}\n*\n\\begin{bmatrix}\n    12 & 19 \\\\\n    0 & 7\n\\end{bmatrix}\n=\n\\begin{bmatrix}\n    24 & 45 \\\\\n    60 & 112\n\\end{bmatrix}\n\nNow, we need to take the resulting matrix C modulo 26:\n\nC (mod 26) =\n\\begin{bmatrix}\n    24 & 45 \\\\\n    60 & 112\n\\end{bmatrix}\n(mod 26) =\n\\begin{bmatrix}\n    24 & 19 \\\\\n    8 & 4\n\\end{bmatrix}\n\nFinally, we convert the numerical values back to letters: 24=X, 19=T, 8=I, 4=E. So, the encrypted message is \"XTIE\"."
+}

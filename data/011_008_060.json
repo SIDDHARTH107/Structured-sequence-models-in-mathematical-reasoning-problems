@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Stirling numbers",
+    "message_1": "How many ways are there to distribute 6 distinct toys among 3 children if each child must receive exactly 2 toys?",
+    "message_2": "We can solve this problem using combinations. We have 6 distinct toys and we want to distribute them among 3 children, with each child receiving exactly 2 toys.\n\nFirst, we choose 2 toys for the first child. There are 6 toys to choose from, so there are C(6,2) ways to do this, where C(n,k) represents the number of combinations of n items taken k at a time.\n\nC(6,2) = 6! / (2! * (6-2)!) = 15\n\nNow, we have 4 toys left for the remaining 2 children. We choose 2 toys for the second child. There are 4 toys to choose from, so there are C(4,2) ways to do this.\n\nC(4,2) = 4! / (2! * (4-2)!) = 6\n\nFinally, the last child will receive the remaining 2 toys, so there's only 1 way to do this.\n\nSo, the total number of ways to distribute the 6 distinct toys among the 3 children is:\n\n15 (ways for the first child) * 6 (ways for the second child) * 1 (way for the third child) = 90 ways."
+}

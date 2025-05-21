@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Optimization",
+    "sub_topic": "Linear programming",
+    "message_1": "A company is producing two products A and B. Each unit of product A requires 3 hours of labor and 2 hours of machine time, while each unit of product B requires 2 hours of labor and 4 hours of machine time. The company has 240 hours of labor and 180 hours of machine time available per week. If the profit for each unit of product A is $10 and for product B is $15, how many units of each product should the company produce to maximize the profit?",
+    "message_2": "Let x be the number of units of product A and y be the number of units of product B.\n\nThe constraints for labor and machine time can be represented by the following inequalities:\n\n3x + 2y ≤ 240 (labor constraint)\n2x + 4y ≤ 180 (machine constraint)\n\nWe want to maximize the profit function P(x, y) = 10x + 15y.\n\nFirst, we will find the feasible region by graphing the constraints:\n\n3x + 2y ≤ 240\n2y ≤ -3x + 240\ny ≤ -1.5x + 120\n\n2x + 4y ≤ 180\n4y ≤ -2x + 180\ny ≤ -0.5x + 45\n\nThe feasible region is a quadrilateral with vertices at (0, 0), (0, 45), (60, 30), and (80, 0).\n\nNow we will evaluate the profit function P(x, y) at each vertex:\n\nP(0, 0) = 10(0) + 15(0) = $0\nP(0, 45) = 10(0) + 15(45) = $675\nP(60, 30) = 10(60) + 15(30) = $900\nP(80, 0) = 10(80) + 15(0) = $800\n\nThe maximum profit of $900 is achieved when the company produces 60 units of product A and 30 units of product B."
+}

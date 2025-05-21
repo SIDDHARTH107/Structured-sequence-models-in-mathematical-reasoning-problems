@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Topology",
+    "sub_topic": "De Rham cohomology and its applications",
+    "message_1": "Here's an example numerical question for a math student to solve related to De Rham cohomology and its applications:\n\nLet M be a smooth manifold with the standard 2-dimensional torus as its underlying topological space. Compute the De Rham cohomology groups of M, i.e., determine the dimensions of the spaces H^k(M) for k = 0, 1, and 2. \n\n(Note: The De Rham cohomology groups of a manifold are algebraic invariants that encode topological information about the manifold, specifically its number of holes and voids.)",
+    "message_2": "To compute the De Rham cohomology groups of the 2-dimensional torus M, we can use the fact that the torus is a product of two circles, i.e., M = S^1 x S^1. The De Rham cohomology groups of a product of manifolds can be computed using the Künneth formula.\n\nFirst, let's recall the De Rham cohomology groups of a circle S^1:\n\nH^0(S^1) = R (1-dimensional)\nH^1(S^1) = R (1-dimensional)\nH^k(S^1) = 0 for k ≥ 2\n\nNow, we apply the Künneth formula to compute the De Rham cohomology groups of M = S^1 x S^1:\n\nH^0(M) = H^0(S^1) ⊗ H^0(S^1) = R ⊗ R = R (1-dimensional)\n\nH^1(M) = H^0(S^1) ⊗ H^1(S^1) ⊕ H^1(S^1) ⊗ H^0(S^1) = R ⊗ R ⊕ R ⊗ R = R ⊕ R (2-dimensional)\n\nH^2(M) = H^1(S^1) ⊗ H^1(S^1) = R ⊗ R = R (1-dimensional)\n\nH^k(M) = 0 for k ≥ 3\n\nSo, the dimensions of the De Rham cohomology groups of the 2-dimensional torus M are:\n\nH^0(M) = 1\nH^1(M) = 2\nH^2(M) = 1"
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Probability",
+    "sub_topic": "Probability of a certain type of entertainment outcome occurring in a performance.",
+    "message_1": "A magician has a deck of cards consisting of 52 cards, including 13 hearts. If the magician randomly selects 3 cards from the deck, what is the probability of all three cards being hearts?",
+    "message_2": "To find the probability of all three cards being hearts, we can use the formula for probability: \n\nP(A) = Number of favorable outcomes / Total number of possible outcomes\n\nFirst, we need to find the total number of possible outcomes when selecting 3 cards from a deck of 52 cards. This can be calculated using combinations:\n\nC(n, r) = n! / (r!(n-r)!)\n\nwhere n is the total number of items, r is the number of items to choose, and ! denotes the factorial.\n\nC(52, 3) = 52! / (3!(52-3)!) = 52! / (3!49!) = (52*51*50) / (3*2*1) = 22100\n\nNow, we need to find the number of favorable outcomes, which is selecting 3 hearts from the 13 hearts in the deck:\n\nC(13, 3) = 13! / (3!(13-3)!) = 13! / (3!10!) = (13*12*11) / (3*2*1) = 286\n\nNow, we can find the probability:\n\nP(All three cards are hearts) = Number of favorable outcomes / Total number of possible outcomes\n\nP(All three cards are hearts) = 286 / 22100 = 0.01294 (rounded to 5 decimal places)\n\nSo, the probability of all three cards being hearts is approximately 0.01294 or 1.294%."
+}

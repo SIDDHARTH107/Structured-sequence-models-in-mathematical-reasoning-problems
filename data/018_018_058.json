@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Set theory",
+    "sub_topic": "Prove that the symmetric difference of two sets is commutative.",
+    "message_1": "Let A = {2, 4, 6} and B = {4, 6, 8}. Find the symmetric difference of set A and set B and prove that it is commutative.",
+    "message_2": "The symmetric difference of two sets A and B, denoted as A Δ B, is the set of elements which are in either A or B, but not in their intersection. In other words, it is the union of the two sets minus their intersection.\n\nA Δ B = (A ∪ B) - (A ∩ B)\n\nFirst, let's find the union of sets A and B (A ∪ B):\n\nA ∪ B = {2, 4, 6} ∪ {4, 6, 8} = {2, 4, 6, 8}\n\nNext, let's find the intersection of sets A and B (A ∩ B):\n\nA ∩ B = {2, 4, 6} ∩ {4, 6, 8} = {4, 6}\n\nNow, let's find the symmetric difference of sets A and B (A Δ B):\n\nA Δ B = (A ∪ B) - (A ∩ B) = {2, 4, 6, 8} - {4, 6} = {2, 8}\n\nNow, to prove that the symmetric difference is commutative, we need to show that A Δ B = B Δ A.\n\nLet's find the symmetric difference of sets B and A (B Δ A):\n\nB Δ A = (B ∪ A) - (B ∩ A)\n\nSince the union and intersection are both commutative (A ∪ B = B ∪ A and A ∩ B = B ∩ A), we can rewrite this as:\n\nB Δ A = (A ∪ B) - (A ∩ B)\n\nNow, we already found (A ∪ B) and (A ∩ B) earlier:\n\nB Δ A = {2, 4, 6, 8} - {4, 6} = {2, 8}\n\nThus, A Δ B = {2, 8} = B Δ A, which proves that the symmetric difference is commutative."
+}

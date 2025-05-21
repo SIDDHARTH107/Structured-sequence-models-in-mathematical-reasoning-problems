@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Probability",
+    "sub_topic": "Probability of a certain type of product defect occurring in a manufacturing process",
+    "message_1": "A company manufactures computer monitors, and the probability of a monitor having a defect is 0.08. If a random sample of 50 monitors is selected, what is the probability that exactly 3 of them will have a defect?",
+    "message_2": "We can solve this problem using the binomial probability formula, which is:\n\nP(X = k) = C(n, k) * p^k * (1-p)^(n-k)\n\nwhere:\n- P(X = k) is the probability of having exactly k successes (defective monitors) in n trials (monitors selected)\n- C(n, k) is the number of combinations of n items taken k at a time, also written as n! / (k!(n-k)!)\n- p is the probability of success (a monitor having a defect), which is 0.08\n- n is the number of trials (monitors selected), which is 50\n- k is the number of successes (defective monitors), which is 3\n\nPlugging in the values, we get:\n\nP(X = 3) = C(50, 3) * 0.08^3 * (1-0.08)^(50-3)\n\nFirst, we calculate C(50, 3):\n\nC(50, 3) = 50! / (3!(50-3)!) = 50! / (3!47!) = (50*49*48) / (3*2*1) = 19600\n\nNow, we calculate the rest of the formula:\n\nP(X = 3) = 19600 * 0.08^3 * (1-0.08)^(50-3)\nP(X = 3) = 19600 * 0.000512 * 0.92^47\nP(X = 3) ≈ 19600 * 0.000512 * 0.0304\nP(X = 3) ≈ 0.306\n\nSo, the probability that exactly 3 of the 50 monitors will have a defect is approximately 0.306 or 30.6%."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Graph theory",
+    "sub_topic": "Identifying the isomorphism between two graphs.",
+    "message_1": "Identify the isomorphism between the following two undirected graphs:\n\nGraph 1: \n\n    A --- B\n    |     |\n    C --- D\n    \nGraph 2:\n\n    1 --- 2\n    |     |\n    4 --- 3",
+    "message_2": "An isomorphism between two graphs is a bijection (one-to-one and onto) function that maps the vertices of one graph to the vertices of the other graph, preserving the adjacency of vertices.\n\nOne possible isomorphism between Graph 1 and Graph 2 can be defined as follows:\n\nf(A) = 1\nf(B) = 2\nf(C) = 4\nf(D) = 3\n\nThis mapping preserves the adjacency of vertices in both graphs:\n\n- A is adjacent to B, C, and D in Graph 1, and 1 is adjacent to 2, 4, and 3 in Graph 2.\n- B is adjacent to A, C, and D in Graph 1, and 2 is adjacent to 1, 4, and 3 in Graph 2.\n- C is adjacent to A, B, and D in Graph 1, and 4 is adjacent to 1, 2, and 3 in Graph 2.\n- D is adjacent to A, B, and C in Graph 1, and 3 is adjacent to 1, 2, and 4 in Graph 2.\n\nThus, the function f is an isomorphism between Graph 1 and Graph 2."
+}

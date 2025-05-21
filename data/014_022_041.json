@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Cryptanalysis of Playfair cipher",
+    "message_1": "Suppose you intercepted a Playfair cipher encrypted message \"LW YM AX DY CK\" and you know that the key used was \"MATHS\". Decrypt the message and determine the plaintext message.",
+    "message_2": "To decrypt the Playfair cipher encrypted message, we first need to create the 5x5 Playfair cipher table using the key \"MATHS\". The table is created by filling in the letters of the keyword (without repeating any letters) and then filling in the rest of the letters of the alphabet in order (excluding \"J\" since it is combined with \"I\" in the Playfair cipher).\n\nThe table with the key \"MATHS\" looks like this:\n\nM A T H S\nB C D E F\nG I K L N\nO P Q R U\nV W X Y Z\n\nNow, we will decrypt the message \"LW YM AX DY CK\" using the table:\n\n1. LW -> HE\n2. YM -> LL\n3. AX -> LP\n4. DY -> ME\n5. CK -> ET\n\nThe decrypted message is \"HELLOMEET\". However, the Playfair cipher often includes an extra \"X\" or \"Q\" to separate repeated letters or to make the digraphs complete. In this case, we can assume that the extra letter is \"X\" and remove it to get the plaintext message:\n\nThe plaintext message is \"HELLO MEET\"."
+}

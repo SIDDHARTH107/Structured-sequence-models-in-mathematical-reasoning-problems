@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Playfair cipher",
+    "message_1": "What is the Playfair cipher encryption of the word \"MATHEMATICS\" using the key \"CRYPTOLOGY\"?",
+    "message_2": "To encrypt the word \"MATHEMATICS\" using the Playfair cipher with the key \"CRYPTOLOGY\", follow these steps:\n\n1. Create a 5x5 grid and fill it with the key and the remaining letters of the alphabet (excluding J, which is combined with I in the Playfair cipher).\n\n   C R Y P T\n   O L G A B\n   D E F H I\n   K M N Q S\n   U V W X Z\n\n2. Split the plaintext into digraphs (pairs of letters). If a pair has the same letter, insert an 'X' between them. If the plaintext has an odd number of letters, add an 'X' at the end.\n\n   MA TH EM AT IX CS\n\n3. For each digraph, apply the following rules:\n\n   - If both letters are in the same row, replace each letter with the one to its right (wrap around if necessary).\n   - If both letters are in the same column, replace each letter with the one below it (wrap around if necessary).\n   - If the letters form a rectangle, replace each letter with the one in the same row but in the other corner of the rectangle.\n\n4. Encrypt the digraphs:\n\n   MA -> PF\n   TH -> YD\n   EM -> LN\n   AT -> TO\n   IX -> YK\n   CS -> RZ\n\n5. Combine the encrypted digraphs to get the ciphertext:\n\n   PFYDLNTOYKRZ\n\nSo, the Playfair cipher encryption of the word \"MATHEMATICS\" using the key \"CRYPTOLOGY\" is \"PFYDLNTOYKRZ\"."
+}

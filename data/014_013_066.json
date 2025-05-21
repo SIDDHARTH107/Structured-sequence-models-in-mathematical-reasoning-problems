@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Hill cipher",
+    "message_1": "Using the Hill Cipher, encrypt the message \"MATH\" using the key matrix \n```\n[7 8]\n[11 11]\n``` \nand show the resulting ciphertext.",
+    "message_2": "To encrypt the message \"MATH\" using the Hill Cipher and the given key matrix, follow these steps:\n\n1. Convert the letters in the message to their corresponding numerical values (A=0, B=1, ..., Z=25): M=12, A=0, T=19, H=7.\n\n2. Break the message into pairs of numbers: (12, 0), (19, 7).\n\n3. Multiply each pair by the key matrix:\n```\n[7  8]   [12]   [ 7*12 + 8*0]   [ 84]\n[11 11] x [ 0] = [11*12 + 11*0] = [132]\n\n[7  8]   [19]   [ 7*19 + 8*7]   [190]\n[11 11] x [ 7] = [11*19 + 11*7] = [286]\n```\n\n4. Take the results modulo 26 to get the encrypted pairs:\n```\n[ 84]   [ 8]\n[132] = [ 0]\n\n[190]   [ 2]\n[286] = [ 4]\n```\n\n5. Convert the encrypted pairs back to letters: (8, 0) = \"IA\", (2, 4) = \"CE\".\n\nThe resulting ciphertext is \"IACE\"."
+}

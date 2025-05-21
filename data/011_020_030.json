@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Combinatorial optimization",
+    "message_1": "A company has 12 employees and wants to create 3 teams of 4 people each for a project. How many different ways can the 3 teams be formed?",
+    "message_2": "To solve this problem, we can use the concept of combinations. A combination is a selection of items from a larger set, where the order of the items does not matter.\n\nFirst, we need to find the number of ways to select the first team of 4 people from the 12 employees. This can be calculated using the combination formula:\n\nC(n, k) = n! / (k!(n-k)!)\n\nwhere n is the total number of items, k is the number of items to be selected, and ! denotes the factorial function (e.g., 5! = 5 × 4 × 3 × 2 × 1).\n\nFor the first team, n = 12 and k = 4:\n\nC(12, 4) = 12! / (4!(12-4)!) = 12! / (4!8!) = 495\n\nNow, there are 8 employees left to choose from for the second team. Using the same formula, we can find the number of ways to select the second team of 4 people:\n\nC(8, 4) = 8! / (4!(8-4)!) = 8! / (4!4!) = 70\n\nFinally, the remaining 4 employees will form the third team, so there is only 1 way to form this team.\n\nHowever, since the order of the teams does not matter, we need to divide the total number of ways by the number of ways the teams can be arranged. There are 3! = 3 × 2 × 1 = 6 ways to arrange the 3 teams.\n\nSo, the total number of ways to form the 3 teams is:\n\n(495 × 70 × 1) / 6 = 5775 ways."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Block designs",
+    "message_1": "A teacher wants to organize a group presentation with 15 students. She wants to divide them into groups of 5 for the presentation. How many different ways can she divide the students into groups?",
+    "message_2": "To find the number of ways to divide the 15 students into groups of 5, we can use the combination formula, which is:\n\nC(n, k) = n! / (k!(n-k)!)\n\nwhere n is the total number of students (15 in this case), k is the number of students in each group (5 in this case), and ! denotes the factorial (the product of all positive integers up to that number).\n\nFirst, we need to find the number of ways to choose the first group of 5 students from the 15:\n\nC(15, 5) = 15! / (5!(15-5)!)\n= 15! / (5!10!)\n= (15 × 14 × 13 × 12 × 11 × 10!) / (5 × 4 × 3 × 2 × 1 × 10!)\n= 3003\n\nNow, we have 10 students left and need to choose the second group of 5 students:\n\nC(10, 5) = 10! / (5!(10-5)!)\n= 10! / (5!5!)\n= (10 × 9 × 8 × 7 × 6 × 5!) / (5 × 4 × 3 × 2 × 1 × 5!)\n= 252\n\nHowever, we need to account for the fact that the order of the groups doesn't matter (e.g., Group A, Group B, Group C is the same as Group B, Group A, Group C). So, we need to divide the product of the combinations by the number of ways to arrange the 3 groups, which is 3! (3 × 2 × 1 = 6).\n\nTherefore, the number of different ways to divide the 15 students into groups of 5 is:\n\n(3003 × 252) / 6 = 126126 / 6 = 21021"
+}

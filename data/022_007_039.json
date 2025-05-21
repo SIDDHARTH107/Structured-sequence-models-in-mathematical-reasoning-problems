@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Liouville's theorem and fundamental theorem of algebra",
+    "message_1": "Suppose that $f(z)$ is a non-constant entire function such that $|f(z)|\\leq 5$ for all $z\\in\\mathbb{C}$. Prove that there exist complex constants $a$ and $b$ satisfying $f(z) = az+b$.",
+    "message_2": "To prove this, we will use Liouville's theorem, which states that every bounded entire function is constant. \n\nSince $f(z)$ is a non-constant entire function, we can write it as a power series:\n\n$f(z) = \\sum_{n=0}^{\\infty} c_n z^n$\n\nNow, let's consider the function $g(z) = f'(z)$. Since $f(z)$ is entire, so is $g(z)$. Moreover, $g(z)$ is also bounded:\n\n$|g(z)| = |f'(z)| \\leq M$ for some constant $M$ and all $z \\in \\mathbb{C}$.\n\nBy Liouville's theorem, $g(z)$ must be a constant function, say $g(z) = a$. Thus, $f'(z) = a$ for all $z \\in \\mathbb{C}$.\n\nNow, we can integrate both sides of the equation with respect to $z$:\n\n$\\int f'(z) dz = \\int a dz$\n\n$f(z) = az + b$\n\nwhere $a$ and $b$ are complex constants. This completes the proof."
+}

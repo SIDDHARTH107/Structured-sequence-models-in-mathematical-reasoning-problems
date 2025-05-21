@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Polya's enumeration theorem",
+    "message_1": "In how many ways can the letters of the word \"MISSISSIPPI\" be arranged such that no two \"S\"s are adjacent?",
+    "message_2": "First, let's find the total number of ways to arrange the letters in the word \"MISSISSIPPI\" without any restrictions. There are 11 letters in the word, with 1 M, 4 I's, 4 S's, and 2 P's.\n\nThe total number of ways to arrange these letters is given by the multinomial coefficient formula:\n\n11! / (1! * 4! * 4! * 2!) = 34,650\n\nNow, let's find the number of ways to arrange the letters with the restriction that no two S's are adjacent. We can think of placing the 4 S's in the gaps between the other 7 letters (M, 4 I's, and 2 P's). There are 8 gaps in total (including the beginning and end of the word), so we need to choose 4 of these gaps to place the S's.\n\nThe number of ways to choose 4 gaps out of 8 is given by the binomial coefficient:\n\nC(8, 4) = 8! / (4! * (8 - 4)!) = 70\n\nNow, we need to arrange the remaining 7 letters (1 M, 4 I's, and 2 P's). The number of ways to arrange these letters is:\n\n7! / (1! * 4! * 2!) = 210\n\nSo, the total number of ways to arrange the letters of \"MISSISSIPPI\" such that no two S's are adjacent is:\n\n70 * 210 = 14,700"
+}

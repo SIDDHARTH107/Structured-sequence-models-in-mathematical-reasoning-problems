@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Cryptanalysis of transposition ciphers",
+    "message_1": "A transposition cipher uses a permutation of the Latin alphabet to shuffle its letters. Suppose that a message has been encrypted using a transposition cipher with the permutation (D E F G A B C H I J K L M N O P Q R S T U V W X Y Z). If the encrypted message is \"OYSNAAOUNPRTMEOOG\", what is the original message?",
+    "message_2": "To decrypt the message, we need to reverse the permutation and apply it to the encrypted message. The reverse permutation is:\n\n(A B C D E F G H I J K L M N O P Q R S T U V W X Y Z)\n(G A B C D E F H I J K L M N O P Q R S T U V W X Y Z)\n\nNow, we apply this reverse permutation to the encrypted message \"OYSNAAOUNPRTMEOOG\":\n\nO -> L\nY -> O\nS -> N\nN -> G\nA -> G\nA -> G\nO -> L\nU -> A\nN -> G\nP -> R\nR -> A\nT -> T\nM -> I\nE -> C\nO -> L\nO -> L\nG -> Y\n\nThe decrypted message is \"LONGGGLAGRATIONICLLY\"."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Solving systems of linear equations with ill-conditioned matrices",
+    "message_1": "Consider the system of linear equations:\n\n2x + 3y = 11\n\n4x + 6y = 25\n\nIf the student uses Cramer's rule to solve for x and y, what will be the values of x and y?",
+    "message_2": "First, let's find the determinant of the coefficient matrix (D):\n\nD = | 2  3 |\n      | 4  6 |\n\nD = (2 * 6) - (3 * 4) = 12 - 12 = 0\n\nSince the determinant is 0, Cramer's rule cannot be applied to solve this system of linear equations. The system is either inconsistent (no solution) or dependent (infinitely many solutions). Let's check which one it is.\n\nDivide the second equation by 2:\n\n2x + 3y = 12.5\n\nNow, we can see that both equations are proportional:\n\n2x + 3y = 11\n2x + 3y = 12.5\n\nSince they are proportional and have different constants on the right side, the system is inconsistent and has no solution."
+}

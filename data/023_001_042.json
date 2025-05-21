@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Fourier analysis",
+    "sub_topic": "Finding the Fourier series of a periodic function",
+    "message_1": "Find the Fourier series of the periodic function f(x) = x + 2 for the range -π ≤ x ≤ π.",
+    "message_2": "To find the Fourier series of the function f(x) = x + 2 for the range -π ≤ x ≤ π, we need to find the coefficients a₀, aₙ, and bₙ.\n\nThe general formula for the Fourier series is:\n\nf(x) = a₀ + Σ[aₙcos(nx) + bₙsin(nx)]\n\nWhere n = 1, 2, 3, ...\n\nThe coefficients are given by the following formulas:\n\na₀ = (1/π) ∫[f(x)]dx from -π to π (over one period)\n\naₙ = (1/π) ∫[f(x)cos(nx)]dx from -π to π\n\nbₙ = (1/π) ∫[f(x)sin(nx)]dx from -π to π\n\nFirst, let's find a₀:\n\na₀ = (1/π) ∫[(x + 2)]dx from -π to π\na₀ = (1/π) [(1/2)x^2 + 2x] from -π to π\na₀ = (1/π) [(1/2)(π^2) + 2π - (1/2)(-π^2) - 2(-π)]\na₀ = (1/π) [π^2 + 4π]\na₀ = π + 4\n\nNow, let's find aₙ:\n\naₙ = (1/π) ∫[(x + 2)cos(nx)]dx from -π to π\naₙ = (1/π) [(x/n)sin(nx) + (2/n)cos(nx) - (1/n^2)sin(nx)] from -π to π\n\nSince sin(-nπ) = sin(nπ) = 0 and cos(-nπ) = cos(nπ) = (-1)^n, we get:\n\naₙ = (1/π) [(π/n)(-1)^n + (2/n)(-1)^n - (2/n)(-1)^n]\naₙ = (1/π) [(π/n)(-1)^n]\n\nNow, let's find bₙ:\n\nbₙ = (1/π) ∫[(x + 2)sin(nx)]dx from -π to π\nbₙ = (1/π) [(-1/n)cos(nx) - 2sin(nx)/n^2] from -π to π\n\nSince cos(-nπ) = cos(nπ) = (-1)^n, we get:\n\nbₙ = (1/π) [(-1/n)(-1)^n - (-1/n)(-1)^n]\nbₙ = 0\n\nSo, the Fourier series for f(x) = x + 2 is:\n\nf(x) = (π + 4) + Σ[((-1)^n/n)πcos(nx)] for n = 1, 2, 3, ..."
+}

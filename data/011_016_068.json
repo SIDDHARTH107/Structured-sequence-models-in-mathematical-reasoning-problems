@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Combinatorial designs",
+    "message_1": "Suppose a teacher has 12 different books on combinatorics and wants to divide them equally among 3 students so that each student gets exactly 4 books. In how many ways can the teacher distribute the books?",
+    "message_2": "To solve this problem, we can use the concept of combinations. We need to choose 4 books for each student out of the 12 available books.\n\nFirst, we choose 4 books for the first student. There are C(12,4) ways to do this, where C(n,k) is the number of combinations of choosing k items from a set of n items.\n\nC(12,4) = 12! / (4! * (12-4)!) = 495\n\nNow, we have 8 books left. We choose 4 books for the second student. There are C(8,4) ways to do this.\n\nC(8,4) = 8! / (4! * (8-4)!) = 70\n\nFinally, the remaining 4 books will go to the third student, so there's only 1 way to do this (C(4,4) = 1).\n\nTo find the total number of ways to distribute the books, we multiply the number of ways for each student:\n\nTotal ways = 495 * 70 * 1 = 34,650\n\nSo, there are 34,650 ways for the teacher to distribute the 12 books equally among the 3 students."
+}

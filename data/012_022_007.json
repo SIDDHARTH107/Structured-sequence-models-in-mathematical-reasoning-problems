@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Graph theory",
+    "sub_topic": "Finding the Ramsey number of a graph.",
+    "message_1": "What is the Ramsey number R(3, 4)?\n\nNote: The Ramsey number R(3, 4) is defined as the smallest number n such that any graph with n vertices either contains a triangle with all edges colored red or a complete graph with four vertices with all edges colored blue.",
+    "message_2": "The Ramsey number R(3, 4) is 9.\n\nTo prove this, we first show that R(3, 4) > 8. Consider a graph with 8 vertices, and color its edges with red and blue such that each vertex has 3 red edges and 4 blue edges. It can be shown that there is no red triangle or blue complete graph with four vertices in this configuration. Therefore, R(3, 4) cannot be 8 or smaller.\n\nNow, we show that R(3, 4) ≤ 9. Consider a graph with 9 vertices. Pick a vertex v. There are 8 edges connected to v, and by the Pigeonhole Principle, at least 4 of these edges must be the same color, say red. Let the vertices connected to v by red edges be a, b, c, and d.\n\nIf any of the edges (a, b), (a, c), (a, d), (b, c), (b, d), or (c, d) are red, then we have a red triangle. If all these edges are blue, then we have a blue complete graph with four vertices {a, b, c, d}. In either case, we have satisfied the conditions for R(3, 4).\n\nThus, R(3, 4) = 9."
+}

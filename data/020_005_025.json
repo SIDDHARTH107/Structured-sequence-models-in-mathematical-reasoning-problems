@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Optimization",
+    "sub_topic": "Integer programming",
+    "message_1": "A small toy factory produces two types of wooden cars, sedan and SUV. The factory can produce up to 30 cars each day, and it takes 2 hours to produce a sedan and 3 hours to produce an SUV. The profit per sedan is $30 and per SUV is $45. However, the factory can only produce a maximum of 50 cars each week.\n\nWrite an integer programming problem to determine the number of sedans and SUVs to be produced in order to maximize the profit for the factory.",
+    "message_2": "Let x be the number of sedans and y be the number of SUVs produced.\n\nObjective function:\nMaximize profit P = 30x + 45y\n\nConstraints:\n1. Daily production limit: x + y ≤ 30\n2. Weekly production limit: x + y ≤ 50\n3. Time constraint: 2x + 3y ≤ 60 (assuming the factory works 10 hours a day, 6 days a week, so 60 hours a week)\n4. Non-negativity constraint: x ≥ 0, y ≥ 0\n5. Integer constraint: x and y must be integers\n\nThe integer programming problem can be written as:\n\nMaximize P = 30x + 45y\nsubject to:\nx + y ≤ 30\nx + y ≤ 50\n2x + 3y ≤ 60\nx ≥ 0\ny ≥ 0\nx, y ∈ Z"
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Complex analysis of integral equations",
+    "message_1": "Evaluate the following contour integral using Cauchy's Residue Theorem: \n\n$$\\oint_C \\frac{e^{2z}}{(z-i)^2} \\, dz$$\n\nwhere $C$ is the circle centered at the origin with radius $2$.",
+    "message_2": "To evaluate the contour integral using Cauchy's Residue Theorem, we first need to find the residues of the function at its poles inside the contour C. The function has a pole of order 2 at z = i, which is inside the circle C.\n\nNow, we will find the residue at z = i. Since the pole is of order 2, we need to find the first derivative of the function with respect to z and then evaluate it at z = i.\n\n$$f(z) = \\frac{e^{2z}}{(z-i)^2}$$\n\nFirst, we find the first derivative of f(z) with respect to z:\n\n$$f'(z) = \\frac{d}{dz} \\left(\\frac{e^{2z}}{(z-i)^2}\\right)$$\n\nWe can use the quotient rule for differentiation:\n\n$$f'(z) = \\frac{(2e^{2z})(z-i)^2 - 2(z-i)e^{2z}}{(z-i)^4}$$\n\nNow, we evaluate f'(z) at z = i:\n\n$$f'(i) = \\frac{(2e^{2i})(i-i)^2 - 2(i-i)e^{2i}}{(i-i)^4}$$\n\n$$f'(i) = \\frac{2e^{2i}}{1}$$\n\nNow, we can use Cauchy's Residue Theorem to evaluate the contour integral:\n\n$$\\oint_C \\frac{e^{2z}}{(z-i)^2} \\, dz = 2\\pi i \\cdot \\text{Res}(f(z), i)$$\n\nSince the residue at z = i is equal to f'(i), we have:\n\n$$\\oint_C \\frac{e^{2z}}{(z-i)^2} \\, dz = 2\\pi i \\cdot 2e^{2i}$$\n\n$$\\oint_C \\frac{e^{2z}}{(z-i)^2} \\, dz = 4\\pi i e^{2i}$$"
+}

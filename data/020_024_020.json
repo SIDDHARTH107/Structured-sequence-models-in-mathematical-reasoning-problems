@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Optimization",
+    "sub_topic": "Optimal pricing",
+    "message_1": "A clothing store sells a certain type of t-shirt for $20 each. The store owner estimates that for every $1 decrease in price, the number of t-shirts sold increases by 5%. Additionally, the store has a fixed cost of $2000 per week to operate. What price should the store owner set for the t-shirts to maximize their weekly profit?",
+    "message_2": "Let x be the number of $1 decreases in price, and let P(x) be the profit function. The price of a t-shirt after x decreases is given by:\n\nPrice = 20 - x\n\nThe number of t-shirts sold after x decreases is given by:\n\nNumber of t-shirts = 100(1 + 0.05x)\n\nThe revenue function, R(x), is the product of the price and the number of t-shirts sold:\n\nR(x) = (20 - x)(100 + 5x)\n\nThe profit function, P(x), is the revenue minus the fixed cost:\n\nP(x) = R(x) - 2000 = (20 - x)(100 + 5x) - 2000\n\nTo find the maximum profit, we need to find the critical points of P(x) by taking the derivative with respect to x and setting it equal to 0:\n\nP'(x) = d/dx[(20 - x)(100 + 5x) - 2000]\n\nUsing the product rule, we get:\n\nP'(x) = (20 - x)(5) + (-1)(100 + 5x)\n\nP'(x) = 100 - 5x - 100 - 5x\n\nP'(x) = -10x\n\nSetting P'(x) equal to 0:\n\n0 = -10x\n\nx = 0\n\nSince x = 0 is the only critical point, this is where the maximum profit occurs. This means that the store owner should not decrease the price of the t-shirts. The optimal price to maximize profit is $20 per t-shirt."
+}

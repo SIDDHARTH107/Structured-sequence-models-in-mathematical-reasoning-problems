@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Optimization",
+    "sub_topic": "Mixed-integer programming",
+    "message_1": "A small factory produces two types of furniture, chairs and tables. The raw materials required to produce one chair are 5 units of wood and 2 units of metal, while one table requires 10 units of wood and 4 units of metal. The factory has 50 units of wood and 20 units of metal available. Each chair is sold for $50 and each table is sold for $100. How many chairs and tables should the factory produce to maximize its profit?",
+    "message_2": "Let x be the number of chairs and y be the number of tables produced.\n\nThe constraints for the raw materials are:\n\n5x + 10y ≤ 50 (wood constraint)\n2x + 4y ≤ 20 (metal constraint)\n\nWe can simplify these constraints:\n\nx + 2y ≤ 10 (wood constraint)\nx + 2y ≤ 10 (metal constraint)\n\nSince both constraints are the same, we only need to consider one of them:\n\nx + 2y ≤ 10\n\nThe objective function to maximize the profit is:\n\nP(x, y) = 50x + 100y\n\nSince we want to maximize the profit, we will look for the corner points of the feasible region determined by the constraint x + 2y ≤ 10.\n\nThe corner points are:\n\nA(0, 0): P(0, 0) = 50(0) + 100(0) = $0\nB(10, 0): P(10, 0) = 50(10) + 100(0) = $500\nC(0, 5): P(0, 5) = 50(0) + 100(5) = $500\n\nThe maximum profit occurs at points B and C, with a profit of $500. Therefore, the factory should produce either 10 chairs and 0 tables or 0 chairs and 5 tables to maximize its profit."
+}

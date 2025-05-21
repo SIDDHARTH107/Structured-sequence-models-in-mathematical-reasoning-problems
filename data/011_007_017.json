@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Recurrence relations",
+    "message_1": "How many binary strings of length 8 contain exactly four 1's?\n\nHint: A binary string is a string of 0's and 1's. Use the recurrence relation C(n, k) = C(n-1, k) + C(n-1, k-1), where C(n, k) represents the number of ways to choose k items from n distinct items, to solve the problem.",
+    "message_2": "To find the number of binary strings of length 8 containing exactly four 1's, we can use the combination formula C(n, k) = n! / (k!(n-k)!), where n is the total number of items and k is the number of items to choose. In this case, we have n = 8 (the length of the binary string) and k = 4 (the number of 1's).\n\nUsing the combination formula, we get:\n\nC(8, 4) = 8! / (4!(8-4)!)\nC(8, 4) = 8! / (4!4!)\nC(8, 4) = (8*7*6*5) / (4*3*2*1)\nC(8, 4) = 1680 / 24\nC(8, 4) = 70\n\nSo there are 70 binary strings of length 8 containing exactly four 1's."
+}

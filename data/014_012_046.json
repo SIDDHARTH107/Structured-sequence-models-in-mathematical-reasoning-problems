@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Vigenere cipher",
+    "message_1": "Suppose you want to encrypt the message \"MATHEMATICS\" using a Vigenere cipher with the key \"ALGEBRA\". Using the standard mapping of letters to numbers, what is the encrypted message?",
+    "message_2": "To encrypt the message \"MATHEMATICS\" using a Vigenere cipher with the key \"ALGEBRA\", we first need to repeat the key to match the length of the message. In this case, the repeated key is \"ALGEBRALG\".\n\nNow, we use the standard mapping of letters to numbers (A=0, B=1, C=2, ..., Z=25) and add the corresponding numbers of the message and the key modulo 26. Then, we convert the resulting numbers back to letters.\n\nMessage:   M  A  T  H  E  M  A  T  I  C  S\n           12 0  19 7  4  12 0  19 8  2  18\n\nKey:       A  L  G  E  B  R  A  L  G  E  B\n           0  11 6  4  1  17 0  11 6  4  1\n\nEncrypted: Z  L  Y  K  F  Z  A  Y  O  G  T\n           25 11 24 10 5  25 0  24 14 6  19\n\nSo, the encrypted message is \"ZLYKFZAYOGT\"."
+}

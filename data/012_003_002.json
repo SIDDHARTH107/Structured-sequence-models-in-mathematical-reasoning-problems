@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Graph theory",
+    "sub_topic": "Identifying the maximum independent set in a graph.",
+    "message_1": "In a social networking site, there are 10 users, and each user is connected to at least 3 other users. If you need to form a group of users such that no two users in the group are connected, what is the maximum number of users that can be in the group (i.e., what is the size of the maximum independent set)?",
+    "message_2": "Let's use the concept of graph theory to solve this problem. We can represent the social network as a graph where each user is a vertex and each connection between users is an edge.\n\nSince each user is connected to at least 3 other users, the minimum degree of each vertex in the graph is 3. According to Turán's theorem, the size of the maximum independent set in a graph with n vertices and minimum degree d is at most n/(d+1).\n\nIn our case, n = 10 (number of users) and d = 3 (minimum degree). So, the size of the maximum independent set is at most:\n\n10/(3+1) = 10/4 = 2.5\n\nSince the number of users in a group must be an integer, we round down to get the maximum number of users that can be in the group without any connections between them:\n\nMaximum independent set size = 2"
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Inclusion-exclusion principle",
+    "message_1": "A factory produces 10 different types of smartphones. How many ways are there to select at least one type of smartphone if you want to buy 3 smartphones?",
+    "message_2": "To solve this problem, we can use the concept of combinations. Since you want to buy 3 smartphones, we can find the number of ways to select 1, 2, or 3 different types of smartphones.\n\n1. Selecting 1 type of smartphone: There are 10 ways to choose 1 type of smartphone (10C1 = 10).\n\n2. Selecting 2 types of smartphones: There are 45 ways to choose 2 types of smartphones (10C2 = 45). However, since you are buying 3 smartphones, you need to consider the different ways to distribute the 3 smartphones among the 2 selected types. There are 3 ways to do this: (2, 1), (1, 2). So, there are 45 * 3 = 135 ways to buy 3 smartphones with 2 different types.\n\n3. Selecting 3 types of smartphones: There are 120 ways to choose 3 types of smartphones (10C3 = 120). Since you are buying 3 smartphones, there is only 1 way to distribute the 3 smartphones among the 3 selected types: (1, 1, 1). So, there are 120 ways to buy 3 smartphones with 3 different types.\n\nIn total, there are 10 + 135 + 120 = 265 ways to buy at least one type of smartphone when purchasing 3 smartphones."
+}

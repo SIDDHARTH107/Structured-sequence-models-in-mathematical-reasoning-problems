@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Block designs",
+    "message_1": "A school has 10 male and 10 female students. The school wants to form a committee of 6 students that consists of 3 males and 3 females. In how many ways can the committee be formed if the committee must have at least 1 male and 1 female?",
+    "message_2": "To form a committee of 6 students with 3 males and 3 females, we need to choose 3 males from the 10 male students and 3 females from the 10 female students.\n\nThe number of ways to choose 3 males from 10 male students can be calculated using combinations, which is denoted as C(n, r) where n is the total number of items and r is the number of items to be chosen. In this case, n = 10 and r = 3.\n\nC(10, 3) = 10! / (3! * (10-3)!)\nC(10, 3) = 10! / (3! * 7!)\nC(10, 3) = 3628800 / (6 * 5040)\nC(10, 3) = 3628800 / 30240\nC(10, 3) = 120\n\nSimilarly, the number of ways to choose 3 females from 10 female students is:\n\nC(10, 3) = 10! / (3! * (10-3)!)\nC(10, 3) = 10! / (3! * 7!)\nC(10, 3) = 3628800 / (6 * 5040)\nC(10, 3) = 3628800 / 30240\nC(10, 3) = 120\n\nNow, to form the committee, we need to multiply the number of ways to choose males and females:\n\nTotal ways = (Ways to choose males) * (Ways to choose females)\nTotal ways = 120 * 120\nTotal ways = 14400\n\nSo, there are 14,400 ways to form a committee of 6 students with 3 males and 3 females."
+}

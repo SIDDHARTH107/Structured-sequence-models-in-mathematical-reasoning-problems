@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Complex integration and Cauchy's theorem",
+    "message_1": "Let C be the positively oriented circle centered at -1+i and radius 2. Evaluate the integral ∮_C (z^2 + 4z)/(z+2) dz.",
+    "message_2": "To evaluate the integral ∮_C (z^2 + 4z)/(z+2) dz, we will use the Cauchy Integral Formula. First, we need to rewrite the integrand as a proper rational function. We can do this by performing long division:\n\n(z^2 + 4z) / (z + 2) = z - 2 + 4 / (z + 2)\n\nNow, we can rewrite the integral as the sum of two integrals:\n\n∮_C (z^2 + 4z)/(z+2) dz = ∮_C (z - 2) dz + ∮_C 4 / (z + 2) dz\n\nThe first integral, ∮_C (z - 2) dz, is equal to zero since z - 2 is an entire function (i.e., it has no singularities). \n\nFor the second integral, ∮_C 4 / (z + 2) dz, we will use the Cauchy Integral Formula. The function f(z) = 4 has a simple pole at z = -2, which is outside the circle C. Therefore, the integral is equal to zero.\n\nSo, the integral ∮_C (z^2 + 4z)/(z+2) dz is equal to 0."
+}

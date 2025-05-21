@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Statistics",
+    "sub_topic": "Hypothesis testing",
+    "message_1": "A company claims that the average lifespan of their lightbulbs is 1000 hours. To test this claim, a sample of 50 lightbulbs is taken and their average lifespan is found to be 980 hours with a standard deviation of 50 hours. \nDoes the sample provide enough evidence to reject the company's claim at the 5% significance level?",
+    "message_2": "To test the company's claim, we will perform a one-sample t-test. The null hypothesis (H0) is that the average lifespan of the lightbulbs is 1000 hours, and the alternative hypothesis (H1) is that the average lifespan is not 1000 hours.\n\nFirst, we need to calculate the t-score. The formula for the t-score is:\n\nt = (sample mean - population mean) / (sample standard deviation / sqrt(sample size))\n\nt = (980 - 1000) / (50 / sqrt(50))\n\nt = (-20) / (50 / sqrt(50))\n\nt = -20 / (50 / 7.071)\n\nt = -20 / 7.071\n\nt ≈ -2.83\n\nNow, we need to find the critical t-value for a two-tailed t-test at the 5% significance level with 49 degrees of freedom (sample size - 1). Using a t-distribution table or calculator, we find the critical t-value to be approximately ±2.0096.\n\nSince the calculated t-score (-2.83) is less than the critical t-value (-2.0096), we reject the null hypothesis at the 5% significance level. This means that there is enough evidence to suggest that the average lifespan of the lightbulbs is not 1000 hours."
+}

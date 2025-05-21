@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Probability",
+    "sub_topic": "Probability of a certain type of social event occurring in a community",
+    "message_1": "What is the probability of at least 2 people in a community of 50 having the same birthday?",
+    "message_2": "To solve this problem, we will use the complementary probability, which means we will first find the probability of none of the 50 people sharing a birthday and then subtract that from 1.\n\nAssume there are 365 days in a year (ignoring leap years). The probability of the first person having any birthday is 1 (365/365). The probability of the second person having a different birthday from the first person is 364/365 (since there are 364 days left). The probability of the third person having a different birthday from the first two is 363/365, and so on.\n\nThe probability of all 50 people having different birthdays is:\n\n(365/365) * (364/365) * (363/365) * ... * (316/365)\n\nWe can write this as a product of fractions:\n\nP(all different) = (365! / (365^50 * (365-50)!))\n\nTo find the probability of at least 2 people sharing a birthday, we subtract the probability of all different birthdays from 1:\n\nP(at least 2 sharing) = 1 - P(all different)\n\nUsing a calculator or software to compute the values:\n\nP(at least 2 sharing) ≈ 1 - 0.029626 = 0.970374\n\nSo, the probability of at least 2 people in a community of 50 having the same birthday is approximately 97.04%."
+}

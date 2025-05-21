@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Multinomial coefficients",
+    "message_1": "In a restaurant, a meal consists of a choice of 1 appetizer, 2 mains, and 1 dessert from a menu that offers 4 appetizers, 5 mains, and 3 desserts. \n\nHow many different meal combinations can be made at this restaurant?",
+    "message_2": "To find the number of different meal combinations, we can use the counting principle. \n\nFor the appetizers, there are 4 choices. \nFor the mains, since we need to choose 2 out of 5, we can use the combination formula: C(n, k) = n! / (k!(n-k)!) where n is the total number of items and k is the number of items to choose. In this case, n = 5 and k = 2. So, C(5, 2) = 5! / (2!(5-2)!) = 10 different combinations of mains.\nFor the desserts, there are 3 choices.\n\nNow, we multiply the number of choices for each course to find the total number of meal combinations: 4 appetizers * 10 main combinations * 3 desserts = 120 different meal combinations."
+}

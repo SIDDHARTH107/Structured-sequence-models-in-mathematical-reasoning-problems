@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Singularities of complex functions",
+    "message_1": "Find the order of the singularity at $z=0$ for the function $f(z)=\\frac{\\sin(z)}{z^3}$ in the context of Complex Analysis.",
+    "message_2": "To find the order of the singularity at z=0 for the function f(z) = sin(z)/z^3, we can use the power series expansion of sin(z) and then divide by z^3.\n\nThe power series expansion of sin(z) is given by:\n\nsin(z) = z - (z^3)/3! + (z^5)/5! - (z^7)/7! + ...\n\nNow, we divide this series by z^3:\n\nf(z) = (z - (z^3)/3! + (z^5)/5! - (z^7)/7! + ...)/z^3\n\nf(z) = 1/z^2 - 1/3! + z^2/5! - z^4/7! + ...\n\nThe function f(z) has a singularity at z=0, and the order of the singularity is the exponent of the first non-zero term in the Laurent series expansion. In this case, the first non-zero term is 1/z^2, which has an exponent of -2.\n\nTherefore, the order of the singularity at z=0 for the function f(z) = sin(z)/z^3 is 2."
+}

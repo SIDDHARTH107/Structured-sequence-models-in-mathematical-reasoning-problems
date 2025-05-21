@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Graph theory",
+    "sub_topic": "Determining the treewidth of a graph.",
+    "message_1": "What is the treewidth of the following graph?\n\n    1 -- 2 -- 5\n    |         |\n    3 -- 4 -- 6\n\nNote: The student should provide an exact value for the treewidth of the given graph.",
+    "message_2": "The treewidth of the given graph is 2.\n\nTo see this, consider the following tree decomposition:\n\nBag 1: {1, 2, 3}\nBag 2: {2, 3, 4}\nBag 3: {2, 5, 6}\nBag 4: {4, 5, 6}\n\nEach bag has at most 3 vertices, and the graph formed by connecting the bags according to the adjacency in the original graph is a tree. This tree decomposition has width 2 (since the maximum number of vertices in a bag minus 1 is 3 - 1 = 2), which means the treewidth of the graph is 2."
+}

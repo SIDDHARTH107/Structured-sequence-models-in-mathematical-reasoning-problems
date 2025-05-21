@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Statistics",
+    "sub_topic": "Probability distributions",
+    "message_1": "A company produces light bulbs, and the probability that a bulb is defective is 0.03. A customer buys a pack of 10 bulbs. What is the probability that 2 bulbs in the pack are defective?",
+    "message_2": "To solve this problem, we can use the binomial probability formula:\n\nP(X = k) = C(n, k) * p^k * (1-p)^(n-k)\n\nwhere:\n- P(X = k) is the probability of having exactly k defective bulbs\n- C(n, k) is the number of combinations of choosing k defective bulbs from n total bulbs (in this case, n = 10)\n- p is the probability of a bulb being defective (0.03)\n- (1-p) is the probability of a bulb not being defective (1 - 0.03 = 0.97)\n- n is the total number of bulbs (10)\n- k is the number of defective bulbs we want to find the probability for (2)\n\nPlugging in the values:\n\nP(X = 2) = C(10, 2) * (0.03)^2 * (0.97)^8\n\nFirst, we need to find C(10, 2), which is the number of ways to choose 2 defective bulbs from 10:\n\nC(10, 2) = 10! / (2! * (10-2)!)\nC(10, 2) = 10! / (2! * 8!)\nC(10, 2) = (10 * 9) / (2 * 1) = 45\n\nNow, we can plug this back into the formula:\n\nP(X = 2) = 45 * (0.03)^2 * (0.97)^8\nP(X = 2) ≈ 45 * 0.0009 * 0.851138\nP(X = 2) ≈ 0.344578\n\nSo, the probability that exactly 2 bulbs in the pack are defective is approximately 0.3446 or 34.46%."
+}

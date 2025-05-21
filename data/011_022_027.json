@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Knapsack problem",
+    "message_1": "A student has a knapsack with a capacity of 15 units. There are 5 items to choose from, each with a weight and value as follows:\n\nItem 1: Weight = 2, Value = 10\nItem 2: Weight = 5, Value = 15\nItem 3: Weight = 7, Value = 20\nItem 4: Weight = 3, Value = 8\nItem 5: Weight = 4, Value = 12\n\nWhat is the maximum total value the student can carry in their knapsack, given that they can only carry a total weight of 15 units or less? Use the Knapsack problem to solve this.",
+    "message_2": "To solve this problem, we will use dynamic programming. We will create a table with rows representing the items and columns representing the knapsack's capacity from 0 to 15. The cell at the ith row and jth column will represent the maximum value that can be obtained by considering the first i items and a knapsack capacity of j.\n\nHere's the table filled out:\n\n```\n  | 0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15\n--+----------------------------------------------\n1 | 0  0 10 10 10 10 10 10 10 10 20 20 20 20 20 20\n2 | 0  0 10 10 10 15 15 15 25 25 25 30 30 30 35 35\n3 | 0  0 10 10 10 15 15 20 25 25 30 30 35 40 40 45\n4 | 0  0 10 10 18 18 18 20 25 28 30 38 38 38 40 45\n5 | 0  0 10 10 18 18 22 22 25 28 30 38 38 42 42 45\n```\n\nThe maximum value that can be obtained with a knapsack capacity of 15 units is 45, which can be found in the bottom-right cell of the table."
+}

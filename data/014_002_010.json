@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Diffie-Hellman key exchange",
+    "message_1": "Sure, here's a problem for the math student to solve:\n\nBob and Alice are using the Diffie-Hellman key exchange to establish a secret key. They agree to use a prime number p=17 and a primitive root g=3. Bob chooses a secret integer b=5, and computes g^b mod p. Alice chooses a secret integer a=3, and computes g^a mod p. What is the value of the secret key they will use for encryption?",
+    "message_2": "First, let's compute the values that Bob and Alice will exchange:\n\nBob computes g^b mod p = 3^5 mod 17 = 243 mod 17 = 9.\n\nAlice computes g^a mod p = 3^3 mod 17 = 27 mod 17 = 10.\n\nNow, they will exchange these values and compute the secret key using each other's values and their own secret integers:\n\nBob computes the secret key as Alice's value (10) raised to the power of his secret integer (5) modulo p (17): 10^5 mod 17 = 100000 mod 17 = 12.\n\nAlice computes the secret key as Bob's value (9) raised to the power of her secret integer (3) modulo p (17): 9^3 mod 17 = 729 mod 17 = 12.\n\nBoth Bob and Alice have computed the same secret key, which is 12. This will be the value they use for encryption."
+}

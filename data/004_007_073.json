@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Calculus",
+    "sub_topic": "Using the chain rule to differentiate composite functions",
+    "message_1": "Suppose we have a composite function f(x)=sin(x²+3) and g(x)=x⁴-2x²+5. Find f'(g(2)) using the chain rule to differentiate composite functions.",
+    "message_2": "To find f'(g(2)), we will first find the derivatives of f(x) and g(x) and then apply the chain rule.\n\nLet's find the derivative of f(x) = sin(x²+3) with respect to x:\nf'(x) = d/dx [sin(x²+3)]\nUsing the chain rule, we have:\nf'(x) = cos(x²+3) * d/dx [x²+3]\nf'(x) = cos(x²+3) * (2x)\n\nNow let's find the derivative of g(x) = x⁴ - 2x² + 5 with respect to x:\ng'(x) = d/dx [x⁴ - 2x² + 5]\ng'(x) = 4x³ - 4x\n\nNow we can find g(2):\ng(2) = (2)⁴ - 2(2)² + 5\ng(2) = 16 - 8 + 5\ng(2) = 13\n\nNow we can find f'(g(2)) using the chain rule:\nf'(g(2)) = f'(g(2)) * g'(2)\n\nFirst, let's find f'(g(2)):\nf'(g(2)) = cos((2)²+3) * (2(2))\nf'(g(2)) = cos(7) * 4\n\nNow let's find g'(2):\ng'(2) = 4(2)³ - 4(2)\ng'(2) = 32 - 8\ng'(2) = 24\n\nNow we can find f'(g(2)):\nf'(g(2)) = f'(g(2)) * g'(2)\nf'(g(2)) = (cos(7) * 4) * 24\nf'(g(2)) = 96 * cos(7)\n\nSo, f'(g(2)) = 96 * cos(7)."
+}

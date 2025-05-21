@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Game theory",
+    "sub_topic": "Beauty Contest Game",
+    "message_1": "The Beauty Contest Game involves several participants choosing a number between 0 and 100, with the winner being the one whose number is closest to a specific percentage of the average of all the numbers chosen. \n\nSuppose there are 7 players in a beauty contest game. What number should you choose to maximize your chance of winning, assuming all other players will choose a number between 0 and 100?",
+    "message_2": "To maximize your chance of winning, you should choose a number that is closest to the specific percentage of the average of all the numbers chosen. Let's assume the specific percentage is p (0 < p < 1).\n\nIf all other players choose a number between 0 and 100 randomly, the expected average of their numbers would be 50 (since (0+100)/2 = 50). With 7 players, including yourself, the expected average of all numbers chosen would be:\n\n(6 * 50 + your_number) / 7\n\nTo maximize your chance of winning, you should choose a number that is closest to p times the expected average:\n\nyour_number = p * ((6 * 50 + your_number) / 7)\n\nSolving for your_number:\n\n7 * your_number = 6 * 50 * p + p * your_number\n6 * your_number = 6 * 50 * p\nyour_number = 50 * p\n\nSo, to maximize your chance of winning, you should choose a number equal to 50 times the specific percentage p."
+}

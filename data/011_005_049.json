@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Combinatorial identities",
+    "message_1": "How many unique ways are there to select a committee of 5 members from a group of 10 people where 2 people must serve as co-chairs of the committee?",
+    "message_2": "To solve this problem, we can use the combination formula. First, we need to choose the 2 co-chairs from the group of 10 people. The number of ways to do this is given by the combination formula:\n\nC(n, k) = n! / (k!(n-k)!)\n\nwhere n is the total number of people and k is the number of people we want to choose.\n\nFor choosing the co-chairs, n = 10 and k = 2:\n\nC(10, 2) = 10! / (2!(10-2)!) = 10! / (2! * 8!) = 45\n\nNow, we have 8 people left to choose from (since the co-chairs have already been chosen), and we need to choose 3 more members for the committee. So, n = 8 and k = 3:\n\nC(8, 3) = 8! / (3!(8-3)!) = 8! / (3! * 5!) = 56\n\nFinally, to find the total number of unique ways to select the committee, we multiply the number of ways to choose the co-chairs by the number of ways to choose the remaining members:\n\nTotal ways = 45 * 56 = 2520\n\nSo, there are 2520 unique ways to select a committee of 5 members from a group of 10 people where 2 people must serve as co-chairs."
+}

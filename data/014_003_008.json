@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "ElGamal encryption and decryption",
+    "message_1": "Suppose you have a public key (3, 7, 29) in the ElGamal encryption system, where p = 29 is a prime number, g = 3 is a primitive root modulo 29, and a = 7 is the secret key. If you want to encrypt the message m = 13, what is the corresponding ciphertext c?",
+    "message_2": "To encrypt a message m = 13 using the ElGamal encryption system with public key (p, g, a) = (29, 3, 7), we need to follow these steps:\n\n1. Choose a random integer k (1 < k < p-1) such that gcd(k, p-1) = 1. Let's choose k = 5 for this example.\n2. Compute the first part of the ciphertext, c1, as c1 = g^k mod p. In this case, c1 = 3^5 mod 29 = 243 mod 29 = 19.\n3. Compute the second part of the ciphertext, c2, as c2 = (m * a^k) mod p. In this case, c2 = (13 * 7^5) mod 29 = (13 * 16807) mod 29 = 218091 mod 29 = 4.\n\nThe resulting ciphertext c is the pair (c1, c2) = (19, 4)."
+}

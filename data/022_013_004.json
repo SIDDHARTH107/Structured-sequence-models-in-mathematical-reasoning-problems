@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Analytic functions and their properties",
+    "message_1": "Let $f(z) = z^2 - 4z + 5$ be an analytic function in the complex plane. Compute the residue of $f(z)$ at the pole $z = 2$.",
+    "message_2": "To compute the residue of $f(z)$ at the pole $z = 2$, we first need to find the order of the pole. Since $f(z)$ is a polynomial, the order of the pole at $z = 2$ is simply the multiplicity of the root $z = 2$. We can factor $f(z)$ to find the roots:\n\n$f(z) = (z - 2)^2 + 1$\n\nThe root $z = 2$ has multiplicity 1, so the order of the pole is 1.\n\nNow, we can compute the residue using the formula for a simple pole:\n\n$\\text{Res}(f, 2) = \\lim_{z \\to 2} (z - 2) f(z)$\n\n$\\text{Res}(f, 2) = \\lim_{z \\to 2} (z - 2)((z - 2)^2 + 1)$\n\n$\\text{Res}(f, 2) = \\lim_{z \\to 2} (z - 2)^3$\n\n$\\text{Res}(f, 2) = 0$\n\nSo, the residue of $f(z)$ at the pole $z = 2$ is 0."
+}

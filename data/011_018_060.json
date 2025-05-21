@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Block designs",
+    "message_1": "In a school science fair, there are 10 projects being presented. Each project is being judged by a panel of 3 judges. If each judge can only evaluate 4 projects, how many different ways can the judges be assigned to evaluate the projects?",
+    "message_2": "We can solve this problem using combinatorics. Since there are 10 projects and each judge evaluates 4 projects, we need to find the number of ways to choose 4 projects out of 10 for each judge.\n\nThis can be calculated using the combination formula: C(n, k) = n! / (k!(n-k)!)\n\nFor the first judge, we have:\nC(10, 4) = 10! / (4!(10-4)!) = 10! / (4!6!) = 210 ways\n\nNow, there are 6 projects left for the second judge to evaluate. We can calculate the number of ways for the second judge to choose 4 projects out of the remaining 6:\n\nC(6, 4) = 6! / (4!(6-4)!) = 6! / (4!2!) = 15 ways\n\nFinally, the third judge will evaluate the remaining 2 projects, so there is only 1 way to assign the projects to the third judge.\n\nTo find the total number of ways to assign the projects to the judges, we multiply the number of ways for each judge:\n\nTotal ways = 210 (first judge) * 15 (second judge) * 1 (third judge) = 3150 ways\n\nSo, there are 3150 different ways to assign the judges to evaluate the projects."
+}

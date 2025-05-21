@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Probability",
+    "sub_topic": "Probability of a certain event occurring in a given time period",
+    "message_1": "A company produces light bulbs, and it has been observed that 5% of the bulbs it produces are defective. If a customer randomly selects 20 light bulbs from the company's inventory, what is the probability that exactly 1 light bulb will be defective?",
+    "message_2": "To solve this problem, we can use the binomial probability formula, which is:\n\nP(X = k) = (n choose k) * p^k * (1-p)^(n-k)\n\nwhere:\n- P(X = k) is the probability of having exactly k defective bulbs\n- n is the total number of bulbs selected (20 in this case)\n- k is the number of defective bulbs (1 in this case)\n- p is the probability of a bulb being defective (0.05 in this case)\n- (n choose k) is the number of combinations of selecting k defective bulbs from n total bulbs, which can be calculated as n! / (k!(n-k)!)\n\nPlugging in the values, we get:\n\nP(X = 1) = (20 choose 1) * 0.05^1 * (1-0.05)^(20-1)\n\nFirst, let's calculate (20 choose 1):\n\n(20 choose 1) = 20! / (1!(20-1)!) = 20! / (1!19!) = 20\n\nNow, let's plug this back into the formula:\n\nP(X = 1) = 20 * 0.05^1 * 0.95^19\n\nP(X = 1) ≈ 20 * 0.05 * 0.3584859224\n\nP(X = 1) ≈ 0.3773536025\n\nSo, the probability that exactly 1 light bulb will be defective is approximately 0.3774 or 37.74%."
+}

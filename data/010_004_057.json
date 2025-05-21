@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Topology",
+    "sub_topic": "Compactness and its various forms",
+    "message_1": "Consider the metric space (X, d) where X = [0, 1] and d(x, y) = |x-y|. Show that the subset A = {1/n: n ∈ N} is compact.",
+    "message_2": "To show that the subset A = {1/n: n ∈ ℕ} is compact in the metric space (X, d) where X = [0, 1] and d(x, y) = |x - y|, we need to show that every open cover of A has a finite subcover. \n\nLet {U_i} be an arbitrary open cover of A. Since 0 is a limit point of A, there exists an open set U_0 ∈ {U_i} such that 0 ∈ U_0. Since U_0 is an open set, there exists an ε > 0 such that the open ball B(0, ε) = {x ∈ X: d(x, 0) < ε} is contained in U_0.\n\nNow, let N be the smallest natural number such that 1/N < ε/2. Then, for all n ≥ N, we have 1/n ≤ 1/N < ε/2. This implies that for all n ≥ N, d(1/n, 0) < ε/2 < ε, so 1/n ∈ B(0, ε) ⊆ U_0.\n\nSince A has only finitely many elements {1, 1/2, ..., 1/N}, each of these elements is contained in some open set U_i. Thus, we have a finite subcover {U_0, U_1, ..., U_N} of the open cover {U_i} that covers A.\n\nTherefore, A is compact in the metric space (X, d)."
+}

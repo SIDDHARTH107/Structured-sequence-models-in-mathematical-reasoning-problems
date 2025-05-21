@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Block designs",
+    "message_1": "A school has 12 teachers and 30 students. The school wants to create basketball teams with 5 players each. Each team must have exactly 1 teacher and 4 students. How many teams can be formed?",
+    "message_2": "To form a team, we need to choose 1 teacher from the 12 available teachers and 4 students from the 30 available students.\n\nThe number of ways to choose 1 teacher from 12 is 12C1 (12 choose 1), which is calculated as:\n\n12C1 = 12! / (1! * (12-1)!)\n     = 12! / (1! * 11!)\n     = 12\n\nThe number of ways to choose 4 students from 30 is 30C4 (30 choose 4), which is calculated as:\n\n30C4 = 30! / (4! * (30-4)!)\n     = 30! / (4! * 26!)\n     = (30 * 29 * 28 * 27) / (4 * 3 * 2 * 1)\n     = 27,405\n\nNow, to find the total number of teams that can be formed, we multiply the number of ways to choose 1 teacher by the number of ways to choose 4 students:\n\nTotal teams = 12C1 * 30C4\n            = 12 * 27,405\n            = 328,860\n\nSo, 328,860 teams can be formed with 1 teacher and 4 students each."
+}

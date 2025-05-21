@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Number theory",
+    "sub_topic": "Quadratic residues",
+    "message_1": "Find all the quadratic residues of 19.",
+    "message_2": "A quadratic residue modulo an odd prime p is an integer that is congruent to a perfect square modulo p. In other words, a number x is a quadratic residue modulo p if there exists an integer y such that x ≡ y^2 (mod p).\n\nTo find all the quadratic residues of 19, we can calculate the squares of the integers from 1 to (p-1)/2, which is 1 to 9 in this case, and then reduce them modulo 19.\n\n1^2 ≡ 1 (mod 19)\n2^2 ≡ 4 (mod 19)\n3^2 ≡ 9 (mod 19)\n4^2 ≡ 16 (mod 19)\n5^2 ≡ 25 ≡ 6 (mod 19)\n6^2 ≡ 36 ≡ 17 (mod 19)\n7^2 ≡ 49 ≡ 11 (mod 19)\n8^2 ≡ 64 ≡ 7 (mod 19)\n9^2 ≡ 81 ≡ 5 (mod 19)\n\nSo, the quadratic residues of 19 are {1, 4, 9, 16, 6, 17, 11, 7, 5}."
+}

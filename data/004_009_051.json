@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Calculus",
+    "sub_topic": "Using the product rule to differentiate functions",
+    "message_1": "Suppose $f(x) = (3x^2 + 1)e^x$ and $g(x) = \\cos(x)$. Find $f'(x)g(x) + f(x)g'(x)$ using the product rule.",
+    "message_2": "To find $f'(x)g(x) + f(x)g'(x)$, we first need to find the derivatives of $f(x)$ and $g(x)$.\n\nFor $f(x) = (3x^2 + 1)e^x$, we can use the product rule for differentiation, which states that $(uv)' = u'v + uv'$, where $u = 3x^2 + 1$ and $v = e^x$.\n\nFirst, find the derivatives of $u$ and $v$:\n$u' = \\frac{d}{dx}(3x^2 + 1) = 6x$\n$v' = \\frac{d}{dx}(e^x) = e^x$\n\nNow, apply the product rule:\n$f'(x) = u'v + uv' = (6x)(e^x) + (3x^2 + 1)(e^x) = (6x + 3x^2 + 1)e^x$\n\nFor $g(x) = \\cos(x)$, the derivative is:\n$g'(x) = \\frac{d}{dx}(\\cos(x)) = -\\sin(x)$\n\nNow, we can find $f'(x)g(x) + f(x)g'(x)$:\n$f'(x)g(x) + f(x)g'(x) = (6x + 3x^2 + 1)e^x \\cos(x) + (3x^2 + 1)e^x (-\\sin(x))$\n\nCombine the terms:\n$f'(x)g(x) + f(x)g'(x) = ((6x + 3x^2 + 1)e^x \\cos(x) - (3x^2 + 1)e^x \\sin(x))$\n\nThis is the final expression for $f'(x)g(x) + f(x)g'(x)$."
+}

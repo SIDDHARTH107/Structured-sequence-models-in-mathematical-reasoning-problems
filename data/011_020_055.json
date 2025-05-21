@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Combinatorial optimization",
+    "message_1": "In a gaming competition, a total of 25 players are participating. The first prize will be given to the player who wins the most number of games, and a second prize will be given to the player who wins the second-most number of games. However, there is a condition that each player cannot play against any other player more than once. What is the maximum number of games that the players can play in total?",
+    "message_2": "To maximize the number of games played, we can use the concept of a round-robin tournament, where each player plays against every other player exactly once. In this case, we have 25 players.\n\nThe total number of games played can be calculated using the formula for combinations: C(n, k) = n! / (k!(n-k)!), where n is the total number of players and k is the number of players in each game (which is 2 in this case).\n\nC(25, 2) = 25! / (2!(25-2)!)\n= 25! / (2! * 23!)\n= (25 * 24) / (2 * 1)\n= 600\n\nSo, the maximum number of games that the players can play in total is 600."
+}

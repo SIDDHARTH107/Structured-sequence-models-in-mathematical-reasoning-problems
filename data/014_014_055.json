@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Playfair cipher",
+    "message_1": "Given the Playfair cipher key \"MATHS\" and the plaintext \"HELLO WORLD\", what is the encrypted message?",
+    "message_2": "To encrypt the message \"HELLO WORLD\" using the Playfair cipher with the key \"MATHS\", we first need to create the 5x5 Playfair matrix using the key. \n\n1. Remove duplicate letters from the key: MATHS\n2. Fill in the remaining letters of the alphabet (excluding J) in order: MATHSBCDEFGIKLNOPQRUVWXYZ\n\nNow, the Playfair matrix looks like this:\n\nM A T H S\nB C D E F\nG I K L N\nO P Q R U\nV W X Y Z\n\nNext, we need to prepare the plaintext for encryption. We'll break it into digraphs (pairs of letters) and insert an 'X' if there are any double letters or if there's an odd number of letters in the plaintext:\n\nHE LX LO WO RX LD\n\nNow, we'll encrypt each digraph using the Playfair matrix:\n\nHE -> ZC\nLX -> YF\nLO -> QN\nWO -> GK\nRX -> IM\nLD -> PU\n\nThe encrypted message is: ZCYFQNQKGKIMPUPU"
+}

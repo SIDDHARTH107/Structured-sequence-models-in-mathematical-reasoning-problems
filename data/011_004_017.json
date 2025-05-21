@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Multinomial coefficients",
+    "message_1": "In a class of 20 students, 6 students are taking French, 5 are taking Spanish, and 9 are taking German. In how many ways can the teacher select a committee of 4 students if each language group must be represented by at least one student?",
+    "message_2": "To ensure that each language group is represented by at least one student, the teacher must select one student from each of the French, Spanish, and German groups, and then choose the fourth student from the remaining students.\n\nFirst, the teacher can choose one French student in 6 ways (since there are 6 French students), one Spanish student in 5 ways (since there are 5 Spanish students), and one German student in 9 ways (since there are 9 German students). So far, there are 6 * 5 * 9 = 270 ways to choose one student from each language group.\n\nNow, the teacher needs to choose the fourth student from the remaining students. Since the teacher has already chosen one student from each language group, there are now 19 students left to choose from (20 total students - 1 French - 1 Spanish - 1 German = 19). The teacher can choose the fourth student in 19 ways.\n\nTherefore, the total number of ways the teacher can select a committee of 4 students with each language group represented by at least one student is 270 * 19 = 5130 ways."
+}

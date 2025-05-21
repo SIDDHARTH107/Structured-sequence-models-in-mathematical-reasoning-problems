@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Calculus",
+    "sub_topic": "Solving differential equations",
+    "message_1": "Consider the differential equation y' + y = 6, where y(0) = 1. Find the solution of this differential equation for t > 0.",
+    "message_2": "To solve the given first-order linear differential equation y' + y = 6 with the initial condition y(0) = 1, we first find the integrating factor.\n\nThe integrating factor is given by the formula:\n\nIntegrating factor (IF) = e^(∫P(t) dt), where P(t) is the coefficient of y in the given differential equation.\n\nIn our case, P(t) = 1. So,\n\nIF = e^(∫1 dt) = e^t.\n\nNow, we multiply the given differential equation by the integrating factor:\n\ne^t(y' + y) = 6e^t.\n\nThis simplifies to:\n\n(e^t y)' = 6e^t.\n\nNow, we integrate both sides with respect to t:\n\n∫(e^t y)' dt = ∫6e^t dt.\n\nUsing integration by substitution, let u = e^t, then du = e^t dt:\n\n∫y du = ∫6 du.\n\nIntegrating both sides, we get:\n\ne^t y = 6u + C.\n\nNow, we substitute back u = e^t:\n\ne^t y = 6e^t + C.\n\nNow, we divide both sides by e^t:\n\ny = 6 + C/e^t.\n\nTo find the constant C, we use the initial condition y(0) = 1:\n\n1 = 6 + C/e^0.\n\n1 = 6 + C.\n\nC = -5.\n\nSo, the solution of the differential equation for t > 0 is:\n\ny(t) = 6 - 5e^(-t)."
+}

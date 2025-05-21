@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Trigonometry",
+    "sub_topic": "Finding the derivative of a trigonometric function",
+    "message_1": "Find the derivative of y = 3sin(2x) + cos(4x) at x = π/6.",
+    "message_2": "To find the derivative of y = 3sin(2x) + cos(4x) with respect to x, we'll apply the chain rule.\n\nThe chain rule states that if we have a function y = f(g(x)), then the derivative of y with respect to x is dy/dx = f'(g(x)) * g'(x).\n\nFirst, let's find the derivative of each term in the function:\n\n1) For the term 3sin(2x), let f(u) = 3sin(u) and g(x) = 2x. Then, f'(u) = 3cos(u) and g'(x) = 2. Applying the chain rule, we get:\n\nd(3sin(2x))/dx = 3cos(2x) * 2 = 6cos(2x)\n\n2) For the term cos(4x), let f(u) = cos(u) and g(x) = 4x. Then, f'(u) = -sin(u) and g'(x) = 4. Applying the chain rule, we get:\n\nd(cos(4x))/dx = -sin(4x) * 4 = -4sin(4x)\n\nNow, we can find the derivative of the entire function:\n\ndy/dx = d(3sin(2x) + cos(4x))/dx = 6cos(2x) - 4sin(4x)\n\nFinally, we'll evaluate the derivative at x = π/6:\n\ndy/dx(π/6) = 6cos(2(π/6)) - 4sin(4(π/6)) = 6cos(π/3) - 4sin(2π/3)\n\ncos(π/3) = 1/2 and sin(2π/3) = √3/2, so:\n\ndy/dx(π/6) = 6(1/2) - 4(√3/2) = 3 - 2√3\n\nThus, the derivative of y = 3sin(2x) + cos(4x) at x = π/6 is 3 - 2√3."
+}

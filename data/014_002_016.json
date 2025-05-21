@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Diffie-Hellman key exchange",
+    "message_1": "Let's say Alice and Bob want to set up a secret key for their communication. They agree to use Diffie-Hellman key exchange with a prime number p=23 and a primitive root g=5. Alice chooses a secret integer a=4, and computes A=g^a mod p. Bob chooses a secret integer b=3, and computes B=g^b mod p. Now they exchange A and B. What is the secret key they can use for their communication?",
+    "message_2": "To find the secret key, Alice and Bob will use each other's public values (A and B) and their own secret integers (a and b). \n\nFirst, let's compute A and B:\n\nA = g^a mod p = 5^4 mod 23 = 625 mod 23 = 6\nB = g^b mod p = 5^3 mod 23 = 125 mod 23 = 10\n\nNow, Alice computes the secret key using B and her secret integer a:\n\nsecret_key_Alice = B^a mod p = 10^4 mod 23 = 10000 mod 23 = 18\n\nBob computes the secret key using A and his secret integer b:\n\nsecret_key_Bob = A^b mod p = 6^3 mod 23 = 216 mod 23 = 18\n\nBoth Alice and Bob have the same secret key: 18. They can use this key for their secure communication."
+}

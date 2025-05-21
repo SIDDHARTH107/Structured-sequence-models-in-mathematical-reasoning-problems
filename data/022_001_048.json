@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Analytic continuation of complex functions",
+    "message_1": "Find the analytic continuation of the function f(z) = cos(z) at z = 0, along the half-line Re(z) > 0, given that the function is defined only in the upper half plane Im(z) > 0.",
+    "message_2": "To find the analytic continuation of the function f(z) = cos(z) at z = 0 along the half-line Re(z) > 0, we can use the fact that cos(z) is an even function, meaning that cos(-z) = cos(z). \n\nSince the function is defined only in the upper half plane Im(z) > 0, we can consider the reflection principle. The reflection principle states that if a function is analytic in the upper half plane and continuous on the real axis, then its reflection across the real axis is also analytic in the lower half plane.\n\nLet's define the reflected function g(z) = cos(-z) for Im(z) < 0. Since cos(z) is an even function, g(z) = cos(z) for Im(z) < 0. Now, we have two functions, f(z) and g(z), which are analytic in their respective domains and continuous on the real axis.\n\nNow, we can define the analytic continuation of f(z) = cos(z) as:\n\nh(z) = { f(z) for Im(z) > 0\n       { g(z) = cos(z) for Im(z) < 0\n\nh(z) is the analytic continuation of f(z) = cos(z) at z = 0 along the half-line Re(z) > 0, and it is defined for the entire complex plane except for the points on the real axis where Im(z) = 0."
+}

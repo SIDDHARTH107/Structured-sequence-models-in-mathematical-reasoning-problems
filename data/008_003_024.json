@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Determining the rank of a matrix",
+    "message_1": "Consider the matrix A, where<br>\nA = $\\begin{pmatrix}\n2 & 4 & 6 & 8 \\\\\n1 & 2 & 3 & 4 \\\\\n3 & 6 & 9 & 12 \\\\\n\\end{pmatrix}$<br><br>\nDetermine the rank of matrix A using elementary row operations.",
+    "message_2": "To determine the rank of matrix A using elementary row operations, we will perform Gaussian elimination to transform the matrix into its row echelon form.\n\nMatrix A:\n$\\begin{pmatrix}\n2 & 4 & 6 & 8 \\\\\n1 & 2 & 3 & 4 \\\\\n3 & 6 & 9 & 12 \\\\\n\\end{pmatrix}$\n\nStep 1: Swap row 1 and row 2 to have a 1 in the top left corner.\n$\\begin{pmatrix}\n1 & 2 & 3 & 4 \\\\\n2 & 4 & 6 & 8 \\\\\n3 & 6 & 9 & 12 \\\\\n\\end{pmatrix}$\n\nStep 2: Subtract 2 times row 1 from row 2, and subtract 3 times row 1 from row 3.\n$\\begin{pmatrix}\n1 & 2 & 3 & 4 \\\\\n0 & 0 & 0 & 0 \\\\\n0 & 0 & 0 & 0 \\\\\n\\end{pmatrix}$\n\nNow, the matrix is in row echelon form. The rank of a matrix is the number of non-zero rows in its row echelon form. In this case, there is only 1 non-zero row, so the rank of matrix A is 1."
+}

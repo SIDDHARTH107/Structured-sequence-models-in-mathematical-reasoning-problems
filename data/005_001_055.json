@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Statistics",
+    "sub_topic": "Hypothesis testing",
+    "message_1": "A manufacturer claims that their newly designed light bulbs have a mean lifespan of at least 900 hours. A sample of 36 bulbs is taken and the mean lifespan is found to be 875 hours with a standard deviation of 50 hours. \n\nIs there enough evidence to reject the manufacturer's claim at a 5% level of significance?",
+    "message_2": "To test the manufacturer's claim, we will perform a one-sample t-test. We are given:\n\nNull hypothesis (H0): μ ≥ 900 hours\nAlternative hypothesis (H1): μ < 900 hours\n\nSample mean (x̄) = 875 hours\nSample size (n) = 36\nSample standard deviation (s) = 50 hours\nSignificance level (α) = 0.05\n\nFirst, we need to calculate the t-score. The formula for the t-score is:\n\nt = (x̄ - μ) / (s / √n)\n\nt = (875 - 900) / (50 / √36)\nt = -25 / (50 / 6)\nt = -25 / 8.333\nt ≈ -3\n\nNow, we need to find the critical t-value for a one-tailed t-test with 35 degrees of freedom (n - 1 = 36 - 1 = 35) and a significance level of 0.05. Using a t-distribution table or calculator, we find the critical t-value to be approximately -1.69.\n\nSince our calculated t-score (-3) is less than the critical t-value (-1.69), we reject the null hypothesis. There is enough evidence at a 5% level of significance to reject the manufacturer's claim that the mean lifespan of the light bulbs is at least 900 hours."
+}

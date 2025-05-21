@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Complex integration and Cauchy's theorem",
+    "message_1": "Calculate the following integral using Cauchy's theorem:\n\n∫(z^3 + 2z - 5) / (z - 2i) dz\n\nwhere the integration is taken over the circle with radius 3 centered at the origin, traversed counterclockwise.",
+    "message_2": "To solve this integral using Cauchy's theorem, we first need to check if the function is analytic within and on the contour. The function is a rational function, and it is analytic everywhere except at the point z = 2i. Since the contour is a circle with radius 3 centered at the origin, it encloses the point z = 2i.\n\nNow, we can use Cauchy's integral formula, which states that for an analytic function f(z) within and on a simple closed contour C,\n\n∫(f(z) / (z - z₀)) dz = 2πi * f(z₀)\n\nIn our case, f(z) = z^3 + 2z - 5 and z₀ = 2i. So, we need to find f(2i):\n\nf(2i) = (2i)^3 + 2(2i) - 5\n       = -8i - 4i - 5\n       = -12i - 5\n\nNow, we can apply Cauchy's integral formula:\n\n∫(z^3 + 2z - 5) / (z - 2i) dz = 2πi * f(2i)\n                             = 2πi * (-12i - 5)\n                             = 2πi * (-12i - 5)\n                             = 2πi * (-12i) + 2πi * (-5)\n                             = -24π + 10πi\n\nSo, the integral is equal to -24π + 10πi."
+}

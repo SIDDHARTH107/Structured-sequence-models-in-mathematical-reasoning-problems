@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Set theory",
+    "sub_topic": "Prove that the Cartesian product of two sets is distributive over union.",
+    "message_1": "Let A = {1, 2} and B = {a, b, c}, find the Cartesian product of A x (B ∪ {d}) and (A x B) ∪ (A x {e}) and show that the Cartesian product of two sets is distributive over union.",
+    "message_2": "First, let's find the Cartesian product of A x (B ∪ {d}):\n\nA = {1, 2}\nB ∪ {d} = {a, b, c, d}\n\nA x (B ∪ {d}) = {(1, a), (1, b), (1, c), (1, d), (2, a), (2, b), (2, c), (2, d)}\n\nNow, let's find the Cartesian product of (A x B) ∪ (A x {e}):\n\nA x B = {(1, a), (1, b), (1, c), (2, a), (2, b), (2, c)}\nA x {e} = {(1, e), (2, e)}\n\n(A x B) ∪ (A x {e}) = {(1, a), (1, b), (1, c), (1, e), (2, a), (2, b), (2, c), (2, e)}\n\nNow, let's show that the Cartesian product of two sets is distributive over union:\n\nA x (B ∪ {d}) = A x B ∪ A x {d}\n(A x B) ∪ (A x {e}) = A x (B ∪ {e})\n\nWe have already found A x (B ∪ {d}) and (A x B) ∪ (A x {e}). Now let's find A x B ∪ A x {d} and A x (B ∪ {e}):\n\nA x B = {(1, a), (1, b), (1, c), (2, a), (2, b), (2, c)}\nA x {d} = {(1, d), (2, d)}\n\nA x B ∪ A x {d} = {(1, a), (1, b), (1, c), (1, d), (2, a), (2, b), (2, c), (2, d)}\n\nA x (B ∪ {e}) = {(1, a), (1, b), (1, c), (1, e), (2, a), (2, b), (2, c), (2, e)}\n\nAs we can see, A x (B ∪ {d}) = A x B ∪ A x {d} and (A x B) ∪ (A x {e}) = A x (B ∪ {e}). Therefore, the Cartesian product of two sets is distributive over union."
+}

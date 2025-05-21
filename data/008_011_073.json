@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Solving systems of linear equations using Cramer's rule",
+    "message_1": "Solve the following system of equations using Cramer's rule:\n\n3x + 2y = 16\n\n4x - 5y = -13",
+    "message_2": "To solve the given system of equations using Cramer's rule, we first need to find the determinants. Let's denote the coefficients matrix as A, and the constant terms matrix as B:\n\nA = | 3  2 |\n    | 4 -5 |\n\nB = | 16 |\n    |-13 |\n\nNow, we need to find the determinant of matrix A (denoted as det(A)):\n\ndet(A) = (3 * -5) - (2 * 4) = -15 - 8 = -23\n\nSince det(A) ≠ 0, we can proceed with Cramer's rule.\n\nNext, we need to find the determinants of matrices obtained by replacing the columns of A with B. Let's denote these matrices as Ax and Ay:\n\nAx = | 16  2 |\n     |-13 -5 |\n\nAy = | 3  16 |\n     | 4 -13 |\n\nNow, we need to find the determinants of Ax and Ay:\n\ndet(Ax) = (16 * -5) - (2 * -13) = -80 + 26 = -54\ndet(Ay) = (3 * -13) - (4 * 16) = -39 - 64 = -103\n\nNow, we can find the values of x and y using Cramer's rule:\n\nx = det(Ax) / det(A) = -54 / -23 = 54/23\ny = det(Ay) / det(A) = -103 / -23 = 103/23\n\nSo, the solution to the given system of equations is:\n\nx = 54/23\ny = 103/23"
+}

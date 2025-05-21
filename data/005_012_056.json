@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Statistics",
+    "sub_topic": "Sampling techniques",
+    "message_1": "A company produces batteries and they claim that their batteries last for an average of 50 hours. To check their claim, a sample of 50 batteries was taken and tested for their lifespan. The results of this sample showed that the batteries lasted for an average of 48 hours with a standard deviation of 4 hours. \n\nWhat is the 95% confidence interval for the true average lifespan of the batteries produced by the company?",
+    "message_2": "To calculate the 95% confidence interval for the true average lifespan of the batteries, we will use the formula:\n\nCI = x̄ ± (t * (s / √n))\n\nwhere:\nCI = confidence interval\nx̄ = sample mean (48 hours)\nt = t-score (value from the t-distribution table for a 95% confidence level and degrees of freedom (n-1))\ns = sample standard deviation (4 hours)\nn = sample size (50 batteries)\n\nFirst, we need to find the t-score. Since we have a sample size of 50, the degrees of freedom (df) will be 49 (n-1). For a 95% confidence level and 49 degrees of freedom, the t-score is approximately 2.01 (you can find this value in a t-distribution table or using a calculator).\n\nNow, we can plug in the values into the formula:\n\nCI = 48 ± (2.01 * (4 / √50))\n\nCI = 48 ± (2.01 * (4 / 7.071))\n\nCI = 48 ± (2.01 * 0.566)\n\nCI = 48 ± 1.137\n\nSo, the 95% confidence interval for the true average lifespan of the batteries produced by the company is approximately (46.863, 49.137) hours."
+}

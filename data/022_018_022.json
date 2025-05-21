@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Complex analysis of partial differential equations",
+    "message_1": "Here's a numerical problem about complex-valued functions:\n\nLet f(z) be a complex-valued function defined on the open unit disk D = {z ∈ ℂ : |z| < 1} by f(z) = z/(1 − z). Show that f(z) is analytic in D and find its Laurent series about the origin.",
+    "message_2": "To show that f(z) is analytic in D, we need to show that it is differentiable in D. Let's first find the derivative of f(z) using the quotient rule:\n\nf'(z) = (d/dz) [z / (1 - z)] = [(1 - z)(1) - z(-1)] / (1 - z)^2 = (1 - z + z) / (1 - z)^2 = 1 / (1 - z)^2\n\nNow, we need to show that f'(z) is well-defined in D. Since |z| < 1 in D, we have that 1 - z ≠ 0, so f'(z) is well-defined in D. Thus, f(z) is analytic in D.\n\nNext, we need to find the Laurent series of f(z) about the origin. We can rewrite f(z) as a geometric series:\n\nf(z) = z / (1 - z) = z * (1 / (1 - z)) = z * (1 + z + z^2 + z^3 + ...)\n\nThis is already a Laurent series about the origin, with all coefficients of negative powers of z being zero. So, the Laurent series of f(z) about the origin is:\n\nf(z) = z + z^2 + z^3 + z^4 + ..."
+}

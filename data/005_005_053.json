@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Statistics",
+    "sub_topic": "Probability distributions",
+    "message_1": "What is the probability of getting at least 2 tails in 3 flips of a fair coin?",
+    "message_2": "To find the probability of getting at least 2 tails in 3 flips of a fair coin, we can use complementary probability. We will first find the probability of getting less than 2 tails (i.e., 0 or 1 tail) and then subtract it from 1.\n\nThere are 2^3 = 8 possible outcomes when flipping a fair coin 3 times (HHH, HHT, HTH, HTT, THH, THT, TTH, TTT).\n\nNow, let's find the probability of getting 0 tails (i.e., all heads) and 1 tail.\n\n0 tails (all heads): There is only 1 way to get all heads (HHH). So, the probability of getting 0 tails is 1/8.\n\n1 tail: There are 3 ways to get 1 tail (HHT, HTH, THH). So, the probability of getting 1 tail is 3/8.\n\nNow, we add the probabilities of getting 0 tails and 1 tail: 1/8 + 3/8 = 4/8 = 1/2.\n\nFinally, we subtract this probability from 1 to find the probability of getting at least 2 tails: 1 - 1/2 = 1/2.\n\nSo, the probability of getting at least 2 tails in 3 flips of a fair coin is 1/2 or 50%."
+}

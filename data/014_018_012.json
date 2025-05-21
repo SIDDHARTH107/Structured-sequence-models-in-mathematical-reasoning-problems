@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Cryptanalysis of substitution ciphers",
+    "message_1": "If a message encrypted with a substitution cipher has the letter \"E\" replaced by the letter \"D\", how many possible keys are there for decrypting the message? Assume a standard English alphabet of 26 letters.",
+    "message_2": "In a substitution cipher, each letter in the plaintext is replaced by another letter in the ciphertext. Since there are 26 letters in the English alphabet, and we know that \"E\" is replaced by \"D\", we have 25 remaining letters to assign to the other 25 letters in the alphabet.\n\nFor the first unassigned letter, there are 25 choices left. For the second unassigned letter, there are 24 choices left, and so on. The total number of possible keys can be calculated as:\n\n25 * 24 * 23 * ... * 1 = 25!\n\nSo there are 25! (25 factorial) possible keys for decrypting the message. This is equal to 15,511,210,043,330,985,984,000,000 possible keys."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Solving homogeneous systems of linear equations",
+    "message_1": "Solve the homogeneous system of linear equations:\n \nx + 2y - 3z = 0\n \n2x + 5y - 7z = 0\n \n-3x - 7y + 11z = 0",
+    "message_2": "To solve the homogeneous system of linear equations, we can use the Gaussian elimination method.\n\nFirst, write the augmented matrix for the system:\n\n| 1  2 -3 | 0\n| 2  5 -7 | 0\n|-3 -7 11 | 0\n\nStep 1: Eliminate the 2 below the 1 in the first column.\n\nRow2 = Row2 - 2*Row1\nRow3 = Row3 + 3*Row1\n\n| 1  2 -3 | 0\n| 0  1 -1 | 0\n| 0  1 -2 | 0\n\nStep 2: Eliminate the 1 below the 1 in the second column.\n\nRow3 = Row3 - Row2\n\n| 1  2 -3 | 0\n| 0  1 -1 | 0\n| 0  0  1 | 0\n\nNow, we have an upper triangular matrix. We can use back-substitution to find the solutions.\n\nFrom the third equation, we have:\nz = 0\n\nFrom the second equation, we have:\ny - z = 0\ny = z = 0\n\nFrom the first equation, we have:\nx + 2y - 3z = 0\nx = -2y + 3z = 0\n\nSince this is a homogeneous system, the trivial solution (x, y, z) = (0, 0, 0) is always a solution. In this case, there are no other solutions, so the system has a unique solution, which is the trivial solution."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Differential geometry",
+    "sub_topic": "Find the Levi-Civita connection of a given metric.",
+    "message_1": "Consider the metric given by $g = dx^2 + dy^2 + dz^2$. Find the Levi-Civita connection of $g$ at the point $(1, 2, 3)$.",
+    "message_2": "The Levi-Civita connection, also known as the Christoffel symbols, is given by the following formula:\n\n$$\\Gamma^k_{ij} = \\frac{1}{2} g^{kl} (\\partial_i g_{jl} + \\partial_j g_{il} - \\partial_l g_{ij})$$\n\nFor the given metric $g = dx^2 + dy^2 + dz^2$, the metric tensor $g_{ij}$ is the identity matrix:\n\n$$g_{ij} = \\begin{pmatrix} 1 & 0 & 0 \\\\ 0 & 1 & 0 \\\\ 0 & 0 & 1 \\end{pmatrix}$$\n\nSince the metric tensor is constant, its partial derivatives with respect to any coordinate are zero:\n\n$$\\partial_i g_{jl} = \\partial_j g_{il} = \\partial_l g_{ij} = 0$$\n\nThus, the Christoffel symbols become:\n\n$$\\Gamma^k_{ij} = \\frac{1}{2} g^{kl} (0 + 0 - 0) = 0$$\n\nSo, the Levi-Civita connection of the given metric $g$ is identically zero at any point, including the point $(1, 2, 3)$."
+}

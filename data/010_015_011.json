@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Topology",
+    "sub_topic": "De Rham cohomology and its applications",
+    "message_1": "Let $M$ be a $2$-dimensional closed surface with genus $g=2$ and let $\\omega$ be an exact $1$-form on $M$. If the length of a nontrivial closed curve on $M$ is $10$, calculate the total flux of $\\omega$ through $M$.",
+    "message_2": "Since $\\omega$ is an exact $1$-form on $M$, there exists a smooth function $f: M \\to \\mathbb{R}$ such that $\\omega = df$. The total flux of $\\omega$ through $M$ can be computed as the integral of $\\omega$ over $M$:\n\n$$\\text{Flux}(\\omega) = \\int_M \\omega$$\n\nUsing Stokes' theorem, we can relate this integral to the integral of the exterior derivative of $\\omega$ over the boundary of $M$. However, since $M$ is a closed surface, it has no boundary. Therefore, the integral of $d\\omega$ over the boundary of $M$ is zero:\n\n$$\\int_{\\partial M} d\\omega = 0$$\n\nSince $\\omega = df$, we have $d\\omega = d(df) = d^2f$. However, the exterior derivative of a $1$-form is a $2$-form, and the exterior derivative of a $2$-form is always zero. Therefore, $d\\omega = 0$.\n\nNow, we can apply Stokes' theorem to relate the integral of $\\omega$ over $M$ to the integral of $d\\omega$ over the boundary of $M$:\n\n$$\\int_M \\omega = \\int_{\\partial M} d\\omega = 0$$\n\nThus, the total flux of $\\omega$ through $M$ is zero."
+}

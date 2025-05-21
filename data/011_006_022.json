@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Generating functions",
+    "message_1": "Consider a standard deck of 52 playing cards. How many ways are there to choose a hand of 5 cards such that it contains exactly 2 aces and 3 spades?",
+    "message_2": "To solve this problem, we will use the combination formula, which is:\n\nC(n, k) = n! / (k!(n-k)!)\n\nwhere n is the total number of items, k is the number of items to choose, and ! denotes the factorial.\n\nFirst, we need to choose 2 aces from the 4 aces in the deck. This can be done in C(4, 2) ways.\n\nC(4, 2) = 4! / (2!(4-2)!) = 4! / (2!2!) = (4*3*2*1) / ((2*1)(2*1)) = 6 ways\n\nNext, we need to choose 3 spades from the 12 remaining spades in the deck (since one of the spades is an ace and we've already counted it). This can be done in C(12, 3) ways.\n\nC(12, 3) = 12! / (3!(12-3)!) = 12! / (3!9!) = (12*11*10*9*8*7*6*5*4*3*2*1) / ((3*2*1)(9*8*7*6*5*4*3*2*1)) = 220 ways\n\nNow, we need to multiply the number of ways to choose 2 aces and the number of ways to choose 3 spades to get the total number of ways to choose a hand with exactly 2 aces and 3 spades.\n\nTotal ways = (ways to choose 2 aces) * (ways to choose 3 spades) = 6 * 220 = 1320 ways\n\nSo, there are 1320 ways to choose a hand of 5 cards such that it contains exactly 2 aces and 3 spades."
+}

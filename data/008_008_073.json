@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Solving linear programming problems using matrix methods",
+    "message_1": "A company produces 2 products, A and B. Each product requires 2 hours of assembly time and 1 hour of finishing time. The company has 120 hours of assembly time and 80 hours of finishing time available per week. The profit of A is $10 per unit and B is $15 per unit. How many units of each product should the company produce in order to maximize profit?",
+    "message_2": "Let x be the number of units of product A and y be the number of units of product B.\n\nThe constraints for assembly and finishing time can be represented as linear inequalities:\n\n2x + 2y ≤ 120 (assembly time constraint)\nx + y ≤ 80 (finishing time constraint)\n\nWe want to maximize the profit function P(x, y) = 10x + 15y.\n\nFirst, we need to find the feasible region determined by the constraints. We can rewrite the inequalities as:\n\ny ≤ (120 - 2x) / 2\ny ≤ 80 - x\n\nThe feasible region is a polygon with vertices at (0, 0), (0, 60), (40, 40), and (80, 0).\n\nNow we will evaluate the profit function at each vertex:\n\nP(0, 0) = 10(0) + 15(0) = $0\nP(0, 60) = 10(0) + 15(60) = $900\nP(40, 40) = 10(40) + 15(40) = $1000\nP(80, 0) = 10(80) + 15(0) = $800\n\nThe maximum profit occurs at the vertex (40, 40), where the company produces 40 units of product A and 40 units of product B. The maximum profit is $1000."
+}

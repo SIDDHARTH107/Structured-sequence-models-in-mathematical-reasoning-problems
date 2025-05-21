@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Probability",
+    "sub_topic": "Probability of a certain type of technological failure occurring in a system",
+    "message_1": "A company produces a certain type of phone in which the probability of malfunctioning is 0.05. If the company produces 1000 phones, what is the probability that at most 50 phones will malfunction?",
+    "message_2": "To solve this problem, we can use the binomial probability formula, which is given by:\n\nP(X = k) = C(n, k) * p^k * (1-p)^(n-k)\n\nwhere P(X = k) is the probability of exactly k successes (malfunctioning phones) in n trials (total phones produced), C(n, k) is the number of combinations of n items taken k at a time, p is the probability of success (malfunctioning), and (1-p) is the probability of failure (not malfunctioning).\n\nIn this case, n = 1000, p = 0.05, and we want to find the probability that at most 50 phones will malfunction, which means we need to find the sum of probabilities for k = 0 to k = 50.\n\nP(X ≤ 50) = Σ P(X = k) for k = 0 to 50\n\nP(X ≤ 50) = Σ [C(1000, k) * (0.05)^k * (0.95)^(1000-k)] for k = 0 to 50\n\nCalculating this sum can be computationally intensive, so it's best to use a statistical software or calculator to find the result. Using a calculator or software, we get:\n\nP(X ≤ 50) ≈ 0.816\n\nSo, the probability that at most 50 phones will malfunction is approximately 0.816 or 81.6%."
+}

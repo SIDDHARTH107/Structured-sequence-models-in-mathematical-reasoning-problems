@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Hill cipher",
+    "message_1": "In Hill cipher, let's say we have a 2x2 matrix key K: \n\\begin{bmatrix}\n1 & 2 \\\\ \n3 & 5 \n\\end{bmatrix}\n\nEncrypt the message \"MATH\" using the Hill cipher with this key K.",
+    "message_2": "To encrypt the message \"MATH\" using the Hill cipher with the given key K, we first need to convert the letters into numerical values using the alphabetical index (A=0, B=1, ..., Z=25).\n\nM = 12\nA = 0\nT = 19\nH = 7\n\nNow, we need to arrange these values into a 2x2 matrix (plaintext matrix P) and multiply it by the key matrix K.\n\nP = \\begin{bmatrix}\n12 & 19 \\\\\n0 & 7\n\\end{bmatrix}\n\nNow, multiply the key matrix K by the plaintext matrix P:\n\nK * P = \\begin{bmatrix}\n1 & 2 \\\\\n3 & 5\n\\end{bmatrix}\n*\n\\begin{bmatrix}\n12 & 19 \\\\\n0 & 7\n\\end{bmatrix}\n=\n\\begin{bmatrix}\n12 & 43 \\\\\n36 & 112\n\\end{bmatrix}\n\nNow, we need to take the resulting matrix and apply the modulo 26 operation to each element:\n\n\\begin{bmatrix}\n12 & 43 \\\\\n36 & 112\n\\end{bmatrix}\n(mod 26)\n=\n\\begin{bmatrix}\n12 & 17 \\\\\n10 & 8\n\\end{bmatrix}\n\nNow, we need to convert these numerical values back into letters:\n\n12 = M\n17 = R\n10 = K\n8 = I\n\nSo, the encrypted message using the Hill cipher with the given key K is \"MRKI\"."
+}

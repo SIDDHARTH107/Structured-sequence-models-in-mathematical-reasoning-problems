@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Solving non-homogeneous systems of linear equations",
+    "message_1": "Solve the following system of linear equations using the method of Gaussian elimination for non-homogeneous systems:\n\n2x + 3y - z = 6\n\nx + 2y + z = 1\n\n3x + 4y + 2z = 11",
+    "message_2": "To solve the system of linear equations using Gaussian elimination, we'll first write the augmented matrix:\n\n```\n| 2  3 -1 |  6\n| 1  2  1 |  1\n| 3  4  2 | 11\n```\n\nStep 1: Eliminate the x term in the second and third rows.\n\nTo do this, we'll subtract 1/2 of the first row from the second row and subtract 3/2 of the first row from the third row:\n\n```\n| 2  3 -1 |  6\n| 0  0.5  1.5 | -2\n| 0 -0.5  3.5 | -0.5\n```\n\nStep 2: Eliminate the y term in the third row.\n\nTo do this, we'll add the second row to the third row:\n\n```\n| 2  3 -1 |  6\n| 0  0.5  1.5 | -2\n| 0  0  5 | -2.5\n```\n\nStep 3: Solve for z.\n\nDivide the third row by 5:\n\n```\n| 2  3 -1 |  6\n| 0  0.5  1.5 | -2\n| 0  0  1 | -0.5\n```\n\nNow we have z = -0.5.\n\nStep 4: Solve for y.\n\nSubstitute z back into the second row and solve for y:\n\n0.5y + 1.5(-0.5) = -2\n\n0.5y - 0.75 = -2\n\n0.5y = -1.25\n\ny = -2.5\n\nStep 5: Solve for x.\n\nSubstitute y and z back into the first row and solve for x:\n\n2x + 3(-2.5) - (-0.5) = 6\n\n2x - 7.5 + 0.5 = 6\n\n2x - 7 = 6\n\n2x = 13\n\nx = 6.5\n\nSo the solution to the system of linear equations is x = 6.5, y = -2.5, and z = -0.5."
+}

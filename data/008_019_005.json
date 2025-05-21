@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Solving systems of linear equations with complex coefficients",
+    "message_1": "Solve the following system of linear equations with complex coefficients:\n\nx + 2y + 3z = 5 + 2i\n\n2x + 5y + 6z = 8 - 3i\n\nx + y + 4z = 3 + 4i",
+    "message_2": "To solve this system of linear equations, we can use the Gaussian elimination method. First, let's write the augmented matrix for the given system:\n\n```\n| 1  2  3 | 5 + 2i |\n| 2  5  6 | 8 - 3i |\n| 1  1  4 | 3 + 4i |\n```\n\nStep 1: Subtract the first row from the third row to eliminate x from the third row:\n\n```\n| 1  2  3 | 5 + 2i |\n| 2  5  6 | 8 - 3i |\n| 0 -1  1 |-2 + 2i |\n```\n\nStep 2: Add twice the first row to the second row to eliminate x from the second row:\n\n```\n| 1  2  3 | 5 + 2i  |\n| 0  1  0 | -2 - 7i |\n| 0 -1  1 |-2 + 2i  |\n```\n\nStep 3: Add the second row to the third row to eliminate y from the third row:\n\n```\n| 1  2  3 | 5 + 2i  |\n| 0  1  0 | -2 - 7i |\n| 0  0  1 | -4 - 5i |\n```\n\nNow we can read the solutions for x, y, and z directly from the matrix:\n\nz = -4 - 5i\n\ny = -2 - 7i\n\nx = (5 + 2i) - 2(-2 - 7i) - 3(-4 - 5i) = 5 + 2i + 4 + 14i + 12 + 15i = 21 + 31i\n\nSo the solution to the system of linear equations is:\n\nx = 21 + 31i\ny = -2 - 7i\nz = -4 - 5i"
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Combinatorial designs",
+    "message_1": "In a group of 12 friends, how many different dinner arrangements can be made where each arrangement consists of 2 people sitting at each table, and no two people sit at the same table more than once?",
+    "message_2": "To solve this problem, we can use the concept of combinations. We have 12 friends, and we want to choose 2 people to sit at each table. There are 6 tables since there are 2 people per table and 12 friends in total.\n\nFirst, we need to find the number of ways to choose 2 people from the 12 friends. This can be calculated using the combination formula:\n\nC(n, k) = n! / (k!(n-k)!)\n\nwhere n is the total number of items, k is the number of items to choose, and ! denotes the factorial.\n\nIn this case, n = 12 and k = 2:\n\nC(12, 2) = 12! / (2!(12-2)!)\nC(12, 2) = 12! / (2!10!)\nC(12, 2) = (12 * 11 * 10!)/(2 * 10!)\nC(12, 2) = 66\n\nSo there are 66 ways to choose 2 people from the 12 friends.\n\nNow, we need to divide this number by the number of tables to ensure that no two people sit at the same table more than once. Since there are 6 tables, we divide 66 by 6:\n\n66 / 6 = 11\n\nTherefore, there are 11 different dinner arrangements where each arrangement consists of 2 people sitting at each table, and no two people sit at the same table more than once."
+}

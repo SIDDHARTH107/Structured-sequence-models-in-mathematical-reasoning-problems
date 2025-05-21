@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Probability",
+    "sub_topic": "Probability of a certain type of entertainment outcome occurring in a performance.",
+    "message_1": "A band plans to play a 10-song setlist for their upcoming show. If they have 15 songs in their repertoire, what is the probability that they will play exactly 3 of their top 5 most popular songs?",
+    "message_2": "To calculate the probability, we can use the concept of combinations. \n\nFirst, we need to find the total number of ways the band can choose 10 songs out of 15. This can be calculated using the combination formula:\n\nC(n, r) = n! / (r!(n-r)!)\n\nwhere n is the total number of songs (15) and r is the number of songs they will play (10).\n\nC(15, 10) = 15! / (10!(15-10)!) = 15! / (10!5!) = 3,003\n\nNow, we need to find the number of ways they can choose exactly 3 of their top 5 most popular songs and 7 of the remaining 10 songs.\n\nC(5, 3) = 5! / (3!(5-3)!) = 5! / (3!2!) = 10\nC(10, 7) = 10! / (7!(10-7)!) = 10! / (7!3!) = 120\n\nTo find the number of ways they can play exactly 3 of their top 5 most popular songs, we multiply these two combinations:\n\n10 * 120 = 1,200\n\nFinally, we divide the number of ways they can play exactly 3 of their top 5 most popular songs by the total number of ways they can choose 10 songs out of 15 to find the probability:\n\nProbability = 1,200 / 3,003 ≈ 0.3996 or 39.96%"
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Residue calculus and its applications",
+    "message_1": "Determine the residue of the function f(z) = (z^2 + 1)/(z^3 - 1) at z = 1.",
+    "message_2": "To find the residue of the function f(z) = (z^2 + 1)/(z^3 - 1) at z = 1, we first need to rewrite the function in a way that isolates the singularity at z = 1. \n\nWe can factor the denominator as follows:\n\nz^3 - 1 = (z - 1)(z^2 + z + 1)\n\nNow, we can rewrite the function as:\n\nf(z) = (z^2 + 1)/[(z - 1)(z^2 + z + 1)]\n\nSince the singularity at z = 1 is a simple pole, we can find the residue by taking the derivative of the denominator with respect to z and then evaluating the limit as z approaches 1.\n\nResidue = lim (z->1) [(z^2 + 1)(d/dz(z^2 + z + 1)) - (z^3 - 1)(d/dz(z^2 + 1))]/(z^2 + z + 1)^2\n\nTaking the derivatives:\n\nd/dz(z^2 + z + 1) = 2z + 1\nd/dz(z^2 + 1) = 2z\n\nSubstituting these derivatives into the residue formula:\n\nResidue = lim (z->1) [(z^2 + 1)(2z + 1) - (z^3 - 1)(2z)]/(z^2 + z + 1)^2\n\nNow, we can evaluate the limit as z approaches 1:\n\nResidue = [(1^2 + 1)(2(1) + 1) - (1^3 - 1)(2(1))]/(1^2 + 1 + 1)^2\nResidue = (2(3) - 0)/(3^2)\nResidue = 6/9\nResidue = 2/3\n\nThus, the residue of the function f(z) = (z^2 + 1)/(z^3 - 1) at z = 1 is 2/3."
+}

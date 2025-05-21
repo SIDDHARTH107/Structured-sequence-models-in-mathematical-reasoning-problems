@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Number theory",
+    "sub_topic": "Fermat's little theorem",
+    "message_1": "Find the value of (7^21) modulo 5, using Fermat's Little Theorem.",
+    "message_2": "Fermat's Little Theorem states that if p is a prime number, then for any integer a, a^p ≡ a (mod p). In other words, a^(p-1) ≡ 1 (mod p) when p is a prime number and a is not divisible by p.\n\nIn this problem, we want to find the value of (7^21) modulo 5. Since 5 is a prime number, we can apply Fermat's Little Theorem.\n\nAccording to Fermat's Little Theorem, 7^(5-1) ≡ 1 (mod 5), so 7^4 ≡ 1 (mod 5).\n\nNow, we can rewrite 7^21 as (7^4)^5 * 7^1. Since 7^4 ≡ 1 (mod 5), we have:\n\n(7^4)^5 * 7^1 ≡ 1^5 * 7^1 (mod 5)\n1 * 7 ≡ 7 (mod 5)\n\nNow, we can find the remainder when 7 is divided by 5:\n\n7 ≡ 2 (mod 5)\n\nSo, the value of (7^21) modulo 5 is 2."
+}

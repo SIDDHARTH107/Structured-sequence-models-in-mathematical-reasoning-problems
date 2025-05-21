@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Logic",
+    "sub_topic": "Inductive logic",
+    "message_1": "If the first four terms of a sequence are 2, 4, 8 and 16, what is the next term of the sequence according to the principle of mathematical induction?",
+    "message_2": "The given sequence is 2, 4, 8, 16, which appears to be a geometric sequence with a common ratio of 2. To confirm this pattern, we can use the principle of mathematical induction.\n\nBase case (n = 1): The first term is 2, which is equal to 2^1.\n\nInductive step: Assume the nth term of the sequence is 2^n. We want to show that the (n+1)th term is 2^(n+1).\n\nThe ratio between consecutive terms is constant in a geometric sequence. Thus, the ratio between the (n+1)th term and the nth term should be the same as the ratio between the nth term and the (n-1)th term.\n\n(2^(n+1))/(2^n) = (2^n)/(2^(n-1))\n\nSimplifying the left side, we get:\n\n2^(n+1-n) = 2^1 = 2\n\nNow, simplifying the right side, we get:\n\n(2^n)/(2^(n-1)) = 2^(n-(n-1)) = 2^1 = 2\n\nSince both sides are equal, the inductive step holds.\n\nTherefore, by the principle of mathematical induction, the sequence is a geometric sequence with a common ratio of 2. The next term in the sequence is the 5th term, which is:\n\n2^5 = 32"
+}

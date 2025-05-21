@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "One-time pad encryption",
+    "message_1": "Suppose you want to securely transmit the message \"MATHS\" using the one-time pad encryption technique. The key to be used for encryption is \"07149\". Convert the message and the key to their corresponding ASCII values and find the ciphertext.",
+    "message_2": "To encrypt the message \"MATHS\" using the one-time pad encryption technique with the key \"07149\", we first need to convert the message and the key to their corresponding ASCII values.\n\nMessage: MATHS\nASCII values: 77 65 84 72 83\n\nKey: 07149\nASCII values: 48 55 49 52 57\n\nNow, we will perform an XOR operation between the message and the key's ASCII values:\n\n77 XOR 48 = 109\n65 XOR 55 = 18\n84 XOR 49 = 101\n72 XOR 52 = 88\n83 XOR 57 = 122\n\nSo, the ciphertext in ASCII values is: 109 18 101 88 122\n\nNow, we will convert these ASCII values back to characters:\n\n109 -> m\n18 -> (non-printable character)\n101 -> e\n88 -> X\n122 -> z\n\nThe ciphertext is: m (non-printable character) e X z"
+}

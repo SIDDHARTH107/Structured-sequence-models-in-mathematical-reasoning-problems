@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Permutations and combinations",
+    "message_1": "How many 5-card hands can be formed from a standard deck of 52 cards?",
+    "message_2": "To find the number of 5-card hands that can be formed from a standard deck of 52 cards, we use the combination formula, which is:\n\nC(n, k) = n! / (k!(n-k)!)\n\nwhere n is the total number of items (in this case, 52 cards), k is the number of items we want to choose (5 cards), and ! denotes the factorial function (e.g., 5! = 5 × 4 × 3 × 2 × 1).\n\nSo, for our problem, we have:\n\nC(52, 5) = 52! / (5!(52-5)!)\n\nC(52, 5) = 52! / (5!47!)\n\nNow, we can calculate the factorials:\n\n52! = 52 × 51 × 50 × 49 × 48 × 47!\n5! = 5 × 4 × 3 × 2 × 1 = 120\n47! = 47 × 46 × ... × 2 × 1\n\nNow, we can simplify the expression:\n\nC(52, 5) = (52 × 51 × 50 × 49 × 48 × 47!) / (120 × 47!)\n\nThe 47! in the numerator and denominator cancel out:\n\nC(52, 5) = (52 × 51 × 50 × 49 × 48) / 120\n\nNow, we can perform the multiplication and division:\n\nC(52, 5) = 6,497,400 / 120\n\nC(52, 5) = 54,145\n\nSo, there are 54,145 different 5-card hands that can be formed from a standard deck of 52 cards."
+}

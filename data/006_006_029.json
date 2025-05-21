@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Probability",
+    "sub_topic": "Probability of a certain outcome in a sports game",
+    "message_1": "A basketball player has a free throw percentage of 80%. Find the probability that he will make exactly 4 out of 5 free throws in a game.",
+    "message_2": "To find the probability that the basketball player will make exactly 4 out of 5 free throws, we can use the binomial probability formula:\n\nP(X = k) = (nCk) * (p^k) * (q^(n-k))\n\nwhere:\n- P(X = k) is the probability of making exactly k free throws out of n attempts\n- n is the number of attempts (in this case, 5 free throws)\n- k is the number of successful attempts (in this case, 4 free throws)\n- nCk is the number of combinations of n items taken k at a time (also written as C(n, k) or \"n choose k\")\n- p is the probability of success (in this case, 80% or 0.8)\n- q is the probability of failure (in this case, 20% or 0.2)\n\nFirst, we need to find nCk, which is the number of ways to choose 4 successful free throws out of 5 attempts:\n\nnCk = C(5, 4) = 5! / (4! * (5 - 4)!) = 5! / (4! * 1!) = (5 * 4 * 3 * 2 * 1) / (4 * 3 * 2 * 1) = 5\n\nNow, we can plug the values into the binomial probability formula:\n\nP(X = 4) = (5) * (0.8^4) * (0.2^(5-4))\n\nP(X = 4) = 5 * (0.4096) * (0.2)\n\nP(X = 4) = 5 * 0.08192\n\nP(X = 4) ≈ 0.4096\n\nSo, the probability that the basketball player will make exactly 4 out of 5 free throws in a game is approximately 40.96%."
+}

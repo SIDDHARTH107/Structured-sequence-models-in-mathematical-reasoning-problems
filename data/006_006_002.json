@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Probability",
+    "sub_topic": "Probability of a certain outcome in a sports game",
+    "message_1": "A basketball player has a free throw shooting percentage of 85%. If they shoot 10 free throws in a game, what is the probability that they will make exactly 7 of them?",
+    "message_2": "We can use the binomial probability formula to solve this problem. The formula is:\n\nP(X = k) = C(n, k) * p^k * (1-p)^(n-k)\n\nwhere:\n- P(X = k) is the probability of having exactly k successes in n trials\n- C(n, k) is the number of combinations of n items taken k at a time (also written as nCk or \"n choose k\")\n- n is the number of trials (in this case, 10 free throws)\n- k is the number of successes (in this case, 7 successful free throws)\n- p is the probability of success (in this case, 0.85)\n- (1-p) is the probability of failure (in this case, 1 - 0.85 = 0.15)\n\nFirst, we need to calculate C(10, 7), which is the number of ways to choose 7 successful free throws out of 10:\n\nC(10, 7) = 10! / (7! * (10-7)!)\n          = 10! / (7! * 3!)\n          = (10 * 9 * 8) / (3 * 2 * 1)\n          = 120\n\nNow, we can plug the values into the binomial probability formula:\n\nP(X = 7) = C(10, 7) * 0.85^7 * 0.15^3\n         = 120 * 0.85^7 * 0.15^3\n         ≈ 0.266\n\nSo, the probability that the basketball player will make exactly 7 out of 10 free throws is approximately 0.266 or 26.6%."
+}

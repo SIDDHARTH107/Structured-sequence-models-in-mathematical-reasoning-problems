@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Optimization",
+    "sub_topic": "Integer programming",
+    "message_1": "A company produces two products: Product A and Product B. The maximum amount of Product A that can be produced is 100 units, while the maximum amount of Product B that can be produced is 150 units. Each unit of Product A requires 3 hours of labor and generates a profit of $20, while each unit of Product B requires 4 hours of labor and generates a profit of $30. The company has 350 total hours of available labor. \n\nWrite an integer programming model to maximize the company's profit by determining the optimal number of units of each product to produce.",
+    "message_2": "Let x be the number of units of Product A and y be the number of units of Product B.\n\nObjective Function (Maximize Profit):\nMaximize P = 20x + 30y\n\nConstraints:\n1. Maximum production capacity for Product A: x ≤ 100\n2. Maximum production capacity for Product B: y ≤ 150\n3. Labor hours constraint: 3x + 4y ≤ 350\n4. Non-negativity constraints: x ≥ 0, y ≥ 0\n\nThe integer programming model is:\n\nMaximize P = 20x + 30y\nSubject to:\nx ≤ 100\ny ≤ 150\n3x + 4y ≤ 350\nx ≥ 0\ny ≥ 0\nx, y ∈ Z (x and y must be integers)"
+}

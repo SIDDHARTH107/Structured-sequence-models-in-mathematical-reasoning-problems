@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Set theory",
+    "sub_topic": "Prove that the symmetric difference of two sets is distributive over union.",
+    "message_1": "Let A = {1, 2, 3} and B = {2, 3, 4}. Find the symmetric difference of (A ∆ B) and {2, 3}.",
+    "message_2": "First, we need to find the symmetric difference of A and B, which is denoted as A ∆ B. The symmetric difference is the set of elements which are in either of the sets A or B, but not in their intersection.\n\nA ∆ B = (A ∪ B) - (A ∩ B)\n\nA ∪ B = {1, 2, 3, 4} (union of A and B)\nA ∩ B = {2, 3} (intersection of A and B)\n\nA ∆ B = {1, 2, 3, 4} - {2, 3} = {1, 4}\n\nNow, we need to find the symmetric difference of (A ∆ B) and {2, 3}.\n\n(A ∆ B) ∆ {2, 3} = ({1, 4} ∪ {2, 3}) - ({1, 4} ∩ {2, 3})\n\n{1, 4} ∪ {2, 3} = {1, 2, 3, 4}\n{1, 4} ∩ {2, 3} = {}\n\n(A ∆ B) ∆ {2, 3} = {1, 2, 3, 4} - {} = {1, 2, 3, 4}\n\nSo, the symmetric difference of (A ∆ B) and {2, 3} is {1, 2, 3, 4}."
+}

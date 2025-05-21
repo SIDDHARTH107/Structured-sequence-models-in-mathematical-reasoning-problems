@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Topology",
+    "sub_topic": "Connectedness and path-connectedness",
+    "message_1": "Suppose X is a topological space and A is a connected subset of X. If f: A -> {0,1} is a continuous function, prove that f is a constant function.",
+    "message_2": "To prove that f is a constant function, we will show that f(A) can only contain a single value, either 0 or 1.\n\nAssume for contradiction that f is not a constant function. Then, f(A) must contain both 0 and 1. Since f is continuous, the inverse images of the open sets {0} and {1} under f are open in A:\n\nf^(-1)({0}) is open in A\nf^(-1)({1}) is open in A\n\nNow, observe that A is the disjoint union of these two open sets:\n\nA = f^(-1)({0}) ∪ f^(-1)({1})\n\nSince f^(-1)({0}) and f^(-1)({1}) are disjoint, non-empty, and open in A, this means that A can be expressed as the union of two non-empty, disjoint open sets. However, this contradicts the assumption that A is connected, as connected sets cannot be expressed as the union of two non-empty, disjoint open sets.\n\nTherefore, our assumption that f is not a constant function must be false, and f must be a constant function."
+}

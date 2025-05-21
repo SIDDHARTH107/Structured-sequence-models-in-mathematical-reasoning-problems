@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Solving systems of linear equations using matrix methods",
+    "message_1": "Solve the following system of linear equations using matrix methods:\n\n3x + 2y = 14\n\n5x - 3y = 8",
+    "message_2": "To solve the system of linear equations using matrix methods, we'll first write the given system in matrix form AX = B, where A is the matrix of coefficients, X is the column matrix of variables (x, y), and B is the column matrix of constants.\n\nA = | 3  2 |, X = | x |, B = | 14 |\n    | 5 -3 |      | y |      |  8 |\n\nNow, we'll find the inverse of matrix A, denoted as A_inv. To do this, we'll first find the determinant of A, det(A).\n\ndet(A) = (3 * -3) - (2 * 5) = -9 - 10 = -19\n\nSince the determinant is non-zero, the inverse of matrix A exists. Now, let's find A_inv.\n\nA_inv = (1/det(A)) * adj(A), where adj(A) is the adjugate of A.\n\nadj(A) = | -3 -2 |\n         | -5  3 |\n\nA_inv = (-1/-19) * | -3 -2 |\n                   | -5  3 |\n\nA_inv = | 3/19  2/19 |\n        | 5/19 -3/19 |\n\nNow, we'll multiply A_inv by B to get the solution matrix X.\n\nX = A_inv * B\n\nX = | 3/19  2/19 | * | 14 |\n    | 5/19 -3/19 |   |  8 |\n\nX = | (3/19 * 14) + (2/19 * 8) |\n    | (5/19 * 14) - (3/19 * 8) |\n\nX = | 42/19 + 16/19 |\n    | 70/19 - 24/19 |\n\nX = | 58/19 |\n    | 46/19 |\n\nSo, the solution to the system of linear equations is:\n\nx = 58/19\ny = 46/19"
+}

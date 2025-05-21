@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Orthogonal arrays",
+    "message_1": "Consider a set of three variables, A, B and C, each taking on values of 0 or 1. Create an orthogonal array of size 8 for this set of variables using 2 levels of dependencies. Find the minimum number of runs needed to fully test all possible combinations.",
+    "message_2": "An orthogonal array is a matrix where each pair of columns represents all possible combinations of the levels of the factors being tested. In this case, we have three variables (A, B, and C) with two levels each (0 and 1). We want to create an orthogonal array of size 8 (L8) using these variables.\n\nTo create an L8 orthogonal array, we can use the following design:\n\nRun | A | B | C\n----|---|---|---\n 1  | 0 | 0 | 0\n 2  | 0 | 0 | 1\n 3  | 0 | 1 | 0\n 4  | 0 | 1 | 1\n 5  | 1 | 0 | 0\n 6  | 1 | 0 | 1\n 7  | 1 | 1 | 0\n 8  | 1 | 1 | 1\n\nThis orthogonal array represents all possible combinations of the three variables A, B, and C, with each variable taking on values of 0 or 1. The minimum number of runs needed to fully test all possible combinations is 8, as shown in the table above."
+}

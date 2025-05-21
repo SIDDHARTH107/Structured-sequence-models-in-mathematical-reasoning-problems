@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Recurrence relations",
+    "message_1": "A certain company hires employees based on the following rule: each new employee must be trained by one of the existing employees before starting work. If there are no employees, the company hires a new employee and waits for another to train him/her. Assume that the company has one employee at the beginning, and each employee can train one new employee. How many employees will the company have after $n$ rounds of hiring? Solve the recurrence relation and find the explicit formula in terms of $n$.",
+    "message_2": "Let $E_n$ be the number of employees after $n$ rounds of hiring. We can define the recurrence relation as follows:\n\n$E_0 = 1$ (initially, there is one employee)\n$E_n = E_{n-1} + n$ (each existing employee trains one new employee in each round)\n\nTo find the explicit formula for $E_n$, we can expand the recurrence relation:\n\n$E_n = E_{n-1} + n$\n$E_n = (E_{n-2} + (n-1)) + n$\n$E_n = ((E_{n-3} + (n-2)) + (n-1)) + n$\n$\\cdots$\n$E_n = E_0 + 1 + 2 + \\cdots + (n-1) + n$\n\nThe sum of the first $n$ integers is given by the formula:\n\n$\\sum_{i=1}^n i = \\frac{n(n+1)}{2}$\n\nSince $E_0 = 1$, the explicit formula for $E_n$ is:\n\n$E_n = 1 + \\frac{n(n+1)}{2}$"
+}

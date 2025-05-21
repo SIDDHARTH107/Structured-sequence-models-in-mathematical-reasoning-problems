@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Number theory",
+    "sub_topic": "Diffie-Hellman key exchange.",
+    "message_1": "Alice and Bob agree to use a prime number p = 17 and a base g = 3 for their key exchange. Alice chooses the secret integer a = 5, and sends Bob A = g^a mod p. Bob chooses the secret integer b = 10, and sends Alice B=g^b mod p. What is the shared secret key that both Alice and Bob calculate using their secret integer and received integer?",
+    "message_2": "First, let's calculate the integers Alice and Bob send to each other:\n\nAlice sends Bob A = g^a mod p = 3^5 mod 17\nA = 243 mod 17 = 9\n\nBob sends Alice B = g^b mod p = 3^10 mod 17\nB = 59049 mod 17 = 12\n\nNow, Alice and Bob will calculate the shared secret key using their secret integers and received integers:\n\nAlice calculates the shared secret key as K_A = B^a mod p = 12^5 mod 17\nK_A = 248832 mod 17 = 3\n\nBob calculates the shared secret key as K_B = A^b mod p = 9^10 mod 17\nK_B = 3486784401 mod 17 = 3\n\nBoth Alice and Bob have calculated the same shared secret key, K = 3."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Singularities of complex functions",
+    "message_1": "What is the residue of the function f(z) = (z+2)/(z^2 - 5z + 6) at the singular point z = 3?",
+    "message_2": "To find the residue of the function f(z) = (z+2)/(z^2 - 5z + 6) at the singular point z = 3, we first need to factor the denominator:\n\nz^2 - 5z + 6 = (z - 2)(z - 3)\n\nNow we can rewrite the function as:\n\nf(z) = (z+2)/[(z - 2)(z - 3)]\n\nSince we are interested in the residue at z = 3, we can perform a partial fraction decomposition:\n\nf(z) = A/(z - 2) + B/(z - 3)\n\nMultiplying both sides by (z - 2)(z - 3) to clear the denominators, we get:\n\n(z + 2) = A(z - 3) + B(z - 2)\n\nNow, we can solve for A and B by plugging in the values of z that make each term zero. For A, we use z = 3:\n\n(3 + 2) = A(3 - 3) + B(3 - 2)\n5 = B\n\nFor B, we use z = 2:\n\n(2 + 2) = A(2 - 3) + B(2 - 2)\n4 = -A\n\nSo, A = -4 and B = 5. Now we rewrite the function with the values of A and B:\n\nf(z) = -4/(z - 2) + 5/(z - 3)\n\nThe residue at the singular point z = 3 is the coefficient of the term with (z - 3) in the denominator, which is 5. Therefore, the residue of the function f(z) at the singular point z = 3 is 5."
+}

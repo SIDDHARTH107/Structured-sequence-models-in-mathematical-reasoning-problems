@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Transposition ciphers",
+    "message_1": "A Transposition Cipher involves rearranging the order of letters in a message to conceal the original message. \n\nHere's a problem for you: \n\nDavid wants to encrypt a message \"HELLO WORLD\" using a columnar transposition cipher with a keyword \"MATH\". He wrote the letters of the message in rows and then grouped them column-wise based on the alphabetical order of the keyword. The resulting ciphertext was \"LEOWHLLRD O\". Can you decipher the message?",
+    "message_2": "To decipher the message, we need to reverse the process that David used to encrypt it. First, we need to determine the order of the columns based on the keyword \"MATH\". \n\n1. Write down the keyword and assign a number to each letter based on its position in the alphabet:\n\n   M  A  T  H\n   13 1  20 8\n\n2. Arrange the keyword in alphabetical order and assign a new number based on the new positions:\n\n   A  H  M  T\n   1  2  3  4\n\nNow we know the order of the columns in the original message.\n\n3. Write down the ciphertext \"LEOWHLLRD O\" in columns, using the number of columns determined by the keyword length (4 columns):\n\n   L E O W\n   H L L R\n   D O * *\n\n   (We added two placeholders (*) to complete the grid)\n\n4. Rearrange the columns based on the original order of the keyword:\n\n   E L W O\n   L H R L\n   O D * *\n\n5. Read the message row-wise:\n\n   \"HELLO WORLD\"\n\nSo, the deciphered message is \"HELLO WORLD\"."
+}

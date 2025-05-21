@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Topology",
+    "sub_topic": "Differential structures and smoothness",
+    "message_1": "Let M be a smooth manifold of dimension 2, i.e., a surface, and suppose that the tangent bundle TM of M is trivial. Prove that there exists a global non-vanishing smooth vector field on M.",
+    "message_2": "Since the tangent bundle TM is trivial, it is isomorphic to the product bundle M x R^2. Let (U, φ) be a local trivialization of TM over an open set U ⊆ M, where φ: π^(-1)(U) → U x R^2 is a bundle isomorphism. Here, π: TM → M is the projection map.\n\nNow, consider the global sections of the product bundle M x R^2, which are given by smooth maps s: M → M x R^2 such that π(s(x)) = x for all x ∈ M. Since TM is isomorphic to M x R^2, we can find a global section s of TM by composing the inverse of the bundle isomorphism φ with a global section of M x R^2.\n\nLet s_0: M → M x R^2 be the global section defined by s_0(x) = (x, (1, 0)) for all x ∈ M. This is a global non-vanishing section of M x R^2, as (1, 0) is a non-zero vector in R^2. Now, define a global section s: M → TM by s(x) = φ^(-1)(s_0(x)) for all x ∈ M. This is a smooth map since φ^(-1) is smooth.\n\nWe claim that s is a global non-vanishing smooth vector field on M. To see this, note that for any x ∈ M, we have s(x) ∈ T_xM, and s(x) is non-zero since φ is an isomorphism and s_0(x) is non-zero. Thus, s is a global non-vanishing smooth vector field on M."
+}

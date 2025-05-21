@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Stream ciphers",
+    "message_1": "A stream cipher uses a secret key to generate a stream of random bits that are XORed with the plaintext message to produce the ciphertext message. A student is given a stream cipher with a key of \"10110101\" and an initialisation vector (IV) of \"01101010\". The plaintext message is \"11100000\". What is the corresponding ciphertext message?",
+    "message_2": "To find the ciphertext message, we first need to XOR the secret key with the initialisation vector (IV) to generate the keystream.\n\nSecret key:     10110101\nIV:             01101010\nXOR operation:  11011111 (keystream)\n\nNow, we XOR the keystream with the plaintext message to get the ciphertext message.\n\nKeystream:      11011111\nPlaintext:      11100000\nXOR operation:  00111111 (ciphertext)\n\nSo, the corresponding ciphertext message is \"00111111\"."
+}

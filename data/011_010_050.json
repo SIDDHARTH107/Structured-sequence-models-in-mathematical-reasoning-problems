@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Catalan numbers",
+    "message_1": "A rectangular park has dimensions of 6 meters by 4 meters. In how many ways can a person walk from one corner to the corner diagonally opposite to it, if the person can only move in the upward or rightward direction (no backtracking allowed)?",
+    "message_2": "To solve this problem, we can use the concept of combinatorics. Since the person can only move in the upward or rightward direction, they need to make a total of 6 rightward moves and 4 upward moves to reach the diagonally opposite corner.\n\nWe can represent the rightward moves as R and the upward moves as U. So, the person needs to make a sequence of 6 R's and 4 U's. The problem now becomes finding the number of ways to arrange these 10 moves (6 R's and 4 U's).\n\nThis can be calculated using the combination formula:\n\nC(n, k) = n! / (k!(n-k)!)\n\nIn this case, n = 10 (total moves) and k = 4 (upward moves).\n\nC(10, 4) = 10! / (4!(10-4)!)\n\nC(10, 4) = 10! / (4!6!)\n\nC(10, 4) = (10 × 9 × 8 × 7 × 6!) / (4 × 3 × 2 × 1 × 6!)\n\nC(10, 4) = (10 × 9 × 8 × 7) / (4 × 3 × 2 × 1)\n\nC(10, 4) = 210\n\nSo, there are 210 ways for the person to walk from one corner to the diagonally opposite corner in the rectangular park."
+}

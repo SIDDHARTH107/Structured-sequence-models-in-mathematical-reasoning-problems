@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Game theory",
+    "sub_topic": "Beauty Contest Game",
+    "message_1": "Suppose there are 100 players in a Beauty Contest Game, and each player is asked to choose a number between 0 and 100 (inclusive). The winner of the game is the player who chooses the number closest to two-thirds of the average of all numbers chosen. Assuming all players are rational and want to win the game, what number should each player choose?",
+    "message_2": "Let's assume all players choose a number between 0 and 100. The average of all numbers chosen can be at most 100, so the maximum possible value for two-thirds of the average is (2/3) * 100 = 200/3 ≈ 66.67. Since all players are rational, they will not choose a number greater than 66.67, as it cannot be the winning number.\n\nNow, we have a new range for the players to choose from: 0 to 66.67. The maximum possible value for two-thirds of the average in this new range is (2/3) * 66.67 ≈ 44.44. Rational players will now choose a number between 0 and 44.44.\n\nWe can continue this process of iteratively narrowing down the range of numbers that rational players will choose. As the number of iterations approaches infinity, the range of possible numbers will converge to a single value.\n\nIn the limit, the range converges to 0. So, in a game with rational players who want to win, each player should choose 0."
+}

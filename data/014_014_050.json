@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Playfair cipher",
+    "message_1": "Using the Playfair cipher, encrypt the message \"MATH IS FUN\" with the key \"CRYPTO\" and write the encrypted message.",
+    "message_2": "First, we need to create a 5x5 matrix using the key \"CRYPTO\". Remove duplicate letters from the key and fill in the remaining spaces with the rest of the alphabet (excluding \"J\", which is usually combined with \"I\" in the Playfair cipher).\n\nThe matrix will look like this:\n\nC R Y P T\nO A B D E\nF G H I K\nL M N S U\nV W X Z Q\n\nNow, we will encrypt the message \"MATH IS FUN\" using the Playfair cipher rules:\n\n1. If both letters are the same, add an \"X\" between them (not applicable in this case).\n2. If the letters are in the same row, replace each letter with the one to its right (wrapping around if necessary).\n3. If the letters are in the same column, replace each letter with the one below it (wrapping around if necessary).\n4. If the letters form a rectangle, replace each letter with the one in the same row but in the other corner of the rectangle.\n\nMATH IS FUN -> MA TH IS FU N (split into pairs)\n\nMA -> OD\nTH -> YK\nIS -> CP\nFU -> LN\nN -> NX (add X to the last single letter)\n\nEncrypted message: ODYKCPNLNX"
+}

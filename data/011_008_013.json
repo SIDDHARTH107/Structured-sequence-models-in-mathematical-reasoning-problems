@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Stirling numbers",
+    "message_1": "A group of five friends want to sit together in a row of chairs for a group photo. How many possible arrangements are there if two of the friends cannot sit next to each other? (Hint: Use Stirling numbers of the second kind)",
+    "message_2": "To solve this problem, we can first find the total number of arrangements without any restrictions and then subtract the number of arrangements where the two friends are sitting next to each other.\n\nTotal number of arrangements without any restrictions:\nThere are 5 friends, so there are 5! (5 factorial) ways to arrange them in a row.\n5! = 5 × 4 × 3 × 2 × 1 = 120\n\nNow, let's find the number of arrangements where the two friends are sitting next to each other. We can treat these two friends as a single unit, so we have 4 units to arrange (3 individual friends and 1 pair of friends). There are 4! ways to arrange these 4 units.\n4! = 4 × 3 × 2 × 1 = 24\n\nHowever, within the pair of friends, there are 2! ways to arrange the two friends.\n2! = 2 × 1 = 2\n\nSo, the total number of arrangements where the two friends are sitting next to each other is 24 × 2 = 48.\n\nFinally, subtract the number of arrangements where the two friends are sitting next to each other from the total number of arrangements without any restrictions:\n120 - 48 = 72\n\nThere are 72 possible arrangements where the two friends are not sitting next to each other."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Block designs",
+    "message_1": "A student is designing a schedule for a music festival. There are 10 different bands and 6 different time slots available. The student wants to create a schedule where each band plays exactly once and each time slot has exactly 2 bands performing. How many ways can the student schedule the festival?",
+    "message_2": "To solve this problem, we can use combinatorics. First, we need to choose 2 bands for each of the 6 time slots. We can do this using combinations.\n\nFor the first time slot, there are C(10,2) ways to choose 2 bands from 10, which is 45 ways.\n\nAfter the first time slot, there are 8 bands left. For the second time slot, there are C(8,2) ways to choose 2 bands from 8, which is 28 ways.\n\nSimilarly, for the third time slot, there are C(6,2) = 15 ways, for the fourth time slot, there are C(4,2) = 6 ways, and for the fifth time slot, there are C(2,2) = 1 way.\n\nNow, we need to multiply the number of ways for each time slot to get the total number of ways to schedule the festival:\n\n45 * 28 * 15 * 6 * 1 = 113400\n\nSo, there are 113,400 ways for the student to schedule the festival."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Multinomial coefficients",
+    "message_1": "In how many ways can 4 red balls, 3 blue balls, and 2 green balls be arranged in a row if balls of the same color are indistinguishable?",
+    "message_2": "To solve this problem, we can use the formula for permutations of a multiset, which is:\n\nP(n; n1, n2, ..., nk) = n! / (n1! * n2! * ... * nk!)\n\nwhere n is the total number of objects, and n1, n2, ..., nk are the number of objects of each type.\n\nIn this case, we have a total of 9 balls (n = 9), with 4 red balls (n1 = 4), 3 blue balls (n2 = 3), and 2 green balls (n3 = 2). Plugging these values into the formula, we get:\n\nP(9; 4, 3, 2) = 9! / (4! * 3! * 2!)\n\nCalculating the factorials:\n\n9! = 9 * 8 * 7 * 6 * 5 * 4 * 3 * 2 * 1 = 362,880\n4! = 4 * 3 * 2 * 1 = 24\n3! = 3 * 2 * 1 = 6\n2! = 2 * 1 = 2\n\nNow, divide 9! by the product of the factorials:\n\nP(9; 4, 3, 2) = 362,880 / (24 * 6 * 2) = 362,880 / 288 = 1,260\n\nSo there are 1,260 ways to arrange the 4 red balls, 3 blue balls, and 2 green balls in a row if balls of the same color are indistinguishable."
+}

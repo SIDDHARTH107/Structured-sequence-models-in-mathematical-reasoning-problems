@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Solving systems of linear equations using inverse matrices",
+    "message_1": "Solve the system of equations using inverse matrices: \n2x + 3y = 14\n5x + 4y = 26",
+    "message_2": "To solve the system of equations using inverse matrices, we first need to write the given system in matrix form. The matrix form is AX = B, where A is the matrix of coefficients, X is the matrix of variables, and B is the matrix of constants.\n\nA = | 2  3 |\n    | 5  4 |\n\nX = | x |\n    | y |\n\nB = | 14 |\n    | 26 |\n\nNow, we need to find the inverse of matrix A. The inverse of a 2x2 matrix is given by:\n\nA^(-1) = (1/det(A)) * adj(A)\n\nwhere det(A) is the determinant of A and adj(A) is the adjugate of A.\n\nFirst, let's find the determinant of A:\n\ndet(A) = (2 * 4) - (3 * 5) = 8 - 15 = -7\n\nNow, let's find the adjugate of A:\n\nadj(A) = |  4  -3 |\n         | -5   2 |\n\nNow, we can find the inverse of A:\n\nA^(-1) = (-1/7) * |  4  -3 |\n                  | -5   2 |\n\nA^(-1) = | -4/7  3/7 |\n         |  5/7 -2/7 |\n\nNow, we can find the solution matrix X by multiplying A^(-1) with B:\n\nX = A^(-1) * B\n\nX = | -4/7  3/7 | * | 14 |\n    |  5/7 -2/7 |   | 26 |\n\nX = | (-4/7 * 14) + (3/7 * 26) |\n    | (5/7 * 14) - (2/7 * 26) |\n\nX = | -8 |\n    |  6 |\n\nSo, the solution to the system of equations is x = -8 and y = 6."
+}

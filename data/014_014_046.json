@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Playfair cipher",
+    "message_1": "Suppose we want to encrypt the message \"HELLO\" using a Playfair cipher with the keyphrase \"MATHS\". What is the encrypted message?",
+    "message_2": "To encrypt the message \"HELLO\" using a Playfair cipher with the keyphrase \"MATHS\", we first need to create a 5x5 matrix using the keyphrase and the English alphabet (excluding the letter 'J', which is usually combined with 'I').\n\n1. Remove duplicate letters from the keyphrase: MATHS -> MATHS (no duplicates)\n2. Fill in the remaining alphabet letters after the keyphrase: MATHSBCDEFGIKLNOPQRUVWXYZ\n3. Create a 5x5 matrix with the letters:\n\nM A T H S\nB C D E F\nG I K L N\nO P Q R U\nV W X Y Z\n\nNow, we can encrypt the message \"HELLO\":\n\n1. Break the message into digraphs (pairs of letters): HE LL O\n2. If a pair has the same letter, insert an 'X' between them (not needed in this case)\n3. For each pair, apply the Playfair cipher rules:\n\nHE -> DR\nLL -> PO\nOX -> KI (add an 'X' to the last single letter)\n\nThe encrypted message is \"DRPOKI\"."
+}

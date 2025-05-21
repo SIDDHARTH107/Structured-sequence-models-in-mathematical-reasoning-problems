@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Transposition ciphers",
+    "message_1": "Consider the message \"MATHEMATICSROCKS\". Apply columnar transposition cipher with a key of \"3142\" to this message. What is the encrypted message?",
+    "message_2": "To apply the columnar transposition cipher with the key \"3142\", we first arrange the message into rows based on the length of the key. In this case, the key has 4 digits, so we arrange the message into rows of 4 characters each:\n\nM A T H\nE M A T\nI C S R\nO C K S\n\nNow, we reorder the columns based on the key. The first column will be the one with the smallest digit in the key, which is 3, so we take the third column. The second column will be the one with the next smallest digit, which is 1, so we take the first column. We continue this process for all columns:\n\nT M A H\nA E T M\nS I R C\nK O S C\n\nFinally, we read the encrypted message by reading the characters in the new arrangement row by row:\n\nTMAHASIRCKOESCM\n\nSo, the encrypted message is \"TMAHASIRCKOESCM\"."
+}

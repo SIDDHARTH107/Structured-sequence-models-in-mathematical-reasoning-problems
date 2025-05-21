@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Statistics",
+    "sub_topic": "Sampling techniques",
+    "message_1": "A manufacturer produces light bulbs that on average last 1200 hours with a standard deviation of 100 hours. A sample of 50 bulbs is selected. What is the probability that the sample mean will be between 1175 and 1225 hours?",
+    "message_2": "To solve this problem, we will use the Central Limit Theorem, which states that the sampling distribution of the sample mean will be approximately normally distributed with a mean equal to the population mean (μ) and a standard deviation equal to the population standard deviation (σ) divided by the square root of the sample size (n).\n\nIn this case, μ = 1200 hours, σ = 100 hours, and n = 50.\n\nFirst, we need to calculate the standard deviation of the sample mean:\n\nσ_sample_mean = σ / √n = 100 / √50 ≈ 14.14 hours\n\nNow, we need to find the z-scores for the given range of sample means (1175 and 1225 hours):\n\nz1 = (1175 - μ) / σ_sample_mean = (1175 - 1200) / 14.14 ≈ -1.77\nz2 = (1225 - μ) / σ_sample_mean = (1225 - 1200) / 14.14 ≈ 1.77\n\nNext, we will use the standard normal distribution table (or a calculator) to find the probabilities corresponding to these z-scores:\n\nP(z1) ≈ 0.0385\nP(z2) ≈ 0.9615\n\nFinally, we will find the probability that the sample mean will be between 1175 and 1225 hours:\n\nP(1175 < x̄ < 1225) = P(z2) - P(z1) = 0.9615 - 0.0385 = 0.923\n\nSo, there is approximately a 92.3% probability that the sample mean will be between 1175 and 1225 hours."
+}

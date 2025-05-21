@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Conformal mapping and its applications",
+    "message_1": "Find a conformal map that maps the outside of the unit circle $|z|<1$ onto the region outside the circle $|w-2i|=3$.",
+    "message_2": "To find a conformal map that maps the outside of the unit circle $|z|>1$ onto the region outside the circle $|w-2i|=3$, we can use a composition of Möbius transformations. \n\nFirst, we map the outside of the unit circle $|z|>1$ to the upper half-plane. We can use the Möbius transformation $f_1(z) = \\frac{z-1}{z+1}$ for this. Note that $f_1(1) = 0$ and $f_1(-1) = \\infty$. Therefore, the real axis is mapped to itself, and the unit circle is mapped to the imaginary axis.\n\nNext, we map the upper half-plane to the outside of the circle $|w-2i|=3$. To do this, we first map the upper half-plane to the outside of the unit circle using the transformation $f_2(w) = w^2$. Then, we scale and translate the result to obtain the desired region. The transformation for this step is $f_3(w) = 3w + 2i$.\n\nNow, we can find the composition of these transformations to obtain the conformal map from the outside of the unit circle to the region outside the circle $|w-2i|=3$:\n\n$$f(z) = f_3(f_2(f_1(z))) = 3\\left(\\frac{z-1}{z+1}\\right)^2 + 2i$$\n\nSo, the conformal map is given by:\n\n$$f(z) = \\frac{3(z-1)^2}{(z+1)^2} + 2i$$"
+}

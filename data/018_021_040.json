@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Set theory",
+    "sub_topic": "Prove that the symmetric difference of two sets is distributive over intersection.",
+    "message_1": "Let the two sets A = {2, 3, 5, 7} and B = {3, 5, 6, 8}. If C = {3, 6, 7} and D = {5, 6, 8}, prove that (A Δ B) ∩ (C Δ D) = (A ∩ C) Δ (B ∩ D).",
+    "message_2": "To prove that (A Δ B) ∩ (C Δ D) = (A ∩ C) Δ (B ∩ D), we will first find each set individually and then compare the results.\n\n1. Find A Δ B:\nA Δ B = (A ∪ B) - (A ∩ B)\nA ∪ B = {2, 3, 5, 6, 7, 8}\nA ∩ B = {3, 5}\nA Δ B = {2, 6, 7, 8}\n\n2. Find C Δ D:\nC Δ D = (C ∪ D) - (C ∩ D)\nC ∪ D = {3, 5, 6, 7, 8}\nC ∩ D = {6}\nC Δ D = {3, 5, 7, 8}\n\n3. Find (A Δ B) ∩ (C Δ D):\n(A Δ B) ∩ (C Δ D) = {2, 6, 7, 8} ∩ {3, 5, 7, 8} = {7, 8}\n\n4. Find A ∩ C:\nA ∩ C = {2, 3, 5, 7} ∩ {3, 6, 7} = {3, 7}\n\n5. Find B ∩ D:\nB ∩ D = {3, 5, 6, 8} ∩ {5, 6, 8} = {5, 6, 8}\n\n6. Find (A ∩ C) Δ (B ∩ D):\n(A ∩ C) Δ (B ∩ D) = ({3, 7} ∪ {5, 6, 8}) - ({3, 7} ∩ {5, 6, 8})\n(A ∩ C) ∪ (B ∩ D) = {3, 5, 6, 7, 8}\n(A ∩ C) ∩ (B ∩ D) = {}\n(A ∩ C) Δ (B ∩ D) = {3, 5, 6, 7, 8} - {} = {3, 5, 6, 7, 8} - {} = {7, 8}\n\nNow, we compare the results of (A Δ B) ∩ (C Δ D) and (A ∩ C) Δ (B ∩ D):\n(A Δ B) ∩ (C Δ D) = {7, 8}\n(A ∩ C) Δ (B ∩ D) = {7, 8}\n\nSince both sets are equal, we have proven that (A Δ B) ∩ (C Δ D) = (A ∩ C) Δ (B ∩ D)."
+}

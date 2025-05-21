@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Determining the rank of a matrix",
+    "message_1": "Consider the following matrix A = [[1, 2, 3], [2, 3, 5], [3, 5, 8]]. Determine the rank of the matrix A.",
+    "message_2": "To find the rank of the matrix A, we need to perform Gaussian elimination to bring it to its row-echelon form and then count the number of non-zero rows.\n\nMatrix A:\n[[1, 2, 3],\n [2, 3, 5],\n [3, 5, 8]]\n\nStep 1: Subtract 2 times the first row from the second row, and subtract 3 times the first row from the third row.\n\n[[1,  2,  3],\n [0, -1, -1],\n [0, -1, -1]]\n\nStep 2: Multiply the second row by -1 to make the leading entry positive.\n\n[[1,  2,  3],\n [0,  1,  1],\n [0, -1, -1]]\n\nStep 3: Add the second row to the third row.\n\n[[1,  2,  3],\n [0,  1,  1],\n [0,  0,  0]]\n\nNow the matrix is in row-echelon form. We can see that there are 2 non-zero rows. Therefore, the rank of the matrix A is 2."
+}

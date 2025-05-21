@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Cryptanalysis of Vigenere cipher",
+    "message_1": "Suppose a message is encrypted using the Vigenere cipher with a keyword \"MATH\" and the message is \"ATTACKATDAWN\". If the resulting ciphertext is \"MPIAKTZMJLUD\", what is the original message?",
+    "message_2": "To decrypt the message encrypted using the Vigenère cipher, we need to reverse the encryption process. The keyword \"MATH\" is repeated to match the length of the message, so the keyword becomes \"MATHMATHMATHM\". Now, we subtract the keyword letters from the ciphertext letters (mod 26) to get the original message.\n\nCiphertext: MPIAKTZMJLUD\nKeyword:   MATHMATHMATHM\n\nM - M = 0 (A)\nP - A = 15 (P)\nI - T = -11 (T)\nA - H = -7 (A)\nK - M = -2 (C)\nT - A = 19 (K)\nZ - T = -1 (A)\nM - H = -7 (T)\nJ - M = -9 (D)\nL - A = 11 (L)\nU - T = -1 (A)\nD - H = -6 (W)\n\nThe decrypted message is \"ATTACKATDAWN\"."
+}

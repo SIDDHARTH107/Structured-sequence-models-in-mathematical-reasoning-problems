@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Complex analysis of differential equations",
+    "message_1": "Solve the initial value problem:\n\ny'' + 4y = 0, y(0) = 0, y'(0) = 3. \n\nFind the solution of the differential equation y'' + 4y = 0 with the initial conditions y(0) = 0 and y'(0) = 3.",
+    "message_2": "To solve the given second-order homogeneous linear differential equation y'' + 4y = 0, we first find the characteristic equation:\n\nr^2 + 4 = 0\n\nThis equation has complex roots, r = ±2i. Therefore, the general solution of the differential equation is given by:\n\ny(x) = C1 * cos(2x) + C2 * sin(2x)\n\nNow, we apply the initial conditions to find the constants C1 and C2.\n\n1) y(0) = 0:\n\n0 = C1 * cos(0) + C2 * sin(0)\n0 = C1 * 1 + C2 * 0\nC1 = 0\n\n2) y'(0) = 3:\n\ny'(x) = -2C1 * sin(2x) + 2C2 * cos(2x)\n\n3 = -2 * 0 * sin(0) + 2 * C2 * cos(0)\n3 = 2 * C2 * 1\nC2 = 3/2\n\nSo, the solution of the initial value problem is:\n\ny(x) = 0 * cos(2x) + (3/2) * sin(2x)\ny(x) = (3/2) * sin(2x)"
+}

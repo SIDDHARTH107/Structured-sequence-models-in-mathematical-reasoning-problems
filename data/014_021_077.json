@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Cryptanalysis of Hill cipher",
+    "message_1": "If a plain text \"MATHS\" is encrypted using a Hill cipher with the key matrix [ 4  5 ; 1  2 ], what is the corresponding cipher text? (Note: The letters A to Z are represented by numbers 0 to 25, so M=12, A=0, T=19, H=7, S=18)",
+    "message_2": "To encrypt the plain text \"MATHS\" using a Hill cipher with the key matrix [4 5; 1 2], we first need to split the text into pairs of letters and convert them to their numerical representation:\n\nM A = 12 0\nT H = 19 7\n(Since there are an odd number of letters, we can't form a pair with S, so we'll leave it as is for now.)\n\nNow, we multiply each pair by the key matrix:\n\n[4 5] [12]   [4*12 + 5*0]   [48]\n[1 2] [ 0] = [1*12 + 2*0] = [12]\n\n[4 5] [19]   [4*19 + 5*7]   [121]\n[1 2] [ 7] = [1*19 + 2*7] = [ 33]\n\nSince the results are larger than 25, we need to take the modulus 26:\n\n48 mod 26 = 22\n12 mod 26 = 12\n121 mod 26 = 21\n33 mod 26 = 7\n\nNow, we convert these numbers back to letters:\n\n22 = W\n12 = M\n21 = V\n7 = H\n\nSo, the encrypted text for \"MATH\" is \"WMVH\". Since we couldn't form a pair with \"S\", we can either leave it as is or add a padding letter to form a pair and then encrypt it. In this case, we'll leave it as is. Therefore, the final encrypted text is \"WMVHS\"."
+}

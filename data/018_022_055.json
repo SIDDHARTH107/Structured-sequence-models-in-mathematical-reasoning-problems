@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Set theory",
+    "sub_topic": "Prove that the symmetric difference of two sets is not commutative with respect to Cartesian product.",
+    "message_1": "Let A = {1,2,3} and B = {2,3,4}. Find the symmetric difference between (A x B) and (B x A), and prove that it is not equal to (B x A) symmetric difference (A x B).",
+    "message_2": "First, let's find the Cartesian products A x B and B x A.\n\nA x B = {(1,2), (1,3), (1,4), (2,2), (2,3), (2,4), (3,2), (3,3), (3,4)}\nB x A = {(2,1), (2,2), (2,3), (3,1), (3,2), (3,3), (4,1), (4,2), (4,3)}\n\nNow, let's find the symmetric difference between A x B and B x A. The symmetric difference of two sets is the set of elements which are in either of the sets but not in their intersection.\n\n(A x B) ∆ (B x A) = {(1,2), (1,3), (1,4), (2,1), (3,1), (4,1), (4,2), (4,3)}\n\nNow, let's find the symmetric difference between B x A and A x B.\n\n(B x A) ∆ (A x B) = {(1,2), (1,3), (1,4), (2,1), (3,1), (4,1), (4,2), (4,3)}\n\nAs we can see, (A x B) ∆ (B x A) = (B x A) ∆ (A x B). Therefore, the symmetric difference between (A x B) and (B x A) is equal to the symmetric difference between (B x A) and (A x B)."
+}

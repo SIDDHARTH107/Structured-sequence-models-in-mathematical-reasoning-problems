@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Fourier analysis",
+    "sub_topic": "Finding the Fourier series of a periodic function",
+    "message_1": "Find the Fourier series of the periodic function f(x) with period 2π defined by:\n\nf(x) = x, where -π ≤ x < π\n\nf(x+2π) = f(x)\n\nPlease find the Fourier series of this function and write it out in summation form.",
+    "message_2": "To find the Fourier series of the given function f(x) = x, we need to determine the coefficients a_n and b_n for the following general Fourier series representation:\n\nf(x) = a_0 + Σ [a_n * cos(n * x) + b_n * sin(n * x)]\n\nwhere the summation is from n = 1 to infinity.\n\nFirst, let's find a_0:\n\na_0 = (1/π) * ∫[-π, π] f(x) dx = (1/π) * ∫[-π, π] x dx\n\nEvaluating the integral, we get:\n\na_0 = (1/π) * [x^2/2] | from -π to π = (1/π) * (π^2/2 - (-π^2/2)) = 0\n\nNow, let's find a_n:\n\na_n = (1/π) * ∫[-π, π] f(x) * cos(n * x) dx = (1/π) * ∫[-π, π] x * cos(n * x) dx\n\nBy integrating by parts, we find that:\n\na_n = 0\n\nNow, let's find b_n:\n\nb_n = (1/π) * ∫[-π, π] f(x) * sin(n * x) dx = (1/π) * ∫[-π, π] x * sin(n * x) dx\n\nAgain, by integrating by parts, we find that:\n\nb_n = (-1/n) * (1 - (-1)^n)\n\nNow we can write the Fourier series representation of f(x):\n\nf(x) = Σ [(-1/n) * (1 - (-1)^n) * sin(n * x)]\n\nwhere the summation is from n = 1 to infinity."
+}

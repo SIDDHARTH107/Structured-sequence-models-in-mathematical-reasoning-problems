@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Diffie-Hellman key exchange",
+    "message_1": "Alice and Bob use the Diffie-Hellman key exchange to generate a shared secret key in order to encrypt their messages. Alice chooses a prime number, p=11, and a base number, g=2. Bob chooses a secret number, a=3, and generates A= g^a mod p. Alice chooses a secret number, b=4, and generates B= g^b mod p. What is the shared secret key that Alice and Bob will use for encryption?",
+    "message_2": "First, let's compute A and B:\n\nA = g^a mod p = 2^3 mod 11 = 8 mod 11 = 8\nB = g^b mod p = 2^4 mod 11 = 16 mod 11 = 5\n\nNow, Alice and Bob will compute the shared secret key using A and B:\n\nAlice computes the shared secret key as: K_A = B^b mod p = 5^4 mod 11 = 625 mod 11 = 9\nBob computes the shared secret key as: K_B = A^a mod p = 8^3 mod 11 = 512 mod 11 = 9\n\nBoth Alice and Bob have computed the same shared secret key, K = 9. They will use this key for encryption."
+}

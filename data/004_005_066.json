@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Calculus",
+    "sub_topic": "Solving differential equations",
+    "message_1": "Sure! Here's a specific numerical problem on solving differential equations:\n\nFind the general solution of the differential equation:\ndy/dx + y = 1, given that y(0) = 3. \n\n(Note: This is a first-order linear differential equation, and the solution requires integrating factor method.)",
+    "message_2": "To solve the given first-order linear differential equation, we will use the integrating factor method. The given differential equation is:\n\ndy/dx + y = 1\n\nFirst, we need to find the integrating factor (IF). The integrating factor is given by the formula:\n\nIF = e^(∫P(x)dx)\n\nIn our case, P(x) = 1. So, the integrating factor is:\n\nIF = e^(∫1dx) = e^x\n\nNow, we will multiply the entire differential equation by the integrating factor:\n\ne^x(dy/dx) + e^x*y = e^x\n\nNext, we observe that the left side of the equation is the derivative of the product of y and the integrating factor:\n\nd/dx(y*e^x) = e^x\n\nNow, we will integrate both sides with respect to x:\n\n∫d(y*e^x) = ∫e^x dx\n\nIntegrating both sides, we get:\n\ny*e^x = e^x + C\n\nNow, we will solve for y:\n\ny = e^(-x)*(e^x + C)\n\nTo find the particular solution, we will use the initial condition y(0) = 3:\n\n3 = e^(0)*(e^0 + C)\n\n3 = 1*(1 + C)\n\nC = 2\n\nThus, the particular solution is:\n\ny(x) = e^(-x)*(e^x + 2)"
+}

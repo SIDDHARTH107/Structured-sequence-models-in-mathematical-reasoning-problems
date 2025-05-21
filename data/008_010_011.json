@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Solving systems of linear equations using Gaussian elimination",
+    "message_1": "Solve the following system of linear equations using Gaussian Elimination:\n\n3x + 4y = 20\n\n2x + 5y = 25\n\nShow all the steps involved in the process of elimination and write the solution set as an ordered pair (x, y).",
+    "message_2": "To solve the system of linear equations using Gaussian Elimination, we first write the augmented matrix:\n\n| 3  4 | 20 |\n| 2  5 | 25 |\n\nStep 1: We want to get a 1 in the top-left corner, so we'll divide the first row by 3:\n\n| 1  4/3 | 20/3 |\n| 2  5   | 25   |\n\nStep 2: Now we want to eliminate the 2 in the second row, first column. To do this, we'll subtract 2 times the first row from the second row:\n\n(2nd row) - 2*(1st row) = | 0  3 | 5 |\n\nNow our matrix looks like this:\n\n| 1  4/3 | 20/3 |\n| 0  3   | 5    |\n\nStep 3: Next, we want to get a 1 in the second row, second column. We'll divide the second row by 3:\n\n| 1  4/3 | 20/3 |\n| 0  1   | 5/3  |\n\nStep 4: Finally, we want to eliminate the 4/3 in the first row, second column. To do this, we'll subtract 4/3 times the second row from the first row:\n\n(1st row) - (4/3)*(2nd row) = | 1  0 | 4 |\n\nNow our matrix looks like this:\n\n| 1  0 | 4   |\n| 0  1 | 5/3 |\n\nFrom this matrix, we can read off the solution as an ordered pair (x, y) = (4, 5/3)."
+}

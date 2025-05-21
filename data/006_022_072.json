@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Probability",
+    "sub_topic": "Probability of a certain type of educational outcome occurring in a school",
+    "message_1": "What is the probability that out of a class of 30 students, exactly 10 students will score an A on their math test, given that the probability of any given student scoring an A is 0.2?",
+    "message_2": "To solve this problem, we can use the binomial probability formula:\n\nP(X = k) = (n choose k) * p^k * (1-p)^(n-k)\n\nwhere:\n- n is the total number of students (30 in this case)\n- k is the number of students scoring an A (10 in this case)\n- p is the probability of a student scoring an A (0.2 in this case)\n\nFirst, we need to calculate the binomial coefficient (n choose k), which is given by the formula:\n\n(n choose k) = n! / (k!(n-k)!)\n\nwhere ! denotes the factorial of a number.\n\nSo, for our problem:\n\n(30 choose 10) = 30! / (10! * (30-10)!)\n\nNow, we can plug these values into the binomial probability formula:\n\nP(X = 10) = (30 choose 10) * 0.2^10 * (1-0.2)^(30-10)\n\nP(X = 10) = (30! / (10! * 20!)) * 0.2^10 * 0.8^20\n\nCalculating the factorials and simplifying:\n\nP(X = 10) ≈ 0.0573\n\nSo, the probability that exactly 10 students will score an A on their math test is approximately 5.73%."
+}

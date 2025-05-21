@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Residue calculus and its applications",
+    "message_1": "Consider the function f(z) = (z^2 + 1) / (z^3 + 2z^2 + z - 2) in the complex plane. Find the residue of f(z) at the pole z = -1+i.",
+    "message_2": "To find the residue of f(z) at the pole z = -1+i, we first need to determine the order of the pole. We can do this by factoring the denominator and finding the multiplicity of the factor corresponding to the pole.\n\nThe denominator is a cubic polynomial, so we can use synthetic division to find the factors. Since we know that z = -1+i is a root, we also know that its complex conjugate, z = -1-i, is a root as well. Let's first divide the polynomial by (z - (-1+i)) and then by (z - (-1-i)).\n\n(z^3 + 2z^2 + z - 2) / (z + 1 - i) = (z^2 + z + (1+i))\n\nNow, divide the result by (z + 1 + i):\n\n(z^2 + z + (1+i)) / (z + 1 + i) = (z - 1)\n\nSo, the denominator can be factored as:\n\nz^3 + 2z^2 + z - 2 = (z - 1)(z + 1 - i)(z + 1 + i)\n\nNow we can see that the pole z = -1+i has order 1, since the factor (z + 1 - i) appears only once.\n\nNow, to find the residue, we can use the formula:\n\nResidue = lim (z -> -1+i) [(z - (-1+i)) * f(z)]\n\n= lim (z -> -1+i) [(z + 1 - i) * (z^2 + 1) / ((z - 1)(z + 1 - i)(z + 1 + i))]\n\n= lim (z -> -1+i) [(z^2 + 1) / (z - 1)(z + 1 + i)]\n\nNow, substitute z = -1+i:\n\nResidue = ((-1+i)^2 + 1) / ((-1+i) - 1)((-1+i) + 1 + i)\n\n= (2i) / (-2i)\n\n= -1\n\nSo, the residue of f(z) at the pole z = -1+i is -1."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Catalan numbers",
+    "message_1": "A parking lot has 6 spots in a row. How many ways can the owner park 3 cars in the lot if no car can be parked next to each other? (Hint: this involves using the Catalan number formula for n=3)",
+    "message_2": "To solve this problem, we can use the concept of Catalan numbers. The Catalan number formula is given by:\n\nC(n) = (1/(n+1)) * (2n choose n)\n\nFor n=3, we have:\n\nC(3) = (1/(3+1)) * (2*3 choose 3)\nC(3) = (1/4) * (6 choose 3)\nC(3) = (1/4) * (6! / (3! * 3!))\nC(3) = (1/4) * (720 / (6 * 6))\nC(3) = (1/4) * 20\nC(3) = 5\n\nHowever, the Catalan number counts the number of ways to arrange the cars without any restrictions on the parking spots. Since we have a restriction that no car can be parked next to each other, we need to modify the problem slightly.\n\nConsider the 3 cars as a single unit, and the spaces between them as the \"parking spots\" for the cars. We have 4 possible \"parking spots\" for the cars: _C_C_C_, where the underscores represent the available spots. Now we need to choose 3 of these 4 spots to park the cars.\n\nThis can be done using the combination formula:\n\nnCr = n! / (r!(n-r)!)\n\n4C3 = 4! / (3!(4-3)!)\n4C3 = 4! / (3! * 1!)\n4C3 = (4 * 3 * 2) / (3 * 2)\n4C3 = 4\n\nSo there are 4 ways to park the 3 cars in the parking lot without any car being parked next to each other."
+}

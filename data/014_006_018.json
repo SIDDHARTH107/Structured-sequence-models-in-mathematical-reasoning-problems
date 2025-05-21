@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "One-time pad encryption",
+    "message_1": "Suppose you want to send a top secret message \"MEET ME AT THE PARK\" to your friend using the one-time pad encryption method. The pad you have is the numbers $12,~25,~06,~19,~08,~21,~10,~07,~14,~20,~19,~05,~09,~20,~08,~05,~18,~05,~04,~25,~17,~09,~07,~16,~20,~25,~01,~01,~13,~21,~06,~18,~15,~06,~04,~13,~19,~04,~04,~07,~19,~01,~23,~04,~22,~18,~23,~10,~09,~21,~07,~24,~11,~05,~13,~08,~07,~20,~06$. What is the ciphertext that you will send to your friend? (Note: The letters of the text have been converted into 2-digit numbers using the A=01, B=02,...,Z=26 convention)",
+    "message_2": "To encrypt the message \"MEET ME AT THE PARK\" using the one-time pad encryption method, we first convert the message into 2-digit numbers using the A=01, B=02,...,Z=26 convention:\n\nM=13, E=05, E=05, T=20, (space)=00, M=13, E=05, (space)=00, A=01, T=20, (space)=00, T=20, H=08, E=05, (space)=00, P=16, A=01, R=18, K=11\n\nNow, we will use the one-time pad numbers provided to encrypt the message. We will add the pad numbers to the message numbers modulo 26 (ignoring the spaces):\n\n13+12=25 (Y)\n05+25=04 (D)\n05+06=11 (K)\n20+19=13 (M)\n(space)\n13+08=21 (U)\n05+21=26 (Z)\n(space)\n01+10=11 (K)\n20+07=01 (A)\n(space)\n20+14=08 (H)\n08+20=02 (B)\n05+19=24 (X)\n(space)\n16+05=21 (U)\n01+09=10 (J)\n18+20=12 (L)\n11+08=19 (S)\n\nSo, the ciphertext that you will send to your friend is \"YDKM UZ KAHBX UJLS\"."
+}

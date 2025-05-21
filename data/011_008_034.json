@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Stirling numbers",
+    "message_1": "A company has 10 employees and wants to form 4 committees, each consisting of exactly 3 members. In how many ways can this be done?",
+    "message_2": "To solve this problem, we can use the combination formula, which is C(n, k) = n! / (k! * (n-k)!), where n is the total number of items and k is the number of items to be chosen.\n\nFirst, we need to find the number of ways to form the first committee. We have 10 employees and need to choose 3, so we have:\n\nC(10, 3) = 10! / (3! * (10-3)!) = 10! / (3! * 7!) = 120 ways\n\nAfter forming the first committee, we have 7 employees left. We need to form the second committee with 3 members, so we have:\n\nC(7, 3) = 7! / (3! * (7-3)!) = 7! / (3! * 4!) = 35 ways\n\nNow, we have 4 employees left for the third committee. We need to choose 3 members, so we have:\n\nC(4, 3) = 4! / (3! * (4-3)!) = 4! / (3! * 1!) = 4 ways\n\nFinally, the last committee will have the remaining 3 employees, so there is only 1 way to form this committee.\n\nTo find the total number of ways to form all 4 committees, we multiply the number of ways for each committee:\n\nTotal ways = 120 * 35 * 4 * 1 = 16800 ways\n\nSo, there are 16,800 ways to form the 4 committees with 3 members each."
+}

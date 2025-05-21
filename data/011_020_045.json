@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Combinatorial optimization",
+    "message_1": "A company needs to assign six employees to four different projects. If each project needs exactly two employees, how many different ways can the company assign the employees to the projects?",
+    "message_2": "To solve this problem, we can use the combination formula, which is C(n, k) = n! / (k!(n-k)!), where n is the total number of items, k is the number of items to be chosen, and ! denotes the factorial.\n\nFirst, we need to choose two employees for the first project. There are 6 employees to choose from, so we have C(6, 2) = 6! / (2! * (6-2)!) = 15 ways to do this.\n\nNext, we need to choose two employees for the second project. There are now 4 employees left to choose from, so we have C(4, 2) = 4! / (2! * (4-2)!) = 6 ways to do this.\n\nFor the third project, there are 2 employees left to choose from, so we have C(2, 2) = 2! / (2! * (2-2)!) = 1 way to do this.\n\nFinally, the last two employees will be assigned to the fourth project.\n\nTo find the total number of ways to assign the employees to the projects, we multiply the number of ways for each project: 15 * 6 * 1 = 90 ways."
+}

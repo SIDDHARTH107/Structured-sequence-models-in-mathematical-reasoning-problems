@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Solving systems of linear equations using inverse matrices",
+    "message_1": "Solve the following system of linear equations using inverse matrices:\n\n2x + 3y = 12\n4x - 5y = -3\n\nFind the values of x and y.",
+    "message_2": "First, we write the given system of linear equations in matrix form AX = B, where A is the matrix of coefficients, X is the column matrix of variables (x, y), and B is the column matrix of constants.\n\nA = | 2  3 |\n    | 4 -5 |\n\nX = | x |\n    | y |\n\nB = | 12 |\n    | -3 |\n\nTo find the inverse of matrix A, we need to find its determinant and adjoint.\n\nDeterminant of A (denoted as |A|) is:\n\n|A| = (2 * -5) - (3 * 4) = -10 - 12 = -22\n\nNow, we find the adjoint of A (denoted as adj(A)):\n\nadj(A) = | -5 -3 |\n         | -4  2 |\n\nNow, we can find the inverse of A (denoted as A^(-1)):\n\nA^(-1) = (1/|A|) * adj(A)\n\nA^(-1) = (-1/22) * | -5 -3 |\n                  | -4  2 |\n\nA^(-1) = | 5/22  3/22 |\n         | 4/22 -2/22 |\n\nNow, we can find the values of x and y using the inverse matrix:\n\nX = A^(-1) * B\n\nX = |  5/22  3/22 | * | 12 |\n    |  4/22 -2/22 |   | -3 |\n\nMultiplying the matrices:\n\nx = (5/22 * 12) + (3/22 * -3) = 60/22 - 9/22 = 51/22\ny = (4/22 * 12) + (-2/22 * -3) = 48/22 + 6/22 = 54/22\n\nSimplifying the fractions:\n\nx = 51/22\ny = 27/11\n\nSo, the values of x and y are:\n\nx = 51/22\ny = 27/11"
+}

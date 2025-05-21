@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Logic",
+    "sub_topic": "Fuzzy logic",
+    "message_1": "John wants to know how much to save from his monthly salary for his future educational expenses. He wants to save x percent of his salary, where x can be any real number between 0 and 100. However, if his monthly salary is less than or equal to 5000 dollars, he wants to save 20% of his salary. If his monthly salary is greater than 5000 dollars, he wants to save only 10% of his salary. Write down a mathematical expression that represents the amount John saves each month using fuzzy logic.",
+    "message_2": "Let S be John's monthly salary, and A be the amount John saves each month. We can represent the fuzzy logic using the min-max method as follows:\n\nA(S) = min( max(0.2S, (S - 5000)/5000), max(0.1S, (10000 - S)/5000) )\n\nThis expression takes into account the fuzziness of the transition between saving 20% and 10% of his salary as his salary increases from 5000 to 10000 dollars."
+}

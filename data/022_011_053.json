@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Zeros and poles of complex functions",
+    "message_1": "Find the order of the pole and residue of the function f(z) = (2z^2 - 3z + 1)/(z^3) at the point z = 0.",
+    "message_2": "To find the order of the pole at z = 0, we need to determine the highest power of z in the denominator that divides the numerator. In this case, the denominator is z^3, and the numerator is 2z^2 - 3z + 1. Since z^3 divides z^3, the order of the pole is 3.\n\nNow, to find the residue, we need to compute the limit as z approaches 0 of the function multiplied by z^3 (the order of the pole). So, we need to compute:\n\nlim (z -> 0) [(2z^2 - 3z + 1) / (z^3)] * z^3\n\nThis simplifies to:\n\nlim (z -> 0) (2z^2 - 3z + 1)\n\nAs z approaches 0, the limit is:\n\n2(0)^2 - 3(0) + 1 = 1\n\nSo, the residue of the function f(z) = (2z^2 - 3z + 1)/(z^3) at the point z = 0 is 1."
+}

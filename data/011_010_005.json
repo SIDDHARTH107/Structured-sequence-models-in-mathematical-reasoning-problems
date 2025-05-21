@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Catalan numbers",
+    "message_1": "A student is arranging a set of 8 books on a shelf. In how many ways can the student arrange the books such that no adjacent books have the same color cover? (Assume that there are only two colors of covers available for these books)",
+    "message_2": "Let's use dynamic programming to solve this problem. Let dp[i][j] be the number of ways to arrange i books such that the last book has color j (0 for the first color, 1 for the second color). We want to find dp[8][0] + dp[8][1].\n\nBase case:\ndp[1][0] = 1 (1 book with color 0)\ndp[1][1] = 1 (1 book with color 1)\n\nRecurrence relation:\ndp[i][0] = dp[i-1][1] (the last book has color 0, so the previous book must have color 1)\ndp[i][1] = dp[i-1][0] (the last book has color 1, so the previous book must have color 0)\n\nNow, we can compute dp[8][0] and dp[8][1] using the recurrence relation:\n\ndp[2][0] = dp[1][1] = 1\ndp[2][1] = dp[1][0] = 1\n\ndp[3][0] = dp[2][1] = 1\ndp[3][1] = dp[2][0] = 1\n\ndp[4][0] = dp[3][1] = 1\ndp[4][1] = dp[3][0] = 1\n\ndp[5][0] = dp[4][1] = 1\ndp[5][1] = dp[4][0] = 1\n\ndp[6][0] = dp[5][1] = 1\ndp[6][1] = dp[5][0] = 1\n\ndp[7][0] = dp[6][1] = 1\ndp[7][1] = dp[6][0] = 1\n\ndp[8][0] = dp[7][1] = 1\ndp[8][1] = dp[7][0] = 1\n\nThe total number of ways to arrange the 8 books is dp[8][0] + dp[8][1] = 1 + 1 = 2."
+}

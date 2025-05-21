@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Set theory",
+    "sub_topic": "Prove that the symmetric difference of two sets is not distributive over complement.",
+    "message_1": "Let A = {1, 2, 3} and B = {2, 3, 4}. Find (A △ B)' and (A' △ B') using the definition of the symmetric difference, then prove that (A △ B)' is not equal to A' △ B'.",
+    "message_2": "First, let's find the symmetric difference A △ B. The symmetric difference of two sets A and B is the set of elements which are in either A or B, but not in their intersection. Mathematically, A △ B = (A ∪ B) - (A ∩ B).\n\nA = {1, 2, 3}\nB = {2, 3, 4}\n\nA ∪ B = {1, 2, 3, 4}\nA ∩ B = {2, 3}\n\nA △ B = {1, 4}\n\nNow let's find the complements of A and B. The complement of a set A is the set of elements not in A. We need a universal set U to define the complements. Let's assume U = {1, 2, 3, 4, 5}.\n\nA' = U - A = {5}\nB' = U - B = {1, 5}\n\nNow let's find the symmetric difference of A' and B', A' △ B'.\n\nA' △ B' = (A' ∪ B') - (A' ∩ B')\n\nA' ∪ B' = {1, 5}\nA' ∩ B' = {5}\n\nA' △ B' = {1}\n\nNow we have (A △ B)' and A' △ B':\n\n(A △ B)' = {2, 3, 5}\nA' △ B' = {1}\n\nSince the two sets are not equal, we can conclude that (A △ B)' is not equal to A' △ B'."
+}

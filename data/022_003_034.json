@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Complex integration and Cauchy's theorem",
+    "message_1": "Find the value of the integral $\\int_C z^2 \\cos(z)\\ dz$, where $C$ is the circle $|z-1| = 2$ traversed counterclockwise.",
+    "message_2": "To evaluate the integral $\\int_C z^2 \\cos(z)\\ dz$, where $C$ is the circle $|z-1| = 2$ traversed counterclockwise, we can use the Cauchy integral formula. First, we need to rewrite the function $f(z) = z^2 \\cos(z)$ as a Laurent series.\n\nLet's parameterize the contour $C$ by $z(t) = 1 + 2e^{it}$, where $0 \\leq t \\leq 2\\pi$. Then, $dz = 2ie^{it} dt$. The integral becomes:\n\n$$\\int_C z^2 \\cos(z)\\ dz = \\int_0^{2\\pi} (1 + 2e^{it})^2 \\cos(1 + 2e^{it}) (2ie^{it}) dt$$\n\nNow, we need to find if there are any singularities of $f(z)$ inside the contour $C$. The function $f(z) = z^2 \\cos(z)$ is analytic everywhere, so there are no singularities inside the contour.\n\nAccording to the Cauchy integral theorem, if a function is analytic inside and on a simple closed contour, then the integral of the function over the contour is zero. Therefore, the integral $\\int_C z^2 \\cos(z)\\ dz = 0$."
+}

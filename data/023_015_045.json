@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Fourier analysis",
+    "sub_topic": "Using the Fourier transform to solve wave propagation problems",
+    "message_1": "A function f(x) with period 2π is given by f(x) = x for -π < x < 0 and f(x) = 2π - x for 0 < x < π. Find the Fourier sine series for f(x) over the interval 0 ≤ x < π.",
+    "message_2": "To find the Fourier sine series for f(x) over the interval 0 ≤ x < π, we need to compute the coefficients B_n using the following formula:\n\nB_n = (2/π) * ∫[0, π] f(x) * sin(nx) dx\n\nSince f(x) = 2π - x for 0 < x < π, we can substitute this into the formula:\n\nB_n = (2/π) * ∫[0, π] (2π - x) * sin(nx) dx\n\nNow, we need to integrate the function with respect to x:\n\nB_n = (2/π) * [(-2πx / n) * cos(nx) + (1 / n^2) * sin(nx)] evaluated from 0 to π\n\nEvaluate the integral at the limits:\n\nB_n = (2/π) * [(-2π^2 / n) * cos(nπ) + (1 / n^2) * sin(nπ) - 0]\n\nSince sin(nπ) = 0 for all integer values of n, the second term vanishes:\n\nB_n = (2/π) * (-2π^2 / n) * cos(nπ)\n\nNow, we can simplify the expression:\n\nB_n = (-4π / n) * cos(nπ)\n\nThe Fourier sine series for f(x) is given by:\n\nf(x) = Σ [B_n * sin(nx)]\n\nSo, the Fourier sine series for f(x) over the interval 0 ≤ x < π is:\n\nf(x) = Σ [(-4π / n) * cos(nπ) * sin(nx)] for n = 1, 2, 3, ..."
+}

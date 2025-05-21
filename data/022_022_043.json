@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Complex analysis of Fourier transforms",
+    "message_1": "Sure, here's a numerical problem for a math student to solve:\n\nSuppose that f(x) is a continuous, periodic function with period 2π, and its Fourier series is given by:\n\nf(x) = 1/2 - (2/pi) * (cos(x) + (1/3)cos(3x) + (1/5)cos(5x) + ...)\n\nFind the Fourier series of the function g(x) = f(x - π/2).",
+    "message_2": "To find the Fourier series of g(x) = f(x - π/2), we need to substitute x - π/2 into the Fourier series of f(x):\n\ng(x) = f(x - π/2) = 1/2 - (2/pi) * (cos(x - π/2) + (1/3)cos(3(x - π/2)) + (1/5)cos(5(x - π/2)) + ...)\n\nNow, we can use the trigonometric identities for the cosine of a difference:\n\ncos(a - b) = cos(a)cos(b) + sin(a)sin(b)\n\nApplying this identity to each term in the series:\n\ng(x) = 1/2 - (2/pi) * (cos(x)cos(π/2) + sin(x)sin(π/2) + (1/3)(cos(3x)cos(3π/2) + sin(3x)sin(3π/2)) + (1/5)(cos(5x)cos(5π/2) + sin(5x)sin(5π/2)) + ...)\n\nSince cos(π/2) = 0, cos(3π/2) = 0, cos(5π/2) = 0, and so on, all the cosine terms will vanish. Also, sin(π/2) = 1, sin(3π/2) = -1, sin(5π/2) = 1, and so on. Therefore, the series becomes:\n\ng(x) = 1/2 - (2/pi) * (sin(x) - (1/3)sin(3x) + (1/5)sin(5x) - ...)\n\nThis is the Fourier series of the function g(x) = f(x - π/2)."
+}

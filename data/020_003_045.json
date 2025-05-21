@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Optimization",
+    "sub_topic": "Convex optimization",
+    "message_1": "A company produces two products, A and B. Each unit of product A requires 3 units of raw material and 1 unit of labor, while each unit of product B requires 2 units of raw material and 2 units of labor. If there are 360 units of raw material and 240 units of labor available, and the profit margin of product A is $5 while that of product B is $8, how many units of each product should the company produce to maximize their profit?",
+    "message_2": "Let x be the number of units of product A and y be the number of units of product B. The constraints for raw materials and labor can be written as:\n\n3x + 2y ≤ 360 (raw material constraint)\nx + 2y ≤ 240 (labor constraint)\n\nWe want to maximize the profit function P(x, y) = 5x + 8y.\n\nFirst, we need to find the feasible region by graphing the constraints. The labor constraint can be rewritten as y = (240 - x) / 2, and the raw material constraint can be rewritten as y = (360 - 3x) / 2.\n\nThe feasible region is a polygon with vertices at the points where the constraint lines intersect. These points are (0, 0), (0, 120), (80, 80), and (120, 0).\n\nNow we need to evaluate the profit function at each of these vertices:\n\nP(0, 0) = 5(0) + 8(0) = $0\nP(0, 120) = 5(0) + 8(120) = $960\nP(80, 80) = 5(80) + 8(80) = $1040\nP(120, 0) = 5(120) + 8(0) = $600\n\nThe maximum profit of $1040 is achieved when the company produces 80 units of product A and 80 units of product B."
+}

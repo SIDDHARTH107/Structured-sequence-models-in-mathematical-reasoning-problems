@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Optimization",
+    "sub_topic": "Quadratic programming",
+    "message_1": "Here is a precise numerical problem for the student to solve:\n\nA manufacturer produces two types of products, A and B. The profit per unit for product A is $3 and the profit per unit for product B is $5. The manufacturer has 5 units of machine time available each day. Each unit of product A takes 1 unit of machine time, and each unit of product B takes 2 units of machine time. What is the optimal production plan that maximizes the manufacturer's profit?",
+    "message_2": "Let x be the number of units of product A and y be the number of units of product B.\n\nThe profit function is given by P(x, y) = 3x + 5y.\n\nThe constraint for machine time is given by x + 2y ≤ 5.\n\nTo find the optimal production plan, we need to maximize the profit function P(x, y) subject to the constraint x + 2y ≤ 5.\n\nFirst, let's find the feasible region for the constraint:\n\nIf x = 0, then y = 2.5, so 0 ≤ y ≤ 2.5.\nIf y = 0, then x = 5, so 0 ≤ x ≤ 5.\n\nNow, we will evaluate the profit function at the vertices of the feasible region:\n\n1. (x, y) = (0, 0): P(0, 0) = 3(0) + 5(0) = 0\n2. (x, y) = (0, 2.5): P(0, 2.5) = 3(0) + 5(2.5) = 12.5\n3. (x, y) = (5, 0): P(5, 0) = 3(5) + 5(0) = 15\n\nThe maximum profit occurs at point (5, 0), with a profit of $15. Therefore, the optimal production plan is to produce 5 units of product A and 0 units of product B."
+}

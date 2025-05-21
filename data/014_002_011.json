@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Diffie-Hellman key exchange",
+    "message_1": "Alice chooses a prime number p = 17 and a base g = 3. She calculates and shares her public key with Bob which is A = g^a mod p, where a = 5. Bob chooses his own secret key b = 7 and calculates his public key B = g^b mod p. \n\nWhat is the shared secret key that Alice and Bob can use for their secure communication?",
+    "message_2": "First, let's calculate Alice's public key A and Bob's public key B.\n\nA = g^a mod p\nA = 3^5 mod 17\nA = 243 mod 17\nA = 9\n\nB = g^b mod p\nB = 3^7 mod 17\nB = 2187 mod 17\nB = 13\n\nNow, to find the shared secret key, Alice and Bob will use each other's public keys and their own private keys.\n\nAlice computes the shared secret key as: S_A = B^a mod p\nS_A = 13^5 mod 17\nS_A = 371293 mod 17\nS_A = 6\n\nBob computes the shared secret key as: S_B = A^b mod p\nS_B = 9^7 mod 17\nS_B = 4782969 mod 17\nS_B = 6\n\nSince S_A = S_B, the shared secret key is 6. Alice and Bob can use this key for their secure communication."
+}

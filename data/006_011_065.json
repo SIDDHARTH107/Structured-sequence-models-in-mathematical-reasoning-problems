@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Probability",
+    "sub_topic": "Probability of a certain type of accident occurring in a workplace",
+    "message_1": "In a factory, there are 50 machines of the same type being used. The probability of any one of those machines facing a malfunction is 0.04. What is the probability that exactly 2 machines will malfunction out of those 50 machines?",
+    "message_2": "To solve this problem, we can use the binomial probability formula:\n\nP(X = k) = C(n, k) * p^k * (1-p)^(n-k)\n\nwhere:\n- P(X = k) is the probability of exactly k successes (malfunctions) out of n trials (machines)\n- C(n, k) is the number of combinations of choosing k successes out of n trials, also written as n! / (k!(n-k)!)\n- p is the probability of success (malfunction) for each trial (machine), which is 0.04\n- n is the number of trials (machines), which is 50\n- k is the number of successes (malfunctions) we want to find the probability for, which is 2\n\nPlugging in the values:\n\nP(X = 2) = C(50, 2) * 0.04^2 * (1-0.04)^(50-2)\n\nFirst, let's calculate C(50, 2):\n\nC(50, 2) = 50! / (2!(50-2)!) = 50! / (2!48!) = (50*49) / (2*1) = 1225\n\nNow, let's calculate the rest of the formula:\n\nP(X = 2) = 1225 * 0.04^2 * 0.96^48 ≈ 0.2688\n\nSo, the probability that exactly 2 machines will malfunction out of the 50 machines is approximately 0.2688 or 26.88%."
+}

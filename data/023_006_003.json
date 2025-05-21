@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Fourier analysis",
+    "sub_topic": "Applying the Fourier transform to signal processing",
+    "message_1": "A signal has a Fourier transform given by:\n$$\nX(\\omega)=\\begin{cases}\n\\frac{1}{2} & |\\omega|<\\pi \\\\\n0 & \\text{otherwise}\n\\end{cases}\n$$\nFind the time-domain signal $x(t)$ that corresponds to this frequency-domain representation, assuming it is a real-valued signal.",
+    "message_2": "To find the time-domain signal $x(t)$, we need to compute the inverse Fourier transform of $X(\\omega)$. The inverse Fourier transform is given by:\n\n$$\nx(t) = \\frac{1}{2\\pi} \\int_{-\\infty}^{\\infty} X(\\omega) e^{j\\omega t} d\\omega\n$$\n\nSince $X(\\omega)$ is non-zero only for $|\\omega| < \\pi$, we can rewrite the integral as:\n\n$$\nx(t) = \\frac{1}{2\\pi} \\int_{-\\pi}^{\\pi} \\frac{1}{2} e^{j\\omega t} d\\omega\n$$\n\nNow, let's compute the integral:\n\n$$\nx(t) = \\frac{1}{4\\pi} \\int_{-\\pi}^{\\pi} e^{j\\omega t} d\\omega\n$$\n\n$$\nx(t) = \\frac{1}{4\\pi} \\left[\\frac{1}{jt} e^{j\\omega t}\\right]_{-\\pi}^{\\pi}\n$$\n\n$$\nx(t) = \\frac{1}{4\\pi jt} (e^{j\\pi t} - e^{-j\\pi t})\n$$\n\nWe can rewrite this expression using the sine function, since $2j\\sin(x) = e^{jx} - e^{-jx}$:\n\n$$\nx(t) = \\frac{1}{2\\pi t} \\sin(\\pi t)\n$$\n\nSo, the time-domain signal corresponding to the given frequency-domain representation is:\n\n$$\nx(t) = \\frac{1}{2\\pi t} \\sin(\\pi t)\n$$"
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Graph theory",
+    "sub_topic": "Identifying the clique number of a graph.",
+    "message_1": "Consider a graph G with 8 vertices and the following adjacency matrix:\n\n$$\n\\begin{bmatrix}\n0 & 1 & 0 & 0 & 1 & 1 & 1 & 0 \\\\\n1 & 0 & 1 & 1 & 1 & 0 & 0 & 1\\\\\n0 & 1 & 0 & 1 & 0 & 0 & 1 & 1\\\\\n0 & 1 & 1 & 0 & 0 & 1 & 1 & 0\\\\\n1 & 1 & 0 & 0 & 0 & 1 & 0 & 1\\\\\n1 & 0 & 0 & 1 & 1 & 0 & 1 & 0\\\\\n1 & 0 & 1 & 1 & 0 & 1 & 0 & 0\\\\\n0 & 1 & 1 & 0 & 1 & 0 & 0 & 0\n\\end{bmatrix}\n$$\n\nWhat is the clique number of G?",
+    "message_2": "The clique number of a graph G is the size of the largest complete subgraph (clique) in G. To find the clique number, we need to identify the largest set of vertices in which every pair of vertices is connected by an edge.\n\nLet's analyze the adjacency matrix:\n\n$$\n\\begin{bmatrix}\n0 & 1 & 0 & 0 & 1 & 1 & 1 & 0 \\\\\n1 & 0 & 1 & 1 & 1 & 0 & 0 & 1\\\\\n0 & 1 & 0 & 1 & 0 & 0 & 1 & 1\\\\\n0 & 1 & 1 & 0 & 0 & 1 & 1 & 0\\\\\n1 & 1 & 0 & 0 & 0 & 1 & 0 & 1\\\\\n1 & 0 & 0 & 1 & 1 & 0 & 1 & 0\\\\\n1 & 0 & 1 & 1 & 0 & 1 & 0 & 0\\\\\n0 & 1 & 1 & 0 & 1 & 0 & 0 & 0\n\\end{bmatrix}\n$$\n\nWe can see that there is a 3-clique formed by vertices 2, 4, and 7 (using 1-based indexing):\n\n$$\n\\begin{bmatrix}\n0 & 1 & 1 & 0 \\\\\n1 & 0 & 1 & 1 \\\\\n1 & 1 & 0 & 1 \\\\\n0 & 1 & 1 & 0\n\\end{bmatrix}\n$$\n\nThere is no 4-clique or larger in the graph. Therefore, the clique number of G is 3."
+}

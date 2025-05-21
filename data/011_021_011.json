@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Traveling salesman problem",
+    "message_1": "A traveling salesman needs to visit 5 cities in a specific order and return to his starting point. He has calculated the distances between each city and found the following matrix:\n\n|  | City A | City B | City C | City D | City E |\n| --- | --- | --- | --- | --- | --- |\n| **City A** | 0 | 4 | 3 | 7 | 6 |\n| **City B** | 4 | 0 | 5 | 2 | 3 |\n| **City C** | 3 | 5 | 0 | 3 | 4 |\n| **City D** | 7 | 2 | 3 | 0 | 5 |\n| **City E** | 6 | 3 | 4 | 5 | 0 |\n\nWhat is the shortest possible distance that the salesman can travel while visiting all cities exactly once in the given order?",
+    "message_2": "Since the salesman needs to visit the cities in a specific order, we can simply add the distances between each consecutive city in the given order and then add the distance from the last city back to the starting point.\n\nThe order is: City A → City B → City C → City D → City E → City A\n\nThe distances between consecutive cities are:\n\nCity A to City B: 4\nCity B to City C: 5\nCity C to City D: 3\nCity D to City E: 5\nCity E to City A: 6\n\nNow, we add these distances together to find the shortest possible distance:\n\n4 + 5 + 3 + 5 + 6 = 23\n\nThe shortest possible distance the salesman can travel while visiting all cities exactly once in the given order is 23 units."
+}

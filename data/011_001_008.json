@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Permutations and combinations",
+    "message_1": "A math student is tasked to find out how many ways 4 people can be selected from a group of 10 to form a committee such that the positions of chairperson, secretary, and treasurer are designated to any of the 4 members. How many such committees can be formed?",
+    "message_2": "To solve this problem, we will use the concept of permutations. First, we need to select 4 people out of 10, which can be done in C(10,4) ways, where C(n,r) is the number of combinations of selecting r objects from a set of n objects. The formula for C(n,r) is:\n\nC(n,r) = n! / (r!(n-r)!)\n\nSo, C(10,4) = 10! / (4!(10-4)!) = 10! / (4!6!) = 210 ways.\n\nNow, we have to assign the positions of chairperson, secretary, and treasurer to the 4 selected members. There are 4 choices for the chairperson, 3 choices for the secretary (since the chairperson has been chosen), and 2 choices for the treasurer (since the chairperson and secretary have been chosen). So, there are 4 * 3 * 2 = 24 ways to assign these positions.\n\nTherefore, the total number of ways to form such committees is the product of the number of ways to select the members and the number of ways to assign the positions:\n\nTotal ways = 210 (ways to select members) * 24 (ways to assign positions) = 5040 ways."
+}

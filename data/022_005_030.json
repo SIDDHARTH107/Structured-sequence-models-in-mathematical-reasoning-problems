@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Residue calculus and its applications",
+    "message_1": "Find the residue of the function f(z) = (z^2 + 3) / (z^3 - 2z^2 + z - 2) at the pole z = 2.",
+    "message_2": "To find the residue of the function f(z) at the pole z = 2, we first need to find the order of the pole. We can do this by factoring the denominator and finding the multiplicity of the factor (z - 2).\n\nThe denominator is given by:\n\nz^3 - 2z^2 + z - 2\n\nWe can try factoring by grouping:\n\nz^2(z - 2) + (z - 2)\n\nNow, we can factor out (z - 2):\n\n(z - 2)(z^2 + 1)\n\nSo, the denominator has a factor of (z - 2) with multiplicity 1. This means that the pole at z = 2 is a simple pole (order 1).\n\nNow, we can find the residue using the formula for simple poles:\n\nRes[f(z), z = 2] = lim (z -> 2) [(z - 2) * f(z)]\n\nLet's substitute f(z) into the formula:\n\nRes[f(z), z = 2] = lim (z -> 2) [(z - 2) * (z^2 + 3) / (z^3 - 2z^2 + z - 2)]\n\nNow, we can cancel out the (z - 2) term:\n\nRes[f(z), z = 2] = lim (z -> 2) [(z^2 + 3) / (z^2 + 1)]\n\nNow, we can substitute z = 2 into the expression:\n\nRes[f(z), z = 2] = (2^2 + 3) / (2^2 + 1)\n\nRes[f(z), z = 2] = (4 + 3) / (4 + 1)\n\nRes[f(z), z = 2] = 7 / 5\n\nSo, the residue of the function f(z) at the pole z = 2 is 7/5."
+}

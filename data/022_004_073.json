@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Singularities of complex functions",
+    "message_1": "Find the residue of the function f(z) = z^3 / (z^2 - 4) at the singularity z = 2.",
+    "message_2": "To find the residue of the function f(z) = z^3 / (z^2 - 4) at the singularity z = 2, we first factor the denominator:\n\nf(z) = z^3 / ((z - 2)(z + 2))\n\nNow, we can see that z = 2 is a simple pole, as the denominator has a linear factor (z - 2). To find the residue, we can use the formula:\n\nRes(f, 2) = lim (z -> 2) [(z - 2) * f(z)]\n\nRes(f, 2) = lim (z -> 2) [(z - 2) * (z^3 / ((z - 2)(z + 2)))]\n\nThis simplifies to:\n\nRes(f, 2) = lim (z -> 2) [z^3 / (z + 2)]\n\nNow, we can substitute z = 2 into the expression:\n\nRes(f, 2) = (2^3) / (2 + 2) = 8 / 4 = 2\n\nSo, the residue of the function f(z) = z^3 / (z^2 - 4) at the singularity z = 2 is 2."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Probability",
+    "sub_topic": "Probability of a certain outcome in a sports game",
+    "message_1": "A basketball player has a shooting percentage of 75%. If the player takes 20 shots in a game, what is the probability that he will make exactly 15 shots?",
+    "message_2": "To find the probability of the basketball player making exactly 15 shots out of 20, we can use the binomial probability formula:\n\nP(X = k) = C(n, k) * p^k * (1-p)^(n-k)\n\nwhere:\n- P(X = k) is the probability of making exactly k shots\n- C(n, k) is the number of combinations of n items taken k at a time (n choose k)\n- n is the total number of shots (20 in this case)\n- k is the number of successful shots (15 in this case)\n- p is the probability of making a shot (0.75 in this case)\n\nFirst, we need to find C(20, 15), which is the number of ways to choose 15 successful shots out of 20:\n\nC(20, 15) = 20! / (15! * (20-15)!)\nC(20, 15) = 20! / (15! * 5!)\nC(20, 15) = 15504\n\nNow, we can plug the values into the binomial probability formula:\n\nP(X = 15) = C(20, 15) * 0.75^15 * (1-0.75)^(20-15)\nP(X = 15) = 15504 * 0.75^15 * 0.25^5\n\nP(X = 15) ≈ 0.202\n\nSo, the probability that the basketball player will make exactly 15 shots out of 20 is approximately 20.2%."
+}

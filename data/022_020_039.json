@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Complex analysis of boundary value problems",
+    "message_1": "Consider the following boundary value problem:\n\n$$\\frac{d^2u}{dx^2} + \\lambda u=0,\\quad 0<x<1,$$\nwith $u(0)=u(1)=0$.\n\nFind the value of $\\lambda$ such that the boundary value problem has a nontrivial solution.",
+    "message_2": "To find the value of λ such that the boundary value problem has a nontrivial solution, we first need to solve the given differential equation. The general solution of the equation can be written as:\n\n$$u(x) = A\\cos(\\sqrt{\\lambda}x) + B\\sin(\\sqrt{\\lambda}x)$$\n\nNow, we apply the boundary conditions:\n\n1) $u(0) = 0$:\n\n$$0 = A\\cos(0) + B\\sin(0) \\Rightarrow A = 0$$\n\nSo, the solution becomes:\n\n$$u(x) = B\\sin(\\sqrt{\\lambda}x)$$\n\n2) $u(1) = 0$:\n\n$$0 = B\\sin(\\sqrt{\\lambda})$$\n\nSince we are looking for a nontrivial solution, $B \\neq 0$. Therefore, we must have:\n\n$$\\sin(\\sqrt{\\lambda}) = 0$$\n\nThis occurs when $\\sqrt{\\lambda} = n\\pi$ for some integer $n$. Thus, we have:\n\n$$\\lambda = n^2\\pi^2$$\n\nSo, the values of $\\lambda$ that give nontrivial solutions to the boundary value problem are:\n\n$$\\lambda = n^2\\pi^2, \\quad n \\in \\mathbb{Z}$$"
+}

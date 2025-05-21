@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Singularities of complex functions",
+    "message_1": "Find the residue of the complex function f(z) = (z^2 - 4)/(z^3 - 8) at the isolated singularity z = 2i.",
+    "message_2": "To find the residue of the given function f(z) = (z^2 - 4)/(z^3 - 8) at the isolated singularity z = 2i, we first need to factor the denominator and find the order of the pole.\n\nThe denominator can be factored as follows:\n\nz^3 - 8 = (z - 2)(z^2 + 2z + 4)\n\nNow, we can rewrite the function as:\n\nf(z) = (z^2 - 4)/((z - 2)(z^2 + 2z + 4))\n\nWe can see that the function has a simple pole at z = 2i since the denominator has a linear factor (z - 2i) that becomes zero at z = 2i. To find the residue, we can use the formula for simple poles:\n\nResidue = lim (z -> 2i) [(z - 2i) * f(z)]\n\nLet's substitute f(z) and simplify:\n\nResidue = lim (z -> 2i) [(z - 2i) * (z^2 - 4)/((z - 2)(z^2 + 2z + 4))]\n\nResidue = lim (z -> 2i) [(z^2 - 4)/((z - 2)(z + 2i)(z^2 + 2z + 4))]\n\nNow, we can evaluate the limit as z approaches 2i:\n\nResidue = [(2i)^2 - 4]/((2i - 2)(2i + 2i)((2i)^2 + 2(2i) + 4))\n\nResidue = (-4 + 4i)/((-2 + 2i)(4i)(-4 + 4i + 4))\n\nResidue = (4i)/((-2 + 2i)(4i)(4i))\n\nResidue = (4i)/(-8i + 8i^2)(4i)\n\nResidue = (4i)/(16i^3)\n\nResidue = (4i)/(-32i)\n\nResidue = -1/8\n\nSo, the residue of the complex function f(z) = (z^2 - 4)/(z^3 - 8) at the isolated singularity z = 2i is -1/8."
+}

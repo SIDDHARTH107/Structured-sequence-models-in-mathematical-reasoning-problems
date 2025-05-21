@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Ramsey theory",
+    "message_1": "In a group of six people, what is the minimum number of connections that must exist between people such that there are either three mutual friends or three mutual enemies?",
+    "message_2": "This problem can be solved using the Pigeonhole Principle. Let's consider one person in the group. This person can have either a friendly or an enemy relationship with each of the other five people in the group. If this person has at least three friends or three enemies, then we are done.\n\nIf not, this person has exactly two friends and two enemies. Now, let's consider the two friends of this person. If these two friends are friends with each other, then we have a group of three mutual friends. If they are enemies, then we have a group of three mutual enemies (the two friends and the person we started with).\n\nSo, in the worst-case scenario, we need to consider the connections between the first person and the other five people, plus the connection between the two friends. This gives a minimum of 5 + 1 = 6 connections to guarantee either three mutual friends or three mutual enemies."
+}

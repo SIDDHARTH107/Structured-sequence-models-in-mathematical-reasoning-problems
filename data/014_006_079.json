@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "One-time pad encryption",
+    "message_1": "Suppose you need to send a secret message \"HELLO\" to your friend using the one-time pad encryption method. Your friend has a key of \"WORLD\". Using the ASCII code, what will be the encrypted message?",
+    "message_2": "To encrypt the message \"HELLO\" using the one-time pad encryption method with the key \"WORLD\", we will use the XOR operation on the ASCII codes of the corresponding characters in the message and the key.\n\nHere are the ASCII codes for the characters in the message and the key:\n\nMessage: HELLO\nASCII:   72 69 76 76 79\n\nKey:     WORLD\nASCII:   87 79 82 76 68\n\nNow, we will perform the XOR operation on the corresponding ASCII codes:\n\n72 XOR 87 = 23\n69 XOR 79 = 18\n76 XOR 82 = 30\n76 XOR 76 = 0\n79 XOR 68 = 19\n\nThe encrypted message in ASCII codes is: 23 18 30 0 19\n\nTo convert these ASCII codes back to characters, we get the encrypted message:\n\nEncrypted message: \u0012\u001e\u0000\u0013"
+}

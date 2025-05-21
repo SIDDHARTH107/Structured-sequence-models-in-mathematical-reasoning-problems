@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Solving systems of linear equations using Cramer's rule",
+    "message_1": "Solve the following system of linear equations using Cramer's rule: \n\n3x + 2y = 19 \n\n4x - y = 5",
+    "message_2": "To solve the given system of linear equations using Cramer's rule, we first need to find the determinants. Let's denote the main determinant as D, the determinant for x as Dx, and the determinant for y as Dy.\n\nThe main determinant D is calculated using the coefficients of x and y:\n\nD = | 3  2 |\n       | 4 -1 |\n\nD = (3 * -1) - (2 * 4) = -3 - 8 = -11\n\nNow, let's find the determinant Dx by replacing the x coefficients with the constants on the right side of the equations:\n\nDx = | 19  2 |\n         |  5 -1 |\n\nDx = (19 * -1) - (2 * 5) = -19 - 10 = -29\n\nNext, we find the determinant Dy by replacing the y coefficients with the constants on the right side of the equations:\n\nDy = | 3 19 |\n         | 4  5 |\n\nDy = (3 * 5) - (19 * 4) = 15 - 76 = -61\n\nNow, we can find the values of x and y using Cramer's rule:\n\nx = Dx / D = -29 / -11 = 29/11\ny = Dy / D = -61 / -11 = 61/11\n\nSo, the solution to the system of linear equations is:\n\nx = 29/11\ny = 61/11"
+}

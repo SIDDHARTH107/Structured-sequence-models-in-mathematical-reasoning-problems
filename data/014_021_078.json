@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Cryptanalysis of Hill cipher",
+    "message_1": "Suppose you intercepted a message encrypted using Hill Cipher with a key matrix K = [[3, 4], [1, 2]], and the message is \"MATH\". Find the corresponding ciphertext.",
+    "message_2": "To find the ciphertext using the Hill Cipher with the given key matrix K = [[3, 4], [1, 2]] and the message \"MATH\", follow these steps:\n\n1. Convert the letters in the message to their corresponding numerical values using the alphabetical index (A=0, B=1, ..., Z=25): M=12, A=0, T=19, H=7.\n\n2. Arrange the numerical values in a matrix form, with each column representing a letter. Since the key matrix is 2x2, we will have a 2x2 message matrix:\n   M = [[12, 19],\n        [ 0,  7]]\n\n3. Multiply the key matrix K by the message matrix M:\n   C = K * M\n   C = [[3, 4], [1, 2]] * [[12, 19], [0, 7]]\n   C = [[(3*12 + 4*0), (3*19 + 4*7)], [(1*12 + 2*0), (1*19 + 2*7)]]\n   C = [[36, 85], [12, 33]]\n\n4. Calculate the ciphertext matrix C modulo 26 (to keep the values within the range of the alphabet):\n   C = [[(36 % 26), (85 % 26)], [(12 % 26), (33 % 26)]]\n   C = [[10, 7], [12, 7]]\n\n5. Convert the numerical values in the ciphertext matrix back to letters using the alphabetical index:\n   C = [[K, H], [M, H]]\n\n6. The corresponding ciphertext is \"KHMH\"."
+}

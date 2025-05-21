@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Graph theory",
+    "message_1": "In a class of 20 students, each student knows exactly 4 other students. If two students are randomly selected, what is the probability that they know each other?",
+    "message_2": "Let's consider the total number of possible pairs of students that can be formed from the class of 20 students. This can be calculated using the combination formula:\n\nC(n, k) = n! / (k!(n-k)!)\n\nwhere n is the total number of students (20) and k is the size of the subset we want to form (2).\n\nC(20, 2) = 20! / (2!(20-2)!)\nC(20, 2) = 20! / (2! * 18!)\nC(20, 2) = (20 * 19) / (2 * 1)\nC(20, 2) = 190\n\nSo, there are a total of 190 possible pairs of students.\n\nNow, let's find out how many pairs of students know each other. Since each student knows exactly 4 other students, there are 4 pairs for each student. However, we need to avoid double counting the pairs, so we divide the total number of pairs by 2.\n\nTotal pairs that know each other = (20 students * 4 pairs per student) / 2\nTotal pairs that know each other = 40\n\nNow, we can calculate the probability that two randomly selected students know each other:\n\nProbability = (Total pairs that know each other) / (Total possible pairs)\nProbability = 40 / 190\nProbability = 2 / 19\n\nSo, the probability that two randomly selected students know each other is 2/19 or approximately 0.1053 (rounded to four decimal places)."
+}

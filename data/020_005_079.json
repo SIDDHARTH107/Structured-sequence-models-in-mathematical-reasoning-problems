@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Optimization",
+    "sub_topic": "Integer programming",
+    "message_1": "Here is a numerical problem for the math student to solve:\n\nA furniture manufacturer needs to decide how many tables and chairs to produce in the next quarter. Each table generates a profit of $100 and each chair generates a profit of $50. Due to manufacturing constraints, the company can only produce up to 200 items per quarter. Additionally, the company must produce at least twice as many chairs as tables. How many tables and chairs should the company produce in order to maximize their profit?\n\nPlease provide the solution, showing all working steps.",
+    "message_2": "Let x be the number of tables and y be the number of chairs. We want to maximize the profit function P(x, y) = 100x + 50y, subject to the constraints:\n\n1. x + y ≤ 200 (due to the manufacturing constraint)\n2. y ≥ 2x (the company must produce at least twice as many chairs as tables)\n\nFirst, we'll solve the inequality y ≥ 2x for y:\n\ny = 2x\n\nNow, we'll substitute this into the first constraint:\n\nx + 2x ≤ 200\n3x ≤ 200\nx ≤ 200/3 ≈ 66.67\n\nSince x must be an integer, the maximum value for x is 66. Now, we'll find the corresponding value for y:\n\ny = 2(66) = 132\n\nSo, the company should produce 66 tables and 132 chairs to maximize their profit. Now, let's calculate the maximum profit:\n\nP(66, 132) = 100(66) + 50(132) = 6600 + 6600 = $13,200"
+}

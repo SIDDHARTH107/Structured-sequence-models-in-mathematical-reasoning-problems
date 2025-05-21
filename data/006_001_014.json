@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Probability",
+    "sub_topic": "Coin flipping and probability of getting heads or tails",
+    "message_1": "A student flips a fair coin 10 times. What is the probability that they get exactly 6 heads?",
+    "message_2": "To find the probability of getting exactly 6 heads in 10 coin flips, we can use the binomial probability formula:\n\nP(X = k) = (nCk) * (p^k) * (q^(n-k))\n\nwhere:\n- n is the number of trials (coin flips)\n- k is the number of successful outcomes (heads)\n- p is the probability of success (getting a head) in a single trial\n- q is the probability of failure (getting a tail) in a single trial\n- nCk is the number of combinations of choosing k successes from n trials, which can be calculated as n! / (k!(n-k)!)\n\nIn this case, n = 10, k = 6, p = 0.5 (since it's a fair coin), and q = 1 - p = 0.5.\n\nFirst, let's calculate nCk:\n\n10C6 = 10! / (6!(10-6)!)\n= 10! / (6!4!)\n= (10 * 9 * 8 * 7 * 6 * 5 * 4 * 3 * 2 * 1) / ((6 * 5 * 4 * 3 * 2 * 1) * (4 * 3 * 2 * 1))\n= (10 * 9 * 8 * 7) / (4 * 3 * 2 * 1)\n= 210\n\nNow, we can plug the values into the binomial probability formula:\n\nP(X = 6) = (210) * (0.5^6) * (0.5^4)\n= 210 * 0.015625 * 0.0625\n= 210 * 0.0009765625\n≈ 0.205078125\n\nSo, the probability of getting exactly 6 heads in 10 coin flips is approximately 0.2051 or 20.51%."
+}

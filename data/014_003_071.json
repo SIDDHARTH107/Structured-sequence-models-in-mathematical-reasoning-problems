@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "ElGamal encryption and decryption",
+    "message_1": "Suppose that we want to use ElGamal encryption to send a message M = 12 from Alice to Bob, who have previously agreed to use the prime number p = 29 as a shared secret key. If Alice randomly chooses a secret key a = 5, and her corresponding public key is A = 2^5 mod 29 = 3, and Bob randomly chooses a secret key b = 19, and his corresponding public key is B = 2^19 mod 29 = 3, then what are the encrypted and decrypted versions of the message M?",
+    "message_2": "To encrypt the message M = 12 using ElGamal encryption, Alice will do the following steps:\n\n1. Choose a random integer k, where 1 < k < p-1. Let's say Alice chooses k = 4.\n2. Calculate the shared secret key S = B^k mod p = 3^4 mod 29 = 81 mod 29 = 2.\n3. Calculate the first part of the ciphertext C1 = A^k mod p = 3^4 mod 29 = 81 mod 29 = 2.\n4. Calculate the second part of the ciphertext C2 = M * S mod p = 12 * 2 mod 29 = 24 mod 29 = 24.\n\nSo, the encrypted message is (C1, C2) = (2, 24).\n\nTo decrypt the message, Bob will do the following steps:\n\n1. Calculate the shared secret key S' = C1^b mod p = 2^19 mod 29 = 3.\n2. Calculate the inverse of S', which is S'^(-1) mod p. The inverse of 3 mod 29 is 10, since (3 * 10) mod 29 = 30 mod 29 = 1.\n3. Calculate the decrypted message M' = C2 * S'^(-1) mod p = 24 * 10 mod 29 = 240 mod 29 = 12.\n\nSo, the decrypted message is M' = 12, which is the same as the original message M."
+}

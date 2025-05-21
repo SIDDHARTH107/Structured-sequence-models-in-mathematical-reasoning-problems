@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Polya's enumeration theorem",
+    "message_1": "Consider a set of 8 balls of 3 different colors: red, green, and blue. How many distinct ways are there to arrange these balls in a row if 2 red balls, 2 green balls, and 4 blue balls are used?",
+    "message_2": "To find the number of distinct ways to arrange these balls in a row, we can use the multinomial coefficient formula, which is a generalization of the binomial coefficient formula. The formula is:\n\n(Number of items)! / (Number of items of type 1)! * (Number of items of type 2)! * ... * (Number of items of type n)!\n\nIn this case, we have 8 items in total, with 2 red balls, 2 green balls, and 4 blue balls. So the formula becomes:\n\n8! / (2! * 2! * 4!)\n\nCalculating the factorials:\n\n8! = 8 * 7 * 6 * 5 * 4 * 3 * 2 * 1 = 40320\n2! = 2 * 1 = 2\n4! = 4 * 3 * 2 * 1 = 24\n\nNow, divide the factorials:\n\n40320 / (2 * 2 * 24) = 40320 / 96 = 420\n\nSo there are 420 distinct ways to arrange the 2 red balls, 2 green balls, and 4 blue balls in a row."
+}

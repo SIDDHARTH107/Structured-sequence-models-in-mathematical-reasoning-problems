@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Block designs",
+    "message_1": "A company wants to organize a team-building event for its 12 employees. The event requires that the employees be divided into 4 teams of equal size. How many different ways can the teams be formed?",
+    "message_2": "To solve this problem, we can use the multinomial coefficient formula, which is a generalization of combinations. The formula is:\n\nMultinomial(n; n1, n2, ..., nk) = n! / (n1! * n2! * ... * nk!)\n\nwhere n is the total number of items, and n1, n2, ..., nk are the sizes of the groups we want to divide the items into. In this case, n = 12 (the total number of employees), and we want to divide them into 4 equal-sized teams, so n1 = n2 = n3 = n4 = 3.\n\nUsing the formula, we get:\n\nMultinomial(12; 3, 3, 3, 3) = 12! / (3! * 3! * 3! * 3!)\n\nFirst, let's compute the factorials:\n\n12! = 12 * 11 * 10 * 9 * 8 * 7 * 6 * 5 * 4 * 3 * 2 * 1 = 479001600\n3! = 3 * 2 * 1 = 6\n\nNow, we can plug these values into the formula:\n\nMultinomial(12; 3, 3, 3, 3) = 479001600 / (6 * 6 * 6 * 6) = 479001600 / 1296 = 369600\n\nSo, there are 369600 different ways to divide the 12 employees into 4 equal-sized teams."
+}

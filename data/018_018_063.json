@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Set theory",
+    "sub_topic": "Prove that the symmetric difference of two sets is commutative.",
+    "message_1": "Let A = {2, 3, 4, 5} and B = {3, 4, 6, 7}. \n\nFind the symmetric difference of A and B and show that it is commutative by swapping the positions of A and B and calculating the symmetric difference again.",
+    "message_2": "The symmetric difference of two sets A and B, denoted as A Δ B, is the set of elements which are in either of the sets, but not in their intersection. In other words, it is the union of the sets minus their intersection.\n\nA Δ B = (A ∪ B) - (A ∩ B)\n\nFirst, let's find the union and intersection of sets A and B:\n\nA ∪ B = {2, 3, 4, 5, 6, 7}\nA ∩ B = {3, 4}\n\nNow, we can find the symmetric difference of A and B:\n\nA Δ B = (A ∪ B) - (A ∩ B) = {2, 3, 4, 5, 6, 7} - {3, 4} = {2, 5, 6, 7}\n\nNow, let's swap the positions of A and B and calculate the symmetric difference again:\n\nB Δ A = (B ∪ A) - (B ∩ A)\n\nSince union and intersection are commutative:\n\nB ∪ A = {2, 3, 4, 5, 6, 7}\nB ∩ A = {3, 4}\n\nNow, we can find the symmetric difference of B and A:\n\nB Δ A = (B ∪ A) - (B ∩ A) = {2, 3, 4, 5, 6, 7} - {3, 4} = {2, 5, 6, 7}\n\nAs we can see, A Δ B = B Δ A = {2, 5, 6, 7}, which shows that the symmetric difference is commutative."
+}

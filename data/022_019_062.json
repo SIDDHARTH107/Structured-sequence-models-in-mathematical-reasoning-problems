@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Complex analysis of integral equations",
+    "message_1": "Evaluate the following complex integral along the unit circle: \n\n∫(z^2 + 4z - 5)/(z - 2i) dz\n\nwhere the unit circle is given by z = e^(it) with t ∈ [0, 2π].",
+    "message_2": "To evaluate the complex integral, we will use the Cauchy Integral Formula. First, we need to check if the singularity (2i) is inside the unit circle. Since the unit circle has a radius of 1 and the singularity is at a distance of 2 from the origin, the singularity is outside the unit circle.\n\nThe Cauchy Integral Formula states that for a function f(z) that is analytic inside and on a simple closed contour C, and a point a inside C:\n\n∫(f(z)/(z-a)) dz = 2πif(a)\n\nIn our case, f(z) = z^2 + 4z - 5, and the singularity a = 2i is outside the unit circle. Therefore, the integral is equal to 0:\n\n∫(z^2 + 4z - 5)/(z - 2i) dz = 0"
+}

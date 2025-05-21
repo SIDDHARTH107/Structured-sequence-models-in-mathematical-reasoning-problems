@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Complex analysis of integral equations",
+    "message_1": "Find the value of the integral:\n\n∫γ (z^3 - 4z)/(z - 2) dz\n\nwhere γ is a contour that goes counterclockwise around the circle |z| = 3.",
+    "message_2": "To evaluate the integral, we will use the residue theorem. The residue theorem states that for a function f(z) with a simple pole at z = a, the integral of f(z) around a closed contour containing the pole is given by:\n\n∫γ f(z) dz = 2πi * Res(f(z), a)\n\nIn our case, f(z) = (z^3 - 4z)/(z - 2), and the contour γ is a circle with radius 3 centered at the origin. The function has a simple pole at z = 2, which is inside the contour γ.\n\nTo find the residue of f(z) at z = 2, we can use the formula:\n\nRes(f(z), 2) = lim (z -> 2) [(z - 2) * f(z)]\n\nRes(f(z), 2) = lim (z -> 2) [(z - 2) * (z^3 - 4z)/(z - 2)]\n\nRes(f(z), 2) = lim (z -> 2) (z^3 - 4z)\n\nNow, we evaluate the limit:\n\nRes(f(z), 2) = (2^3 - 4*2) = (8 - 8) = 0\n\nSince the residue is 0, the integral of f(z) around the contour γ is:\n\n∫γ (z^3 - 4z)/(z - 2) dz = 2πi * Res(f(z), 2) = 2πi * 0 = 0"
+}

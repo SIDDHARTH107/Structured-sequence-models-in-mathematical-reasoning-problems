@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Game theory",
+    "sub_topic": "Volunteer's Dilemma",
+    "message_1": "Suppose there are 8 volunteers who are willing to contribute their time for an event. Each volunteer can donate either 2 hours or 4 hours of their time. The event requires a minimum of 24 hours of volunteer work. If a volunteer contributes 2 hours, he/she will receive a reward of $20. But, if he/she contributes 4 hours, the reward will be $50. The volunteers are not allowed to communicate with each other during the event. What is the minimum number of volunteers who need to contribute 4 hours of their time so that the total reward is maximized?",
+    "message_2": "Let x be the number of volunteers who contribute 4 hours and y be the number of volunteers who contribute 2 hours. We have the following constraints:\n\n1. x + y = 8 (total number of volunteers)\n2. 4x + 2y ≥ 24 (total hours of volunteer work)\n\nWe want to minimize the total reward, which is given by the equation:\n\nReward = 50x + 20y\n\nFirst, we can solve the first constraint for y:\n\ny = 8 - x\n\nNow, substitute this into the second constraint:\n\n4x + 2(8 - x) ≥ 24\n4x + 16 - 2x ≥ 24\n2x ≥ 8\nx ≥ 4\n\nSo, a minimum of 4 volunteers need to contribute 4 hours of their time to satisfy the constraints. Now, let's find the corresponding value of y:\n\ny = 8 - x = 8 - 4 = 4\n\nThus, the minimum number of volunteers who need to contribute 4 hours of their time so that the total reward is maximized is 4."
+}

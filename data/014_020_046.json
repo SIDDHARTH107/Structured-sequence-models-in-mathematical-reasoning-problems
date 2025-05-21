@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Cryptanalysis of Vigenere cipher",
+    "message_1": "A message encrypted using Vigenere cipher has the key \"MATHS\" and the ciphertext is \"OMMQYOBUJX\". Determine the plaintext message.",
+    "message_2": "To decrypt a Vigenère cipher, we need to reverse the encryption process. The key \"MATHS\" is repeated to match the length of the ciphertext, and then we subtract the key letters from the ciphertext letters (mod 26) to get the plaintext letters.\n\nCiphertext: O M M Q Y O B U J X\nKey:       M A T H S M A T H S\nPlaintext: ? ? ? ? ? ? ? ? ? ?\n\nNow, we subtract the key letters from the ciphertext letters (mod 26):\n\nO - M = 14 - 12 = 2  -> C\nM - A = 12 - 0 = 12 -> M\nM - T = 12 - 19 = -7 (mod 26) -> 19 -> T\nQ - H = 16 - 7 = 9  -> J\nY - S = 24 - 18 = 6 -> G\n\nO - M = 14 - 12 = 2  -> C\nB - A = 1 - 0 = 1   -> B\nU - T = 20 - 19 = 1 -> B\nJ - H = 9 - 7 = 2   -> C\nX - S = 23 - 18 = 5 -> F\n\nSo, the plaintext message is \"CMJGCBBCF\"."
+}

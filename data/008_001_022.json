@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Solving systems of linear equations using matrix methods",
+    "message_1": "Solve the system of linear equations using matrix methods:\n    \n3x + 2y = 12\n5x - 2y = 4\n\nExpress the answer as an ordered pair (x,y).",
+    "message_2": "To solve the system of linear equations using matrix methods, we'll first write the given system in the matrix form AX = B, where A is the matrix of coefficients, X is the column matrix of variables, and B is the column matrix of constants.\n\nA = | 3  2 |\n    | 5 -2 |\n\nX = | x |\n    | y |\n\nB = | 12 |\n    |  4 |\n\nNow, we can find the inverse of matrix A and multiply it with matrix B to get the solution matrix X.\n\nA^(-1) = (1/det(A)) * adj(A)\n\nFirst, we need to find the determinant of matrix A:\n\ndet(A) = (3 * -2) - (2 * 5) = -6 - 10 = -16\n\nNow, we can find the adjoint of matrix A:\n\nadj(A) = | -2 -2 |\n         | -5  3 |\n\nNow, we can find the inverse of matrix A:\n\nA^(-1) = (1/-16) * | -2 -2 |\n                  | -5  3 |\n\nA^(-1) = | 1/8  1/8  |\n          | 5/16 -3/16 |\n\nNow, we can multiply A^(-1) with B to get the solution matrix X:\n\nX = A^(-1) * B\n\nX = | 1/8   1/8  | * | 12 |\n    | 5/16 -3/16 |   |  4 |\n\nX = | (1/8 * 12) + (1/8 * 4) |\n    | (5/16 * 12) - (3/16 * 4) |\n\nX = | 1.5 + 0.5 |\n    | 3.75 - 0.75 |\n\nX = | 2 |\n    | 3 |\n\nSo, the solution to the system of linear equations is x = 2 and y = 3. The answer as an ordered pair is (2, 3)."
+}

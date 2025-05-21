@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Vigenere cipher",
+    "message_1": "Suppose you want to encrypt a message using the Vigenere cipher with a keyword of \"MATHS\" and the message \"ATTACK AT DAWN\". What is the encrypted message? (Note: Spaces and punctuation should be included in the encryption process)",
+    "message_2": "To encrypt the message \"ATTACK AT DAWN\" using the Vigenere cipher with the keyword \"MATHS\", we need to repeat the keyword to match the length of the message and then shift each letter of the message by the corresponding letter of the repeated keyword.\n\n1. Repeat the keyword to match the length of the message:\n   MATHS MATHS MATH\n\n2. Shift each letter of the message by the corresponding letter of the repeated keyword:\n   A -> M (shift by 12 positions)\n   T -> A (shift by 0 positions)\n   T -> T (shift by 19 positions)\n   A -> H (shift by 7 positions)\n   C -> S (shift by 18 positions)\n   K -> M (shift by 12 positions)\n   (space remains unchanged)\n   A -> A (shift by 0 positions)\n   T -> T (shift by 19 positions)\n   (space remains unchanged)\n   D -> D (shift by 3 positions)\n   A -> A (shift by 0 positions)\n   W -> W (shift by 22 positions)\n   N -> N (shift by 13 positions)\n\n3. The encrypted message is:\n   MATHS MATHS MATH\n   ATTACK AT DAWN\n   ---------------\n   MAHSM SM DAWN\n\nSo, the encrypted message is \"MAHSM SM DAWN\"."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "RSA encryption and decryption",
+    "message_1": "Consider the RSA algorithm with public key as (61, 53) and private key as (d = 17, n = 61 x 53). Encrypt the message \"23\" using the given public key and then decrypt the encrypted message using the private key.",
+    "message_2": "To encrypt the message \"23\" using the RSA algorithm with the given public key (e = 61, n = 53), we need to perform the following calculation:\n\nCiphertext (C) = (Plaintext (P) ^ e) mod n\n\nIn this case, the plaintext P is 23. So, we have:\n\nC = (23 ^ 61) mod 53\n\nCalculating this, we get:\n\nC = 52\n\nNow, to decrypt the encrypted message using the private key (d = 17, n = 61 x 53), we need to perform the following calculation:\n\nPlaintext (P) = (Ciphertext (C) ^ d) mod n\n\nIn this case, the ciphertext C is 52, and n is 61 x 53 = 3233. So, we have:\n\nP = (52 ^ 17) mod 3233\n\nCalculating this, we get:\n\nP = 23\n\nSo, the decrypted message is \"23\"."
+}

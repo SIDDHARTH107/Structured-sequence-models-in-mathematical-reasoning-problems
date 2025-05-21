@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Optimization",
+    "sub_topic": "Combinatorial optimization",
+    "message_1": "A company has 10 employees who each have different skill levels in programming. The company wants to form a team of 3 employees to work on a project. The team must have at least one employee with advanced skill level and at least one employee with intermediate skill level. How many different teams can the company form?",
+    "message_2": "Let's break down the employees into three skill levels: advanced, intermediate, and beginner. Let A, I, and B represent the number of employees in each skill level, respectively. We know that A + I + B = 10.\n\nWe need to form teams of 3 employees with at least one advanced and one intermediate employee. We can have the following combinations of teams:\n\n1. One advanced, one intermediate, and one beginner (AIB)\n2. Two advanced and one intermediate (AAI)\n3. One advanced and two intermediate (AII)\n\nNow, let's find the number of possible teams for each combination:\n\n1. AIB: A * I * B\n2. AAI: (A * (A - 1)) / 2 * I\n3. AII: A * (I * (I - 1)) / 2\n\nWe need to find the total number of teams by summing up the possibilities for each combination. However, we don't have the exact values for A, I, and B. We can't provide a specific numerical answer without knowing the distribution of skill levels among the 10 employees."
+}

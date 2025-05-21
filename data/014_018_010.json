@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Cryptanalysis of substitution ciphers",
+    "message_1": "A substitution cipher replaces each letter in a message with a different letter of the alphabet using a fixed rule. In a particular substitution cipher, the letter 'A' is always replaced with 'D', 'B' is always replaced with 'E', and so on. \n\nSuppose the following ciphertext is obtained by encrypting a message using this substitution cipher: \n\n\"OYQMNQ VJG QXGT\"\n\nWhat is the original message that was encrypted?",
+    "message_2": "To decrypt the message, we need to reverse the substitution cipher. Since 'A' is replaced with 'D', 'B' with 'E', and so on, we can see that the substitution rule is to shift each letter 3 positions forward in the alphabet. To reverse this, we need to shift each letter 3 positions backward.\n\nO -> L\nY -> V\nQ -> N\nM -> J\nN -> K\nQ -> N\n(space)\nV -> S\nJ -> G\nG -> D\n(space)\nQ -> N\nX -> U\nG -> D\nT -> Q\n\nSo, the decrypted message is \"LVNJK N SGD NUDQ\"."
+}

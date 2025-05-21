@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Combinatorial identities",
+    "message_1": "In how many ways can 5 different books be arranged on a shelf if 2 particular books must never be next to each other?",
+    "message_2": "To solve this problem, we can first find the total number of ways to arrange the 5 books without any restrictions and then subtract the number of ways in which the 2 particular books are next to each other.\n\nTotal number of ways to arrange 5 books without any restrictions: 5! = 5 × 4 × 3 × 2 × 1 = 120 ways\n\nNow, let's consider the 2 particular books as a single unit. We have 4 units to arrange (3 individual books and 1 unit of 2 books). There are 4! = 4 × 3 × 2 × 1 = 24 ways to arrange these 4 units.\n\nHowever, within the unit of 2 books, the 2 particular books can be arranged in 2! = 2 × 1 = 2 ways.\n\nSo, the number of ways in which the 2 particular books are next to each other is 24 × 2 = 48 ways.\n\nFinally, we subtract the number of ways in which the 2 particular books are next to each other from the total number of ways without any restrictions:\n\n120 - 48 = 72 ways\n\nTherefore, there are 72 ways to arrange the 5 different books on a shelf with the condition that the 2 particular books must never be next to each other."
+}

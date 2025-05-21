@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Vigenere cipher",
+    "message_1": "Suppose you want to encrypt the message \"MATHEMATICS\" using the Vigenere cipher with the key \"CRYPTO\". What is the resulting ciphertext? (Assume A=0, B=1, C=2, ... , Z=25 for convenience)",
+    "message_2": "To encrypt the message \"MATHEMATICS\" using the Vigenere cipher with the key \"CRYPTO\", we first need to repeat the key to match the length of the message. The repeated key will be \"CRYPTOCRYPT\".\n\nNow, we will add the corresponding letters of the message and the key modulo 26.\n\nM (12) + C (2) = 14 (O)\nA (0) + R (17) = 17 (R)\nT (19) + Y (24) = 43 % 26 = 17 (R)\nH (7) + P (15) = 22 (W)\nE (4) + T (19) = 23 (X)\nM (12) + O (14) = 26 % 26 = 0 (A)\nA (0) + C (2) = 2 (C)\nT (19) + R (17) = 36 % 26 = 10 (K)\nI (8) + Y (24) = 32 % 26 = 6 (G)\nC (2) + P (15) = 17 (R)\nS (18) + T (19) = 37 % 26 = 11 (L)\n\nThe resulting ciphertext is \"ORRWXACKGRL\"."
+}

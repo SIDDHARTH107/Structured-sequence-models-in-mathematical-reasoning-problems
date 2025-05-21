@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Solving systems of linear equations with non-square matrices",
+    "message_1": "Solve the following system of linear equations with non-square matrices:\n\n-4x + 2y = 6\n2x - 3y + z = -5\n5x + 2y - 3z = 8",
+    "message_2": "To solve this system of linear equations, we can use the Gaussian elimination method. First, let's write the augmented matrix for the given system:\n\n| -4  2  0 |  6 |\n|  2 -3  1 | -5 |\n|  5  2 -3 |  8 |\n\nNow, we'll perform row operations to get the matrix in row-echelon form:\n\n1. Add 2 times the first row to the second row to eliminate the x term in the second row:\n\n| -4  2  0 |  6 |\n|  0 -1  1 | -1 |\n|  5  2 -3 |  8 |\n\n2. Add -5/4 times the first row to the third row to eliminate the x term in the third row:\n\n| -4  2   0 |  6  |\n|  0 -1   1 | -1  |\n|  0  0 -3 | -1/2 |\n\nNow, we have the matrix in row-echelon form. We can now perform back-substitution to find the values of x, y, and z:\n\n1. Divide the third row by -3 to find the value of z:\n\nz = 1/6\n\n2. Substitute the value of z into the second row to find the value of y:\n\n-1*y + 1*(1/6) = -1\ny = 1/6\n\n3. Substitute the values of y and z into the first row to find the value of x:\n\n-4*x + 2*(1/6) = 6\nx = -3/2\n\nSo, the solution to the system of linear equations is x = -3/2, y = 1/6, and z = 1/6."
+}

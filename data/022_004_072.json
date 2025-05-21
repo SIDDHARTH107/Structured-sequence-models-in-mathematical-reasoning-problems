@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Singularities of complex functions",
+    "message_1": "Find the residue of the function f(z) = (z+2)/(z^2 - 5z + 6) at the singularity z=3.",
+    "message_2": "To find the residue of the function f(z) = (z+2)/(z^2 - 5z + 6) at the singularity z=3, we first need to factor the denominator and rewrite the function.\n\nThe denominator can be factored as (z-2)(z-3). So, the function can be rewritten as:\n\nf(z) = (z+2)/((z-2)(z-3))\n\nNow, we can use partial fraction decomposition to rewrite the function as the sum of two simpler functions:\n\nf(z) = A/(z-2) + B/(z-3)\n\nTo find the constants A and B, we can clear the denominators by multiplying both sides by (z-2)(z-3):\n\n(z+2) = A(z-3) + B(z-2)\n\nNow, we can solve for A and B by substituting the singularities z=2 and z=3:\n\nFor z=2:\n(2+2) = A(2-3) + B(2-2)\n4 = -A\nA = -4\n\nFor z=3:\n(3+2) = A(3-2) + B(3-3)\n5 = -4 + 0\nB = 0\n\nSo, the function can be rewritten as:\n\nf(z) = -4/(z-2) + 0/(z-3)\nf(z) = -4/(z-2)\n\nSince the singularity z=3 is not present in the rewritten function, the residue at z=3 is 0."
+}

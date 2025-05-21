@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Probability",
+    "sub_topic": "Probability of a certain medical condition occurring",
+    "message_1": "If the probability of a certain medical condition occurring in a population is 0.05, and a sample of 200 patients is taken, what is the probability that exactly 12 patients in the sample will have this medical condition?",
+    "message_2": "To solve this problem, we can use the binomial probability formula:\n\nP(X = k) = (n choose k) * p^k * (1-p)^(n-k)\n\nwhere:\n- P(X = k) is the probability of exactly k successes (in this case, patients with the medical condition)\n- n is the number of trials (in this case, the sample size of 200 patients)\n- k is the number of successes (in this case, 12 patients with the medical condition)\n- p is the probability of success (in this case, the probability of the medical condition occurring, 0.05)\n- (n choose k) is the number of combinations of n items taken k at a time, which can be calculated as n! / (k!(n-k)!)\n\nPlugging in the values:\n\nP(X = 12) = (200 choose 12) * 0.05^12 * (1-0.05)^(200-12)\n\nFirst, let's calculate (200 choose 12):\n\n(200 choose 12) = 200! / (12!(200-12)!) = 125,167,770\n\nNow, let's calculate the rest of the formula:\n\nP(X = 12) = 125,167,770 * 0.05^12 * 0.95^188 ≈ 0.1093\n\nSo, the probability that exactly 12 patients in the sample will have this medical condition is approximately 10.93%."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Combinatorial designs",
+    "message_1": "A student is organizing a tournament for a game with 12 players. He wants to schedule matches so that each player plays against every other player exactly once. How many rounds will be needed in the tournament?",
+    "message_2": "To determine the number of rounds needed, we first need to find the total number of matches that need to be played. In a round-robin tournament with 12 players, each player plays against every other player exactly once. The number of matches can be calculated using the formula for combinations:\n\nC(n, k) = n! / (k!(n-k)!)\n\nwhere n is the total number of players (12) and k is the number of players in a match (2).\n\nC(12, 2) = 12! / (2!(12-2)!)\n= 12! / (2! * 10!)\n= (12 * 11) / (2 * 1)\n= 66\n\nSo, there are a total of 66 matches that need to be played.\n\nNow, we need to determine the number of rounds needed to complete these 66 matches. In each round, every player can play only one match. Since there are 12 players, there can be a maximum of 12/2 = 6 matches in each round (as each match consists of 2 players).\n\nTo find the number of rounds, we divide the total number of matches by the number of matches per round:\n\nRounds = Total Matches / Matches per Round\n= 66 / 6\n= 11\n\nTherefore, 11 rounds will be needed in the tournament for each player to play against every other player exactly once."
+}

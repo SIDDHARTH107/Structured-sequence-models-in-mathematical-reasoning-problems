@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Combinatorial identities",
+    "message_1": "How many ways can you choose 5 cards from a standard deck of 52 cards such that at least 2 of the cards are face cards (jack, queen, king)?",
+    "message_2": "To solve this problem, we will use the principle of combinations. We will first find the total number of ways to choose 5 cards from a standard deck of 52 cards, and then subtract the number of ways to choose 5 cards with no face cards or only 1 face card.\n\nThere are 12 face cards in a standard deck (4 jacks, 4 queens, and 4 kings). The remaining 40 cards are not face cards.\n\n1. Total ways to choose 5 cards from a deck of 52 cards:\nC(52, 5) = 52! / (5! * (52-5)!) = 2,598,960\n\n2. Ways to choose 5 cards with no face cards:\nC(40, 5) = 40! / (5! * (40-5)!) = 658,008\n\n3. Ways to choose 5 cards with only 1 face card:\nC(12, 1) * C(40, 4) = (12! / (1! * (12-1)!)) * (40! / (4! * (40-4)!)) = 12 * 91,390 = 1,096,680\n\nNow, we subtract the number of ways to choose 5 cards with no face cards or only 1 face card from the total number of ways to choose 5 cards from a deck of 52 cards:\n\n2,598,960 - 658,008 - 1,096,680 = 844,272\n\nSo, there are 844,272 ways to choose 5 cards from a standard deck of 52 cards such that at least 2 of the cards are face cards."
+}

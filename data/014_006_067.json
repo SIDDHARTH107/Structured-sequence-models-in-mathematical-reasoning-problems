@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "One-time pad encryption",
+    "message_1": "Alice and Bob are using the one-time pad encryption method to send a confidential message. Alice chooses a random key of length 10, and encrypts the message \"MATH\" using this key. The resulting ciphertext is \"VDPJ\". If Bob also has the same key, what is the plaintext message that he will receive?",
+    "message_2": "In the one-time pad encryption method, each character in the plaintext message is combined with a character from the key using the XOR operation. Since Bob has the same key, he can reverse the process by applying the XOR operation again with the ciphertext and the key to obtain the original plaintext message.\n\nLet's represent the characters as their ASCII values and perform the XOR operation:\n\nM (77) XOR Key1 = V (86)\nA (65) XOR Key2 = D (68)\nT (84) XOR Key3 = P (80)\nH (72) XOR Key4 = J (74)\n\nNow, Bob can reverse the process using the same key:\n\nV (86) XOR Key1 = M (77)\nD (68) XOR Key2 = A (65)\nP (80) XOR Key3 = T (84)\nJ (74) XOR Key4 = H (72)\n\nSo, the plaintext message that Bob will receive is \"MATH\"."
+}

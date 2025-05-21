@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Set theory",
+    "sub_topic": "Prove that the Cartesian product of two sets is distributive over intersection.",
+    "message_1": "Let A = {1, 2} and B = {3, 4}. Prove that A x (B ∩ B) = (A x B) ∩ (A x B).",
+    "message_2": "To prove that A x (B ∩ B) = (A x B) ∩ (A x B), we need to show that the Cartesian product of A with the intersection of B and B is equal to the intersection of the Cartesian product of A and B with itself.\n\nFirst, let's find the intersection of B and B. Since B is a set with unique elements, the intersection of B with itself is just B. Therefore, B ∩ B = B.\n\nNow, let's find the Cartesian product of A and B. A x B = {(1,3), (1,4), (2,3), (2,4)}.\n\nNext, let's find the Cartesian product of A and (B ∩ B). Since B ∩ B = B, this is equivalent to finding the Cartesian product of A and B, which we already found: A x (B ∩ B) = A x B = {(1,3), (1,4), (2,3), (2,4)}.\n\nFinally, let's find the intersection of (A x B) and (A x B). Since both sets are identical, their intersection is just the set itself: (A x B) ∩ (A x B) = {(1,3), (1,4), (2,3), (2,4)}.\n\nTherefore, A x (B ∩ B) = (A x B) ∩ (A x B) = {(1,3), (1,4), (2,3), (2,4)}, and the statement is proven true."
+}

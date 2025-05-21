@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Playfair cipher",
+    "message_1": "Using the Playfair cipher, encode the message \"MEET ME AT TWELVE\" with the key \"MATH\" and provide the encoded message.",
+    "message_2": "First, we need to create a 5x5 Playfair cipher table using the key \"MATH\". Remove duplicate letters from the key and fill the remaining spaces with the rest of the alphabet (omitting J since I and J are considered the same in the Playfair cipher).\n\nM A T H\nB C D E\nF G I K\nL N O P\nQ R S U\nV W X Y\nZ\n\nNow, we can encode the message \"MEET ME AT TWELVE\". We will remove spaces and break the message into digraphs. If a digraph has the same letter twice, we will insert an X between them.\n\nME ET ME AT TW EL VE\n\nNow, we will encode each digraph using the Playfair cipher table:\n\nME -> OD\nET -> ZC\nME -> OD\nAT -> MA\nTW -> FN\nEL -> CH\nVE -> YK\n\nThe encoded message is \"ODZCODMAFNCHYK\"."
+}

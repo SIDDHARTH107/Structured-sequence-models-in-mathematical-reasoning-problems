@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Probability",
+    "sub_topic": "Probability of rolling a certain number on a dice",
+    "message_1": "Suppose you roll a fair six-sided dice 30 times. What is the probability that you will roll a five exactly 5 times?",
+    "message_2": "To solve this problem, we can use the binomial probability formula, which is:\n\nP(X = k) = (n choose k) * p^k * (1-p)^(n-k)\n\nwhere n is the number of trials (in this case, 30 dice rolls), k is the number of successful outcomes (rolling a five exactly 5 times), p is the probability of success on a single trial (1/6 for rolling a five on a fair six-sided dice), and (n choose k) is the number of combinations of n items taken k at a time.\n\nSo, plugging in the values, we get:\n\nP(X = 5) = (30 choose 5) * (1/6)^5 * (5/6)^(30-5)\n\nFirst, we calculate (30 choose 5):\n\n(30 choose 5) = 30! / (5! * (30-5)!)\n= 30! / (5! * 25!)\n= 142506\n\nNow, we can plug this into the binomial probability formula:\n\nP(X = 5) = 142506 * (1/6)^5 * (5/6)^25\n≈ 0.2811\n\nSo, the probability of rolling a five exactly 5 times in 30 rolls of a fair six-sided dice is approximately 0.2811, or 28.11%."
+}

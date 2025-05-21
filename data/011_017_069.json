@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Latin squares",
+    "message_1": "In a 5 x 5 Latin square, each cell must contain a number from 1 to 5. How many distinct Latin squares can be formed?",
+    "message_2": "A Latin square is an n x n array filled with n different symbols, each occurring exactly once in each row and exactly once in each column. In a 5 x 5 Latin square, we have 5 different numbers (1 to 5) that must appear once in each row and column.\n\nTo count the number of distinct 5 x 5 Latin squares, we can use the following approach:\n\n1. The first row can be filled in 5! (5 factorial) ways, as there are no restrictions on the placement of the numbers.\n2. The second row has 4! ways to be filled, as there is only one restriction: it cannot have the same number in the same column as the first row.\n3. The third row has 3! ways to be filled, as there are two restrictions: it cannot have the same number in the same column as the first and second rows.\n4. The fourth row has 2! ways to be filled, as there are three restrictions: it cannot have the same number in the same column as the first, second, and third rows.\n5. The fifth row has only 1! way to be filled, as there are four restrictions: it cannot have the same number in the same column as the first, second, third, and fourth rows.\n\nSo, the total number of distinct 5 x 5 Latin squares is:\n\n5! × 4! × 3! × 2! × 1! = 120 × 24 × 6 × 2 × 1 = 34,560\n\nThere are 34,560 distinct 5 x 5 Latin squares that can be formed."
+}

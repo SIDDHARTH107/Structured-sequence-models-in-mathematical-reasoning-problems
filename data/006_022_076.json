@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Probability",
+    "sub_topic": "Probability of a certain type of educational outcome occurring in a school",
+    "message_1": "If a school has 500 students and there is a 65% chance that a student will pass the final exam, what is the probability that at least 300 students will pass the exam?",
+    "message_2": "To find the probability that at least 300 students will pass the exam, we can use the binomial probability formula:\n\nP(X ≥ k) = 1 - P(X < k)\n\nwhere X is the number of students who pass the exam, k is the target number of students (in this case, 300), and P(X < k) is the probability that fewer than 300 students pass the exam.\n\nThe binomial probability formula is:\n\nP(X = r) = C(n, r) * p^r * (1-p)^(n-r)\n\nwhere n is the total number of students (500), r is the number of students who pass the exam, p is the probability of passing the exam (0.65), and C(n, r) is the number of combinations of n items taken r at a time.\n\nWe need to calculate P(X < 300) and subtract it from 1 to find the probability that at least 300 students will pass the exam:\n\nP(X ≥ 300) = 1 - P(X < 300) = 1 - Σ[P(X = r)] for r = 0 to 299\n\nCalculating this summation can be computationally intensive, so it's best to use a statistical software or calculator to find the cumulative binomial probability. Using a calculator or software, we get:\n\nP(X ≥ 300) ≈ 0.9997\n\nSo, the probability that at least 300 students will pass the exam is approximately 99.97%."
+}

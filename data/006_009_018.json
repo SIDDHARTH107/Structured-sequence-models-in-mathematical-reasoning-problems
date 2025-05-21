@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Probability",
+    "sub_topic": "Probability of a certain medical condition occurring",
+    "message_1": "Suppose that in a certain population, 5% of individuals have a rare medical condition. If a doctor randomly selects 50 patients from this population, what is the probability that at least one of the selected patients has this medical condition?",
+    "message_2": "To solve this problem, we can use the complement probability. The complement of the event \"at least one patient has the medical condition\" is \"none of the patients have the medical condition.\" \n\nThe probability of a single patient not having the medical condition is 1 - 0.05 = 0.95. Since the patients are randomly selected, we can assume that the events are independent. Therefore, the probability of all 50 patients not having the medical condition is (0.95)^50.\n\nNow, we can find the probability of at least one patient having the medical condition by finding the complement of the probability that none of them have the condition:\n\nP(at least one patient has the condition) = 1 - P(none of the patients have the condition) = 1 - (0.95)^50 ≈ 0.923.\n\nSo, the probability that at least one of the selected patients has the medical condition is approximately 92.3%."
+}

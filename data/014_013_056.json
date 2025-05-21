@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Hill cipher",
+    "message_1": "Suppose we want to encrypt the message \"MATH\" using Hill Cipher with the following key:\n\n $\\begin{pmatrix} 9 & 4 \\\\ 5 & 7 \\end{pmatrix}$\n\nWhat would be the encrypted message?",
+    "message_2": "To encrypt the message \"MATH\" using the Hill Cipher with the given key, we first need to convert the letters into their numerical equivalents using the alphabetical index (A=0, B=1, ..., Z=25). \n\nM = 12\nA = 0\nT = 19\nH = 7\n\nNow, we need to arrange these numbers into a matrix and multiply it by the given key matrix:\n\nMessage matrix:\n$\\begin{pmatrix} 12 & 19 \\\\ 0 & 7 \\end{pmatrix}$\n\nKey matrix:\n$\\begin{pmatrix} 9 & 4 \\\\ 5 & 7 \\end{pmatrix}$\n\nNow, multiply the message matrix by the key matrix:\n\n$\\begin{pmatrix} 12 & 19 \\\\ 0 & 7 \\end{pmatrix} \\times \\begin{pmatrix} 9 & 4 \\\\ 5 & 7 \\end{pmatrix} = \\begin{pmatrix} (12 \\times 9) + (19 \\times 5) & (12 \\times 4) + (19 \\times 7) \\\\ (0 \\times 9) + (7 \\times 5) & (0 \\times 4) + (7 \\times 7) \\end{pmatrix} = \\begin{pmatrix} 213 & 169 \\\\ 35 & 49 \\end{pmatrix}$\n\nNow, we need to reduce the elements of the resulting matrix modulo 26:\n\n$\\begin{pmatrix} 213 \\mod 26 & 169 \\mod 26 \\\\ 35 \\mod 26 & 49 \\mod 26 \\end{pmatrix} = \\begin{pmatrix} 1 & 23 \\\\ 9 & 23 \\end{pmatrix}$\n\nFinally, convert the numerical values back into letters:\n\n1 = B\n23 = X\n9 = J\n23 = X\n\nSo, the encrypted message is \"BXJX\"."
+}

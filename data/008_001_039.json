@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Solving systems of linear equations using matrix methods",
+    "message_1": "Solve the following system of linear equations using matrix method:\n\n3x + 4y = 7\n\n2x - 5y = 2",
+    "message_2": "To solve the given system of linear equations using the matrix method, we will first write the given equations in matrix form AX = B, where A is the matrix of coefficients, X is the matrix of variables, and B is the matrix of constants.\n\nGiven equations:\n\n3x + 4y = 7\n2x - 5y = 2\n\nMatrix form:\n\nA = | 3  4 |\n    | 2 -5 |\n\nX = | x |\n    | y |\n\nB = | 7 |\n    | 2 |\n\nNow we will find the inverse of matrix A (A_inv) and then multiply it with matrix B to get the matrix X.\n\nStep 1: Find the determinant of matrix A.\n\ndet(A) = (3 * -5) - (4 * 2) = -15 - 8 = -23\n\nStep 2: Find the adjoint of matrix A.\n\nadj(A) = | -5 -4 |\n         | -2  3 |\n\nStep 3: Find the inverse of matrix A (A_inv).\n\nA_inv = (1/det(A)) * adj(A)\n\nA_inv = (1/-23) * | -5 -4 |\n                 | -2  3 |\n\nA_inv = | 5/23  4/23 |\n        | 2/23 -3/23 |\n\nStep 4: Multiply A_inv with matrix B to get matrix X.\n\nX = A_inv * B\n\nX = | 5/23  4/23 | * | 7 |\n    | 2/23 -3/23 |   | 2 |\n\nx = (5/23 * 7) + (4/23 * 2) = 35/23 + 8/23 = 43/23\ny = (2/23 * 7) + (-3/23 * 2) = 14/23 - 6/23 = 8/23\n\nSo, the solution to the given system of linear equations is:\n\nx = 43/23\ny = 8/23"
+}

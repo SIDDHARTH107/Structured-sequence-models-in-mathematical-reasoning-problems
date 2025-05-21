@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Playfair cipher",
+    "message_1": "Using the Playfair cipher method, encrypt the message \"MATH IS FUN\" with the following key:\n    A B C D E\n    F G H I K\n    L M N O P\n    Q R S T U\n    V W X Y Z\nThen, decrypt the resulting cipher text to obtain the original message.",
+    "message_2": "To encrypt the message \"MATH IS FUN\" using the Playfair cipher method, we first break the message into pairs of letters. If a pair contains the same letter, we insert an 'X' between them. In this case, we don't need to do that. So, we have:\n\nMA TH IS FU N\n\nNow, we find each pair in the key matrix and apply the Playfair rules:\n\n1. If both letters are in the same row, replace them with the letters to their immediate right (wrapping around if necessary).\n2. If both letters are in the same column, replace them with the letters immediately below them (wrapping around if necessary).\n3. If the letters form a rectangle, replace them with the letters in the same row but at the other pair of corners of the rectangle.\n\nApplying these rules, we get:\n\nMA -> PL\nTH -> YD\nIS -> SN\nFU -> GK\nN -> Q (adding a filler letter 'Q' to make the last pair complete)\n\nSo, the encrypted message is \"PLYDSNGKQ\".\n\nNow, let's decrypt the message:\n\nPL -> MA\nYD -> TH\nSN -> IS\nGK -> FU\nQ -> N (removing the filler letter 'Q')\n\nThe decrypted message is \"MATH IS FUN\"."
+}

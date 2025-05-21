@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Multinomial coefficients",
+    "message_1": "In how many ways can 4 red, 3 blue, and 5 green balls be arranged in a line such that all the balls of the same color are placed together? (Hint: Use multinomial coefficients)",
+    "message_2": "To solve this problem, we can break it down into two steps:\n\n1. Arrange the groups of balls (red, blue, and green) in a line.\n2. Arrange the balls within each group.\n\nStep 1: There are 3 groups (red, blue, and green), so there are 3! = 3 × 2 × 1 = 6 ways to arrange the groups in a line.\n\nStep 2: Now we need to arrange the balls within each group. For the red group, there are 4! = 4 × 3 × 2 × 1 = 24 ways to arrange the 4 red balls. For the blue group, there are 3! = 3 × 2 × 1 = 6 ways to arrange the 3 blue balls. For the green group, there are 5! = 5 × 4 × 3 × 2 × 1 = 120 ways to arrange the 5 green balls.\n\nNow, we multiply the number of ways to arrange the groups (6) by the number of ways to arrange the balls within each group (24 for red, 6 for blue, and 120 for green):\n\n6 × 24 × 6 × 120 = 103,680\n\nSo there are 103,680 ways to arrange the 4 red, 3 blue, and 5 green balls in a line such that all the balls of the same color are placed together."
+}

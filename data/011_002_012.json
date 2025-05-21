@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Binomial coefficients",
+    "message_1": "A football team has 20 players, and the coach wants to select a captain and a vice-captain from the team members. How many different ways can the coach choose the captain and vice-captain from the team?",
+    "message_2": "To solve this problem, we can use the concept of permutations. Since the order matters (captain and vice-captain are distinct positions), we can use the formula for permutations:\n\nnPr = n! / (n - r)!\n\nwhere n is the total number of players (20), r is the number of positions to fill (2), and ! denotes the factorial of a number.\n\nFirst, we calculate the factorials:\n\n20! = 20 × 19 × 18 × ... × 3 × 2 × 1\n18! = 18 × 17 × 16 × ... × 3 × 2 × 1\n\nNow, we can plug these values into the formula:\n\n20P2 = 20! / (20 - 2)!\n20P2 = 20! / 18!\n\nTo simplify the calculation, we can cancel out the common terms in both the numerator and the denominator:\n\n20P2 = (20 × 19 × 18 × ... × 3 × 2 × 1) / (18 × 17 × 16 × ... × 3 × 2 × 1)\n20P2 = 20 × 19\n\nFinally, we can calculate the result:\n\n20P2 = 20 × 19 = 380\n\nSo, there are 380 different ways for the coach to choose a captain and a vice-captain from the team."
+}

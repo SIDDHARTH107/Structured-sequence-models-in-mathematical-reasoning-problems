@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "One-time pad encryption",
+    "message_1": "If John wants to send a secret message \"HELLO\" to Jane using one-time pad encryption, and he chooses a random secret key \"WXYZA\", what will be the encrypted message?",
+    "message_2": "To encrypt the message \"HELLO\" using a one-time pad with the key \"WXYZA\", we need to perform an exclusive OR (XOR) operation between the ASCII values of the corresponding characters in the message and the key.\n\nHere's the step-by-step process:\n\n1. Convert each character in the message and the key to their ASCII values:\n   H (72), E (69), L (76), L (76), O (79)\n   W (87), X (88), Y (89), Z (90), A (65)\n\n2. Perform XOR operation between the corresponding ASCII values:\n   72 XOR 87 = 23\n   69 XOR 88 = 29\n   76 XOR 89 = 53\n   76 XOR 90 = 50\n   79 XOR 65 = 18\n\n3. Convert the resulting XOR values back to characters:\n   23 -> (char)23\n   29 -> (char)29\n   53 -> (char)53\n   50 -> (char)50\n   18 -> (char)18\n\nThe encrypted message will be a string of non-printable characters with ASCII values 23, 29, 53, 50, and 18. To send the message, John can convert these characters to a suitable encoding, such as hexadecimal or base64."
+}

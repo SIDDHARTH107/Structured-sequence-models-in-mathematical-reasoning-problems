@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Solving systems of linear equations with non-square matrices",
+    "message_1": "The problem is: \n\nSolve the following system of linear equations using Gaussian Elimination:\n \n3x + y + z = 7 \n\n2x + 4y + 3z = 4\n \n4x + 3y + 2z = 1",
+    "message_2": "To solve the given system of linear equations using Gaussian Elimination, we'll first write the augmented matrix:\n\n```\n| 3  1  1 | 7\n| 2  4  3 | 4\n| 4  3  2 | 1\n```\n\nStep 1: Eliminate x from the second and third rows.\n\nWe can do this by multiplying the first row by -2/3 and adding it to the second row, and multiplying the first row by -4/3 and adding it to the third row.\n\n```\n| 3   1   1 |  7\n| 0   8/3  7/3 | -10/3\n| 0   5/3 -2/3 | -25/3\n```\n\nStep 2: Eliminate y from the third row.\n\nWe can do this by multiplying the second row by -5/8 and adding it to the third row.\n\n```\n| 3   1    1  |  7\n| 0   8/3  7/3 | -10/3\n| 0   0   -1  | -5\n```\n\nNow we have an upper triangular matrix, and we can use back-substitution to find the solutions.\n\nStep 3: Solve for z.\n\nFrom the third row, we have -z = -5, so z = 5.\n\nStep 4: Solve for y.\n\nFrom the second row, we have (8/3)y + (7/3)(5) = -10/3. Solving for y, we get y = -1.\n\nStep 5: Solve for x.\n\nFrom the first row, we have 3x + (-1) + 5 = 7. Solving for x, we get x = 1.\n\nSo the solution to the given system of linear equations is x = 1, y = -1, and z = 5."
+}

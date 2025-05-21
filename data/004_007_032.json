@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Calculus",
+    "sub_topic": "Using the chain rule to differentiate composite functions",
+    "message_1": "Find the derivative of y = sin(2x^2 + 3x) using the chain rule.",
+    "message_2": "To find the derivative of y = sin(2x^2 + 3x) using the chain rule, we need to differentiate the outer function (sin) and the inner function (2x^2 + 3x) separately, and then multiply them together.\n\nLet u = 2x^2 + 3x. Then y = sin(u).\n\nFirst, we find the derivative of the outer function with respect to u:\ndy/du = cos(u)\n\nNext, we find the derivative of the inner function with respect to x:\ndu/dx = d(2x^2 + 3x)/dx = 4x + 3\n\nNow, we use the chain rule to find the derivative of y with respect to x:\ndy/dx = dy/du * du/dx\n\nSubstitute the derivatives we found earlier:\ndy/dx = cos(u) * (4x + 3)\n\nFinally, substitute the original expression for u back into the equation:\ndy/dx = cos(2x^2 + 3x) * (4x + 3)\n\nSo the derivative of y = sin(2x^2 + 3x) with respect to x is dy/dx = cos(2x^2 + 3x) * (4x + 3)."
+}

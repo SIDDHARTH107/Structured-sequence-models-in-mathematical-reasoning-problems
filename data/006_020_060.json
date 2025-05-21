@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Probability",
+    "sub_topic": "Probability of a certain type of social event occurring in a community",
+    "message_1": "What is the probability that in a community of 500 people, at least 2 people share the same birthday (day and month)?",
+    "message_2": "To solve this problem, we can use the complementary probability. Instead of finding the probability that at least 2 people share the same birthday, we will find the probability that no one shares a birthday and then subtract that from 1.\n\nThere are 365 days in a year (ignoring leap years). The probability that the first person has a unique birthday is 365/365 (100%). The probability that the second person has a unique birthday (different from the first person) is 364/365. The probability that the third person has a unique birthday (different from the first two) is 363/365, and so on.\n\nFor a community of 500 people, the probability that no one shares a birthday is:\n\n(365/365) * (364/365) * (363/365) * ... * (366-500)/365\n\nLet's calculate this value:\n\nP(no shared birthdays) = 365! / (365^500 * (365-500)!)\n\nHowever, since 500 is greater than 365, the probability of no shared birthdays is 0. Therefore, the probability that at least 2 people share the same birthday is:\n\nP(at least 2 share a birthday) = 1 - P(no shared birthdays) = 1 - 0 = 1\n\nSo, in a community of 500 people, the probability that at least 2 people share the same birthday is 1, or 100%."
+}

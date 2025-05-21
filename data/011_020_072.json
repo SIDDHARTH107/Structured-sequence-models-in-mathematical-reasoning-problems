@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Combinatorial optimization",
+    "message_1": "A company has 10 employees and wants to form a team of 3 computer programmers, 2 managers, and 1 accountant. How many possible teams can they form?",
+    "message_2": "To solve this problem, we can use the combination formula, which is:\n\nC(n, k) = n! / (k!(n-k)!)\n\nwhere n is the total number of items, k is the number of items we want to choose, and ! denotes the factorial (e.g., 5! = 5 × 4 × 3 × 2 × 1).\n\nFirst, we need to choose 3 computer programmers out of 10 employees. The number of ways to do this is:\n\nC(10, 3) = 10! / (3!(10-3)!) = 10! / (3!7!) = (10 × 9 × 8) / (3 × 2 × 1) = 120\n\nNext, we need to choose 2 managers out of the remaining 7 employees. The number of ways to do this is:\n\nC(7, 2) = 7! / (2!(7-2)!) = 7! / (2!5!) = (7 × 6) / (2 × 1) = 21\n\nFinally, we need to choose 1 accountant out of the remaining 5 employees. The number of ways to do this is:\n\nC(5, 1) = 5! / (1!(5-1)!) = 5! / (1!4!) = 5\n\nNow, we need to multiply the number of ways to choose each role to find the total number of possible teams:\n\n120 (ways to choose programmers) × 21 (ways to choose managers) × 5 (ways to choose an accountant) = 12,600\n\nSo, there are 12,600 possible teams the company can form."
+}

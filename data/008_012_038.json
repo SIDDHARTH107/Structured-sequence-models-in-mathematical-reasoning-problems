@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Solving systems of linear equations using inverse matrices",
+    "message_1": "Solve the system of linear equations using inverse matrices:\n\n2x + 3y = 11\n4x + 5y = 19\n\nFind the values of x and y.",
+    "message_2": "To solve the system of linear equations using inverse matrices, we first write the given system in matrix form AX = B, where A is the matrix of coefficients, X is the column matrix of variables, and B is the column matrix of constants.\n\nA = | 2  3 |\n    | 4  5 |\n\nX = | x |\n    | y |\n\nB = | 11 |\n    | 19 |\n\nNow, we find the inverse of matrix A. The inverse of a 2x2 matrix is given by:\n\nA^(-1) = (1/det(A)) * adj(A)\n\nwhere det(A) is the determinant of A and adj(A) is the adjugate of A.\n\nFirst, let's find the determinant of A:\n\ndet(A) = (2 * 5) - (3 * 4) = 10 - 12 = -2\n\nNow, let's find the adjugate of A:\n\nadj(A) = |  5  -3 |\n         | -4   2 |\n\nNow, we can find the inverse of A:\n\nA^(-1) = (1/-2) * |  5  -3 |\n                  | -4   2 |\n\nA^(-1) = | -5/2  3/2 |\n         |  2    -1  |\n\nNow, we can find the values of x and y by multiplying the inverse of A with matrix B:\n\nX = A^(-1) * B\n\nX = | -5/2  3/2 | * | 11 |\n    |  2    -1  |   | 19 |\n\nX = | (-5/2)*11 + (3/2)*19 |\n    |  2*11 - 1*19         |\n\nX = | -55/2 + 57/2 |\n    |  22 - 19     |\n\nX = | 2/2 |\n    | 3   |\n\nX = | 1 |\n    | 3 |\n\nSo, the values of x and y are:\n\nx = 1\ny = 3"
+}

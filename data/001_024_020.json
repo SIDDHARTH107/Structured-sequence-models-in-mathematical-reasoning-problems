@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Algebra",
+    "sub_topic": "Simplifying trigonometric expressions",
+    "message_1": "Simplify the trigonometric expression (cosx - 1) / sinx - cosx.",
+    "message_2": "To simplify the trigonometric expression (cosx - 1) / (sinx - cosx), we can use the fact that sin^2(x) + cos^2(x) = 1. We will manipulate the expression to get a more simplified form.\n\n(cosx - 1) / (sinx - cosx)\n\nNow, we can multiply both the numerator and the denominator by -1 to make the expression look more familiar:\n\n(-1)(cosx - 1) / (-1)(sinx - cosx) = (1 - cosx) / (cosx - sinx)\n\nNext, we can use the Pythagorean identity sin^2(x) + cos^2(x) = 1 to rewrite the numerator:\n\nsin^2(x) / (cosx - sinx)\n\nNow, we can factor out sin(x) from the numerator:\n\nsin(x) * sin(x) / (cosx - sinx)\n\nFinally, we can use the substitution u = sin(x) and v = cos(x) to rewrite the expression:\n\nu * u / (v - u)\n\nNow, we can factor out u from the denominator:\n\nu * u / u(1 - v/u)\n\nThe u in the numerator and denominator cancel out:\n\nu / (1 - v/u)\n\nNow, we can substitute back sin(x) for u and cos(x) for v:\n\nsin(x) / (1 - cos(x)/sin(x))\n\nAnd this is the simplified form of the given trigonometric expression."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Statistics",
+    "sub_topic": "Hypothesis testing",
+    "message_1": "A manufacturer claims that the mean weight of bags of rice is 1 kg. A sample of 50 bags was randomly selected and the mean weight was found to be 0.95 kg with a standard deviation of 0.2 kg. Test the manufacturer's claim at the 5% level of significance.",
+    "message_2": "To test the manufacturer's claim, we will perform a one-sample t-test. The null hypothesis (H0) is that the true mean weight of the bags of rice is 1 kg, and the alternative hypothesis (H1) is that the true mean weight is not 1 kg.\n\nH0: μ = 1 kg\nH1: μ ≠ 1 kg\n\nGiven data:\nSample size (n) = 50\nSample mean (x̄) = 0.95 kg\nSample standard deviation (s) = 0.2 kg\nSignificance level (α) = 0.05\n\nFirst, we need to calculate the t-score. The formula for the t-score is:\n\nt = (x̄ - μ) / (s / √n)\n\nt = (0.95 - 1) / (0.2 / √50)\nt = -0.05 / (0.2 / 7.071)\nt = -0.05 / 0.0283\nt = -1.767\n\nNow, we need to find the critical t-value for a two-tailed test with a 5% significance level and 49 degrees of freedom (n - 1 = 49). Using a t-table or calculator, we find the critical t-value to be approximately ±2.009.\n\nSince the calculated t-score (-1.767) is within the range of the critical t-values (-2.009 to 2.009), we fail to reject the null hypothesis. This means that there is not enough evidence to conclude that the true mean weight of the bags of rice is different from 1 kg at the 5% level of significance."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Topology",
+    "sub_topic": "Separation axioms and their applications",
+    "message_1": "Let X be a topological space and A, B be disjoint closed subsets of X such that A is compact. Prove that there exists an open set U containing A and an open set V containing B such that A is a subset of U and B is a subset of V and U ∩ V is empty.",
+    "message_2": "Since A and B are disjoint closed subsets of X, their complements, A^c and B^c, are open sets in X. For each point a in A, since A^c is open, there exists an open neighborhood U_a of a such that U_a is a subset of A^c. Similarly, for each point b in B, there exists an open neighborhood V_b of b such that V_b is a subset of B^c.\n\nNow, consider the open cover {U_a} of A, where a is an element of A. Since A is compact, there exists a finite subcover {U_{a1}, U_{a2}, ..., U_{an}} of A. Let U be the union of these finite open sets, i.e., U = U_{a1} ∪ U_{a2} ∪ ... ∪ U_{an}. Then, U is an open set containing A, and A is a subset of U.\n\nDefine V = B^c. Since U is a subset of A^c, and A^c is a subset of B^c, we have U ∩ V = U ∩ B^c = ∅.\n\nThus, we have found open sets U and V such that A is a subset of U, B is a subset of V, and U ∩ V is empty."
+}

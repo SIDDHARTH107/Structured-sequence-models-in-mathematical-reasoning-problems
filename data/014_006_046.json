@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "One-time pad encryption",
+    "message_1": "Suppose you are sending a secret message which consists of 12 digits, where each digit can only be either 0 or 1. Using One-time pad encryption, you generate a random key of 12 digits, also composed of 0's and 1's. The encrypted message and the key are shown below:\n\nMessage: 101010100111\nKey: 011011001011\nEncrypted message: 110001101100\n\nUsing the One-time pad encryption, what is the original message sent by the sender?",
+    "message_2": "To decrypt the message using the One-time pad encryption, we need to perform an XOR operation between the encrypted message and the key. XOR is a bitwise operation where the result is 1 if the bits being compared are different, and 0 if they are the same.\n\nEncrypted message: 110001101100\nKey:            011011001011\n--------------------------\nOriginal message: 101010100111\n\nSo, the original message sent by the sender is 101010100111."
+}

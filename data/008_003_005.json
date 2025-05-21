@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Determining the rank of a matrix",
+    "message_1": "Consider the following matrix, \n\nA=   \n      \n      [[1, 2, 3],\n       \n       [4, 5, 6],\n       \n       [7, 8, 9],\n       \n       [10, 11, 12]]\n\nDetermine the rank of matrix A.",
+    "message_2": "To find the rank of matrix A, we need to perform Gaussian elimination to find the row echelon form and count the number of non-zero rows.\n\nMatrix A:\n\n      [[1, 2, 3],\n       \n       [4, 5, 6],\n       \n       [7, 8, 9],\n       \n       [10, 11, 12]]\n\nStep 1: Subtract 4 times the first row from the second row, 7 times the first row from the third row, and 10 times the first row from the fourth row.\n\n      [[1, 2, 3],\n       \n       [0, -3, -6],\n       \n       [0, -6, -12],\n       \n       [0, -9, -18]]\n\nStep 2: Divide the second row by -3.\n\n      [[1, 2, 3],\n       \n       [0, 1, 2],\n       \n       [0, -6, -12],\n       \n       [0, -9, -18]]\n\nStep 3: Add 6 times the second row to the third row, and 9 times the second row to the fourth row.\n\n      [[1, 2, 3],\n       \n       [0, 1, 2],\n       \n       [0, 0, 0],\n       \n       [0, 0, 0]]\n\nThe row echelon form of matrix A has 2 non-zero rows. Therefore, the rank of matrix A is 2."
+}

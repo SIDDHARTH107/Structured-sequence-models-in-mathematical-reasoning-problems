@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Number theory",
+    "sub_topic": "Fermat's little theorem",
+    "message_1": "If p is a prime number and a is any non-negative integer, prove that a^p - a is divisible by p. \n\nFor example, given p = 5 and a = 3, prove that 3^5 - 3 is divisible by 5.",
+    "message_2": "To prove that a^p - a is divisible by p, we will use Fermat's Little Theorem. Fermat's Little Theorem states that if p is a prime number, then for any integer a such that a is not divisible by p, we have:\n\na^(p-1) ≡ 1 (mod p)\n\nNow, let's consider two cases:\n\nCase 1: a is divisible by p (i.e., a = kp for some integer k)\n\nIn this case, a^p - a = (kp)^p - kp = kp^p - kp = kp(p^(p-1) - 1). Since p is a factor of both terms, a^p - a is divisible by p.\n\nCase 2: a is not divisible by p\n\nIn this case, we can apply Fermat's Little Theorem:\n\na^(p-1) ≡ 1 (mod p)\n\nMultiplying both sides by a, we get:\n\na^p ≡ a (mod p)\n\nThis means that a^p - a is divisible by p, as the difference between a^p and a is a multiple of p.\n\nIn both cases, we have shown that a^p - a is divisible by p. Therefore, the statement is true for any non-negative integer a and prime number p.\n\nFor the given example, p = 5 and a = 3:\n\n3^5 - 3 = 243 - 3 = 240\n\nSince 240 is divisible by 5 (240 = 5 * 48), the statement holds true for this example as well."
+}

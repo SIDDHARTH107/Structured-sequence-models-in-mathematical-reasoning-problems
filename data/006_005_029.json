@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Probability",
+    "sub_topic": "Probability of a certain event occurring in a given time period",
+    "message_1": "A factory produces 2000 units of a product per day with a defective rate of 2%. Find the probability that exactly 40 defective units will be produced in a single day.",
+    "message_2": "To find the probability of exactly 40 defective units being produced in a single day, we can use the binomial probability formula:\n\nP(X = k) = (nCk) * (p^k) * (1-p)^(n-k)\n\nwhere:\n- P(X = k) is the probability of exactly k defective units being produced\n- n is the total number of units produced (2000)\n- k is the number of defective units (40)\n- p is the probability of a unit being defective (0.02)\n- nCk is the number of combinations of n items taken k at a time (also written as C(n, k) or n! / (k!(n-k)!))\n\nFirst, let's calculate nCk (2000C40):\n\n2000! / (40!(2000-40)!)\n= 2000! / (40!1960!)\n\nNow, let's calculate p^k:\n\n0.02^40\n\nAnd (1-p)^(n-k):\n\n(1-0.02)^(2000-40)\n= 0.98^1960\n\nNow, we can plug these values into the binomial probability formula:\n\nP(X = 40) = (2000C40) * (0.02^40) * (0.98^1960)\n\nUsing a calculator or software to compute the values:\n\nP(X = 40) ≈ 0.0378\n\nSo, the probability that exactly 40 defective units will be produced in a single day is approximately 3.78%."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "ElGamal encryption and decryption",
+    "message_1": "Suppose Bob wants to send a confidential message to Alice using ElGamal encryption with a public key (p, α, β) = (17, 3, 15) and private key a = 5. The message M, chosen from {0, 1, ..., 16}, is encrypted as follows: Bob chooses a random k from {1, 2, ..., 16} and computes (A, B) = (α^k mod p, Mβ^k mod p). If A = 12 and B = 13, what is the decrypted message that Alice will receive?",
+    "message_2": "To decrypt the message, Alice will use her private key a = 5 and the received ciphertext (A, B) = (12, 13). She will compute the inverse of A^a mod p, and then multiply it by B to obtain the original message M.\n\nFirst, compute A^a mod p:\nA^a mod p = 12^5 mod 17 = 248832 mod 17 = 9\n\nNext, compute the inverse of A^a mod p, which is the number x such that (A^a * x) mod p = 1. In this case, we want to find the inverse of 9 mod 17. We can do this by testing numbers from 1 to 16:\n\n9 * 1 mod 17 = 9\n9 * 2 mod 17 = 1\n\nSo, the inverse of 9 mod 17 is 2.\n\nNow, multiply the inverse of A^a by B and compute the result modulo p:\nM = (inverse of A^a * B) mod p = (2 * 13) mod 17 = 26 mod 17 = 9\n\nThus, the decrypted message that Alice will receive is M = 9."
+}

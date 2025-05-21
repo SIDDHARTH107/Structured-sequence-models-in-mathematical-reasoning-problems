@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Polya's enumeration theorem",
+    "message_1": "In how many ways can you color the vertices of a square using 4 colors such that no two adjacent vertices have the same color?",
+    "message_2": "Let's consider two cases:\n\nCase 1: The first and third vertices have the same color, and the second and fourth vertices have the same color.\n\nIn this case, there are 4 choices for the color of the first and third vertices. Since the second and fourth vertices must have a different color, there are 3 choices for their color. So, there are 4 * 3 = 12 ways to color the square in this case.\n\nCase 2: The first and third vertices have different colors, and the second and fourth vertices have different colors.\n\nIn this case, there are 4 choices for the color of the first vertex. The second vertex must have a different color, so there are 3 choices for its color. The third vertex must have a different color from the first and second vertices, so there are 2 choices for its color. Finally, the fourth vertex must have a different color from the second and third vertices, so there is only 1 choice for its color. So, there are 4 * 3 * 2 * 1 = 24 ways to color the square in this case.\n\nAdding the results from both cases, there are a total of 12 + 24 = 36 ways to color the vertices of a square using 4 colors such that no two adjacent vertices have the same color."
+}

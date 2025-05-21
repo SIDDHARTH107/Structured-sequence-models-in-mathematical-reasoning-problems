@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Probability",
+    "sub_topic": "Probability of a certain type of product defect occurring in a manufacturing process",
+    "message_1": "In a manufacturing process, it has been found that the probability of a product being defective is 0.05. Out of a batch of 200 products, what is the probability that exactly 10 products will be defective?",
+    "message_2": "To solve this problem, we can use the binomial probability formula:\n\nP(X = k) = (nCk) * (p^k) * (1-p)^(n-k)\n\nwhere:\n- P(X = k) is the probability of having exactly k defective products\n- n is the total number of products (200 in this case)\n- k is the number of defective products we want to find the probability for (10 in this case)\n- p is the probability of a product being defective (0.05 in this case)\n- nCk is the number of combinations of choosing k items from n items, which can be calculated as n! / (k!(n-k)!)\n\nPlugging in the values:\n\nP(X = 10) = (200C10) * (0.05^10) * (1-0.05)^(200-10)\n\nFirst, let's calculate 200C10:\n\n200C10 = 200! / (10!(200-10)!) = 200! / (10!190!)\n\nNow, let's calculate the remaining part of the formula:\n\n(0.05^10) * (1-0.05)^(200-10) = (0.05^10) * (0.95^190)\n\nNow, let's put it all together:\n\nP(X = 10) = (200C10) * (0.05^10) * (0.95^190)\n\nUsing a calculator or software to compute the values:\n\nP(X = 10) ≈ 0.0358\n\nSo, the probability of having exactly 10 defective products out of 200 is approximately 0.0358 or 3.58%."
+}

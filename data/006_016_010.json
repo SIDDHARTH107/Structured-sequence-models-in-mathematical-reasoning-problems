@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Probability",
+    "sub_topic": "Probability of a certain type of product defect occurring in a manufacturing process",
+    "message_1": "A company produces electronic devices with a defective rate of 5%. If a sample of 50 devices is randomly selected from the production line, what is the probability that exactly 3 devices are defective?",
+    "message_2": "To solve this problem, we can use the binomial probability formula, which is:\n\nP(X = k) = (nCk) * (p^k) * (1-p)^(n-k)\n\nwhere:\n- P(X = k) is the probability of having exactly k defective devices\n- n is the total number of devices in the sample (50 in this case)\n- k is the number of defective devices we want to find the probability for (3 in this case)\n- p is the probability of a device being defective (0.05 in this case)\n- nCk (n choose k) is the number of combinations of choosing k defective devices from n total devices, which can be calculated as n! / (k!(n-k)!)\n\nPlugging in the values:\n\nP(X = 3) = (50C3) * (0.05^3) * (0.95^47)\n\nFirst, let's calculate 50C3:\n\n50C3 = 50! / (3!(50-3)!)\n= 50! / (3!47!)\n= (50*49*48) / (3*2*1)\n= 19600\n\nNow, let's calculate the rest of the formula:\n\nP(X = 3) = 19600 * (0.05^3) * (0.95^47)\n= 19600 * 0.000125 * 0.95^47\n≈ 19600 * 0.000125 * 0.129885793522038\n≈ 0.319111\n\nSo, the probability of having exactly 3 defective devices in a sample of 50 is approximately 0.319 or 31.9%."
+}

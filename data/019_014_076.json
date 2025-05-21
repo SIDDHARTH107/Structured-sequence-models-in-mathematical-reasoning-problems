@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Logic",
+    "sub_topic": "Higher-order logic",
+    "message_1": "Consider the higher-order logic statement: \n\n∀P. (∀x.¬P(x)) → ¬∃x.P(x)\n\nLet P(x) be the statement \"x is a prime number\"\n\nDetermine whether the statement is true or false. If it is true, provide a proof. If it is false, provide a counterexample.",
+    "message_2": "The given statement is true. To prove this, we can use a proof by contradiction.\n\nAssume the statement is false. Then, there exists a predicate P such that:\n\n(∀x.¬P(x)) → ¬∃x.P(x) is false.\n\nNow, let P(x) be the statement \"x is a prime number\". We know that there are prime numbers, such as 2, 3, 5, etc. So, there exists an x for which P(x) is true. Therefore, ¬∃x.P(x) is false.\n\nHowever, since there exists an x for which P(x) is true, it is not the case that ∀x.¬P(x) is true. This means that the implication (∀x.¬P(x)) → ¬∃x.P(x) is true, which contradicts our assumption that the statement is false.\n\nTherefore, the statement ∀P. (∀x.¬P(x)) → ¬∃x.P(x) is true."
+}

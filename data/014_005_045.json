@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Digital signatures",
+    "message_1": "A digital signature scheme uses the American Bank Association's RSA cryptosystem, where the public key is (1061, 17) and the private key is (1061, 491). \nSuppose Alice wants to sign a message M = 123 using her private key. What will be the digital signature for this message?",
+    "message_2": "To sign the message M = 123 using Alice's private key (1061, 491), we need to compute the digital signature S using the formula:\n\nS = M^d mod n\n\nwhere M is the message, d is the private exponent (491), and n is the modulus (1061).\n\nS = 123^491 mod 1061\n\nCalculating this, we get:\n\nS = 683\n\nSo, the digital signature for the message M = 123 using Alice's private key is 683."
+}

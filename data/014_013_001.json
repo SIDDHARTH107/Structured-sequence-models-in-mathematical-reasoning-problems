@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Hill cipher",
+    "message_1": "Using the Hill Cipher with a 2x2 key matrix, encrypt the message \"MATH\" where A=0, B=1, C=2, and so on. Let the key matrix be [5 7; 3 8].",
+    "message_2": "To encrypt the message \"MATH\" using the Hill Cipher with a 2x2 key matrix, follow these steps:\n\n1. Convert the message into numerical form using the given letter-number correspondence (A=0, B=1, C=2, and so on):\nM=12, A=0, T=19, H=7\n\n2. Arrange the message into pairs of numbers and form a column matrix for each pair:\n[12; 0] for \"MA\" and [19; 7] for \"TH\"\n\n3. Multiply each column matrix by the given key matrix [5 7; 3 8]:\nFor \"MA\":\n[5 7; 3 8] * [12; 0] = [5(12) + 7(0); 3(12) + 8(0)] = [60; 36]\n\nFor \"TH\":\n[5 7; 3 8] * [19; 7] = [5(19) + 7(7); 3(19) + 8(7)] = [168; 137]\n\n4. Reduce the resulting numbers modulo 26 (since there are 26 letters in the alphabet):\nFor \"MA\":\n[60; 36] mod 26 = [8; 10]\n\nFor \"TH\":\n[168; 137] mod 26 = [14; 5]\n\n5. Convert the resulting numbers back into letters using the given letter-number correspondence:\n8=I, 10=K, 14=O, 5=E\n\nThe encrypted message is \"IKOE\"."
+}

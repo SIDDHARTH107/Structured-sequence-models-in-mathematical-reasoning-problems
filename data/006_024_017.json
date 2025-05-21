@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Probability",
+    "sub_topic": "Probability of a certain type of travel outcome occurring on a trip",
+    "message_1": "A group of 10 friends are planning a road trip. The probability of any friend getting car sick during the trip is 0.2. What is the probability that exactly 3 friends will get car sick during the trip?",
+    "message_2": "To solve this problem, we can use the binomial probability formula, which is:\n\nP(X=k) = C(n, k) * p^k * (1-p)^(n-k)\n\nwhere:\n- P(X=k) is the probability of exactly k successes (in this case, friends getting car sick) out of n trials (friends)\n- C(n, k) is the number of combinations of choosing k successes out of n trials, which can be calculated as n! / (k!(n-k)!)\n- p is the probability of success (getting car sick) for each trial (friend)\n- n is the total number of trials (friends)\n- k is the number of successes (friends getting car sick)\n\nIn this problem, we have n = 10 friends, k = 3 friends getting car sick, and p = 0.2. Plugging these values into the formula, we get:\n\nP(X=3) = C(10, 3) * 0.2^3 * (1-0.2)^(10-3)\n\nFirst, let's calculate C(10, 3):\n\nC(10, 3) = 10! / (3!(10-3)!) = 10! / (3!7!) = (10*9*8) / (3*2*1) = 120\n\nNow, let's calculate the rest of the formula:\n\nP(X=3) = 120 * 0.2^3 * 0.8^7 ≈ 0.201\n\nSo, the probability that exactly 3 friends will get car sick during the trip is approximately 0.201 or 20.1%."
+}

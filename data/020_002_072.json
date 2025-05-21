@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Optimization",
+    "sub_topic": "Nonlinear programming",
+    "message_1": "A factory produces two types of products: X and Y. The production of X requires 3 units of raw material A and 2 units of raw material B, while the production of Y requires 2 units of raw material A and 4 units of raw material B. The factory has 60 units of A and 80 units of B available. The profit per unit of X and Y are $8 and $10, respectively. What is the maximum total profit the factory can make?",
+    "message_2": "Let's use linear programming to solve this problem. Let x be the number of units of product X produced and y be the number of units of product Y produced.\n\nObjective function (total profit): P = 8x + 10y\n\nConstraints (raw materials availability):\n3x + 2y ≤ 60 (raw material A)\n2x + 4y ≤ 80 (raw material B)\nx ≥ 0\ny ≥ 0\n\nFirst, we'll solve the constraints for x and y:\n\n1) 3x + 2y = 60\n2) 2x + 4y = 80\n\nDivide equation 2 by 2:\nx + 2y = 40\n\nNow, subtract equation 1 from the modified equation 2:\nx + 2y - (3x + 2y) = 40 - 60\n-2x = -20\nx = 10\n\nNow, substitute the value of x in equation 1:\n3(10) + 2y = 60\n30 + 2y = 60\n2y = 30\ny = 15\n\nSo, the factory should produce 10 units of product X and 15 units of product Y to maximize the profit.\n\nNow, let's calculate the maximum total profit:\nP = 8x + 10y\nP = 8(10) + 10(15)\nP = 80 + 150\nP = $230\n\nThe maximum total profit the factory can make is $230."
+}

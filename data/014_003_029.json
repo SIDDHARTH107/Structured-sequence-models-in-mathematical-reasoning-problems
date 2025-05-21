@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "ElGamal encryption and decryption",
+    "message_1": "Suppose Alice wants to send a secret message to Bob using ElGamal encryption with a public key (p=23,g=5,y=8) and a private key x=3. If Alice wants to encrypt the message '12' to send to Bob, what would be the ciphertext pair (a,b)?",
+    "message_2": "To encrypt the message '12' using ElGamal encryption, Alice needs to choose a random number k (1 < k < p-1). Let's assume k = 4 for this example (note that the choice of k can change the ciphertext pair, but decryption will still work correctly).\n\nNow, Alice computes the ciphertext pair (a, b) as follows:\n\n1. Compute a = g^k mod p\n   a = 5^4 mod 23\n   a = 625 mod 23\n   a = 2\n\n2. Compute b = (y^k * m) mod p\n   b = (8^4 * 12) mod 23\n   b = (4096 * 12) mod 23\n   b = 49152 mod 23\n   b = 10\n\nSo, the ciphertext pair (a, b) is (2, 10)."
+}

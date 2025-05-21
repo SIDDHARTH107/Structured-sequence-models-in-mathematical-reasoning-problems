@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Vigenere cipher",
+    "message_1": "Suppose you want to encrypt the message \"MATHEMATICS\" using the Vigenere cipher with the keyword \"CRYPTO\". What is the resulting encrypted message?",
+    "message_2": "To encrypt the message \"MATHEMATICS\" using the Vigenere cipher with the keyword \"CRYPTO\", we first need to repeat the keyword to match the length of the message:\n\nMATHEMATICS\nCRYPTOCRYPT\n\nNow, we use the Vigenere cipher table to find the corresponding encrypted letter for each pair of letters in the message and the keyword. The table can be found here: https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher#/media/File:Vigen%C3%A8re_square_shading.svg\n\nM (message) + C (keyword) = O (encrypted)\nA + R = R\nT + Y = G\nH + P = V\nE + T = B\nM + O = W\nA + C = C\nT + R = W\nI + Y = Q\nC + P = Q\nS + T = W\n\nSo, the encrypted message is \"ORGVBCWCWQW\"."
+}

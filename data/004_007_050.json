@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Calculus",
+    "sub_topic": "Using the chain rule to differentiate composite functions",
+    "message_1": "Suppose that $f(x) = x^2$ and $g(x) = \\cos(x)$. Find $\\frac{d}{dx}(f \\circ g)(x)$ when $x = \\frac{\\pi}{4}$.",
+    "message_2": "To find the derivative of the composite function $(f \\circ g)(x)$, we will use the chain rule. The chain rule states that if we have a composite function $h(x) = f(g(x))$, then the derivative of $h(x)$ with respect to $x$ is given by:\n\n$$\\frac{dh}{dx} = \\frac{df}{dg} \\cdot \\frac{dg}{dx}$$\n\nIn our case, $f(x) = x^2$ and $g(x) = \\cos(x)$. So, we first need to find the derivatives of $f(x)$ and $g(x)$ with respect to $x$:\n\n$$\\frac{df}{dx} = 2x$$\n$$\\frac{dg}{dx} = -\\sin(x)$$\n\nNow, we can find the derivative of the composite function $(f \\circ g)(x) = f(g(x)) = (\\cos(x))^2$ using the chain rule:\n\n$$\\frac{d}{dx}(f \\circ g)(x) = \\frac{df}{dg} \\cdot \\frac{dg}{dx} = 2g(x) \\cdot (-\\sin(x)) = 2\\cos(x) \\cdot (-\\sin(x))$$\n\nFinally, we need to find the value of the derivative at $x = \\frac{\\pi}{4}$:\n\n$$\\frac{d}{dx}(f \\circ g)\\left(\\frac{\\pi}{4}\\right) = 2\\cos\\left(\\frac{\\pi}{4}\\right) \\cdot \\left(-\\sin\\left(\\frac{\\pi}{4}\\right)\\right) = 2\\left(\\frac{\\sqrt{2}}{2}\\right) \\cdot \\left(-\\frac{\\sqrt{2}}{2}\\right) = -1$$\n\nSo, the value of the derivative of the composite function $(f \\circ g)(x)$ at $x = \\frac{\\pi}{4}$ is $-1$."
+}

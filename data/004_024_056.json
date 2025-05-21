@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Calculus",
+    "sub_topic": "Using the chain rule to differentiate implicit functions",
+    "message_1": "Given the function $y^2 + 2xy + 3x^2 = 25$, find $\\frac{dy}{dx}$ using the chain rule.",
+    "message_2": "To find $\\frac{dy}{dx}$, we will first implicitly differentiate both sides of the equation with respect to $x$. \n\nRecall that the chain rule states that if we have a composite function $g(f(x))$, then the derivative of $g$ with respect to $x$ is given by $\\frac{dg}{dx} = \\frac{dg}{df} \\cdot \\frac{df}{dx}$.\n\nNow, let's differentiate both sides of the equation:\n\n$\\frac{d}{dx}(y^2 + 2xy + 3x^2) = \\frac{d}{dx}(25)$\n\nApplying the chain rule and product rule where necessary, we get:\n\n$(2y \\cdot \\frac{dy}{dx}) + (2x \\cdot \\frac{dy}{dx} + 2y) + (6x) = 0$\n\nNow, we want to solve for $\\frac{dy}{dx}$. First, we can factor out $\\frac{dy}{dx}$ from the terms that contain it:\n\n$\\frac{dy}{dx}(2y + 2x) = -2y - 6x$\n\nNow, divide both sides by $(2y + 2x)$ to isolate $\\frac{dy}{dx}$:\n\n$\\frac{dy}{dx} = \\frac{-2y - 6x}{2y + 2x}$\n\nWe can simplify this expression by factoring out a 2 from the numerator and denominator:\n\n$\\frac{dy}{dx} = \\frac{-1(y + 3x)}{1(y + x)}$\n\nSo, the final expression for $\\frac{dy}{dx}$ is:\n\n$\\frac{dy}{dx} = \\frac{-y - 3x}{y + x}$"
+}

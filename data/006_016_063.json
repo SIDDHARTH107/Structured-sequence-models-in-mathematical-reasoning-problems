@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Probability",
+    "sub_topic": "Probability of a certain type of product defect occurring in a manufacturing process",
+    "message_1": "A certain manufacturing process has a probability of 0.05 of producing defective products. If a sample of 100 products is taken, what is the probability that there are exactly 3 defective products in the sample?",
+    "message_2": "To solve this problem, we can use the binomial probability formula, which is:\n\nP(X = k) = (nCk) * (p^k) * (1-p)^(n-k)\n\nwhere:\n- P(X = k) is the probability of having exactly k defective products\n- n is the total number of products in the sample (100 in this case)\n- k is the number of defective products we want to find the probability for (3 in this case)\n- p is the probability of a product being defective (0.05 in this case)\n- nCk is the number of combinations of choosing k defective products from n total products, which can be calculated as n! / (k!(n-k)!)\n\nPlugging in the values, we get:\n\nP(X = 3) = (100C3) * (0.05^3) * (0.95^97)\n\nFirst, we calculate 100C3:\n\n100C3 = 100! / (3!(100-3)!) = 100! / (3!97!) = (100*99*98) / (3*2*1) = 161700\n\nNow we can calculate the probability:\n\nP(X = 3) = 161700 * (0.05^3) * (0.95^97) ≈ 0.2668\n\nSo the probability of having exactly 3 defective products in a sample of 100 is approximately 0.2668 or 26.68%."
+}

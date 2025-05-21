@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Calculus",
+    "sub_topic": "Solving differential equations",
+    "message_1": "Consider the differential equation y' + 2y = 4cos(3x) with the initial condition y(0) = 1. Solve for y(x) over the interval 0 ≤ x ≤ π/3.",
+    "message_2": "To solve the given differential equation y' + 2y = 4cos(3x) with the initial condition y(0) = 1, we will use the method of integrating factors.\n\nFirst, we rewrite the given differential equation as a first-order linear differential equation:\n\ny'(x) + 2y(x) = 4cos(3x)\n\nNow, we find the integrating factor, which is given by the exponential of the integral of the coefficient of y(x):\n\nIntegrating factor = e^(∫2 dx) = e^(2x)\n\nNext, we multiply the entire differential equation by the integrating factor:\n\ne^(2x)y'(x) + 2e^(2x)y(x) = 4e^(2x)cos(3x)\n\nNow, the left-hand side of the equation is the derivative of the product of y(x) and the integrating factor:\n\nd/dx (e^(2x)y(x)) = 4e^(2x)cos(3x)\n\nNow, we integrate both sides with respect to x:\n\n∫(d/dx (e^(2x)y(x))) dx = ∫(4e^(2x)cos(3x) dx)\n\nUsing integration by parts twice, we get:\n\ne^(2x)y(x) = (1/13)e^(2x)(2cos(3x) + 3sin(3x)) + C\n\nNow, we apply the initial condition y(0) = 1:\n\n1 = (1/13)e^(0)(2cos(0) + 3sin(0)) + C\n1 = (1/13)(2) + C\nC = 11/13\n\nSo, the solution to the differential equation is:\n\ny(x) = e^(-2x)((1/13)e^(2x)(2cos(3x) + 3sin(3x)) + 11/13)\n\nNow, we have the solution for y(x) over the interval 0 ≤ x ≤ π/3."
+}

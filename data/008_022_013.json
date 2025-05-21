@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Solving systems of linear equations with ill-conditioned matrices",
+    "message_1": "Here's a numerical problem for the student to solve: \n\nSuppose we have the following system of equations:\n\nx + 2y = 5 \n\n(1.001)x + (1.999)y = 4.999 \n\nUsing Gaussian elimination with partial pivoting, solve for x and y. Round to three decimal places.",
+    "message_2": "First, we set up the augmented matrix for the given system of equations:\n\n| 1     2 | 5\n| 1.001 1.999 | 4.999\n\nNext, we perform Gaussian elimination with partial pivoting. Since the second row has a larger coefficient for x (1.001 > 1), we will swap the two rows:\n\n| 1.001 1.999 | 4.999\n| 1     2 | 5\n\nNow, we will eliminate the x term in the second row. To do this, we will subtract (1/1.001) times the first row from the second row:\n\n| 1.001 1.999 | 4.999\n| 0     0.001 | 0.001\n\nNow, we can solve for y by dividing the second row by 0.001:\n\n| 1.001 1.999 | 4.999\n| 0     1 | 1\n\nFinally, we will eliminate the y term in the first row by subtracting 1.999 times the second row from the first row:\n\n| 1 0 | 3\n| 0 1 | 1\n\nNow, we have the solution in the augmented matrix:\n\nx = 3\ny = 1\n\nSo, the solution to the system of equations is x = 3 and y = 1."
+}

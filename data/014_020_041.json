@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Cryptanalysis of Vigenere cipher",
+    "message_1": "A message encrypted using Vigenere cipher with a keyword of \"MATH\" has been intercepted. The ciphertext reads: \"GZJXVZBS\". Determine the plaintext message.",
+    "message_2": "To decrypt the Vigenere cipher, we will use the reverse process of encryption. The Vigenere table (or tabula recta) will be used to find the corresponding plaintext letters.\n\nKeyword: MATH\nCiphertext: GZJXVZBS\n\n1. Align the keyword with the ciphertext, repeating the keyword as necessary:\n   MATHMATH\n   GZJXVZBS\n\n2. For each letter in the ciphertext, find the corresponding row in the Vigenere table using the keyword letter, and then find the plaintext letter in that row which aligns with the ciphertext letter in the top row of the table.\n\n   G -> M -> C\n   Z -> A -> O\n   J -> T -> D\n   X -> H -> E\n\n   V -> M -> S\n   Z -> A -> O\n   B -> T -> L\n   S -> H -> V\n\nThe decrypted plaintext message is: \"CODESOLV\"."
+}

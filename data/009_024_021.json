@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Differential equations",
+    "sub_topic": "Navier-Stokes equations for turbulence modeling",
+    "message_1": "A fluid has a velocity distribution given by $u(y) = 1 - y^2$, where $y$ is the distance perpendicular to a flat wall. The fluid has a viscosity of $\\mu = 0.01$ Pa s, and the wall is located at $y = 0$. Calculate the shear stress on the wall.",
+    "message_2": "To calculate the shear stress on the wall, we need to find the derivative of the velocity distribution with respect to $y$ and then multiply it by the viscosity. The shear stress, $\\tau$, is given by the formula:\n\n$$\\tau = \\mu \\frac{du}{dy}$$\n\nFirst, let's find the derivative of the velocity distribution $u(y)$ with respect to $y$:\n\n$$\\frac{du}{dy} = \\frac{d(1 - y^2)}{dy} = -2y$$\n\nNow, we need to evaluate the derivative at the wall, which is located at $y = 0$:\n\n$$\\left.\\frac{du}{dy}\\right|_{y=0} = -2(0) = 0$$\n\nFinally, we can calculate the shear stress on the wall by multiplying the viscosity, $\\mu$, by the derivative of the velocity distribution at the wall:\n\n$$\\tau = \\mu \\frac{du}{dy} = (0.01 \\text{ Pa s}) \\times 0 = 0 \\text{ Pa}$$\n\nSo, the shear stress on the wall is 0 Pa."
+}

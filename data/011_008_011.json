@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Stirling numbers",
+    "message_1": "How many ways are there to divide a group of 10 people into 3 teams of sizes 3, 3 and 4, respectively?",
+    "message_2": "To divide a group of 10 people into 3 teams of sizes 3, 3, and 4, we can use the combination formula:\n\nC(n, k) = n! / (k!(n-k)!)\n\nFirst, we need to choose 4 people out of 10 for the largest team. This can be done in C(10, 4) ways.\n\nC(10, 4) = 10! / (4!(10-4)!) = 10! / (4!6!) = 210\n\nNow, we have 6 people left. We need to choose 3 people for one of the remaining teams. This can be done in C(6, 3) ways.\n\nC(6, 3) = 6! / (3!(6-3)!) = 6! / (3!3!) = 20\n\nThe last 3 people will automatically form the third team, so we don't need to calculate anything for that.\n\nNow, we just need to multiply the number of ways to form each team:\n\nTotal ways = C(10, 4) * C(6, 3) = 210 * 20 = 4200\n\nSo, there are 4200 ways to divide a group of 10 people into 3 teams of sizes 3, 3, and 4, respectively."
+}

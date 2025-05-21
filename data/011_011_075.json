@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Partition theory",
+    "message_1": "A committee of 7 people is to be formed from a group of 12 people. How many different committees are possible if the committee must include exactly 2 women and 1 person under the age of 20?",
+    "message_2": "Let's break down the problem into smaller parts. We need to form a committee with exactly 2 women, 1 person under 20, and the remaining 4 members can be anyone from the remaining group.\n\nFirst, we need to know how many women and how many people under 20 are in the group of 12 people. However, this information is not provided. So, we will consider the general case where there are W women and U people under 20 in the group.\n\n1. Selecting 2 women from W women: The number of ways to do this is C(W, 2) = W! / (2! * (W-2)!)\n\n2. Selecting 1 person under 20 from U people: The number of ways to do this is C(U, 1) = U! / (1! * (U-1)!)\n\nNow, we have already selected 3 members for the committee. We need to select the remaining 4 members from the remaining (12 - W - U) people.\n\n3. Selecting 4 members from the remaining (12 - W - U) people: The number of ways to do this is C(12 - W - U, 4) = (12 - W - U)! / (4! * (12 - W - U - 4)!)\n\nNow, we need to multiply the number of ways for each step to get the total number of different committees possible:\n\nTotal number of committees = C(W, 2) * C(U, 1) * C(12 - W - U, 4)\n\nHowever, without the specific values for W and U, we cannot provide a numerical answer."
+}

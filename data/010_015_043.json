@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Topology",
+    "sub_topic": "De Rham cohomology and its applications",
+    "message_1": "Let M be a compact smooth 2-dimensional manifold, and let ω be a smooth 1-form on M such that dω = 0. Suppose that there is a closed curve γ in M with nonzero winding number. Show that there exists a point p in M such that ωp ≠ 0.",
+    "message_2": "Suppose for contradiction that ωp = 0 for all p in M. Then, the integral of ω over any closed curve in M would be zero, since the integrand is identically zero. In particular, this would hold for the closed curve γ with nonzero winding number.\n\nNow, consider the 2-form dω on M. Since dω = 0, we have that ω is a closed 1-form. By the Poincaré lemma, since M is a 2-dimensional manifold, there exists a smooth function f on M such that ω = df. Then, for any closed curve γ in M, we have:\n\n∫_γ ω = ∫_γ df = f(b) - f(a),\n\nwhere a and b are the initial and final points of γ, respectively. Since γ is a closed curve, we have a = b, and thus:\n\n∫_γ ω = f(a) - f(a) = 0.\n\nThis contradicts the assumption that γ has nonzero winding number, as the integral of ω over γ should be nonzero in that case. Therefore, our initial assumption that ωp = 0 for all p in M must be false, and there exists a point p in M such that ωp ≠ 0."
+}

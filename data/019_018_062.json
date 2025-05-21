@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Logic",
+    "sub_topic": "Proof theory",
+    "message_1": "Prove that the formula (p ∧ q) → p is a tautology, where p and q are propositional variables.",
+    "message_2": "To prove that the formula (p ∧ q) → p is a tautology, we will use a truth table to show that the formula is true for all possible combinations of truth values for p and q.\n\nA truth table is a table that shows all possible combinations of truth values for a given formula. In this case, we have two propositional variables, p and q, so there are 2^2 = 4 possible combinations of truth values.\n\nHere is the truth table for (p ∧ q) → p:\n\n| p | q | p ∧ q | (p ∧ q) → p |\n|---|---|-------|-------------|\n| T | T |   T   |      T      |\n| T | F |   F   |      T      |\n| F | T |   F   |      T      |\n| F | F |   F   |      T      |\n\nExplanation of the table:\n\n1. When p is true and q is true, (p ∧ q) is true, and (p ∧ q) → p is true.\n2. When p is true and q is false, (p ∧ q) is false, and (p ∧ q) → p is true (since a false statement implies a true statement).\n3. When p is false and q is true, (p ∧ q) is false, and (p ∧ q) → p is true (since a false statement implies a false statement).\n4. When p is false and q is false, (p ∧ q) is false, and (p ∧ q) → p is true (since a false statement implies a false statement).\n\nSince the formula (p ∧ q) → p is true for all possible combinations of truth values for p and q, it is a tautology."
+}

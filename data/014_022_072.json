@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Cryptanalysis of Playfair cipher",
+    "message_1": "The Playfair cipher uses a 5x5 matrix of letters, with the key determining the order of the letters. If the key is \"PLAYFAIR\" and the plaintext is \"MATH\", what is the encrypted message?",
+    "message_2": "To encrypt the message \"MATH\" using the Playfair cipher with the key \"PLAYFAIR\", follow these steps:\n\n1. Create the 5x5 matrix using the key:\n   Remove duplicate letters from the key and fill in the remaining spaces with the rest of the alphabet (excluding 'J', which is usually combined with 'I').\n\n   P L A Y F\n   I R B C D\n   E G H K M\n   N O Q S T\n   U V W X Z\n\n2. Break the plaintext into digraphs (pairs of letters):\n   Since \"MATH\" is already in pairs, we don't need to add any extra letters.\n\n3. Encrypt each digraph:\n   - Locate the letters 'M' and 'A' in the matrix. They are in the same row, so replace each letter with the one to its right (wrap around if necessary):\n     M -> A, A -> T\n   - Locate the letters 'T' and 'H' in the matrix. They are in the same column, so replace each letter with the one below it (wrap around if necessary):\n     T -> S, H -> K\n\n4. Combine the encrypted digraphs to form the encrypted message:\n   The encrypted message is \"ATSK\"."
+}

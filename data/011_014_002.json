@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Graph theory",
+    "message_1": "Find the number of triangles in a complete graph K<sub>7</sub>.",
+    "message_2": "A complete graph K<sub>n</sub> is a graph with n vertices, where each vertex is connected to every other vertex. In a complete graph K<sub>7</sub>, there are 7 vertices.\n\nTo form a triangle in a complete graph, we need to choose 3 vertices out of the 7 available vertices. The number of ways to do this is given by the combination formula:\n\nC(n, k) = n! / (k!(n-k)!)\n\nIn our case, n = 7 (number of vertices) and k = 3 (number of vertices needed to form a triangle).\n\nC(7, 3) = 7! / (3!(7-3)!)\n= 7! / (3!4!)\n= (7 × 6 × 5 × 4 × 3 × 2 × 1) / ((3 × 2 × 1)(4 × 3 × 2 × 1))\n= (7 × 6 × 5) / (3 × 2 × 1)\n= 35\n\nSo, there are 35 triangles in a complete graph K<sub>7</sub>."
+}

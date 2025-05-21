@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Probability",
+    "sub_topic": "Probability of a certain type of product defect occurring in a manufacturing process",
+    "message_1": "Suppose that a manufacturing process produces 10% defective products. If a company orders 1000 products, what is the probability that they receive at least 100 defective products?",
+    "message_2": "To find the probability of receiving at least 100 defective products out of 1000, we can use the binomial probability formula:\n\nP(X ≥ k) = 1 - P(X < k)\n\nwhere X is the number of defective products, k is the threshold (100 in this case), and P(X < k) is the cumulative probability of receiving fewer than k defective products.\n\nThe binomial probability formula is:\n\nP(X = k) = C(n, k) * p^k * (1-p)^(n-k)\n\nwhere C(n, k) is the number of combinations of n items taken k at a time, p is the probability of a single defective product (0.1), and n is the total number of products (1000).\n\nTo find P(X < 100), we need to sum the probabilities for X = 0 to X = 99:\n\nP(X < 100) = Σ P(X = k) for k = 0 to 99\n\nCalculating this sum directly would be time-consuming, so we can use a statistical software or calculator to find the cumulative binomial probability. Using a calculator, we get:\n\nP(X < 100) ≈ 0.5266\n\nNow, we can find the probability of receiving at least 100 defective products:\n\nP(X ≥ 100) = 1 - P(X < 100) = 1 - 0.5266 ≈ 0.4734\n\nSo, the probability of receiving at least 100 defective products is approximately 47.34%."
+}

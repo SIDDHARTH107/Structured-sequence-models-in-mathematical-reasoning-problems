@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Hill cipher",
+    "message_1": "In Hill cipher, the key matrix is given by\nK = [3 2; 5 7]\nEncrypt the message \"MATH\" using the Hill cipher technique. (Note: convert the letters to numbers using A=0, B=1, ..., Z=25 before encryption)",
+    "message_2": "To encrypt the message \"MATH\" using the Hill cipher technique, we first need to convert the letters to numbers using A=0, B=1, ..., Z=25.\n\nM = 12\nA = 0\nT = 19\nH = 7\n\nNow, we need to arrange these numbers into a matrix and multiply it by the key matrix K.\n\nMessage matrix M = [12 0; 19 7]\n\nNext, we perform matrix multiplication:\n\nK * M = [3 2; 5 7] * [12 0; 19 7]\n\nTo multiply the matrices, we perform the following calculations:\n\n(3 * 12) + (2 * 19) = 36 + 38 = 74\n(3 * 0) + (2 * 7) = 0 + 14 = 14\n(5 * 12) + (7 * 19) = 60 + 133 = 193\n(5 * 0) + (7 * 7) = 0 + 49 = 49\n\nSo, the resulting matrix is:\n\n[74 14; 193 49]\n\nNow, we need to take the result modulo 26 (since there are 26 letters in the alphabet):\n\n74 mod 26 = 22\n14 mod 26 = 14\n193 mod 26 = 1\n49 mod 26 = 23\n\nSo, the encrypted matrix is:\n\n[22 14; 1 23]\n\nFinally, we convert these numbers back to letters using the same A=0, B=1, ..., Z=25 conversion:\n\n22 = W\n14 = O\n1 = B\n23 = X\n\nThe encrypted message is \"WOBX\"."
+}

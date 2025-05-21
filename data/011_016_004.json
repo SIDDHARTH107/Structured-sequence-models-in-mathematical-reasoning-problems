@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Combinatorial designs",
+    "message_1": "A conference wants to schedule 12 sessions over 4 days, such that there are exactly 3 sessions per day. In how many ways can this be done if each session contains different topics and each topic is covered in only one session?",
+    "message_2": "We can solve this problem using combinatorics. We have 12 sessions to distribute over 4 days, with 3 sessions per day.\n\nFirst, we need to choose 3 sessions out of 12 for the first day. This can be done in C(12,3) ways, where C(n,k) is the number of combinations of choosing k items from a set of n items. \n\nC(12,3) = 12! / (3! * (12-3)!) = 12! / (3! * 9!) = 220\n\nNext, we need to choose 3 sessions out of the remaining 9 for the second day. This can be done in C(9,3) ways:\n\nC(9,3) = 9! / (3! * (9-3)!) = 9! / (3! * 6!) = 84\n\nNow, we need to choose 3 sessions out of the remaining 6 for the third day. This can be done in C(6,3) ways:\n\nC(6,3) = 6! / (3! * (6-3)!) = 6! / (3! * 3!) = 20\n\nFinally, the last 3 sessions will be scheduled on the fourth day, and there's only 1 way to do this since all sessions are different.\n\nSo, the total number of ways to schedule the sessions is:\n\n220 (first day) * 84 (second day) * 20 (third day) * 1 (fourth day) = 369,600 ways."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Block ciphers",
+    "message_1": "Consider a block cipher with a block size of 64 bits and a key of 128 bits. The key is used to encrypt a plaintext block. If the ciphertext block is altered in one bit position, what is the probability that the corresponding bit will be flipped in the decrypted plaintext block? Assume that the block cipher uses a secure encryption algorithm.",
+    "message_2": "A secure block cipher can be modeled as a pseudorandom permutation, which means that any change in the input (ciphertext) should result in an unpredictable change in the output (decrypted plaintext). In other words, the block cipher should behave like a random function for any given key.\n\nWhen a single bit is flipped in the ciphertext, the decrypted plaintext should be completely different and unrelated to the original plaintext. Since there are 2^64 possible plaintext blocks for a 64-bit block size, each bit in the decrypted plaintext should have an equal probability of being 0 or 1.\n\nTherefore, the probability that the corresponding bit will be flipped in the decrypted plaintext block is 1/2 or 50%."
+}

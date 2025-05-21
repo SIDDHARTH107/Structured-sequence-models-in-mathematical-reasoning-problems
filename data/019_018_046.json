@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Logic",
+    "sub_topic": "Proof theory",
+    "message_1": "In propositional logic, show that the following is a tautology: \n\n(p ∧ ¬q) → (¬q ∨ ¬p)",
+    "message_2": "To show that (p ∧ ¬q) → (¬q ∨ ¬p) is a tautology, we can use a truth table. A tautology is a statement that is always true, regardless of the truth values of its variables. In this case, we have two variables, p and q. We will consider all possible combinations of truth values for p and q, and then evaluate the given expression.\n\nHere is the truth table for (p ∧ ¬q) → (¬q ∨ ¬p):\n\n| p | q | ¬q | p ∧ ¬q | ¬p | ¬q ∨ ¬p | (p ∧ ¬q) → (¬q ∨ ¬p) |\n|---|---|----|-------|----|--------|---------------------|\n| T | T |  F |   F   |  F |   F    |          T          |\n| T | F |  T |   T   |  F |   T    |          T          |\n| F | T |  F |   F   |  T |   T    |          T          |\n| F | F |  T |   F   |  T |   T    |          T          |\n\nIn the table, T represents True and F represents False. We can see that the given expression (p ∧ ¬q) → (¬q ∨ ¬p) is true for all possible combinations of truth values for p and q. Therefore, it is a tautology."
+}

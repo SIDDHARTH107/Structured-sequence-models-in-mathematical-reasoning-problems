@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Optimization",
+    "sub_topic": "Optimal resource allocation",
+    "message_1": "A manufacturing company produces two types of products: Product A and Product B. The company has 10 machines that can be used to produce these products. Product A requires 3 machines and Product B requires 2 machines. The profit margin for Product A is $5 and for Product B is $3. What is the optimal allocation of machines to maximize the profit of the company?",
+    "message_2": "Let x be the number of Product A produced and y be the number of Product B produced.\n\nWe have the following constraints:\n\n3x + 2y ≤ 10 (machines constraint)\n\nx ≥ 0 and y ≥ 0 (non-negativity constraint)\n\nThe objective function to maximize is:\n\nProfit = 5x + 3y\n\nTo find the optimal allocation, we will first find the feasible region by solving the constraints:\n\n3x + 2y ≤ 10\n\ny ≤ (10 - 3x)/2\n\nWe will now find the vertices of the feasible region:\n\n1. (x=0, y=0)\n2. (x=0, y=5)\n3. (x=3, y=1)\n\nNow, we will evaluate the profit function at each vertex:\n\n1. Profit(0,0) = 5(0) + 3(0) = $0\n2. Profit(0,5) = 5(0) + 3(5) = $15\n3. Profit(3,1) = 5(3) + 3(1) = $18\n\nThe maximum profit occurs at the vertex (3,1), where 3 Product A and 1 Product B are produced. Therefore, the optimal allocation of machines is to produce 3 Product A and 1 Product B, which will result in a maximum profit of $18."
+}

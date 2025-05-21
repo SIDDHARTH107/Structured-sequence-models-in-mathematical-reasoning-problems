@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Pascal's triangle",
+    "message_1": "Here's a precise numerical problem on Pascal's Triangle for you to solve:\n\nWhat is the value of the coefficient of the term in the expansion of  $(2x - 3y)^{10}$ that contains $x^4$ and $y^6$?\n\nHint: The coefficient of the term containing $x^4$ and $y^6$ can be obtained by using the corresponding entries in the 10th row of Pascal's Triangle.",
+    "message_2": "To find the coefficient of the term containing $x^4$ and $y^6$ in the expansion of $(2x - 3y)^{10}$, we can use the binomial theorem. The general term in the expansion of $(a + b)^n$ is given by:\n\n$T_{r+1} = \\binom{n}{r} a^{n-r} b^r$\n\nIn our case, $a = 2x$, $b = -3y$, $n = 10$, and we want the term with $x^4$ and $y^6$, so $r = 6$. Plugging these values into the formula, we get:\n\n$T_{7} = \\binom{10}{6} (2x)^{10-6} (-3y)^6$\n\n$T_{7} = \\binom{10}{6} (2^4 x^4) (-3^6 y^6)$\n\nNow, we need to find the value of $\\binom{10}{6}$. Using the formula for combinations:\n\n$\\binom{10}{6} = \\frac{10!}{6!(10-6)!} = \\frac{10!}{6!4!} = \\frac{10 \\times 9 \\times 8 \\times 7}{4 \\times 3 \\times 2 \\times 1} = 210$\n\nNow, substitute this value back into the expression for $T_{7}$:\n\n$T_{7} = 210 \\times (2^4 x^4) \\times (-3^6 y^6)$\n\n$T_{7} = 210 \\times 16x^4 \\times 729y^6$\n\n$T_{7} = 3360x^4 \\times 729y^6$\n\nSo, the coefficient of the term containing $x^4$ and $y^6$ in the expansion of $(2x - 3y)^{10}$ is $3360 \\times 729 = 2,448,240$."
+}

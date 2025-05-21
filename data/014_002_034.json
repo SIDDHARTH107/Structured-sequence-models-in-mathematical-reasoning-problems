@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Diffie-Hellman key exchange",
+    "message_1": "Consider the Diffie-Hellman key exchange, where Alice and Bob agree to use a prime number $p = 23$ and a primitive root of $p$, say $g = 5$, to exchange a secret key. Alice chooses a secret number $a = 4$ and computes $A = g^a \\bmod p$. Bob chooses a secret number $b = 3$ and computes $B = g^b \\bmod p$. What is the secret key agreed between Alice and Bob?",
+    "message_2": "First, let's compute A and B:\n\n$A = g^a \\bmod p = 5^4 \\bmod 23 = 625 \\bmod 23 = 6$\n\n$B = g^b \\bmod p = 5^3 \\bmod 23 = 125 \\bmod 23 = 10$\n\nNow, Alice and Bob can compute the shared secret key using each other's public values:\n\nAlice computes the secret key as $K_A = B^a \\bmod p = 10^4 \\bmod 23 = 10000 \\bmod 23 = 18$\n\nBob computes the secret key as $K_B = A^b \\bmod p = 6^3 \\bmod 23 = 216 \\bmod 23 = 18$\n\nSince $K_A = K_B$, the shared secret key is $18$."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Hill cipher",
+    "message_1": "Using Hill cipher encryption with a 2x2 matrix key, encrypt the message \"MATH\" where A=0, B=1, C=2, D=3. The key is: \n|2 3|\n|1 4|",
+    "message_2": "To encrypt the message \"MATH\" using the Hill cipher with the given 2x2 matrix key, follow these steps:\n\n1. Convert the message into numerical form using the given mapping (A=0, B=1, C=2, D=3, ..., Z=25):\n   M = 12, A = 0, T = 19, H = 7\n\n2. Arrange the message into pairs of letters and represent them as column vectors:\n   M A = |12|\n             | 0|\n   T H = |19|\n             | 7|\n\n3. Multiply each column vector by the key matrix:\n   |2 3|   |12|   |2*12 + 3*0|   |24|\n   |1 4| * | 0| = |1*12 + 4*0| = |12|\n\n   |2 3|   |19|   |2*19 + 3*7|   |61|\n   |1 4| * | 7| = |1*19 + 4*7| = |47|\n\n4. Take the result modulo 26 to get the encrypted message in numerical form:\n   |24|   |24 % 26|   |24|\n   |12| = |12 % 26| = |12|\n\n   |61|   |61 % 26|   | 9|\n   |47| = |47 % 26| = |21|\n\n5. Convert the encrypted message back to letters using the given mapping:\n   24 = Y, 12 = M, 9 = J, 21 = V\n\nThe encrypted message is \"YMJV\"."
+}

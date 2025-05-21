@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Probability",
+    "sub_topic": "Probability of a certain type of product defect occurring in a manufacturing process",
+    "message_1": "In a manufacturing process, the probability of producing a defective product is 0.02. If there are 500 products produced in a day, what is the probability that exactly 10 of them are defective?",
+    "message_2": "We can use the binomial probability formula to solve this problem. The binomial probability formula is:\n\nP(X = k) = (nCk) * (p^k) * (1-p)^(n-k)\n\nwhere:\n- P(X = k) is the probability of having exactly k defective products\n- n is the total number of products produced (in this case, 500)\n- k is the number of defective products (in this case, 10)\n- p is the probability of producing a defective product (in this case, 0.02)\n- nCk is the number of combinations of n items taken k at a time, which can be calculated as n! / (k!(n-k)!)\n\nPlugging in the values, we get:\n\nP(X = 10) = (500C10) * (0.02^10) * (0.98^490)\n\nFirst, let's calculate 500C10:\n\n500C10 = 500! / (10!(500-10)!)\n       = 500! / (10! * 490!)\n\nUsing a calculator, we find that 500C10 ≈ 10,272,278,170.\n\nNow, let's calculate the rest of the formula:\n\nP(X = 10) ≈ 10,272,278,170 * (0.02^10) * (0.98^490)\n\nUsing a calculator, we find that:\n\nP(X = 10) ≈ 0.1398\n\nSo, the probability that exactly 10 of the 500 products produced in a day are defective is approximately 0.1398 or 13.98%."
+}

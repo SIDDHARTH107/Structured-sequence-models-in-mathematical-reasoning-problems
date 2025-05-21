@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Traveling salesman problem",
+    "message_1": "A salesman needs to visit 7 cities in a particular order while minimizing the total distance traveled. The distance between each pair of cities is given below. What is the shortest possible distance the salesman can travel to visit all 7 cities?\n\n| City | A | B | C | D | E | F | G |\n|------|---|---|---|---|---|---|---|\n| A    | 0 | 2 | 1 | 4 | 5 | 8 | 7 |\n| B    | 2 | 0 | 4 | 1 | 2 | 5 | 9 |\n| C    | 1 | 4 | 0 | 3 | 2 | 6 | 10|\n| D    | 4 | 1 | 3 | 0 | 6 | 3 | 2 |\n| E    | 5 | 2 | 2 | 6 | 0 | 1 | 3 |\n| F    | 8 | 5 | 6 | 3 | 1 | 0 | 5 |\n| G    | 7 | 9 | 10| 2 | 3 | 5 | 0 |",
+    "message_2": "Since the salesman needs to visit the cities in a particular order, we just need to sum up the distances between consecutive cities in that order.\n\nLet's say the order is A → B → C → D → E → F → G. Then the total distance traveled will be:\n\nA to B: 2\nB to C: 4\nC to D: 3\nD to E: 6\nE to F: 1\nF to G: 5\n\nNow, we sum up these distances: 2 + 4 + 3 + 6 + 1 + 5 = 21\n\nThe shortest possible distance the salesman can travel to visit all 7 cities in the given order is 21 units."
+}

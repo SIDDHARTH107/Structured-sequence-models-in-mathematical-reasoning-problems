@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Block designs",
+    "message_1": "A local school is hosting a math fair, and they need to create a schedule of events where each teacher presents at the same time slot across different rooms. There are 6 teachers, and they have to present in 4 time slots; each slot will have exactly 3 teachers presenting. How many different schedules are possible for the math fair?",
+    "message_2": "To find the number of different schedules possible, we can use the concept of combinations. We need to choose 3 teachers out of 6 for the first time slot, then 3 out of the remaining 3 for the second time slot, and so on.\n\nThe number of ways to choose 3 teachers out of 6 is given by the combination formula:\n\nC(n, k) = n! / (k!(n-k)!)\n\nwhere n is the total number of teachers (6) and k is the number of teachers to choose (3).\n\nC(6, 3) = 6! / (3!(6-3)!) = 6! / (3!3!) = (6*5*4) / (3*2*1) = 20\n\nSo, there are 20 different ways to choose 3 teachers out of 6 for the first time slot. Since there are 4 time slots and each slot will have exactly 3 teachers presenting, we can divide these 20 ways into groups of 3.\n\nThe number of different schedules possible for the math fair is:\n\n20 / 3 = 6.666...\n\nHowever, since we cannot have a fraction of a schedule, we need to round down to the nearest whole number. Therefore, there are 6 different schedules possible for the math fair."
+}

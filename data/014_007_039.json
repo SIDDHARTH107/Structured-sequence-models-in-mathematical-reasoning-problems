@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Stream ciphers",
+    "message_1": "Consider a stream cipher that generates a stream of random 8-bit values. Using this stream cipher, a message is encrypted by XOR-ing each byte of the message with the corresponding byte in the stream. What is the probability that a 5-byte message encrypted with this cipher will have at least one null byte?",
+    "message_2": "To find the probability that a 5-byte message encrypted with this cipher will have at least one null byte, we can first find the probability that none of the bytes are null and then subtract that from 1.\n\nA null byte occurs when the message byte and the corresponding stream byte are the same, as XOR-ing two identical bytes results in a null byte (0x00). Since there are 256 possible 8-bit values (2^8), the probability that a single byte in the message and the corresponding byte in the stream are the same is 1/256.\n\nThe probability that a single byte is not null is therefore 1 - 1/256 = 255/256.\n\nFor all 5 bytes in the message to not be null, the probability is (255/256)^5.\n\nNow, to find the probability that at least one byte is null, we subtract the probability that none of the bytes are null from 1:\n\n1 - (255/256)^5 ≈ 0.0195\n\nSo, the probability that a 5-byte message encrypted with this cipher will have at least one null byte is approximately 0.0195 or 1.95%."
+}

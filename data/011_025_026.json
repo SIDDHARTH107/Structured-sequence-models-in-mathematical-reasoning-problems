@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Combinatorial game theory",
+    "message_1": "A game involves a pile of 30 stones. On each turn, a player can remove either 1, 2 or 4 stones from the pile. The player who picks the last stone wins. If you go first, how many stones should you remove on your first turn to ensure a win?",
+    "message_2": "To ensure a win, you should remove 2 stones on your first turn. \n\nHere's the strategy:\n1. You remove 2 stones, leaving 28 stones in the pile.\n2. From this point on, whatever number of stones your opponent removes (1, 2, or 4), you remove enough stones to make the total removed by both of you in that round equal to 5. For example, if your opponent removes 1 stone, you remove 4; if they remove 2, you remove 3; if they remove 4, you remove 1.\n3. By following this strategy, you ensure that after each round, there will be 5 fewer stones in the pile. Since there were 28 stones after your first move, there will be 4 rounds of 5-stone removals (28/5 = 4).\n4. After these 4 rounds, there will be 4 stones left in the pile. At this point, you can remove all 4 stones and win the game."
+}

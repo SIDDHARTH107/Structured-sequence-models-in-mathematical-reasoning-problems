@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "One-time pad encryption",
+    "message_1": "In one-time pad encryption, the plaintext message \"HELLO\" is converted into a ciphertext using a randomly generated key as follows: \n\nH + K = ciphertext[0] \n\nE + K = ciphertext[1] \n\nL + K = ciphertext[2] \n\nL + K = ciphertext[3] \n\nO + K = ciphertext[4] \n\nIf the key used was \"58312\", what is the ciphertext message? (Note: convert the letters to their corresponding numbers, e.g. A=1, B=2, etc., before adding the key and taking mod 26 to get the ciphertext letters.)",
+    "message_2": "First, we need to convert the letters of the plaintext message \"HELLO\" and the key \"58312\" into their corresponding numbers:\n\nH = 8\nE = 5\nL = 12\nL = 12\nO = 15\n\nNow, we add the key to the plaintext message:\n\n8 + 5 = 13\n5 + 8 = 13\n12 + 3 = 15\n12 + 1 = 13\n15 + 2 = 17\n\nNow, we take mod 26 for each result:\n\n13 mod 26 = 13\n13 mod 26 = 13\n15 mod 26 = 15\n13 mod 26 = 13\n17 mod 26 = 17\n\nFinally, we convert the numbers back to letters:\n\n13 = M\n13 = M\n15 = O\n13 = M\n17 = Q\n\nSo, the ciphertext message is \"MMOMQ\"."
+}

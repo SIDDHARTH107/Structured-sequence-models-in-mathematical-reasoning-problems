@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Graph theory",
+    "sub_topic": "Determining the degree sequence of a graph.",
+    "message_1": "Consider a graph with 7 vertices and degree sequence {2,2,2,3,3,4,4}. Is this degree sequence possible? If so, draw the graph; if not, explain why not.",
+    "message_2": "Yes, this degree sequence is possible. We can construct a graph with the given degree sequence as follows:\n\nLabel the vertices as A, B, C, D, E, F, and G.\n\n1. Connect vertex A (degree 4) to vertices B, C, D, and E.\n2. Connect vertex B (degree 2) to vertices A and F.\n3. Connect vertex C (degree 2) to vertices A and F.\n4. Connect vertex D (degree 3) to vertices A, E, and G.\n5. Connect vertex E (degree 3) to vertices A, D, and G.\n6. Connect vertex F (degree 2) to vertices B and C.\n7. Connect vertex G (degree 4) to vertices D, E, F, and G.\n\nThe resulting graph has the desired degree sequence {2,2,2,3,3,4,4}:\n\nA: connected to B, C, D, E (degree 4)\nB: connected to A, F (degree 2)\nC: connected to A, F (degree 2)\nD: connected to A, E, G (degree 3)\nE: connected to A, D, G (degree 3)\nF: connected to B, C, G (degree 3)\nG: connected to D, E, F (degree 3)"
+}

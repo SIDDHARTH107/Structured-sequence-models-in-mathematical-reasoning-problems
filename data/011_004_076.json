@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Multinomial coefficients",
+    "message_1": "In how many ways can you arrange the letters in the word \"MISSISSIPPI\" such that all the letters \"I\" appear together?",
+    "message_2": "First, let's find the total number of ways to arrange the letters in the word \"MISSISSIPPI\" without any restrictions. There are 11 letters in the word, with 4 S's, 4 I's, 2 P's, and 1 M. The total number of ways to arrange these letters is:\n\n11! / (4! * 4! * 2! * 1!) = 34,650\n\nNow, let's treat all the I's as a single unit (IIII). We now have 8 objects to arrange: M, S, S, S, S, P, P, and (IIII). There are 8! ways to arrange these objects, but we need to account for the repeated S's and P's:\n\n8! / (4! * 2!) = 420\n\nSince there is only one way to arrange the I's within the (IIII) unit, the total number of ways to arrange the letters in the word \"MISSISSIPPI\" such that all the letters \"I\" appear together is 420."
+}

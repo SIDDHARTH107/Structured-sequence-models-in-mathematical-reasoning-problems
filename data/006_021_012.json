@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Probability",
+    "sub_topic": "Probability of a certain type of environmental event occurring in a region",
+    "message_1": "A certain region has experienced floods in 20% of the years. If a scientist randomly selects 10 years from the region, what is the probability that exactly 3 years will have floods?",
+    "message_2": "We can solve this problem using the binomial probability formula, which is:\n\nP(X = k) = (nCk) * (p^k) * (1-p)^(n-k)\n\nwhere:\n- P(X = k) is the probability of having exactly k successes (floods) in n trials (years)\n- nCk (read as \"n choose k\") is the number of combinations of choosing k successes from n trials, calculated as n! / (k!(n-k)!)\n- p is the probability of success (flood) in a single trial (year)\n- n is the number of trials (years)\n- k is the number of successes (floods)\n\nIn this case, we have:\n- n = 10 (10 years)\n- k = 3 (3 years with floods)\n- p = 0.20 (20% probability of flood in a year)\n\nNow, we can plug these values into the formula:\n\nP(X = 3) = (10C3) * (0.20^3) * (1-0.20)^(10-3)\n\nFirst, let's calculate 10C3:\n\n10C3 = 10! / (3!(10-3)!)\n= 10! / (3!7!)\n= (10*9*8) / (3*2*1)\n= 120\n\nNow, let's calculate the other parts of the formula:\n\n(0.20^3) = 0.008\n(1-0.20)^(10-3) = (0.80)^7 = 0.2097152\n\nFinally, let's put everything together:\n\nP(X = 3) = 120 * 0.008 * 0.2097152\nP(X = 3) ≈ 0.201326592\n\nSo, the probability that exactly 3 years will have floods is approximately 20.13%."
+}

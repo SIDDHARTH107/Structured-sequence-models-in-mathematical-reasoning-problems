@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Optimization",
+    "sub_topic": "Quadratic programming",
+    "message_1": "A company produces two types of products: standard and premium. The profit for each standard product is $5 and for each premium product is $9. The company has 200 units of raw material and can produce a maximum of 40 products. However, due to limited resources, the company cannot produce more than 20 premium products. How many standard and premium products should the company produce to maximize its profit?",
+    "message_2": "Let x be the number of standard products and y be the number of premium products.\n\nWe have the following constraints:\n\n1. x + y ≤ 40 (maximum of 40 products)\n2. y ≤ 20 (maximum of 20 premium products)\n3. x ≥ 0, y ≥ 0 (non-negative products)\n\nThe objective function to maximize is the profit:\n\nP(x, y) = 5x + 9y\n\nWe will solve this linear programming problem using the graphical method.\n\nFirst, we will find the feasible region by graphing the constraints:\n\n1. x + y ≤ 40\n2. y ≤ 20\n3. x ≥ 0, y ≥ 0\n\nThe feasible region is a polygon with vertices at points (0, 0), (0, 20), (20, 20), and (40, 0).\n\nNow, we will evaluate the objective function at each vertex:\n\n1. P(0, 0) = 5(0) + 9(0) = 0\n2. P(0, 20) = 5(0) + 9(20) = 180\n3. P(20, 20) = 5(20) + 9(20) = 280\n4. P(40, 0) = 5(40) + 9(0) = 200\n\nThe maximum profit occurs at the vertex (20, 20), with a profit of $280. Therefore, the company should produce 20 standard products and 20 premium products to maximize its profit."
+}

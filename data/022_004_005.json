@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Singularities of complex functions",
+    "message_1": "A precise numerical problem related to singularities of complex functions can be:\n\nFind the order of the singularity of the function f(z) = (cos z - 1)/z^2 at z = 0.",
+    "message_2": "To find the order of the singularity of the function f(z) = (cos z - 1)/z^2 at z = 0, we can use the Taylor series expansion of the cosine function.\n\nThe Taylor series expansion of cos z around z = 0 is given by:\n\ncos z = 1 - (z^2)/2! + (z^4)/4! - (z^6)/6! + ...\n\nNow, let's rewrite the function f(z) using the Taylor series expansion of cos z:\n\nf(z) = (1 - (z^2)/2! + (z^4)/4! - (z^6)/6! + ... - 1)/z^2\n\nSimplify the expression by canceling out the 1's:\n\nf(z) = (-(z^2)/2! + (z^4)/4! - (z^6)/6! + ...)/z^2\n\nNow, divide each term by z^2:\n\nf(z) = -1/2! + (z^2)/4! - (z^4)/6! + ...\n\nThe resulting series is a convergent power series with no negative powers of z, which means that the function f(z) has a removable singularity at z = 0. The order of a removable singularity is 0. Therefore, the order of the singularity of the function f(z) = (cos z - 1)/z^2 at z = 0 is 0."
+}

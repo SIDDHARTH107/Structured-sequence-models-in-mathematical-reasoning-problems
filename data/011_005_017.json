@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Combinatorial identities",
+    "message_1": "In how many ways can a committee of 4 people be chosen from 8 people, where 2 of the 8 people cannot be on the committee together?",
+    "message_2": "Let's break this problem into two cases:\n\nCase 1: Neither of the 2 people who cannot be together are on the committee.\nIn this case, we need to choose 4 people from the remaining 6 people. This can be done in C(6, 4) ways, where C(n, k) denotes the number of combinations of choosing k items from a set of n items. \n\nC(6, 4) = 6! / (4! * (6-4)!) = 15\n\nCase 2: One of the 2 people who cannot be together is on the committee.\nIn this case, we need to choose 1 person from these 2 people and then choose 3 more people from the remaining 6 people. This can be done in C(2, 1) * C(6, 3) ways.\n\nC(2, 1) = 2! / (1! * (2-1)!) = 2\nC(6, 3) = 6! / (3! * (6-3)!) = 20\n\nSo, the total number of ways in this case is 2 * 20 = 40.\n\nNow, we add the number of ways in both cases to get the total number of ways to form the committee:\n\nTotal ways = Case 1 + Case 2 = 15 + 40 = 55.\n\nTherefore, there are 55 ways to form the committee of 4 people from 8 people, where 2 of the 8 people cannot be on the committee together."
+}

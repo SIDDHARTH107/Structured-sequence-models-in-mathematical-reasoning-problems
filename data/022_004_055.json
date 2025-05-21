@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Singularities of complex functions",
+    "message_1": "Find the residue of the meromorphic function f(z) = (z+1) / (z^3 - 1) at the pole z = 1.",
+    "message_2": "To find the residue of the given meromorphic function f(z) = (z+1) / (z^3 - 1) at the pole z = 1, we first need to factor the denominator and rewrite the function.\n\nThe denominator can be factored as follows:\n\nz^3 - 1 = (z - 1)(z^2 + z + 1)\n\nNow, rewrite the function:\n\nf(z) = (z+1) / [(z - 1)(z^2 + z + 1)]\n\nSince we are interested in the pole at z = 1, we can see that the function has a simple pole at z = 1. To find the residue, we can use the formula for the residue at a simple pole:\n\nRes[f(z), z = 1] = lim (z→1) [(z - 1) * f(z)]\n\n= lim (z→1) [(z - 1) * (z+1) / ((z - 1)(z^2 + z + 1))]\n\nThe (z - 1) terms cancel out:\n\n= lim (z→1) [(z+1) / (z^2 + z + 1)]\n\nNow, evaluate the limit as z approaches 1:\n\n= (1+1) / (1^2 + 1 + 1)\n\n= 2 / (1 + 1 + 1)\n\n= 2 / 3\n\nSo, the residue of the meromorphic function f(z) = (z+1) / (z^3 - 1) at the pole z = 1 is 2/3."
+}

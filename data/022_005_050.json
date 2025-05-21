@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Residue calculus and its applications",
+    "message_1": "Here's a numerical problem related to Residue calculus:\n\nFind the residue of the function f(z) = (z^2 + 1) / (z^2 - 2z + 2) at its pole z = 1 - i.\n\nHint: You can apply the limit formula for the residue at a simple pole: Res(f,z_0) = lim_(z→z_0) [(z - z_0) * f(z)] / (z - z_0).",
+    "message_2": "To find the residue of the function f(z) = (z^2 + 1) / (z^2 - 2z + 2) at its pole z = 1 - i, we can use the limit formula for the residue at a simple pole:\n\nRes(f, z_0) = lim_(z→z_0) [(z - z_0) * f(z)] / (z - z_0)\n\nHere, z_0 = 1 - i. Let's plug in the values and simplify:\n\nRes(f, 1 - i) = lim_(z→(1-i)) [(z - (1 - i)) * ((z^2 + 1) / (z^2 - 2z + 2))] / (z - (1 - i))\n\nThe (z - (1 - i)) terms in the numerator and denominator cancel out:\n\nRes(f, 1 - i) = lim_(z→(1-i)) (z^2 + 1) / (z^2 - 2z + 2)\n\nNow, we can substitute z = 1 - i into the expression:\n\nRes(f, 1 - i) = ((1 - i)^2 + 1) / ((1 - i)^2 - 2(1 - i) + 2)\n\nSimplify the expression:\n\nRes(f, 1 - i) = ((1 - 2i + i^2) + 1) / ((1 - 2i + i^2) - 2 + 2i + 2)\n\nSince i^2 = -1, we can substitute and further simplify:\n\nRes(f, 1 - i) = ((1 - 2i - 1) + 1) / ((1 - 2i - 1) - 2 + 2i + 2)\n\nRes(f, 1 - i) = (-2i + 1) / (2i)\n\nFinally, we have the residue of the function at z = 1 - i:\n\nRes(f, 1 - i) = -1/2 + i/2"
+}

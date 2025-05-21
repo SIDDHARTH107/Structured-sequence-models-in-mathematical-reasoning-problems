@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Polya's enumeration theorem",
+    "message_1": "A manufacturer has 12 identical red balls, 8 identical green balls and 4 identical blue balls. In how many ways can they arrange these balls in a row if no two blue balls are together? (Assume all balls of the same color to be indistinguishable)",
+    "message_2": "To ensure that no two blue balls are together, we can place the blue balls in the gaps between the red and green balls. There are 12 red balls and 8 green balls, making a total of 20 balls. When these balls are arranged in a row, there will be 21 gaps (including the gaps at the beginning and the end).\n\nNow, we need to place the 4 blue balls in these 21 gaps. This can be done in C(21, 4) ways, where C(n, r) denotes the number of combinations of choosing r items from a set of n items.\n\nC(21, 4) = 21! / (4! * (21 - 4)!)\n= 21! / (4! * 17!)\n= (21 * 20 * 19 * 18) / (4 * 3 * 2 * 1)\n= 3465\n\nSo, there are 3465 ways to arrange the balls in a row such that no two blue balls are together."
+}

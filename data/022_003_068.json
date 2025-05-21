@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Complex integration and Cauchy's theorem",
+    "message_1": "Let C be the circle of radius 2 centered at the origin in the complex plane. Evaluate the integral\n\n∫(z^2 + 2)/(z - 1) dz\n\nalong the contour C.",
+    "message_2": "To evaluate the integral, we will use the residue theorem. The residue theorem states that for a simple closed contour C and a meromorphic function f(z),\n\n∫f(z) dz = 2πi * sum of residues of f(z) at the poles inside C\n\nThe function f(z) = (z^2 + 2)/(z - 1) has a pole at z = 1. Since the circle C is centered at the origin with radius 2, the pole z = 1 is inside the contour C.\n\nNow, we need to find the residue of f(z) at z = 1. Since z = 1 is a simple pole, we can find the residue by taking the limit as z approaches 1:\n\nResidue = lim (z -> 1) [(z - 1) * f(z)] = lim (z -> 1) [(z - 1) * (z^2 + 2)/(z - 1)]\n\nThe (z - 1) terms cancel out, so we have:\n\nResidue = lim (z -> 1) (z^2 + 2)\n\nNow, we can substitute z = 1 into the expression:\n\nResidue = (1^2 + 2) = 3\n\nNow, we can apply the residue theorem:\n\n∫(z^2 + 2)/(z - 1) dz = 2πi * (3) = 6πi\n\nSo, the integral of f(z) along the contour C is 6πi."
+}

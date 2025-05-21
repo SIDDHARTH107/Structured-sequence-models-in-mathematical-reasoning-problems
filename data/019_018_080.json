@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Logic",
+    "sub_topic": "Proof theory",
+    "message_1": "Find a proof for the proposition: \"If p and q are propositions, then ~(p /\\ q) iff ~p \\/ ~q.\"",
+    "message_2": "To prove the proposition \"If p and q are propositions, then ~(p /\\ q) iff ~p \\/ ~q,\" we will use a truth table to show that the two expressions are logically equivalent. We will consider all possible truth values for p and q and show that the truth values for ~(p /\\ q) and ~p \\/ ~q are the same in all cases.\n\nHere is the truth table:\n\np | q | p /\\ q | ~(p /\\ q) | ~p | ~q | ~p \\/ ~q\n----------------------------------------------\nT | T |   T   |     F     |  F |  F |    F\nT | F |   F   |     T     |  F |  T |    T\nF | T |   F   |     T     |  T |  F |    T\nF | F |   F   |     T     |  T |  T |    T\n\nIn the table, T represents True and F represents False. We can see that the truth values for ~(p /\\ q) and ~p \\/ ~q are the same in all cases:\n\n1. When p is True and q is True, both expressions are False.\n2. When p is True and q is False, both expressions are True.\n3. When p is False and q is True, both expressions are True.\n4. When p is False and q is False, both expressions are True.\n\nSince the truth values for ~(p /\\ q) and ~p \\/ ~q are the same in all cases, we can conclude that the two expressions are logically equivalent, and the proposition is proven."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Residue calculus and its applications",
+    "message_1": "Compute the residue of the function f(z) = (z^2 + 1) / (z^2 - 2z + 2) at the pole z = 1 - i.",
+    "message_2": "To compute the residue of the function f(z) = (z^2 + 1) / (z^2 - 2z + 2) at the pole z = 1 - i, we first need to find the order of the pole.\n\nThe denominator can be factored as follows:\nz^2 - 2z + 2 = (z - 1)^2 + 1^2 = (z - (1 - i))(z - (1 + i))\n\nSince the pole z = 1 - i is a simple pole (order 1), we can compute the residue using the formula:\n\nRes[f(z), z = 1 - i] = lim (z -> 1 - i) [(z - (1 - i)) * f(z)]\n\nNow, let's substitute f(z) and simplify:\n\nRes[f(z), z = 1 - i] = lim (z -> 1 - i) [(z - (1 - i)) * ((z^2 + 1) / ((z - (1 - i))(z - (1 + i))))]\n\nThe (z - (1 - i)) terms cancel out:\n\nRes[f(z), z = 1 - i] = lim (z -> 1 - i) [(z^2 + 1) / (z - (1 + i))]\n\nNow, we substitute the pole z = 1 - i into the expression:\n\nRes[f(z), z = 1 - i] = ((1 - i)^2 + 1) / ((1 - i) - (1 + i))\n\nSimplify the expression:\n\nRes[f(z), z = 1 - i] = (2 - 2i + 1) / (-2i) = (3 - 2i) / (-2i)\n\nNow, multiply the numerator and denominator by the complex conjugate of the denominator:\n\nRes[f(z), z = 1 - i] = ((3 - 2i) / (-2i)) * ((2i) / (2i)) = (6i + 4) / 4 = (4 + 6i) / 4\n\nFinally, simplify the expression:\n\nRes[f(z), z = 1 - i] = 1 + (3/2)i\n\nSo, the residue of the function f(z) = (z^2 + 1) / (z^2 - 2z + 2) at the pole z = 1 - i is 1 + (3/2)i."
+}

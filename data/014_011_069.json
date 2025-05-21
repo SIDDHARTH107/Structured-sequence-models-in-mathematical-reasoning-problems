@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Transposition ciphers",
+    "message_1": "A message \"HELLO WORLD\" is encrypted using a columnar transposition cipher with the key \"2 4 1 5 3\". Write the cipher text and decrypt the message.",
+    "message_2": "To encrypt the message \"HELLO WORLD\" using a columnar transposition cipher with the key \"2 4 1 5 3\", we first write the message in a grid with the number of columns equal to the length of the key.\n\nKey: 2 4 1 5 3\n\nH E L L O\nW O R L D\n\nNow, we reorder the columns according to the key:\n\nE H L O L\nO W L R D\n\nThe cipher text is obtained by reading the reordered grid row by row:\n\nCipher text: EHL OLO WLR D\n\nTo decrypt the message, we first write the cipher text in a grid with the number of columns equal to the length of the key and the same order as the key:\n\nKey: 2 4 1 5 3\n\nE H L O L\nO W L R D\n\nNow, we reorder the columns back to their original order:\n\nH E L L O\nW O R L D\n\nThe decrypted message is obtained by reading the reordered grid row by row:\n\nDecrypted message: HELLO WORLD"
+}

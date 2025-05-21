@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Set theory",
+    "sub_topic": "Prove that the symmetric difference of two sets is distributive over intersection.",
+    "message_1": "Let A = {1, 2, 3, 4} and B = {2, 3, 4, 5}. Find (A △ B) ∩ {3, 4}.",
+    "message_2": "First, we need to find the symmetric difference (A △ B), which is the set of elements that are in either A or B, but not in both. \n\nA △ B = (A ∪ B) - (A ∩ B)\n\nA ∪ B = {1, 2, 3, 4} ∪ {2, 3, 4, 5} = {1, 2, 3, 4, 5}\nA ∩ B = {1, 2, 3, 4} ∩ {2, 3, 4, 5} = {2, 3, 4}\n\nNow, subtract the intersection from the union:\n\nA △ B = {1, 2, 3, 4, 5} - {2, 3, 4} = {1, 5}\n\nNext, we need to find the intersection of the symmetric difference with the set {3, 4}:\n\n(A △ B) ∩ {3, 4} = {1, 5} ∩ {3, 4} = {}\n\nThe intersection is an empty set, as there are no elements in common between the symmetric difference and the set {3, 4}."
+}

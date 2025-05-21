@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Power series and their convergence",
+    "message_1": "Find the interval of convergence for the power series representation of the function:\n\n$$f(x) = \\sum_{n=0}^\\infty \\frac{(-1)^nx^n}{n!}$$",
+    "message_2": "To find the interval of convergence for the power series representation of the function, we can use the Ratio Test. The Ratio Test states that if the limit as n approaches infinity of the absolute value of the ratio of consecutive terms is less than 1, then the series converges.\n\nLet's find the limit:\n\n$$\\lim_{n\\to\\infty} \\left|\\frac{a_{n+1}}{a_n}\\right| = \\lim_{n\\to\\infty} \\left|\\frac{\\frac{(-1)^{n+1}x^{n+1}}{(n+1)!}}{\\frac{(-1)^nx^n}{n!}}\\right|$$\n\nSimplify the expression:\n\n$$\\lim_{n\\to\\infty} \\left|\\frac{(-1)^{n+1}x^{n+1}(n!)}{(-1)^nx^n(n+1)!}\\right|$$\n\nCancel out the common terms:\n\n$$\\lim_{n\\to\\infty} \\left|\\frac{x}{n+1}\\right|$$\n\nAs n approaches infinity, the limit becomes:\n\n$$\\lim_{n\\to\\infty} \\left|\\frac{x}{n+1}\\right| = 0$$\n\nSince the limit is less than 1, the series converges for all x. Therefore, the interval of convergence is:\n\n$$(-\\infty, \\infty)$$"
+}

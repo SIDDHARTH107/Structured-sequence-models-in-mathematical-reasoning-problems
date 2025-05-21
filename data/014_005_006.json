@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Digital signatures",
+    "message_1": "Let's say that John wants to digitally sign a message using the RSA digital signature scheme, where his private key is (d,n) = (557, 1117) and his public key is (e,n) = (311,1117). If he wants to sign the message m = 15, what is the digital signature S that he should compute?",
+    "message_2": "To compute the digital signature S, John needs to use his private key (d, n) and the message m. In the RSA digital signature scheme, the signature S is calculated as follows:\n\nS = m^d mod n\n\nIn this case, m = 15, d = 557, and n = 1117. Plugging these values into the formula:\n\nS = 15^557 mod 1117\n\nCalculating this value, we get:\n\nS = 107\n\nSo, the digital signature S that John should compute for the message m = 15 is S = 107."
+}

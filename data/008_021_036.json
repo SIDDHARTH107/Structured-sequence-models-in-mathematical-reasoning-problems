@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Solving systems of linear equations with singular matrices",
+    "message_1": "Solve the following system of linear equations using the Gauss Jordan elimination method:\n```\nx + y + z = 10\n2x + 2y + 2z = 20\n3x + 3y + 3z = 30\n```",
+    "message_2": "First, let's write the augmented matrix for the given system of linear equations:\n\n```\n[ 1  1  1 | 10 ]\n[ 2  2  2 | 20 ]\n[ 3  3  3 | 30 ]\n```\n\nNow, we'll perform row operations to get the matrix in its reduced row echelon form (RREF).\n\nStep 1: Divide the second row by 2 and the third row by 3 to get rid of the leading coefficients:\n\n```\n[ 1  1  1 | 10 ]\n[ 1  1  1 | 10 ]\n[ 1  1  1 | 10 ]\n```\n\nStep 2: Subtract the first row from the second and third rows:\n\n```\n[ 1  1  1 | 10 ]\n[ 0  0  0 |  0 ]\n[ 0  0  0 |  0 ]\n```\n\nThe matrix is now in its RREF. The second and third rows represent the equation 0 = 0, which is always true. This means that the system of linear equations has infinitely many solutions.\n\nTo express the general solution, we can rewrite the first row as the equation x + y + z = 10. We can then solve for one variable in terms of the others, for example, z in terms of x and y:\n\nz = 10 - x - y\n\nThe general solution can be written as (x, y, 10 - x - y), where x and y can be any real numbers."
+}

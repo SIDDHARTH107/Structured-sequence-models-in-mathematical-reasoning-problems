@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Logic",
+    "sub_topic": "Linear logic",
+    "message_1": "A math student needs to calculate the maximum number of times a resource can be used between two states, given the following conditions:\n\n- The resource can be used only once in a state.\n- Each use of the resource changes the state.\n- The first state can use the resource twice.\n- The second state can use the resource three times.\n\nWhat is the maximum number of times the resource can be used between the first and second state?",
+    "message_2": "To maximize the number of times the resource can be used, we should alternate between the two states. We start with the first state, which can use the resource twice. After the first use, the state changes to the second state. The second state can use the resource three times, but we will only use it once to change back to the first state. Now, we can use the resource one more time in the first state. After that, we change back to the second state and use the resource two more times.\n\nSo, the maximum number of times the resource can be used is:\n\n2 (first state) + 1 (second state) + 1 (first state) + 2 (second state) = 6 times."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "One-time pad encryption",
+    "message_1": "Assume that you have to send a message \"HELLO\" using the one-time pad encryption method. Your one-time pad key is \"QWERT\", where each character represents a number from 0 to 25 in alphabetical order (A=0, B=1, C=2, and so on). Use modular arithmetic to encrypt the message and write the encrypted message.",
+    "message_2": "To encrypt the message \"HELLO\" using the one-time pad key \"QWERT\", we will use modular arithmetic. First, we need to convert each letter in the message and the key to their corresponding numerical values:\n\nMessage: HELLO\nNumerical values: 7 (H), 4 (E), 11 (L), 11 (L), 14 (O)\n\nKey: QWERT\nNumerical values: 16 (Q), 22 (W), 4 (E), 17 (R), 19 (T)\n\nNow, we will add the numerical values of the message and the key using modular arithmetic (mod 26):\n\n7 (H) + 16 (Q) = 23 (mod 26) => 23 = X\n4 (E) + 22 (W) = 0 (mod 26) => 0 = A\n11 (L) + 4 (E) = 15 (mod 26) => 15 = P\n11 (L) + 17 (R) = 2 (mod 26) => 2 = C\n14 (O) + 19 (T) = 7 (mod 26) => 7 = H\n\nThe encrypted message is \"XAPCH\"."
+}

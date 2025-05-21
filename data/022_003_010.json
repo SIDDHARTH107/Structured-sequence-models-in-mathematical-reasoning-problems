@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Complex integration and Cauchy's theorem",
+    "message_1": "Here's a numerical problem for a math student to solve in Complex analysis:\n\nGiven the function f(z) = z/(z+1), compute the integral of f(z) along the circle |z|=2 using Cauchy's theorem.",
+    "message_2": "To compute the integral of f(z) = z/(z+1) along the circle |z|=2 using Cauchy's theorem, we first need to check if the function is analytic in the region enclosed by the contour. The function has a simple pole at z=-1, which lies inside the circle |z|=2. Therefore, we can use the residue theorem to compute the integral.\n\nThe residue theorem states that the integral of a function around a closed contour is equal to 2πi times the sum of the residues of the function at its poles inside the contour.\n\nIn our case, we have only one pole at z=-1. To find the residue at this pole, we can use the formula for simple poles:\n\nResidue = lim(z->z0) [(z-z0) * f(z)]\n\nHere, z0 = -1. So, we have:\n\nResidue = lim(z->-1) [(z+1) * (z/(z+1))]\n\nThe (z+1) terms cancel out, leaving:\n\nResidue = lim(z->-1) [z] = -1\n\nNow, we can use the residue theorem to compute the integral:\n\nIntegral = 2πi * (sum of residues) = 2πi * (-1) = -2πi\n\nSo, the integral of f(z) along the circle |z|=2 is -2πi."
+}

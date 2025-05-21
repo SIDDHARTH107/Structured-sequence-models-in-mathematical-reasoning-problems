@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Solving systems of linear equations with complex coefficients",
+    "message_1": "Solve the following system of linear equations with complex coefficients using Gaussian elimination:\n\n2x + 3y + 4z = 11i \n\n3x + 5y + 9z = 8 + 3i\n\nx + 2y + 3z = 6i - 3",
+    "message_2": "To solve this system of linear equations using Gaussian elimination, we will first write the augmented matrix:\n\n| 2  3  4 | 11i\n| 3  5  9 | 8 + 3i\n| 1  2  3 | 6i - 3\n\nStep 1: Eliminate x from the second and third rows.\n\nR2 = R2 - (3/2)R1\nR3 = R3 - (1/2)R1\n\n| 2   3    4  |  11i\n| 0   1/2  1/2 | -5/2 + 1/2i\n| 0   1/2  1/2 | -3/2 + 5/2i\n\nStep 2: Eliminate y from the third row.\n\nR3 = R3 - R2\n\n| 2   3    4  |  11i\n| 0   1/2  1/2 | -5/2 + 1/2i\n| 0   0    0  |  1 + 2i\n\nSince the third row represents the equation 0x + 0y + 0z = 1 + 2i, which is a contradiction, there is no solution to this system of linear equations."
+}

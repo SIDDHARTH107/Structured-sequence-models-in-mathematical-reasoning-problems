@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Solving systems of linear equations with singular matrices",
+    "message_1": "Solve the following system of linear equations for x, y and z:\n```\n2x + 3y - 5z = 10\n4x + 6y - 10z = 20\n6x + 9y - 15z = 30\n```\nIs the solution unique or infinite?",
+    "message_2": "First, let's simplify the system of linear equations by dividing each equation by the greatest common divisor of their coefficients:\n\n```\n2x + 3y - 5z = 10  (divide by 2)\n4x + 6y - 10z = 20  (divide by 2)\n6x + 9y - 15z = 30  (divide by 3)\n```\n\nThe simplified system of linear equations is:\n\n```\nx + 1.5y - 2.5z = 5\n2x + 3y - 5z = 10\n2x + 3y - 5z = 10\n```\n\nNow, we can see that the second and third equations are the same. So, we can eliminate one of them:\n\n```\nx + 1.5y - 2.5z = 5\n2x + 3y - 5z = 10\n```\n\nNext, let's eliminate x from the second equation by subtracting the first equation multiplied by 2:\n\n```\nx + 1.5y - 2.5z = 5\n(2x + 3y - 5z) - 2(x + 1.5y - 2.5z) = 10 - 2(5)\n```\n\nThis simplifies to:\n\n```\nx + 1.5y - 2.5z = 5\n0 = 0\n```\n\nThe second equation, 0 = 0, is always true and does not provide any new information about x, y, and z. This means that the system of linear equations is dependent, and there are infinitely many solutions for x, y, and z."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Polya's enumeration theorem",
+    "message_1": "A committee of 5 people must be formed from a group of 10 students, including 4 girls and 6 boys. How many different committees can be formed if it must include at least 2 boys and 2 girls? Use Polya’s enumeration theorem to solve this problem.",
+    "message_2": "Polya's Enumeration Theorem is used for counting problems with symmetries, but in this case, we don't have any symmetries to consider. Instead, we can solve this problem using combinations.\n\nWe have 4 cases to consider:\n\n1. 2 boys and 3 girls\n2. 3 boys and 2 girls\n3. 4 boys and 1 girl\n4. 5 boys and 0 girls (not allowed as we need at least 2 girls)\n\nCase 1: 2 boys and 3 girls\nWe need to choose 2 boys from 6, and 3 girls from 4. Using combinations, we have:\nC(6,2) * C(4,3) = (6!/(2!4!)) * (4!/(3!1!)) = 15 * 4 = 60\n\nCase 2: 3 boys and 2 girls\nWe need to choose 3 boys from 6, and 2 girls from 4. Using combinations, we have:\nC(6,3) * C(4,2) = (6!/(3!3!)) * (4!/(2!2!)) = 20 * 6 = 120\n\nCase 3: 4 boys and 1 girl\nWe need to choose 4 boys from 6, and 1 girl from 4. Using combinations, we have:\nC(6,4) * C(4,1) = (6!/(4!2!)) * (4!/(3!1!)) = 15 * 4 = 60\n\nAdding the results from the three valid cases, we get the total number of different committees that can be formed:\n\n60 (Case 1) + 120 (Case 2) + 60 (Case 3) = 240\n\nSo, there are 240 different committees that can be formed with at least 2 boys and 2 girls."
+}

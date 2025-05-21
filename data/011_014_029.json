@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Graph theory",
+    "message_1": "A graph contains 7 vertices. Each vertex is colored either blue or green. If each vertex is colored randomly with equal probability of being either blue or green, what is the probability that the graph contains at least one blue vertex and at least one green vertex?",
+    "message_2": "There are 2^7 = 128 possible colorings for the 7 vertices, since each vertex can be either blue or green.\n\nThere are two cases where the graph does not contain at least one blue vertex and at least one green vertex: when all vertices are blue, and when all vertices are green. There is only 1 way to color all vertices blue and 1 way to color all vertices green.\n\nSo, there are 128 - 2 = 126 colorings where the graph contains at least one blue vertex and at least one green vertex.\n\nTherefore, the probability that the graph contains at least one blue vertex and at least one green vertex is 126/128 = 63/64."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Statistics",
+    "sub_topic": "Probability distributions",
+    "message_1": "A manufacturer has noticed that on average, 5% of their products are defective. If a customer orders a batch of 100 products, what is the probability that they receive no defective items?",
+    "message_2": "To find the probability of receiving no defective items, we can use the binomial probability formula:\n\nP(x) = (nCx) * (p^x) * (1-p)^(n-x)\n\nwhere n is the number of trials (in this case, the number of products), x is the number of successes (in this case, the number of non-defective items), p is the probability of success (in this case, the probability of a non-defective item), and nCx is the number of combinations of n items taken x at a time.\n\nIn this case, n = 100, x = 100, and p = 1 - 0.05 = 0.95 (since we want the probability of non-defective items).\n\nFirst, let's find nCx:\n\nnCx = 100C100 = 1 (since there's only one way to choose all 100 items)\n\nNow, we can plug in the values into the binomial probability formula:\n\nP(x) = (1) * (0.95^100) * (1-0.95)^(100-100)\nP(x) = (1) * (0.95^100) * (0.05^0)\nP(x) = (0.95^100)\n\nUsing a calculator, we find:\n\nP(x) ≈ 0.0059205292\n\nSo, the probability that a customer receives no defective items in a batch of 100 products is approximately 0.0059 or 0.59%."
+}

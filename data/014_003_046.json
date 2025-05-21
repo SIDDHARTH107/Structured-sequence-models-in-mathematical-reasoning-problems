@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "ElGamal encryption and decryption",
+    "message_1": "Using ElGamal encryption with p=11, g=7, and a private key x=4, encrypt the message m=8 to produce the ciphertext (c1, c2). Then, using the corresponding public key y=10, decrypt the ciphertext to obtain the original message.",
+    "message_2": "First, let's compute the public key y:\ny = g^x mod p\ny = 7^4 mod 11\ny = 2401 mod 11\ny = 10\n\nNow, let's choose a random integer k (1 < k < p-1), for example k = 3.\n\nCompute the ciphertext (c1, c2):\nc1 = g^k mod p\nc1 = 7^3 mod 11\nc1 = 343 mod 11\nc1 = 2\n\nc2 = m * y^k mod p\nc2 = 8 * 10^3 mod 11\nc2 = 8 * 1000 mod 11\nc2 = 8000 mod 11\nc2 = 9\n\nSo, the ciphertext is (c1, c2) = (2, 9).\n\nNow, let's decrypt the ciphertext using the public key y = 10:\n\nCompute the shared secret s:\ns = c1^x mod p\ns = 2^4 mod 11\ns = 16 mod 11\ns = 5\n\nCompute the inverse of s:\ns_inv = s^(p-2) mod p\ns_inv = 5^(11-2) mod 11\ns_inv = 5^9 mod 11\ns_inv = 1953125 mod 11\ns_inv = 7\n\nFinally, compute the original message m:\nm = c2 * s_inv mod p\nm = 9 * 7 mod 11\nm = 63 mod 11\nm = 8\n\nThe decrypted message is m = 8, which is the original message."
+}

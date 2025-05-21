@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Solving systems of linear equations with singular matrices",
+    "message_1": "Here's a numerical problem for the student to solve:\n\nSolve the system of linear equations given below, which has a singular coefficient matrix:\n\nx + 2y - 3z = 6\n\n2x + 4y - 6z = 12\n\n3x + 6y - 9z = 18\n\nShow your steps and interpret your result.",
+    "message_2": "Step 1: Write down the augmented matrix for the given system of linear equations.\n\n| 1  2 -3 |  6 |\n| 2  4 -6 | 12 |\n| 3  6 -9 | 18 |\n\nStep 2: Perform row operations to get the matrix in row-echelon form.\n\nFirst, we can divide the second row by 2 and the third row by 3:\n\n| 1  2 -3 |  6  |\n| 1  2 -3 |  6  |\n| 1  2 -3 |  6  |\n\nNow, subtract the first row from the second and third rows:\n\n| 1  2 -3 |  6 |\n| 0  0  0 |  0 |\n| 0  0  0 |  0 |\n\nStep 3: Interpret the result.\n\nSince the second and third rows are all zeros, we have an infinite number of solutions. The system of linear equations is dependent, and there is no unique solution. The given system can be reduced to a single equation:\n\nx + 2y - 3z = 6\n\nWe can express the variables y and z in terms of x:\n\ny = (3z - x) / 2\n\nz = z (z is a free variable)\n\nNow, we can write the general solution for the system:\n\nx = x\ny = (3z - x) / 2\nz = z\n\nwhere x and z can be any real numbers."
+}

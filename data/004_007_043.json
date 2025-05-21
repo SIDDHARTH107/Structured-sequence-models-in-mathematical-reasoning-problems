@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Calculus",
+    "sub_topic": "Using the chain rule to differentiate composite functions",
+    "message_1": "Solve the following problem using the chain rule: \n\nGiven that f(x) = (4x^2 - 5x)^3 and g(x) = √(5x + 2), find the derivative of f(g(x)) at x = 3.",
+    "message_2": "To find the derivative of f(g(x)), we will use the chain rule. The chain rule states that if we have a composite function h(x) = f(g(x)), then the derivative h'(x) = f'(g(x)) * g'(x).\n\nFirst, let's find the derivatives of f(x) and g(x):\n\nf(x) = (4x^2 - 5x)^3\nf'(x) = 3(4x^2 - 5x)^2 * (8x - 5) (using the chain rule for the power function)\n\ng(x) = √(5x + 2)\ng'(x) = 1/2 * (5x + 2)^(-1/2) * 5 (using the chain rule for the square root function)\n\nNow, we will find the derivative of f(g(x)):\n\nh'(x) = f'(g(x)) * g'(x)\n\nAt x = 3, we have:\n\ng(3) = √(5(3) + 2) = √17\ng'(3) = 1/2 * (5(3) + 2)^(-1/2) * 5 = 5/2√17\n\nf'(g(3)) = 3(4(√17)^2 - 5(√17))^2 * (8(√17) - 5)\nf'(g(3)) = 3(68√17 - 5√17)^2 * (3√17)\n\nNow, we can find h'(3):\n\nh'(3) = f'(g(3)) * g'(3)\nh'(3) = (3(68√17 - 5√17)^2 * (3√17)) * (5/2√17)\n\nh'(3) = (3(63√17)^2 * (3√17)) * (5/2√17)\nh'(3) = (3 * 63^2 * 17) * (15/2)\n\nh'(3) = 1900710\n\nSo, the derivative of f(g(x)) at x = 3 is 1900710."
+}

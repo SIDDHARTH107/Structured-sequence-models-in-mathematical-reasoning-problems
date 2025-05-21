@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Combinatorial game theory",
+    "message_1": "A game starts with 12 coins on the table. Two players take turns removing either 1, 2, or 3 coins. The player who takes the last coin wins. If player 1 goes first, is there a winning strategy for either player? If so, what is it?",
+    "message_2": "Yes, there is a winning strategy for Player 1. \n\nThe strategy is as follows: Player 1 should start by taking 3 coins. This leaves 9 coins on the table. From this point on, Player 1 should mimic Player 2's move in such a way that the total coins removed by both players in each round is always 4. \n\nFor example, if Player 2 takes 1 coin, Player 1 should take 3 coins; if Player 2 takes 2 coins, Player 1 should take 2 coins; and if Player 2 takes 3 coins, Player 1 should take 1 coin. \n\nBy following this strategy, Player 1 ensures that they will always take the last coin and win the game. Here's the breakdown of the game:\n\n1. Player 1 takes 3 coins (9 coins left)\n2. Player 2 takes 1, 2, or 3 coins\n3. Player 1 takes enough coins to make the total removed in this round equal to 4 (5 coins left)\n4. Player 2 takes 1, 2, or 3 coins\n5. Player 1 takes enough coins to make the total removed in this round equal to 4 (1 coin left)\n6. Player 2 has no choice but to take the last coin, and Player 1 wins."
+}

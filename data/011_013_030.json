@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Polya's enumeration theorem",
+    "message_1": "In how many ways can you color the faces of a cube with three colors, red, blue, and green, such that no two adjacent faces have the same color?",
+    "message_2": "To solve this problem, we can use the concept of combinatorics. First, let's consider the top face of the cube. We can color it with any of the three colors: red, blue, or green. \n\nOnce we have chosen a color for the top face, there are two colors left for the bottom face (since it cannot be the same color as the top face). \n\nNow, let's consider the four remaining faces (front, back, left, and right). We have two color options for the front face (it cannot be the same color as the top or bottom faces). Once we have chosen a color for the front face, there is only one color left for the back face (since it cannot be the same color as the top, bottom, or front faces).\n\nFinally, we have two color options for the left face (it cannot be the same color as the top, bottom, front, or back faces). Once we have chosen a color for the left face, there is only one color left for the right face (since it cannot be the same color as the top, bottom, front, back, or left faces).\n\nSo, the total number of ways to color the cube is:\n\n3 (top face) * 2 (bottom face) * 2 (front face) * 1 (back face) * 2 (left face) * 1 (right face) = 24 ways."
+}

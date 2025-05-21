@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Complex integration and Cauchy's theorem",
+    "message_1": "Let $\\gamma$ be the circle centered at the origin with radius $3$, oriented counterclockwise. Evaluate the following complex line integral:\n\n$$\\int_\\gamma \\frac{z^2 + 4iz + 3}{z-2i} dz$$",
+    "message_2": "To evaluate the complex line integral, we will use the Cauchy Integral Formula. The Cauchy Integral Formula states that if $f(z)$ is analytic in a simply connected domain $D$ containing a simple closed curve $\\gamma$ and $z_0$ is a point inside $\\gamma$, then\n\n$$f(z_0) = \\frac{1}{2\\pi i} \\int_\\gamma \\frac{f(z)}{z - z_0} dz$$\n\nIn our case, we have $f(z) = z^2 + 4iz + 3$, and we want to find the integral\n\n$$\\int_\\gamma \\frac{z^2 + 4iz + 3}{z-2i} dz$$\n\nNotice that the function $f(z)$ is analytic everywhere except at $z = 2i$. Since the curve $\\gamma$ is a circle of radius $3$ centered at the origin, it encloses the point $z = 2i$. Thus, we can apply the Cauchy Integral Formula with $z_0 = 2i$:\n\n$$\\int_\\gamma \\frac{z^2 + 4iz + 3}{z-2i} dz = 2\\pi i f(2i)$$\n\nNow we need to find $f(2i)$:\n\n$$f(2i) = (2i)^2 + 4i(2i) + 3 = -4 + 8i + 3 = -1 + 8i$$\n\nSo, the integral is\n\n$$\\int_\\gamma \\frac{z^2 + 4iz + 3}{z-2i} dz = 2\\pi i f(2i) = 2\\pi i (-1 + 8i) = -2\\pi i + 16\\pi$$\n\nTherefore, the value of the complex line integral is $-2\\pi i + 16\\pi$."
+}

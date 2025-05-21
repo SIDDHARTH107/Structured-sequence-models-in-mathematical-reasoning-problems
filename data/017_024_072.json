@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Group theory",
+    "sub_topic": "Show that every group of order 96 is isomorphic to either the cyclic group C96, the alternating group A4 × C4 × C2, or one of the 196 non-abelian groups of order 96.",
+    "message_1": "How many non-isomorphic groups of order 96 exist?",
+    "message_2": "To determine the number of non-isomorphic groups of order 96, we can use the following steps:\n\n1. Find the prime factorization of 96: 96 = 2^5 * 3^1\n2. Determine the number of possible abelian groups: We can use the formula for the number of abelian groups of a given order, which is the product of the partition numbers of the exponents in the prime factorization. The partition numbers for 5 and 1 are 7 and 1, respectively. So, there are 7 * 1 = 7 abelian groups of order 96.\n3. Determine the number of non-abelian groups: To do this, we can use the formula for the number of groups of a given order, which is the number of conjugacy classes of the automorphism group of the underlying group. For 96, this number is 10 (this can be found using software like GAP or Magma, or by consulting a table of group numbers).\n4. Subtract the number of abelian groups from the total number of groups: 10 - 7 = 3\n\nSo, there are 3 non-isomorphic non-abelian groups of order 96."
+}

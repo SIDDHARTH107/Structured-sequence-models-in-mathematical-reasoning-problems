@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Cryptanalysis of Vigenere cipher",
+    "message_1": "If a Vigenere cipher is used with a keyword of \"MATH\" to encode the message \"ATTACKATDAWN\", what would be the resulting ciphertext?",
+    "message_2": "To encode the message \"ATTACKATDAWN\" using a Vigenere cipher with the keyword \"MATH\", we first need to repeat the keyword to match the length of the message:\n\nMessage:   ATTACKATDAWN\nKeyword:   MATHMATHMATHM\n\nNow, we use the Vigenere cipher table to find the corresponding ciphertext for each letter in the message. The table is a 26x26 grid of letters, where the row represents the plaintext letter and the column represents the keyword letter. We find the intersection of the row and column for each letter pair and write down the resulting ciphertext letter.\n\nA (row) + M (column) = M\nT (row) + A (column) = T\nT (row) + T (column) = M\nA (row) + H (column) = H\nC (row) + M (column) = O\nK (row) + A (column) = K\nA (row) + T (column) = T\nT (row) + H (column) = B\nD (row) + M (column) = P\nA (row) + A (column) = A\nW (row) + T (column) = D\nN (row) + H (column) = S\n\nThe resulting ciphertext is: MTMHOKTBPAADS"
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Singularities of complex functions",
+    "message_1": "Find the residue of the complex function f(z) = (z^2 - 4)/(z^3 - 8) at the singularity z = 2.",
+    "message_2": "To find the residue of the function f(z) = (z^2 - 4)/(z^3 - 8) at the singularity z = 2, we first need to factor the numerator and denominator.\n\nThe numerator can be factored as:\nz^2 - 4 = (z - 2)(z + 2)\n\nThe denominator can be factored using the difference of cubes formula:\nz^3 - 8 = (z - 2)(z^2 + 2z + 4)\n\nNow, the function can be rewritten as:\nf(z) = [(z - 2)(z + 2)]/[(z - 2)(z^2 + 2z + 4)]\n\nWe can cancel out the (z - 2) term in both the numerator and denominator:\nf(z) = (z + 2)/(z^2 + 2z + 4)\n\nNow, we need to find the residue at z = 2. Since the singularity at z = 2 is a simple pole, we can find the residue by taking the limit as z approaches 2:\n\nResidue = lim (z -> 2) [(z - 2) * f(z)]\n\nResidue = lim (z -> 2) [(z - 2) * (z + 2)/(z^2 + 2z + 4)]\n\nAfter canceling out the (z - 2) term, we have:\n\nResidue = lim (z -> 2) [(z + 2)/(z^2 + 2z + 4)]\n\nNow, we can substitute z = 2 into the expression:\n\nResidue = (2 + 2)/(2^2 + 2*2 + 4)\nResidue = 4/(4 + 4 + 4)\nResidue = 4/12\nResidue = 1/3\n\nSo, the residue of the complex function f(z) = (z^2 - 4)/(z^3 - 8) at the singularity z = 2 is 1/3."
+}

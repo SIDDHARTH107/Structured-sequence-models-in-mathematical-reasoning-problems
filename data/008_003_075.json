@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Determining the rank of a matrix",
+    "message_1": "Consider the matrix A = \n\\begin{bmatrix}\n1 & 2 & 3 \\\\\n4 & 5 & 6 \\\\\n7 & 8 & 9 \\\\\n\\end{bmatrix}\n\nDetermine the rank of the matrix A.",
+    "message_2": "To determine the rank of matrix A, we need to perform Gaussian elimination and find the number of non-zero rows in the row echelon form.\n\nMatrix A:\n\\begin{bmatrix}\n1 & 2 & 3 \\\\\n4 & 5 & 6 \\\\\n7 & 8 & 9 \\\\\n\\end{bmatrix}\n\nStep 1: Subtract 4 times the first row from the second row, and 7 times the first row from the third row.\n\n\\begin{bmatrix}\n1 & 2 & 3 \\\\\n0 & -3 & -6 \\\\\n0 & -6 & -12 \\\\\n\\end{bmatrix}\n\nStep 2: Divide the second row by -3.\n\n\\begin{bmatrix}\n1 & 2 & 3 \\\\\n0 & 1 & 2 \\\\\n0 & -6 & -12 \\\\\n\\end{bmatrix}\n\nStep 3: Add 6 times the second row to the third row.\n\n\\begin{bmatrix}\n1 & 2 & 3 \\\\\n0 & 1 & 2 \\\\\n0 & 0 & 0 \\\\\n\\end{bmatrix}\n\nThe row echelon form of matrix A has two non-zero rows. Therefore, the rank of matrix A is 2."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Solving systems of linear equations using Cramer's rule",
+    "message_1": "Solve the following system of linear equations using Cramer's rule:\n\n2x + 3y = 7 \n5x - 4y = 1\n\nFind the values of x and y.",
+    "message_2": "To solve the given system of linear equations using Cramer's rule, we first need to find the determinant of the coefficient matrix (D), and then the determinants of the matrices obtained by replacing the columns with the constants (Dx and Dy).\n\nThe coefficient matrix is:\n| 2  3 |\n| 5 -4 |\n\nD = (2 * -4) - (3 * 5) = -8 - 15 = -23\n\nNow, let's find Dx by replacing the first column with the constants (7 and 1):\n| 7  3 |\n| 1 -4 |\n\nDx = (7 * -4) - (3 * 1) = -28 - 3 = -31\n\nSimilarly, find Dy by replacing the second column with the constants (7 and 1):\n| 2  7 |\n| 5  1 |\n\nDy = (2 * 1) - (7 * 5) = 2 - 35 = -33\n\nNow, we can find the values of x and y using Cramer's rule:\n\nx = Dx / D = -31 / -23 = 31/23\ny = Dy / D = -33 / -23 = 33/23\n\nSo, the solution to the system of linear equations is x = 31/23 and y = 33/23."
+}

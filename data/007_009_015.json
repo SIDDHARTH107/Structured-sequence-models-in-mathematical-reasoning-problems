@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Number theory",
+    "sub_topic": "Euler's totient function",
+    "message_1": "For positive integer n, if the value of Euler's totient function at n is 32 and n has exactly 3 distinct prime factors, what is the value of n?",
+    "message_2": "Euler's totient function, φ(n), is the count of positive integers less than or equal to n that are relatively prime to n. For a given n with prime factorization n = p1^a1 * p2^a2 * ... * pk^ak, the formula for Euler's totient function is:\n\nφ(n) = n * (1 - 1/p1) * (1 - 1/p2) * ... * (1 - 1/pk)\n\nIn this case, φ(n) = 32 and n has 3 distinct prime factors, so n = p1^a1 * p2^a2 * p3^a3. We can rewrite the formula for φ(n) as:\n\n32 = n * (1 - 1/p1) * (1 - 1/p2) * (1 - 1/p3)\n\nSince n has 3 distinct prime factors, we can start by considering the smallest primes: 2, 3, and 5. Let p1 = 2, p2 = 3, and p3 = 5. Then, we have:\n\n32 = n * (1 - 1/2) * (1 - 1/3) * (1 - 1/5)\n32 = n * (1/2) * (2/3) * (4/5)\n32 = n * (1/3)\n\nTo make the equation hold, n must be equal to 96. So, the value of n is 96, and its prime factorization is 2^5 * 3^1 * 5^1."
+}

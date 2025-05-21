@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Complex integration and Cauchy's theorem",
+    "message_1": "Using Cauchy's theorem, find the value of the integral along the contour $C=\\{z:|z-i|=2\\}$ for the function $f(z)=\\frac{z^2}{z+4i}$.",
+    "message_2": "To apply Cauchy's theorem, we first need to check if the function $f(z)$ is analytic inside and on the contour $C$. The function $f(z)$ is analytic everywhere except at the point $z=-4i$, which is a simple pole.\n\nNow, let's check if the point $z=-4i$ is inside the contour $C$. The contour $C$ is a circle centered at $i$ with a radius of $2$. The distance between the center of the circle and the point $-4i$ is:\n\n$$\nd = |i - (-4i)| = |5i| = 5\n$$\n\nSince the distance $d$ is greater than the radius of the circle, the point $-4i$ is outside the contour $C$. Therefore, by Cauchy's theorem, the integral of $f(z)$ along the contour $C$ is equal to zero:\n\n$$\n\\oint_C \\frac{z^2}{z+4i} \\, dz = 0\n$$"
+}

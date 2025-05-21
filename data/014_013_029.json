@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Hill cipher",
+    "message_1": "Here's a question for a math student to solve using Hill cipher:\n\nSuppose you want to encode the message \"MATH\" using Hill cipher with a 2x2 matrix key. Your key matrix is:\n```\n| 2  1 |\n| 1  1 |\n```\nWhat is the corresponding encoded message?\n\n(Hint: First convert the letters of the message to their numerical equivalents using A=0, B=1, C=2, ..., Z=25)",
+    "message_2": "First, we need to convert the letters of the message \"MATH\" to their numerical equivalents using A=0, B=1, C=2, ..., Z=25.\n\nM = 12\nA = 0\nT = 19\nH = 7\n\nNow, we will arrange these numbers in a 2x2 matrix form:\n\n| 12  0 |\n| 19  7 |\n\nNext, we will multiply the key matrix with the message matrix:\n\nKey matrix:\n| 2  1 |\n| 1  1 |\n\nMessage matrix:\n| 12  0 |\n| 19  7 |\n\nResult matrix:\n| (2*12 + 1*19)  (2*0 + 1*7)  |\n| (1*12 + 1*19)  (1*0 + 1*7)  |\n\n| 43  7 |\n| 31  7 |\n\nSince we are working with mod 26 (the number of letters in the alphabet), we will take the result matrix modulo 26:\n\n| 43 % 26  7 % 26 |\n| 31 % 26  7 % 26 |\n\n| 17  7 |\n| 5   7 |\n\nNow, we will convert these numbers back to their corresponding letters:\n\n17 = R\n7 = H\n5 = F\n7 = H\n\nSo, the encoded message is \"RHFH\"."
+}

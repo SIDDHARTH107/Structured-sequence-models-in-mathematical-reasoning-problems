@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Number theory",
+    "sub_topic": "Fermat's little theorem",
+    "message_1": "What is the remainder when 11^17 is divided by 5? (Hint: Use Fermat's Little Theorem)",
+    "message_2": "Fermat's Little Theorem states that if p is a prime number, then for any integer a, a^p ≡ a (mod p). In other words, a^p - a is divisible by p.\n\nIn this problem, we want to find the remainder when 11^17 is divided by 5. Since 5 is a prime number, we can apply Fermat's Little Theorem.\n\nAccording to the theorem, 11^5 ≡ 11 (mod 5). Now, we want to find 11^17, which can be written as (11^5)^3 * 11^2. Since 11^5 ≡ 11 (mod 5), we can substitute this equivalence into our expression:\n\n(11^5)^3 * 11^2 ≡ (11)^3 * 11^2 (mod 5)\n\nNow, we can simplify this expression:\n\n11^5 ≡ 11^3 * 11^2 ≡ (11^3) * (11^2) (mod 5)\n\nNow, we can find the remainders of 11^3 and 11^2 when divided by 5:\n\n11^3 = 1331 ≡ 1 (mod 5)\n11^2 = 121 ≡ 1 (mod 5)\n\nNow, we can substitute these remainders back into our expression:\n\n11^17 ≡ (11^3) * (11^2) ≡ 1 * 1 (mod 5)\n\nTherefore, the remainder when 11^17 is divided by 5 is 1."
+}

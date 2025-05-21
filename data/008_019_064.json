@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Solving systems of linear equations with complex coefficients",
+    "message_1": "Here's a numerical problem: \n\nSolve the following system of linear equations with complex coefficients: \n\nx + 2y + 3z = 2 + 3i  \n2x + 5y + 6z = -1 + 4i  \n3x + 6y + 10z = 1 + 7i  \n\nWhere x, y, and z are complex variables.",
+    "message_2": "To solve this system of linear equations, we can use the Gaussian elimination method.\n\nFirst, let's write the augmented matrix for the system:\n\n| 1  2  3 | 2 + 3i |\n| 2  5  6 | -1 + 4i |\n| 3  6 10 | 1 + 7i |\n\nStep 1: Eliminate the coefficients below the first pivot (1).\n\nRow2 = Row2 - 2 * Row1:\n| 1  2   3 |  2 + 3i |\n| 0  1   0 | -5 + 2i |\n| 3  6  10 |  1 + 7i |\n\nRow3 = Row3 - 3 * Row1:\n| 1  2   3 |  2 + 3i |\n| 0  1   0 | -5 + 2i |\n| 0  0   1 | -5 - 2i |\n\nNow we have an upper triangular matrix. We can use back substitution to find the values of x, y, and z.\n\nStep 2: Back substitution\n\nFrom the third row, we have z = -5 - 2i.\n\nFrom the second row, we have y = -5 + 2i.\n\nFrom the first row, we have x = (2 + 3i) - 2(-5 + 2i) - 3(-5 - 2i) = 2 + 3i + 10 - 4i + 15 + 6i = 27 + 5i.\n\nSo, the solution to the system of linear equations is:\n\nx = 27 + 5i\ny = -5 + 2i\nz = -5 - 2i"
+}

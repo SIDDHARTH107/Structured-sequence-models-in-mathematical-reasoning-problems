@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Trigonometry",
+    "sub_topic": "Finding the derivative of a trigonometric function",
+    "message_1": "Find the derivative of y = cos(2x) + sin(3x) at x = π/4.",
+    "message_2": "To find the derivative of y = cos(2x) + sin(3x) with respect to x, we will apply the chain rule.\n\nThe chain rule states that if y = f(g(x)), then the derivative of y with respect to x is dy/dx = f'(g(x)) * g'(x).\n\nFirst, let's find the derivatives of the individual functions:\n\n1. The derivative of cos(2x) with respect to x:\n   Let f(u) = cos(u) and g(x) = 2x, then f'(u) = -sin(u) and g'(x) = 2.\n   Applying the chain rule, we get:\n   d(cos(2x))/dx = -sin(2x) * 2 = -2sin(2x)\n\n2. The derivative of sin(3x) with respect to x:\n   Let f(u) = sin(u) and g(x) = 3x, then f'(u) = cos(u) and g'(x) = 3.\n   Applying the chain rule, we get:\n   d(sin(3x))/dx = cos(3x) * 3 = 3cos(3x)\n\nNow, we can find the derivative of the entire function y = cos(2x) + sin(3x):\ndy/dx = d(cos(2x))/dx + d(sin(3x))/dx = -2sin(2x) + 3cos(3x)\n\nFinally, we will evaluate the derivative at x = π/4:\ndy/dx(π/4) = -2sin(2(π/4)) + 3cos(3(π/4))\n                     = -2sin(π/2) + 3cos(3π/4)\n                     = -2(1) + 3(-√2/2)\n                     = -2 - 3√2/2\n\nSo, the derivative of y = cos(2x) + sin(3x) at x = π/4 is -2 - 3√2/2."
+}

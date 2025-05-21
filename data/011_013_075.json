@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Polya's enumeration theorem",
+    "message_1": "A restaurant has 5 different types of pizzas and a customer wants to order 3 of them. How many different orders can the customer make if they must choose at least one of each type? (Use Polya's enumeration theorem to solve).",
+    "message_2": "Polya's enumeration theorem is not applicable in this case, as it is used for counting the number of distinct colorings of a combinatorial structure under a given group of symmetries. Instead, we can solve this problem using simple combinatorial techniques.\n\nSince the customer must choose at least one of each type, we can break this problem down into cases:\n\nCase 1: The customer chooses 3 different types of pizzas.\nThere are 5 types of pizzas, and the customer needs to choose 3 of them. This can be done in C(5,3) ways, where C(n,k) is the number of combinations of choosing k items from a set of n items. So, C(5,3) = 5!/(3!2!) = 10 ways.\n\nCase 2: The customer chooses 2 types of pizzas, with one type repeated.\nThere are 5 types of pizzas, and the customer needs to choose 2 of them. This can be done in C(5,2) ways. For each of these choices, there is only 1 way to choose the third pizza (the repeated type). So, there are C(5,2) = 5!/(2!3!) = 10 ways for this case.\n\nAdding the number of ways for both cases, we get a total of 10 + 10 = 20 different orders the customer can make."
+}

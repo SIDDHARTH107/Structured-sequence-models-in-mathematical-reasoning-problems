@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Calculus",
+    "sub_topic": "Solving differential equations",
+    "message_1": "Find the general solution of the differential equation y' + 2y = 4e^-x, given that y(0) = 1.",
+    "message_2": "To find the general solution of the given first-order linear differential equation, we can use an integrating factor. The given differential equation is:\n\ny' + 2y = 4e^(-x)\n\nFirst, we find the integrating factor (IF). The integrating factor is given by the formula:\n\nIF = e^(∫P(x)dx)\n\nwhere P(x) is the coefficient of y in the given differential equation. In this case, P(x) = 2. So, we have:\n\nIF = e^(∫2dx) = e^(2x)\n\nNow, we multiply the entire differential equation by the integrating factor:\n\ne^(2x)y' + 2e^(2x)y = 4e^(-x)e^(2x)\n\nSimplify the equation:\n\ne^(2x)y' + 2e^(2x)y = 4e^x\n\nNow, the left-hand side of the equation is the derivative of the product of y and the integrating factor (e^(2x)y) with respect to x:\n\nd/dx (e^(2x)y) = 4e^x\n\nNow, we integrate both sides with respect to x:\n\n∫(d/dx (e^(2x)y)) dx = ∫4e^x dx\n\nIntegrating both sides, we get:\n\ne^(2x)y = 2e^x + C\n\nNow, we solve for y:\n\ny = e^(-2x)(2e^x + C)\n\nNow, we use the initial condition y(0) = 1 to find the value of C:\n\n1 = e^(-2*0)(2e^0 + C)\n\n1 = 1*(2 + C)\n\nC = -1\n\nSo, the general solution of the given differential equation is:\n\ny(x) = e^(-2x)(2e^x - 1)"
+}

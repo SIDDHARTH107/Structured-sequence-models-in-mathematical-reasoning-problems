@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Differential geometry",
+    "sub_topic": "Calculate the exterior derivative of a differential form on a manifold.",
+    "message_1": "Let $\\omega = 3xy\\mathrm{d}x + x^2\\mathrm{d}y$ be a differential form on a 2-dimensional manifold. Compute the exterior derivative $\\mathrm{d}\\omega$.",
+    "message_2": "To compute the exterior derivative $\\mathrm{d}\\omega$, we need to take the partial derivatives of the coefficients of $\\omega$ with respect to the other variables and then subtract them. In this case, we have:\n\n$\\omega = 3xy\\mathrm{d}x + x^2\\mathrm{d}y$\n\nFirst, we compute the partial derivatives:\n\n$\\frac{\\partial}{\\partial x}(3xy) = 3y$\n\n$\\frac{\\partial}{\\partial y}(3xy) = 3x$\n\n$\\frac{\\partial}{\\partial x}(x^2) = 2x$\n\n$\\frac{\\partial}{\\partial y}(x^2) = 0$\n\nNow, we compute the exterior derivative $\\mathrm{d}\\omega$:\n\n$\\mathrm{d}\\omega = \\left(\\frac{\\partial}{\\partial y}(3xy) - \\frac{\\partial}{\\partial x}(x^2)\\right)\\mathrm{d}x\\wedge\\mathrm{d}y$\n\n$\\mathrm{d}\\omega = (3x - 2x)\\mathrm{d}x\\wedge\\mathrm{d}y$\n\n$\\mathrm{d}\\omega = x\\mathrm{d}x\\wedge\\mathrm{d}y$\n\nSo, the exterior derivative of $\\omega$ is:\n\n$\\mathrm{d}\\omega = x\\mathrm{d}x\\wedge\\mathrm{d}y$"
+}

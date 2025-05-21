@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Fourier analysis",
+    "sub_topic": "Using the Fourier transform to analyze the behavior of systems",
+    "message_1": "A signal has a Fourier transform given by:  F(w) = 5jw / (w^2 + 25)\n\nDetermine the time-domain representation of the signal.",
+    "message_2": "To find the time-domain representation of the signal, we need to compute the inverse Fourier transform of F(w). The inverse Fourier transform is given by:\n\nf(t) = (1 / (2π)) * ∫[F(w) * e^(jwt)] dw, where the integral is taken from -∞ to ∞.\n\nGiven F(w) = 5jw / (w^2 + 25), we have:\n\nf(t) = (1 / (2π)) * ∫[(5jw / (w^2 + 25)) * e^(jwt)] dw\n\nTo solve this integral, we can use the residue theorem from complex analysis. First, we need to find the poles of F(w) * e^(jwt). The poles are the values of w for which the denominator becomes zero. In this case, the poles are w = ±5j.\n\nNow, we need to find the residues at these poles. The residue at w = 5j is:\n\nRes[F(w) * e^(jwt), w = 5j] = lim(w→5j) [(w - 5j) * (5jw / (w^2 + 25)) * e^(jwt)]\n\n= (5j * 5j) / (2 * (5j)) = 5/2\n\nSimilarly, the residue at w = -5j is:\n\nRes[F(w) * e^(jwt), w = -5j] = lim(w→-5j) [(w + 5j) * (5jw / (w^2 + 25)) * e^(jwt)]\n\n= (-5j * -5j) / (2 * (-5j)) = -5/2\n\nNow, we can use the residue theorem to compute the inverse Fourier transform:\n\nf(t) = (1 / (2π)) * [2πi * (5/2 * e^(5jt) - 5/2 * e^(-5jt))]\n\nf(t) = 1/2 * (e^(5jt) - e^(-5jt))\n\nThis is the time-domain representation of the signal."
+}

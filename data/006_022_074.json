@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Probability",
+    "sub_topic": "Probability of a certain type of educational outcome occurring in a school",
+    "message_1": "In a school, there are 250 students taking a mathematics exam. The probability of a student passing the exam is 0.6. What is the probability that exactly 150 students will pass the exam?",
+    "message_2": "To find the probability of exactly 150 students passing the exam, we can use the binomial probability formula:\n\nP(X = k) = C(n, k) * p^k * (1-p)^(n-k)\n\nwhere:\n- P(X = k) is the probability of exactly k successes (students passing the exam)\n- C(n, k) is the number of combinations of n items taken k at a time (also written as nCk or \"n choose k\")\n- n is the total number of trials (students taking the exam)\n- k is the number of successes (students passing the exam)\n- p is the probability of success (0.6 in this case)\n- 1-p is the probability of failure (0.4 in this case)\n\nPlugging in the given values:\n\nP(X = 150) = C(250, 150) * 0.6^150 * 0.4^100\n\nFirst, we need to calculate C(250, 150), which is the number of ways to choose 150 students from 250:\n\nC(250, 150) = 250! / (150! * (250-150)!)\nC(250, 150) = 250! / (150! * 100!)\n\nNow, we can calculate the probability:\n\nP(X = 150) = (250! / (150! * 100!)) * 0.6^150 * 0.4^100\n\nUsing a calculator or software to compute the values:\n\nP(X = 150) ≈ 0.0394\n\nSo, the probability that exactly 150 students will pass the exam is approximately 0.0394 or 3.94%."
+}

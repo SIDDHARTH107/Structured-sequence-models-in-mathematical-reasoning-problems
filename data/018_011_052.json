@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Set theory",
+    "sub_topic": "Prove that the Cartesian product of two sets is distributive over intersection.",
+    "message_1": "Let A = {1, 2} and B = {2, 3}. Show that (A ∩ B) × C = (A × C) ∩ (B × C), where C = {4, 5}.",
+    "message_2": "To show that (A ∩ B) × C = (A × C) ∩ (B × C), we will first find the Cartesian products of the sets involved and then find their intersections.\n\n1. Find A ∩ B:\nA ∩ B = {x | x ∈ A and x ∈ B}\nA ∩ B = {2}\n\n2. Find A × C:\nA × C = {(a, c) | a ∈ A and c ∈ C}\nA × C = {(1, 4), (1, 5), (2, 4), (2, 5)}\n\n3. Find B × C:\nB × C = {(b, c) | b ∈ B and c ∈ C}\nB × C = {(2, 4), (2, 5), (3, 4), (3, 5)}\n\n4. Find (A ∩ B) × C:\n(A ∩ B) × C = {(x, c) | x ∈ (A ∩ B) and c ∈ C}\nSince A ∩ B = {2}, we have:\n(A ∩ B) × C = {(2, 4), (2, 5)}\n\n5. Find (A × C) ∩ (B × C):\n(A × C) ∩ (B × C) = {(a, c) | (a, c) ∈ (A × C) and (a, c) ∈ (B × C)}\n(A × C) ∩ (B × C) = {(2, 4), (2, 5)}\n\nNow, we can see that (A ∩ B) × C = {(2, 4), (2, 5)} and (A × C) ∩ (B × C) = {(2, 4), (2, 5)}. Since both sets are equal, we have proven that (A ∩ B) × C = (A × C) ∩ (B × C)."
+}

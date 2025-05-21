@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Ramsey theory",
+    "message_1": "In a party, there are 6 people. What is the minimum number of pairs of people needed to ensure that there are three mutual friends or three mutual strangers among them?",
+    "message_2": "This problem can be solved using the Pigeonhole Principle. Let's consider one person in the party. This person can either be friends or strangers with each of the other 5 people. If we want to ensure that there are three mutual friends or three mutual strangers among the 6 people, we can think of the \"pigeonholes\" as the categories of \"friends\" and \"strangers.\"\n\nNow, let's consider the first person. They have 5 relationships with the other people in the party. By the Pigeonhole Principle, at least 3 of these relationships must fall into the same category (either friends or strangers). Let's assume that there are 3 friends (the case for 3 strangers is similar).\n\nNow, consider the 3 friends of the first person. If any of these 3 friends are friends with each other, then we have a group of 3 mutual friends (the first person and the pair of friends). If none of these 3 friends are friends with each other, then they form a group of 3 mutual strangers.\n\nThus, the minimum number of pairs of people needed to ensure that there are three mutual friends or three mutual strangers among the 6 people is 5 (the number of relationships the first person has with the other 5 people)."
+}

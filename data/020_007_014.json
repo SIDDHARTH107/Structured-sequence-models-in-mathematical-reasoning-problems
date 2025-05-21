@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Optimization",
+    "sub_topic": "Combinatorial optimization",
+    "message_1": "A company has 8 employees and 3 projects to assign to them. Each project requires exactly 3 employees to complete. How many different ways can the company assign the employees to the projects?",
+    "message_2": "To solve this problem, we can use the concept of combinations. We need to choose 3 employees for each project out of the 8 employees.\n\nFirst, we choose 3 employees for Project 1. There are 8 employees to choose from, so there are C(8,3) ways to do this, where C(n,k) represents the number of combinations of choosing k items from a set of n items.\n\nC(8,3) = 8! / (3! * (8-3)!) = 8! / (3! * 5!) = 56\n\nNow, we have 5 employees left to choose from for Project 2. We need to choose 3 employees from these 5.\n\nC(5,3) = 5! / (3! * (5-3)!) = 5! / (3! * 2!) = 10\n\nFinally, the remaining 2 employees will be assigned to Project 3.\n\nSo, the total number of ways to assign the employees to the projects is:\n\n56 (ways to assign employees to Project 1) * 10 (ways to assign employees to Project 2) = 560\n\nThere are 560 different ways to assign the employees to the projects."
+}

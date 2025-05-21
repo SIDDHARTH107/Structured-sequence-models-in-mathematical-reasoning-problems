@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Logic",
+    "sub_topic": "Type theory",
+    "message_1": "Consider the following types:\n- Bool, the type of booleans, which can be either True or False\n- Nat, the type of natural numbers, which includes 0 and all positive integers\n\nLet's define a new type, Pair, which represents a pair of values, where the first value is of type Bool and the second value is of type Nat.\n\nWrite a function fst that takes a value of type Pair as an input and returns the first value in the pair.\n\nFor example, if we have a Pair with values True and 3, then fst should return True.\n\nWrite the function and test it with the input Pair(False, 5). The output should be False.",
+    "message_2": "Here's the function `fst`:\n\n```python\ndef fst(pair):\n    return pair[0]\n```\n\nNow, let's test the function with the input Pair(False, 5):\n\n```python\ninput_pair = (False, 5)\noutput = fst(input_pair)\nprint(output)  # This should print False\n```\n\nWhen you run the code, the output will be `False`, as expected."
+}

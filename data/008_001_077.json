@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Solving systems of linear equations using matrix methods",
+    "message_1": "Solve the system of linear equations using matrix methods: \n\n3x + 5y = 19 \n\n2x - 4y = -10",
+    "message_2": "To solve the system of linear equations using matrix methods, we'll first write the given system in matrix form AX = B, where A is the matrix of coefficients, X is the column matrix of variables, and B is the column matrix of constants.\n\nA = | 3  5 |, X = | x |, B = | 19  |\n    | 2 -4 |      | y |      |-10  |\n\nNow, we'll find the inverse of matrix A (A_inv) and multiply it with matrix B to get the matrix X.\n\nA_inv = 1/det(A) * adj(A)\n\nFirst, we'll find the determinant of A (det(A)):\n\ndet(A) = (3 * -4) - (5 * 2) = -12 - 10 = -22\n\nNow, we'll find the adjoint of A (adj(A)):\n\nadj(A) = | -4 -5 |\n         | -2  3 |\n\nNow, we'll find the inverse of A (A_inv):\n\nA_inv = 1/det(A) * adj(A) = -1/22 * | -4 -5 |\n                                    | -2  3 |\n\nA_inv = | 2/11   5/22 |\n        | 1/11  -3/22 |\n\nNow, we'll multiply A_inv with B to get X:\n\nX = A_inv * B = | 2/11   5/22 | * | 19  |\n                | 1/11  -3/22 |   |-10  |\n\nX = | (2/11 * 19) + (5/22 * -10) |\n     | (1/11 * 19) + (-3/22 * -10) |\n\nX = | 38/11 - 50/22 |\n     | 19/11 + 30/22 |\n\nX = | 26/11 |\n     | 49/22 |\n\nSo, the solution to the system of linear equations is x = 26/11 and y = 49/22."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Residue calculus and its applications",
+    "message_1": "Find the residue of the function f(z) = (z^2 + 1) / (z^3 - z) at its uniquely bounded singularity within the contour C, where C is the positively oriented circle |z| = 2.",
+    "message_2": "To find the residue of the function f(z) = (z^2 + 1) / (z^3 - z) at its uniquely bounded singularity within the contour C, we first need to find the singularities of the function. The singularities occur when the denominator is equal to zero:\n\nz^3 - z = 0\nz(z^2 - 1) = 0\nz(z - 1)(z + 1) = 0\n\nThis gives us three singularities: z = 0, z = 1, and z = -1. Since we are looking for the singularity within the contour C, which is the positively oriented circle |z| = 2, we can see that only z = 0 is inside the contour.\n\nNow, we need to find the residue of the function at z = 0. To do this, we can use the formula for the residue of a simple pole:\n\nRes(f, z0) = lim (z -> z0) [(z - z0) * f(z)]\n\nIn our case, z0 = 0, so:\n\nRes(f, 0) = lim (z -> 0) [(z - 0) * (z^2 + 1) / (z^3 - z)]\n\nWe can simplify this expression by canceling out one z from the numerator and denominator:\n\nRes(f, 0) = lim (z -> 0) [(z^2 + 1) / (z^2(z - 1))]\n\nNow, we can evaluate the limit as z approaches 0:\n\nRes(f, 0) = (0^2 + 1) / (0^2(0 - 1)) = 1 / 0\n\nSince the residue is 1/0, the function has an essential singularity at z = 0, and the residue is undefined."
+}

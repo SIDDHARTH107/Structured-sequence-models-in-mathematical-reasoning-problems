@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "RSA encryption and decryption",
+    "message_1": "Suppose you want to use RSA to encrypt a message to send to your friend. Your friend's public key is (5, 77). If your message in plaintext is the number 30, what is the corresponding ciphertext that you will send?",
+    "message_2": "To encrypt the message using RSA, you need to use the public key (e, n) which is (5, 77) in this case. The plaintext message is 30. The encryption formula for RSA is:\n\nciphertext = (plaintext^e) mod n\n\nPlugging in the values:\n\nciphertext = (30^5) mod 77\n\nFirst, calculate 30^5:\n\n30^5 = 24300000\n\nNow, find the result modulo 77:\n\nciphertext = 24300000 mod 77 = 66\n\nSo, the corresponding ciphertext that you will send is 66."
+}

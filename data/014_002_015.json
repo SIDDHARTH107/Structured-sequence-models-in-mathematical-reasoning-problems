@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Diffie-Hellman key exchange",
+    "message_1": "Compute the shared secret key between two parties, A and B, using Diffie-Hellman key exchange. The prime number used is 11 and the primitive root is 2. Assume that A chooses a secret integer a = 3 and B chooses a secret integer b = 4. A sends (2^3) mod 11 = 8 to B, and B sends (2^4) mod 11 = 5 to A. Determine the shared secret key between A and B.",
+    "message_2": "To compute the shared secret key, both A and B will use the numbers they received from each other and raise them to the power of their own secret integers, then take the result modulo 11.\n\nFor A:\nShared secret key = (B's number)^a mod 11 = 5^3 mod 11 = 125 mod 11 = 4\n\nFor B:\nShared secret key = (A's number)^b mod 11 = 8^4 mod 11 = 4096 mod 11 = 4\n\nBoth A and B have computed the same shared secret key, which is 4."
+}

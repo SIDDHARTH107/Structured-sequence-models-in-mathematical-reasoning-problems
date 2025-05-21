@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Multinomial coefficients",
+    "message_1": "In a store, there are 8 different types of fruits. If a customer wants to buy a total of 20 fruits, how many ways can the customer choose the fruits if they want to buy at least 2 of each type? (Hint: Use Multinomial coefficients)",
+    "message_2": "Since the customer wants to buy at least 2 of each type of fruit, we can start by giving them 2 fruits of each type. This means they have already chosen 2 * 8 = 16 fruits. Now, they need to choose 4 more fruits from the 8 types.\n\nWe can use the stars and bars method to solve this problem. We have 4 \"stars\" (fruits) to distribute among 8 \"bars\" (fruit types). To do this, we need to place 3 dividers among the 4 stars. This will give us 7 positions in total (4 stars + 3 dividers).\n\nWe can use the multinomial coefficient formula to calculate the number of ways to choose the fruits:\n\nC(n + k - 1, k - 1) = C(7, 3)\n\nC(7, 3) = 7! / (3! * (7 - 3)!)\n\nC(7, 3) = 7! / (3! * 4!)\n\nC(7, 3) = 5040 / (6 * 24)\n\nC(7, 3) = 5040 / 144\n\nC(7, 3) = 35\n\nSo, there are 35 ways for the customer to choose the fruits if they want to buy at least 2 of each type."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Cryptanalysis of Vigenere cipher",
+    "message_1": "A Vigenere cipher uses a keyword of \"MATH\" to encrypt a message. If the message \"CALCULUS\" is encrypted using the Vigenere cipher with the given keyword, what is the resulting ciphertext?",
+    "message_2": "To encrypt a message using the Vigenère cipher, we need to use the Vigenère square (or tableau) which consists of 26 rows of shifted alphabets. The keyword is repeated to match the length of the message, and each letter of the message is shifted by the corresponding letter of the keyword.\n\nIn this case, the keyword is \"MATH\" and the message is \"CALCULUS\". First, we repeat the keyword to match the length of the message: \"MATHMATH\".\n\nNow, we use the Vigenère square to encrypt each letter of the message:\n\nC (shifted by M) -> O\nA (shifted by A) -> A\nL (shifted by T) -> X\nC (shifted by H) -> I\nU (shifted by M) -> E\nL (shifted by A) -> L\nU (shifted by T) -> B\nS (shifted by H) -> Y\n\nSo, the resulting ciphertext is \"OAXIELBY\"."
+}

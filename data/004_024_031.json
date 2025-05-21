@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Calculus",
+    "sub_topic": "Using the chain rule to differentiate implicit functions",
+    "message_1": "A math student needs to differentiate the function y = sin(2x + y) with respect to x using the chain rule.",
+    "message_2": "To differentiate the function y = sin(2x + y) with respect to x using the chain rule, we first identify the inner function and the outer function. In this case, the inner function is u = 2x + y, and the outer function is sin(u).\n\nNow, we differentiate the outer function with respect to the inner function, and then multiply by the derivative of the inner function with respect to x.\n\nOuter function derivative: d(sin(u))/du = cos(u)\nInner function derivative: du/dx = d(2x + y)/dx = 2 + dy/dx\n\nNow, we apply the chain rule:\n\ndy/dx = d(sin(u))/dx = (d(sin(u))/du) * (du/dx) = cos(u) * (2 + dy/dx)\n\nSince u = 2x + y, we have:\n\ndy/dx = cos(2x + y) * (2 + dy/dx)\n\nNow, we need to solve for dy/dx:\n\ndy/dx - cos(2x + y) * dy/dx = 2 * cos(2x + y)\n\nFactor out dy/dx:\n\ndy/dx * (1 - cos(2x + y)) = 2 * cos(2x + y)\n\nNow, divide both sides by (1 - cos(2x + y)):\n\ndy/dx = 2 * cos(2x + y) / (1 - cos(2x + y))"
+}

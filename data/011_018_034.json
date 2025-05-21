@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Block designs",
+    "message_1": "A sports league has 10 teams. In how many ways can the league schedule 45 games, such that each team plays exactly 9 games and each pair of teams plays against each other exactly once?",
+    "message_2": "In this sports league, there are 10 teams, and each team plays 9 games. Since each game involves 2 teams, there are a total of 10 * 9 / 2 = 45 games to be played. We want to find the number of ways to schedule these 45 games such that each pair of teams plays against each other exactly once.\n\nThis is a combinatorial problem, and we can use the concept of combinations to solve it. A combination is a selection of items from a larger set, where the order of the items does not matter. In this case, we want to find the number of ways to choose 45 games from all possible pairings of the 10 teams.\n\nThere are C(n, k) = n! / (k!(n-k)!) ways to choose k items from a set of n items, where n! (n factorial) is the product of all positive integers up to n, and C(n, k) is the number of combinations.\n\nIn this problem, we have n = 10 teams and we want to choose k = 2 teams for each game. So, we have:\n\nC(10, 2) = 10! / (2!(10-2)!)\n          = 10! / (2! * 8!)\n          = (10 * 9 * 8!)/(2 * 8!)\n          = (10 * 9)/2\n          = 45\n\nSo, there are 45 ways to schedule the 45 games such that each team plays exactly 9 games and each pair of teams plays against each other exactly once."
+}

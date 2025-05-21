@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Traveling salesman problem",
+    "message_1": "A salesman has to visit 5 cities in a specific order, starting from City 1 and then returning back to City 1, covering the minimum distance possible. The distances between cities are given in the following table:\n\n|City  |1    |2    |3    |4    |5    |\n|------|----|----|----|----|----|\n|1     |0     |12   |10   |19   |8     |\n|2     |12   |0     |3     |7     |2     |\n|3     |10   |3     |0     |6     |20   |\n|4     |19   |7     |6     |0     |4     |\n|5     |8     |2     |20   |4     |0     |\n\nWhat is the minimum distance the salesman can travel to visit all cities and return back to City 1?",
+    "message_2": "Since the salesman has to visit the cities in a specific order, we can simply follow the order and calculate the total distance.\n\nThe order is: City 1 → City 2 → City 3 → City 4 → City 5 → City 1\n\nThe distance between the cities in this order is:\n\nCity 1 to City 2: 12\nCity 2 to City 3: 3\nCity 3 to City 4: 6\nCity 4 to City 5: 4\nCity 5 to City 1: 8\n\nNow, we add up these distances to find the minimum distance the salesman can travel:\n\n12 + 3 + 6 + 4 + 8 = 33\n\nSo, the minimum distance the salesman can travel to visit all cities and return back to City 1 is 33 units."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "RSA encryption and decryption",
+    "message_1": "Suppose you want to communicate a message to your friend using RSA encryption. Given that your friend's public key is (e=5, n=77), and your message (in numerical form) is 14, what is the ciphertext that you will send to your friend using RSA?",
+    "message_2": "To encrypt the message using RSA, you need to use the public key (e, n) provided. The encryption formula is:\n\nciphertext = (message^e) mod n\n\nIn this case, the message is 14, e is 5, and n is 77. Plugging in the values:\n\nciphertext = (14^5) mod 77\n\nCalculating 14^5:\n\n14^5 = 537824\n\nNow, find the result modulo 77:\n\nciphertext = 537824 mod 77 = 63\n\nSo, the ciphertext you will send to your friend using RSA encryption is 63."
+}

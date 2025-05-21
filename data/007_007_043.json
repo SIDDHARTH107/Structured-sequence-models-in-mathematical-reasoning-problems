@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Number theory",
+    "sub_topic": "Diophantine equations",
+    "message_1": "Solve the Diophantine equation 3x + 7y = 25, where x and y are integers.",
+    "message_2": "To solve the Diophantine equation 3x + 7y = 25, we first find a particular solution (x0, y0) and then use the general form to find all integer solutions.\n\nStep 1: Find a particular solution (x0, y0)\nWe can use the Extended Euclidean Algorithm to find the greatest common divisor (GCD) of 3 and 7 and their corresponding coefficients.\n\ngcd(3, 7) = 1\n1 = 3*(-2) + 7*1\n\nSo, a particular solution is x0 = -50 and y0 = 25.\n\nStep 2: Use the general form to find all integer solutions\nThe general form for the Diophantine equation ax + by = c is:\n\nx = x0 + (b/gcd(a, b)) * t\ny = y0 - (a/gcd(a, b)) * t\n\nwhere t is an integer.\n\nIn our case, a = 3, b = 7, and gcd(a, b) = 1. So the general form is:\n\nx = -50 + 7t\ny = 25 - 3t\n\nNow, we can find all integer solutions by plugging in different values of t. For example, if t = 1, we get x = -43 and y = 22. If t = 2, we get x = -36 and y = 19, and so on."
+}

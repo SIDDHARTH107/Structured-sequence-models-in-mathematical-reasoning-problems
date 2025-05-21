@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Combinatorial identities",
+    "message_1": "How many different ways can you rearrange the letters in the word \"MATHEMATICS\" such that the three letter \"M\"s are together?",
+    "message_2": "First, let's treat the three M's as a single unit (MMM). So now we have 8 distinct items to arrange: MMM, A, T, H, E, A, T, I, C, and S.\n\nThere are 9! ways to arrange these 9 items, but we need to account for the repetition of the letters A and T. To do this, we divide by the number of ways to arrange the 2 A's and the 2 T's.\n\nSo, the number of ways to arrange these 9 items is (9!)/(2! * 2!) = 181440.\n\nNow, we need to consider that the three M's can be arranged among themselves in 3! ways. So, the total number of ways to rearrange the letters in the word \"MATHEMATICS\" such that the three M's are together is:\n\n181440 * 3! = 181440 * 6 = 1088640."
+}

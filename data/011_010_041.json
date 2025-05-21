@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Catalan numbers",
+    "message_1": "On a 5 x 5 board, what is the number of ways to draw a path from the bottom left corner to the top right corner using only moves up or to the right, such that the path never crosses the diagonal of the board?",
+    "message_2": "To solve this problem, we can use the concept of Catalan numbers. The Catalan numbers are a sequence of natural numbers that have many applications in combinatorial mathematics, including counting certain types of lattice paths.\n\nThe nth Catalan number is given by the formula:\n\nC_n = (1/(n+1)) * (2n choose n) = (2n!)/((n+1)!n!)\n\nFor a 5 x 5 board, we have a 4 x 4 grid of internal points, so we need to find the 4th Catalan number:\n\nC_4 = (1/(4+1)) * (2*4 choose 4) = (1/5) * (8!)/((4+1)!4!)\nC_4 = (1/5) * (8!)/(5!4!)\nC_4 = (1/5) * (8*7*6*5*4*3*2*1)/((5*4*3*2*1)*(4*3*2*1))\nC_4 = (1/5) * (8*7*6)\nC_4 = 14\n\nSo, there are 14 ways to draw a path from the bottom left corner to the top right corner using only moves up or to the right, such that the path never crosses the diagonal of the board."
+}

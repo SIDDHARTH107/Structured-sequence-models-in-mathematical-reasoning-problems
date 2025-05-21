@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Numerical analysis",
+    "sub_topic": "Solving systems of linear equations using Gaussian elimination",
+    "message_1": "Consider the following system of linear equations:\n\n2x + 3y + z = 7\n\n3x + 2y - 4z = -12\n\nx - 5y + 2z = 1\n\nUse Gaussian elimination to solve for x, y, and z.",
+    "message_2": "To solve the system of linear equations using Gaussian elimination, we will perform a series of row operations to transform the augmented matrix into its reduced row echelon form (RREF). The augmented matrix for the given system is:\n\n|  2  3  1 |  7  |\n|  3  2 -4 | -12 |\n|  1 -5  2 |  1  |\n\nStep 1: Swap Row 1 and Row 3 to get the 1 in the top-left corner:\n\n|  1 -5  2 |  1  |\n|  3  2 -4 | -12 |\n|  2  3  1 |  7  |\n\nStep 2: Replace Row 2 with Row 2 - 3 * Row 1 and Row 3 with Row 3 - 2 * Row 1:\n\n|  1 -5  2 |   1  |\n|  0 17 -10| -15 |\n|  0 13 -3 |   5  |\n\nStep 3: Divide Row 2 by 17:\n\n|  1 -5  2 |   1  |\n|  0  1 -10/17 | -15/17 |\n|  0 13 -3 |   5  |\n\nStep 4: Replace Row 1 with Row 1 + 5 * Row 2 and Row 3 with Row 3 - 13 * Row 2:\n\n|  1  0  0 |  2  |\n|  0  1 -10/17 | -15/17 |\n|  0  0  1 |   3  |\n\nStep 5: Replace Row 2 with Row 2 + (10/17) * Row 3:\n\n|  1  0  0 |  2  |\n|  0  1  0 | -1  |\n|  0  0  1 |  3  |\n\nThe reduced row echelon form corresponds to the system of equations:\n\nx = 2\ny = -1\nz = 3\n\nSo, the solution for the given system of linear equations is x = 2, y = -1, and z = 3."
+}

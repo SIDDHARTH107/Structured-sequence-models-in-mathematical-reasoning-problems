@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Multinomial coefficients",
+    "message_1": "In a certain committee of 5 members, there are 2 teachers, 1 parent, and 2 students. How many ways can we choose a subgroup of 3 members, consisting of 1 teacher, 1 parent, and 1 student?",
+    "message_2": "To choose a subgroup of 3 members consisting of 1 teacher, 1 parent, and 1 student, we can use the combination formula:\n\nC(n, r) = n! / (r!(n-r)!)\n\nwhere n is the total number of items, r is the number of items to choose, and ! denotes the factorial.\n\nFor the teacher, there are 2 teachers to choose from, so n = 2 and r = 1:\n\nC(2, 1) = 2! / (1!(2-1)!) = 2 / (1*1) = 2\n\nFor the parent, there is only 1 parent to choose from, so n = 1 and r = 1:\n\nC(1, 1) = 1! / (1!(1-1)!) = 1 / (1*1) = 1\n\nFor the student, there are 2 students to choose from, so n = 2 and r = 1:\n\nC(2, 1) = 2! / (1!(2-1)!) = 2 / (1*1) = 2\n\nNow, to find the total number of ways to choose the subgroup, we multiply the combinations for each category:\n\nTotal ways = (ways to choose teacher) * (ways to choose parent) * (ways to choose student)\nTotal ways = 2 * 1 * 2 = 4\n\nSo there are 4 ways to choose a subgroup of 3 members, consisting of 1 teacher, 1 parent, and 1 student."
+}

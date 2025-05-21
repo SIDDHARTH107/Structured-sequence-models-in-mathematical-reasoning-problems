@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Game theory",
+    "sub_topic": "Stag Hunt",
+    "message_1": "In a Stag Hunt game, player 1 and player 2 each have two options: to hunt a stag together and get a reward of 10 points, or to hunt a hare individually and get a reward of 5 points. If one player chooses to hunt a hare while the other chooses to hunt a stag, the player who hunted the hare gets nothing and the player who hunted the stag gets 5 points. If both players choose to hunt a hare, they each get 2 points. \n\nPlayer 1's payoff matrix is as follows:\n\n|             | Player 2: Stag | Player 2: Hare |\n|-------------|----------------|----------------|\n| Player 1: Stag | 10, 10         | 0, 5           |\n| Player 1: Hare | 5, 0           | 2, 2           |\n\nAssume that Player 2 has already chosen to hunt a stag. What strategy should Player 1 choose in order to maximize their payoff?",
+    "message_2": "Since Player 2 has already chosen to hunt a stag, we can focus on the first column of Player 1's payoff matrix:\n\n|             | Player 2: Stag |\n|-------------|----------------|\n| Player 1: Stag | 10, 10         |\n| Player 1: Hare | 5, 0           |\n\nTo maximize their payoff, Player 1 should choose to hunt a stag as well, as this will result in a payoff of 10 points for Player 1, compared to the 5 points they would get if they chose to hunt a hare."
+}

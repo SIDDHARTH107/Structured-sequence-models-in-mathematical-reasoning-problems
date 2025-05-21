@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Residue calculus and its applications",
+    "message_1": "Find the residue of the function f(z) = (2z^3 + z^2 + 3)/(z^4 - 1) at the singular point z = -1.",
+    "message_2": "To find the residue of the function f(z) at the singular point z = -1, we first need to rewrite the function as a Laurent series around z = -1. Since z^4 - 1 = (z^2 + 1)(z - 1)(z + 1), we can perform partial fraction decomposition to rewrite f(z) as a sum of simpler fractions:\n\nf(z) = (2z^3 + z^2 + 3)/(z^4 - 1) = A/(z + 1) + B/(z - 1) + C/(z^2 + 1)\n\nTo find the coefficients A, B, and C, we can clear the denominators:\n\n2z^3 + z^2 + 3 = A(z - 1)(z^2 + 1) + B(z + 1)(z^2 + 1) + C(z + 1)(z - 1)\n\nNow, we can solve for A, B, and C by plugging in specific values of z:\n\n1. z = -1: 2(-1)^3 + (-1)^2 + 3 = -2 + 1 + 3 = 2 = B(-1 + 1)(-1^2 + 1) => B = 0\n2. z = 1: 2(1)^3 + (1)^2 + 3 = 2 + 1 + 3 = 6 = A(1 - 1)(1^2 + 1) => A = 0\n3. z^2 = -1: z = i or z = -i (we can choose either one, let's choose z = i): 2(i)^3 + (i)^2 + 3 = -2i - 1 + 3 = 2 + 2i = C(i + 1)(i - 1) => C = 1\n\nNow we have:\n\nf(z) = 1/(z^2 + 1)\n\nSince A = 0 and B = 0, there are no terms in the Laurent series with negative powers of (z + 1). Therefore, the residue of f(z) at the singular point z = -1 is 0."
+}

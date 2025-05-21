@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "ElGamal encryption and decryption",
+    "message_1": "Suppose that Alice wants to send a secret message to Bob using the ElGamal encryption scheme. Alice's public key is (p=31, g=5, y=16) and her secret key is a=3. If Alice encrypts the message m=8, what is the resulting ciphertext?",
+    "message_2": "To encrypt the message m=8 using the ElGamal encryption scheme, we need to choose a random integer k (1 ≤ k ≤ p-2). Let's choose k=4 for this example.\n\nThe ciphertext will be a pair of integers (c1, c2), where:\n\nc1 = g^k mod p\nc2 = (m * y^k) mod p\n\nUsing Alice's public key (p=31, g=5, y=16) and the chosen k=4, we can compute the ciphertext:\n\nc1 = 5^4 mod 31 = 625 mod 31 = 1\nc2 = (8 * 16^4) mod 31 = (8 * 65536) mod 31 = 524288 mod 31 = 6\n\nSo, the resulting ciphertext is (c1, c2) = (1, 6)."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Bell numbers",
+    "message_1": "Suppose a company has 10 employees and wants to assign them to 4 different teams such that each team has at least one employee. How many possible ways are there to form the teams? (Hint: Use the Bell numbers formula.)",
+    "message_2": "The Bell number formula is used to count the number of ways to partition a set into non-empty subsets. In this case, we have a set of 10 employees and want to partition them into 4 non-empty teams.\n\nLet B(n, k) denote the number of ways to partition a set of n elements into k non-empty subsets. Then, we can use the following recurrence relation:\n\nB(n, k) = k * B(n-1, k) + B(n-1, k-1)\n\nwith base cases B(0, 0) = 1 and B(n, 0) = 0 for n > 0.\n\nWe want to find B(10, 4). Using the recurrence relation, we can compute the values in a table:\n\nB(0, 0) = 1\nB(1, 1) = 1\nB(2, 1) = 1\nB(2, 2) = 2\nB(3, 1) = 1\nB(3, 2) = 4\nB(3, 3) = 5\nB(4, 1) = 1\nB(4, 2) = 9\nB(4, 3) = 15\nB(4, 4) = 15\nB(5, 1) = 1\nB(5, 2) = 16\nB(5, 3) = 40\nB(5, 4) = 61\nB(6, 1) = 1\nB(6, 2) = 25\nB(6, 3) = 90\nB(6, 4) = 151\nB(7, 1) = 1\nB(7, 2) = 36\nB(7, 3) = 196\nB(7, 4) = 347\nB(8, 1) = 1\nB(8, 2) = 49\nB(8, 3) = 343\nB(8, 4) = 793\nB(9, 1) = 1\nB(9, 2) = 64\nB(9, 3) = 576\nB(9, 4) = 1705\nB(10, 1) = 1\nB(10, 2) = 81\nB(10, 3) = 972\nB(10, 4) = 3025\n\nSo, there are 3025 possible ways to form the 4 teams with at least one employee in each team."
+}

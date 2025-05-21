@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Optimization",
+    "sub_topic": "Mixed-integer programming",
+    "message_1": "A furniture company is designing a new desk with a storage cabinet. The cabinet can have either 2 or 3 shelves, and the desk can have a keyboard tray or not. The company wants to know the optimal design that maximizes storage space while minimizing cost. \n\nThe cost of the desk without a keyboard tray is $150 and with a keyboard tray is $175. The cost of the storage cabinet with 2 shelves is $80 and with 3 shelves is $100. The maximum budget for the product is $500. \n\nIf x represents the number of desks with a keyboard tray and y represents the number of desks without a keyboard tray, write the mixed-integer program to maximize the number of shelves in the storage cabinets while meeting the budget constraint.",
+    "message_2": "Let s1 represent the number of storage cabinets with 2 shelves and s2 represent the number of storage cabinets with 3 shelves. We want to maximize the total number of shelves, which can be represented as the objective function:\n\nMaximize: Z = 2s1 + 3s2\n\nSubject to the budget constraint:\n\n175x + 150y + 80s1 + 100s2 <= 500\n\nSince the number of desks and storage cabinets must be non-negative integers, we have the following constraints:\n\nx, y, s1, s2 >= 0 and x, y, s1, s2 ∈ Z\n\nThe mixed-integer program can be summarized as:\n\nMaximize: Z = 2s1 + 3s2\nSubject to:\n175x + 150y + 80s1 + 100s2 <= 500\nx, y, s1, s2 >= 0\nx, y, s1, s2 ∈ Z"
+}

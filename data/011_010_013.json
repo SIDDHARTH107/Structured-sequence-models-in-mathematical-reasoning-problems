@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Catalan numbers",
+    "message_1": "A national park has 10 lookout towers, and a park ranger needs to visit each tower exactly once during their shift. In how many ways can the ranger plan their route to visit all towers if they are not allowed to visit a tower more than once consecutively? (Hint: the answer involves Catalan numbers!)",
+    "message_2": "This problem can be solved using Catalan numbers. The number of ways to visit the 10 lookout towers without visiting a tower more than once consecutively can be represented by the (n-1)th Catalan number, where n is the number of towers. The formula for the nth Catalan number is:\n\nC(n) = (1/(n+1)) * (2n choose n)\n\nIn this case, n = 10 - 1 = 9. So, we need to find the 9th Catalan number:\n\nC(9) = (1/(9+1)) * (2*9 choose 9)\nC(9) = (1/10) * (18 choose 9)\n\nNow, we need to calculate the binomial coefficient (18 choose 9):\n\n(18 choose 9) = 18! / (9! * 9!)\n\nPlugging in the factorials:\n\n(18 choose 9) = (18 * 17 * 16 * 15 * 14 * 13 * 12 * 11 * 10 * 9 * 8 * 7 * 6 * 5 * 4 * 3 * 2 * 1) / ((9 * 8 * 7 * 6 * 5 * 4 * 3 * 2 * 1) * (9 * 8 * 7 * 6 * 5 * 4 * 3 * 2 * 1))\n\nSimplifying the expression:\n\n(18 choose 9) = 48620\n\nNow, we can plug this back into the Catalan number formula:\n\nC(9) = (1/10) * 48620\nC(9) = 4862\n\nSo, there are 4,862 ways for the park ranger to plan their route to visit all 10 lookout towers without visiting a tower more than once consecutively."
+}

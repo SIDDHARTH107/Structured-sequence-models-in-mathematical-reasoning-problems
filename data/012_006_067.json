@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Graph theory",
+    "sub_topic": "Identifying the Eulerian and Hamiltonian paths in a graph.",
+    "message_1": "Consider the following graph:\n\n```\n   A -- B -- C -- D -- E  \n   |         |         |  \n   F -- G -- H -- I -- J  \n```\n\nDetermine if this graph has an Eulerian path and/or Hamiltonian path. If it has an Eulerian path, give the path. If it has a Hamiltonian path, give the path. If it does not have either, explain why not.",
+    "message_2": "An Eulerian path is a path in a graph that visits every edge exactly once. A graph has an Eulerian path if and only if it has at most two vertices with an odd degree (number of edges connected to the vertex). In this graph, we have the following degrees for each vertex:\n\nA: 2\nB: 3\nC: 3\nD: 3\nE: 2\nF: 2\nG: 3\nH: 3\nI: 3\nJ: 2\n\nThere are six vertices with an odd degree (B, C, D, G, H, I), so this graph does not have an Eulerian path.\n\nA Hamiltonian path is a path in a graph that visits every vertex exactly once. In this graph, we can find a Hamiltonian path:\n\nA - B - C - D - E - J - I - H - G - F\n\nSo, this graph has a Hamiltonian path but does not have an Eulerian path."
+}

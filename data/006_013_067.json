@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Probability",
+    "sub_topic": "Probability of a certain type of natural disaster occurring in a region",
+    "message_1": "On average, a category 5 hurricane occurs in a certain region once every 10 years. What is the probability that at least one category 5 hurricane will occur in the next 5 years in that region?",
+    "message_2": "To solve this problem, we can use the complementary probability. Instead of finding the probability of at least one category 5 hurricane occurring in the next 5 years, we can find the probability of no category 5 hurricanes occurring in the next 5 years and then subtract that from 1.\n\nThe probability of a category 5 hurricane occurring in any given year is 1/10, since it occurs once every 10 years. Therefore, the probability of a category 5 hurricane not occurring in any given year is 1 - 1/10 = 9/10.\n\nFor no category 5 hurricanes to occur in the next 5 years, this has to happen for each of the 5 years. The probability of this happening is (9/10)^5.\n\nNow, to find the probability of at least one category 5 hurricane occurring in the next 5 years, we subtract the probability of no category 5 hurricanes occurring from 1:\n\n1 - (9/10)^5 ≈ 1 - 0.59049 ≈ 0.40951\n\nSo, the probability of at least one category 5 hurricane occurring in the next 5 years in that region is approximately 0.40951 or 40.951%."
+}

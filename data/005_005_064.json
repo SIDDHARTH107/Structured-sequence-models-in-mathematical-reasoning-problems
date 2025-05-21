@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Statistics",
+    "sub_topic": "Probability distributions",
+    "message_1": "A manufacturer produces light bulbs that have a lifespan of 900 hours. The number of hours a light bulb lasts is modeled by an exponential distribution. What is the probability that a randomly selected light bulb lasts at least 800 hours? Round your answer to four decimal places.",
+    "message_2": "To find the probability that a randomly selected light bulb lasts at least 800 hours, we can use the survival function of the exponential distribution. The survival function is given by:\n\nS(t) = P(T > t) = e^(-λt)\n\nwhere T is the random variable representing the lifespan of a light bulb, t is the time (in hours), λ is the rate parameter, and e is the base of the natural logarithm (approximately 2.71828).\n\nThe rate parameter λ can be found by taking the reciprocal of the mean lifespan:\n\nλ = 1 / 900\n\nNow, we can find the probability that a light bulb lasts at least 800 hours:\n\nS(800) = e^(-λ * 800)\nS(800) = e^(-(1/900) * 800)\n\nUsing a calculator, we get:\n\nS(800) ≈ e^(-0.8889)\nS(800) ≈ 0.4111\n\nSo, the probability that a randomly selected light bulb lasts at least 800 hours is approximately 0.4111, or 41.11% when rounded to four decimal places."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Probability",
+    "sub_topic": "Probability of a certain type of educational outcome occurring in a school",
+    "message_1": "A school has 250 students in total. The probability of a student passing their mathematics exam is 0.85. Find the probability of at least 200 students passing their mathematics exam in the school.",
+    "message_2": "To find the probability of at least 200 students passing their mathematics exam, we can use the binomial probability formula. The binomial probability formula is:\n\nP(X = k) = C(n, k) * p^k * (1-p)^(n-k)\n\nwhere:\n- P(X = k) is the probability of exactly k successes (students passing the exam) out of n trials (total number of students)\n- C(n, k) is the number of combinations of n items taken k at a time, also written as n! / (k!(n-k)!)\n- p is the probability of success (0.85 in this case)\n- n is the total number of trials (250 students)\n- k is the number of successes we are interested in (at least 200 students passing)\n\nSince we want to find the probability of at least 200 students passing, we need to calculate the sum of probabilities for k = 200, 201, ..., 250.\n\nP(X ≥ 200) = Σ P(X = k) for k = 200 to 250\n\nP(X ≥ 200) = Σ [C(250, k) * 0.85^k * (1-0.85)^(250-k)] for k = 200 to 250\n\nNow, we can calculate the individual probabilities and sum them up:\n\nP(X ≥ 200) ≈ 0.9795\n\nSo, the probability of at least 200 students passing their mathematics exam in the school is approximately 0.9795 or 97.95%."
+}

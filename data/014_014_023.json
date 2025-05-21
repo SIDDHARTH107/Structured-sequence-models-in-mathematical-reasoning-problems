@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Playfair cipher",
+    "message_1": "Using the Playfair cipher, encrypt the message \"MATHEMATICS\" with the key \"CIPHER\".",
+    "message_2": "To encrypt the message \"MATHEMATICS\" using the Playfair cipher with the key \"CIPHER\", follow these steps:\n\n1. Create a 5x5 grid and fill it with the key and the remaining letters of the alphabet (excluding J, which is combined with I in the Playfair cipher).\n\nC I P H E\nR A B D F\nG K L M N\nO Q S T U\nV W X Y Z\n\n2. Break the message into digraphs (pairs of letters). If a pair has the same letter, insert an 'X' between them and continue.\n\nMA TH EM AT IC SX\n\n3. For each digraph, apply the Playfair cipher rules:\n\n   - If both letters are in the same row, replace each letter with the one to its right (wrapping around if necessary).\n   - If both letters are in the same column, replace each letter with the one below it (wrapping around if necessary).\n   - If the letters form a rectangle, replace each letter with the one in the same row but in the other corner of the rectangle.\n\nMA -> OD\nTH -> YP\nEM -> KN\nAT -> TU\nIC -> PF\nSX -> QW\n\n4. Combine the encrypted digraphs to get the final encrypted message:\n\nODYPKNTUPFQW"
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Set theory",
+    "sub_topic": "Prove that the Cartesian product of two sets is distributive over union.",
+    "message_1": "Let A = {1, 2} and B = {a, b}. Find the Cartesian product of A × (B∪{c}) and show that it is equal to (A × B) ∪ (A × {c}).",
+    "message_2": "First, let's find the Cartesian product of A × (B∪{c}). Since B∪{c} = {a, b, c}, we have:\n\nA × (B∪{c}) = A × {a, b, c} = {(1, a), (1, b), (1, c), (2, a), (2, b), (2, c)}\n\nNow, let's find the Cartesian products of A × B and A × {c}:\n\nA × B = {(1, a), (1, b), (2, a), (2, b)}\n\nA × {c} = {(1, c), (2, c)}\n\nNow, let's find the union of (A × B) and (A × {c}):\n\n(A × B) ∪ (A × {c}) = {(1, a), (1, b), (2, a), (2, b)} ∪ {(1, c), (2, c)} = {(1, a), (1, b), (1, c), (2, a), (2, b), (2, c)}\n\nComparing the two sets, we can see that:\n\nA × (B∪{c}) = {(1, a), (1, b), (1, c), (2, a), (2, b), (2, c)}\n\n(A × B) ∪ (A × {c}) = {(1, a), (1, b), (1, c), (2, a), (2, b), (2, c)}\n\nSince both sets are equal, we have shown that A × (B∪{c}) = (A × B) ∪ (A × {c})."
+}

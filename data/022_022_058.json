@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Complex analysis of Fourier transforms",
+    "message_1": "A  function $f(z)$ is defined for complex numbers $z$ by $f(z) = \\frac{z}{z^2-3z+2}$ , where $z \\neq 1$ and $z \\neq 2$. Compute the coefficient of $z^{-1}$ in the Laurent expansion of $f(z)$ centered at $z=1$.",
+    "message_2": "To find the Laurent expansion of $f(z)$ centered at $z=1$, we first rewrite the function in terms of $w = z-1$. We have:\n\n$$f(z) = \\frac{z}{z^2-3z+2} = \\frac{z}{(z-1)(z-2)} = \\frac{w+1}{w(w+1)} = \\frac{1}{w}$$\n\nwhere we used the substitution $w = z-1$. Now, we can rewrite the function back in terms of $z$:\n\n$$f(z) = \\frac{1}{z-1}$$\n\nThe Laurent expansion of $f(z)$ centered at $z=1$ is simply the function itself, as it is already in the form of a Laurent series. The coefficient of $z^{-1}$ in the Laurent expansion is therefore 1."
+}

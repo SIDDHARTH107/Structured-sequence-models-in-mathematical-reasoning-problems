@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Graph theory",
+    "sub_topic": "Identifying the isomorphism between two graphs.",
+    "message_1": "Given two graphs G₁ and G₂ with adjacency matrices A₁ and A₂, determine if they are isomorphic or not.\n\nG₁: \n\n    0 1 0 0 \n    1 0 1 1 \n    0 1 0 1 \n    0 1 1 0 \n\nG₂:\n\n    0 1 0 0 \n    1 0 1 0 \n    0 1 0 1 \n    0 0 1 0",
+    "message_2": "To determine if two graphs G₁ and G₂ are isomorphic, we need to check if there exists a permutation matrix P such that A₁ = P * A₂ * P^T.\n\nFirst, let's check if the degree sequences of both graphs are the same. If they are not, then the graphs are not isomorphic.\n\nDegree sequence of G₁: (2, 3, 2, 2)\nDegree sequence of G₂: (2, 2, 2, 1)\n\nThe degree sequences are not the same, so the graphs G₁ and G₂ are not isomorphic."
+}

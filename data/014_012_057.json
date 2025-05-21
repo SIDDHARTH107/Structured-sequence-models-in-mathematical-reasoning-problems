@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Vigenere cipher",
+    "message_1": "Suppose you are given the Vigenere cipher \"NYVQSSXG\" with the keyword \"MATH\" for encryption. What is the original plaintext if the decryption key is \"MATHMATHM\"?",
+    "message_2": "To decrypt the Vigenere cipher \"NYVQSSXG\" using the decryption key \"MATHMATHM\", we will subtract the key letters from the cipher letters, modulo 26 (the number of letters in the alphabet).\n\n1. N - M = 13 - 12 = 1 -> B\n2. Y - A = 24 - 0 = 24 -> Y\n3. V - T = 21 - 19 = 2 -> C\n4. Q - H = 16 - 7 = 9 -> J\n5. S - M = 18 - 12 = 6 -> G\n6. S - A = 18 - 0 = 18 -> S\n7. X - T = 23 - 19 = 4 -> E\n8. G - H = 6 - 7 = -1 (mod 26) -> 25 -> Z\n\nSo, the original plaintext is \"BYCJGSEZ\"."
+}

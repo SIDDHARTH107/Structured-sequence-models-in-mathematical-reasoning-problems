@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "One-time pad encryption",
+    "message_1": "In a one-time pad encryption, a message \"HELLO\" is encrypted using the key \"WORLD\". If each letter in the message and key corresponds to a number from 1 to 26 (A=1, B=2, C=3, and so on), what is the encrypted message?",
+    "message_2": "To encrypt the message \"HELLO\" using the one-time pad key \"WORLD\", we first convert each letter to its corresponding number:\n\nHELLO: 8 5 12 12 15\nWORLD: 23 15 18 12 4\n\nNext, we add the numbers of the message and the key together, modulo 26:\n\n(8+23) mod 26 = 5\n(5+15) mod 26 = 20\n(12+18) mod 26 = 4\n(12+12) mod 26 = 24\n(15+4) mod 26 = 19\n\nThe encrypted message is represented by the numbers: 5 20 4 24 19\n\nNow, we convert these numbers back to letters:\n\n5 -> E\n20 -> T\n4 -> D\n24 -> X\n19 -> S\n\nSo, the encrypted message is \"ETDXS\"."
+}

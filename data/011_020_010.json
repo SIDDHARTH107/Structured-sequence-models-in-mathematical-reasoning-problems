@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Combinatorial optimization",
+    "message_1": "A company needs to hire 5 new employees out of a pool of 10 candidates. However, the company has a requirement that at least 2 of the new hires must have a background in engineering. How many possible ways are there to hire the 5 employees?",
+    "message_2": "Let's assume there are E engineers and N non-engineers in the pool of 10 candidates. We need to find the number of ways to hire 5 employees with at least 2 engineers.\n\nWe can break this down into 3 cases:\n\n1. Hiring exactly 2 engineers and 3 non-engineers.\n2. Hiring exactly 3 engineers and 2 non-engineers.\n3. Hiring exactly 4 engineers and 1 non-engineer.\n4. Hiring all 5 engineers.\n\nFor each case, we will use the combination formula: C(n, k) = n! / (k!(n-k)!)\n\nCase 1: C(E, 2) * C(N, 3)\nCase 2: C(E, 3) * C(N, 2)\nCase 3: C(E, 4) * C(N, 1)\nCase 4: C(E, 5)\n\nSince we don't know the exact number of engineers (E) and non-engineers (N) in the pool of 10 candidates, we cannot provide a specific numerical answer. However, the general formula for the total number of ways to hire the 5 employees with at least 2 engineers is:\n\nTotal ways = Case 1 + Case 2 + Case 3 + Case 4\nTotal ways = C(E, 2) * C(N, 3) + C(E, 3) * C(N, 2) + C(E, 4) * C(N, 1) + C(E, 5)"
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Hill cipher",
+    "message_1": "A key matrix  K = $\\begin{bmatrix} 1 & 2 \\\\ 3 & 5 \\end{bmatrix}$ is used to encrypt a message using Hill Cipher. If the message is \"HELLO\", what is the encrypted message?",
+    "message_2": "To encrypt the message \"HELLO\" using the Hill Cipher with the given key matrix K, we first need to convert the letters into their corresponding numerical values (A=0, B=1, ..., Z=25). Then, we'll group the letters into pairs and multiply each pair by the key matrix K.\n\nHELLO -> H=7, E=4, L=11, L=11, O=14\n\nWe have three pairs: (7, 4), (11, 11), and (14, 0). Since the last pair has only one letter, we can add a filler letter (e.g., X=23) to complete the pair: (14, 23).\n\nNow, we'll multiply each pair by the key matrix K:\n\n(7, 4) * K = (7, 4) * $\\begin{bmatrix} 1 & 2 \\\\ 3 & 5 \\end{bmatrix}$ = (7*1 + 4*3, 7*2 + 4*5) = (19, 26) = (19, 1) (mod 26)\n\n(11, 11) * K = (11, 11) * $\\begin{bmatrix} 1 & 2 \\\\ 3 & 5 \\end{bmatrix}$ = (11*1 + 11*3, 11*2 + 11*5) = (44, 77) = (18, 25) (mod 26)\n\n(14, 23) * K = (14, 23) * $\\begin{bmatrix} 1 & 2 \\\\ 3 & 5 \\end{bmatrix}$ = (14*1 + 23*3, 14*2 + 23*5) = (83, 131) = (7, 3) (mod 26)\n\nNow, we'll convert the numerical values back to letters:\n\n(19, 1) -> T, B\n(18, 25) -> S, Z\n(7, 3) -> H, D\n\nThe encrypted message is \"TBSZHD\"."
+}

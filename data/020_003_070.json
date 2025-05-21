@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Optimization",
+    "sub_topic": "Convex optimization",
+    "message_1": "A company produces two types of products, A and B. The profit per unit of type A is $10 and for type B is $15. The production process takes 2 hours/unit for A and 3 hours/unit for B. The company has 100 hours of labor available each week. What is the maximum profit the company can make per week if it must produce at least 5 units of type A and 10 units of type B?",
+    "message_2": "Let x be the number of units of type A and y be the number of units of type B.\n\nThe profit function is P(x, y) = 10x + 15y.\n\nThe labor constraint is 2x + 3y ≤ 100.\n\nThe minimum production constraints are x ≥ 5 and y ≥ 10.\n\nWe need to maximize the profit function P(x, y) subject to the constraints.\n\nFirst, let's find the feasible region:\n\nx ≥ 5\ny ≥ 10\n2x + 3y ≤ 100\n\nNow, we will find the corner points of the feasible region:\n\n1. (x, y) = (5, 10)\n2x + 3y = 100\n2(5) + 3y = 100\n3y = 90\ny = 30\n(x, y) = (5, 30)\n\n2. (x, y) = (5, 10)\n2x + 3y = 100\n2x + 3(10) = 100\n2x = 70\nx = 35\n(x, y) = (35, 10)\n\nNow, we will evaluate the profit function P(x, y) at these corner points:\n\nP(5, 10) = 10(5) + 15(10) = 50 + 150 = $200\nP(5, 30) = 10(5) + 15(30) = 50 + 450 = $500\nP(35, 10) = 10(35) + 15(10) = 350 + 150 = $500\n\nThe maximum profit the company can make per week is $500, which can be achieved by producing either 5 units of type A and 30 units of type B or 35 units of type A and 10 units of type B."
+}

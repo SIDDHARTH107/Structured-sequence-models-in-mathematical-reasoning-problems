@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Optimization",
+    "sub_topic": "Integer programming",
+    "message_1": "A company is manufacturing two types of products A and B. The profit per unit of A is $50 and the profit per unit of B is $70. The company has a production capacity of 500 units per day for A and 700 units per day for B. The manufacturing process for A requires 2 hours of labor and for B requires 1 hour of labor. The company has availability of 1000 hours of labor per day. How many units of A and B should the company produce to maximize their profit?",
+    "message_2": "Let x be the number of units of product A and y be the number of units of product B.\n\nWe have the following constraints:\n\n1. Production capacity for A: x ≤ 500\n2. Production capacity for B: y ≤ 700\n3. Labor availability: 2x + y ≤ 1000\n\nOur objective is to maximize the profit function P(x, y) = 50x + 70y.\n\nFirst, we will find the feasible region by graphing the constraints:\n\n1. x = 500 (vertical line)\n2. y = 700 (horizontal line)\n3. y = 1000 - 2x (downward sloping line)\n\nThe feasible region is a quadrilateral with vertices at (0, 0), (500, 0), (0, 700), and (500, 500).\n\nNow we will evaluate the profit function at each vertex:\n\n1. P(0, 0) = 50(0) + 70(0) = $0\n2. P(500, 0) = 50(500) + 70(0) = $25,000\n3. P(0, 700) = 50(0) + 70(700) = $49,000\n4. P(500, 500) = 50(500) + 70(500) = $60,000\n\nThe maximum profit is $60,000, which occurs when the company produces 500 units of product A and 500 units of product B."
+}

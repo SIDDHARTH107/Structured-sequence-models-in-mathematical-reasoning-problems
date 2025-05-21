@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Solving systems of linear equations using Cramer's rule",
+    "message_1": "The problem is:\n\nSolve the following system of linear equations using Cramer's rule:\n    \n    2x + y = 8\n    4x - 3y = 10\n\nFind the values of x and y.",
+    "message_2": "To solve the given system of linear equations using Cramer's rule, we first need to find the determinant of the coefficient matrix (D), and then the determinants of the matrices obtained by replacing the columns with the constants (Dx and Dy).\n\nThe coefficient matrix is:\n\n| 2  1 |\n| 4 -3 |\n\nTo find the determinant D, we calculate:\n\nD = (2 * -3) - (1 * 4) = -6 - 4 = -10\n\nNow, we replace the first column with the constants (8 and 10) to find Dx:\n\n| 8  1 |\n|10 -3 |\n\nDx = (8 * -3) - (1 * 10) = -24 - 10 = -34\n\nNext, we replace the second column with the constants to find Dy:\n\n| 2  8 |\n| 4 10 |\n\nDy = (2 * 10) - (8 * 4) = 20 - 32 = -12\n\nNow, we can find the values of x and y using Cramer's rule:\n\nx = Dx / D = -34 / -10 = 3.4\n\ny = Dy / D = -12 / -10 = 1.2\n\nSo, the solution to the given system of linear equations is x = 3.4 and y = 1.2."
+}

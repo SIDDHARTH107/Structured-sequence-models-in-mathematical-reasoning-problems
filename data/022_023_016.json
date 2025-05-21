@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Complex analysis of wave equations",
+    "message_1": "A complex function $f(z)$ is defined by $f(z) = ze^{iz}$. What is the maximum value of $|f(z)|$ on the boundary of the unit disk $|z|=1$?",
+    "message_2": "To find the maximum value of $|f(z)|$ on the boundary of the unit disk $|z|=1$, we can use the polar form of complex numbers. Let $z = e^{i\\theta}$, where $\\theta$ is the argument of $z$ and $0 \\leq \\theta < 2\\pi$. Then, we have:\n\n$$f(z) = ze^{iz} = e^{i\\theta}e^{ie^{i\\theta}} = e^{i\\theta}e^{-\\sin(\\theta) + i\\cos(\\theta)}.$$\n\nNow, we compute the magnitude of $f(z)$:\n\n$$|f(z)| = |e^{i\\theta}e^{-\\sin(\\theta) + i\\cos(\\theta)}| = |e^{i\\theta}| \\cdot |e^{-\\sin(\\theta) + i\\cos(\\theta)}| = 1 \\cdot e^{-\\sin(\\theta)} = e^{-\\sin(\\theta)}.$$\n\nSince $-1 \\leq \\sin(\\theta) \\leq 1$, we have $0 \\leq -\\sin(\\theta) \\leq 2$. Thus, the maximum value of $|f(z)|$ on the boundary of the unit disk $|z|=1$ is $e^0 = 1$."
+}

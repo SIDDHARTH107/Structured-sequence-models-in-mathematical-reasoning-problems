@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Optimization",
+    "sub_topic": "Integer programming",
+    "message_1": "A furniture company wants to produce tables and chairs for maximum profit. They have 200 units of wood, 150 units of steel and 50 units of paint to use. Each table requires 20 units of wood, 10 units of steel, and 5 units of paint. Each chair requires 10 units of wood, 5 units of steel, and 2 units of paint. The company can sell each table for $50 and each chair for $30. How many tables and chairs should the company produce to maximize their profit?",
+    "message_2": "Let x be the number of tables and y be the number of chairs produced.\n\nThe constraints for the resources are as follows:\n\nWood: 20x + 10y ≤ 200\nSteel: 10x + 5y ≤ 150\nPaint: 5x + 2y ≤ 50\n\nThe objective function to maximize the profit is:\n\nProfit = 50x + 30y\n\nWe will now find the feasible region by graphing the constraints:\n\n1. 20x + 10y ≤ 200 => y ≤ -2x + 20\n2. 10x + 5y ≤ 150 => y ≤ -2x + 30\n3. 5x + 2y ≤ 50 => y ≤ -2.5x + 25\n\nThe feasible region is a triangle with vertices at points (0, 0), (0, 20), and (10, 0).\n\nNow, we will evaluate the objective function at each vertex:\n\n1. Profit at (0, 0) = 50(0) + 30(0) = $0\n2. Profit at (0, 20) = 50(0) + 30(20) = $600\n3. Profit at (10, 0) = 50(10) + 30(0) = $500\n\nThe maximum profit occurs at point (0, 20), which means the company should produce 0 tables and 20 chairs to maximize their profit of $600."
+}

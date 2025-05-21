@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Meromorphic functions and their properties",
+    "message_1": "Let f(z) = (z^2 + 3)/(z - 2) be a meromorphic function defined on the complex plane. Find all simple poles and their orders of f(z).",
+    "message_2": "To find the simple poles of the meromorphic function f(z) = (z^2 + 3)/(z - 2), we first need to find the zeros of the denominator and then check if they are simple poles.\n\nThe denominator is z - 2, so it has a zero at z = 2. Now we need to check if this zero is a simple pole. A pole is simple if its order is 1. The order of a pole is the number of times the denominator needs to be differentiated to cancel out the zero in the denominator.\n\nLet's differentiate the numerator and denominator of f(z):\n\nf'(z) = (d/dz)((z^2 + 3)/(z - 2))\n\nUsing the quotient rule, we have:\n\nf'(z) = ((2z)(z - 2) - (z^2 + 3)(1))/(z - 2)^2\nf'(z) = (2z^2 - 4z - z^2 - 3)/(z - 2)^2\nf'(z) = (z^2 - 4z - 3)/(z - 2)^2\n\nNow, let's evaluate f'(z) at z = 2:\n\nf'(2) = ((2^2) - 4(2) - 3)/(2 - 2)^2\nf'(2) = (4 - 8 - 3)/0^2\nf'(2) = (-7)/0^2\n\nSince f'(2) is not of the form 0/0, the order of the pole at z = 2 is 1, and therefore, it is a simple pole.\n\nSo, the function f(z) has a simple pole at z = 2 with order 1."
+}

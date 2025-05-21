@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Multinomial coefficients",
+    "message_1": "Suppose you have 8 identical red balls, 5 identical blue balls, and 3 identical yellow balls. In how many ways can you arrange these balls in a row such that no two red balls are next to each other, no two blue balls are next to each other, and no two yellow balls are next to each other?",
+    "message_2": "Since there are restrictions on the arrangement of the balls, we can think of the problem as placing the balls in \"slots\" created by the other balls.\n\nFirst, let's consider the 8 red balls. Since no two red balls can be next to each other, we can place the other balls (blue and yellow) in the gaps between the red balls and at the ends. There are 9 such gaps (7 gaps between the red balls and 2 at the ends). \n\nNow, we need to place the 5 blue balls and 3 yellow balls in these 9 gaps. We can think of this as a combination problem. We have 9 slots and need to choose 5 of them for the blue balls. The remaining slots will be filled with the yellow balls. \n\nThe number of ways to choose 5 slots out of 9 is given by the combination formula:\n\nC(n, k) = n! / (k!(n-k)!)\n\nIn this case, n = 9 and k = 5:\n\nC(9, 5) = 9! / (5!(9-5)!) = 9! / (5!4!) = (9*8*7*6) / (4*3*2*1) = 126\n\nSo there are 126 ways to arrange the balls such that no two red balls, blue balls, or yellow balls are next to each other."
+}

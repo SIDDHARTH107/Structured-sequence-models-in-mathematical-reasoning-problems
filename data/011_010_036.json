@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Catalan numbers",
+    "message_1": "If there are 5 points on a plane, in how many ways can we connect them with non-intersecting lines such that no line connects to the same point as any other line endpoint? (Hint: The answer involves the Catalan number sequence.)",
+    "message_2": "To solve this problem, we can use the Catalan number sequence. The Catalan numbers are a sequence of natural numbers that have many applications in combinatorial mathematics, including counting the number of non-crossing partitions of a set of points in a plane.\n\nThe nth Catalan number can be calculated using the formula:\n\nC_n = (1 / (n + 1)) * (2n choose n)\n\nFor this problem, we have 5 points, so we need to find the 4th Catalan number (since the sequence starts with n = 0).\n\nC_4 = (1 / (4 + 1)) * (2 * 4 choose 4)\nC_4 = (1 / 5) * (8 choose 4)\n\nNow, we can calculate the binomial coefficient (8 choose 4):\n\n(8 choose 4) = 8! / (4! * (8 - 4)!)\n(8 choose 4) = 8! / (4! * 4!)\n(8 choose 4) = 70\n\nNow, we can plug this back into the formula for the 4th Catalan number:\n\nC_4 = (1 / 5) * 70\nC_4 = 14\n\nSo, there are 14 ways to connect the 5 points with non-intersecting lines such that no line connects to the same point as any other line endpoint."
+}

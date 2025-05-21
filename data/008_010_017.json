@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Solving systems of linear equations using Gaussian elimination",
+    "message_1": "Solve the following system of linear equations using Gaussian elimination:\n \n2x + 3y - z = 10\n\n4x - y + 2z = -4\n\nx + 2y - 5z = -1",
+    "message_2": "First, we will write the augmented matrix for the given system of linear equations:\n\n| 2  3 -1 | 10 |\n| 4 -1  2 | -4 |\n| 1  2 -5 | -1 |\n\nStep 1: Eliminate x from the second and third rows.\n\nTo do this, we will perform the following row operations:\n\nR2 = R2 - 2 * R1\nR3 = R3 - 0.5 * R1\n\n|  2   3  -1 |  10  |\n|  0  -7   4 | -24  |\n|  0   0.5 -4.5| -6  |\n\nStep 2: Eliminate y from the third row.\n\nTo do this, we will perform the following row operation:\n\nR3 = R3 - (-7/14) * R2\n\n|  2   3   -1  |  10  |\n|  0  -7   4   | -24  |\n|  0   0  -3   |  -3  |\n\nStep 3: Solve for z.\n\nDivide the third row by -3 to get z:\n\nR3 = R3 / -3\n\n|  2   3   -1  |  10  |\n|  0  -7   4   | -24  |\n|  0   0   1   |   1  |\n\nNow we have z = 1.\n\nStep 4: Back-substitute to find y and x.\n\nUse z to find y from the second row:\n\n-7y + 4z = -24\n-7y + 4(1) = -24\n-7y = -28\ny = 4\n\nUse y and z to find x from the first row:\n\n2x + 3y - z = 10\n2x + 3(4) - 1 = 10\n2x + 12 - 1 = 10\n2x = -1\nx = -0.5\n\nSo the solution to the system of linear equations is x = -0.5, y = 4, and z = 1."
+}

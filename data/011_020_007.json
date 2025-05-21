@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Combinatorial optimization",
+    "message_1": "A company wants to assign 8 employees to 4 different projects, with each project having exactly 2 employees. In how many ways can this be done?",
+    "message_2": "To solve this problem, we can use the concept of combinations. We need to choose 2 employees out of 8 for the first project, 2 out of the remaining 6 for the second project, 2 out of the remaining 4 for the third project, and the last 2 employees will be assigned to the fourth project.\n\nThe number of ways to choose 2 employees out of 8 is given by the combination formula: C(n, k) = n! / (k!(n-k)!)\n\nFor the first project:\nC(8, 2) = 8! / (2!(8-2)!) = 28 ways\n\nFor the second project (with 6 employees left):\nC(6, 2) = 6! / (2!(6-2)!) = 15 ways\n\nFor the third project (with 4 employees left):\nC(4, 2) = 4! / (2!(4-2)!) = 6 ways\n\nSince the last 2 employees will be assigned to the fourth project, there is only 1 way to do this.\n\nNow, we need to multiply the number of ways for each project together to find the total number of ways to assign the employees:\n\n28 ways (first project) * 15 ways (second project) * 6 ways (third project) * 1 way (fourth project) = 2520 ways\n\nSo, there are 2520 ways to assign 8 employees to 4 different projects with each project having exactly 2 employees."
+}

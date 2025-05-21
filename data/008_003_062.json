@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Determining the rank of a matrix",
+    "message_1": "Find the rank of the following matrix:\n\n$$\n\\begin{bmatrix}\n1 & 2 & 3 \\\\\n2 & 4 & 6 \\\\\n-1 & 1 & 2 \n\\end{bmatrix}\n$$",
+    "message_2": "To find the rank of the matrix, we need to perform Gaussian elimination to put the matrix in row-echelon form and then count the number of non-zero rows.\n\n$$\n\\begin{bmatrix}\n1 & 2 & 3 \\\\\n2 & 4 & 6 \\\\\n-1 & 1 & 2 \n\\end{bmatrix}\n\\rightarrow\n\\begin{bmatrix}\n1 & 2 & 3 \\\\\n0 & 0 & 0 \\\\\n0 & 3 & 5 \n\\end{bmatrix}\n\\rightarrow\n\\begin{bmatrix}\n1 & 2 & 3 \\\\\n0 & 3 & 5 \\\\\n0 & 0 & 0 \n\\end{bmatrix}\n$$\n\nThe matrix is now in row-echelon form, and we can see that there are 2 non-zero rows. Therefore, the rank of the matrix is 2."
+}

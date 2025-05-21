@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Probability",
+    "sub_topic": "Probability of a certain medical condition occurring",
+    "message_1": "A medical test to diagnose a certain disease has a 95% success rate. If 500 people are tested, what is the probability that at least one person is misdiagnosed?",
+    "message_2": "Let's first find the probability that all 500 people are diagnosed correctly.\n\nThe probability of a correct diagnosis for one person is 95%, or 0.95. Since the tests are independent, the probability that all 500 people are diagnosed correctly is:\n\nP(all correct) = 0.95^500\n\nNow, we want to find the probability that at least one person is misdiagnosed. This is the complement of the probability that all 500 people are diagnosed correctly:\n\nP(at least one misdiagnosed) = 1 - P(all correct)\n\nP(at least one misdiagnosed) = 1 - 0.95^500\n\nUsing a calculator, we find:\n\nP(at least one misdiagnosed) ≈ 1 - 0.000006144\n\nP(at least one misdiagnosed) ≈ 0.999993856\n\nSo, the probability that at least one person is misdiagnosed is approximately 99.999% or 0.999993856."
+}

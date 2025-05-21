@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Complex analysis of integral equations",
+    "message_1": "Let f(z) be an entire function such that |f(z)| ≤ 2021|z|^2 for all z in the complex plane. Evaluate the integral of f(z)/z^4 around the circle |z|=2.",
+    "message_2": "To evaluate the integral of f(z)/z^4 around the circle |z|=2, we will use the Cauchy integral formula. The Cauchy integral formula states that for an analytic function g(z) inside and on a simple closed contour C,\n\n∮(g(z))/(z-z₀) dz = 2πi * g(z₀),\n\nwhere z₀ is a point inside the contour C.\n\nNow, let g(z) = f(z)/z³. Then g(z) is also an entire function since f(z) is entire and z³ is a polynomial. We want to evaluate the integral of g(z)/z around the circle |z|=2. Let z₀ = 0, which is inside the circle |z|=2.\n\nBy the Cauchy integral formula, we have\n\n∮(g(z))/z dz = 2πi * g(0) = 2πi * f(0)/0³.\n\nHowever, since f(z) is entire and |f(z)| ≤ 2021|z|^2 for all z in the complex plane, f(z) must be a polynomial of degree at most 2 by Liouville's theorem. Let f(z) = a₂z² + a₁z + a₀, where a₂, a₁, and a₀ are complex constants. Then,\n\ng(z) = f(z)/z³ = (a₂z² + a₁z + a₀)/z³ = a₂/z + a₁/z² + a₀/z³.\n\nNow, g(0) = lim (z→0) (a₂/z + a₁/z² + a₀/z³) = 0, since the limit does not exist due to the terms in the denominator.\n\nTherefore, the integral of f(z)/z^4 around the circle |z|=2 is\n\n∮(f(z))/z^4 dz = ∮(g(z))/z dz = 2πi * g(0) = 2πi * 0 = 0."
+}

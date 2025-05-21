@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Probability",
+    "sub_topic": "Coin flipping and probability of getting heads or tails",
+    "message_1": "If you flip a fair coin 100 times, what is the probability of getting exactly 50 heads and 50 tails?",
+    "message_2": "To find the probability of getting exactly 50 heads and 50 tails in 100 flips of a fair coin, we can use the binomial probability formula:\n\nP(X = k) = (nCk) * (p^k) * (q^(n-k))\n\nwhere:\n- P(X = k) is the probability of getting exactly k successes (in this case, heads) in n trials (flips)\n- nCk (read \"n choose k\") is the number of combinations of choosing k successes from n trials, calculated as n! / (k!(n-k)!)\n- p is the probability of success (getting heads) in a single trial, which is 0.5 for a fair coin\n- q is the probability of failure (getting tails) in a single trial, which is also 0.5 for a fair coin\n- n is the number of trials (flips), which is 100\n- k is the number of successes (heads) we want, which is 50\n\nPlugging in the values:\n\nP(X = 50) = (100C50) * (0.5^50) * (0.5^50)\n\nFirst, let's calculate 100C50:\n\n100C50 = 100! / (50! * 50!)\n= 100! / (50! * 50!)\n\nNow, let's calculate (0.5^50) * (0.5^50):\n\n(0.5^50) * (0.5^50) = (0.5^100)\n\nNow, we can put it all together:\n\nP(X = 50) = (100C50) * (0.5^100)\n\nUsing a calculator or software to compute the values, we get:\n\nP(X = 50) ≈ 0.0795892\n\nSo, the probability of getting exactly 50 heads and 50 tails in 100 flips of a fair coin is approximately 7.96%."
+}

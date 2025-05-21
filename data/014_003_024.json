@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "ElGamal encryption and decryption",
+    "message_1": "Suppose you want to send a confidential message to your friend using ElGamal encryption system. Your friend has chosen a prime number p = 13 and a primitive root of p g = 6. Your friend's public key is (p = 13, g = 6, y = 8). \n\nYour message is a number M = 4. Using the ElGamal encryption system, encrypt the message M and send the encrypted message to your friend. \n\nAssume that you have chosen a random integer k = 3 to generate the secret key. Show all the calculations and write the encrypted message in the form (a,b).",
+    "message_2": "To encrypt the message M = 4 using the ElGamal encryption system, we need to follow these steps:\n\n1. Calculate a = g^k mod p\n2. Calculate b = (y^k * M) mod p\n\nGiven the public key (p = 13, g = 6, y = 8) and the random integer k = 3, we can now perform the calculations:\n\n1. Calculate a:\na = g^k mod p\na = 6^3 mod 13\na = 216 mod 13\na = 3\n\n2. Calculate b:\nb = (y^k * M) mod p\nb = (8^3 * 4) mod 13\nb = (512 * 4) mod 13\nb = 2048 mod 13\nb = 12\n\nNow we have the encrypted message in the form (a, b) = (3, 12).\n\nSo, the encrypted message to send to your friend is (3, 12)."
+}

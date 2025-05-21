@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Probability",
+    "sub_topic": "Coin flipping and probability of getting heads or tails",
+    "message_1": "If a fair coin is flipped 100 times, what is the probability of getting exactly 50 heads?",
+    "message_2": "To find the probability of getting exactly 50 heads in 100 flips of a fair coin, we can use the binomial probability formula:\n\nP(X = k) = (nCk) * (p^k) * (q^(n-k))\n\nwhere:\n- n is the number of trials (flips), in this case, 100\n- k is the number of successful outcomes (heads), in this case, 50\n- p is the probability of success (getting heads) in a single trial, which is 0.5 for a fair coin\n- q is the probability of failure (getting tails) in a single trial, which is also 0.5 for a fair coin\n- nCk is the number of combinations of choosing k successes from n trials, calculated as n! / (k!(n-k)!)\n\nPlugging in the values:\n\nP(X = 50) = (100C50) * (0.5^50) * (0.5^50)\n\nFirst, we calculate 100C50:\n\n100! / (50! * 50!) = 100891344545564193334812497256\n\nNow, we calculate (0.5^50) * (0.5^50):\n\n(0.5^50) * (0.5^50) = 8.881784197001252e-16\n\nFinally, we multiply the two results:\n\n100891344545564193334812497256 * 8.881784197001252e-16 ≈ 0.0795892\n\nSo the probability of getting exactly 50 heads in 100 flips of a fair coin is approximately 0.0796 or 7.96%."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Set theory",
+    "sub_topic": "Prove that the power set of a set is always larger than the set itself.",
+    "message_1": "Consider a set A = {1, 2, 3, 4}. What is the size of the power set of A? Prove that the size of the power set of A is always greater than the size of A.",
+    "message_2": "To find the size of the power set of A, we need to find the number of all possible subsets of A, including the empty set and the set A itself. A set with n elements has 2^n subsets, as each element can either be included or not included in a subset.\n\nIn this case, A has 4 elements, so the size of the power set of A is 2^4 = 16.\n\nNow, let's prove that the size of the power set of A is always greater than the size of A. Let A be a set with n elements. The size of the power set of A is 2^n, as we established earlier.\n\nWe want to show that 2^n > n for all n ≥ 0.\n\nBase case: n = 0\n2^0 = 1 > 0, so the statement holds for n = 0.\n\nInductive step: Assume that 2^k > k for some k ≥ 0. We want to show that 2^(k+1) > k + 1.\n\n2^(k+1) = 2 * 2^k > 2 * k (since 2^k > k by the inductive hypothesis)\nNow, we need to show that 2 * k > k + 1, or equivalently, k > 1.\n\nSince k ≥ 0, the inequality holds for k > 1. Thus, by induction, the size of the power set of A is always greater than the size of A for all n ≥ 0."
+}

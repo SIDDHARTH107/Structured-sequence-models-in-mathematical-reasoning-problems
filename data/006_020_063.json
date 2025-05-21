@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Probability",
+    "sub_topic": "Probability of a certain type of social event occurring in a community",
+    "message_1": "In a small community, 60% of the population owns a pet. If three residents are chosen at random, what is the probability that exactly two of them own a pet?",
+    "message_2": "To solve this problem, we will use the binomial probability formula:\n\nP(x) = C(n, x) * p^x * (1-p)^(n-x)\n\nwhere P(x) is the probability of exactly x successes (in this case, owning a pet) in n trials (in this case, choosing 3 residents), C(n, x) is the number of combinations of n items taken x at a time, p is the probability of success (owning a pet), and (1-p) is the probability of failure (not owning a pet).\n\nIn this problem, we have n = 3 (three residents), x = 2 (exactly two own a pet), and p = 0.6 (60% own a pet).\n\nFirst, we need to find C(n, x), which is the number of combinations of 3 residents taken 2 at a time:\n\nC(3, 2) = 3! / (2! * (3-2)!)\nC(3, 2) = 6 / (2 * 1)\nC(3, 2) = 3\n\nNow, we can plug these values into the binomial probability formula:\n\nP(2) = C(3, 2) * 0.6^2 * (1-0.6)^(3-2)\nP(2) = 3 * 0.36 * 0.4\nP(2) = 3 * 0.144\nP(2) = 0.432\n\nSo, the probability that exactly two of the three randomly chosen residents own a pet is 0.432 or 43.2%."
+}

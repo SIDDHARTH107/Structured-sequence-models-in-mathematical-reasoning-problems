@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Number theory",
+    "sub_topic": "Diffie-Hellman key exchange.",
+    "message_1": "Alice and Bob are using the Diffie-Hellman key exchange to securely communicate. Alice chooses a prime number p = 17 and a primitive root g = 3. Alice also chooses a secret key a = 5 and sends Bob calculate (g^a) mod p. Bob chooses a secret key b = 11 and sends Alice calculate (g^b) mod p. They both compute the shared secret key. What is the shared secret key?",
+    "message_2": "First, let's calculate the values that Alice and Bob send to each other:\n\nAlice sends Bob: (g^a) mod p = (3^5) mod 17 = 243 mod 17 = 15\n\nBob sends Alice: (g^b) mod p = (3^11) mod 17 = 177147 mod 17 = 6\n\nNow, they both compute the shared secret key:\n\nAlice computes: (6^5) mod 17 = 7776 mod 17 = 10\n\nBob computes: (15^11) mod 17 = 437893890380859375 mod 17 = 10\n\nThe shared secret key is 10."
+}

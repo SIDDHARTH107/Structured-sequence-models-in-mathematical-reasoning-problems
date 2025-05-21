@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Probability",
+    "sub_topic": "Probability of a certain event occurring in a given time period",
+    "message_1": "A factory produces 500 light bulbs per day, and the probability that a bulb is defective is 0.03. What is the probability that exactly 15 bulbs will be defective in a randomly selected day?",
+    "message_2": "To find the probability of exactly 15 bulbs being defective in a randomly selected day, we can use the binomial probability formula:\n\nP(X = k) = (n choose k) * p^k * (1-p)^(n-k)\n\nwhere:\n- n is the total number of trials (in this case, the number of light bulbs produced per day, which is 500)\n- k is the number of successful trials (in this case, the number of defective bulbs, which is 15)\n- p is the probability of success (in this case, the probability of a bulb being defective, which is 0.03)\n- (n choose k) is the number of combinations of n items taken k at a time, which can be calculated as n! / (k!(n-k)!)\n\nPlugging in the values, we get:\n\nP(X = 15) = (500 choose 15) * (0.03)^15 * (1-0.03)^(500-15)\n\nFirst, let's calculate (500 choose 15):\n\n(500 choose 15) = 500! / (15!(500-15)!) = 500! / (15!485!)\n\nNow, let's calculate the probability:\n\nP(X = 15) = (500 choose 15) * (0.03)^15 * (0.97)^485\n\nUsing a calculator or software to compute the values, we get:\n\nP(X = 15) ≈ 0.102\n\nSo, the probability that exactly 15 bulbs will be defective in a randomly selected day is approximately 10.2%."
+}

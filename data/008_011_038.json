@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Solving systems of linear equations using Cramer's rule",
+    "message_1": "Solve the system of linear equations using Cramer's rule:\n\n2x + 3y = 7\n\n4x - 5y = 2\n\nFind the value of 'x' and 'y'.",
+    "message_2": "To solve the system of linear equations using Cramer's rule, we first need to find the determinant of the coefficient matrix (D), and then the determinants of the matrices obtained by replacing the columns with the constants (Dx and Dy).\n\nThe given system of linear equations is:\n\n2x + 3y = 7\n4x - 5y = 2\n\nThe coefficient matrix (A) is:\n\n| 2  3 |\n| 4 -5 |\n\nTo find the determinant of A (D), we use the formula:\n\nD = (2 * -5) - (3 * 4) = -10 - 12 = -22\n\nNow, we replace the first column of A with the constants (7 and 2) to find Dx:\n\n| 7  3 |\n| 2 -5 |\n\nDx = (7 * -5) - (3 * 2) = -35 - 6 = -41\n\nSimilarly, we replace the second column of A with the constants to find Dy:\n\n| 2  7 |\n| 4  2 |\n\nDy = (2 * 2) - (7 * 4) = 4 - 28 = -24\n\nNow, we can find the values of 'x' and 'y' using Cramer's rule:\n\nx = Dx / D = -41 / -22 = 41/22\n\ny = Dy / D = -24 / -22 = 24/22 = 12/11\n\nSo, the solution to the system of linear equations is:\n\nx = 41/22\ny = 12/11"
+}

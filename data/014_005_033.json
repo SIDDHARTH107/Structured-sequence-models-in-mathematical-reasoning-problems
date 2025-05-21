@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Digital signatures",
+    "message_1": "Given a message that needs to be sent electronically, the private key of a digital signature system is chosen as $(p,q,d)$ where $p=17,q=19,d=7$. The public key is chosen as $(n,e)=(pq,21)$. Calculate the digital signature of the message $m=10$.",
+    "message_2": "To calculate the digital signature of the message $m=10$, we will use the private key $(p, q, d)$.\n\nFirst, we need to compute the value of $n$:\n$n = p \\times q = 17 \\times 19 = 323$\n\nNow, we have the private key $(p, q, d) = (17, 19, 7)$ and the public key $(n, e) = (323, 21)$.\n\nTo sign the message $m=10$, we will use the private key $d$ and compute the signature $s$ as follows:\n$s = m^d \\mod n = 10^7 \\mod 323$\n\nUsing modular exponentiation, we can compute $s$:\n$s = 10^7 \\mod 323 = 279$\n\nSo, the digital signature of the message $m=10$ is $s=279$."
+}

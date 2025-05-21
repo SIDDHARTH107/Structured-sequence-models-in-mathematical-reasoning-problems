@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Set theory",
+    "sub_topic": "Prove that the Cartesian product of two sets is not distributive over complement.",
+    "message_1": "Let A = {1, 2} and B = {3, 4}. Find (A × B) ∪ (A' × B') where A' is the complement of A and B' is the complement of B.",
+    "message_2": "To find (A × B) ∪ (A' × B'), we first need to find the Cartesian products A × B and A' × B', and then find their union.\n\nA × B = {(a, b) | a ∈ A, b ∈ B}\n= {(1, 3), (1, 4), (2, 3), (2, 4)}\n\nNow, we need to find the complements A' and B'. Since A and B are not subsets of a universal set, we cannot find their complements directly. However, we can still find the union of A × B and A' × B' without knowing the complements.\n\nLet (x, y) be an element in (A × B) ∪ (A' × B'). There are two cases:\n\n1. (x, y) ∈ A × B: In this case, x ∈ A and y ∈ B.\n2. (x, y) ∈ A' × B': In this case, x ∉ A and y ∉ B.\n\nSo, (A × B) ∪ (A' × B') contains all ordered pairs (x, y) such that either x ∈ A and y ∈ B, or x ∉ A and y ∉ B. In other words, it contains all ordered pairs (x, y) such that x ∈ A if and only if y ∈ B.\n\nWe can list these ordered pairs as follows:\n\n(1, 3), (1, 4), (2, 3), (2, 4), and all other pairs (x, y) such that x ∉ {1, 2} and y ∉ {3, 4}.\n\nTherefore, (A × B) ∪ (A' × B') = {(1, 3), (1, 4), (2, 3), (2, 4)} ∪ {all pairs (x, y) such that x ∉ {1, 2} and y ∉ {3, 4}}."
+}

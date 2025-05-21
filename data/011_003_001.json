@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Pascal's triangle",
+    "message_1": "How many ways can you select a committee of 3 people from a group of 10 members using Pascal's Triangle?",
+    "message_2": "To solve this problem using Pascal's Triangle, we need to find the binomial coefficient, which is also known as \"n choose k\" or C(n, k). In this case, we have 10 members (n = 10) and we want to choose 3 people (k = 3).\n\nPascal's Triangle is constructed by starting with 1 at the top and adding the two numbers above each number to get the number below. The nth row of Pascal's Triangle represents the coefficients of the binomial expansion of (a + b)^n. The kth entry in the nth row is the binomial coefficient C(n, k).\n\nHere's a part of Pascal's Triangle:\n\n```\n       1\n      1 1\n     1 2 1\n    1 3 3 1\n   1 4 6 4 1\n  1 5 10 10 5 1\n 1 6 15 20 15 6 1\n1 7 21 35 35 21 7 1\n```\n\nWe need to find the entry in the 10th row (remember that Pascal's Triangle starts with row 0) and the 3rd entry (also starts with entry 0). So, we need to find C(10, 3).\n\nContinuing Pascal's Triangle:\n\n```\n1  8  28  56  70  56  28  8  1\n1  9  36  84 126 126  84  36  9  1\n```\n\nThe 10th row is: 1 9 36 84 126 126 84 36 9 1\n\nThe 3rd entry in the 10th row is 84.\n\nSo, there are 84 ways to select a committee of 3 people from a group of 10 members using Pascal's Triangle."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "One-time pad encryption",
+    "message_1": "If the message \"MATHROCKS\" is encrypted using the XOR one-time pad cipher with the key \"101010101\", what is the encrypted message?",
+    "message_2": "To encrypt the message \"MATHROCKS\" using the XOR one-time pad cipher with the key \"101010101\", we need to first convert the message and the key into binary format. \n\n1. Convert the message \"MATHROCKS\" into binary format (ASCII encoding):\nM - 01001101\nA - 01000001\nT - 01010100\nH - 01001000\nR - 01010010\nO - 01001111\nC - 01000011\nK - 01001011\nS - 01010011\n\n2. Convert the key \"101010101\" into binary format (ASCII encoding):\n1 - 00110001\n0 - 00110000\n1 - 00110001\n0 - 00110000\n1 - 00110001\n0 - 00110000\n1 - 00110001\n0 - 00110000\n1 - 00110001\n\n3. XOR the message and the key:\n01001101 XOR 00110001 = 01111100\n01000001 XOR 00110000 = 01110001\n01010100 XOR 00110001 = 01100101\n01001000 XOR 00110000 = 01111000\n01010010 XOR 00110001 = 01100011\n01001111 XOR 00110000 = 01111111\n01000011 XOR 00110001 = 01110010\n01001011 XOR 00110000 = 01111011\n01010011 XOR 00110001 = 01100010\n\n4. Convert the XOR results back to characters:\n01111100 - |\n01110001 - q\n01100101 - e\n01111000 - x\n01100011 - c\n01111111 - _\n01110010 - r\n01111011 - {\n01100010 - b\n\nThe encrypted message is \"|qex_c{rb\"."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Calculus",
+    "sub_topic": "Solving differential equations",
+    "message_1": "Find the particular solution to the differential equation:\n\ny' = 2xy, \n\ngiven that y(0) = 3.",
+    "message_2": "To find the particular solution to the given first-order differential equation y' = 2xy with the initial condition y(0) = 3, we first need to solve the differential equation.\n\nThis is a first-order linear homogeneous differential equation. We can solve it using separation of variables:\n\ndy/dx = 2xy\n\nRearrange the equation to separate variables:\n\ndy/y = 2x dx\n\nNow, integrate both sides:\n\n∫(1/y) dy = ∫(2x) dx\n\nln|y| = x^2 + C₁\n\nTo remove the natural logarithm, use exponentiation:\n\ny = e^(x^2 + C₁)\n\ny = e^(x^2) * e^C₁\n\nSince e^C₁ is a constant, let's denote it as C:\n\ny = Ce^(x^2)\n\nNow, we need to find the particular solution using the initial condition y(0) = 3:\n\n3 = Ce^(0^2)\n\n3 = C\n\nSo, the particular solution is:\n\ny(x) = 3e^(x^2)"
+}

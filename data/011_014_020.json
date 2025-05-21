@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Graph theory",
+    "message_1": "Consider a complete graph $K_6$, which is a graph with 6 vertices such that every vertex is adjacent to all other vertices. How many Hamiltonian cycles does this graph have?",
+    "message_2": "A Hamiltonian cycle is a cycle that visits each vertex exactly once and returns to the starting vertex. In a complete graph, every vertex is connected to every other vertex, so we can form a Hamiltonian cycle by choosing any starting vertex and then choosing the remaining vertices in any order.\n\nThere are 6 vertices in the graph, so we have 6 choices for the starting vertex. After choosing the starting vertex, there are 5 remaining vertices to visit, so we have 5 choices for the second vertex. Then, there are 4 choices for the third vertex, 3 choices for the fourth vertex, 2 choices for the fifth vertex, and only 1 choice for the sixth vertex. \n\nSo, there are 6! (6 factorial) ways to order the vertices. However, since a Hamiltonian cycle can be traversed in both clockwise and counterclockwise directions, we need to divide by 2 to account for these duplicate cycles. Additionally, since the starting point of the cycle doesn't matter, we need to divide by the number of vertices (6) to avoid overcounting.\n\nTherefore, the number of Hamiltonian cycles in the complete graph $K_6$ is:\n\n(6!)/(2*6) = (720)/(12) = 60\n\nThere are 60 Hamiltonian cycles in the complete graph $K_6$."
+}

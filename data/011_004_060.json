@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Multinomial coefficients",
+    "message_1": "In how many ways can we distribute 10 identical candies among 4 children, if each child is to receive at least 2 candies?",
+    "message_2": "To solve this problem, we can use the concept of stars and bars. Since each child must receive at least 2 candies, we can give 2 candies to each child initially. Now we have 2 candies left to distribute among the 4 children.\n\nUsing the stars and bars method, we represent the 2 candies as stars (*) and we need 3 bars (|) to separate the candies among the 4 children. So, we need to arrange these 2 stars and 3 bars in a row. There are a total of 5 positions (2 stars + 3 bars), and we need to choose 2 positions for the stars (or equivalently, 3 positions for the bars).\n\nThe number of ways to do this is given by the combination formula:\n\nC(n, k) = n! / (k!(n-k)!)\n\nIn this case, n = 5 (total positions) and k = 2 (positions for the stars):\n\nC(5, 2) = 5! / (2!(5-2)!)\n= 120 / (2! * 3!)\n= 120 / (2 * 6)\n= 10\n\nSo there are 10 ways to distribute the 10 identical candies among the 4 children, with each child receiving at least 2 candies."
+}

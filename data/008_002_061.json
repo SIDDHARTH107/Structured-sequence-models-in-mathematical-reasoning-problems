@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Finding the inverse of a matrix",
+    "message_1": "Find the inverse of the 2x2 matrix:\n\n```\n| 3  8 |\n| 4  7 |\n```",
+    "message_2": "To find the inverse of a 2x2 matrix:\n\n```\n| a  b |\n| c  d |\n```\n\nWe use the formula:\n\n```\n1 / (ad - bc) * |  d  -b |\n                | -c   a |\n```\n\nApplying this formula to the given matrix:\n\n```\n| 3  8 |\n| 4  7 |\n```\n\nWe have a = 3, b = 8, c = 4, and d = 7. \n\nFirst, we calculate the determinant (ad - bc):\n\n```\n(3 * 7) - (8 * 4) = 21 - 32 = -11\n```\n\nNow, we apply the formula:\n\n```\n1 / (-11) * |  7  -8 |\n            | -4   3 |\n```\n\nFinally, we multiply each element by the scalar (1 / -11):\n\n```\n|  -7/11   8/11  |\n|   4/11  -3/11  |\n```\n\nSo, the inverse of the given matrix is:\n\n```\n| -7/11  8/11 |\n|  4/11 -3/11 |\n```"
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Logic",
+    "sub_topic": "Epistemic logic",
+    "message_1": "Suppose Agent A and Agent B are playing a game with a deck of cards. Agent A knows that the deck has 52 cards, but they do not know how many of each card there are. Agent B knows the exact distribution of the cards in the deck. \n\nAgent A draws a card from the deck, but does not look at it. Agent B knows which card Agent A drew, but Agent A does not. \n\nAfter Agent A draws a card, Agent B makes the following statement: \"I do not know what card you drew.\" \n\nIf the statement is true, how many cards in the deck can Agent A confidently say were not drawn?",
+    "message_2": "If Agent B truly does not know which card Agent A drew, it means that there must be at least two of each card in the deck. This is because if there was only one of any card, Agent B would be able to confidently say which card Agent A drew when that card was missing from the deck.\n\nSince there are 52 cards in a standard deck, and there are 13 ranks (Ace, 2, 3, 4, 5, 6, 7, 8, 9, 10, Jack, Queen, King) and 4 suits (hearts, diamonds, clubs, spades), there are a total of 13 x 4 = 52 unique cards.\n\nIf there are at least two of each card in the deck, then Agent A can confidently say that they did not draw any of the unique cards that have only one copy in the deck. However, since they do not know the exact distribution of the cards, they cannot confidently say how many cards they did not draw."
+}

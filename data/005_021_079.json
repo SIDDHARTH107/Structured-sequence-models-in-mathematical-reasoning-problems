@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Statistics",
+    "sub_topic": "Bootstrapping",
+    "message_1": "Here is an example of a numerical problem on Bootstrapping:\n\nA research team analyzed the heights of a sample of 50 students and found the mean height to be 172 cm with a standard deviation of 5 cm. They want to estimate the 95% confidence interval for the population mean height using bootstrapping. \n\nWhat is the 95% confidence interval of the population mean height, assuming a normal distribution?",
+    "message_2": "To find the 95% confidence interval of the population mean height using bootstrapping, we will first need to calculate the standard error of the mean (SEM). The formula for SEM is:\n\nSEM = standard deviation / √(sample size)\n\nIn this case, the standard deviation is 5 cm, and the sample size is 50 students. So, the SEM is:\n\nSEM = 5 / √50 ≈ 0.7071 cm\n\nNow, we need to find the critical value (z-score) for a 95% confidence interval. For a normal distribution, the z-score for a 95% confidence interval is approximately 1.96.\n\nNext, we will calculate the margin of error (ME) using the z-score and SEM:\n\nME = z-score * SEM\n\nME = 1.96 * 0.7071 ≈ 1.386 cm\n\nFinally, we will find the 95% confidence interval by adding and subtracting the margin of error from the sample mean:\n\nLower limit = sample mean - ME = 172 - 1.386 ≈ 170.614 cm\nUpper limit = sample mean + ME = 172 + 1.386 ≈ 173.386 cm\n\nSo, the 95% confidence interval for the population mean height is approximately (170.614 cm, 173.386 cm)."
+}

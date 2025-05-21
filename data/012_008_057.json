@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Graph theory",
+    "sub_topic": "Identifying the planarity of a graph.",
+    "message_1": "Find the maximum number of edges a planar graph with 8 vertices can have.",
+    "message_2": "According to Euler's formula for planar graphs, we have:\n\nV - E + F = 2\n\nwhere V is the number of vertices, E is the number of edges, and F is the number of faces.\n\nA planar graph is a graph that can be drawn on a plane without any edges crossing. In a planar graph, each face must be enclosed by at least 3 edges. Therefore, we have:\n\n3F ≤ 2E\n\nNow, we can rewrite Euler's formula in terms of F:\n\nF = E - V + 2\n\nSubstitute this expression for F in the inequality:\n\n3(E - V + 2) ≤ 2E\n\nSince we have 8 vertices (V = 8), we can simplify the inequality:\n\n3(E - 8 + 2) ≤ 2E\n3(E - 6) ≤ 2E\n3E - 18 ≤ 2E\nE ≤ 18\n\nSo, the maximum number of edges a planar graph with 8 vertices can have is 18."
+}

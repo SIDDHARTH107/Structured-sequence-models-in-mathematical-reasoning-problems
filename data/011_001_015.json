@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Permutations and combinations",
+    "message_1": "In a school with 40 students, how many different 5-member committees can be formed if one committee must consist of 3 girls and 2 boys, and another committee must consist of 2 girls and 3 boys?",
+    "message_2": "To solve this problem, we need to know the number of girls and boys in the school. Let's assume there are G girls and B boys in the school, such that G + B = 40.\n\nFor the first committee (3 girls and 2 boys), we can use the combination formula to find the number of ways to choose 3 girls out of G and 2 boys out of B:\n\nC(G, 3) * C(B, 2) = (G! / (3! * (G - 3)!)) * (B! / (2! * (B - 2)!))\n\nFor the second committee (2 girls and 3 boys), we can use the combination formula to find the number of ways to choose 2 girls out of G and 3 boys out of B:\n\nC(G, 2) * C(B, 3) = (G! / (2! * (G - 2)!)) * (B! / (3! * (B - 3)!))\n\nTo find the total number of different 5-member committees, we add the results of the two cases:\n\nTotal committees = C(G, 3) * C(B, 2) + C(G, 2) * C(B, 3)\n\nWithout the exact number of girls (G) and boys (B) in the school, we cannot provide a numerical answer. However, if you provide the number of girls and boys, we can calculate the total number of different 5-member committees."
+}

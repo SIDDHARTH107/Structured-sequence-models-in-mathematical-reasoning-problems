@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Complex integration and Cauchy's theorem",
+    "message_1": "Let $\\gamma$ be the circle $|z|=2$ oriented counterclockwise. Evaluate the integral \n$$\\oint_{\\gamma} \\frac{z^2 + 1}{z-1} dz$$",
+    "message_2": "To evaluate the integral, we can use the Cauchy integral formula. First, we rewrite the integrand as follows:\n\n$$\\frac{z^2 + 1}{z-1} = \\frac{(z-1+2)(z+1)}{z-1} = z+1 + \\frac{2}{z-1}$$\n\nNow, we can split the integral into two parts:\n\n$$\\oint_{\\gamma} \\frac{z^2 + 1}{z-1} dz = \\oint_{\\gamma} (z+1) dz + \\oint_{\\gamma} \\frac{2}{z-1} dz$$\n\nThe first integral, $\\oint_{\\gamma} (z+1) dz$, is the integral of an analytic function over a closed contour, so it is equal to 0.\n\nThe second integral, $\\oint_{\\gamma} \\frac{2}{z-1} dz$, can be evaluated using the Cauchy integral formula. The function $f(z) = 2$ is analytic everywhere except at $z = 1$. Since the point $z = 1$ is inside the contour $\\gamma$, we can apply the Cauchy integral formula:\n\n$$\\oint_{\\gamma} \\frac{2}{z-1} dz = 2\\pi i f(1) = 2\\pi i (2) = 4\\pi i$$\n\nTherefore, the integral is equal to:\n\n$$\\oint_{\\gamma} \\frac{z^2 + 1}{z-1} dz = 0 + 4\\pi i = \\boxed{4\\pi i}$$"
+}

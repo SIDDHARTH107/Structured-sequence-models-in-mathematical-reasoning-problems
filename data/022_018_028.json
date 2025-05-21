@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Complex analysis of partial differential equations",
+    "message_1": "Find the general solution of the partial differential equation\n\n∂u/∂x + 2i∂u/∂y = 0, \n\nwhere u(x,y) is a complex-valued function.",
+    "message_2": "To find the general solution of the given partial differential equation (PDE), we can use the method of characteristics. The PDE is:\n\n∂u/∂x + 2i∂u/∂y = 0\n\nLet's rewrite the PDE in terms of characteristic equations:\n\ndx/dt = 1, dy/dt = -2i, du/dt = 0\n\nNow, we can solve these ordinary differential equations (ODEs) separately.\n\nFor dx/dt = 1, we can integrate with respect to t:\n\nx(t) = t + x₀\n\nFor dy/dt = -2i, we can integrate with respect to t:\n\ny(t) = -2it + y₀\n\nFor du/dt = 0, we can integrate with respect to t:\n\nu(t) = u₀\n\nNow, we can eliminate the parameter t from these equations. From the first equation, we have:\n\nt = x - x₀\n\nSubstitute this into the second equation:\n\ny = -2i(x - x₀) + y₀\n\nRearrange to isolate y₀:\n\ny₀ = y + 2ix - 2ix₀\n\nNow, we can substitute this expression for y₀ into the expression for u(t):\n\nu(x, y) = u(x₀, y + 2ix - 2ix₀)\n\nThe general solution of the given PDE is:\n\nu(x, y) = f(x₀, y + 2ix - 2ix₀)\n\nwhere f is an arbitrary complex-valued function of two variables."
+}

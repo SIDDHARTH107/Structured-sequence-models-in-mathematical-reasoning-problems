@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Playfair cipher",
+    "message_1": "A Playfair cipher key table contains 25 letters of English alphabet, in a 5x5 grid. If you want to encrypt the message \"MATHEMATICS\", using the key table with the first letter of the keyword being \"CRYPTO\", what would be the resulting ciphertext?",
+    "message_2": "To encrypt the message \"MATHEMATICS\" using the Playfair cipher with the keyword \"CRYPTO\", we first need to create the key table. The keyword \"CRYPTO\" has duplicate letters, so we remove the duplicate to get \"CRYPTO\". Then, we fill in the rest of the alphabet, excluding the letter 'J' (since the Playfair cipher combines 'I' and 'J').\n\nThe key table would look like this:\n\nC R Y P T\nO A B D E\nF G H I K\nL M N S U\nV W X Z Q\n\nNow, we need to encrypt the message \"MATHEMATICS\". We break the message into pairs of letters, and if a pair has the same letter twice, we insert an 'X' between them. In this case, we have:\n\nMA TH EM AT IX CS\n\nNow, we encrypt each pair using the key table:\n\n1. MA -> OC\n2. TH -> YD\n3. EM -> AB\n4. AT -> TO\n5. IX -> KN\n6. CS -> RU\n\nSo, the encrypted message is \"OCYDABTOKNRU\"."
+}

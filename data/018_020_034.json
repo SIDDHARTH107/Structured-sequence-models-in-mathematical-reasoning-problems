@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Set theory",
+    "sub_topic": "Prove that the symmetric difference of two sets is distributive over union.",
+    "message_1": "Let A = {1, 2, 3, 4} and B = {2, 4, 6, 8}. Find the symmetric difference of (A Δ B) ∪ A and (A ∪ B) Δ (B ∖ A).",
+    "message_2": "First, let's find the symmetric difference of A and B, denoted as A Δ B. The symmetric difference is the set of elements which are in either of the sets, but not in their intersection.\n\nA Δ B = (A ∪ B) - (A ∩ B) = {1, 2, 3, 4, 6, 8} - {2, 4} = {1, 3, 6, 8}\n\nNow, let's find the union of A and the symmetric difference we just found:\n\n(A Δ B) ∪ A = {1, 3, 6, 8} ∪ {1, 2, 3, 4} = {1, 2, 3, 4, 6, 8}\n\nNext, let's find the difference of B and A, denoted as B ∖ A. This is the set of elements in B but not in A:\n\nB ∖ A = {2, 4, 6, 8} - {1, 2, 3, 4} = {6, 8}\n\nNow, let's find the union of A and B:\n\nA ∪ B = {1, 2, 3, 4} ∪ {2, 4, 6, 8} = {1, 2, 3, 4, 6, 8}\n\nNext, let's find the symmetric difference of (A ∪ B) and (B ∖ A):\n\n(A ∪ B) Δ (B ∖ A) = {1, 2, 3, 4, 6, 8} - {6, 8} = {1, 2, 3, 4}\n\nFinally, let's find the symmetric difference of the two sets we found earlier:\n\n((A Δ B) ∪ A) Δ (A ∪ B) Δ (B ∖ A) = {1, 2, 3, 4, 6, 8} Δ {1, 2, 3, 4} = {6, 8}\n\nSo, the symmetric difference of (A Δ B) ∪ A and (A ∪ B) Δ (B ∖ A) is {6, 8}."
+}

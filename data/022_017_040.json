@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Complex analysis of differential equations",
+    "message_1": "Solve the differential equation $z^\\prime + 2iz = e^{2t}$ where $z(0) = 1$.",
+    "message_2": "To solve the given differential equation, we first find the integrating factor. The integrating factor is given by $e^{\\int P(t) dt}$, where $P(t)$ is the coefficient of $z$ in the given differential equation. In this case, $P(t) = 2i$. So, the integrating factor is:\n\n$e^{\\int 2i dt} = e^{2it}$\n\nNow, we multiply both sides of the given differential equation by the integrating factor:\n\n$e^{2it}(z^\\prime + 2iz) = e^{2it}e^{2t}$\n\nThis simplifies to:\n\n$(e^{2it}z)^\\prime = e^{2t}e^{2it}$\n\nNow, we integrate both sides with respect to $t$:\n\n$\\int (e^{2it}z)^\\prime dt = \\int e^{2t}e^{2it} dt$\n\n$e^{2it}z = \\frac{1}{4}e^{2t}e^{2it} + C$\n\nNow, we multiply both sides by $e^{-2it}$ to isolate $z$:\n\n$z = \\frac{1}{4}e^{2t} + Ce^{-2it}$\n\nWe are given the initial condition $z(0) = 1$. We can use this to find the constant $C$:\n\n$1 = \\frac{1}{4}e^{0} + Ce^{0}$\n\n$1 = \\frac{1}{4} + C$\n\n$C = \\frac{3}{4}$\n\nThus, the solution to the given differential equation is:\n\n$z(t) = \\frac{1}{4}e^{2t} + \\frac{3}{4}e^{-2it}$"
+}

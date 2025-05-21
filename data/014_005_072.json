@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Digital signatures",
+    "message_1": "Assuming RSA algorithm is used for digital signatures, a message is signed with a private key of modulus 2537 and public key of exponent 13. If the signature is generated for a message \"Hello World\", the resulting signature value is 1914. What is the original message that was signed?",
+    "message_2": "To find the original message that was signed, we need to use the public key (modulus and exponent) to decrypt the signature value.\n\nGiven:\n- Modulus (n) = 2537\n- Public key exponent (e) = 13\n- Signature value (S) = 1914\n\nWe can use the formula M = S^e mod n to find the original message (M).\n\nM = 1914^13 mod 2537\n\nCalculating this, we get:\n\nM = 2081\n\nSo, the original message that was signed has a numerical value of 2081. Note that this is a numerical representation of the message, and it may need to be converted back to a text format if required."
+}

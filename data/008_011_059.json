@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Solving systems of linear equations using Cramer's rule",
+    "message_1": "Solve the following system of linear equations using Cramer's rule:\n\n2x + 3y = 11  \n4x - 5y = 3  \n\nWhat are the values of x and y?",
+    "message_2": "To solve the given system of linear equations using Cramer's rule, we first need to find the determinants. The main determinant (D) is found using the coefficients of x and y:\n\nD = | 2  3 |\n      | 4 -5 |\n\nD = (2 * -5) - (3 * 4)\nD = -10 - 12\nD = -22\n\nNow, we need to find the determinant for x (Dx) by replacing the coefficients of x in the main determinant with the constants on the right side of the equations:\n\nDx = | 11  3 |\n        |  3 -5 |\n\nDx = (11 * -5) - (3 * 3)\nDx = -55 - 9\nDx = -64\n\nNow, we need to find the determinant for y (Dy) by replacing the coefficients of y in the main determinant with the constants on the right side of the equations:\n\nDy = | 2 11 |\n        | 4  3 |\n\nDy = (2 * 3) - (11 * 4)\nDy = 6 - 44\nDy = -38\n\nNow, we can find the values of x and y using the determinants:\n\nx = Dx / D\nx = -64 / -22\nx = 64 / 22\nx = 32 / 11\n\ny = Dy / D\ny = -38 / -22\ny = 38 / 22\ny = 19 / 11\n\nSo, the values of x and y are:\n\nx = 32/11\ny = 19/11"
+}

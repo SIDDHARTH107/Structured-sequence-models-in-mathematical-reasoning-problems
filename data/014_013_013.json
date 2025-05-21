@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Hill cipher",
+    "message_1": "Suppose you want to encrypt the message \"MATH\" using Hill Cipher with a 2x2 matrix key. Find the encrypted message using the key matrix [5 8; 17 3].",
+    "message_2": "To encrypt the message \"MATH\" using Hill Cipher with a 2x2 matrix key, we first need to convert the letters to numbers using the alphabetical order (A=0, B=1, ..., Z=25). So, MATH becomes:\n\nM -> 12\nA -> 0\nT -> 19\nH -> 7\n\nNow, we need to arrange these numbers into a 2x2 matrix:\n\n| 12  0 |\n| 19  7 |\n\nNext, we multiply the message matrix with the key matrix:\n\n| 5  8 |   | 12  0 |   | 5*12 + 8*19  5*0 + 8*7 |\n| 17 3 | x | 19  7 | = | 17*12 + 3*19  17*0 + 3*7 |\n\nNow, perform the matrix multiplication:\n\n| 60 + 152  0 + 56 |\n| 204 + 57  0 + 21 |\n\nWhich results in:\n\n| 212  56 |\n| 261  21 |\n\nNow, we need to take these numbers modulo 26 to bring them back into the range of the alphabet:\n\n| 212 % 26  56 % 26 |\n| 261 % 26  21 % 26 |\n\nWhich gives us:\n\n| 4  4 |\n| 1  21 |\n\nNow, convert these numbers back to letters:\n\n4 -> E\n4 -> E\n1 -> B\n21 -> V\n\nSo, the encrypted message is \"EEBV\"."
+}

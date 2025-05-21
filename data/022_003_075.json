@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Complex integration and Cauchy's theorem",
+    "message_1": "Let C be the positively oriented unit circle centered at the origin, and let f(z) = z^3 / (z^2 + 1)^2. Find ∫C f(z) dz.",
+    "message_2": "To evaluate the contour integral ∫C f(z) dz, we will use the residue theorem. First, we need to find the poles of the function f(z) = z^3 / (z^2 + 1)^2. The poles are the solutions of the equation (z^2 + 1)^2 = 0.\n\n(z^2 + 1)^2 = 0\nz^2 + 1 = 0\nz^2 = -1\nz = ±i\n\nSo, the poles are at z = i and z = -i. Since both poles lie inside the unit circle C, we need to find the residues of f(z) at these poles.\n\nResidue at z = i:\nRes(f(z), i) = lim (z→i) [(z - i) * f(z)]\n= lim (z→i) [(z - i) * (z^3 / (z^2 + 1)^2)]\n= lim (z→i) [z^3 / (z + i)^2]\n= i^3 / (2i)^2\n= -i / 4\n= i/4\n\nResidue at z = -i:\nRes(f(z), -i) = lim (z→-i) [(z + i) * f(z)]\n= lim (z→-i) [(z + i) * (z^3 / (z^2 + 1)^2)]\n= lim (z→-i) [z^3 / (z - i)^2]\n= (-i)^3 / (2(-i))^2\n= -i / 4\n= i/4\n\nNow, we can apply the residue theorem:\n\n∫C f(z) dz = 2πi * (Res(f(z), i) + Res(f(z), -i))\n= 2πi * (i/4 + i/4)\n= 2πi * (i/2)\n= 2π * (-1)\n= -2π\n\nSo, the contour integral ∫C f(z) dz = -2π."
+}

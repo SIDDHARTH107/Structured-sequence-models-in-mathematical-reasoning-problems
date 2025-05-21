@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Complex analysis of integral equations",
+    "message_1": "Evaluate the contour integral given by $\\oint_C \\frac{z}{(z-a)^4} dz$ where $C$ is the circle $|z|=2$ and $a=1+i$.",
+    "message_2": "To evaluate the contour integral, we will use the Cauchy integral formula. The Cauchy integral formula states that if $f(z)$ is analytic inside and on a simple closed contour $C$, and $a$ is a point inside $C$, then\n\n$$f^{(n)}(a) = \\frac{n!}{2\\pi i} \\oint_C \\frac{f(z)}{(z-a)^{n+1}} dz$$\n\nIn our case, we have $f(z) = z$, and we want to find the integral of $\\frac{z}{(z-a)^4} dz$. Comparing this to the formula, we see that $n=3$. Thus, we need to find the third derivative of $f(z)$ at the point $a=1+i$.\n\nThe first three derivatives of $f(z)$ are:\n\n$$f'(z) = 1$$\n$$f''(z) = 0$$\n$$f^{(3)}(z) = 0$$\n\nNow, we can plug this into the Cauchy integral formula:\n\n$$\\oint_C \\frac{z}{(z-a)^4} dz = \\frac{3!}{2\\pi i} \\cdot 0 = 0$$\n\nTherefore, the contour integral is equal to 0."
+}

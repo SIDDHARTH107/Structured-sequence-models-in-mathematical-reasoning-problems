@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Statistics",
+    "sub_topic": "Central limit theorem",
+    "message_1": "A factory produced 2000 light bulbs. The mean lifetime of these bulbs is 800 hours with a standard deviation of 100 hours. What is the probability that a randomly selected bulb from this production will have a lifetime between 750 and 850 hours?",
+    "message_2": "To find the probability that a randomly selected bulb will have a lifetime between 750 and 850 hours, we can use the Z-score formula to standardize the values and then use the standard normal distribution table (also known as the Z-table) to find the probability.\n\nThe Z-score formula is:\n\nZ = (X - μ) / σ\n\nwhere X is the value we want to standardize, μ is the mean, and σ is the standard deviation.\n\nFirst, let's find the Z-scores for 750 and 850 hours:\n\nZ1 = (750 - 800) / 100 = -0.50\nZ2 = (850 - 800) / 100 = 0.50\n\nNow, we will use the Z-table to find the probabilities corresponding to these Z-scores. The Z-table gives us the probability that a value is less than or equal to a given Z-score. \n\nP(Z ≤ -0.50) = 0.3085\nP(Z ≤ 0.50) = 0.6915\n\nTo find the probability that a bulb's lifetime is between 750 and 850 hours, we need to find the difference between these two probabilities:\n\nP(750 ≤ X ≤ 850) = P(Z ≤ 0.50) - P(Z ≤ -0.50) = 0.6915 - 0.3085 = 0.3830\n\nSo, the probability that a randomly selected bulb from this production will have a lifetime between 750 and 850 hours is approximately 0.383 or 38.3%."
+}

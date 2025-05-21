@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Probability",
+    "sub_topic": "Probability of a certain type of accident occurring in a workplace",
+    "message_1": "In a factory, there are 30 machines operating continuously. The probability of a machine breaking down in a day is 0.2. What is the probability that exactly 5 machines will break down in a day?",
+    "message_2": "We can solve this problem using the binomial probability formula, which is:\n\nP(X = k) = C(n, k) * p^k * (1-p)^(n-k)\n\nwhere:\n- P(X = k) is the probability of exactly k successes (in this case, machines breaking down) in n trials (number of machines)\n- C(n, k) is the number of combinations of choosing k successes from n trials, also written as n! / (k!(n-k)!)\n- p is the probability of a single success (machine breaking down)\n- n is the total number of trials (machines)\n- k is the number of successes (machines breaking down)\n\nIn this problem, we have:\n- n = 30 (total number of machines)\n- k = 5 (number of machines breaking down)\n- p = 0.2 (probability of a machine breaking down)\n\nFirst, we need to find C(30, 5):\n\nC(30, 5) = 30! / (5!(30-5)!)\n= 30! / (5! * 25!)\n= (30 * 29 * 28 * 27 * 26) / (5 * 4 * 3 * 2 * 1)\n= 142506\n\nNow, we can plug these values into the binomial probability formula:\n\nP(X = 5) = C(30, 5) * p^5 * (1-p)^(30-5)\n= 142506 * (0.2)^5 * (0.8)^25\n≈ 0.202331151\n\nSo, the probability that exactly 5 machines will break down in a day is approximately 0.2023 or 20.23%."
+}

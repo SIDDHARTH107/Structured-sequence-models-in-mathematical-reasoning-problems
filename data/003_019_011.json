@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Trigonometry",
+    "sub_topic": "Finding the integral of a trigonometric function",
+    "message_1": "Find the indefinite integral of cos^3(x) dx.",
+    "message_2": "To find the indefinite integral of cos^3(x) dx, we can use the reduction formula for cos^n(x). \n\nFirst, let's rewrite cos^3(x) as cos^2(x) * cos(x). We know that cos^2(x) = 1 - sin^2(x), so we can rewrite the integral as:\n\n∫(1 - sin^2(x)) * cos(x) dx\n\nNow, let's use substitution. Let u = sin(x), so du = cos(x) dx. The integral becomes:\n\n∫(1 - u^2) du\n\nNow, we can integrate with respect to u:\n\n∫(1 - u^2) du = u - (1/3)u^3 + C\n\nNow, substitute back sin(x) for u:\n\nsin(x) - (1/3)sin^3(x) + C\n\nSo, the indefinite integral of cos^3(x) dx is:\n\nsin(x) - (1/3)sin^3(x) + C"
+}

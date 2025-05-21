@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Block designs",
+    "message_1": "A school is organizing a science fair and has 15 projects to display. They have 8 display boards available and each board can accommodate exactly 3 projects. How many different ways can the projects be arranged on the display boards?",
+    "message_2": "To solve this problem, we will use the combination formula, which is given by:\n\nC(n, r) = n! / (r!(n-r)!)\n\nwhere n is the total number of items, r is the number of items to be chosen at a time, and ! denotes the factorial.\n\nIn this case, we have 15 projects and need to choose 3 projects for each board. So, we will first find the number of ways to arrange 3 projects on a single board:\n\nC(15, 3) = 15! / (3!(15-3)!)\n= 15! / (3! * 12!)\n= (15 * 14 * 13 * 12!) / (3! * 12!)\n= (15 * 14 * 13) / (3 * 2 * 1)\n= 455\n\nSo, there are 455 ways to arrange 3 projects on a single board.\n\nNow, we have 8 display boards, and we need to find the number of ways to arrange the projects on these boards. Since the boards are indistinguishable, we will simply raise the number of ways to arrange 3 projects on a single board to the power of the number of boards:\n\nTotal arrangements = 455^8 = 4,019,159,266,533,376,625\n\nTherefore, there are 4,019,159,266,533,376,625 different ways to arrange the 15 projects on the 8 display boards."
+}

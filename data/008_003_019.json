@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Determining the rank of a matrix",
+    "message_1": "Let A be the following matrix: \n\n  A = \n  [ 1  2  3 ]\n  [ 4  5  6 ]\n  [ 7  8  9 ]\n\nDetermine the rank of the matrix A.",
+    "message_2": "To determine the rank of matrix A, we need to find the maximum number of linearly independent rows or columns. We can do this by performing Gaussian elimination to row reduce the matrix to its row echelon form.\n\nMatrix A:\n\n  [ 1  2  3 ]\n  [ 4  5  6 ]\n  [ 7  8  9 ]\n\nStep 1: Subtract 4 times the first row from the second row, and subtract 7 times the first row from the third row:\n\n  [ 1  2  3 ]\n  [ 0 -3 -6 ]\n  [ 0 -6 -12 ]\n\nStep 2: Divide the second row by -3:\n\n  [ 1  2   3  ]\n  [ 0  1   2  ]\n  [ 0 -6 -12 ]\n\nStep 3: Add 6 times the second row to the third row:\n\n  [ 1  2  3 ]\n  [ 0  1  2 ]\n  [ 0  0  0 ]\n\nThe row echelon form of matrix A has two non-zero rows, so the rank of matrix A is 2."
+}

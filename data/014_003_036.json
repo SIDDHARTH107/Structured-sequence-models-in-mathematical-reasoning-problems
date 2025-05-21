@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "ElGamal encryption and decryption",
+    "message_1": "Consider the ElGamal encryption scheme with the following parameters: \n\n- the prime number p = 19 \n- the generator g = 2 \n- the private key a = 5 \n\nSuppose Alice wants to send a message to Bob, and she encrypts it using ElGamal with Bob's public key:\n\n- the public key y = 3 \n\nThe message she wants to send is \"12\". Using ElGamal, what is the ciphertext that Alice sends to Bob? ",
+    "message_2": "To encrypt the message \"12\" using the ElGamal encryption scheme, Alice will first choose a random number k (let's say k = 4). Then, she will compute the following two values:\n\n1. C1 = g^k mod p\n2. C2 = (message * y^k) mod p\n\nUsing the given parameters:\n\n1. C1 = 2^4 mod 19 = 16\n2. C2 = (12 * 3^4) mod 19 = (12 * 81) mod 19 = 972 mod 19 = 6\n\nSo, the ciphertext that Alice sends to Bob is (C1, C2) = (16, 6)."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Complex analysis of differential equations",
+    "message_1": "Consider the differential equation $y''(x) + 4y(x) = 0$, where $y(x)$ is a complex-valued function of $x$. Find the general solution $y(x)$ satisfying the initial conditions $y(0) = 1$ and $y'(0) = i$.",
+    "message_2": "To solve the given differential equation $y''(x) + 4y(x) = 0$, we first find the characteristic equation, which is given by:\n\n$r^2 + 4 = 0$\n\nSolving for $r$, we get:\n\n$r = \\pm 2i$\n\nSince we have complex roots, the general solution of the differential equation is given by:\n\n$y(x) = A\\cos(2x) + B\\sin(2x)$\n\nwhere $A$ and $B$ are complex constants.\n\nNow, we need to find the first derivative of $y(x)$:\n\n$y'(x) = -2A\\sin(2x) + 2B\\cos(2x)$\n\nWe are given the initial conditions $y(0) = 1$ and $y'(0) = i$. Applying these conditions, we get:\n\n$y(0) = A\\cos(0) + B\\sin(0) = 1$\n\n$y'(0) = -2A\\sin(0) + 2B\\cos(0) = i$\n\nFrom the first equation, we have:\n\n$A = 1$\n\nSubstituting this value into the second equation, we get:\n\n$2B = i$\n\n$B = \\frac{i}{2}$\n\nNow we have the values of $A$ and $B$, so the general solution of the given differential equation with the given initial conditions is:\n\n$y(x) = \\cos(2x) + \\frac{i}{2}\\sin(2x)$"
+}

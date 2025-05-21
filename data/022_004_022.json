@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Singularities of complex functions",
+    "message_1": "Find the type of singularity and its order of the function f(z) = sin(z)/z^3 at z = 0.",
+    "message_2": "To find the type of singularity and its order for the function f(z) = sin(z)/z^3 at z = 0, we can use the Laurent series expansion.\n\nRecall that the sine function has a Maclaurin series expansion:\n\nsin(z) = z - (z^3)/3! + (z^5)/5! - (z^7)/7! + ...\n\nNow, we can divide each term by z^3 to find the Laurent series expansion for f(z):\n\nf(z) = (sin(z))/z^3 = (z - (z^3)/3! + (z^5)/5! - (z^7)/7! + ...)/z^3\n\nf(z) = 1/z^2 - 1/3! + z^2/5! - z^4/7! + ...\n\nSince there are no negative powers of z other than z^(-2), the function f(z) has a pole at z = 0. The order of the pole is the highest power of z in the denominator, which is 2 in this case.\n\nSo, the function f(z) = sin(z)/z^3 has a pole of order 2 at z = 0."
+}

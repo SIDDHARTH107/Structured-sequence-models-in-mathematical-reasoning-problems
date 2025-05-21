@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Graph coloring",
+    "message_1": "How many ways are there to color the vertices of a square using 3 colors? Consider two colorings equivalent if one can be obtained from the other by a rotation.",
+    "message_2": "Let's consider the different cases of coloring the vertices of a square using 3 colors:\n\n1. All 4 vertices have the same color: There are 3 ways to do this, one for each color.\n\n2. Three vertices have the same color, and the remaining vertex has a different color: There are 3 ways to choose the color for the group of 3 vertices, and 2 ways to choose the color for the remaining vertex. However, since we consider rotations equivalent, there is only 1 unique way to arrange these colors. So, there are 3 * 2 = 6 ways for this case.\n\n3. Two vertices have the same color, and the other two vertices have different colors: There are 3 ways to choose the color for the pair of vertices, and then 2 ways to choose the color for one of the remaining vertices. The last vertex will have the remaining color. There are 2 unique ways to arrange these colors (either adjacent or diagonal). So, there are 3 * 2 * 2 = 12 ways for this case.\n\n4. All 4 vertices have different colors: This is not possible since we only have 3 colors.\n\nAdding up the ways for each case, we have a total of 3 + 6 + 12 = 21 ways to color the vertices of a square using 3 colors, considering rotations equivalent."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Binomial coefficients",
+    "message_1": "What is the value of the 10th term in the expansion of (x + 3)^12?",
+    "message_2": "To find the 10th term in the expansion of (x + 3)^12, we can use the binomial theorem. The general term in the expansion of (x + y)^n is given by:\n\nT(k) = C(n, k-1) * x^(n-k+1) * y^(k-1)\n\nwhere T(k) is the k-th term, C(n, k-1) is the binomial coefficient (n choose k-1), and x and y are the variables in the binomial expression.\n\nIn our case, n = 12, x = x, and y = 3. We want to find the 10th term, so k = 10.\n\nT(10) = C(12, 10-1) * x^(12-10+1) * 3^(10-1)\nT(10) = C(12, 9) * x^3 * 3^9\n\nNow, we need to find the binomial coefficient C(12, 9):\n\nC(12, 9) = 12! / (9! * (12-9)!)\nC(12, 9) = 12! / (9! * 3!)\nC(12, 9) = (12 * 11 * 10) / (3 * 2 * 1)\nC(12, 9) = 220\n\nNow, we can substitute this back into the expression for T(10):\n\nT(10) = 220 * x^3 * 3^9\n\nSo, the 10th term in the expansion of (x + 3)^12 is 220x^3 * 3^9."
+}

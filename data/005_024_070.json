@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Statistics",
+    "sub_topic": "Data mining",
+    "message_1": "A company has collected data on the salaries of its employees, and the data is normally distributed with a mean of $50,000 and a standard deviation of $5,000. What percentage of employees earn a salary between $40,000 and $60,000?",
+    "message_2": "To find the percentage of employees earning a salary between $40,000 and $60,000, we need to calculate the z-scores for these values and then use the standard normal distribution table (also known as the z-table) to find the probabilities.\n\nFirst, let's find the z-scores for $40,000 and $60,000.\n\nz = (X - μ) / σ\n\nFor $40,000:\nz = (40,000 - 50,000) / 5,000\nz = -10,000 / 5,000\nz = -2\n\nFor $60,000:\nz = (60,000 - 50,000) / 5,000\nz = 10,000 / 5,000\nz = 2\n\nNow, we'll use the z-table to find the probabilities for these z-scores. The z-table gives us the area to the left of the z-score (i.e., the probability of a value being less than or equal to the given z-score).\n\nFor z = -2, the probability is 0.0228 (2.28%).\nFor z = 2, the probability is 0.9772 (97.72%).\n\nTo find the percentage of employees earning between $40,000 and $60,000, we need to find the area between these two z-scores. We do this by subtracting the probability of z = -2 from the probability of z = 2:\n\nPercentage = P(2) - P(-2)\nPercentage = 0.9772 - 0.0228\nPercentage = 0.9544\n\nSo, approximately 95.44% of employees earn a salary between $40,000 and $60,000."
+}

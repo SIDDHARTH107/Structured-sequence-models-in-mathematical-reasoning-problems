@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Inclusion-exclusion principle",
+    "message_1": "There are 30 students in a school, and they are taking at least one of the following subjects: Mathematics, Science, and History. 20 students are taking Mathematics, 15 are taking Science, and 10 are taking History. If 7 students are taking both Mathematics and Science, 4 are taking both Mathematics and History, 3 are taking both Science and History, and 2 are taking all three subjects, then how many students are taking only one subject?",
+    "message_2": "To find the number of students taking only one subject, we can use the principle of inclusion-exclusion.\n\nFirst, let's find the number of students taking at least two subjects:\n- 7 students are taking both Mathematics and Science.\n- 4 students are taking both Mathematics and History.\n- 3 students are taking both Science and History.\nSo, there are a total of 7 + 4 + 3 = 14 students taking at least two subjects.\n\nHowever, we have counted the students taking all three subjects twice. There are 2 students taking all three subjects, so we need to subtract them once to get the correct count of students taking at least two subjects: 14 - 2 = 12 students.\n\nNow, we can find the number of students taking only one subject by subtracting the number of students taking at least two subjects from the total number of students: 30 - 12 = 18 students.\n\nTherefore, 18 students are taking only one subject."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Graph theory",
+    "sub_topic": "Finding the minimum spanning tree of a graph.",
+    "message_1": "Consider the following undirected weighted graph with 6 vertices and 9 edges:\n\n![Graph image](https://i.imgur.com/2QpgTCE.png)\n\nFind the minimum spanning tree of the given graph using Prim’s algorithm. Report the total weight of the minimum spanning tree.",
+    "message_2": "To find the minimum spanning tree using Prim's algorithm, we start with an arbitrary vertex and then iteratively add the shortest edge that connects a vertex in the tree to a vertex not in the tree. We will start with vertex A.\n\n1. Add vertex A to the tree.\n2. The shortest edge connected to A is (A, B) with weight 1. Add vertex B and edge (A, B) to the tree.\n3. The shortest edge connected to A or B is (B, C) with weight 2. Add vertex C and edge (B, C) to the tree.\n4. The shortest edge connected to A, B, or C is (A, D) with weight 3. Add vertex D and edge (A, D) to the tree.\n5. The shortest edge connected to A, B, C, or D is (C, E) with weight 4. Add vertex E and edge (C, E) to the tree.\n6. The shortest edge connected to A, B, C, D, or E is (D, F) with weight 5. Add vertex F and edge (D, F) to the tree.\n\nNow all vertices are in the tree, and the minimum spanning tree is complete. The edges in the minimum spanning tree are (A, B), (B, C), (A, D), (C, E), and (D, F).\n\nThe total weight of the minimum spanning tree is 1 + 2 + 3 + 4 + 5 = 15."
+}

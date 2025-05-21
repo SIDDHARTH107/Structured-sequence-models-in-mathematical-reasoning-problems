@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Diffie-Hellman key exchange",
+    "message_1": "Suppose Alice and Bob are exchanging messages using the Diffie-Hellman Key Exchange method. Alice chooses a prime number $p = 19$ and a base $g = 2$. She also chooses a secret number $a = 3$ and computes $A = g^a \\mod p$. Bob chooses a secret number $b = 5$ and computes $B = g^b \\mod p$. What is the shared secret key that Alice and Bob can use for encryption and decryption of their messages?",
+    "message_2": "First, let's compute A and B:\n\n$A = g^a \\mod p = 2^3 \\mod 19 = 8$\n\n$B = g^b \\mod p = 2^5 \\mod 19 = 32 \\mod 19 = 13$\n\nNow, Alice and Bob can compute the shared secret key using each other's public values (A and B) and their own secret numbers (a and b):\n\nShared secret key for Alice: $K_A = B^a \\mod p = 13^3 \\mod 19 = 2197 \\mod 19 = 10$\n\nShared secret key for Bob: $K_B = A^b \\mod p = 8^5 \\mod 19 = 32768 \\mod 19 = 10$\n\nAs we can see, both Alice and Bob have computed the same shared secret key, which is $10$. They can now use this key for encryption and decryption of their messages."
+}

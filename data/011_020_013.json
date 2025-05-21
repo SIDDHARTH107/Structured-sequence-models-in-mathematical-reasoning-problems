@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Combinatorial optimization",
+    "message_1": "A company needs to select a team of 5 employees from a group of 10 employees to work on a project. In how many ways can the company select the team if one of the employees, Tom, must be on the team?",
+    "message_2": "Since Tom must be on the team, we are left with selecting 4 more employees from the remaining 9 employees (10 total employees minus Tom). This is a combination problem, as the order of selection does not matter. We can use the combination formula:\n\nC(n, k) = n! / (k!(n-k)!)\n\nwhere n is the total number of employees to choose from (9 in this case) and k is the number of employees to select (4 in this case).\n\nC(9, 4) = 9! / (4!(9-4)!)\nC(9, 4) = 9! / (4!5!)\nC(9, 4) = 362880 / (24 * 120)\nC(9, 4) = 362880 / 2880\nC(9, 4) = 126\n\nSo, there are 126 ways to select a team of 5 employees with Tom on the team."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "One-time pad encryption",
+    "message_1": "Suppose you want to encrypt the message \"MATH\" using a one-time pad encryption. The key for this message is \"0101\". Write the encrypted message using XOR operation.",
+    "message_2": "To encrypt the message \"MATH\" using a one-time pad encryption with the key \"0101\", we first need to convert each character of the message and the key into their binary representation.\n\nM = 77 (ASCII value) = 01001101 (binary)\nA = 65 (ASCII value) = 01000001 (binary)\nT = 84 (ASCII value) = 01010100 (binary)\nH = 72 (ASCII value) = 01001000 (binary)\n\nNow, we'll apply the XOR operation using the key \"0101\" to each character's binary representation.\n\n0101 (key) XOR 01001101 (M) = 00001000 (8 in ASCII, which is a backspace character)\n0101 (key) XOR 01000001 (A) = 00001000 (8 in ASCII, which is a backspace character)\n0101 (key) XOR 01010100 (T) = 00001000 (8 in ASCII, which is a backspace character)\n0101 (key) XOR 01001000 (H) = 00001000 (8 in ASCII, which is a backspace character)\n\nSo, the encrypted message is \"8888\" in ASCII, which consists of four backspace characters."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Solving systems of linear equations using matrix methods",
+    "message_1": "Solve the following system of linear equations using matrix methods:\n\nx + y - z = 5\n\n2x - y + z = -1\n\n3x + 2y - z = 9",
+    "message_2": "To solve the given system of linear equations using matrix methods, we'll use the augmented matrix and then perform row operations to get it in the row-echelon form. The augmented matrix for the given system is:\n\n| 1  1 -1 |  5 |\n| 2 -1  1 | -1 |\n| 3  2 -1 |  9 |\n\nStep 1: Subtract 2 times the first row from the second row, and subtract 3 times the first row from the third row to eliminate x from the second and third rows.\n\n| 1  1 -1 |  5 |\n| 0 -3  3 | -11|\n| 0 -1  2 | -6 |\n\nStep 2: Divide the second row by -3 to make the leading coefficient of y in the second row equal to 1.\n\n| 1  1 -1 |  5  |\n| 0  1 -1 | 11/3|\n| 0 -1  2 | -6  |\n\nStep 3: Add the second row to the first row and the third row to eliminate y from the first and third rows.\n\n| 1  0  0 |  16/3|\n| 0  1 -1 |  11/3|\n| 0  0  1 |  5/3 |\n\nNow, the matrix is in row-echelon form. We can read the solution directly from the matrix:\n\nx = 16/3\ny = 11/3\nz = 5/3"
+}

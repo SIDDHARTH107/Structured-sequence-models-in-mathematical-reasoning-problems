@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Fourier analysis",
+    "sub_topic": "Finding the Fourier series of a periodic function",
+    "message_1": "Find the complex Fourier series of the periodic function f(x) with period 2π given by:\n\nf(x) = 2, 0 ≤ x < π\nf(x) = -2, -π ≤ x < 0",
+    "message_2": "To find the complex Fourier series of the given function, we first need to find the Fourier coefficients, which are given by:\n\nc_n = (1/π) ∫_(−π)^(π) f(x) * e^(−inx) dx\n\nwhere n is an integer, and i is the imaginary unit.\n\nWe will compute c_n separately for the two intervals of f(x).\n\nFor 0 ≤ x < π:\n\nc_n = (1/π) ∫_(0)^(π) 2 * e^(−inx) dx\n\nTo solve this integral, we can use integration by parts:\n\nc_n = (1/π) [(-2/in) * e^(-inx)]_(0)^(π)\n\nc_n = (1/π) [(-2/in) * (e^(-inπ) - 1)]\n\nFor -π ≤ x < 0:\n\nc_n = (1/π) ∫_(-π)^(0) -2 * e^(−inx) dx\n\nTo solve this integral, we can use integration by parts:\n\nc_n = (1/π) [(-2/in) * e^(-inx)]_(-π)^(0)\n\nc_n = (1/π) [(-2/in) * (1 - e^(inπ))]\n\nNow, we can add the two parts of c_n:\n\nc_n = (1/π) [(-2/in) * (e^(-inπ) - 1)] + (1/π) [(-2/in) * (1 - e^(inπ))]\n\nc_n = (-2/in) * (1 - e^(inπ)) * (1/π)\n\nNow we can write the complex Fourier series as:\n\nf(x) = Σ_(n=-∞)^(∞) c_n * e^(inx)\n\nf(x) = Σ_(n=-∞)^(∞) [(-2/in) * (1 - e^(inπ)) * (1/π)] * e^(inx)\n\nThis is the complex Fourier series representation of the given function f(x)."
+}

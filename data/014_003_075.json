@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "ElGamal encryption and decryption",
+    "message_1": "Suppose that you want to send a secret message to your friend using the ElGamal encryption system. Your friend’s public key is (p=11, g=2, and h=7). You decide to encrypt the message “5\" using a random number k=3. What is the resulting ciphertext that you’ll send to your friend?",
+    "message_2": "To encrypt the message \"5\" using the ElGamal encryption system with the given public key (p=11, g=2, and h=7) and random number k=3, we need to compute the ciphertext pair (c1, c2).\n\nFirst, calculate c1:\nc1 = g^k mod p\nc1 = 2^3 mod 11\nc1 = 8 mod 11\nc1 = 8\n\nNext, calculate c2:\nc2 = (message * h^k) mod p\nc2 = (5 * 7^3) mod 11\nc2 = (5 * 343) mod 11\nc2 = 1715 mod 11\nc2 = 4\n\nSo, the resulting ciphertext that you'll send to your friend is (c1, c2) = (8, 4)."
+}

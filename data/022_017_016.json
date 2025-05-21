@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Complex analysis of differential equations",
+    "message_1": "Solve the initial value problem\n\n$$(1-i)\\frac{dy}{dx}+y=x, \\ \\ \\ \\ y(0)=2+5i$$\n\nwhere $y$ is a complex-valued function of $x$.",
+    "message_2": "To solve this initial value problem, we first find the integrating factor. The integrating factor is given by the formula:\n\n$$\\mu(x) = e^{\\int P(x) dx}$$\n\nwhere $P(x)$ is the coefficient of $y$ in the given differential equation. In this case, $P(x) = 1$. So,\n\n$$\\mu(x) = e^{\\int 1 dx} = e^x$$\n\nNow, we multiply the given differential equation by the integrating factor:\n\n$$(1-i)e^x\\frac{dy}{dx} + e^x y = xe^x$$\n\nThe left-hand side of this equation is now the derivative of the product of $y$ and the integrating factor:\n\n$$\\frac{d}{dx}(ye^x) = xe^x$$\n\nNow, we integrate both sides with respect to $x$:\n\n$$\\int \\frac{d}{dx}(ye^x) dx = \\int xe^x dx$$\n\nUsing integration by parts for the right-hand side, let $u = x$ and $dv = e^x dx$. Then, $du = dx$ and $v = e^x$. Applying integration by parts:\n\n$$\\int xe^x dx = xe^x - \\int e^x dx = xe^x - e^x + C$$\n\nSo, we have:\n\n$$ye^x = xe^x - e^x + C$$\n\nNow, we solve for $y$:\n\n$$y = x - 1 + \\frac{C}{e^x}$$\n\nTo find the constant $C$, we use the initial condition $y(0) = 2 + 5i$:\n\n$$2 + 5i = 0 - 1 + \\frac{C}{e^0} \\Rightarrow C = 3 + 5i$$\n\nThus, the solution to the initial value problem is:\n\n$$y(x) = x - 1 + \\frac{3 + 5i}{e^x}$$"
+}

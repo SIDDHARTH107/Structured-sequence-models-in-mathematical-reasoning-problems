@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Optimization",
+    "sub_topic": "Optimal resource allocation",
+    "message_1": "A farmer has 600 acres of land to be used to cultivate two crops: wheat and corn. The profits per acre are $300 for wheat and $500 for corn. The farmer needs to allocate the land to maximize their profit. If the farmer plants more than 400 acres of corn, a pest problem will arise and drastically reduce the profits. How many acres of each crop should the farmer plant in order to maximize their profit?",
+    "message_2": "Let x be the number of acres of wheat and y be the number of acres of corn. We have two constraints:\n\n1. x + y = 600 (total acres)\n2. y ≤ 400 (to avoid pest problem)\n\nThe objective function to maximize the profit is:\n\nProfit = 300x + 500y\n\nTo maximize the profit, we need to find the optimal values of x and y. Since y ≤ 400, we can rewrite the first constraint as:\n\nx = 600 - y\n\nNow, substitute this expression for x into the objective function:\n\nProfit = 300(600 - y) + 500y\nProfit = 180000 - 300y + 500y\nProfit = 180000 + 200y\n\nSince we want to maximize the profit, we should maximize the value of y, which is the number of acres of corn. However, we cannot exceed 400 acres of corn due to the pest problem. Therefore, the farmer should plant 400 acres of corn.\n\nNow, we can find the number of acres of wheat using the first constraint:\n\nx = 600 - y\nx = 600 - 400\nx = 200\n\nSo, the farmer should plant 200 acres of wheat and 400 acres of corn to maximize their profit."
+}

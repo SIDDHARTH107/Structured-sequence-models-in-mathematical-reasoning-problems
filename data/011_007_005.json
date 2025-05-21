@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Recurrence relations",
+    "message_1": "A company has 5 employees and wants to form a committee of 3 employees. In how many different ways can the committee be formed if one specific employee must always be included in the committee?",
+    "message_2": "Since one specific employee must always be included in the committee, we are left with choosing 2 more employees from the remaining 4 employees. This is a combination problem, as the order of the employees does not matter.\n\nThe number of ways to choose 2 employees from 4 is given by the formula:\n\nC(n, k) = n! / (k!(n-k)!)\n\nwhere n is the total number of employees to choose from (in this case, 4), k is the number of employees to choose (in this case, 2), and ! denotes the factorial function.\n\nC(4, 2) = 4! / (2!(4-2)!)\n= 4! / (2! * 2!)\n= (4 * 3 * 2 * 1) / ((2 * 1) * (2 * 1))\n= (24) / (4)\n= 6\n\nSo there are 6 different ways to form the committee with the specific employee always included."
+}

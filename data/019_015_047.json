@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Logic",
+    "sub_topic": "Type theory",
+    "message_1": "A type theory problem for a math student to solve could be:\n\nProve that 2 + 2 = 4 using the basic principles of type theory.",
+    "message_2": "To prove that 2 + 2 = 4 using the basic principles of type theory, we will use the Peano axioms, which are a set of axioms for the natural numbers. In type theory, natural numbers are represented using the following constructors:\n\n1. Zero (0) is a natural number.\n2. For every natural number n, there is a successor function S(n) that gives the next natural number.\n\nUsing these constructors, we can represent the numbers 2 and 4 as follows:\n\n1. 2 = S(S(0))\n2. 4 = S(S(S(S(0))))\n\nNow, we need to define addition in terms of these constructors. We can do this using a recursive function:\n\n1. For any natural number n, n + 0 = n.\n2. For any natural numbers n and m, n + S(m) = S(n + m).\n\nNow, let's prove that 2 + 2 = 4 using these definitions:\n\n1. 2 + 2 = S(S(0)) + S(S(0))\n2. According to the second rule of addition, S(S(0)) + S(S(0)) = S(S(S(0)) + S(0))\n3. Applying the second rule of addition again, S(S(S(0)) + S(0)) = S(S(S(S(0)) + 0))\n4. Now, using the first rule of addition, S(S(S(S(0)) + 0)) = S(S(S(S(0))))\n\nThus, we have shown that 2 + 2 = 4 using the basic principles of type theory."
+}

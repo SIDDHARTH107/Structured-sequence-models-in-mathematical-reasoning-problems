@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Probability",
+    "sub_topic": "Coin flipping and probability of getting heads or tails",
+    "message_1": "Suppose you flip a fair coin 10 times. What is the probability of getting exactly 5 heads?",
+    "message_2": "To find the probability of getting exactly 5 heads in 10 coin flips, we can use the binomial probability formula:\n\nP(X = k) = (nCk) * (p^k) * (q^(n-k))\n\nwhere:\n- P(X = k) is the probability of getting exactly k successes (in this case, heads) in n trials (coin flips)\n- nCk is the number of combinations of n items taken k at a time (also written as C(n, k) or \"n choose k\")\n- p is the probability of success (getting heads) in a single trial (coin flip)\n- q is the probability of failure (getting tails) in a single trial (coin flip)\n- n is the number of trials (coin flips)\n- k is the number of successes (heads)\n\nIn this problem, n = 10 (coin flips), k = 5 (heads), p = 0.5 (probability of getting heads), and q = 0.5 (probability of getting tails).\n\nFirst, we need to find the number of combinations of 10 items taken 5 at a time (10C5):\n\n10C5 = 10! / (5! * (10-5)!)\n= 10! / (5! * 5!)\n= (10 * 9 * 8 * 7 * 6) / (5 * 4 * 3 * 2 * 1)\n= 252\n\nNow, we can plug these values into the binomial probability formula:\n\nP(X = 5) = (252) * (0.5^5) * (0.5^5)\n= 252 * 0.03125 * 0.03125\n= 0.24609375\n\nSo, the probability of getting exactly 5 heads in 10 coin flips is approximately 0.2461 or 24.61%."
+}

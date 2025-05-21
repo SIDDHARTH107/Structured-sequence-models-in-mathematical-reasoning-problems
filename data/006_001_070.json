@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Probability",
+    "sub_topic": "Coin flipping and probability of getting heads or tails",
+    "message_1": "If you flip a coin 100 times, what is the probability of getting tails at least 60 times?",
+    "message_2": "To calculate the probability of getting tails at least 60 times in 100 coin flips, we can use the binomial probability formula:\n\nP(X = k) = (nCk) * (p^k) * (q^(n-k))\n\nwhere:\n- n is the number of trials (coin flips), which is 100 in this case\n- k is the number of successful outcomes (tails), which is at least 60\n- p is the probability of success (getting tails), which is 0.5 for a fair coin\n- q is the probability of failure (getting heads), which is also 0.5 for a fair coin\n- nCk is the number of combinations of n items taken k at a time, calculated as n! / (k!(n-k)!)\n\nSince we want the probability of getting tails at least 60 times, we need to calculate the sum of probabilities for k = 60 to 100:\n\nP(X ≥ 60) = Σ P(X = k) for k = 60 to 100\n\nLet's calculate this sum:\n\nP(X ≥ 60) = P(X = 60) + P(X = 61) + ... + P(X = 100)\n\nUsing the binomial probability formula for each term:\n\nP(X = 60) = (100C60) * (0.5^60) * (0.5^40)\nP(X = 61) = (100C61) * (0.5^61) * (0.5^39)\n...\nP(X = 100) = (100C100) * (0.5^100) * (0.5^0)\n\nNow, we can use a calculator or software to compute the sum of these probabilities. The result is approximately:\n\nP(X ≥ 60) ≈ 0.0284\n\nSo, the probability of getting tails at least 60 times in 100 coin flips is approximately 2.84%."
+}

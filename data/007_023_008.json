@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Number theory",
+    "sub_topic": "Cryptographic hash functions",
+    "message_1": "A cryptographic hash function takes an input text and converts it to a fixed-size output string called a hash, which must be unique. If the input text is changed even slightly, the resulting hash will be completely different. \n\nSuppose you have a hash function that converts a 6-digit number to a 3-digit hash. How many different input numbers can result in the same hash value?",
+    "message_2": "Since the hash function converts a 6-digit number to a 3-digit hash, there are 10^6 possible input numbers (from 000000 to 999999) and 10^3 possible hash values (from 000 to 999).\n\nTo find out how many different input numbers can result in the same hash value, divide the total number of input numbers by the total number of hash values:\n\n(10^6) / (10^3) = 10^(6-3) = 10^3 = 1000\n\nSo, on average, 1000 different input numbers can result in the same hash value."
+}

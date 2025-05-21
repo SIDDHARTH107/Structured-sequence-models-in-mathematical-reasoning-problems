@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Orthogonal arrays",
+    "message_1": "Consider a sports team with 11 players consisting of 4 forwards (F), 4 midfielders (M), and 3 defenders (D). In how many ways can a coach select a starting lineup of 5 players that includes at least one player from each position?",
+    "message_2": "To ensure that there is at least one player from each position in the starting lineup, we can consider the following scenarios:\n\n1. 1 forward, 1 midfielder, and 3 defenders\n2. 1 forward, 3 midfielders, and 1 defender\n3. 3 forwards, 1 midfielder, and 1 defender\n\nFor each scenario, we will calculate the number of combinations and then sum them up.\n\nScenario 1: 1F, 1M, 3D\nNumber of combinations = C(4,1) * C(4,1) * C(3,3) = 4 * 4 * 1 = 16\n\nScenario 2: 1F, 3M, 1D\nNumber of combinations = C(4,1) * C(4,3) * C(3,1) = 4 * 4 * 3 = 48\n\nScenario 3: 3F, 1M, 1D\nNumber of combinations = C(4,3) * C(4,1) * C(3,1) = 4 * 4 * 3 = 48\n\nTotal number of combinations = 16 + 48 + 48 = 112\n\nSo, there are 112 ways for the coach to select a starting lineup of 5 players that includes at least one player from each position."
+}

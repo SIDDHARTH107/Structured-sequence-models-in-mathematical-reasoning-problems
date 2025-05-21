@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Topology",
+    "sub_topic": "Continuity and convergence in topology",
+    "message_1": "Let X be a topological space with the standard topology, and let f: X → R be a continuous function. If {x_n} is a sequence in X that converges to a limit x, prove that {f(x_n)} converges to f(x).\n\nSuppose X is a topological space with the standard topology, and f: X → R is a continuous function. Let {x_n} be a sequence in X such that x_n → x for some x ∈ X. Prove that f(x_n) → f(x).",
+    "message_2": "To prove that f(x_n) → f(x), we need to show that for any ε > 0, there exists a positive integer N such that for all n ≥ N, |f(x_n) - f(x)| < ε.\n\nSince f is continuous, for any ε > 0, there exists a δ > 0 such that for all y ∈ X with |y - x| < δ, we have |f(y) - f(x)| < ε. This is the definition of continuity in terms of open neighborhoods.\n\nNow, since x_n → x, for the given δ > 0, there exists a positive integer N such that for all n ≥ N, |x_n - x| < δ. This is the definition of convergence of a sequence.\n\nCombining these two facts, for all n ≥ N, we have |x_n - x| < δ, which implies |f(x_n) - f(x)| < ε, as desired.\n\nTherefore, we have shown that for any ε > 0, there exists a positive integer N such that for all n ≥ N, |f(x_n) - f(x)| < ε. This proves that f(x_n) → f(x), as required."
+}

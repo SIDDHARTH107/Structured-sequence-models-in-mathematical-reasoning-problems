@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Power series and their convergence",
+    "message_1": "Find the radius and interval of convergence of the power series $\\sum\\limits_{n=0}^\\infty \\frac{(x-3)^n}{9^n}$",
+    "message_2": "To find the radius and interval of convergence of the power series, we can use the Ratio Test. The Ratio Test states that if the limit as n approaches infinity of the absolute value of the ratio of consecutive terms of the series is less than 1, then the series converges.\n\nLet's apply the Ratio Test to the given power series:\n\n$\\lim_{n\\to\\infty} \\left|\\frac{\\frac{(x-3)^{n+1}}{9^{n+1}}}{\\frac{(x-3)^n}{9^n}}\\right|$\n\nSimplify the expression:\n\n$\\lim_{n\\to\\infty} \\left|\\frac{(x-3)^{n+1}}{9^{n+1}} \\cdot \\frac{9^n}{(x-3)^n}\\right|$\n\n$\\lim_{n\\to\\infty} \\left|\\frac{(x-3)}{9}\\right|$\n\nLet L = $\\left|\\frac{(x-3)}{9}\\right|$. For the series to converge, L < 1.\n\n$\\left|\\frac{(x-3)}{9}\\right| < 1$\n\nNow, we can solve for the interval of convergence:\n\n$-1 < \\frac{(x-3)}{9} < 1$\n\nMultiply by 9:\n\n$-9 < x-3 < 9$\n\nAdd 3:\n\n$-6 < x < 12$\n\nSo, the interval of convergence is (-6, 12).\n\nNow, let's find the radius of convergence. The radius of convergence is half the length of the interval of convergence:\n\nRadius = $\\frac{12 - (-6)}{2} = \\frac{18}{2} = 9$\n\nThus, the radius of convergence is 9, and the interval of convergence is (-6, 12)."
+}

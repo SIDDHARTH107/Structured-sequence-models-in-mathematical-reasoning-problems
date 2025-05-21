@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Logic",
+    "sub_topic": "Computability theory",
+    "message_1": "In Computability Theory, let's consider the subset of natural numbers that are perfect squares. Write a program that takes in a natural number as input and outputs 'Yes' if the number is a perfect square, or 'No' if it is not. Use the Python programming language to write this program.",
+    "message_2": "Here's a simple Python program to determine if a given natural number is a perfect square:\n\n```python\nimport math\n\ndef is_perfect_square(n):\n    sqrt_n = int(math.sqrt(n))\n    return sqrt_n * sqrt_n == n\n\ndef main():\n    n = int(input(\"Enter a natural number: \"))\n    if is_perfect_square(n):\n        print(\"Yes\")\n    else:\n        print(\"No\")\n\nif __name__ == \"__main__\":\n    main()\n```\n\nThis program first imports the `math` module to use the `sqrt` function. The `is_perfect_square` function calculates the square root of the input number `n` and checks if the square of the integer part of the square root is equal to `n`. If it is, the function returns `True`, indicating that the number is a perfect square. Otherwise, it returns `False`. The `main` function takes the user's input, calls the `is_perfect_square` function, and prints 'Yes' or 'No' based on the result."
+}

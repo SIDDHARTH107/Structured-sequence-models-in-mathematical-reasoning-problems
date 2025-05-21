@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Determining the rank of a matrix",
+    "message_1": "Determine the rank of the following 3x3 matrix:\n\n\\begin{bmatrix} 1 & 2 & 3 \\\\ 4 & 5 & 6 \\\\ 7 & 8 & 9 \\\\ \\end{bmatrix} \n\nWhat is the rank of this matrix?",
+    "message_2": "To determine the rank of the matrix, we need to perform Gaussian elimination to find the row echelon form of the matrix. Let's perform Gaussian elimination:\n\nOriginal matrix:\n\\begin{bmatrix} 1 & 2 & 3 \\\\ 4 & 5 & 6 \\\\ 7 & 8 & 9 \\\\ \\end{bmatrix}\n\nStep 1: Subtract 4 times the first row from the second row, and subtract 7 times the first row from the third row:\n\\begin{bmatrix} 1 & 2 & 3 \\\\ 0 & -3 & -6 \\\\ 0 & -6 & -12 \\\\ \\end{bmatrix}\n\nStep 2: Divide the second row by -3:\n\\begin{bmatrix} 1 & 2 & 3 \\\\ 0 & 1 & 2 \\\\ 0 & -6 & -12 \\\\ \\end{bmatrix}\n\nStep 3: Add 6 times the second row to the third row:\n\\begin{bmatrix} 1 & 2 & 3 \\\\ 0 & 1 & 2 \\\\ 0 & 0 & 0 \\\\ \\end{bmatrix}\n\nThe row echelon form of the matrix has two non-zero rows, so the rank of the matrix is 2."
+}

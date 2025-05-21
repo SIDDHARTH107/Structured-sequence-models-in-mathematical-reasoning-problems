@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Combinatorial identities",
+    "message_1": "How many ways are there to select a committee of 3 people out of 10 people if one of the members must be the chairman?",
+    "message_2": "To form a committee of 3 people with one of them being the chairman, we first choose the chairman and then choose the remaining 2 members from the remaining 9 people.\n\nThere are 10 choices for the chairman (since there are 10 people to choose from). After selecting the chairman, there are 9 people left, and we need to choose 2 of them to complete the committee. This can be done in C(9,2) ways, where C(n,k) denotes the number of combinations of choosing k items from a set of n items.\n\nC(9,2) = 9! / (2! * (9-2)!) = 9! / (2! * 7!) = (9 * 8) / (2 * 1) = 36\n\nSo, there are 10 * 36 = 360 ways to select a committee of 3 people out of 10 people if one of the members must be the chairman."
+}

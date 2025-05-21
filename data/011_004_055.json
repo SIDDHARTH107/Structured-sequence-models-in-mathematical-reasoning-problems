@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Multinomial coefficients",
+    "message_1": "A company has 10 employees, and it needs to form a project team of 3 managers, 4 engineers, and 3 support staff. In how many ways can the company form the project team if there are specific employees assigned to these job roles, namely 4 managers, 7 engineers, and 6 support staff?",
+    "message_2": "To form the project team, we need to choose 3 managers out of 4, 4 engineers out of 7, and 3 support staff out of 6. We can use the combination formula to calculate the number of ways to choose these employees.\n\nThe combination formula is: C(n, k) = n! / (k!(n-k)!)\n\nFor the managers, we have C(4, 3) = 4! / (3!(4-3)!) = 4.\nFor the engineers, we have C(7, 4) = 7! / (4!(7-4)!) = 35.\nFor the support staff, we have C(6, 3) = 6! / (3!(6-3)!) = 20.\n\nNow, we multiply the number of ways to choose each role to get the total number of ways to form the project team:\n\n4 (managers) * 35 (engineers) * 20 (support staff) = 2800 ways."
+}

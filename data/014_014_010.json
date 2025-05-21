@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Playfair cipher",
+    "message_1": "Consider the plaintext message \"MATHEMATICIANS\" and the keyphrase \"SECRET\". Using the Playfair cipher technique, encrypt the message and write the ciphertext.",
+    "message_2": "To encrypt the message \"MATHEMATICIANS\" using the Playfair cipher technique with the keyphrase \"SECRET\", follow these steps:\n\n1. Create a 5x5 grid using the keyphrase and the remaining letters of the alphabet (excluding 'J').\n\n   S E C R T\n   A B D F G\n   H I K L M\n   N O P Q U\n   V W X Y Z\n\n2. Break the plaintext message into pairs of letters. If a pair contains the same letter, insert an 'X' between them and continue pairing.\n\n   MA TH EM AT IC IA NS\n\n3. For each pair of letters, apply the Playfair cipher rules:\n\n   - If the letters are in the same row, replace each letter with the one to its right (wrapping around if necessary).\n   - If the letters are in the same column, replace each letter with the one below it (wrapping around if necessary).\n   - If the letters form a rectangle, replace each letter with the one in its own row but in the other letter's column.\n\n   Applying these rules, we get:\n\n   MA -> PF\n   TH -> YD\n   EM -> GA\n   AT -> TB\n   IC -> KL\n   IA -> HK\n   NS -> OC\n\n4. Combine the encrypted pairs to get the ciphertext:\n\n   PFYDGATBKLHKOC\n\nSo, the encrypted message using the Playfair cipher technique with the keyphrase \"SECRET\" is \"PFYDGATBKLHKOC\"."
+}

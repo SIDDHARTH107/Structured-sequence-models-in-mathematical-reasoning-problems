@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Complex integration and Cauchy's theorem",
+    "message_1": "Find the value of the contour integral:\n\n∫γ (3z^2 + 6z + 5)/(z - 2i) dz \n\nwhere γ is the circle |z - i| = 3 traversed counterclockwise.",
+    "message_2": "To evaluate the contour integral, we will use the Cauchy integral formula. The Cauchy integral formula states that for a function f(z) that is analytic inside and on a simple closed contour γ, and for a point a inside γ:\n\n∫γ f(z)/(z-a) dz = 2πif(a)\n\nIn this case, our function f(z) is given by:\n\nf(z) = 3z^2 + 6z + 5\n\nThe contour γ is the circle |z - i| = 3, and the point a is 2i, which is inside the contour. Now we need to find f(a):\n\nf(2i) = 3(2i)^2 + 6(2i) + 5\n       = 3(-4) + 12i + 5\n       = -12 + 12i\n\nNow we can apply the Cauchy integral formula:\n\n∫γ (3z^2 + 6z + 5)/(z - 2i) dz = 2πi(-12 + 12i)\n                                 = 24πi - 24π\n\nSo the value of the contour integral is 24πi - 24π."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Cryptanalysis of Hill cipher",
+    "message_1": "A Hill Cipher encryption key matrix is given as:\nK= [4 5; 7 8]\nSuppose the encrypted message is: \"YAEI\" (without quotes), which was obtained by encrypting the message \"MATH\" (without quotes), using the Hill Cipher. The corresponding Hill Cipher decryption key matrix is to be found. What is the Hill Cipher decryption key matrix?",
+    "message_2": "To find the Hill Cipher decryption key matrix, we first need to find the inverse of the given encryption key matrix K modulo 26. The given matrix K is:\n\nK = | 4  5 |\n      | 7  8 |\n\nFirst, we need to find the determinant of K:\n\ndet(K) = (4 * 8) - (5 * 7) = 32 - 35 = -3\n\nSince we are working with modulo 26, we need to find the modular inverse of the determinant:\n\n-3 (mod 26) = 23\n\nNow, we need to find the adjugate of K:\n\nadj(K) = |  8  -5 |\n             | -7   4 |\n\nNext, we multiply the adjugate of K by the modular inverse of the determinant:\n\nD = 23 * adj(K) = | 23 * 8  -23 * 5 |\n                         | -23 * 7  23 * 4 |\n\nD = | 184  -115 |\n        | -161  92 |\n\nFinally, we need to find the matrix D modulo 26:\n\nD (mod 26) = | 0  11 |\n                    | 11  18 |\n\nSo, the Hill Cipher decryption key matrix is:\n\nD = | 0  11 |\n        | 11  18 |"
+}

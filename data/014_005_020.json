@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Digital signatures",
+    "message_1": "Suppose that Alice wants to send Bob a message digitally signed with her private key. If Alice's private key is a 128-bit number and the message to be signed has a length of 1000 bytes, what is the size of the resulting digital signature in bytes? Assume that the digital signature uses RSA with a key size of 2048 bits.",
+    "message_2": "When using RSA for digital signatures, the size of the digital signature is determined by the key size used in the RSA algorithm. In this case, the key size is 2048 bits. To convert this to bytes, we divide by 8 (since there are 8 bits in a byte).\n\n2048 bits / 8 bits per byte = 256 bytes\n\nSo, the size of the resulting digital signature is 256 bytes."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Combinatorial optimization",
+    "message_1": "A delivery company has to deliver 5 packages to 5 different locations. In how many ways can they arrange the packages to be delivered to the locations if each location can only receive one package?",
+    "message_2": "This is a permutation problem since the order of the packages being delivered matters. There are 5 packages and 5 locations, so we can use the formula for permutations:\n\nn! / (n - r)!\n\nwhere n is the number of items (packages) and r is the number of items to be arranged (locations).\n\nIn this case, n = 5 and r = 5, so the formula becomes:\n\n5! / (5 - 5)!\n\n5! / 0!\n\nSince 0! is equal to 1, the formula simplifies to:\n\n5!\n\nNow, we just need to calculate the factorial of 5:\n\n5! = 5 × 4 × 3 × 2 × 1 = 120\n\nSo, there are 120 different ways the delivery company can arrange the packages to be delivered to the 5 locations."
+}

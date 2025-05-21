@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Complex analysis of integral equations",
+    "message_1": "Suppose $\\gamma$ is the positively oriented unit circle in the complex plane. Evaluate the following integral: $$\\int_{\\gamma} \\frac{1}{z^2+4}dz.$$",
+    "message_2": "To evaluate the integral, we first factor the denominator of the integrand:\n\n$$\\int_{\\gamma} \\frac{1}{z^2+4}dz = \\int_{\\gamma} \\frac{1}{(z+2i)(z-2i)}dz.$$\n\nNow, we notice that the function has two singularities at $z = 2i$ and $z = -2i$. However, since $\\gamma$ is the unit circle, only the singularity at $z = -2i$ is inside the contour. We can use the residue theorem to evaluate the integral. The residue theorem states that\n\n$$\\oint_{\\gamma} f(z)dz = 2\\pi i \\sum_{k=1}^n \\text{Res}(f, a_k),$$\n\nwhere $a_k$ are the singularities inside the contour and $\\text{Res}(f, a_k)$ is the residue of the function at the singularity $a_k$.\n\nTo find the residue of the function at $z = -2i$, we can use the formula for simple poles:\n\n$$\\text{Res}(f, -2i) = \\lim_{z \\to -2i} (z + 2i) \\frac{1}{(z+2i)(z-2i)} = \\lim_{z \\to -2i} \\frac{1}{(z-2i)} = \\frac{1}{-4i}.$$\n\nNow, we can apply the residue theorem:\n\n$$\\int_{\\gamma} \\frac{1}{z^2+4}dz = 2\\pi i \\cdot \\frac{1}{-4i} = \\frac{\\pi}{2}.$$"
+}

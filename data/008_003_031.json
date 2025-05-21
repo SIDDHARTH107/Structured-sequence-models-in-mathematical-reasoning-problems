@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Determining the rank of a matrix",
+    "message_1": "Determine the rank of the matrix A = [3 1 2; 2 1 1; 2 2 2] using elementary row operations.",
+    "message_2": "To determine the rank of the matrix A, we will perform elementary row operations to transform the matrix into its row-echelon form.\n\nMatrix A:\n[3 1 2]\n[2 1 1]\n[2 2 2]\n\nStep 1: Swap Row 1 and Row 2 to have a smaller leading number in the first row.\n[2 1 1]\n[3 1 2]\n[2 2 2]\n\nStep 2: Replace Row 2 with (-3/2) * Row 1 + Row 2.\n[2  1  1]\n[0 -1/2  1/2]\n[2  2  2]\n\nStep 3: Replace Row 3 with (-1) * Row 1 + Row 3.\n[2  1   1]\n[0 -1/2 1/2]\n[0  1   1]\n\nStep 4: Multiply Row 2 by -2 to eliminate the fraction.\n[2  1  1]\n[0  1 -1]\n[0  1  1]\n\nStep 5: Replace Row 3 with Row 3 - Row 2.\n[2  1  1]\n[0  1 -1]\n[0  0  2]\n\nNow the matrix is in row-echelon form:\n[2  1  1]\n[0  1 -1]\n[0  0  2]\n\nThe rank of a matrix is the number of non-zero rows in its row-echelon form. In this case, all rows are non-zero, so the rank of matrix A is 3."
+}

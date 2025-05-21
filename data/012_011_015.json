@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Graph theory",
+    "sub_topic": "Identifying the cut vertices and bridges in a graph.",
+    "message_1": "Consider the following undirected graph: \n\n    A --- B --- C\n        / \\   / \\\n       D   E F   G\n\nWhich vertices are cut vertices (also known as articulation points) and which edges are bridges?",
+    "message_2": "A cut vertex (articulation point) is a vertex that, when removed along with its incident edges, increases the number of connected components in the graph. A bridge is an edge that, when removed, increases the number of connected components in the graph.\n\nIn the given graph:\n\nCut vertices (articulation points): B, E\nExplanation: \n- If we remove vertex B and its incident edges, the graph will be split into two connected components: {A, D, E} and {C, F, G}.\n- If we remove vertex E and its incident edges, the graph will be split into two connected components: {A, B, C, F, G} and {D}.\n\nBridges: (A, B), (B, C), (B, E), (E, D)\nExplanation:\n- If we remove edge (A, B), the graph will be split into two connected components: {A, D, E} and {B, C, F, G}.\n- If we remove edge (B, C), the graph will be split into two connected components: {A, B, D, E} and {C, F, G}.\n- If we remove edge (B, E), the graph will be split into two connected components: {A, B, C, F, G} and {D, E}.\n- If we remove edge (E, D), the graph will be split into two connected components: {A, B, C, E, F, G} and {D}."
+}

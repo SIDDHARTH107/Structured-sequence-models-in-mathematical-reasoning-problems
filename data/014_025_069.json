@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Cryptographic hash functions.",
+    "message_1": "Suppose you want to generate a cryptographic hash function of length 256 bits for a message of length 5. Assume that the message is represented by a string of ASCII characters, and that the hash function uses the SHA-256 algorithm. What is the size of the input block that SHA-256 uses, and how many padding bits are added to the message before it is hashed?",
+    "message_2": "The SHA-256 algorithm uses an input block size of 512 bits. To pad the message, the algorithm first appends a single '1' bit, followed by a series of '0' bits, and finally a 64-bit binary representation of the original message length (in bits).\n\nSince the message has a length of 5 ASCII characters, it is 5 * 8 = 40 bits long. After appending the '1' bit, the message becomes 41 bits long. The 64-bit binary representation of the original message length will be added at the end, so we need to fill the remaining space with '0' bits.\n\nThe total number of bits in the padded message will be 512 bits, so the number of '0' bits required is:\n\n512 - 41 (message + '1' bit) - 64 (length representation) = 407 padding bits.\n\nTherefore, 407 padding bits are added to the message before it is hashed using the SHA-256 algorithm."
+}

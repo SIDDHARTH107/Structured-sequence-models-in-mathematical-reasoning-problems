@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Solving systems of linear equations using Cramer's rule",
+    "message_1": "Solve the following system of linear equations using Cramer's rule:\n    \n    3x + 2y = 8\n    4x - 5y = -7. \n    \nWhat is the value of x and y in this system of equations?",
+    "message_2": "To solve the given system of linear equations using Cramer's rule, we first need to find the determinants. Let's denote the coefficients matrix as A, and the constant terms matrix as B.\n\nMatrix A:\n| 3  2 |\n| 4 -5 |\n\nMatrix B:\n|  8 |\n| -7 |\n\nNow, we need to find the determinant of matrix A, which we'll call D.\n\nD = (3 * -5) - (2 * 4)\nD = -15 - 8\nD = -23\n\nNow, we need to find the determinant of the matrix formed by replacing the first column of A with B, which we'll call Dx.\n\nMatrix A with the first column replaced by B:\n|  8  2 |\n| -7 -5 |\n\nDx = (8 * -5) - (2 * -7)\nDx = -40 + 14\nDx = -26\n\nNow, we need to find the determinant of the matrix formed by replacing the second column of A with B, which we'll call Dy.\n\nMatrix A with the second column replaced by B:\n| 3  8 |\n| 4 -7 |\n\nDy = (3 * -7) - (8 * 4)\nDy = -21 - 32\nDy = -53\n\nNow, we can find the values of x and y using Cramer's rule:\n\nx = Dx / D\nx = -26 / -23\nx = 26/23\n\ny = Dy / D\ny = -53 / -23\ny = 53/23\n\nSo, the solution to the system of linear equations is:\n\nx = 26/23\ny = 53/23"
+}

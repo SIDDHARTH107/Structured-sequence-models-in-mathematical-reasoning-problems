@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Graph theory",
+    "sub_topic": "Determining the degree sequence of a graph.",
+    "message_1": "Consider a undirected simple graph with 6 vertices. Determine if the degree sequence (i.e. the degrees of all vertices listed in non-increasing order) [4,3,2,2,1,1] is possible for this graph.",
+    "message_2": "To determine if the degree sequence [4, 3, 2, 2, 1, 1] is possible for an undirected simple graph with 6 vertices, we can use the Havel-Hakimi theorem. The Havel-Hakimi theorem states that a sequence of non-negative integers is graphical (i.e., can be the degree sequence of a simple graph) if and only if the sequence obtained by deleting the first number and subtracting 1 from the next k numbers (where k is the first number) is graphical.\n\nLet's apply the Havel-Hakimi theorem to the given degree sequence:\n\n1. [4, 3, 2, 2, 1, 1]\n2. Remove the first number (4) and subtract 1 from the next 4 numbers: [2, 1, 1, 0, 1]\n3. Sort the sequence in non-increasing order: [2, 1, 1, 1, 0]\n4. Remove the first number (2) and subtract 1 from the next 2 numbers: [0, 0, 1, 0]\n5. Sort the sequence in non-increasing order: [1, 0, 0, 0]\n6. Remove the first number (1) and subtract 1 from the next 1 number: [0, 0, 0]\n7. Sort the sequence in non-increasing order: [0, 0, 0]\n\nWe have reached the sequence of all zeros, which means the original degree sequence is graphical, and it is possible to construct an undirected simple graph with the given degree sequence [4, 3, 2, 2, 1, 1]."
+}

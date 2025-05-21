@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Optimization",
+    "sub_topic": "Robust optimization",
+    "message_1": "A factory produces two types of products, A and B. The profits per unit for A and B type products are $8 and $5, respectively. Due to the production process involved, there is some uncertainty in the amount of products that can be produced each day. However, it is expected that on average the factory can produce 100 units of A and 150 units of B every day. The factory manager wants to determine the optimal number of units of each product to produce to maximize the total profit, considering that the actual production of each product may vary by up to 10% in any given day.\n\nWrite an optimization problem that would help the factory manager determine the optimal number of units of each product to produce, taking into account production uncertainty.",
+    "message_2": "Let x be the number of units of product A to be produced and y be the number of units of product B to be produced. The objective is to maximize the total profit, which can be represented as:\n\nObjective function: Maximize P = 8x + 5y\n\nSubject to the following constraints:\n\n1. Production uncertainty for product A: 0.9(100) ≤ x ≤ 1.1(100)\n   90 ≤ x ≤ 110\n\n2. Production uncertainty for product B: 0.9(150) ≤ y ≤ 1.1(150)\n   135 ≤ y ≤ 165\n\n3. Non-negativity constraints:\n   x ≥ 0\n   y ≥ 0\n\nThe optimization problem can be written as:\n\nMaximize P = 8x + 5y\n\nSubject to:\n90 ≤ x ≤ 110\n135 ≤ y ≤ 165\nx ≥ 0\ny ≥ 0"
+}

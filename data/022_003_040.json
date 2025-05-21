@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Complex integration and Cauchy's theorem",
+    "message_1": "Sure, here's a precise numerical problem for a student studying Complex integration and Cauchy's theorem:\n\nFind the value of the complex integral $\\int_{|z|=2}\\frac{z}{(z-1)^3}dz$ using Cauchy's theorem.\n\n(Hint: Notice that the integrand has a pole of order 3 at $z=1$.)",
+    "message_2": "To evaluate the integral $\\int_{|z|=2}\\frac{z}{(z-1)^3}dz$, we will use Cauchy's integral formula for higher derivatives. The formula states that for a function $f(z)$ that is analytic inside and on a simple closed contour $C$, and $z_0$ is a point inside $C$, then the $n$-th derivative of $f(z)$ at $z_0$ is given by:\n\n$$f^{(n)}(z_0) = \\frac{n!}{2\\pi i}\\int_C \\frac{f(z)}{(z-z_0)^{n+1}}dz$$\n\nIn our case, $f(z) = z$, and we have a pole of order $3$ at $z_0 = 1$. So, we need to find the second derivative of $f(z)$ at $z_0 = 1$:\n\n$$f'(z) = \\frac{d}{dz}(z) = 1$$\n$$f''(z) = \\frac{d^2}{dz^2}(z) = 0$$\n\nNow, we can apply Cauchy's integral formula for the second derivative:\n\n$$f''(1) = \\frac{2!}{2\\pi i}\\int_{|z|=2} \\frac{z}{(z-1)^3}dz$$\n\nSince $f''(1) = 0$, we have:\n\n$$0 = \\frac{2!}{2\\pi i}\\int_{|z|=2} \\frac{z}{(z-1)^3}dz$$\n\nMultiplying both sides by $\\frac{2\\pi i}{2!}$, we get:\n\n$$\\int_{|z|=2}\\frac{z}{(z-1)^3}dz = 0$$\n\nSo, the value of the complex integral is $0$."
+}

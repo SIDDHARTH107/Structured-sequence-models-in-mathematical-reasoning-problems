@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Graph theory",
+    "sub_topic": "Identifying the planarity of a graph.",
+    "message_1": "What is the minimum number of crossings required for a graph with 12 vertices and 20 edges to be non-planar?",
+    "message_2": "To determine if a graph is non-planar, we can use Euler's formula for planar graphs:\n\nV - E + F = 2, where V is the number of vertices, E is the number of edges, and F is the number of faces.\n\nHowever, we can also use Kuratowski's theorem, which states that a graph is non-planar if and only if it contains a subgraph that is a subdivision of K5 (complete graph on 5 vertices) or K3,3 (complete bipartite graph on 3+3 vertices).\n\nFor a graph with 12 vertices, the maximum number of edges it can have without being non-planar can be found using the formula:\n\nE ≤ 3V - 6\n\nE ≤ 3(12) - 6\n\nE ≤ 30\n\nSince the graph has 20 edges, it is possible that it is still planar. However, to determine the minimum number of crossings required for it to be non-planar, we can use the crossing number inequality:\n\ncr(G) ≥ (E - 3V + 6)^2 / (6V - 12)\n\ncr(G) ≥ (20 - 3(12) + 6)^2 / (6(12) - 12)\n\ncr(G) ≥ (20 - 30)^2 / (72 - 12)\n\ncr(G) ≥ (-10)^2 / 60\n\ncr(G) ≥ 100 / 60\n\ncr(G) ≥ 1.67\n\nSince the crossing number must be an integer, the minimum number of crossings required for the graph to be non-planar is 2."
+}

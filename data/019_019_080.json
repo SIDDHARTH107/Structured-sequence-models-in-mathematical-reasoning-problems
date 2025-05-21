@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Logic",
+    "sub_topic": "Computability theory",
+    "message_1": "Using the concept of recursive functions, write a program in Python that calculates the factorial of a given positive integer input by the user. Test your program by finding the factorial of 7.",
+    "message_2": "Here's a Python program that uses a recursive function to calculate the factorial of a given positive integer:\n\n```python\ndef factorial(n):\n    if n == 1:\n        return 1\n    else:\n        return n * factorial(n - 1)\n\n# Get input from the user\nnumber = int(input(\"Enter a positive integer: \"))\n\n# Calculate the factorial\nresult = factorial(number)\n\n# Print the result\nprint(f\"The factorial of {number} is {result}.\")\n```\n\nNow, let's test the program by finding the factorial of 7:\n\n```python\n# Test the program with the input 7\ntest_number = 7\ntest_result = factorial(test_number)\nprint(f\"The factorial of {test_number} is {test_result}.\")\n```\n\nOutput:\n```\nThe factorial of 7 is 5040.\n```"
+}

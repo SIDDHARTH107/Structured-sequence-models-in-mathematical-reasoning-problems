@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "One-time pad encryption",
+    "message_1": "Suppose you want to send a confidential message \"10101010\" to your friend using a one-time pad encryption method. You have a pad with a random sequence of 8-bit numbers.\n\n1) If the random sequence in your pad is \"01110010\", what is the encrypted message?\n2) If the encrypted message received by your friend is \"11001110\" and the random sequence in their pad is \"00110100\", what is the original message you sent?",
+    "message_2": "1) To encrypt the message using a one-time pad, we perform a bitwise XOR operation between the original message and the random sequence from the pad.\n\nOriginal message: 10101010\nRandom sequence:  01110010\nXOR operation:    -------- (XOR)\nEncrypted message:11011000\n\nSo, the encrypted message is \"11011000\".\n\n2) To decrypt the received encrypted message, your friend will perform a bitwise XOR operation between the encrypted message and the random sequence from their pad.\n\nEncrypted message: 11001110\nRandom sequence:  00110100\nXOR operation:    -------- (XOR)\nOriginal message: 11111010\n\nSo, the original message you sent is \"11111010\"."
+}

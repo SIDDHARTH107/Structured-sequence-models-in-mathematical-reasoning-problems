@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Playfair cipher",
+    "message_1": "Using the Playfair cipher, encrypt the message \"MATHEMATICS IS FUN\" with the given keyword \"CODE\" and the following key table:\n\nC O D E A\nB F G H I\nK L M N P\nQ R S T U\nV W X Y Z",
+    "message_2": "To encrypt the message \"MATHEMATICS IS FUN\" using the Playfair cipher, we first need to break the message into digraphs (pairs of letters) and apply the cipher rules. If a pair has the same letter, we insert an 'X' between them. Also, we remove spaces and convert the message to uppercase.\n\nMessage: MATHEMATICSISFUN\n\nDigraphs: MA TH EM AT IC SI SF UN\n\nNow, we apply the Playfair cipher rules using the given key table:\n\n1. If both letters are in the same row, replace them with the letters to their right (wrapping around if necessary).\n2. If both letters are in the same column, replace them with the letters below them (wrapping around if necessary).\n3. If the letters form a rectangle, replace them with the letters in the same row but at the other corners of the rectangle.\n\nMA -> OC\nTH -> HE\nEM -> GA\nAT -> TE\nIC -> SN\nSI -> FL\nSF -> RK\nUN -> IM\n\nEncrypted message: OCHEGATESNFLRKIM"
+}

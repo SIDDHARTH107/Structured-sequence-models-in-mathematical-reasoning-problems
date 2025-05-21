@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Zeros and poles of complex functions",
+    "message_1": "Find the order and type of the pole at $z=0$ for the complex function $f(z) = \\dfrac{e^z-1}{z^3}$, where $z\\in\\mathbb{C}$.",
+    "message_2": "To find the order and type of the pole at $z=0$ for the complex function $f(z) = \\frac{e^z-1}{z^3}$, we can use the Taylor series expansion of $e^z$ around $z=0$.\n\nThe Taylor series expansion of $e^z$ is given by:\n\n$e^z = 1 + z + \\frac{z^2}{2!} + \\frac{z^3}{3!} + \\frac{z^4}{4!} + \\cdots$\n\nNow, let's subtract 1 from both sides:\n\n$e^z - 1 = z + \\frac{z^2}{2!} + \\frac{z^3}{3!} + \\frac{z^4}{4!} + \\cdots$\n\nNow, we can substitute this expression into the function $f(z)$:\n\n$f(z) = \\frac{z + \\frac{z^2}{2!} + \\frac{z^3}{3!} + \\frac{z^4}{4!} + \\cdots}{z^3}$\n\nNow, we can divide each term by $z^3$:\n\n$f(z) = \\frac{1}{z^2} + \\frac{1}{2!z} + \\frac{1}{3!} + \\frac{z}{4!} + \\cdots$\n\nWe can see that the function has a pole at $z=0$ since the first two terms have negative powers of $z$. The order of the pole is the highest power of $z$ in the denominator, which in this case is 2. Therefore, the pole at $z=0$ is of order 2 and is a simple pole."
+}

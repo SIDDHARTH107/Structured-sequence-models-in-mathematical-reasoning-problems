@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Inclusion-exclusion principle",
+    "message_1": "A company has 30 employees, 14 of whom are women and 16 of whom are men. How many ways are there to create a committee of 8 employees that must include exactly 4 women and 4 men? Use the Inclusion-Exclusion principle to solve the problem.",
+    "message_2": "To solve this problem using the Inclusion-Exclusion principle, we first need to count the number of ways to choose 4 women and 4 men separately.\n\nThere are 14 women, and we need to choose 4 of them. This can be done in C(14, 4) ways, where C(n, k) is the number of combinations of choosing k elements from a set of n elements. C(14, 4) = 14! / (4! * (14-4)!) = 1001 ways.\n\nSimilarly, there are 16 men, and we need to choose 4 of them. This can be done in C(16, 4) ways. C(16, 4) = 16! / (4! * (16-4)!) = 1820 ways.\n\nNow, we need to multiply the number of ways to choose 4 women and 4 men to get the total number of ways to form a committee of 8 employees with exactly 4 women and 4 men. \n\nTotal ways = (ways to choose 4 women) * (ways to choose 4 men) = 1001 * 1820 = 1821820 ways.\n\nSo, there are 1,821,820 ways to create a committee of 8 employees that must include exactly 4 women and 4 men."
+}

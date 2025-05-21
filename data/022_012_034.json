@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Meromorphic functions and their properties",
+    "message_1": "Let f(z) = (4z - 3)/(z + 2i) be a meromorphic function in the complex plane. Find the poles, residues and their orders.",
+    "message_2": "To find the poles of the function f(z) = (4z - 3)/(z + 2i), we need to find the values of z for which the denominator becomes zero. \n\nz + 2i = 0\nz = -2i\n\nSo, the function has a pole at z = -2i.\n\nNow, let's find the order of the pole. Since the denominator is a linear function in z, the order of the pole is 1.\n\nNext, we need to find the residue at the pole z = -2i. To do this, we can use the formula for the residue of a simple pole:\n\nResidue = lim (z -> z0) [(z - z0) * f(z)]\n\nIn our case, z0 = -2i. So,\n\nResidue = lim (z -> -2i) [(z + 2i) * (4z - 3)/(z + 2i)]\n\nThe (z + 2i) terms cancel out, so we are left with:\n\nResidue = lim (z -> -2i) (4z - 3)\n\nNow, substitute z = -2i into the expression:\n\nResidue = 4(-2i) - 3\nResidue = -8i - 3\n\nSo, the residue at the pole z = -2i is -8i - 3.\n\nIn summary, the function f(z) = (4z - 3)/(z + 2i) has a pole of order 1 at z = -2i with a residue of -8i - 3."
+}

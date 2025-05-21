@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Stirling numbers",
+    "message_1": "A group of 10 people are going to split into 3 teams for a trivia competition. How many ways can they split up if each team must have at least 2 people? Use Stirling numbers to solve the problem.",
+    "message_2": "To solve this problem, we can use Stirling numbers of the second kind, which are used to count the number of ways to partition a set of n elements into k non-empty subsets. The Stirling number of the second kind is denoted by S(n, k).\n\nIn this case, we have n = 10 people and k = 3 teams. So we need to find S(10, 3).\n\nThe formula for Stirling numbers of the second kind is:\n\nS(n, k) = k * S(n-1, k) + S(n-1, k-1)\n\nWe can use this formula to find S(10, 3) by first finding the values for S(9, 3), S(9, 2), S(8, 3), S(8, 2), and so on. Here are the values for these Stirling numbers:\n\nS(9, 3) = 3 * S(8, 3) + S(8, 2) = 3 * 966 + 64 = 2964\nS(9, 2) = 2 * S(8, 2) + S(8, 1) = 2 * 64 + 1 = 129\n\nNow we can find S(10, 3):\n\nS(10, 3) = 3 * S(9, 3) + S(9, 2) = 3 * 2964 + 129 = 9021\n\nSo there are 9,021 ways to split the group of 10 people into 3 teams with each team having at least 2 people."
+}

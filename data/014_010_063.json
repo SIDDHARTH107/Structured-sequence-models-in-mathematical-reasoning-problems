@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Substitution ciphers",
+    "message_1": "If we're using a substitution cipher where each letter is replaced with another letter (e.g. \"A\" is replaced with \"D\", \"B\" with \"R\", etc.), and the word \"CRYPTOGRAPHY\" is encrypted as \"LBCXNBTVMMRX\", what is the original message?",
+    "message_2": "To decrypt the message, we need to find the substitution pattern used in the cipher. We can do this by comparing the encrypted word \"LBCXNBTVMMRX\" to the original word \"CRYPTOGRAPHY\". \n\nC -> L (shift by 9 positions)\nR -> B (shift by -15 positions)\nY -> C (shift by -24 positions)\nP -> X (shift by 6 positions)\nT -> N (shift by -6 positions)\nO -> B (shift by -13 positions)\nG -> T (shift by 7 positions)\nR -> V (shift by 5 positions)\nA -> M (shift by 12 positions)\nP -> M (shift by 1 position)\nH -> R (shift by 5 positions)\nY -> X (shift by -1 position)\n\nThere is no consistent pattern in the shifts, which means that a simple Caesar cipher (where all letters are shifted by the same amount) was not used. Instead, a more complex substitution cipher was used, where each letter is replaced by a different letter with no consistent shift pattern.\n\nNow that we have the substitution pattern, we can decrypt the original message:\n\nC -> L\nR -> B\nY -> C\nP -> X\nT -> N\nO -> B\nG -> T\nR -> V\nA -> M\nP -> M\nH -> R\nY -> X\n\nThe decrypted message is \"LBCXNBTVMMRX\"."
+}

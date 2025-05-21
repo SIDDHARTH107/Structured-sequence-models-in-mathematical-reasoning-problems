@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Complex integration and Cauchy's theorem",
+    "message_1": "Suppose that $f(z)=\\frac{e^z}{z+2}$ is analytic in the region $\\{z: |z|<3\\}\\setminus\\{-2\\}$ and let $\\gamma$ be the circle centered at the origin with radius 2, traversed counterclockwise. Compute the value of the complex integral\n$$\\int_\\gamma \\frac{e^z}{z+2}\\,dz$$",
+    "message_2": "To compute the value of the complex integral, we can use the Cauchy integral formula. The function $f(z) = \\frac{e^z}{z+2}$ has a simple pole at $z = -2$, which is inside the contour $\\gamma$. The Cauchy integral formula states that for a function $f(z)$ analytic in a simply connected domain $D$ containing a simple closed contour $\\gamma$ and its interior, and a point $a$ inside $\\gamma$, we have:\n\n$$\\int_\\gamma \\frac{f(z)}{z-a}\\,dz = 2\\pi i f(a)$$\n\nIn our case, $a = -2$. So, we need to compute $f(-2) = \\frac{e^{-2}}{-2+2}$. However, this is undefined, as the denominator is zero. Instead, we can rewrite the function $f(z)$ as:\n\n$$f(z) = e^z \\cdot \\frac{1}{z+2}$$\n\nNow, we can apply the Cauchy integral formula to the function $g(z) = e^z$, which is analytic everywhere. We have:\n\n$$\\int_\\gamma \\frac{g(z)}{z+2}\\,dz = 2\\pi i g(-2)$$\n\nComputing $g(-2) = e^{-2}$, we get:\n\n$$\\int_\\gamma \\frac{e^z}{z+2}\\,dz = 2\\pi i e^{-2}$$"
+}

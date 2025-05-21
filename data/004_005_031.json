@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Calculus",
+    "sub_topic": "Solving differential equations",
+    "message_1": "Find the particular solution to the differential equation y' + y = 3x, given that y(0) = 5.",
+    "message_2": "To find the particular solution to the given first-order linear differential equation y' + y = 3x, we first find the integrating factor and then solve for y(x).\n\n1. Find the integrating factor (IF):\nThe integrating factor is given by IF = e^(∫P(x)dx), where P(x) is the coefficient of y in the given differential equation. In this case, P(x) = 1.\n\nIF = e^(∫1dx) = e^x\n\n2. Multiply the given differential equation by the integrating factor:\ne^x(y' + y) = 3xe^x\n\nNow, the left side of the equation is the derivative of the product of y(x) and the integrating factor (e^x):\n\nd/dx(y(x)e^x) = 3xe^x\n\n3. Integrate both sides with respect to x:\n∫d(y(x)e^x) = ∫3xe^x dx\n\nTo integrate the right side, we use integration by parts:\n\nLet u = x, dv = e^x dx\ndu = dx, v = e^x\n\n∫3xe^x dx = 3∫x e^x dx = 3(xe^x - ∫e^x dx) = 3(xe^x - e^x) + C\n\nNow, integrate the left side:\n\ny(x)e^x = 3xe^x - 3e^x + C\n\n4. Solve for y(x):\ny(x) = e^(-x)(3xe^x - 3e^x + C)\n\n5. Apply the initial condition y(0) = 5:\n5 = e^(0)(3(0)e^(0) - 3e^(0) + C)\n\n5 = -3 + C\nC = 8\n\n6. Write the particular solution:\ny(x) = e^(-x)(3xe^x - 3e^x + 8)\n\nThis is the particular solution to the given differential equation with the initial condition y(0) = 5."
+}

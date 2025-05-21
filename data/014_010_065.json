@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Substitution ciphers",
+    "message_1": "A substitution cipher is created by replacing each letter of the alphabet with another letter. If a message is encrypted using a substitution cipher and the letter 'A' is replaced with 'B', how many different substitution ciphers can be created?",
+    "message_2": "If 'A' is replaced with 'B', then there are 25 remaining letters in the alphabet that can be replaced. For each of the remaining letters, there are 24 possible substitutions, since one letter has already been used ('B' for 'A'). \n\nSo, for the second letter 'B', there are 24 choices. After choosing a substitution for 'B', there are 23 choices left for 'C', 22 choices for 'D', and so on, until there is only 1 choice left for the last letter 'Z'.\n\nThe total number of different substitution ciphers can be calculated using the factorial function, which is the product of all positive integers up to a given number. In this case, we need to calculate the factorial of 25 (since 'A' is already replaced with 'B'):\n\n25! = 25 × 24 × 23 × ... × 3 × 2 × 1\n\n25! = 15,511,210,043,330,985,984,000,000\n\nSo, there are 15,511,210,043,330,985,984,000,000 different substitution ciphers that can be created when 'A' is replaced with 'B'."
+}

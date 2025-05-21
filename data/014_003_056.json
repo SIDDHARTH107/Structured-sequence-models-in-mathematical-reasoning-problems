@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "ElGamal encryption and decryption",
+    "message_1": "Suppose you want to send a confidential message to your friend, and you choose to use ElGamal encryption. You select a prime number p = 11, and a primitive root alpha = 2. Your friend's public key is (y, 8), where y ≡ alpha^a mod p and a = 5 is her private key. Convert the message \"5\" to the corresponding numerical value using ASCII code, and encrypt it using ElGamal with your friend's public key. Show your work and provide the encrypted message in the form (C1,C2).",
+    "message_2": "To encrypt the message \"5\" using ElGamal encryption, we first need to convert it to its corresponding numerical value using the ASCII code. The ASCII code for \"5\" is 53.\n\nNow, we will follow the ElGamal encryption steps:\n\n1. Choose a random integer k (1 < k < p-1), let's say k = 3.\n2. Compute C1 = alpha^k mod p = 2^3 mod 11 = 8.\n3. Compute C2 = (y^k * M) mod p = (8^3 * 53) mod 11 = (512 * 53) mod 11 = 27136 mod 11 = 10.\n\nSo, the encrypted message is in the form (C1, C2) = (8, 10)."
+}

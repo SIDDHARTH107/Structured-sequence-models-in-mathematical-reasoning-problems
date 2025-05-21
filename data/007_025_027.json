@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Number theory",
+    "sub_topic": "Diffie-Hellman key exchange.",
+    "message_1": "Suppose that Alice and Bob want to do the Diffie-Hellman key exchange using a prime number p = 11 and a primitive root g = 2. Alice chooses a secret number a = 4 and computes g^a mod p. Bob chooses a secret number b = 3 and computes g^b mod p. Compute the secret key that Alice and Bob can agree upon.",
+    "message_2": "First, let's compute the values that Alice and Bob will exchange:\n\nAlice computes g^a mod p:\n2^4 mod 11 = 16 mod 11 = 5\n\nBob computes g^b mod p:\n2^3 mod 11 = 8 mod 11 = 8\n\nNow, Alice and Bob exchange their computed values. To compute the shared secret key, they will raise the received value to the power of their own secret number and take the result modulo p.\n\nAlice computes the shared secret key:\n8^4 mod 11 = 4096 mod 11 = 3\n\nBob computes the shared secret key:\n5^3 mod 11 = 125 mod 11 = 3\n\nBoth Alice and Bob have computed the same shared secret key, which is 3."
+}

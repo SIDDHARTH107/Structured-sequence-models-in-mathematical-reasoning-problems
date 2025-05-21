@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Recurrence relations",
+    "message_1": "A person has 3 different shirts and 5 different pants. In how many ways can they wear a shirt and a pair of pants for 1 week (7 days) without repeating the same shirt or pants?",
+    "message_2": "Since the person has 3 different shirts and 5 different pants, they can wear a unique combination of shirt and pants for a maximum of 3*5 = 15 days. However, the question asks for the number of ways they can wear these combinations for 1 week (7 days) without repeating the same shirt or pants.\n\nTo solve this problem, we need to choose 7 unique combinations from the 15 possible combinations. We can do this using the concept of combinations in mathematics.\n\nThe formula for combinations is:\n\nC(n, r) = n! / (r!(n-r)!)\n\nwhere n is the total number of items, r is the number of items to choose, and ! denotes the factorial of a number.\n\nIn this case, n = 15 (total number of unique combinations of shirts and pants) and r = 7 (number of days in a week).\n\nC(15, 7) = 15! / (7!(15-7)!)\n\nC(15, 7) = 15! / (7!8!)\n\nC(15, 7) = (15*14*13*12*11*10*9*8!) / (7!8!)\n\nC(15, 7) = (15*14*13*12*11*10*9) / (7*6*5*4*3*2*1)\n\nC(15, 7) = 6435\n\nSo, there are 6435 ways for the person to wear a unique combination of shirt and pants for 1 week (7 days) without repeating the same shirt or pants."
+}

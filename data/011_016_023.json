@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Combinatorial designs",
+    "message_1": "A teacher is organizing a group project, and wants to divide a class of 20 students into small groups so that each group has 4 students. How many different groups can be formed?",
+    "message_2": "To find the number of different groups that can be formed, we can use the combination formula, which is:\n\nC(n, k) = n! / (k!(n-k)!)\n\nwhere n is the total number of students (20), k is the number of students in each group (4), and ! denotes the factorial function (e.g., 5! = 5 × 4 × 3 × 2 × 1).\n\nSo, we have:\n\nC(20, 4) = 20! / (4!(20-4)!)\n\nC(20, 4) = 20! / (4!16!)\n\nNow, we can calculate the factorials:\n\n20! = 20 × 19 × 18 × 17 × 16 × 15 × 14 × 13 × 12 × 11 × 10 × 9 × 8 × 7 × 6 × 5 × 4 × 3 × 2 × 1\n4! = 4 × 3 × 2 × 1\n16! = 16 × 15 × 14 × 13 × 12 × 11 × 10 × 9 × 8 × 7 × 6 × 5 × 4 × 3 × 2 × 1\n\nNow, we can simplify the expression:\n\nC(20, 4) = (20 × 19 × 18 × 17 × 16!) / (4 × 3 × 2 × 1 × 16!)\n\nSince 16! appears in both the numerator and denominator, we can cancel it out:\n\nC(20, 4) = (20 × 19 × 18 × 17) / (4 × 3 × 2 × 1)\n\nNow, we can perform the calculations:\n\nC(20, 4) = (20 × 19 × 18 × 17) / (24)\n\nC(20, 4) = 116280 / 24\n\nC(20, 4) = 4845\n\nSo, there are 4845 different groups of 4 students that can be formed from a class of 20 students."
+}

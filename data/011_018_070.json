@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Block designs",
+    "message_1": "A school wants to form basketball teams with 5 players each from a group of 12 students. In how many ways can they form the teams if every student should be on exactly one team?",
+    "message_2": "To form a team of 5 players from a group of 12 students, we can use the combination formula, which is C(n, k) = n! / (k!(n-k)!), where n is the total number of students and k is the number of students in each team.\n\nIn this case, n = 12 and k = 5, so we have:\n\nC(12, 5) = 12! / (5!(12-5)!)\nC(12, 5) = 12! / (5!7!)\nC(12, 5) = (12*11*10*9*8) / (5*4*3*2*1)\nC(12, 5) = 792\n\nSo, there are 792 ways to form a team of 5 players from a group of 12 students.\n\nHowever, since every student should be on exactly one team, we need to divide the total number of students (12) into two teams of 5 and 7 players. We have already calculated the number of ways to form a team of 5 players, so now we need to calculate the number of ways to form a team of 7 players from the remaining 7 students.\n\nC(7, 7) = 7! / (7!(7-7)!)\nC(7, 7) = 7! / (7!0!)\nC(7, 7) = 1\n\nThere is only 1 way to form a team of 7 players from the remaining 7 students.\n\nNow, to find the total number of ways to form the two teams, we multiply the number of ways to form a team of 5 players by the number of ways to form a team of 7 players:\n\nTotal ways = 792 * 1 = 792\n\nSo, there are 792 ways to form the two teams with every student being on exactly one team."
+}

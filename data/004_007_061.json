@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Calculus",
+    "sub_topic": "Using the chain rule to differentiate composite functions",
+    "message_1": "Suppose f(x) = 2x + 3 and g(x) = x^2 − 4x. \n\nFind the derivative of the function h(x) = f(g(x)) using the chain rule.",
+    "message_2": "To find the derivative of h(x) = f(g(x)), we will use the chain rule. The chain rule states that the derivative of a composite function is the derivative of the outer function times the derivative of the inner function. In this case, our outer function is f(x) and our inner function is g(x).\n\nFirst, let's find the derivatives of f(x) and g(x):\n\nf(x) = 2x + 3\nf'(x) = 2 (derivative of 2x is 2, and the derivative of a constant is 0)\n\ng(x) = x^2 - 4x\ng'(x) = 2x - 4 (derivative of x^2 is 2x, and the derivative of -4x is -4)\n\nNow, we can apply the chain rule to find the derivative of h(x):\n\nh'(x) = f'(g(x)) * g'(x)\n\nWe already found f'(x) = 2 and g'(x) = 2x - 4. Now, we need to find f'(g(x)):\n\nf'(g(x)) = 2 (since f'(x) is a constant, it remains the same when we replace x with g(x))\n\nNow, we can find h'(x):\n\nh'(x) = f'(g(x)) * g'(x) = 2 * (2x - 4)\n\nh'(x) = 4x - 8\n\nSo, the derivative of h(x) = f(g(x)) is h'(x) = 4x - 8."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "ElGamal encryption and decryption",
+    "message_1": "Here is a problem for the math student to solve:\n\nBob wants to send a confidential message to Alice using ElGamal encryption with a public key (p=11, α=2, β=5), where p is a prime number, 1 < α < p-1 and α is a primitive root modulo p. To encrypt the message m=7, Bob chooses a random integer k=3 and computes the ciphertext (c₁,c₂)=(α^k mod p, m * β^k mod p). What is the ciphertext (c₁,c₂) that Bob sends to Alice?",
+    "message_2": "To compute the ciphertext (c₁,c₂), we will use the given public key (p=11, α=2, β=5), the message m=7, and the random integer k=3. We will calculate c₁ and c₂ using the formulas:\n\nc₁ = α^k mod p\nc₂ = m * β^k mod p\n\nFirst, let's calculate c₁:\n\nc₁ = α^k mod p\nc₁ = 2^3 mod 11\nc₁ = 8 mod 11\nc₁ = 8\n\nNow, let's calculate c₂:\n\nc₂ = m * β^k mod p\nc₂ = 7 * 5^3 mod 11\nc₂ = 7 * 125 mod 11\nc₂ = 875 mod 11\nc₂ = 6\n\nSo, the ciphertext (c₁,c₂) that Bob sends to Alice is (8, 6)."
+}

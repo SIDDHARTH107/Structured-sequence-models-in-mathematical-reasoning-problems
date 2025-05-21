@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Set theory",
+    "sub_topic": "Prove that the symmetric difference of two sets is commutative.",
+    "message_1": "Let A = {2, 4, 6} and B = {3, 4, 5}. Find the symmetric difference of A and B. Show that the symmetric difference is commutative.",
+    "message_2": "The symmetric difference of two sets A and B, denoted as A Δ B, is the set of elements which are in either of the sets, but not in their intersection. In other words, it is the union of the sets minus their intersection.\n\nA Δ B = (A ∪ B) - (A ∩ B)\n\nFirst, let's find the union of sets A and B (A ∪ B):\n\nA ∪ B = {2, 4, 6} ∪ {3, 4, 5} = {2, 3, 4, 5, 6}\n\nNow, let's find the intersection of sets A and B (A ∩ B):\n\nA ∩ B = {2, 4, 6} ∩ {3, 4, 5} = {4}\n\nNow, we can find the symmetric difference of A and B (A Δ B):\n\nA Δ B = (A ∪ B) - (A ∩ B) = {2, 3, 4, 5, 6} - {4} = {2, 3, 5, 6}\n\nSo, the symmetric difference of A and B is {2, 3, 5, 6}.\n\nTo show that the symmetric difference is commutative, we need to prove that A Δ B = B Δ A.\n\nLet's find the symmetric difference of B and A (B Δ A):\n\nB Δ A = (B ∪ A) - (B ∩ A)\n\nWe already know the union and intersection of A and B, and since these operations are commutative, we can use the same results:\n\nB Δ A = (B ∪ A) - (B ∩ A) = {2, 3, 4, 5, 6} - {4} = {2, 3, 5, 6}\n\nAs we can see, A Δ B = {2, 3, 5, 6} and B Δ A = {2, 3, 5, 6}, which means A Δ B = B Δ A. Therefore, the symmetric difference is commutative."
+}

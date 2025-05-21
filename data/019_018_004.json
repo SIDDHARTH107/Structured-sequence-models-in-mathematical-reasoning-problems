@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Logic",
+    "sub_topic": "Proof theory",
+    "message_1": "Let P = \"John studies math\" and Q = \"John gets an A.\"\nUsing proof theory, if we know that \"If John studies math, then John gets an A,\" then prove that \"If John doesn't get an A, then John didn't study math.\"",
+    "message_2": "We are given the statement \"If John studies math, then John gets an A,\" which can be represented as P → Q. We want to prove the contrapositive, which is ¬Q → ¬P, meaning \"If John doesn't get an A, then John didn't study math.\"\n\nProof:\n\n1. P → Q (Given)\n2. ¬Q → ¬P (Contrapositive)\n\nTo prove the contrapositive, we can use the following logical equivalences:\n\n3. P → Q ≡ ¬P ∨ Q (Implication)\n4. ¬Q → ¬P ≡ Q ∨ ¬P (Implication)\n\nNow, we can show that the given statement and its contrapositive are logically equivalent:\n\n5. ¬P ∨ Q ≡ Q ∨ ¬P (Transitive property from steps 3 and 4)\n\nSince the given statement and its contrapositive are logically equivalent, if the given statement is true, then its contrapositive must also be true. Therefore, we have proven that \"If John doesn't get an A, then John didn't study math.\""
+}

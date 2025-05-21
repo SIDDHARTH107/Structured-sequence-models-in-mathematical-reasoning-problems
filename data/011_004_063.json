@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Multinomial coefficients",
+    "message_1": "In a workshop, there are 8 women, 6 men, and 5 children. If we want to divide them into three teams - a women's team, a men's team, and a children's team - such that each team has at least 2 people, how many ways can we do this? (Hint: Use multinomial coefficients.)",
+    "message_2": "To divide the 8 women, 6 men, and 5 children into three teams, we need to ensure that each team has at least 2 people. Let's consider each team separately.\n\n1. Women's team:\nSince there are 8 women, and we need at least 2 in the team, we can have teams of size 2, 3, 4, 5, 6, 7, or 8. That's 7 possibilities.\n\n2. Men's team:\nSince there are 6 men, and we need at least 2 in the team, we can have teams of size 2, 3, 4, 5, or 6. That's 5 possibilities.\n\n3. Children's team:\nSince there are 5 children, and we need at least 2 in the team, we can have teams of size 2, 3, 4, or 5. That's 4 possibilities.\n\nNow, to find the total number of ways to divide them into teams, we need to multiply the possibilities for each team:\n\nTotal ways = (Possibilities for Women's team) × (Possibilities for Men's team) × (Possibilities for Children's team)\nTotal ways = 7 × 5 × 4 = 140\n\nSo, there are 140 ways to divide the 8 women, 6 men, and 5 children into three teams, ensuring that each team has at least 2 people."
+}

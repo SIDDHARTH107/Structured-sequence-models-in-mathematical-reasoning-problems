@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Inclusion-exclusion principle",
+    "message_1": "In how many ways can a person select a team of at least three players from a group of 10 players, if two of the players refuse to play together?",
+    "message_2": "Let's call the two players who refuse to play together A and B. We can solve this problem by finding the total number of ways to select a team of at least three players and then subtracting the number of ways to select a team that includes both A and B.\n\nTotal number of ways to select a team of at least three players from a group of 10 players:\nThis can be done by selecting 3, 4, 5, 6, 7, 8, 9, or 10 players from the group of 10. We can use combinations for this:\n\nC(10,3) + C(10,4) + C(10,5) + C(10,6) + C(10,7) + C(10,8) + C(10,9) + C(10,10)\n= 120 + 210 + 252 + 210 + 120 + 45 + 10 + 1\n= 968\n\nNumber of ways to select a team that includes both A and B:\nNow we have 8 players left to choose from (excluding A and B). We can select 1, 2, 3, 4, 5, 6, or 7 additional players to form a team with A and B:\n\nC(8,1) + C(8,2) + C(8,3) + C(8,4) + C(8,5) + C(8,6) + C(8,7)\n= 8 + 28 + 56 + 70 + 56 + 28 + 8\n= 254\n\nNow, we subtract the number of ways to select a team that includes both A and B from the total number of ways to select a team of at least three players:\n\n968 - 254 = 714\n\nSo there are 714 ways to select a team of at least three players from a group of 10 players if two of the players refuse to play together."
+}

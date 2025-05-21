@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "ElGamal encryption and decryption",
+    "message_1": "Suppose Alice wants to send a secret message to Bob using ElGamal Encryption with a prime number p = 23 and a primitive root α = 5. Alice chooses her private key as a = 6 and calculates her public key A as A = α^a mod p. She also selects a random integer k = 3 and calculates the shared secret S = β^k mod p, where β is Bob's public key. If Alice wants to send the message M = 9 to Bob, what should she send as the ciphertext to ensure that only Bob can decrypt it?",
+    "message_2": "First, let's calculate Alice's public key A:\nA = α^a mod p\nA = 5^6 mod 23\nA = 15625 mod 23\nA = 8\n\nNow, let's assume Bob's public key is β. Alice will calculate the shared secret S:\nS = β^k mod p\nS = β^3 mod 23\n\nTo encrypt the message M = 9, Alice will calculate the ciphertext C as a pair of values (C1, C2):\nC1 = α^k mod p\nC1 = 5^3 mod 23\nC1 = 125 mod 23\nC1 = 2\n\nC2 = M * S mod p\nC2 = 9 * (β^3 mod 23) mod 23\n\nSo the ciphertext C that Alice sends to Bob is (C1, C2) = (2, 9 * (β^3 mod 23)). To decrypt the message, Bob will use his private key and the received C1 value to calculate the shared secret and then divide C2 by the shared secret to obtain the original message M."
+}

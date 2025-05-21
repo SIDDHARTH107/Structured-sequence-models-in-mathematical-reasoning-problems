@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Topology",
+    "sub_topic": "Fundamental group and covering spaces",
+    "message_1": "Find the fundamental group of the space obtained by removing the origin from the plane, i.e. $\\mathbb{R}^2$ without the point $(0,0)$.",
+    "message_2": "To find the fundamental group of the punctured plane, we will use the fact that the fundamental group of a space is invariant under deformation retraction. \n\nConsider the punctured plane $\\mathbb{R}^2 \\setminus \\{(0,0)\\}$. We can deformation retract this space onto the unit circle $S^1$. To see this, define a homotopy $H: \\mathbb{R}^2 \\setminus \\{(0,0)\\} \\times [0,1] \\to \\mathbb{R}^2 \\setminus \\{(0,0)\\}$ by\n\n$$H(x,t) = (1-t)x + t\\frac{x}{\\|x\\|}$$\n\nfor $x \\in \\mathbb{R}^2 \\setminus \\{(0,0)\\}$ and $t \\in [0,1]$. This homotopy starts at the identity map when $t=0$ and ends at the deformation retraction onto the unit circle when $t=1$. \n\nSince the fundamental group is invariant under deformation retraction, we have that the fundamental group of the punctured plane is the same as the fundamental group of the unit circle:\n\n$$\\pi_1(\\mathbb{R}^2 \\setminus \\{(0,0)\\}) \\cong \\pi_1(S^1)$$\n\nThe fundamental group of the unit circle $S^1$ is well-known to be isomorphic to the integers:\n\n$$\\pi_1(S^1) \\cong \\mathbb{Z}$$\n\nTherefore, the fundamental group of the punctured plane is isomorphic to the integers:\n\n$$\\pi_1(\\mathbb{R}^2 \\setminus \\{(0,0)\\}) \\cong \\mathbb{Z}$$"
+}

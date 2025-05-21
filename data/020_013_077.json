@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Optimization",
+    "sub_topic": "Semi-definite programming",
+    "message_1": "Sure, here's a precise numerical problem for a math student to solve:\n\nA factory produces two types of items, type A and type B. Each item of type A requires 2 hours of machine time and 1 hour of labor, while each item of type B requires 3 hours of machine time and 1 hour of labor. The factory has 200 hours of machine time and 80 hours of labor available each week. The profit for each item of type A is $12 and for each item of type B is $18. What is the maximum weekly profit that the factory can earn if it produces only type A, only type B, or a mixture of both? Use semidefinite programming to solve the problem.",
+    "message_2": "To solve this problem using semidefinite programming, we first need to set up the problem as a linear programming problem. Let x be the number of type A items produced and y be the number of type B items produced. We want to maximize the profit function:\n\nP(x, y) = 12x + 18y\n\nSubject to the constraints:\n\n2x + 3y ≤ 200 (machine time constraint)\nx + y ≤ 80 (labor constraint)\nx ≥ 0, y ≥ 0 (non-negativity constraints)\n\nNow, we can solve this linear programming problem using the simplex method or any other linear programming solver. The solution to this problem is:\n\nx = 40, y = 40\n\nSo, the factory should produce 40 items of type A and 40 items of type B to maximize its weekly profit. The maximum weekly profit is:\n\nP(40, 40) = 12(40) + 18(40) = 480 + 720 = $1200"
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Playfair cipher",
+    "message_1": "Given a plaintext message \"ATTACK AT DAWN\", apply the Playfair cipher technique with the key \"SECRETKEY\" to encrypt the message. Display the ciphertext in groups of two letters.",
+    "message_2": "First, we need to create the 5x5 Playfair cipher table using the key \"SECRETKEY\". Remove duplicate letters from the key and fill in the remaining spaces with the rest of the alphabet (excluding J, which is combined with I).\n\nThe table will look like this:\n\nS E C R T\nK Y A B D\nF G H I X\nL M N O P\nQ U V W Z\n\nNow, we will encrypt the message \"ATTACK AT DAWN\" using the Playfair cipher technique:\n\n1. Break the plaintext into digraphs (pairs of letters): AT TA CK AT DA WN\n2. If a pair has the same letter, insert an X between them (not needed in this case).\n3. For each digraph, apply the following rules:\n   a. If the letters are in the same row, replace them with the letters to their right (wrap around if needed).\n   b. If the letters are in the same column, replace them with the letters below them (wrap around if needed).\n   c. If the letters form a rectangle, replace them with the letters in the opposite corners of the rectangle.\n\nApplying these rules, we get the following ciphertext digraphs:\n\nAT -> SE\nTA -> CR\nCK -> YK\nAT -> SE\nDA -> YB\nWN -> XN\n\nSo, the encrypted message is: SE CR YK SE YB XN"
+}

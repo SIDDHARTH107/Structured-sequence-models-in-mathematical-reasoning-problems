@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Topology",
+    "sub_topic": "Topological quantum field theory and its applications.",
+    "message_1": "Let X be a closed orientable surface of genus g. Find the dimension of the vector space associated to X in the state-sum topological quantum field theory TQFT(g).",
+    "message_2": "In a state-sum topological quantum field theory (TQFT), the vector space associated to a closed orientable surface X of genus g is given by the space of conformal blocks of a certain conformal field theory (CFT) on X. The dimension of this vector space is given by the Verlinde formula, which is a function of the central charge c of the CFT and the level k of the associated affine Lie algebra.\n\nThe Verlinde formula is given by:\n\ndim V_g = ∑_{j=0}^{k} (S_{0j})^(2g-2),\n\nwhere S_{0j} are the elements of the modular S-matrix of the CFT, which encodes the fusion rules of the theory.\n\nIn the case of a TQFT based on a SU(2) Chern-Simons theory, the central charge c and the level k are related by:\n\nc = 3k/(k+2).\n\nThe modular S-matrix elements for the SU(2) Chern-Simons theory are given by:\n\nS_{0j} = √(2/(k+2)) * sin(π(2j+1)/(k+2)).\n\nPlugging these expressions into the Verlinde formula, we obtain the dimension of the vector space associated to the closed orientable surface X of genus g in the state-sum TQFT(g):\n\ndim V_g = ∑_{j=0}^{k} (2/(k+2) * sin²(π(2j+1)/(k+2)))^(2g-2)."
+}

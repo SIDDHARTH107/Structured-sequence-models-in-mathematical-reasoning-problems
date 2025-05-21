@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Latin squares",
+    "message_1": "A Latin square of size n is an n × n table filled with n different symbols in such a way that each symbol appears exactly once in each row and exactly once in each column. \n\nFor example, the table below is a Latin square of size 3 where the symbols used are 1, 2, and 3.\n\n<table>\n  <tr>\n    <td>1</td>\n    <td>2</td>\n    <td>3</td>\n  </tr>\n  <tr>\n    <td>2</td>\n    <td>3</td>\n    <td>1</td>\n  </tr>\n  <tr>\n    <td>3</td>\n    <td>1</td>\n    <td>2</td>\n  </tr>\n</table>\n\nTask: Find the total number of Latin squares of size 4 (i.e., a 4 × 4 table filled with 4 different symbols in such a way that each symbol appears exactly once in each row and exactly once in each column).",
+    "message_2": "To find the total number of Latin squares of size 4, we can use the following formula:\n\nNumber of Latin squares of size n = n! * (n - 1)! * (n - 2)! * ... * 1!\n\nFor n = 4, the formula becomes:\n\nNumber of Latin squares of size 4 = 4! * 3! * 2! * 1!\n\nCalculating the factorials:\n\n4! = 4 * 3 * 2 * 1 = 24\n3! = 3 * 2 * 1 = 6\n2! = 2 * 1 = 2\n1! = 1\n\nNow, multiply the factorials:\n\nNumber of Latin squares of size 4 = 24 * 6 * 2 * 1 = 288\n\nSo, there are 288 Latin squares of size 4."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Set theory",
+    "sub_topic": "Prove that the symmetric difference of two sets is not distributive over complement.",
+    "message_1": "Let A = {1,2,3,4} and B = {3,4,5,6}, what is the value of (A △ B)' △ A'?",
+    "message_2": "First, let's find A △ B (symmetric difference) and A' (complement of A).\n\nA △ B = (A ∪ B) - (A ∩ B) = {1, 2, 3, 4, 5, 6} - {3, 4} = {1, 2, 5, 6}\n\nNow, let's find the complement of A (A') and the complement of (A △ B) ((A △ B)').\n\nAssuming the universal set U contains all the elements in A and B, then U = {1, 2, 3, 4, 5, 6}.\n\nA' = U - A = {1, 2, 3, 4, 5, 6} - {1, 2, 3, 4} = {5, 6}\n(A △ B)' = U - (A △ B) = {1, 2, 3, 4, 5, 6} - {1, 2, 5, 6} = {3, 4}\n\nNow, let's find the symmetric difference of (A △ B)' and A', which is ((A △ B)' △ A').\n\n(A △ B)' △ A' = ((A △ B)' ∪ A') - ((A △ B)' ∩ A') = {3, 4, 5, 6} - {} = {3, 4, 5, 6}\n\nSo, the value of (A △ B)' △ A' is {3, 4, 5, 6}."
+}

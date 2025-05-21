@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Set theory",
+    "sub_topic": "Prove that the symmetric difference of two sets is distributive over union.",
+    "message_1": "Let A = {1, 2, 3} and B = {3, 4, 5}. Find (A Δ B) ∪ {2, 4}. Show that this operation is distributive over union.",
+    "message_2": "First, let's find the symmetric difference (A Δ B). The symmetric difference of two sets is the set of elements which are in either of the sets, but not in their intersection.\n\nA Δ B = (A ∪ B) - (A ∩ B)\n\nA ∪ B = {1, 2, 3, 4, 5} (union of A and B)\nA ∩ B = {3} (intersection of A and B)\n\nA Δ B = {1, 2, 3, 4, 5} - {3} = {1, 2, 4, 5}\n\nNow, let's find the union of (A Δ B) and {2, 4}:\n\n(A Δ B) ∪ {2, 4} = {1, 2, 4, 5} ∪ {2, 4} = {1, 2, 4, 5}\n\nNow, we need to show that the symmetric difference operation is distributive over union. To do this, we need to show that:\n\n(A Δ B) ∪ C = (A ∪ C) Δ (B ∪ C)\n\nLet C = {2, 4}. Then:\n\nA ∪ C = {1, 2, 3} ∪ {2, 4} = {1, 2, 3, 4}\nB ∪ C = {3, 4, 5} ∪ {2, 4} = {2, 3, 4, 5}\n\nNow, let's find the symmetric difference of (A ∪ C) and (B ∪ C):\n\n(A ∪ C) Δ (B ∪ C) = ({1, 2, 3, 4}) Δ ({2, 3, 4, 5})\n\n(A ∪ C) ∪ (B ∪ C) = {1, 2, 3, 4, 5}\n(A ∪ C) ∩ (B ∪ C) = {2, 3, 4}\n\n(A ∪ C) Δ (B ∪ C) = {1, 2, 3, 4, 5} - {2, 3, 4} = {1, 2, 4, 5}\n\nSo, we have shown that:\n\n(A Δ B) ∪ C = (A ∪ C) Δ (B ∪ C)\n{1, 2, 4, 5} = {1, 2, 4, 5}\n\nThus, the symmetric difference operation is distributive over union."
+}

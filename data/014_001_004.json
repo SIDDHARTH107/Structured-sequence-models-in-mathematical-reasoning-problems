@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "RSA encryption and decryption",
+    "message_1": "Given p=17, q=11 and e=7, calculate the RSA encryption and decryption of a message M=8.",
+    "message_2": "To calculate the RSA encryption and decryption of a message M=8, we need to follow these steps:\n\n1. Compute n, φ(n), and d.\n2. Encrypt the message M using the public key (n, e).\n3. Decrypt the encrypted message using the private key (n, d).\n\nStep 1: Compute n, φ(n), and d\nn = p * q = 17 * 11 = 187\nφ(n) = (p-1) * (q-1) = (17-1) * (11-1) = 16 * 10 = 160\n\nNow, we need to find the modular multiplicative inverse of e (7) modulo φ(n) (160). In other words, we need to find d such that (e * d) % φ(n) = 1.\n\ne = 7\nφ(n) = 160\n\nUsing the Extended Euclidean Algorithm, we find that d = 23. So, the private key is (n, d) = (187, 23).\n\nStep 2: Encrypt the message M using the public key (n, e)\nTo encrypt the message M=8, we use the formula: C = M^e % n\n\nC = 8^7 % 187\nC = 2097152 % 187\nC = 102\n\nThe encrypted message C is 102.\n\nStep 3: Decrypt the encrypted message using the private key (n, d)\nTo decrypt the encrypted message C=102, we use the formula: M = C^d % n\n\nM = 102^23 % 187\nM = 119181765377272094871286963840034906112 % 187\nM = 8\n\nThe decrypted message M is 8, which is the original message."
+}

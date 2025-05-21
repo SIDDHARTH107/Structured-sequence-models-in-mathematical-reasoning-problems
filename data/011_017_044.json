@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Latin squares",
+    "message_1": "How many distinct Latin squares of order 3 are there?",
+    "message_2": "A Latin square is an n × n array filled with n different symbols, each occurring exactly once in each row and exactly once in each column. For a Latin square of order 3, we have a 3x3 grid with 3 different symbols.\n\nLet's consider the first row. There are 3! (3 factorial) ways to arrange the 3 symbols in the first row, which is 3! = 3 × 2 × 1 = 6 ways.\n\nNow, let's consider the second row. Since each symbol must appear exactly once in each column, there are only 2 possible ways to arrange the symbols in the second row, without considering the permutations that are just rotations of another.\n\nFinally, the third row is determined by the arrangement of the first two rows, as each symbol must appear exactly once in each column.\n\nSo, the total number of distinct Latin squares of order 3 is:\n\n6 (ways to arrange the first row) × 2 (ways to arrange the second row) = 12.\n\nTherefore, there are 12 distinct Latin squares of order 3."
+}

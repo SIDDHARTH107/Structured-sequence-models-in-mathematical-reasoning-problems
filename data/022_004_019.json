@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Singularities of complex functions",
+    "message_1": "Find the order of the singularity of the function f(z) = (e^z - 1 - z)/z^3 at z = 0.",
+    "message_2": "To find the order of the singularity of the function f(z) = (e^z - 1 - z)/z^3 at z = 0, we can use the Taylor series expansion of e^z.\n\nRecall that the Taylor series expansion of e^z is given by:\n\ne^z = 1 + z + (z^2)/2! + (z^3)/3! + ...\n\nNow, let's substitute this expansion into the function f(z):\n\nf(z) = (e^z - 1 - z)/z^3 = (1 + z + (z^2)/2! + (z^3)/3! + ... - 1 - z)/z^3\n\nSimplify the expression:\n\nf(z) = (z^2)/2! + (z^3)/3! + ...\n\nNow, divide each term by z^3:\n\nf(z) = 1/2! * 1/z + 1/3! + ...\n\nSince the first term in the series has a simple pole at z = 0, the order of the singularity of the function f(z) at z = 0 is 1."
+}

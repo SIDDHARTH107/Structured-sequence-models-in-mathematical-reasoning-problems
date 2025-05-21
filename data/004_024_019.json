@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Calculus",
+    "sub_topic": "Using the chain rule to differentiate implicit functions",
+    "message_1": "Sure, here's a question:\n\nFind $\\frac{dy}{dx}$ of the following function using the chain rule:\n\n$x^2 - xy + y^2 = 9$\n\nwhere $y$ is a function of $x$.",
+    "message_2": "To find $\\frac{dy}{dx}$, we'll differentiate both sides of the equation with respect to $x$ using the chain rule.\n\nThe chain rule states that if $u$ is a function of $x$ and $v$ is a function of $u$, then the derivative of $v$ with respect to $x$ is given by:\n\n$\\frac{dv}{dx} = \\frac{dv}{du} \\cdot \\frac{du}{dx}$\n\nApplying this to our equation:\n\n$\\frac{d}{dx}(x^2) - \\frac{d}{dx}(xy) + \\frac{d}{dx}(y^2) = \\frac{d}{dx}(9)$\n\nDifferentiating each term:\n\n$2x - (x\\frac{dy}{dx} + y) + 2y\\frac{dy}{dx} = 0$\n\nNow, we'll solve for $\\frac{dy}{dx}$:\n\n$2x - y + (2y - x)\\frac{dy}{dx} = 0$\n\nRearrange the equation to isolate $\\frac{dy}{dx}$:\n\n$(2y - x)\\frac{dy}{dx} = y - 2x$\n\nFinally, divide both sides by $(2y - x)$ to get the derivative:\n\n$\\frac{dy}{dx} = \\frac{y - 2x}{2y - x}$"
+}

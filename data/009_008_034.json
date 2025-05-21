@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Differential equations",
+    "sub_topic": "Wave propagation and wave equations",
+    "message_1": "Consider the wave equation \n\n$$\nu_{tt} = c^2u_{xx}\n$$\n\nwith $u(x,0) = e^{-x^2}$ and $u_t(x,0) = 0$ on the interval $[-5, 5]$, where $c = 2$. Solve for $u(x,t)$ using the method of characteristics.",
+    "message_2": "The method of characteristics is not suitable for solving the wave equation. Instead, we can use the d'Alembert's formula or Fourier transform method to solve the wave equation. Here, we will use the d'Alembert's formula.\n\nThe d'Alembert's formula for the wave equation is given by:\n\n$$\nu(x,t) = \\frac{1}{2} [u_0(x+ct) + u_0(x-ct)] + \\frac{1}{2c} \\int_{x-ct}^{x+ct} v_0(s) ds\n$$\n\nwhere $u_0(x) = u(x,0)$ and $v_0(x) = u_t(x,0)$. In our case, $u_0(x) = e^{-x^2}$ and $v_0(x) = 0$. Also, $c = 2$. Plugging these values into the d'Alembert's formula, we get:\n\n$$\nu(x,t) = \\frac{1}{2} [e^{-(x+2t)^2} + e^{-(x-2t)^2}] + \\frac{1}{4} \\int_{x-2t}^{x+2t} 0 ds\n$$\n\nSince the integral of 0 is 0, the formula simplifies to:\n\n$$\nu(x,t) = \\frac{1}{2} [e^{-(x+2t)^2} + e^{-(x-2t)^2}]\n$$\n\nSo, the solution to the wave equation with the given initial conditions is:\n\n$$\nu(x,t) = \\frac{1}{2} [e^{-(x+2t)^2} + e^{-(x-2t)^2}]\n$$"
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Optimization",
+    "sub_topic": "Combinatorial optimization",
+    "message_1": "A company needs to schedule workers for a project that will last for exactly 10 days. There are 5 workers who are qualified to do the job, but each has different skills and pay rates per day. Worker A can do one day of the work for $100, worker B for $90, worker C for $80, worker D for $70, and worker E for $60. To ensure the project is completed on time, the company must assign workers to the project such that no worker works for more than 3 consecutive days. What is the minimum cost for the company to complete the project with the given constraints?",
+    "message_2": "To minimize the cost, the company should prioritize using the workers with the lowest pay rates. Since no worker can work for more than 3 consecutive days, we can create a schedule that alternates between the two cheapest workers, D and E.\n\nOne possible schedule is as follows:\n\n1. Worker E - $60\n2. Worker E - $60\n3. Worker E - $60\n4. Worker D - $70\n5. Worker D - $70\n6. Worker D - $70\n7. Worker E - $60\n8. Worker E - $60\n9. Worker E - $60\n10. Worker D - $70\n\nTotal cost: $60 * 6 + $70 * 4 = $360 + $280 = $640\n\nThe minimum cost for the company to complete the project with the given constraints is $640."
+}

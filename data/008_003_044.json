@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Determining the rank of a matrix",
+    "message_1": "Find the rank of the following matrix:\n\n\\begin{pmatrix}\n1 & 2 & 3 \\\\\n2 & 4 & 6 \\\\\n5 & 10 & 15 \\\\\n\\end{pmatrix}",
+    "message_2": "To find the rank of the matrix, we need to perform Gaussian elimination to get the matrix in row-echelon form and then count the number of non-zero rows.\n\nFirst, we can subtract the first row from the second row multiplied by 2, and subtract the first row multiplied by 5 from the third row:\n\n\\begin{pmatrix}\n1 & 2 & 3 \\\\\n0 & 0 & 0 \\\\\n0 & 0 & 0 \\\\\n\\end{pmatrix}\n\nNow the matrix is in row-echelon form. There is only one non-zero row, so the rank of the matrix is 1."
+}

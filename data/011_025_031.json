@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Combinatorial game theory",
+    "message_1": "In a combinatorial game, player A starts with a pile of 20 stones. Players A and B then take turns removing either 1, 2, or 3 stones from the pile. The player who takes the last stone wins. If player A goes first, how can they guarantee a win?",
+    "message_2": "Player A can guarantee a win by following this strategy:\n\n1. In the first turn, player A should remove 1 stone from the pile. This leaves 19 stones in the pile.\n2. From this point on, player A should mimic player B's move but with a complementary number of stones such that the total stones removed in each round (by both players) is always 4.\n\nFor example, if player B removes 1 stone, player A should remove 3 stones. If player B removes 2 stones, player A should remove 2 stones. If player B removes 3 stones, player A should remove 1 stone.\n\nBy following this strategy, player A ensures that they always maintain control over the game and will be the one to take the last stone, thus winning the game."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Combinatorial designs",
+    "message_1": "Suppose you are creating a committee of 5 people from a group of 10 individuals. The committee requires at least 2 men and 2 women to be on it. How many different possible committees can be created?",
+    "message_2": "Let's assume there are M men and W women in the group of 10 individuals. We have three cases to consider:\n\n1. The committee has 2 men and 3 women.\n2. The committee has 3 men and 2 women.\n3. The committee has 4 men and 1 woman.\n\nFor each case, we will use the combination formula to calculate the number of possible committees: C(n, k) = n! / (k!(n-k)!)\n\nCase 1: 2 men and 3 women\nC(M, 2) * C(W, 3) = (M! / (2!(M-2)!)) * (W! / (3!(W-3)!))\n\nCase 2: 3 men and 2 women\nC(M, 3) * C(W, 2) = (M! / (3!(M-3)!)) * (W! / (2!(W-2)!))\n\nCase 3: 4 men and 1 woman\nC(M, 4) * C(W, 1) = (M! / (4!(M-4)!)) * (W! / (1!(W-1)!))\n\nThe total number of possible committees is the sum of the possibilities in each case:\n\nTotal committees = C(M, 2) * C(W, 3) + C(M, 3) * C(W, 2) + C(M, 4) * C(W, 1)\n\nHowever, since we don't know the exact number of men (M) and women (W) in the group of 10 individuals, we cannot provide a specific numerical answer. If you provide the number of men and women in the group, we can calculate the exact number of possible committees."
+}

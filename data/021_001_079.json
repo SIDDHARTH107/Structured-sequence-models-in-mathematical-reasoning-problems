@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Numerical analysis",
+    "sub_topic": "Solving systems of linear equations using Gaussian elimination",
+    "message_1": "Consider the system of linear equations below:\n\n3x + 2y - z = 7\n\n2x - 2y + 4z = -2\n\n-x + ½ y - z = 0\n\nUsing Gaussian elimination, what are the values of x, y and z that satisfy the above system of equations?",
+    "message_2": "First, let's write the system of linear equations as an augmented matrix:\n\n| 3  2 -1 |  7 |\n| 2 -2  4 | -2 |\n|-1  0.5 -1 |  0 |\n\nNow, let's perform Gaussian elimination:\n\nStep 1: Swap Row 1 and Row 3 to have a non-negative leading coefficient in the first row:\n\n| -1  0.5 -1 |  0 |\n|  2  -2  4  | -2 |\n|  3   2  -1 |  7 |\n\nStep 2: Add 2 times Row 1 to Row 2, and add 3 times Row 1 to Row 3:\n\n| -1  0.5 -1 |  0  |\n|  0  -1  2  | -2  |\n|  0   3.5 -4 |  7  |\n\nStep 3: Multiply Row 2 by -1 to have a positive leading coefficient:\n\n| -1  0.5 -1 |  0  |\n|  0   1  -2 |  2  |\n|  0   3.5 -4 |  7  |\n\nStep 4: Subtract 3.5 times Row 2 from Row 3:\n\n| -1  0.5 -1 |  0  |\n|  0   1  -2 |  2  |\n|  0   0   3 |  0  |\n\nStep 5: Divide Row 3 by 3:\n\n| -1  0.5 -1 |  0  |\n|  0   1  -2 |  2  |\n|  0   0   1 |  0  |\n\nNow, let's perform back substitution:\n\nz = 0\ny - 2z = 2 => y = 2\n-x + 0.5y - z = 0 => -x + 1 = 0 => x = 1\n\nSo the solution is x = 1, y = 2, and z = 0."
+}

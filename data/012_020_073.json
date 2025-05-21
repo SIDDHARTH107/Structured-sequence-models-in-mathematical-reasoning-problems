@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Graph theory",
+    "sub_topic": "Identifying the automorphism group of a graph.",
+    "message_1": "Consider the following undirected graph:\n\n```\nA -- B -- C\n|    |    |\nD -- E -- F\n```\n\nIdentify the automorphism group of this graph. How many different symmetries does this graph have?",
+    "message_2": "An automorphism of a graph is a permutation of its vertices that preserves the adjacency relation. The automorphism group of a graph is the set of all its automorphisms.\n\nFor the given graph, we can identify the following automorphisms:\n\n1. Identity: A->A, B->B, C->C, D->D, E->E, F->F\n2. Horizontal reflection: A->C, B->B, C->A, D->F, E->E, F->D\n3. Vertical reflection: A->D, B->E, C->F, D->A, E->B, F->C\n4. 180-degree rotation: A->F, B->E, C->D, D->C, E->B, F->A\n5. Diagonal reflection (A-F): A->F, B->E, C->D, D->C, E->B, F->A\n6. Diagonal reflection (C-D): A->D, B->E, C->F, D->A, E->B, F->C\n7. 90-degree clockwise rotation: A->B, B->C, C->F, D->A, E->E, F->D\n8. 90-degree counterclockwise rotation: A->D, B->A, C->B, D->F, E->E, F->C\n\nThese 8 automorphisms form the automorphism group of the graph. Therefore, the graph has 8 different symmetries."
+}

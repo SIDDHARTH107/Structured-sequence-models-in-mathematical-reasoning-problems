@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Complex analysis of differential equations",
+    "message_1": "Consider the differential equation \n\ny'' + 2y' + 5y = 0\n\nwhere y is a complex-valued function. If the solutions are of the form y(x) = e^(λx), find the values of λ that satisfy the differential equation.",
+    "message_2": "To find the values of λ that satisfy the given differential equation, we first substitute the assumed solution form y(x) = e^(λx) into the differential equation.\n\nTaking the first and second derivatives of y(x) with respect to x, we get:\n\ny'(x) = λe^(λx)\ny''(x) = λ^2e^(λx)\n\nNow, substitute y(x), y'(x), and y''(x) into the differential equation:\n\n(λ^2e^(λx)) + 2(λe^(λx)) + 5(e^(λx)) = 0\n\nFactor out e^(λx):\n\ne^(λx)(λ^2 + 2λ + 5) = 0\n\nSince e^(λx) is never equal to 0, we can divide both sides by e^(λx):\n\nλ^2 + 2λ + 5 = 0\n\nNow, we need to solve the quadratic equation for λ:\n\nλ^2 + 2λ + 5 = 0\n\nThis equation does not factor easily, so we'll use the quadratic formula:\n\nλ = (-b ± √(b^2 - 4ac)) / 2a\n\nIn this case, a = 1, b = 2, and c = 5:\n\nλ = (-2 ± √(2^2 - 4(1)(5))) / 2(1)\nλ = (-2 ± √(-16)) / 2\n\nSince the discriminant is negative, we have complex roots:\n\nλ = (-2 ± 4i) / 2\nλ = -1 ± 2i\n\nThus, the values of λ that satisfy the given differential equation are λ = -1 + 2i and λ = -1 - 2i."
+}

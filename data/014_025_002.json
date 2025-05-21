@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Cryptographic hash functions.",
+    "message_1": "What is the SHA-256 hash value of the message \"Hello World\" in hexadecimal notation?",
+    "message_2": "To compute the SHA-256 hash value of the message \"Hello World\", we can use a programming language or an online tool. Here's the Python code to do it:\n\n```python\nimport hashlib\n\nmessage = \"Hello World\"\nhash_object = hashlib.sha256(message.encode())\nhash_hex = hash_object.hexdigest()\n\nprint(hash_hex)\n```\n\nThe SHA-256 hash value of the message \"Hello World\" in hexadecimal notation is: `64ec88ca00b268e5ba1a35678a1b5316d212f4f366b2477232534a8aeca37f3c`"
+}

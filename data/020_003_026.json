@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Optimization",
+    "sub_topic": "Convex optimization",
+    "message_1": "A company produces two products A and B. The production process requires two types of raw materials, X and Y. Each unit of product A requires 3 units of material X and 2 units of material Y, while each unit of product B requires 2 units of material X and 4 units of material Y. The company has 120 units of material X and 160 units of material Y available. The profit from each unit of product A is $8 and from each unit of product B is $10. Determine the number of units of each product the company should produce to maximize its profit.",
+    "message_2": "Let x be the number of units of product A and y be the number of units of product B. The constraints for the raw materials can be written as:\n\n3x + 2y ≤ 120 (material X constraint)\n2x + 4y ≤ 160 (material Y constraint)\n\nThe objective function to maximize the profit is:\n\nP = 8x + 10y\n\nFirst, we need to find the feasible region by graphing the constraints:\n\n3x + 2y ≤ 120\ny ≤ (120 - 3x) / 2\n\n2x + 4y ≤ 160\ny ≤ (160 - 2x) / 4\n\nThe feasible region is a polygon with vertices at (0,0), (0,40), (20,30), and (40,0). We will now evaluate the profit function at each of these vertices:\n\nP(0,0) = 8(0) + 10(0) = $0\nP(0,40) = 8(0) + 10(40) = $400\nP(20,30) = 8(20) + 10(30) = $160 + $300 = $460\nP(40,0) = 8(40) + 10(0) = $320\n\nThe maximum profit of $460 is achieved when the company produces 20 units of product A and 30 units of product B."
+}

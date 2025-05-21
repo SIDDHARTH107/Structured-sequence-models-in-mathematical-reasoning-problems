@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Block designs",
+    "message_1": "In a basketball tournament, there are 10 teams with each team playing against each other exactly once. There are 3 basketball courts available for the matches to take place. A block design is created such that each block contains 3 teams playing against each other in a single court. How many blocks are needed to complete the tournament schedule?",
+    "message_2": "In a basketball tournament with 10 teams, each team will play against every other team exactly once. The total number of matches can be calculated using the formula for combinations:\n\nC(n, k) = n! / (k!(n-k)!)\n\nwhere n is the total number of teams (10) and k is the number of teams in a match (2).\n\nC(10, 2) = 10! / (2!(10-2)!) = 45\n\nSo, there are a total of 45 matches to be played.\n\nNow, let's consider the block design with 3 teams playing against each other in a single court. In each block, there will be 3 matches: Team A vs Team B, Team A vs Team C, and Team B vs Team C.\n\nSince there are 45 matches to be played in total, we can calculate the number of blocks needed by dividing the total number of matches by the number of matches per block:\n\nNumber of blocks = 45 matches / 3 matches per block = 15 blocks\n\nTherefore, 15 blocks are needed to complete the tournament schedule."
+}

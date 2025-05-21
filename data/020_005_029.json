@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Optimization",
+    "sub_topic": "Integer programming",
+    "message_1": "A factory produces two types of products: A and B. Each unit of A requires 3 hours of production time and earns a profit of $5 while each unit of B requires 5 hours of production time and earns a profit of $7. The factory has 150 production hours available each day. How many units of each product should the factory produce to maximize profit?",
+    "message_2": "Let x be the number of units of product A and y be the number of units of product B.\n\nThe constraints for the production hours are:\n3x + 5y ≤ 150\n\nThe objective function to maximize the profit is:\nP = 5x + 7y\n\nTo find the feasible region, we first find the boundary of the constraint:\n3x + 5y = 150\n\nNow, we need to find the intercepts of the boundary equation.\n\nWhen x = 0:\n3(0) + 5y = 150\ny = 30\n\nWhen y = 0:\n3x + 5(0) = 150\nx = 50\n\nSo, we have two intercepts: (0, 30) and (50, 0).\n\nNow, we need to find the corner points of the feasible region. Since the feasible region is a triangle, we have three corner points: (0, 0), (0, 30), and (50, 0).\n\nNow, we will evaluate the profit function at each of these corner points:\n\n1. P(0, 0) = 5(0) + 7(0) = 0\n2. P(0, 30) = 5(0) + 7(30) = 210\n3. P(50, 0) = 5(50) + 7(0) = 250\n\nThe maximum profit is $250, which occurs when the factory produces 50 units of product A and 0 units of product B."
+}

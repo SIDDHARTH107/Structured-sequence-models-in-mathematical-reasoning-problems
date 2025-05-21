@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "One-time pad encryption",
+    "message_1": "Suppose you have to send the message \"MATH\" using a one-time pad encryption method. Both the message and key are in binary form. The message in binary is 01001101 01000001 01010100 01001000. A key is randomly generated that is 4 bits longer than the message. The key in binary is 01110111 10011011 01001010 00101011 10011100. What is the encrypted message in binary?",
+    "message_2": "To encrypt the message using a one-time pad encryption method, we need to perform an XOR operation between the message and the key. Since the key is 4 bits longer than the message, we will only use the first 32 bits of the key for the XOR operation.\n\nMessage: 01001101 01000001 01010100 01001000\nKey:      01110111 10011011 01001010 00101011 (first 32 bits)\n\nNow, perform the XOR operation:\n\n01001101 ⊕ 01110111 = 00111010\n01000001 ⊕ 10011011 = 11011010\n01010100 ⊕ 01001010 = 00011110\n01001000 ⊕ 00101011 = 01100011\n\nSo, the encrypted message in binary is:\n\n00111010 11011010 00011110 01100011"
+}

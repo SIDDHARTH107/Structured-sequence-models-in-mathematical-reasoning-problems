@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Game theory",
+    "sub_topic": "Principal-Agent Problem",
+    "message_1": "Suppose a principal hires an agent to complete a task. The agent's effort level determines the outcome of the task. If the agent exerts effort \"e\", the outcome will be the product of e and a random variable \"x\" drawn from a uniform distribution between 0 and 10, i.e. outcome = ex. However, the agent's effort is not observable to the principal, who only observes the outcome. The principal can offer a wage contract of the form w = ae, where \"a\" is the wage coefficient. The agent's utility function is u(w,e) = we - 0.5e^2. What effort level will the agent choose if the wage coefficient is 5?",
+    "message_2": "To find the effort level the agent will choose, we need to maximize the agent's utility function with respect to the effort level \"e\". The agent's utility function is given by:\n\nu(w, e) = we - 0.5e^2\n\nSince the wage contract is w = ae, where a = 5, we can substitute this into the utility function:\n\nu(5e, e) = 5e^2 - 0.5e^2\n\nNow, we need to find the effort level \"e\" that maximizes the agent's utility. To do this, we can take the first derivative of the utility function with respect to \"e\" and set it equal to zero:\n\nd(u)/de = 10e - e = 0\n\nSolving for \"e\", we get:\n\ne = 10/9\n\nSo, the agent will choose an effort level of 10/9 when the wage coefficient is 5."
+}

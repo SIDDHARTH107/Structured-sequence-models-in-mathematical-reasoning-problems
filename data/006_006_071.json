@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Probability",
+    "sub_topic": "Probability of a certain outcome in a sports game",
+    "message_1": "In a soccer game, a player has a probability of 0.3 of scoring a goal. If the player takes 6 shots during the game, what is the probability that they score exactly 2 goals?",
+    "message_2": "To find the probability of scoring exactly 2 goals out of 6 shots, we can use the binomial probability formula:\n\nP(X = k) = (n choose k) * p^k * (1-p)^(n-k)\n\nwhere n is the number of trials (shots), k is the number of successes (goals), and p is the probability of success (scoring a goal).\n\nIn this case, n = 6, k = 2, and p = 0.3.\n\nFirst, we calculate the binomial coefficient (n choose k), which is the number of ways to choose k successes out of n trials:\n\n(n choose k) = n! / (k!(n-k)!)\n(6 choose 2) = 6! / (2!(6-2)!) = 720 / (2 * 24) = 15\n\nNow, we can plug these values into the binomial probability formula:\n\nP(X = 2) = 15 * (0.3)^2 * (1-0.3)^(6-2)\nP(X = 2) = 15 * (0.09) * (0.7)^4\nP(X = 2) = 15 * 0.09 * 0.2401\nP(X = 2) ≈ 0.3241\n\nSo, the probability of the player scoring exactly 2 goals in 6 shots is approximately 0.3241 or 32.41%."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Digital signatures",
+    "message_1": "A message of 200 characters (including spaces) needs to be signed using RSA digital signature scheme with a private key having a modulus of 1024 bits. The hash function used is SHA-256 which produces a 256-bit hash value. What will be the size of the resulting digital signature in bytes?",
+    "message_2": "In the RSA digital signature scheme, the size of the digital signature is equal to the size of the modulus used in the private key. In this case, the modulus is 1024 bits. To convert this to bytes, we divide by 8 (since there are 8 bits in a byte):\n\n1024 bits / 8 bits per byte = 128 bytes\n\nSo, the size of the resulting digital signature will be 128 bytes."
+}

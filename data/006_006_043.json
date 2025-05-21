@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Probability",
+    "sub_topic": "Probability of a certain outcome in a sports game",
+    "message_1": "What is the probability of a basketball player hitting exactly 3 out of 5 free throw shots in a game, given that their average percentage for free throws is 80%?",
+    "message_2": "To solve this problem, we will use the binomial probability formula, which is:\n\nP(x) = (nCx) * (p^x) * (q^(n-x))\n\nwhere:\n- P(x) is the probability of hitting exactly x shots out of n attempts\n- n is the total number of attempts (in this case, 5 free throws)\n- x is the number of successful shots (in this case, 3)\n- p is the probability of success (in this case, 80% or 0.8)\n- q is the probability of failure (in this case, 20% or 0.2)\n- nCx is the number of combinations of n items taken x at a time, which can be calculated as n! / (x! * (n-x)!)\n\nFirst, let's calculate nCx for n = 5 and x = 3:\n\nnCx = 5! / (3! * (5-3)!)\nnCx = 120 / (6 * 2)\nnCx = 120 / 12\nnCx = 10\n\nNow, let's plug the values into the binomial probability formula:\n\nP(3) = (10) * (0.8^3) * (0.2^2)\n\nP(3) = 10 * 0.512 * 0.04\n\nP(3) = 10 * 0.02048\n\nP(3) ≈ 0.2048\n\nSo, the probability of the basketball player hitting exactly 3 out of 5 free throw shots is approximately 20.48%."
+}

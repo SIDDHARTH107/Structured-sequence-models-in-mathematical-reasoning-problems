@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Multinomial coefficients",
+    "message_1": "In a group of 8 people, how many ways can you split them into 3 subgroups of sizes 3, 3, and 2, respectively?",
+    "message_2": "To split a group of 8 people into 3 subgroups of sizes 3, 3, and 2, we can use the combination formula. The combination formula is C(n, k) = n! / (k!(n-k)!), where n is the total number of items and k is the number of items to choose.\n\nFirst, we choose 3 people out of 8 for the first subgroup. This can be done in C(8, 3) ways.\n\nC(8, 3) = 8! / (3!(8-3)!) = 8! / (3!5!) = (8 × 7 × 6) / (3 × 2 × 1) = 56 ways\n\nNow, we have 5 people left. We choose 3 people out of these 5 for the second subgroup. This can be done in C(5, 3) ways.\n\nC(5, 3) = 5! / (3!(5-3)!) = 5! / (3!2!) = (5 × 4) / (2 × 1) = 10 ways\n\nThe remaining 2 people will form the third subgroup, so there's no need to calculate further combinations.\n\nFinally, we multiply the combinations for the first and second subgroups:\n\n56 ways (first subgroup) × 10 ways (second subgroup) = 560 ways\n\nSo, there are 560 ways to split a group of 8 people into 3 subgroups of sizes 3, 3, and 2, respectively."
+}

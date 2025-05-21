@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Digital signatures",
+    "message_1": "Suppose Alice wants to send a message to Bob that only Bob can read. She uses a digital signature scheme with a public key of 23 and a private key of 7. If she wants to sign the message \"HELLO\", what is the signature that she will send to Bob?",
+    "message_2": "To sign the message \"HELLO\" using a digital signature scheme, Alice will first need to convert the message into a numerical representation. One common method is to use the ASCII values of the characters:\n\nH: 72\nE: 69\nL: 76\nL: 76\nO: 79\n\nNow, Alice will use her private key (7) to sign each of these numerical values using modular exponentiation. The signature for each character will be calculated as follows:\n\n(signature = message^private_key mod public_key)\n\nSignature for H: 72^7 mod 23 = 9\nSignature for E: 69^7 mod 23 = 4\nSignature for L: 76^7 mod 23 = 8\nSignature for L: 76^7 mod 23 = 8\nSignature for O: 79^7 mod 23 = 15\n\nSo, the signature Alice will send to Bob is \"9 4 8 8 15\"."
+}

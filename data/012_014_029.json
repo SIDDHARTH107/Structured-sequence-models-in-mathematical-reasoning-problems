@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Graph theory",
+    "sub_topic": "Identifying the isomorphism between two graphs.",
+    "message_1": "Consider the following two graphs G and H:\n\nG: \n```\n    A ---- B\n   / \\    / \\\n  C---D--E---F\n```\n\nH: \n```\n    1 ---- 2\n   / \\    / \\\n  3---4--5---6\n```\n\nDetermine whether these two graphs G and H are isomorphic or not. If they are isomorphic, then construct an isomorphism between them.",
+    "message_2": "The two graphs G and H are isomorphic. This means that there is a one-to-one correspondence between their vertices such that the adjacency between vertices is preserved.\n\nWe can construct an isomorphism between them as follows:\n\nA -> 1\nB -> 2\nC -> 3\nD -> 4\nE -> 5\nF -> 6\n\nUnder this correspondence, the adjacency between vertices in G is preserved in H:\n\n- A is adjacent to B, C, and D in G; 1 is adjacent to 2, 3, and 4 in H.\n- B is adjacent to A, E, and F in G; 2 is adjacent to 1, 5, and 6 in H.\n- C is adjacent to A and D in G; 3 is adjacent to 1 and 4 in H.\n- D is adjacent to A, C, and E in G; 4 is adjacent to 1, 3, and 5 in H.\n- E is adjacent to B, D, and F in G; 5 is adjacent to 2, 4, and 6 in H.\n- F is adjacent to B and E in G; 6 is adjacent to 2 and 5 in H.\n\nSince there is a one-to-one correspondence between the vertices of G and H that preserves adjacency, the two graphs are isomorphic."
+}

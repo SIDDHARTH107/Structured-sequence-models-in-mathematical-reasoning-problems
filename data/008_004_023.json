@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Solving homogeneous systems of linear equations",
+    "message_1": "Solve the homogeneous system of linear equations:\n\n3x - 2y + z = 0 \n\n4x + 5y - 3z = 0 \n\n2x - 2y + 2z = 0",
+    "message_2": "To solve the homogeneous system of linear equations, we can use the Gaussian elimination method. First, we write the augmented matrix for the given system:\n\n```\n[ 3 -2  1 | 0 ]\n[ 4  5 -3 | 0 ]\n[ 2 -2  2 | 0 ]\n```\n\nStep 1: Swap Row 1 and Row 3 to have the largest pivot element in the first row:\n\n```\n[ 2 -2  2 | 0 ]\n[ 4  5 -3 | 0 ]\n[ 3 -2  1 | 0 ]\n```\n\nStep 2: Eliminate the first element in Row 2 and Row 3:\n\nRow 2 = Row 2 - 2 * Row 1\nRow 3 = Row 3 - 1.5 * Row 1\n\n```\n[  2  -2   2 |  0 ]\n[  0   9  -7 |  0 ]\n[  0   1  -2 |  0 ]\n```\n\nStep 3: Divide Row 3 by the pivot element:\n\nRow 3 = Row 3 / 1\n\n```\n[  2  -2   2 |  0 ]\n[  0   9  -7 |  0 ]\n[  0   1  -2 |  0 ]\n```\n\nStep 4: Eliminate the second element in Row 1 and Row 2:\n\nRow 1 = Row 1 + Row 3\nRow 2 = Row 2 - 9 * Row 3\n\n```\n[  2   0   0 |  0 ]\n[  0   0   1 |  0 ]\n[  0   1  -2 |  0 ]\n```\n\nStep 5: Swap Row 2 and Row 3:\n\n```\n[  2   0   0 |  0 ]\n[  0   1  -2 |  0 ]\n[  0   0   1 |  0 ]\n```\n\nNow we can read the solution from the matrix:\n\nx = 0\ny = 2z\n\nSince it's a homogeneous system, we can set z = t, where t is a parameter:\n\nx = 0\ny = 2t\nz = t\n\nThe solution to the homogeneous system of linear equations is:\n\n(x, y, z) = (0, 2t, t)"
+}

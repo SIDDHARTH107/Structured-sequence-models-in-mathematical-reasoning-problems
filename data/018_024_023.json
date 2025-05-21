@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Set theory",
+    "sub_topic": "Prove that the symmetric difference of two sets is not distributive over complement.",
+    "message_1": "Let A = {1, 2, 3, 4, 5} and B = {2, 4, 6, 8, 10}. Using set notation and set operations, prove that (A △ B) ∩ A' ≠ (A ∩ A') △ (B ∩ A').",
+    "message_2": "First, let's find the sets involved in the given expressions.\n\nA △ B = (A - B) ∪ (B - A) = {1, 3, 5} ∪ {6, 8, 10} = {1, 3, 5, 6, 8, 10}\n\nNow, let's find A':\n\nA' is the complement of A, which means it contains all the elements that are not in A. Since we don't have a universal set defined, we can consider the union of A and B as the universal set for this problem. \n\nU = A ∪ B = {1, 2, 3, 4, 5, 6, 8, 10}\n\nA' = U - A = {6, 8, 10}\n\nNow, let's find the sets in the given expressions:\n\n1. (A △ B) ∩ A' = {1, 3, 5, 6, 8, 10} ∩ {6, 8, 10} = {6, 8, 10}\n\n2. (A ∩ A') △ (B ∩ A') = (∅) △ ({6, 8, 10}) = {6, 8, 10}\n\nSince (A △ B) ∩ A' = {6, 8, 10} and (A ∩ A') △ (B ∩ A') = {6, 8, 10}, the two sets are equal. Therefore, the original statement is incorrect, and (A △ B) ∩ A' = (A ∩ A') △ (B ∩ A')."
+}

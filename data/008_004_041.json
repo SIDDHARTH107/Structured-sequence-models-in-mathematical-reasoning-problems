@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Solving homogeneous systems of linear equations",
+    "message_1": "Solve the following homogeneous system of linear equations for its non-trivial solution:\n\n2x + 3y - z = 0 \n\n4x + 6y - 2z = 0 \n\n8x + 12y - 4z = 0",
+    "message_2": "To solve this homogeneous system of linear equations, we can use the Gaussian elimination method. First, we can write the system in matrix form:\n\n```\n[ 2  3 -1 | 0 ]\n[ 4  6 -2 | 0 ]\n[ 8 12 -4 | 0 ]\n```\n\nNow, we perform Gaussian elimination:\n\n1. Divide the first row by 2:\n\n```\n[ 1  3/2 -1/2 | 0 ]\n[ 4  6  -2  | 0 ]\n[ 8 12  -4  | 0 ]\n```\n\n2. Subtract 4 times the first row from the second row and 8 times the first row from the third row:\n\n```\n[  1  3/2 -1/2 |  0 ]\n[  0  0    0  |  0 ]\n[  0  0    0  |  0 ]\n```\n\nSince we have two rows of zeros, we can remove them:\n\n```\n[ 1  3/2 -1/2 | 0 ]\n```\n\nNow, we can express the variables in terms of the free variable, z:\n\nx = (1/2)z\ny = (1/3)(2x + z) = (1/3)(z + z) = (2/3)z\n\nSo, the non-trivial solution is given by:\n\nx = (1/2)z\ny = (2/3)z\nz = z\n\nWhere z can be any non-zero scalar."
+}

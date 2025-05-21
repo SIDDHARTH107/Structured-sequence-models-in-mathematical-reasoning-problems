@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Block designs",
+    "message_1": "A sports club has 10 members and wants to form 2 sports teams of equal size. How many different ways can the sports club form these 2 teams if each team has exactly 5 members?",
+    "message_2": "To determine the number of ways to form two teams of 5 members each from a group of 10 members, we can use the combination formula. The combination formula is:\n\nC(n, k) = n! / (k!(n-k)!)\n\nwhere n is the total number of members, k is the number of members in each team, and ! denotes the factorial of a number.\n\nIn this case, n = 10 and k = 5. So, we have:\n\nC(10, 5) = 10! / (5!(10-5)!)\n\nC(10, 5) = 10! / (5!5!)\n\nC(10, 5) = (10*9*8*7*6*5*4*3*2*1) / ((5*4*3*2*1)*(5*4*3*2*1))\n\nC(10, 5) = 252\n\nHowever, since the teams are indistinguishable (i.e., Team A with members 1, 2, 3, 4, 5 and Team B with members 6, 7, 8, 9, 10 is the same as Team A with members 6, 7, 8, 9, 10 and Team B with members 1, 2, 3, 4, 5), we need to divide the result by 2 to avoid double counting:\n\nNumber of ways = 252 / 2 = 126\n\nSo, there are 126 different ways to form two sports teams of 5 members each from a group of 10 members."
+}

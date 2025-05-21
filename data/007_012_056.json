@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Number theory",
+    "sub_topic": "Wilson's theorem",
+    "message_1": "For a prime number p greater than 3, prove that (p - 1)! + 1 is not divisible by p.",
+    "message_2": "We will prove this by contradiction. Let's assume that for some prime number p > 3, (p - 1)! + 1 is divisible by p. This means that there exists an integer k such that:\n\n(p - 1)! + 1 = k * p\n\nNow, let's consider the number (p - 1)! - 1. We can rewrite this as:\n\n(p - 1)! - 1 = (p - 2)! * (p - 1) - 1\n\nNotice that (p - 2)! * (p - 1) is an integer, so (p - 1)! - 1 is also an integer. Now, let's add the two equations we have:\n\n(p - 1)! + 1 + (p - 1)! - 1 = k * p + (p - 2)! * (p - 1) - 1 + 1\n\nSimplifying, we get:\n\n2 * (p - 1)! = k * p + (p - 2)! * (p - 1)\n\nNow, we know that p is a prime number greater than 3, so p is odd. Therefore, (p - 1) is even, and (p - 1)! is also even. This means that 2 * (p - 1)! is divisible by 4. However, the right side of the equation, k * p + (p - 2)! * (p - 1), is not divisible by 4, because p is odd and (p - 1) is even.\n\nThis is a contradiction, as we assumed that (p - 1)! + 1 is divisible by p, but we have shown that it is not possible. Therefore, for a prime number p greater than 3, (p - 1)! + 1 is not divisible by p."
+}

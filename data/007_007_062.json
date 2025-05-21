@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Number theory",
+    "sub_topic": "Diophantine equations",
+    "message_1": "Solve the Diophantine equation: 25x + 48y = 1, where x and y are integers.",
+    "message_2": "To solve the Diophantine equation 25x + 48y = 1, we can use the Extended Euclidean Algorithm to find the coefficients x and y.\n\nFirst, we find the greatest common divisor (GCD) of 25 and 48 using the Euclidean Algorithm:\n\n48 = 1 * 25 + 23\n25 = 1 * 23 + 2\n23 = 11 * 2 + 1\n\nNow we can work our way back up using the Extended Euclidean Algorithm:\n\n1 = 23 - 11 * 2\n1 = 23 - 11 * (25 - 1 * 23)\n1 = 23 - 11 * 25 + 11 * 23\n1 = 12 * 23 - 11 * 25\n1 = 12 * (48 - 1 * 25) - 11 * 25\n1 = 12 * 48 - 23 * 25\n\nSo, x = -23 and y = 12 is a solution to the Diophantine equation 25x + 48y = 1.\n\nHowever, this is not the only solution. Since the GCD of 25 and 48 is 1, there are infinitely many solutions to this equation. To find other solutions, we can use the general formula:\n\nx = x0 + k * (b / gcd(a, b))\ny = y0 - k * (a / gcd(a, b))\n\nwhere x0 and y0 are the initial solution we found (x0 = -23, y0 = 12), k is an integer, a = 25, and b = 48.\n\nFor example, if we choose k = 1:\n\nx = -23 + 1 * (48 / 1) = -23 + 48 = 25\ny = 12 - 1 * (25 / 1) = 12 - 25 = -13\n\nSo, x = 25 and y = -13 is another solution to the Diophantine equation 25x + 48y = 1."
+}

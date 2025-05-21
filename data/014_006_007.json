@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "One-time pad encryption",
+    "message_1": "Suppose you want to securely send a binary message of 8 bits (one byte) to your friend using the one-time pad encryption method. You choose a random key of 8 bits and add it (using bitwise XOR) to your message to get the ciphertext. If you want to ensure perfect secrecy, how many possible keys are there and what is the length of the resulting ciphertext?",
+    "message_2": "To ensure perfect secrecy with the one-time pad encryption method, you need to have as many possible keys as there are possible messages. Since your message is 8 bits long, there are 2^8 = 256 possible messages. Therefore, you need 256 possible keys, each 8 bits long.\n\nWhen you add the 8-bit key to your 8-bit message using bitwise XOR, the resulting ciphertext will also be 8 bits long."
+}

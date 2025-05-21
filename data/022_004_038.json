@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Singularities of complex functions",
+    "message_1": "Sure, here's a question:\n\nLet f(z) = (sinz)/z. Determine the type of singularity of f(z) at z=0 and calculate the residue of f(z) at z=0.",
+    "message_2": "To determine the type of singularity of f(z) at z=0, we first look at the function f(z) = (sinz)/z. We can see that f(z) is not defined at z=0, so there is a singularity at z=0. Now, we need to determine the type of singularity.\n\nWe can use the Laurent series expansion to analyze the singularity. The Laurent series of sin(z) around z=0 is given by:\n\nsin(z) = z - (z^3)/3! + (z^5)/5! - (z^7)/7! + ...\n\nNow, we divide this series by z to get the Laurent series of f(z):\n\nf(z) = 1 - (z^2)/3! + (z^4)/5! - (z^6)/7! + ...\n\nSince there are no negative powers of z in the Laurent series, the singularity at z=0 is a removable singularity.\n\nNow, we need to calculate the residue of f(z) at z=0. The residue is the coefficient of the (z-0)^(-1) term in the Laurent series. In this case, there is no (z-0)^(-1) term in the Laurent series, so the residue of f(z) at z=0 is 0."
+}

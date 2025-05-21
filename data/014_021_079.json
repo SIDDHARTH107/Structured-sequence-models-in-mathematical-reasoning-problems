@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Cryptanalysis of Hill cipher",
+    "message_1": "Suppose we have a Hill Cipher encrypted message \"ESVW\" using a 2x2 key matrix. The first row of the key is [3 5] and the second row is [2 7]. Using cryptanalysis of Hill Cipher, find the original message.",
+    "message_2": "To decrypt the message, we first need to find the inverse of the key matrix. The key matrix is:\n\n[3 5]\n[2 7]\n\nFirst, we find the determinant of the matrix:\n\ndet = (3 * 7) - (5 * 2) = 21 - 10 = 11\n\nNow, we find the adjugate of the matrix:\n\nadj = [7 -5]\n          [-2 3]\n\nNext, we find the inverse of the matrix by multiplying the adjugate by the modular multiplicative inverse of the determinant (mod 26):\n\ninverse = (1/det) * adj (mod 26)\n\nThe modular multiplicative inverse of 11 (mod 26) is 19 (since 11 * 19 ≡ 1 (mod 26)). So, we multiply the adjugate by 19 (mod 26):\n\ninverse = [7*19 -5*19] (mod 26)\n                 [-2*19 3*19] (mod 26)\n\ninverse = [9  -3]\n                 [24  1]\n\nNow, we can decrypt the message \"ESVW\". We convert the letters to numbers (A=0, B=1, ..., Z=25):\n\nE = 4, S = 18, V = 21, W = 22\n\nWe group the numbers into 2x1 matrices and multiply by the inverse key matrix:\n\n[9 -3] [4]   [4*9 + 18*(-3)]   [0]   [A]\n[24 1] [18] = [4*24 + 18*1] = [17] = [R]\n\n[9 -3] [21]   [21*9 + 22*(-3)]   [8]   [I]\n[24 1] [22] = [21*24 + 22*1] = [4] = [E]\n\nSo, the decrypted message is \"ARIE\"."
+}

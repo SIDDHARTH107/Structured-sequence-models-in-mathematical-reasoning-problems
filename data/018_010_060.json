@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Set theory",
+    "sub_topic": "Prove that the Cartesian product of two sets is distributive over union.",
+    "message_1": "Let A = {1,2} and B = {a,b} be two sets. Calculate the following:\n\n(A x B) ∪ (A x C) , where C = {c,d}\n\n(A x B) ∪ (C x B) , where C = {1,2}\n\nVerify that the above results satisfy the distributive law of Cartesian product over union.",
+    "message_2": "First, let's calculate the Cartesian products:\n\n1. (A x B) = {(1, a), (1, b), (2, a), (2, b)}\n2. (A x C) = {(1, c), (1, d), (2, c), (2, d)}\n3. (C x B) = {(1, a), (1, b), (2, a), (2, b)}\n\nNow, let's calculate the unions:\n\n1. (A x B) ∪ (A x C) = {(1, a), (1, b), (2, a), (2, b), (1, c), (1, d), (2, c), (2, d)}\n2. (A x B) ∪ (C x B) = {(1, a), (1, b), (2, a), (2, b)}\n\nNow, let's verify if the distributive law of Cartesian product over union holds. The distributive law states that:\n\nA x (B ∪ C) = (A x B) ∪ (A x C)\n\nLet's calculate (B ∪ C) and then (A x (B ∪ C)):\n\n1. B ∪ C = {a, b, c, d}\n2. A x (B ∪ C) = {(1, a), (1, b), (1, c), (1, d), (2, a), (2, b), (2, c), (2, d)}\n\nComparing the results, we can see that:\n\n(A x B) ∪ (A x C) = A x (B ∪ C)\n\n{(1, a), (1, b), (2, a), (2, b), (1, c), (1, d), (2, c), (2, d)} = {(1, a), (1, b), (1, c), (1, d), (2, a), (2, b), (2, c), (2, d)}\n\nThus, the distributive law of Cartesian product over union holds for the given sets."
+}

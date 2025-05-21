@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "RSA encryption and decryption",
+    "message_1": "Here's a numerical problem for a math student to solve on RSA encryption and decryption:\n\nBob chooses two prime numbers, p = 11 and q = 17, and uses them to calculate his RSA public and private keys. He chooses his encryption exponent to be e = 7. If Alice wants to send Bob a message M = 8, what should she encrypt it to? And if Mallory intercepts Bob's encrypted message C = 111, what should she decrypt it to?",
+    "message_2": "First, let's find the modulus n and the totient of n (phi(n)):\n\nn = p * q = 11 * 17 = 187\nphi(n) = (p - 1) * (q - 1) = (11 - 1) * (17 - 1) = 10 * 16 = 160\n\nBob has chosen e = 7. Now, we need to find the decryption exponent d such that (d * e) % phi(n) = 1:\n\n7 * d ≡ 1 (mod 160)\n\nWe can use the extended Euclidean algorithm to find the modular inverse:\n\nd = 23 (since 7 * 23 ≡ 1 (mod 160))\n\nNow, we have the public key (e, n) = (7, 187) and the private key (d, n) = (23, 187).\n\nTo encrypt Alice's message M = 8, she should use the public key:\n\nC = M^e % n = 8^7 % 187 = 2097152 % 187 = 120\n\nSo, Alice should encrypt her message to C = 120.\n\nIf Mallory intercepts Bob's encrypted message C = 111, she should use the private key to decrypt it:\n\nM = C^d % n = 111^23 % 187 = 111^23 % 187 = 104\n\nSo, Mallory decrypts the message to M = 104."
+}

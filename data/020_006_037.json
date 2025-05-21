@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Optimization",
+    "sub_topic": "Mixed-integer programming",
+    "message_1": "A furniture company produces desks and chairs. The production requires 1 square meter of wood for each desk and 0.5 square meters of wood for each chair. The company has 500 square meters of wood available. Each desk is sold for \\$150 and each chair is sold for \\$80. The company wants to maximize its profit. \n\nWrite a mixed-integer programming problem that will help the company determine the number of desks and chairs it should produce to maximize its profit while using all of the available wood.",
+    "message_2": "Let x be the number of desks and y be the number of chairs produced.\n\nObjective function:\nMaximize profit P = 150x + 80y\n\nConstraints:\n1. Wood constraint: x + 0.5y <= 500\n2. Non-negativity constraints: x >= 0, y >= 0\n3. Integer constraints: x and y must be integers\n\nThe mixed-integer programming problem can be written as:\n\nMaximize P = 150x + 80y\nSubject to:\nx + 0.5y <= 500\nx >= 0\ny >= 0\nx, y ∈ Z (integers)"
+}

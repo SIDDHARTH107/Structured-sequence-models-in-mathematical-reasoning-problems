@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Probability",
+    "sub_topic": "Probability of a certain type of accident occurring in a workplace",
+    "message_1": "A factory has 50 machines and each has a 1% chance of malfunctioning on any given day. What is the probability that exactly 2 machines will malfunction on a single day?",
+    "message_2": "We can solve this problem using the binomial probability formula, which is:\n\nP(X = k) = (nCk) * (p^k) * (1-p)^(n-k)\n\nwhere:\n- P(X = k) is the probability of exactly k successes (in this case, k = 2 malfunctions)\n- n is the number of trials (in this case, n = 50 machines)\n- nCk is the number of combinations of n items taken k at a time (50C2 in this case)\n- p is the probability of success (in this case, p = 0.01, the probability of a machine malfunctioning)\n- 1-p is the probability of failure (in this case, 1-0.01 = 0.99, the probability of a machine not malfunctioning)\n\nPlugging in the values, we get:\n\nP(X = 2) = (50C2) * (0.01^2) * (0.99^48)\n\nFirst, we calculate 50C2:\n\n50C2 = 50! / (2! * (50-2)!)\n50C2 = 50! / (2! * 48!)\n50C2 = (50 * 49) / (2 * 1) = 1225\n\nNow, we plug this value back into the probability formula:\n\nP(X = 2) = 1225 * (0.01^2) * (0.99^48)\n\nCalculating the probabilities:\n\n0.01^2 = 0.0001\n0.99^48 ≈ 0.605006\n\nNow, we multiply all the values together:\n\nP(X = 2) = 1225 * 0.0001 * 0.605006\nP(X = 2) ≈ 0.0741\n\nSo, the probability that exactly 2 machines will malfunction on a single day is approximately 7.41%."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Complex integration and Cauchy's theorem",
+    "message_1": "Evaluate the following complex integral using Cauchy's theorem:\n \n∮(z^3 + 8)/(z - 2i) dz\n\nwhere the path of integration is the circle |z| = 3 in the clockwise direction.",
+    "message_2": "To evaluate the integral using Cauchy's theorem, we first need to check if the function is analytic within and on the contour of integration. The function f(z) = (z^3 + 8)/(z - 2i) has a simple pole at z = 2i, which lies inside the circle |z| = 3. Therefore, we can apply Cauchy's integral formula to evaluate the integral.\n\nCauchy's integral formula states that for a simple pole at z = z₀, the integral is given by:\n\n∮f(z) dz = 2πi * Res[f(z), z₀]\n\nwhere Res[f(z), z₀] is the residue of the function f(z) at the pole z₀.\n\nTo find the residue, we can use the formula:\n\nRes[f(z), z₀] = lim (z → z₀) [(z - z₀) * f(z)]\n\nIn our case, z₀ = 2i, and f(z) = (z^3 + 8)/(z - 2i). So, we have:\n\nRes[f(z), 2i] = lim (z → 2i) [(z - 2i) * (z^3 + 8)/(z - 2i)]\n\nThe (z - 2i) terms cancel out, and we are left with:\n\nRes[f(z), 2i] = lim (z → 2i) (z^3 + 8)\n\nNow, we can substitute z = 2i into the expression:\n\nRes[f(z), 2i] = (2i)^3 + 8 = -8i + 8\n\nNow, we can use Cauchy's integral formula to evaluate the integral:\n\n∮(z^3 + 8)/(z - 2i) dz = 2πi * Res[f(z), 2i] = 2πi * (-8i + 8)\n\n= 2πi * (-8i + 8) = 16π - 16πi\n\nSo, the value of the integral is 16π - 16πi."
+}

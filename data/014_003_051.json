@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "ElGamal encryption and decryption",
+    "message_1": "Suppose Alice wants to send Bob an ElGamal encrypted message using a public key (p=17, g=3, and y=7). The message she wants to send is 10. She randomly chooses a number k=4 as her secret key. \n\nWhat is the ciphertext that Alice sends to Bob? \n\nWhat is the plaintext that Bob will receive when he decrypts the ciphertext using his private key (x=5)?",
+    "message_2": "To compute the ElGamal ciphertext, we need to calculate two values, c1 and c2.\n\nc1 = g^k mod p\nc1 = 3^4 mod 17\nc1 = 81 mod 17\nc1 = 13\n\nc2 = (m * y^k) mod p\nc2 = (10 * 7^4) mod 17\nc2 = (10 * 2401) mod 17\nc2 = 24010 mod 17\nc2 = 3\n\nSo, the ciphertext Alice sends to Bob is (c1, c2) = (13, 3).\n\nNow, let's decrypt the ciphertext using Bob's private key (x=5).\n\nm = (c2 * (c1^x)^(-1)) mod p\nm = (3 * (13^5)^(-1)) mod 17\n\nFirst, let's compute the modular inverse of 13^5 mod 17.\n13^5 mod 17 = 371293 mod 17 = 8\nThe modular inverse of 8 mod 17 is 15, since (8 * 15) mod 17 = 1.\n\nNow, let's compute the plaintext message.\nm = (3 * 15) mod 17\nm = 45 mod 17\nm = 10\n\nSo, the plaintext message that Bob will receive when he decrypts the ciphertext is 10."
+}

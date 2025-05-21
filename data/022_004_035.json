@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Singularities of complex functions",
+    "message_1": "Find the residue of the function f(z) = (e^z)/(z^2 - 1) at its singularity z = 1.",
+    "message_2": "To find the residue of the function f(z) = (e^z)/(z^2 - 1) at its singularity z = 1, we can use the formula for the residue of a function with a simple pole:\n\nRes[f(z), z = 1] = lim (z -> 1) [(z - 1) * f(z)]\n\nFirst, we can factor the denominator:\n\nf(z) = (e^z)/((z - 1)(z + 1))\n\nNow, we can apply the limit:\n\nRes[f(z), z = 1] = lim (z -> 1) [(z - 1) * (e^z)/((z - 1)(z + 1))]\n\nThe (z - 1) terms cancel out:\n\nRes[f(z), z = 1] = lim (z -> 1) [e^z / (z + 1)]\n\nNow, we can evaluate the limit as z approaches 1:\n\nRes[f(z), z = 1] = e^1 / (1 + 1) = e / 2\n\nSo, the residue of the function f(z) = (e^z)/(z^2 - 1) at its singularity z = 1 is e/2."
+}

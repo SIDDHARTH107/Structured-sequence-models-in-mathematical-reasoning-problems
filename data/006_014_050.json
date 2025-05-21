@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Probability",
+    "sub_topic": "Probability of a certain type of technological failure occurring in a system",
+    "message_1": "A company produces circuit boards and have found that the probability of a certain type of technological failure is 0.05%. If the company ships 5000 circuit boards, what is the probability that exactly 3 of them will have this type of failure?",
+    "message_2": "To solve this problem, we can use the binomial probability formula, which is:\n\nP(X = k) = (nCk) * (p^k) * (1-p)^(n-k)\n\nwhere:\n- P(X = k) is the probability of exactly k successes (in this case, k = 3 failures)\n- n is the number of trials (in this case, n = 5000 circuit boards)\n- k is the number of successes (in this case, k = 3 failures)\n- p is the probability of success (in this case, p = 0.0005, or 0.05%)\n- nCk is the number of combinations of n items taken k at a time, which can be calculated as n! / (k!(n-k)!)\n\nPlugging in the values, we get:\n\nP(X = 3) = (5000C3) * (0.0005^3) * (0.9995^(5000-3))\n\nFirst, let's calculate 5000C3:\n\n5000C3 = 5000! / (3!(5000-3)!) = 5000! / (3! * 4997!) ≈ 20,833,667,000\n\nNow, let's calculate the rest of the equation:\n\nP(X = 3) ≈ 20,833,667,000 * (0.0005^3) * (0.9995^4997)\nP(X = 3) ≈ 20,833,667,000 * 0.000000125 * 0.018315\nP(X = 3) ≈ 0.04798\n\nSo, the probability that exactly 3 of the 5000 circuit boards will have this type of failure is approximately 4.798%."
+}

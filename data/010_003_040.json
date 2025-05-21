@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Topology",
+    "sub_topic": "Separation axioms and their applications",
+    "message_1": "Let X be a topological space such that every singleton set is closed. Prove that X is a Hausdorff space.",
+    "message_2": "To prove that X is a Hausdorff space, we need to show that for any two distinct points x and y in X, there exist disjoint open neighborhoods U and V containing x and y, respectively.\n\nSince every singleton set is closed in X, this means that for any point z in X, the set {z} is closed. Recall that the complement of a closed set is open. Therefore, the complement of {z} in X, denoted by X \\ {z}, is an open set.\n\nNow, let x and y be two distinct points in X. We want to find disjoint open neighborhoods U and V containing x and y, respectively. Consider the open sets X \\ {y} and X \\ {x}. Since x and y are distinct, we have:\n\nx ∈ (X \\ {y}) and y ∈ (X \\ {x})\n\nNow, let's show that these open sets are disjoint. Suppose there exists a point z that belongs to both (X \\ {y}) and (X \\ {x}). This would mean that z ≠ x and z ≠ y. However, this does not lead to any contradiction, and z can be any point in X other than x and y. Therefore, (X \\ {y}) and (X \\ {x}) are indeed disjoint open neighborhoods containing x and y, respectively.\n\nThus, we have shown that for any two distinct points x and y in X, there exist disjoint open neighborhoods containing them. Therefore, X is a Hausdorff space."
+}

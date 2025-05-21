@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Diffie-Hellman key exchange",
+    "message_1": "Alice and Bob use Diffie-Hellman to exchange a secret key. Alice chooses a prime number, g = 19, and a secret number, x = 7. Bob chooses the same prime number and a secret number, y = 11. What is the secret key that Alice and Bob will share?",
+    "message_2": "To find the shared secret key using the Diffie-Hellman key exchange, we follow these steps:\n\n1. Alice computes A = g^x mod p, where g is the prime number and x is her secret number.\n2. Bob computes B = g^y mod p, where g is the same prime number and y is his secret number.\n3. Alice and Bob exchange their computed values A and B.\n4. Alice computes the shared secret key as K = B^x mod p.\n5. Bob computes the shared secret key as K = A^y mod p.\n\nLet's calculate the shared secret key:\n\n1. Alice computes A = 19^7 mod 23.\nA = 893871739 mod 23 = 10\n\n2. Bob computes B = 19^11 mod 23.\nB = 797664430771229 mod 23 = 21\n\n3. Alice and Bob exchange their computed values A and B.\n\n4. Alice computes the shared secret key as K = B^x mod p.\nK = 21^7 mod 23 = 1801088541 mod 23 = 2\n\n5. Bob computes the shared secret key as K = A^y mod p.\nK = 10^11 mod 23 = 100000000000 mod 23 = 2\n\nBoth Alice and Bob have calculated the same shared secret key, K = 2."
+}

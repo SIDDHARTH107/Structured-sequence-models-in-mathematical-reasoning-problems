@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Analytic continuation of complex functions",
+    "message_1": "Consider the function $f(z) = \\frac{3z-2}{2z-1}$ defined on the domain $\\mathbb{C} \\setminus \\{\\frac{1}{2}\\}$. Find the Laurent series expansion of $f(z)$ centered at $z_0=1$ valid in the annulus $1 < |z-1| < 2$.",
+    "message_2": "To find the Laurent series expansion of $f(z)$ centered at $z_0 = 1$, we first rewrite the function in terms of $z - 1$. Let $w = z - 1$, so $z = w + 1$. Then, we have:\n\n$$f(z) = \\frac{3(w+1)-2}{2(w+1)-1} = \\frac{3w+1}{2w+1}.$$\n\nNow, we want to find the Laurent series expansion of this function in the annulus $1 < |w| < 2$. To do this, we can use the geometric series formula:\n\n$$\\frac{1}{1-x} = 1 + x + x^2 + x^3 + \\cdots$$\n\nfor $|x| < 1$. We can rewrite our function as:\n\n$$f(z) = \\frac{3w+1}{2w+1} = \\frac{3w+1}{1+(2w)} = \\frac{3w+1}{1-(-2w)}.$$\n\nNow, we can apply the geometric series formula with $x = -2w$:\n\n$$f(z) = (3w+1)(1 - 2w + 4w^2 - 8w^3 + \\cdots)$$\n\n$$f(z) = 3w - 6w^2 + 12w^3 - \\cdots + 1 + 2w - 4w^2 + 8w^3 - \\cdots$$\n\n$$f(z) = 1 - 4w^2 + 4w^3 + 3w - 2w + 8w^3 - \\cdots$$\n\n$$f(z) = 1 + w - 4w^2 + 12w^3 - \\cdots$$\n\nSo, the Laurent series expansion of $f(z)$ centered at $z_0 = 1$ valid in the annulus $1 < |z-1| < 2$ is:\n\n$$f(z) = 1 + (z-1) - 4(z-1)^2 + 12(z-1)^3 - \\cdots$$"
+}

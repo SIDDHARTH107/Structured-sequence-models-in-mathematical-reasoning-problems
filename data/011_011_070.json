@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Partition theory",
+    "message_1": "A class has 30 students. They want to divide themselves into 5 groups such that each group has an equal number of students. How many ways can they do it?",
+    "message_2": "To divide the 30 students into 5 equal groups, each group must have 6 students. We can use the multinomial coefficient formula to find the number of ways to divide the students:\n\nMultinomial Coefficient = n! / (n1! * n2! * ... * nk!)\n\nwhere n is the total number of students (30), and n1, n2, ..., nk are the number of students in each group (6 in this case).\n\nSo, the number of ways to divide the students is:\n\n30! / (6! * 6! * 6! * 6! * 6!)\n\nCalculating the factorials:\n\n30! = 2,652,528,598,121,910,586,363,084,800\n6! = 720\n\nNow, divide 30! by the product of the five 6! values:\n\n2,652,528,598,121,910,586,363,084,800 / (720 * 720 * 720 * 720 * 720) = 27,240,000\n\nThere are 27,240,000 ways to divide the 30 students into 5 equal groups of 6 students each."
+}

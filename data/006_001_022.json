@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Probability",
+    "sub_topic": "Coin flipping and probability of getting heads or tails",
+    "message_1": "What is the probability of getting exactly 2 heads in 4 coin flips?",
+    "message_2": "To calculate the probability of getting exactly 2 heads in 4 coin flips, we can use the binomial probability formula:\n\nP(X = k) = (nCk) * (p^k) * (q^(n-k))\n\nwhere:\n- n is the number of trials (coin flips)\n- k is the number of successful outcomes (heads)\n- p is the probability of success (getting a head) in a single trial\n- q is the probability of failure (getting a tail) in a single trial\n- nCk is the number of combinations of n items taken k at a time, which can be calculated as n! / (k!(n-k)!)\n\nIn this case, n = 4, k = 2, p = 0.5 (since there's a 50% chance of getting a head), and q = 0.5 (since there's a 50% chance of getting a tail).\n\nFirst, let's calculate nCk:\n4C2 = 4! / (2!(4-2)!) = 6\n\nNow, let's plug the values into the binomial probability formula:\nP(X = 2) = (6) * (0.5^2) * (0.5^(4-2))\nP(X = 2) = 6 * 0.25 * 0.25\nP(X = 2) = 6 * 0.0625\nP(X = 2) = 0.375\n\nSo, the probability of getting exactly 2 heads in 4 coin flips is 0.375 or 37.5%."
+}

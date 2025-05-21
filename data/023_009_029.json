@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Fourier analysis",
+    "sub_topic": "Using the Fourier transform to solve boundary value problems",
+    "message_1": "A steel rod with length 1 meter has temperature on one end fixed at $100^\\circ C$ and on the other end at $20^\\circ C$. The steady-state temperature distribution along the rod is given by the function $T(x)$, where $x$ represents the distance from the end with fixed temperature $100^\\circ C$. If the rod is modeled with the heat equation $u_t = u_{xx}$, use the Fourier transform to find the temperature distribution $T(x)$.",
+    "message_2": "To find the steady-state temperature distribution along the rod, we first need to consider the heat equation in steady-state. In steady-state, the temperature distribution does not change with time, so $u_t = 0$. This simplifies the heat equation to:\n\n$$0 = u_{xx}$$\n\nNow, let's consider the boundary conditions for the problem:\n\n$$T(0) = 100^\\circ C$$\n$$T(1) = 20^\\circ C$$\n\nWe can guess a solution of the form:\n\n$$T(x) = Ax + B$$\n\nTaking the second derivative with respect to $x$, we get:\n\n$$T''(x) = 0$$\n\nSince $T''(x) = u_{xx}$, this solution satisfies the heat equation in steady-state. Now, we need to apply the boundary conditions to find the constants $A$ and $B$.\n\n$$T(0) = A(0) + B = 100 \\Rightarrow B = 100$$\n$$T(1) = A(1) + 100 = 20 \\Rightarrow A = -80$$\n\nSo, the steady-state temperature distribution along the rod is:\n\n$$T(x) = -80x + 100$$"
+}

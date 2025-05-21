@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Fourier analysis",
+    "sub_topic": "Finding the Fourier series of a function with a jump discontinuity",
+    "message_1": "Find the Fourier series of the function f(x) = {1 if 0<x<π/2, -1 if -π/2<x<0} with period 2π.",
+    "message_2": "To find the Fourier series of the given function, we first need to compute the Fourier coefficients a₀, aₙ, and bₙ.\n\nThe function f(x) is an odd function, so the coefficients aₙ will be zero. We only need to compute bₙ.\n\nGiven the function f(x) = {1 if 0 < x < π/2, -1 if -π/2 < x < 0}, let's extend it to a periodic function with period 2π. So, the extended function will be:\n\nf(x) = {1 if 0 < x < π/2, -1 if -π/2 < x < 0, 1 if π < x < 3π/2, -1 if 3π/2 < x < 2π}\n\nNow, let's compute the Fourier coefficients bₙ:\n\nbₙ = (2/π) * ∫[-π/2 to π/2] f(x) * sin(nx) dx\n\nFor 0 < x < π/2, f(x) = 1:\n\nbₙ = (2/π) * [∫[-π/2 to 0] (-1) * sin(nx) dx + ∫[0 to π/2] (1) * sin(nx) dx]\n\nNow, let's compute the integrals:\n\n∫[-π/2 to 0] (-1) * sin(nx) dx = [cos(nx)/n] | from -π/2 to 0 = (1/n) - (cos(nπ/2)/n)\n\n∫[0 to π/2] (1) * sin(nx) dx = [-cos(nx)/n] | from 0 to π/2 = (-cos(nπ/2)/n) - (-1/n) = (1/n) - (cos(nπ/2)/n)\n\nSo, bₙ = (2/π) * [(1/n) - (cos(nπ/2)/n) + (1/n) - (cos(nπ/2)/n)] = (4/π) * [(1/n) - (cos(nπ/2)/n)]\n\nNow, we can write the Fourier series for the given function:\n\nf(x) = ∑[n=1 to ∞] (4/π) * [(1/n) - (cos(nπ/2)/n)] * sin(nx)\n\nThis is the Fourier series representation of the given function f(x) with period 2π."
+}

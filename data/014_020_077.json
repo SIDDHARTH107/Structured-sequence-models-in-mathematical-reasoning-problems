@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Cryptanalysis of Vigenere cipher",
+    "message_1": "A message was encrypted using a Vigenere cipher with a keyword of \"MATH\". The encrypted message is \"CXCKLHDXB\". Find the original message.",
+    "message_2": "To decrypt a Vigenere cipher, we need to reverse the encryption process using the keyword \"MATH\". The Vigenere cipher uses a simple form of polyalphabetic substitution, where each letter in the keyword corresponds to a Caesar cipher shift.\n\nFirst, we need to convert the keyword \"MATH\" into numerical shifts. The alphabet is indexed from 0 to 25 (A=0, B=1, ..., Z=25).\n\nM = 12\nA = 0\nT = 19\nH = 7\n\nNow, we will apply the reverse shifts to the encrypted message \"CXCKLHDXB\" using the keyword shifts.\n\nC (2) - M (12) = -10 (mod 26) = 16 -> Q\nX (23) - A (0) = 23 -> X\nC (2) - T (19) = -17 (mod 26) = 9 -> J\nK (10) - H (7) = 3 -> D\n\nL (11) - M (12) = -1 (mod 26) = 25 -> Z\nH (7) - A (0) = 7 -> H\nD (3) - T (19) = -16 (mod 26) = 10 -> K\nX (23) - H (7) = 16 -> Q\n\nSo, the decrypted message is \"QXJDZHKQ\"."
+}

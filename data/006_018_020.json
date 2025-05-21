@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Probability",
+    "sub_topic": "Probability of a certain type of financial fraud occurring in a company",
+    "message_1": "What is the probability that exactly 3 out of 10 randomly selected employees from a company's accounting department have committed financial fraud, given that the overall fraud rate in the department is 12%?",
+    "message_2": "To solve this problem, we can use the binomial probability formula:\n\nP(X = k) = C(n, k) * p^k * (1-p)^(n-k)\n\nwhere:\n- P(X = k) is the probability of exactly k successes (in this case, employees committing financial fraud) out of n trials (in this case, 10 randomly selected employees)\n- C(n, k) is the number of combinations of n items taken k at a time, also written as n! / (k!(n-k)!)\n- p is the probability of success (in this case, the fraud rate of 12% or 0.12)\n- n is the number of trials (in this case, 10 employees)\n- k is the number of successes (in this case, 3 employees committing fraud)\n\nPlugging in the values:\n\nP(X = 3) = C(10, 3) * 0.12^3 * (1-0.12)^(10-3)\n\nFirst, calculate C(10, 3):\n\nC(10, 3) = 10! / (3!(10-3)!) = 10! / (3!7!) = 120\n\nNow, calculate the probability:\n\nP(X = 3) = 120 * 0.12^3 * (1-0.12)^(10-3)\nP(X = 3) = 120 * 0.12^3 * 0.88^7\nP(X = 3) ≈ 0.2302\n\nSo, the probability that exactly 3 out of 10 randomly selected employees from the accounting department have committed financial fraud is approximately 23.02%."
+}

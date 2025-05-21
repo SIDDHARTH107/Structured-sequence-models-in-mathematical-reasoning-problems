@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Hill cipher",
+    "message_1": "Sure! Here's a precise numerical problem for a math student to solve related to Hill cipher:\n\nA sender wants to send the message \"HELP\" using Hill Cipher with the encryption key matrix: \n```\n[3 4]\n[1 2]\n```\nWhat is the encrypted message that the sender would send?",
+    "message_2": "To encrypt the message \"HELP\" using the Hill Cipher with the given encryption key matrix, follow these steps:\n\n1. Convert the letters of the message to their numerical equivalents (A=0, B=1, ..., Z=25): H=7, E=4, L=11, P=15.\n2. Break the message into pairs of numbers: (7, 4) and (11, 15).\n3. Multiply each pair by the encryption key matrix:\n\nFor the first pair (7, 4):\n```\n[3 4]   [7]   [3*7 + 4*4]   [21 + 16]   [37]\n[1 2] x [4] = [1*7 + 2*4] = [ 7 +  8] = [15]\n```\n\nFor the second pair (11, 15):\n```\n[3 4]   [11]   [3*11 + 4*15]   [33 + 60]   [93]\n[1 2] x [15] = [1*11 + 2*15] = [11 + 30] = [41]\n```\n\n4. Take the results modulo 26 to get the encrypted pairs: (37 % 26, 15 % 26) and (93 % 26, 41 % 26) => (11, 15) and (15, 15).\n5. Convert the numerical pairs back to letters: (11, 15) = L, P and (15, 15) = P, P.\n\nSo, the encrypted message is \"LPPP\"."
+}

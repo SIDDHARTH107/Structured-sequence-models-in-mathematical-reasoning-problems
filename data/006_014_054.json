@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Probability",
+    "sub_topic": "Probability of a certain type of technological failure occurring in a system",
+    "message_1": "In a system with 15 components, the probability of each component failing is 0.05. What is the probability that exactly 2 components will fail in the system?",
+    "message_2": "To solve this problem, we can use the binomial probability formula:\n\nP(X = k) = C(n, k) * p^k * (1-p)^(n-k)\n\nwhere:\n- P(X = k) is the probability of exactly k successes (in this case, component failures)\n- C(n, k) is the number of combinations of n items taken k at a time, also written as n! / (k!(n-k)!)\n- n is the total number of components (15 in this case)\n- k is the number of components we want to fail (2 in this case)\n- p is the probability of a single component failing (0.05 in this case)\n- 1-p is the probability of a single component not failing (0.95 in this case)\n\nPlugging in the values, we get:\n\nP(X = 2) = C(15, 2) * 0.05^2 * 0.95^(15-2)\n\nFirst, let's calculate C(15, 2):\n\nC(15, 2) = 15! / (2!(15-2)!) = 15! / (2! * 13!) = (15 * 14) / (2 * 1) = 105\n\nNow, let's plug this back into the formula:\n\nP(X = 2) = 105 * 0.05^2 * 0.95^13 ≈ 0.2584\n\nSo, the probability that exactly 2 components will fail in the system is approximately 0.2584 or 25.84%."
+}

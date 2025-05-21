@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Calculus",
+    "sub_topic": "Finding the arc length of a curve",
+    "message_1": "The curve y = x^2/4 between x=1 and x=3 is rotated about the x-axis. Find the length of the resulting curve.",
+    "message_2": "To find the length of the curve resulting from the rotation of y = x^2/4 between x=1 and x=3 around the x-axis, we can use the arc length formula for parametric equations:\n\nArc length = ∫√(dx/dt)^2 + (dy/dt)^2 dt\n\nFirst, we need to parameterize the curve y = x^2/4. We can do this by setting x = t and y = t^2/4. Then, we have:\n\nx(t) = t\ny(t) = t^2/4\n\nNow, we need to find the derivatives of x(t) and y(t) with respect to t:\n\ndx/dt = 1\ndy/dt = t/2\n\nNext, we plug these derivatives into the arc length formula:\n\nArc length = ∫√(1)^2 + (t/2)^2 dt\n\nNow, we need to evaluate this integral over the interval [1, 3]:\n\nArc length = ∫[1, 3] √(1 + t^2/4) dt\n\nTo solve this integral, we can use a substitution method. Let u = t^2/4. Then, du/dt = t/2, and dt = 2 du/t. The new integral becomes:\n\nArc length = ∫[1/4, 9/4] √(1 + u) * (2 du/u)\n\nNow, we can evaluate the integral:\n\nArc length = 2 ∫[1/4, 9/4] √(1 + u) du/u\n\nThis integral can be solved using a table of integrals or a computer algebra system. The result is:\n\nArc length ≈ 4.322\n\nSo, the length of the curve resulting from the rotation of y = x^2/4 between x=1 and x=3 around the x-axis is approximately 4.322 units."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Numerical analysis",
+    "sub_topic": "Solving systems of linear equations using Gaussian elimination",
+    "message_1": "Consider the system of linear equations: \n\n2x + 3y − z = 1 \n\nx − y + 2z = −3 \n\n3x + 2y − 2z = 7 \n\nUsing Gaussian elimination method, determine the values of x, y and z that solve this system of equations.",
+    "message_2": "First, we will write the system of linear equations as an augmented matrix:\n\n| 2  3 -1 |  1 |\n| 1 -1  2 | -3 |\n| 3  2 -2 |  7 |\n\nStep 1: Eliminate x from the second and third rows.\n\nTo do this, we will perform the following row operations:\nR2 = R2 - (1/2)R1\nR3 = R3 - (3/2)R1\n\nThe new augmented matrix becomes:\n\n|  2   3  -1 |  1  |\n|  0  -2   2 | -4  |\n|  0  -1.5  0.5 |  5.5 |\n\nStep 2: Eliminate y from the third row.\n\nTo do this, we will perform the following row operation:\nR3 = R3 - (0.75)R2\n\nThe new augmented matrix becomes:\n\n|  2   3   -1  |  1   |\n|  0  -2   2   | -4   |\n|  0   0   0.5 |  2   |\n\nStep 3: Solve for z.\n\n0.5z = 2\nz = 4\n\nStep 4: Solve for y.\n\n-2y + 2(4) = -4\n-2y + 8 = -4\n-2y = -12\ny = 6\n\nStep 5: Solve for x.\n\n2x + 3(6) - 4 = 1\n2x + 18 - 4 = 1\n2x = -13\nx = -6.5\n\nSo the solution to the system of linear equations is x = -6.5, y = 6, and z = 4."
+}

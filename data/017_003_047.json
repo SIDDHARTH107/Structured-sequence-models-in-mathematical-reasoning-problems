@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Group theory",
+    "sub_topic": "Prove that every group of prime order is cyclic.",
+    "message_1": "What is the generator of a group of prime order 17?",
+    "message_2": "A generator of a group of prime order p (in this case, p=17) is an element g in the group such that its powers generate all the other elements in the group. In other words, g has order p.\n\nFor a cyclic group of prime order 17, we can consider the multiplicative group of integers modulo 17, denoted as (Z/17Z)*. This group has 16 elements: {1, 2, 3, ..., 16}. To find a generator, we need to find an element g in this group such that g^i (mod 17) generates all the non-zero elements of the group.\n\nBy trying different elements, we can find that g=3 is a generator of the group:\n\n3^1 ≡ 3 (mod 17)\n3^2 ≡ 9 (mod 17)\n3^3 ≡ 10 (mod 17)\n3^4 ≡ 13 (mod 17)\n3^5 ≡ 5 (mod 17)\n3^6 ≡ 15 (mod 17)\n3^7 ≡ 11 (mod 17)\n3^8 ≡ 16 (mod 17)\n3^9 ≡ 14 (mod 17)\n3^10 ≡ 8 (mod 17)\n3^11 ≡ 7 (mod 17)\n3^12 ≡ 4 (mod 17)\n3^13 ≡ 12 (mod 17)\n3^14 ≡ 2 (mod 17)\n3^15 ≡ 6 (mod 17)\n3^16 ≡ 1 (mod 17)\n\nAs we can see, the powers of 3 generate all the non-zero elements of the group (Z/17Z)*, so 3 is a generator of the group of prime order 17."
+}

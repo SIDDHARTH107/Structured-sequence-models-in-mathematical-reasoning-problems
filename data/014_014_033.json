@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Playfair cipher",
+    "message_1": "A message \"SECRETMESSAGE\" is encrypted using the Playfair cipher technique. If the keyword used in the encryption is \"MATHS\" and the message is encrypted using the English alphabet with no spaces or punctuation, what is the resulting encrypted message?",
+    "message_2": "First, we need to create the Playfair cipher table using the keyword \"MATHS\". We will use the 5x5 grid and the English alphabet without the letter \"J\" (since it is usually combined with \"I\" in the Playfair cipher).\n\n1. Remove duplicate letters from the keyword: MATHS\n2. Fill in the remaining alphabet letters in order: BCDEFGIKLPQRUVWXYZ\n\nThe resulting table looks like this:\n\nM A T H S\nB C D E F\nG I K L N\nO P Q R U\nV W X Y Z\n\nNow, we will encrypt the message \"SECRETMESSAGE\" using the Playfair cipher rules:\n\n1. Break the message into digraphs (pairs of letters): SE CR ET ME SS AG E (add an extra letter 'X' to make the last pair)\n2. If both letters are the same, insert an 'X' between them: SE CR ET ME SX SA GE\n3. Replace each pair of letters with the corresponding encrypted pair using the table:\n\n   - SE -> DM\n   - CR -> BM\n   - ET -> NU\n   - ME -> YF\n   - SX -> LD\n   - SA -> TC\n   - GE -> KN\n\nThe encrypted message is: DMBMNUYFLDTCKN"
+}

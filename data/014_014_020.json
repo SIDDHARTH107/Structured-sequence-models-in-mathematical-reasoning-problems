@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Playfair cipher",
+    "message_1": "Consider the Playfair key \"CRYPTO\" and the plaintext message \"MATHSROCKS\". Encrypt the message using the Playfair cipher and write the corresponding ciphertext.",
+    "message_2": "First, we need to create the 5x5 Playfair matrix using the key \"CRYPTO\". We remove any duplicate letters from the key and fill in the remaining spaces with the rest of the alphabet (excluding 'J', as it is combined with 'I' in the Playfair cipher).\n\nThe matrix looks like this:\n\nC R Y P T\nO A B D E\nF G H I K\nL M N S U\nV W X Z Q\n\nNow, we need to split the plaintext message \"MATHSROCKS\" into digraphs. If any digraph has the same letter twice, we insert an 'X' between them. In this case, we don't need to do that. So, our digraphs are: MA TH SR OC KS.\n\nNow, we apply the Playfair cipher rules to each digraph:\n\n1. MA -> OD\n2. TH -> YI\n3. SR -> ZC\n4. OC -> AB\n5. KS -> UE\n\nSo, the encrypted ciphertext is: ODYIZCABUE"
+}

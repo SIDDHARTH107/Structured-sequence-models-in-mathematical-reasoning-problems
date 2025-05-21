@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Optimization",
+    "sub_topic": "Mixed-integer programming",
+    "message_1": "A manufacturing company produces two types of products: Product A and Product B. The company has 6000 minutes of production time available each day. Product A requires 2 minutes of production time, while Product B requires 5 minutes of production time. The company has a budget constraint of $10,000 per day. The profit per unit for Product A is $50 and for Product B is $70. The manufacturing company wants to maximize its profit by determining how many units of each product to produce.\n\nWrite a mixed-integer programming formulation to solve this problem and determine the optimal number of units for each product that should be produced to maximize profit.",
+    "message_2": "Let x be the number of units of Product A and y be the number of units of Product B.\n\nObjective function (maximize profit):\nMaximize P = 50x + 70y\n\nConstraints:\n1. Production time constraint: 2x + 5y ≤ 6000\n2. Budget constraint: 50x + 70y ≤ 10000\n3. Non-negativity constraint: x ≥ 0, y ≥ 0\n4. Integer constraint: x and y must be integers\n\nMixed-integer programming formulation:\nMaximize P = 50x + 70y\nSubject to:\n2x + 5y ≤ 6000\n50x + 70y ≤ 10000\nx ≥ 0\ny ≥ 0\nx, y ∈ Z\n\nTo solve this mixed-integer programming problem, you can use software like Gurobi, CPLEX, or the open-source solver SCIP. The solution will give you the optimal number of units for each product that should be produced to maximize profit."
+}

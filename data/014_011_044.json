@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Transposition ciphers",
+    "message_1": "Suppose you have a message \"HELLO WORLD\" and you want to encrypt it using a row transposition cipher with the key \"543216\". What is the encrypted message?",
+    "message_2": "To encrypt the message \"HELLO WORLD\" using a row transposition cipher with the key \"543216\", follow these steps:\n\n1. Write the message in rows with the number of columns equal to the length of the key (6 in this case):\n\nH E L L O W\nO R L D\n\n2. Add padding characters (usually 'X') to fill the last row, if necessary:\n\nH E L L O W\nO R L D X X\n\n3. Rearrange the columns according to the key:\n\n5 4 3 2 1 6\n---------\nO W L E H R\nD X L R O X\n\n4. Read the encrypted message by columns from top to bottom and left to right:\n\nThe encrypted message is: \"OWLEHDRXLROX\"."
+}

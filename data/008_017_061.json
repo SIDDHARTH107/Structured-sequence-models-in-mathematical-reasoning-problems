@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Solving systems of linear equations using sparse matrices",
+    "message_1": "Here's a numerical problem for a math student to solve:\n\nSolve the following system of linear equations using sparse matrices:\n```\n3x + 2y = 7\n-4x + 5y = 8\n```\nExpress the solution in the form of `(x, y)`.",
+    "message_2": "To solve the given system of linear equations using sparse matrices, we first represent the system as a matrix equation AX = B, where A is the matrix of coefficients, X is the column matrix of variables, and B is the column matrix of constants.\n\nA = |  3   2 |, X = | x |, B = | 7 |\n    | -4   5 |      | y |      | 8 |\n\nNow, we can find the inverse of matrix A (A_inv) and multiply it with matrix B to get the solution matrix X.\n\nA_inv = 1/det(A) * adj(A), where det(A) is the determinant of A and adj(A) is the adjugate of A.\n\ndet(A) = (3 * 5) - (2 * -4) = 15 + 8 = 23\n\nadj(A) = |  5  -2 |\n         |  4   3 |\n\nA_inv = 1/23 * |  5  -2 |\n               |  4   3 |\n\nA_inv = |  5/23  -2/23 |\n        |  4/23   3/23 |\n\nNow, multiply A_inv with B to get X:\n\nX = A_inv * B = |  5/23  -2/23 | * | 7 |\n                |  4/23   3/23 |   | 8 |\n\nX = | (5/23 * 7) + (-2/23 * 8) |\n    | (4/23 * 7) + (3/23 * 8)  |\n\nX = | 35/23 - 16/23 |\n    | 28/23 + 24/23 |\n\nX = | 19/23 |\n    | 52/23 |\n\nSo, the solution is (x, y) = (19/23, 52/23)."
+}

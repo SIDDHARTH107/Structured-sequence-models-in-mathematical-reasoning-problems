@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Determining the rank of a matrix",
+    "message_1": "Determine the rank of the following matrix:\n\n$$\\begin{bmatrix} 1 & 2 & 3 \\\\ 4 & 8 & 12 \\\\ 2 & 4 & 6\\end{bmatrix}$$",
+    "message_2": "To find the rank of the matrix, we need to perform Gaussian elimination to bring it to its row-echelon form and then count the number of non-zero rows.\n\nOriginal matrix:\n$$\\begin{bmatrix} 1 & 2 & 3 \\\\ 4 & 8 & 12 \\\\ 2 & 4 & 6\\end{bmatrix}$$\n\nStep 1: Subtract 4 times the first row from the second row, and subtract 2 times the first row from the third row:\n$$\\begin{bmatrix} 1 & 2 & 3 \\\\ 0 & 0 & 0 \\\\ 0 & 0 & 0\\end{bmatrix}$$\n\nNow the matrix is in row-echelon form. There is only one non-zero row, so the rank of the matrix is 1."
+}

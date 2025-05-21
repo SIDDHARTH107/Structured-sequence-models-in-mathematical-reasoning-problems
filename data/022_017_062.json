@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Complex analysis of differential equations",
+    "message_1": "Consider the differential equation $y''(x)+4y(x)=0$, where $y(x)$ is a complex-valued function of $x$. Find the general solution of this differential equation in terms of complex exponentials.",
+    "message_2": "To find the general solution of the given differential equation, we first assume a solution of the form $y(x) = e^{rx}$, where $r$ is a complex number. Plugging this into the differential equation, we get:\n\n$(re^{rx})' + 4e^{rx} = 0$\n\n$r^2 e^{rx} + 4e^{rx} = 0$\n\nNow, we can factor out $e^{rx}$:\n\n$e^{rx}(r^2 + 4) = 0$\n\nSince $e^{rx}$ is never zero, we can divide both sides by $e^{rx}$:\n\n$r^2 + 4 = 0$\n\nSolving for $r$, we get:\n\n$r^2 = -4$\n\n$r = \\pm 2i$\n\nNow we have two linearly independent solutions, $e^{2ix}$ and $e^{-2ix}$. Therefore, the general solution of the differential equation is:\n\n$y(x) = C_1 e^{2ix} + C_2 e^{-2ix}$\n\nwhere $C_1$ and $C_2$ are arbitrary complex constants."
+}

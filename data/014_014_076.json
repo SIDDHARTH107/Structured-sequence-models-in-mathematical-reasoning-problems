@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Playfair cipher",
+    "message_1": "Alice wants to encrypt the message \"MATHEMATICSISFUN\" using the Playfair cipher technique with a key \"CRYPTOGRAPHY\". What will be the encrypted message?",
+    "message_2": "To encrypt the message using the Playfair cipher technique, we need to follow these steps:\n\n1. Create a 5x5 matrix using the key and the English alphabet (excluding the letter 'J').\n\n2. Break the message into digraphs (pairs of letters). If a pair has the same letter, insert an 'X' between them.\n\n3. For each digraph, apply the Playfair cipher rules:\n   a. If the letters are in the same row, replace each letter with the one to its right (wrapping around if necessary).\n   b. If the letters are in the same column, replace each letter with the one below it (wrapping around if necessary).\n   c. If the letters form a rectangle, replace each letter with the one in the same row but at the other corner of the rectangle.\n\nLet's follow these steps:\n\n1. Create a 5x5 matrix using the key \"CRYPTOGRAPHY\":\n\n   C R Y P T\n   O G A H B\n   D E F I K\n   L M N S U\n   V W X Z Q\n\n2. Break the message \"MATHEMATICSISFUN\" into digraphs:\n\n   MA TH EM AT IC SI SF UN\n\n3. Apply the Playfair cipher rules:\n\n   MA -> OD\n   TH -> YP\n   EM -> GA\n   AT -> CU\n   IC -> FK\n   SI -> EN\n   SF -> RY\n   UN -> ZQ\n\nThe encrypted message is \"ODYPGACUFKENRYZQ\"."
+}

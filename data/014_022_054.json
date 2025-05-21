@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Cryptanalysis of Playfair cipher",
+    "message_1": "Given the encrypted message \"IRIXGTVZJQFY\", decrypt the message using the Playfair cipher with the key \"MATHS\".",
+    "message_2": "To decrypt the message using the Playfair cipher, we first need to create a 5x5 matrix using the key \"MATHS\". \n\n1. Remove duplicate letters from the key: MATHS\n2. Fill in the remaining letters of the alphabet (excluding J, as I and J are treated as the same letter in the Playfair cipher) in the order they appear: MATHSBCDEFGIKLOPQRUVWXYZ\n\nNow, we create a 5x5 matrix using the above sequence:\n\nM A T H S\nB C D E F\nG I K L O\nP Q R U V\nW X Y Z\n\nNext, we will decrypt the encrypted message \"IRIXGTVZJQFY\" using the matrix:\n\n1. Break the message into pairs of letters: IR IX GT VZ JQ FY\n2. For each pair, find their positions in the matrix and apply the decryption rules:\n\n   - If the letters are in the same row, replace each letter with the one to its left (wrapping around if necessary).\n   - If the letters are in the same column, replace each letter with the one above it (wrapping around if necessary).\n   - If the letters form a rectangle, replace each letter with the one in its row but in the other pair's column.\n\nDecrypting the message:\n\nIR -> HE\nIX -> LL\nGT -> O\nVZ -> W\nJQ -> OR\nFY -> LD\n\nThe decrypted message is \"HELLOWORLD\"."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Fourier analysis",
+    "sub_topic": "Finding the Fourier series of a periodic function",
+    "message_1": "Find the Fourier series of the periodic function f(x) = x on the interval [-π, π].",
+    "message_2": "To find the Fourier series of the function f(x) = x on the interval [-π, π], we need to compute the Fourier coefficients a_n and b_n.\n\nThe general form of the Fourier series is:\n\nf(x) = a_0 + Σ [a_n * cos(n * x) + b_n * sin(n * x)]\n\nwhere the summation is from n = 1 to infinity.\n\nFor a periodic function f(x) with period 2L, the Fourier coefficients are given by:\n\na_0 = (1 / 2L) * ∫[-L, L] f(x) dx\n\na_n = (1 / L) * ∫[-L, L] f(x) * cos(n * π * x / L) dx\n\nb_n = (1 / L) * ∫[-L, L] f(x) * sin(n * π * x / L) dx\n\nIn our case, f(x) = x and L = π. So, we have:\n\na_0 = (1 / 2π) * ∫[-π, π] x dx\n\na_n = (1 / π) * ∫[-π, π] x * cos(n * x) dx\n\nb_n = (1 / π) * ∫[-π, π] x * sin(n * x) dx\n\nNow, we compute the integrals:\n\na_0 = (1 / 2π) * [x^2 / 2] | (-π, π) = (1 / 2π) * (π^2 / 2 - (-π)^2 / 2) = 0\n\na_n = (1 / π) * [x * (sin(n * x) / n) + (cos(n * x) / n^2)] | (-π, π) = 0 (since sin(n * π) = 0 and cos(n * π) = 1 or -1)\n\nb_n = (1 / π) * [-x * (cos(n * x) / n) - (sin(n * x) / n^2)] | (-π, π) = (2 / n) * (1 - (-1)^n)\n\nNow, we can write the Fourier series for f(x) = x:\n\nf(x) = Σ [(2 / n) * (1 - (-1)^n) * sin(n * x)]\n\nThe summation is from n = 1 to infinity."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Logic",
+    "sub_topic": "Model theory",
+    "message_1": "Consider the polynomial ring $R=k[x,y]$ where $k$ is a field. Let $I=(x^3-y^2)$ be an ideal of $R$. Determine whether or not the following statement is true:\n\nIf $f\\in k[x,y]$ is an irreducible polynomial such that the residue class of $f$ modulo $I$ is irreducible in $R/I$, then $f$ is irreducible in $R$.",
+    "message_2": "To prove the statement, we will use the contrapositive. We will show that if $f$ is reducible in $R$, then the residue class of $f$ modulo $I$ is reducible in $R/I$.\n\nSuppose $f$ is reducible in $R$. Then, there exist non-constant polynomials $g, h \\in R$ such that $f = gh$. Now, consider the residue classes of $g$ and $h$ modulo $I$, denoted by $\\bar{g}$ and $\\bar{h}$, respectively. Since $g$ and $h$ are non-constant, their residue classes $\\bar{g}$ and $\\bar{h}$ are non-constant in $R/I$ as well.\n\nNow, we have $\\bar{f} = \\bar{g} \\bar{h}$ in $R/I$. Since $\\bar{g}$ and $\\bar{h}$ are non-constant, this implies that $\\bar{f}$ is reducible in $R/I$. Thus, we have shown that if $f$ is reducible in $R$, then the residue class of $f$ modulo $I$ is reducible in $R/I$.\n\nBy the contrapositive, if the residue class of $f$ modulo $I$ is irreducible in $R/I$, then $f$ is irreducible in $R$. Therefore, the statement is true."
+}

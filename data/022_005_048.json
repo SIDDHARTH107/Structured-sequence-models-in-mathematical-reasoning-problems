@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Residue calculus and its applications",
+    "message_1": "Here's a numerical problem for a math student to solve related to Residue calculus and its applications:\n\nCalculate the residue of the function f(z) = (z^3 + 1)/(z^4 - 1) at the pole z = 1+i.",
+    "message_2": "To calculate the residue of the function f(z) = (z^3 + 1)/(z^4 - 1) at the pole z = 1+i, we first need to factor the denominator and find the order of the pole.\n\nThe denominator can be factored as follows:\n\nz^4 - 1 = (z^2 + 1)(z^2 - 1) = (z^2 + 1)(z - 1)(z + 1)\n\nNow, we can see that z = 1+i is a simple pole (order 1) since it is a root of the factor (z^2 + 1) with multiplicity 1.\n\nNext, we need to find the residue at z = 1+i. Since it is a simple pole, we can use the formula:\n\nRes[f(z), z = 1+i] = lim (z -> 1+i) [(z - (1+i)) * f(z)]\n\nNow, let's plug in f(z) and simplify:\n\nRes[f(z), z = 1+i] = lim (z -> 1+i) [(z - (1+i)) * (z^3 + 1)/((z^2 + 1)(z - 1)(z + 1))]\n\nSince z = 1+i is a root of (z^2 + 1), we can cancel out this factor:\n\nRes[f(z), z = 1+i] = lim (z -> 1+i) [(z - (1+i)) * (z^3 + 1)/((z - 1)(z + 1))]\n\nNow, we can evaluate the limit:\n\nRes[f(z), z = 1+i] = [(1+i - (1+i)) * ((1+i)^3 + 1)/((1+i - 1)(1+i + 1))]\n\nRes[f(z), z = 1+i] = [0 * ((1+3i-3-1i)/((i)(2+i)))]\n\nSince the numerator is 0, the residue is also 0:\n\nRes[f(z), z = 1+i] = 0"
+}

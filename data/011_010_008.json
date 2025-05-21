@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Catalan numbers",
+    "message_1": "A park has a circular walking path with 12 benches spaced out evenly around the path. If you start at one of the benches and walk all the way around the circle, how many ways can you pass by each bench exactly once before returning to your starting bench? (Hint: The answer is a Catalan Number).",
+    "message_2": "To solve this problem, we can use the concept of Catalan numbers. Catalan numbers are a sequence of natural numbers that have many applications in combinatorial mathematics, including counting certain types of lattice paths, the number of ways to arrange parentheses in a valid sequence, and more.\n\nThe formula for the nth Catalan number is given by:\n\nC_n = (1/(n+1)) * (2n choose n) = (1/(n+1)) * (2n! / (n! * n!))\n\nIn this problem, there are 12 benches, so we have 11 intervals between them (since we don't count the starting bench). Therefore, we need to find the 11th Catalan number:\n\nC_11 = (1/(11+1)) * (22 choose 11) = (1/12) * (22! / (11! * 11!))\n\nC_11 = (1/12) * (22! / (11! * 11!)) = (1/12) * (2,432,902,008,176,640,000 / (39,916,800 * 39,916,800))\n\nC_11 = (1/12) * 132,793,212,800\n\nC_11 = 11,066,101,067\n\nSo there are 11,066,101,067 ways to pass by each bench exactly once before returning to the starting bench."
+}

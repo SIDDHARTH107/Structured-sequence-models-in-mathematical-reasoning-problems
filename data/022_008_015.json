@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Entire functions and their properties",
+    "message_1": "Find a polynomial function of degree 4 that satisfies the following conditions:\n\n1. Has leading coefficient 1.\n2. Has a zero of order 2 at z = -1.\n3. Has a zero of order 1 at z = 2.\n4. Has a zero of order 1 at z = 3.\n\n(Note: An entire function is a complex function that is differentiable at every point on the complex plane.)",
+    "message_2": "To find a polynomial function of degree 4 that satisfies the given conditions, we can use the fact that a polynomial with a zero of order n at z = a can be written as (z - a)^n. \n\nGiven the conditions:\n\n1. The leading coefficient is 1, so we don't need to multiply by any constant.\n2. There is a zero of order 2 at z = -1, so we have a factor of (z + 1)^2.\n3. There is a zero of order 1 at z = 2, so we have a factor of (z - 2).\n4. There is a zero of order 1 at z = 3, so we have a factor of (z - 3).\n\nNow, we can multiply these factors together to get the polynomial function:\n\nP(z) = (z + 1)^2 * (z - 2) * (z - 3)\n\nExpanding this expression, we get:\n\nP(z) = ((z^2 + 2z + 1) * (z - 2)) * (z - 3)\nP(z) = (z^3 - 2z^2 + 2z^2 - 4z + z - 2) * (z - 3)\nP(z) = (z^3 - 3z + 1) * (z - 3)\nP(z) = z^4 - 3z^3 - 3z^2 + 9z + z - 3\n\nSo, the polynomial function that satisfies the given conditions is:\n\nP(z) = z^4 - 3z^3 - 3z^2 + 10z - 3"
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Hill cipher",
+    "message_1": "A message \"HELLO\" is encrypted using the Hill Cipher with a 2x2 key matrix [5 8; 17 3]. Calculate the ciphertext message.",
+    "message_2": "To encrypt the message \"HELLO\" using the Hill Cipher with a 2x2 key matrix, we first need to convert the letters into numerical values using the alphabetical index (A=0, B=1, ..., Z=25). Then, we will group the letters in pairs and multiply each pair by the key matrix. Finally, we will convert the resulting numerical values back into letters to obtain the ciphertext.\n\n1. Convert the message \"HELLO\" into numerical values:\nH=7, E=4, L=11, L=11, O=14\n\n2. Group the letters in pairs: (7, 4), (11, 11), (14)\nSince we have an odd number of letters, we need to add an extra letter to the message to make it even. We can use 'X' (23) as a filler:\n(7, 4), (11, 11), (14, 23)\n\n3. Multiply each pair by the key matrix [5 8; 17 3]:\n[5  8] [7]   [ 99]   [21]   V\n[17 3] [4] = [119] = [24] = Y\n\n[5  8] [11]   [ 187]   [11]   L\n[17 3] [11] = [ 200] = [ 0] = A\n\n[5  8] [14]   [ 278]   [ 2]   C\n[17 3] [23] = [ 431] = [ 6] = G\n\n4. Convert the resulting numerical values back into letters:\n(21, 24) = VY\n(11, 0) = LA\n(2, 6) = CG\n\nThe ciphertext message is \"VYLAG\"."
+}

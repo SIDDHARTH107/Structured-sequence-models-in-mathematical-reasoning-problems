@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Graph coloring",
+    "message_1": "How many ways can you color the vertices of a given 5-vertex graph using only 3 colors, such that no two adjacent vertices have the same color?",
+    "message_2": "To solve this problem, we can use the chromatic polynomial. The chromatic polynomial P(G, k) of a graph G is a polynomial that counts the number of proper k-colorings of G (i.e., colorings of the vertices such that no two adjacent vertices have the same color).\n\nFor a complete graph with n vertices, the chromatic polynomial is given by:\n\nP(K_n, k) = k(k-1)^{n-1} - k(k-1)(k-2)^{n-2}\n\nIn our case, we have a complete 5-vertex graph (K_5) and we want to color it using 3 colors (k=3). Plugging these values into the formula, we get:\n\nP(K_5, 3) = 3(3-1)^{5-1} - 3(3-1)(3-2)^{5-2}\nP(K_5, 3) = 3(2)^4 - 3(2)(1)^3\nP(K_5, 3) = 3(16) - 3(2)\nP(K_5, 3) = 48 - 6\nP(K_5, 3) = 42\n\nSo, there are 42 ways to color the vertices of a given 5-vertex graph using only 3 colors such that no two adjacent vertices have the same color."
+}

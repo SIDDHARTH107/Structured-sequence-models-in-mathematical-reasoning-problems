@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Logic",
+    "sub_topic": "Temporal logic",
+    "message_1": "Suppose a vending machine dispenses a can of soda every 20 seconds. Using temporal logic, write a formula to express the statement \"Every 2 minutes, 6 cans of soda are dispensed.\"",
+    "message_2": "Let P(t) represent the proposition \"a can of soda is dispensed at time t.\" We want to express that every 2 minutes (120 seconds), 6 cans of soda are dispensed. We can write this using temporal logic as follows:\n\n∀t : (t mod 120 = 0) → (P(t) ∧ P(t+20) ∧ P(t+40) ∧ P(t+60) ∧ P(t+80) ∧ P(t+100))"
+}

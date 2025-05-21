@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Numerical analysis",
+    "sub_topic": "Solving systems of linear equations using Gaussian elimination",
+    "message_1": "Solve the system of linear equations using Gaussian elimination method: \n\n2x + 3y - z = 10 \n\n4x + 2y + 3z = 4 \n\n-2x + 4y + z = 0",
+    "message_2": "To solve the system of linear equations using Gaussian elimination method, we first need to form an augmented matrix:\n\n|  2  3 -1 | 10 |\n|  4  2  3 |  4 |\n| -2  4  1 |  0 |\n\nStep 1: Eliminate x from the second and third rows.\n\nR2 = R2 - 2 * R1\nR3 = R3 + R1\n\n|  2  3 -1 | 10 |\n|  0 -4  5 | -16 |\n|  0  7  0 | 10 |\n\nStep 2: Swap R2 and R3 to get a non-zero value in the second row's leading position.\n\n|  2  3 -1 | 10 |\n|  0  7  0 | 10 |\n|  0 -4  5 | -16 |\n\nStep 3: Eliminate y from the third row.\n\nR3 = R3 + 4/7 * R2\n\n|  2  3 -1 | 10  |\n|  0  7  0 | 10  |\n|  0  0  5 | -6  |\n\nStep 4: Solve for z.\n\n5z = -6\nz = -6/5\n\nStep 5: Solve for y.\n\n7y = 10 - 0z\ny = 10/7\n\nStep 6: Solve for x.\n\n2x + 3y - z = 10\n2x = 10 - 3(10/7) + 6/5\nx = (50 - 90/7 + 12/5) / 2\nx = (250 - 90 + 84) / 70\nx = 244 / 70\nx = 122 / 35\n\nSo the solution is x = 122/35, y = 10/7, and z = -6/5."
+}

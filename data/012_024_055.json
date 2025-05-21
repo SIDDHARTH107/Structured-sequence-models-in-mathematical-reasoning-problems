@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Graph theory",
+    "sub_topic": "Determining the genus of a graph.",
+    "message_1": "Given a connected graph G with 10 vertices and 15 edges, determine its genus.",
+    "message_2": "To determine the genus of a connected graph G, we can use the Euler's formula for planar graphs and the formula for the genus of a graph.\n\nEuler's formula for planar graphs states that for any connected planar graph:\n\nV - E + F = 2\n\nwhere V is the number of vertices, E is the number of edges, and F is the number of faces.\n\nThe formula for the genus g of a graph is:\n\ng = (E - V + 2 - 2F) / 2\n\nIn our case, we have V = 10 and E = 15. We need to find the minimum number of faces F for which the graph can be embedded on a surface of genus g without crossing edges.\n\nLet's first check if the graph is planar. If it is, then the genus is 0. Using Euler's formula:\n\nF = 2 - V + E = 2 - 10 + 15 = 7\n\nSince F is a positive integer, the graph is planar, and its genus is 0."
+}

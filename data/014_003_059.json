@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "ElGamal encryption and decryption",
+    "message_1": "Suppose that Bob wants to send a message to Alice using ElGamal encryption. Alice's public key is (p=23,α=5,Alice's public key value=19) and the random number k that Bob chooses is 7. If the message Bob wants to send is m=11, what will be the corresponding ciphertext that Bob sends to Alice?",
+    "message_2": "To compute the ciphertext using ElGamal encryption, we need to calculate two values, C1 and C2.\n\nC1 = α^k mod p\nC2 = (m * (Alice's public key value)^k) mod p\n\nGiven the values:\np = 23\nα = 5\nAlice's public key value = 19\nk = 7\nm = 11\n\nFirst, we calculate C1:\nC1 = 5^7 mod 23\nC1 = 78125 mod 23\nC1 = 17\n\nNext, we calculate C2:\nC2 = (11 * (19^7)) mod 23\nC2 = (11 * 893871739) mod 23\nC2 = 9829854199 mod 23\nC2 = 10\n\nSo, the ciphertext that Bob sends to Alice is (C1, C2) = (17, 10)."
+}

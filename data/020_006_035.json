@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Optimization",
+    "sub_topic": "Mixed-integer programming",
+    "message_1": "A company called XYZ produces two types of products: Product A and Product B. The production of Product A requires 2 hours of labor and 1 hour of machine time, while the production of Product B requires 3 hours of labor and 1 hour of machine time. The company has 50 hours of labor and 24 hours of machine time available per day. The profit for each unit of Product A is $10 and for each unit of Product B is $12. The company wants to maximize their daily profit.\n\nWrite the mixed-integer programming problem that will help the company determine the optimal number of units of Product A and Product B to produce per day, given the available labor and machine time.",
+    "message_2": "Let x be the number of units of Product A produced per day and y be the number of units of Product B produced per day.\n\nObjective function (to maximize daily profit):\nMaximize P = 10x + 12y\n\nConstraints (based on available labor and machine time):\n2x + 3y ≤ 50 (labor constraint)\nx + y ≤ 24 (machine time constraint)\nx ≥ 0, y ≥ 0 (non-negativity constraint)\n\nThe mixed-integer programming problem can be written as:\n\nMaximize P = 10x + 12y\nsubject to\n2x + 3y ≤ 50\nx + y ≤ 24\nx, y ≥ 0 and integer values"
+}

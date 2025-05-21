@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Fourier analysis",
+    "sub_topic": "Finding the Fourier series of a function with a singularity",
+    "message_1": "Find the Fourier series of the function f(x) = x / (1 - x) over the interval (-1, 1).",
+    "message_2": "To find the Fourier series of the function f(x) = x / (1 - x) over the interval (-1, 1), we first need to determine if the function is even, odd, or neither. Since f(-x) = -x / (1 + x) ≠ f(x), the function is neither even nor odd. Therefore, we will need to find both the cosine and sine coefficients.\n\nThe Fourier series of a function f(x) over the interval (-L, L) is given by:\n\nf(x) = a_0 + Σ [a_n * cos(n * π * x / L) + b_n * sin(n * π * x / L)]\n\nwhere a_0, a_n, and b_n are the Fourier coefficients, and L is half the length of the interval. In this case, L = 1.\n\nTo find the coefficients, we use the following formulas:\n\na_0 = (1 / L) * ∫[f(x) dx] from -L to L\na_n = (1 / L) * ∫[f(x) * cos(n * π * x / L) dx] from -L to L\nb_n = (1 / L) * ∫[f(x) * sin(n * π * x / L) dx] from -L to L\n\nFirst, let's find a_0:\n\na_0 = (1 / 1) * ∫[x / (1 - x) dx] from -1 to 1\n\nHowever, this integral is improper because the function has a singularity at x = 1. Therefore, we cannot find a Fourier series for this function over the interval (-1, 1)."
+}

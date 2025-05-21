@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Calculus",
+    "sub_topic": "Using the chain rule to differentiate composite functions",
+    "message_1": "If f(x) = (3x^2 - 5)^5 and g(x) = √x - 2, what is f'(g(6))?",
+    "message_2": "First, we need to find the derivative of f(x) and g(x) using the chain rule.\n\nf'(x) = d/dx [(3x^2 - 5)^5]\nLet u = 3x^2 - 5, then f(x) = u^5\nf'(x) = d(du^5)/dx = 5u^4 * du/dx\n\nNow, we need to find du/dx:\ndu/dx = d(3x^2 - 5)/dx = 6x\n\nSo, f'(x) = 5(3x^2 - 5)^4 * 6x = 30x(3x^2 - 5)^4\n\nNow, let's find g'(x):\ng'(x) = d(√x - 2)/dx = 1/(2√x)\n\nNow, we need to find g(6):\ng(6) = √6 - 2\n\nNow, we need to find f'(g(6)):\nf'(g(6)) = 30(√6 - 2)(3(√6 - 2)^2 - 5)^4\n\nNow, let's simplify the expression:\nf'(g(6)) = 30(√6 - 2)(3(6 - 4√6 + 4) - 5)^4\nf'(g(6)) = 30(√6 - 2)(18 - 12√6 + 12 - 5)^4\nf'(g(6)) = 30(√6 - 2)(25 - 12√6)^4\n\nSo, f'(g(6)) = 30(√6 - 2)(25 - 12√6)^4 is the final expression for the derivative."
+}

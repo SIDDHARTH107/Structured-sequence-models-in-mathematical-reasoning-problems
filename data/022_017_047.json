@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Complex analysis of differential equations",
+    "message_1": "Sure, here's a numerical problem for the student to solve:\n\nSolve the differential equation y'' + 4y = 0, where y(0) = 3 and y'(0) = 1 using the methods of complex analysis.",
+    "message_2": "To solve the given differential equation y'' + 4y = 0 with initial conditions y(0) = 3 and y'(0) = 1 using complex analysis, we first find the characteristic equation.\n\nThe characteristic equation is:\n\nr^2 + 4 = 0\n\nSolving for r, we get:\n\nr^2 = -4\nr = ±2i\n\nSince we have complex roots, the general solution of the differential equation is:\n\ny(x) = e^(αx) * (A * cos(βx) + B * sin(βx))\n\nIn our case, α = 0 and β = 2, so the general solution is:\n\ny(x) = A * cos(2x) + B * sin(2x)\n\nNow, we apply the initial conditions:\n\ny(0) = 3\ny'(0) = 1\n\nFor y(0) = 3:\n\n3 = A * cos(0) + B * sin(0)\n3 = A * 1 + B * 0\nA = 3\n\nFor y'(0) = 1, we first find the derivative of y(x):\n\ny'(x) = -2A * sin(2x) + 2B * cos(2x)\n\nNow, we apply the initial condition y'(0) = 1:\n\n1 = -2A * sin(0) + 2B * cos(0)\n1 = -2 * 3 * 0 + 2B * 1\nB = 1/2\n\nSo, the particular solution with the given initial conditions is:\n\ny(x) = 3 * cos(2x) + (1/2) * sin(2x)"
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Set theory",
+    "sub_topic": "Prove that the Cartesian product of two sets is distributive over union.",
+    "message_1": "Let A = {1, 2, 3} and B = {x, y}. Find the Cartesian product of A and (B union {z}) and compare it to the union of the Cartesian product of A and B and A and {z}.",
+    "message_2": "First, let's find the Cartesian product of A and (B union {z}). Since B = {x, y}, B union {z} = {x, y, z}. Now, let's find the Cartesian product of A and (B union {z}):\n\nA x (B union {z}) = {(1, x), (1, y), (1, z), (2, x), (2, y), (2, z), (3, x), (3, y), (3, z)}\n\nNow, let's find the Cartesian product of A and B:\n\nA x B = {(1, x), (1, y), (2, x), (2, y), (3, x), (3, y)}\n\nAnd the Cartesian product of A and {z}:\n\nA x {z} = {(1, z), (2, z), (3, z)}\n\nNow, let's find the union of the Cartesian product of A and B and A and {z}:\n\n(A x B) union (A x {z}) = {(1, x), (1, y), (2, x), (2, y), (3, x), (3, y)} ∪ {(1, z), (2, z), (3, z)}\n\n(A x B) union (A x {z}) = {(1, x), (1, y), (1, z), (2, x), (2, y), (2, z), (3, x), (3, y), (3, z)}\n\nComparing the two sets, we can see that they are equal:\n\nA x (B union {z}) = (A x B) union (A x {z}) = {(1, x), (1, y), (1, z), (2, x), (2, y), (2, z), (3, x), (3, y), (3, z)}"
+}

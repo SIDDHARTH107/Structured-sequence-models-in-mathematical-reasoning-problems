@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Meromorphic functions and their properties",
+    "message_1": "Let f(z) = (z^3 - 3z^2 + 8)/(z - 2) be a meromorphic function on the complex plane. Find the poles and the residues of the function.",
+    "message_2": "To find the poles of the meromorphic function f(z), we need to find the values of z for which the denominator (z - 2) is equal to 0. In this case, there is only one pole:\n\nz - 2 = 0\nz = 2\n\nNow, we need to find the residue of the function at this pole. Since the pole is of order 1, we can use the following formula for the residue:\n\nRes(f(z), z = 2) = lim (z -> 2) [(z - 2) * f(z)]\n\nRes(f(z), z = 2) = lim (z -> 2) [(z - 2) * (z^3 - 3z^2 + 8)/(z - 2)]\n\nThe (z - 2) terms cancel out:\n\nRes(f(z), z = 2) = lim (z -> 2) [z^3 - 3z^2 + 8]\n\nNow, we can substitute z = 2 into the expression:\n\nRes(f(z), z = 2) = (2^3 - 3(2^2) + 8) = (8 - 12 + 8) = 4\n\nSo, the function f(z) has a pole at z = 2 with residue 4."
+}

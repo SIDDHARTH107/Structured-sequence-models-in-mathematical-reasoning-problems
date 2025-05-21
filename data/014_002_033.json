@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Diffie-Hellman key exchange",
+    "message_1": "Bob and Alice want to securely exchange messages over an insecure channel. They agree on a prime number p=13 and a primitive root of p g=2. Bob chooses a secret key b=5, Alice chooses secret key a=3. What is the shared secret key they can use to encrypt their messages securely using Diffie-Hellman key exchange?",
+    "message_2": "To find the shared secret key using the Diffie-Hellman key exchange, we need to follow these steps:\n\n1. Bob computes B = g^b mod p, where g is the primitive root, b is Bob's secret key, and p is the prime number.\n2. Alice computes A = g^a mod p, where a is Alice's secret key.\n3. Bob and Alice exchange their computed values A and B over the insecure channel.\n4. Bob computes the shared secret key as K = A^b mod p.\n5. Alice computes the shared secret key as K = B^a mod p.\n\nLet's calculate the shared secret key:\n\n1. B = 2^5 mod 13 = 32 mod 13 = 6\n2. A = 2^3 mod 13 = 8 mod 13 = 8\n3. Bob and Alice exchange A and B: A = 8, B = 6\n4. Bob computes K = 8^5 mod 13 = 32768 mod 13 = 10\n5. Alice computes K = 6^3 mod 13 = 216 mod 13 = 10\n\nThe shared secret key K is 10."
+}

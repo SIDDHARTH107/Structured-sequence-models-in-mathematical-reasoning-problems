@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Hill cipher",
+    "message_1": "Suppose you want to encrypt the message \"MATH\" using the Hill cipher with the 2x2 matrix key\n```\nK = [3 2]\n    [5 7]\n```\nWhat is the encrypted message?",
+    "message_2": "To encrypt the message \"MATH\" using the Hill cipher with the given 2x2 matrix key, follow these steps:\n\n1. Convert the letters in the message to their corresponding numerical values (A=0, B=1, ..., Z=25): M=12, A=0, T=19, H=7.\n\n2. Arrange the numerical values into a 2x2 matrix:\n```\nP = [12 19]\n    [ 0  7]\n```\n\n3. Multiply the key matrix (K) by the plaintext matrix (P) modulo 26:\n```\nK * P = [ (3*12 + 2*0) % 26  (3*19 + 2*7) % 26 ]\n        [ (5*12 + 7*0) % 26  (5*19 + 7*7) % 26 ]\n\n      = [ 36 % 26  67 % 26 ]\n        [ 60 % 26  168 % 26 ]\n\n      = [ 10  15 ]\n        [ 8   14 ]\n```\n\n4. Convert the resulting matrix back into letters: 10=K, 15=P, 8=I, 14=N.\n\nSo, the encrypted message is \"KPIN\"."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Playfair cipher",
+    "message_1": "Using the Playfair cipher, encrypt the message \"HELLO WORLD\" with the key \"MATHS\" and the following encryption rules: \n1. If a letter appears twice in a pair, add an \"X\" in between. \n2. If a letter occurs at the end of the message and doesn't form a complete pair, add an \"X\" to it. \n\nNote: The Playfair cipher uses a 5x5 grid of letters to encrypt messages. The grid is filled with the key first, and the remaining letters of the alphabet are filled in order, excluding \"J\".",
+    "message_2": "First, let's create the 5x5 grid using the key \"MATHS\":\n\nM A T H S\nB C D E F\nG I K L N\nO P Q R U\nV W X Y Z\n\nNow, let's prepare the message \"HELLO WORLD\" by applying the encryption rules:\n\n1. If a letter appears twice in a pair, add an \"X\" in between.\n   So, \"LL\" in \"HELLO\" becomes \"LXL\".\n\n2. If a letter occurs at the end of the message and doesn't form a complete pair, add an \"X\" to it.\n   The message has an even number of letters, so we don't need to add an \"X\".\n\nThe prepared message is now \"HELXLO WORLD\".\n\nNow, let's encrypt the message using the Playfair cipher:\n\nHE -> ZY\nLX -> FN\nLO -> PU\nWO -> IM\nRL -> KT\nD -> DX (adding X to form a pair)\n\nThe encrypted message is \"ZYFNPUIMKTDX\"."
+}

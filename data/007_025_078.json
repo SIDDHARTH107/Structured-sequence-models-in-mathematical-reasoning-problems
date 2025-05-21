@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Number theory",
+    "sub_topic": "Diffie-Hellman key exchange.",
+    "message_1": "Suppose Alice and Bob want to communicate secretly using the Diffie-Hellman key exchange over a finite field 𝑃=199. Alice chooses a secret number 𝑎=100 and calculates 𝑔^𝑎 mod 199=40. Bob chooses a secret number 𝑏=87, and calculates 𝑔^𝑏 mod 199=97. What is the shared secret key?",
+    "message_2": "To find the shared secret key, Alice and Bob will exchange their calculated values (40 and 97) and use their own secret numbers to compute the shared secret key.\n\nAlice receives Bob's value (97) and raises it to her secret number (100), then takes the result modulo 199:\n(97^100) mod 199\n\nBob receives Alice's value (40) and raises it to his secret number (87), then takes the result modulo 199:\n(40^87) mod 199\n\nBoth of these calculations should result in the same shared secret key. Let's calculate them:\n\n(97^100) mod 199 = 63\n(40^87) mod 199 = 63\n\nThe shared secret key is 63."
+}

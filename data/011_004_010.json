@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Multinomial coefficients",
+    "message_1": "How many 8-letter words can be formed using the letters of the word \"MATHEMATICS\" if there are 2 M's, 2 A's, 2 T's and 1 each of the letters E, H, I, and C that must all be used in each word?",
+    "message_2": "To form an 8-letter word using the given letters, we need to find the number of possible arrangements of these letters.\n\nWe have 8 positions to fill: _ _ _ _ _ _ _ _\n\nThere are 2 M's, 2 A's, 2 T's, and 1 each of E, H, I, and C.\n\nThe total number of ways to arrange these 8 letters is given by the formula for permutations of a multiset:\n\nP(n; n1, n2, ..., nk) = n! / (n1! * n2! * ... * nk!)\n\nwhere n is the total number of items, and n1, n2, ..., nk are the counts of each distinct item.\n\nIn this case, n = 8, n1 = 2 (for M's), n2 = 2 (for A's), n3 = 2 (for T's), n4 = 1 (for E), n5 = 1 (for H), n6 = 1 (for I), and n7 = 1 (for C).\n\nSo, the total number of 8-letter words that can be formed is:\n\nP(8; 2, 2, 2, 1, 1, 1, 1) = 8! / (2! * 2! * 2! * 1! * 1! * 1! * 1!)\n\n= 40320 / (2 * 2 * 2 * 1 * 1 * 1 * 1)\n\n= 40320 / 8\n\n= 5040\n\nTherefore, there are 5040 different 8-letter words that can be formed using the given letters."
+}

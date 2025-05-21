@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Combinatorial optimization",
+    "message_1": "A company has 8 employees who need to be assigned to 4 different departments such that each department has exactly two employees. How many ways are there to make the assignments?",
+    "message_2": "We can solve this problem using combinatorics. We have 8 employees and need to choose 2 for the first department, then 6 employees left and need to choose 2 for the second department, and so on.\n\nFor the first department, there are 8 employees to choose from, and we need to choose 2. This can be done in 8 choose 2 ways, which is written as C(8,2) or 8!/(2!*(8-2)!) = 28 ways.\n\nFor the second department, there are 6 employees left to choose from, and we need to choose 2. This can be done in 6 choose 2 ways, which is written as C(6,2) or 6!/(2!*(6-2)!) = 15 ways.\n\nFor the third department, there are 4 employees left to choose from, and we need to choose 2. This can be done in 4 choose 2 ways, which is written as C(4,2) or 4!/(2!*(4-2)!) = 6 ways.\n\nFinally, for the fourth department, there are 2 employees left, and they will both be assigned to this department, so there is only 1 way to do this.\n\nTo find the total number of ways to assign the employees, we multiply the number of ways for each department: 28 * 15 * 6 * 1 = 2520 ways."
+}

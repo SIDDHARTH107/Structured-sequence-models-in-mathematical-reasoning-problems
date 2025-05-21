@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Probability",
+    "sub_topic": "Probability of a certain type of cyber attack occurring on a network",
+    "message_1": "What is the probability that a network with 100 connected devices is targeted by a specific type of cyber attack that has a 3% chance of affecting any given device?",
+    "message_2": "To find the probability that a network with 100 connected devices is targeted by a specific type of cyber attack that has a 3% chance of affecting any given device, we can use the complementary probability concept. \n\nFirst, we find the probability that a device is NOT affected by the cyber attack, which is 1 - 0.03 = 0.97.\n\nNow, we find the probability that none of the 100 devices are affected by the attack. Since the devices are connected, we assume that they are independent of each other. Therefore, we can multiply the probabilities of each device not being affected:\n\nP(None of the devices are affected) = 0.97^100 ≈ 0.04755\n\nNow, we find the complementary probability, which is the probability that at least one device is affected by the attack:\n\nP(At least one device is affected) = 1 - P(None of the devices are affected) = 1 - 0.04755 ≈ 0.95245\n\nSo, the probability that the network with 100 connected devices is targeted by the specific type of cyber attack is approximately 95.25%."
+}

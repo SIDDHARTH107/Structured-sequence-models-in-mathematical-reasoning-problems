@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Playfair cipher",
+    "message_1": "Given the Playfair cipher key \"MATHS\" and the plaintext message \"MEET\", what is the resulting ciphertext?",
+    "message_2": "To encrypt the plaintext message \"MEET\" using the Playfair cipher with the key \"MATHS\", we first need to create the 5x5 Playfair square.\n\n1. Remove any duplicate letters from the key and write the remaining letters in a 5x5 grid.\n   M A T H S\n   _ _ _ _ _\n\n2. Fill in the rest of the grid with the remaining letters of the alphabet (excluding J, which is combined with I in the Playfair cipher).\n   M A T H S\n   B C D E F\n   G I K L N\n   O P Q R U\n   V W X Y Z\n\n3. Break the plaintext message into pairs of letters. If a pair has the same letter, insert an 'X' between them. If the plaintext has an odd number of characters, add an 'X' at the end.\n   ME ET\n\n4. For each pair of letters, apply the Playfair cipher rules:\n   - If the letters are in the same row, replace each letter with the one to its right (wrapping around to the beginning of the row if necessary).\n   - If the letters are in the same column, replace each letter with the one below it (wrapping around to the top of the column if necessary).\n   - If the letters form a rectangle, replace each letter with the one in the same row but in the other corner of the rectangle.\n\n5. Encrypt the plaintext pairs:\n   ME -> (same row) -> NF\n   ET -> (rectangle) -> HD\n\nThe resulting ciphertext is \"NFHD\"."
+}

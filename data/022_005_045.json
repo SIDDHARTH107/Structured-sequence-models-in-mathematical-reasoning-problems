@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Residue calculus and its applications",
+    "message_1": "A math student needs to find the residue of the function f(z) = 1/(z^2 + 4) at the pole z = 2i using residue calculus.",
+    "message_2": "To find the residue of the function f(z) = 1/(z^2 + 4) at the pole z = 2i, we first need to factor the denominator:\n\nz^2 + 4 = (z - 2i)(z + 2i)\n\nNow, we can see that the function has simple poles at z = 2i and z = -2i. To find the residue at z = 2i, we can use the formula for the residue at a simple pole:\n\nRes[f(z), z = 2i] = lim (z -> 2i) [(z - 2i) * f(z)]\n\n= lim (z -> 2i) [(z - 2i) * 1/(z^2 + 4)]\n\n= lim (z -> 2i) [(z - 2i) * 1/((z - 2i)(z + 2i))]\n\nAfter canceling out the (z - 2i) terms, we are left with:\n\n= lim (z -> 2i) [1/(z + 2i)]\n\nNow, we can substitute z = 2i into the expression:\n\n= 1/(2i + 2i)\n\n= 1/(4i)\n\nTo express the result as a complex number, we can multiply the numerator and denominator by the complex conjugate of the denominator:\n\n= (1 * -4i) / (4i * -4i)\n\n= -4i / (-16)\n\n= i/4\n\nSo, the residue of the function f(z) = 1/(z^2 + 4) at the pole z = 2i is i/4."
+}

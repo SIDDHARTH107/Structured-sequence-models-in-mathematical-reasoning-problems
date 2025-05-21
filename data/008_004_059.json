@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Linear algebra",
+    "sub_topic": "Solving homogeneous systems of linear equations",
+    "message_1": "Solve the homogeneous system of linear equations:\n\nx + 2y - 3z = 0\n2x - 3y + 5z = 0\n3x - y + 2z = 0",
+    "message_2": "To solve the homogeneous system of linear equations, we can use the Gaussian elimination method to find the solutions. First, let's write the augmented matrix for the given system:\n\n```\n[ 1  2 -3 | 0 ]\n[ 2 -3  5 | 0 ]\n[ 3 -1  2 | 0 ]\n```\n\nNow, we'll perform row operations to get the matrix in row-echelon form:\n\n1. Subtract 2 times the first row from the second row, and subtract 3 times the first row from the third row:\n\n```\n[ 1  2 -3 | 0 ]\n[ 0 -7 11 | 0 ]\n[ 0 -7 11 | 0 ]\n```\n\n2. Divide the second row by -7:\n\n```\n[ 1  2 -3 | 0 ]\n[ 0  1 -11/7 | 0 ]\n[ 0 -7 11 | 0 ]\n```\n\n3. Add 7 times the second row to the third row:\n\n```\n[ 1  2 -3 | 0 ]\n[ 0  1 -11/7 | 0 ]\n[ 0  0  0 | 0 ]\n```\n\nNow, we have the matrix in row-echelon form. We can write the corresponding system of linear equations:\n\n```\nx + 2y - 3z = 0\ny - (11/7)z = 0\n```\n\nLet's express x and y in terms of z:\n\n```\nx = 3z - 2y\ny = (11/7)z\n```\n\nNow, let z = t (where t is a parameter). Then, we have:\n\n```\ny = (11/7)t\nx = 3t - 2((11/7)t)\nx = 3t - 22t/7\nx = (21t - 22t)/7\nx = -t/7\n```\n\nSo, the general solution of the homogeneous system of linear equations is:\n\n```\nx = -t/7\ny = (11/7)t\nz = t\n```\n\nwhere t is any real number."
+}

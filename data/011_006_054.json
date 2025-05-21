@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Generating functions",
+    "message_1": "Suppose you have 5 red balls, 4 blue balls, and 2 green balls. How many ways can you select 4 balls if at least 1 ball must be red?",
+    "message_2": "To solve this problem, we can use the principle of counting by complement. We will first find the total number of ways to select 4 balls without any restrictions and then subtract the number of ways to select 4 balls with no red balls.\n\nTotal number of balls = 5 red + 4 blue + 2 green = 11 balls\n\nTotal ways to select 4 balls without any restrictions (combination) = C(11, 4) = 11! / (4! * (11-4)!) = 330\n\nNow, let's find the number of ways to select 4 balls with no red balls. In this case, we only have 4 blue balls and 2 green balls to choose from.\n\nWays to select 4 balls with no red balls = C(6, 4) = 6! / (4! * (6-4)!) = 15\n\nNow, we subtract the number of ways to select 4 balls with no red balls from the total number of ways to select 4 balls without any restrictions.\n\nNumber of ways to select 4 balls with at least 1 red ball = 330 - 15 = 315\n\nSo, there are 315 ways to select 4 balls with at least 1 red ball."
+}

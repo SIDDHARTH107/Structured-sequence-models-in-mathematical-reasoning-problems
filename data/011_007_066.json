@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Recurrence relations",
+    "message_1": "A student wants to count the number of possible 4-digit passwords that can be created. Suppose that the first digit cannot be zero, and subsequent digits can be any digit from 0 to 9, and no digit can be repeated within the same password. \n\nHow many possible 4-digit passwords can be created under these conditions?",
+    "message_2": "To determine the number of possible 4-digit passwords, we can use the counting principle. For each position in the password, there are a certain number of choices available.\n\n1. For the first digit, there are 9 choices (1 to 9) since it cannot be 0.\n2. For the second digit, there are 9 choices remaining (0 and the 8 other digits not used in the first position).\n3. For the third digit, there are 8 choices remaining (the 10 digits minus the two already used).\n4. For the fourth digit, there are 7 choices remaining (the 10 digits minus the three already used).\n\nTo find the total number of possible passwords, multiply the number of choices for each position:\n\n9 (first digit) × 9 (second digit) × 8 (third digit) × 7 (fourth digit) = 4536\n\nSo, there are 4536 possible 4-digit passwords under these conditions."
+}

@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Multinomial coefficients",
+    "message_1": "In how many different ways can we divide a group of 10 students into three teams with 3, 4, and 3 members respectively?",
+    "message_2": "To divide a group of 10 students into three teams with 3, 4, and 3 members respectively, we can use the combination formula:\n\nC(n, k) = n! / (k!(n-k)!)\n\nFirst, we need to choose 3 students out of 10 for the first team:\n\nC(10, 3) = 10! / (3!(10-3)!) = 10! / (3!7!) = 120\n\nNext, we need to choose 4 students out of the remaining 7 for the second team:\n\nC(7, 4) = 7! / (4!(7-4)!) = 7! / (4!3!) = 35\n\nFinally, the last 3 students will form the third team, so there's only 1 way to choose them.\n\nNow, we multiply the number of ways to choose each team:\n\n120 * 35 * 1 = 4200\n\nSo, there are 4200 different ways to divide a group of 10 students into three teams with 3, 4, and 3 members respectively."
+}

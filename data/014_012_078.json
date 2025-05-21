@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "Vigenere cipher",
+    "message_1": "Suppose a message \"MATHEMATICS\" is encrypted using a Vigenere cipher with the keyword \"CODE\". What is the encrypted message?",
+    "message_2": "To encrypt the message \"MATHEMATICS\" using a Vigenere cipher with the keyword \"CODE\", we first need to repeat the keyword to match the length of the message:\n\nMATHEMATICS\nCODECODECOD\n\nNow, we use the Vigenere cipher table to find the encrypted letters. For example, for the first letter, we find the intersection of the row M and the column C, which is Q. We do this for each letter:\n\nM -> Q (row M, column C)\nA -> C (row A, column O)\nT -> Z (row T, column D)\nH -> G (row H, column E)\nE -> E (row E, column C)\nM -> Q (row M, column O)\nA -> C (row A, column D)\nT -> Z (row T, column E)\nI -> I (row I, column C)\nC -> O (row C, column O)\nS -> S (row S, column D)\n\nThe encrypted message is \"QCZGEQZCIOS\"."
+}

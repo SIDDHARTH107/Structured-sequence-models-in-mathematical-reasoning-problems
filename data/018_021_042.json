@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Set theory",
+    "sub_topic": "Prove that the symmetric difference of two sets is distributive over intersection.",
+    "message_1": "Let A = {1, 2, 3, 4, 5} and B = {3, 4, 5, 6, 7}. Using set theory, prove that (A △ B) ∩ B = (A ∩ B) △ (B ∩ A).",
+    "message_2": "To prove that (A △ B) ∩ B = (A ∩ B) △ (B ∩ A), we will first find the sets on both sides of the equation and then show that they are equal.\n\nRecall that the symmetric difference of two sets A and B, denoted by A △ B, is the set of elements which are in either of the sets but not in their intersection. Mathematically, A △ B = (A ∪ B) - (A ∩ B).\n\nLet's find (A △ B) and (A ∩ B):\n\nA △ B = (A ∪ B) - (A ∩ B) = ({1, 2, 3, 4, 5, 6, 7}) - ({3, 4, 5}) = {1, 2, 6, 7}\nA ∩ B = {3, 4, 5}\n\nNow, let's find (A △ B) ∩ B:\n\n(A △ B) ∩ B = {1, 2, 6, 7} ∩ {3, 4, 5, 6, 7} = {6, 7}\n\nNext, let's find (A ∩ B) △ (B ∩ A):\n\nSince (A ∩ B) = (B ∩ A) = {3, 4, 5}, we have:\n\n(A ∩ B) △ (B ∩ A) = ({3, 4, 5}) △ ({3, 4, 5}) = (A ∪ B) - (A ∩ B) = ({3, 4, 5}) - ({3, 4, 5}) = {}\n\nAs we can see, (A △ B) ∩ B ≠ (A ∩ B) △ (B ∩ A) since {6, 7} ≠ {}. Therefore, the given statement is not true."
+}

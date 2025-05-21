@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Probability",
+    "sub_topic": "Probability of a certain type of cyber attack occurring on a network",
+    "message_1": "What is the probability of a network being attacked by a ransomware virus, given that the network has 100 computers and typically, 5 out of every 100 computers in similar networks get breached by ransomware?",
+    "message_2": "The probability of a single computer being attacked by a ransomware virus is 5 out of 100, or 5/100, which simplifies to 1/20.\n\nTo find the probability of the entire network being attacked, we can calculate the probability of the network NOT being attacked and then subtract that from 1.\n\nThe probability of a single computer not being attacked is 1 - 1/20 = 19/20.\n\nFor the entire network of 100 computers to not be attacked, this probability must hold true for all 100 computers. So, the probability of the network not being attacked is (19/20)^100.\n\nNow, we can find the probability of the network being attacked by subtracting the probability of the network not being attacked from 1:\n\nProbability of network being attacked = 1 - (19/20)^100 ≈ 0.9941 or 99.41%.\n\nSo, the probability of the network being attacked by a ransomware virus is approximately 99.41%."
+}

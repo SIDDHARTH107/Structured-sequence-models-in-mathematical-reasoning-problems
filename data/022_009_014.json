@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Power series and their convergence",
+    "message_1": "Find the radius and interval of convergence of the power series:\n\n$$\\sum_{n=0}^\\infty \\frac{(x+3)^n}{2^{n+1}}$$",
+    "message_2": "To find the radius and interval of convergence of the power series, we can use the Ratio Test. The Ratio Test states that if the limit as n approaches infinity of the absolute value of the ratio of consecutive terms is less than 1, then the series converges. \n\nLet's apply the Ratio Test to the given power series:\n\n$$\\lim_{n\\to\\infty} \\left|\\frac{\\frac{(x+3)^{n+1}}{2^{n+2}}}{\\frac{(x+3)^n}{2^{n+1}}}\\right|$$\n\nSimplify the expression:\n\n$$\\lim_{n\\to\\infty} \\left|\\frac{(x+3)^{n+1}}{2^{n+2}} \\cdot \\frac{2^{n+1}}{(x+3)^n}\\right|$$\n\nCancel out the common terms:\n\n$$\\lim_{n\\to\\infty} \\left|\\frac{(x+3)}{2}\\right|$$\n\nSince the limit does not depend on n, we can remove the limit:\n\n$$\\left|\\frac{(x+3)}{2}\\right| < 1$$\n\nNow, we need to find the interval of convergence. To do this, we solve the inequality:\n\n$$-1 < \\frac{(x+3)}{2} < 1$$\n\nMultiply all parts of the inequality by 2:\n\n$$-2 < x+3 < 2$$\n\nSubtract 3 from all parts of the inequality:\n\n$$-5 < x < -1$$\n\nSo, the interval of convergence is $(-5, -1)$. The radius of convergence is half the length of the interval, which is:\n\n$$R = \\frac{-1 - (-5)}{2} = \\frac{4}{2} = 2$$\n\nTherefore, the radius of convergence is 2, and the interval of convergence is $(-5, -1)$."
+}

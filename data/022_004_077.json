@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Complex analysis",
+    "sub_topic": "Singularities of complex functions",
+    "message_1": "Determine the nature (removable, pole, essential) of the singularity at $z=0$ for the function $f(z) = \\frac{\\sin(z)}{z^3}$ in the complex plane.",
+    "message_2": "To determine the nature of the singularity at $z=0$ for the function $f(z) = \\frac{\\sin(z)}{z^3}$, we can use the following definitions:\n\n1. Removable singularity: If the function can be redefined at the singularity such that it becomes analytic, then the singularity is removable.\n2. Pole: If the function has a non-zero limit as $z$ approaches the singularity, then the singularity is a pole.\n3. Essential singularity: If the function has no limit as $z$ approaches the singularity, then the singularity is essential.\n\nFirst, let's check if the singularity is removable. We can use L'Hôpital's rule to find the limit as $z$ approaches $0$:\n\n$$\\lim_{z\\to0} \\frac{\\sin(z)}{z^3}$$\n\nApplying L'Hôpital's rule three times, we get:\n\n$$\\lim_{z\\to0} \\frac{\\cos(z)}{3z^2}$$\n\n$$\\lim_{z\\to0} \\frac{-\\sin(z)}{6z}$$\n\n$$\\lim_{z\\to0} \\frac{-\\cos(z)}{6}$$\n\nSince the limit exists and is equal to $-\\frac{1}{6}$, the singularity at $z=0$ is removable. However, we can also classify it as a pole of order 3, as the function can be written as:\n\n$$f(z) = \\frac{\\sin(z)}{z^3} = -\\frac{1}{6} \\cdot \\frac{1}{(z-0)^3}$$\n\nSo, the singularity at $z=0$ for the function $f(z) = \\frac{\\sin(z)}{z^3}$ is a pole of order 3."
+}

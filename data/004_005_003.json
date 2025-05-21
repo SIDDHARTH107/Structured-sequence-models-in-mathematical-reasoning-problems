@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Calculus",
+    "sub_topic": "Solving differential equations",
+    "message_1": "Find the general solution of the differential equation: \n\ny' + 3y = 0 \n\ngiven that y(0) = 4.",
+    "message_2": "To find the general solution of the given first-order linear homogeneous differential equation, we first rewrite it in the standard form:\n\ndy/dt + 3y = 0\n\nNow, we find the integrating factor, which is given by the exponential of the integral of the coefficient of y:\n\nIntegrating factor = e^(∫3 dt) = e^(3t)\n\nNext, we multiply the entire differential equation by the integrating factor:\n\ne^(3t) dy/dt + 3e^(3t) y = 0\n\nNow, the left-hand side of the equation is the derivative of the product of y and the integrating factor:\n\nd/dt (y e^(3t)) = 0\n\nIntegrate both sides with respect to t:\n\n∫ d(y e^(3t)) = ∫ 0 dt\n\ny e^(3t) = C (where C is the constant of integration)\n\nNow, we solve for y:\n\ny = C e^(-3t)\n\nTo find the particular solution that satisfies the initial condition y(0) = 4, we plug in t = 0 and y = 4:\n\n4 = C e^(-3*0)\n\n4 = C e^0\n\n4 = C\n\nSo, the particular solution is:\n\ny(t) = 4 e^(-3t)"
+}

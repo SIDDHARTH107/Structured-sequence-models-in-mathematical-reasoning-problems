@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Block designs",
+    "message_1": "A school is conducting a science fair, and there are 12 science projects to be presented. Each project must be presented to exactly 4 different judges. How many judges are needed for the science fair?",
+    "message_2": "Let's use the concept of combinatorics to solve this problem. We need to find the number of judges (n) such that the combination of n judges taken 4 at a time is equal to the number of presentations (12).\n\nIn other words, we need to find n such that:\n\nC(n, 4) = 12\n\nThe formula for combinations is:\n\nC(n, r) = n! / (r! * (n-r)!)\n\nWhere n! is the factorial of n, which is the product of all positive integers up to n.\n\nSo, we have:\n\nn! / (4! * (n-4)!) = 12\n\nWe can start by trying different values of n and calculating the combinations until we find the one that gives us 12 presentations.\n\nFor n = 4:\n\nC(4, 4) = 4! / (4! * (4-4)!) = 1 (Not enough presentations)\n\nFor n = 5:\n\nC(5, 4) = 5! / (4! * (5-4)!) = 5 (Still not enough presentations)\n\nFor n = 6:\n\nC(6, 4) = 6! / (4! * (6-4)!) = 15 (Too many presentations)\n\nSince the number of presentations is increasing as we increase n, we can conclude that there is no exact number of judges that will result in exactly 12 presentations."
+}

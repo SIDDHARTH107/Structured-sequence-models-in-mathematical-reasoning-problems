@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Generating functions",
+    "message_1": "In a basket, there are 5 identical chocolates of different flavors: milk chocolate, dark chocolate, white chocolate, hazelnut chocolate, and caramel chocolate. A person can select at most 3 chocolates from the basket. In how many ways can they select the chocolates if they don't want to select the dark chocolate?",
+    "message_2": "Since the person doesn't want to select the dark chocolate, we can consider that there are only 4 types of chocolates available: milk chocolate, white chocolate, hazelnut chocolate, and caramel chocolate.\n\nThe person can select at most 3 chocolates. Let's consider the different cases:\n\n1. Selecting 1 chocolate: There are 4 ways to do this, as there are 4 types of chocolates to choose from.\n\n2. Selecting 2 chocolates: There are 4 types of chocolates, and the person can choose 2 of them. This can be done in C(4,2) ways, where C(n,k) is the number of combinations of choosing k items from a set of n items. C(4,2) = 4! / (2! * (4-2)!) = 6 ways.\n\n3. Selecting 3 chocolates: There are 4 types of chocolates, and the person can choose 3 of them. This can be done in C(4,3) ways. C(4,3) = 4! / (3! * (4-3)!) = 4 ways.\n\nSo, the total number of ways to select the chocolates without choosing the dark chocolate is the sum of the ways in each case: 4 (selecting 1 chocolate) + 6 (selecting 2 chocolates) + 4 (selecting 3 chocolates) = 14 ways."
+}

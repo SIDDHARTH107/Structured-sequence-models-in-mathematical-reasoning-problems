@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Combinatorial designs",
+    "message_1": "A design consists of a set of 7 points, each of which is incident with exactly 3 lines. How many total lines are there in the design?",
+    "message_2": "Let's use the principle of double counting. We count the number of pairs (point, line) such that the point is incident with the line. Since there are 7 points and each point is incident with 3 lines, there are 7 * 3 = 21 pairs.\n\nNow, let's count the number of pairs (point, line) in a different way. Let L be the total number of lines in the design. Each line is incident with at least 2 points (otherwise, it wouldn't be a line). So, there are at least 2 * L pairs (point, line).\n\nSince we counted the same pairs (point, line) in two different ways, we have 2 * L = 21. Therefore, L = 21 / 2 = 10.5. However, the number of lines must be an integer, so there is no such design with 7 points and 3 lines incident to each point."
+}

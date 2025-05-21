@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Combinatorics",
+    "sub_topic": "Partition theory",
+    "message_1": "A person wants to distribute 18 identical pens among four friends. Each friend should receive at least two pens. In how many ways can the pens be distributed?",
+    "message_2": "Since each of the four friends must receive at least two pens, we can first give two pens to each friend. This leaves 18 - 2*4 = 10 pens to distribute.\n\nNow, we can use the \"stars and bars\" method to find the number of ways to distribute the remaining 10 pens among the four friends. We will represent the pens as stars (*) and use bars (|) to separate the pens given to each friend.\n\nFor example, a distribution like this: ***|**|****|* means that the first friend gets 5 pens, the second friend gets 4 pens, the third friend gets 6 pens, and the fourth friend gets 3 pens.\n\nThere are 3 bars needed to separate the pens for the 4 friends. To distribute the remaining 10 pens, we need to place these 3 bars among the 10+3=13 positions. This can be done in C(13,3) ways, where C(n,k) is the number of combinations of n items taken k at a time.\n\nC(13,3) = 13! / (3! * (13-3)!) = 13! / (3! * 10!) = (13 * 12 * 11) / (3 * 2 * 1) = 286\n\nSo there are 286 ways to distribute the 18 identical pens among the four friends, with each friend receiving at least two pens."
+}

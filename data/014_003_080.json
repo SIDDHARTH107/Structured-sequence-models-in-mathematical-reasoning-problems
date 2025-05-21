@@ -1,0 +1,7 @@
+{
+    "role_1": "Mathematician_RoleType.ASSISTANT",
+    "topic;": "Cryptography",
+    "sub_topic": "ElGamal encryption and decryption",
+    "message_1": "A math student needs to encrypt a message using the ElGamal encryption scheme. The chosen prime number is 17, the primitive root is 3, and the public key is (5, 3^5 mod 17). The message to be encrypted is 14. What is the ciphertext?",
+    "message_2": "To encrypt the message using the ElGamal encryption scheme, we need to follow these steps:\n\n1. Choose a random number k (1 < k < p-1). Let's choose k = 4 for this example.\n2. Calculate the first part of the ciphertext, C1 = g^k mod p. In this case, g = 3, k = 4, and p = 17.\n3. Calculate the second part of the ciphertext, C2 = (M * (y^k mod p)) mod p. In this case, M = 14, y = 3^5 mod 17, k = 4, and p = 17.\n\nNow let's calculate the ciphertext:\n\nC1 = 3^4 mod 17 = 81 mod 17 = 13\n\ny = 3^5 mod 17 = 243 mod 17 = 6\n\nC2 = (14 * (6^4 mod 17)) mod 17 = (14 * (1296 mod 17)) mod 17 = (14 * 4) mod 17 = 56 mod 17 = 5\n\nSo the ciphertext is (C1, C2) = (13, 5)."
+}
